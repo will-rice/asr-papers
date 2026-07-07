@@ -471,6 +471,63 @@ def test_process_paper_does_not_rewrite_when_tier_unchanged(monkeypatch, tmp_pat
     assert existing.read_text() != "---\nsource: latex\n---\n\nexisting body\n"
 
 
+def test_process_paper_caps_runaway_body_to_metadata_only(monkeypatch, tmp_path):
+    """A conversion that balloons past MAX_BODY_BYTES falls back to a metadata stub."""
+    from scripts import convert_papers
+    from scripts._convert import html_to_md, sources
+
+    csv_path = tmp_path / "papers.csv"
+    _write_csv(
+        csv_path,
+        [
+            {
+                "arxiv_id": "2401.01207",
+                "title": "Paper",
+                "authors": "A",
+                "submitted": "2024-01-02",
+                "categories": "cs.CV",
+                "url": "https://arxiv.org/abs/2401.01207",
+                "abstract": "the abstract",
+            }
+        ],
+    )
+    monkeypatch.setattr(convert_papers, "PAPERS_CSV", csv_path)
+    monkeypatch.setattr(convert_papers, "PAPERS_DIR", tmp_path / "papers")
+    monkeypatch.setattr(convert_papers, "CACHE_DIR", tmp_path / ".cache")
+    monkeypatch.setattr(
+        sources,
+        "fetch_arxiv_html",
+        lambda _arxiv_id: sources.HtmlPage(html="<html><body>x</body></html>", url="…"),
+    )
+
+    # A body just over the cap, shaped like a real paper so looks_like_paper passes.
+    runaway = "## Intro\n\n## Method\n\n## Results\n\n" + ("x " * convert_papers.MAX_BODY_BYTES)
+    monkeypatch.setattr(
+        html_to_md,
+        "convert_html_to_md",
+        lambda _html, base_url: html_to_md.HtmlConversionResult(
+            body=runaway, exit_code=0, stderr=""
+        ),
+    )
+
+    row = convert_papers.PaperRow(
+        arxiv_id="2401.01207",
+        title="Paper",
+        authors=["A"],
+        submitted="2024-01-02",
+        categories=["cs.CV"],
+        url="https://arxiv.org/abs/2401.01207",
+        abstract="the abstract",
+    )
+    convert_papers._process_paper(row)
+
+    out_path = tmp_path / "papers" / "2024" / "2401.01207.md"
+    assert out_path.stat().st_size < convert_papers.MAX_BODY_BYTES
+    out = out_path.read_text(encoding="utf-8")
+    assert "source: metadata-only" in out
+    assert "the abstract" in out
+
+
 def test_process_paper_writes_stub_when_eprint_unavailable(monkeypatch, tmp_path):
     """A 404 on the e-print (withdrawn/no-source papers) must yield a metadata stub."""
     import urllib.error

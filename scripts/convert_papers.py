@@ -33,6 +33,12 @@ LLM_REMEDIATION_MAX_PAPERS = int(os.environ.get("LLM_REMEDIATION_MAX_PAPERS", "5
 LLM_REMEDIATION_DRY_RUN = os.environ.get("LLM_REMEDIATION_DRY_RUN", "false").lower() == "true"
 MAX_WORKERS = int(os.environ.get("CONVERT_MAX_WORKERS", "8"))
 
+# A converted body larger than this is a broken render (e.g. a LaTeX source that
+# \input a whole anthology, dumping 100k+ bibliography entries). No real paper's
+# markdown approaches this, so we discard the body and keep a metadata-only stub
+# rather than commit megabytes of garbage.
+MAX_BODY_BYTES = 2 * 1024 * 1024
+
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 
 
@@ -282,6 +288,23 @@ def _process_paper(row: PaperRow, force: bool = False) -> None:
 
         head = _PDF_REF_HEADING_RE.split(body, maxsplit=1)[0].rstrip()
         body = head + "\n\n" + citations.render_references_section(refs)
+
+    # A runaway conversion (e.g. a LaTeX source that \input an entire anthology,
+    # rendering 100k+ bibliography entries) is worse than no body. Whatever the
+    # cause, an oversized body can never be written — fall back to a metadata-only
+    # stub so the corpus stays sane.
+    if len(body.encode("utf-8")) > MAX_BODY_BYTES:
+        logging.warning(
+            "%s: %s conversion produced %d bytes (> %d cap); falling back to metadata-only.",
+            row.arxiv_id,
+            source_label,
+            len(body.encode("utf-8")),
+            MAX_BODY_BYTES,
+        )
+        body = ""
+        converter = "none"
+        source_label = "metadata-only"
+        refs = []
 
     record = output.PaperRecord(
         arxiv_id=row.arxiv_id,
