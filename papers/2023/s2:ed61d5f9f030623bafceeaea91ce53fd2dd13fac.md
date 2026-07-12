@@ -1,28 +1,29 @@
 ---
 arxiv_id: s2:ed61d5f9f030623bafceeaea91ce53fd2dd13fac
-title: Model-Internal Slot-triggered Biasing for Domain Expansion in Neural Transducer
+title:
+  Model-Internal Slot-triggered Biasing for Domain Expansion in Neural Transducer
   ASR Models
 authors:
-- Yiting Lu
-- Philip Harding
-- Kanthashree Mysore Sathyendra
-- Sibo Tong
-- Xuandi Fu
-- Jing Liu
-- Feng-Ju Chang
-- Simon Wiesler
-- Grant P. Strimel
-submitted: '2023-08-20'
+  - Yiting Lu
+  - Philip Harding
+  - Kanthashree Mysore Sathyendra
+  - Sibo Tong
+  - Xuandi Fu
+  - Jing Liu
+  - Feng-Ju Chang
+  - Simon Wiesler
+  - Grant P. Strimel
+submitted: "2023-08-20"
 categories: []
 arxiv_url: https://www.semanticscholar.org/paper/ed61d5f9f030623bafceeaea91ce53fd2dd13fac
-github_repo: ''
+github_repo: ""
 source: metadata-only
 converter: none
 llm_remediated: false
 citations_resolved: 0/0
-citations_resolved_at: '2026-07-07T19:08:27+00:00'
+citations_resolved_at: "2026-07-07T19:08:27+00:00"
 references_parsed: 0
-arxiv_version: ''
+arxiv_version: ""
 ---
 
 ## Abstract
