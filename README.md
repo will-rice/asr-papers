@@ -6,36 +6,39 @@ Beyond a reading list, this repo is built to be **browsed by LLMs**. Every paper
 
 ## How it works
 
-* Papers are sourced from [arXiv](https://arxiv.org/) and [Semantic Scholar](https://www.semanticscholar.org/) via their public APIs.
-* A [GitHub Actions workflow](.github/workflows/fetch_papers.yml) runs **daily at 06:00 UTC** to pull papers submitted in the previous 8 days.
-* Results are filtered with a negative-keyword blacklist plus an ML signal check and a positive ASR relevance gate.
-* The full paper list is stored in [`papers.csv`](papers.csv) and the table below is regenerated automatically on every update.
+- Papers are sourced from [arXiv](https://arxiv.org/) and [Semantic Scholar](https://www.semanticscholar.org/) via their public APIs.
+- A [GitHub Actions workflow](.github/workflows/fetch_papers.yml) runs **daily at 06:00 UTC** to pull papers submitted in the previous 8 days.
+- Results are filtered with a negative-keyword blacklist plus an ML signal check and a positive ASR relevance gate.
+- The full paper list is stored in [`papers.csv`](papers.csv) and the table below is regenerated automatically on every update.
 
 ## Markdown corpus
 
 Each paper is also available as LLM-friendly markdown under `papers/<year>/<arxiv_id>.md`. The conversion pipeline:
 
-* Converts arXiv's HTML rendering (`arxiv.org/html/<id>`, falling back to [ar5iv](https://ar5iv.labs.arxiv.org) for pre-2024 papers) — the article is extracted from the page, figures become absolute-URL images, and equations become GitHub-native ` ```math ` blocks.
-* Papers without a usable HTML rendering fall back to LaTeX source (`arxiv.org/e-print/<id>`) via [pandoc](https://pandoc.org), then PDF via [marker](https://github.com/datalab-to/marker).
-* Auto-flagged or manually-listed (`papers/.fixme.txt`) low-quality outputs go through a Claude Sonnet 4.6 remediation pass.
-* Citations are rewritten as clickable links — local sibling MD when the cited paper is in this corpus, external arXiv/DOI URLs otherwise.
-* When the paper's [Hugging Face page](https://huggingface.co/papers) links a GitHub repo, it is recorded as `github_repo` in the frontmatter.
+- Converts arXiv's HTML rendering (`arxiv.org/html/<id>`, falling back to [ar5iv](https://ar5iv.labs.arxiv.org) for pre-2024 papers) — the article is extracted from the page, figures become absolute-URL images, and equations become GitHub-native ` ```math ` blocks.
+- Papers without a usable HTML rendering fall back to LaTeX source (`arxiv.org/e-print/<id>`) via [pandoc](https://pandoc.org), then PDF via [marker](https://github.com/datalab-to/marker).
+- Auto-flagged or manually-listed (`papers/.fixme.txt`) low-quality outputs go through a Claude Sonnet 4.6 remediation pass.
+- Citations are rewritten as clickable links — local sibling MD when the cited paper is in this corpus, external arXiv/DOI URLs otherwise.
+- When the paper's [Hugging Face page](https://huggingface.co/papers) links a GitHub repo, it is recorded as `github_repo` in the frontmatter.
 
 Browse the corpus at [papers/README.md](papers/README.md). Each paper file has YAML frontmatter with metadata (`github_repo`, …) + diagnostics (`source`, `converter`, `llm_remediated`, `citations_resolved`).
 
 ## Running locally
 
-You'll need pandoc:
+You'll need pandoc and Node (for Prettier, which normalizes the generated markdown):
 
 ```bash
 # macOS
-brew install pandoc
+brew install pandoc node
 
 # Ubuntu
-sudo apt-get install pandoc
+sudo apt-get install pandoc nodejs npm
 ```
 
 ```bash
+# Install the pinned Prettier used by the pipeline, CI, and pre-commit
+npm ci
+
 # Incremental fetch (last 8 days)
 uv run python scripts/fetch_papers.py
 
@@ -47,22 +50,24 @@ uv run python scripts/convert_papers.py --regenerate-all
 uv run python scripts/fetch_papers.py --days 30
 ```
 
-The fetch script uses only the Python standard library; the conversion pipeline adds `marker-pdf`, `anthropic`, `pyyaml`, and the `pandoc` system binary (managed via `uv` and your package manager).
+The fetch script uses only the Python standard library (plus a Prettier pass on the README); the conversion pipeline adds `marker-pdf`, `anthropic`, `pyyaml`, and the `pandoc` system binary (managed via `uv` and your package manager). Both scripts format the markdown they generate with the repo-pinned [Prettier](https://prettier.io/) (`npm ci`), and a [Format workflow](.github/workflows/format.yml) enforces it on every PR.
 
 ## Triggering a manual update
 
 Open the **Actions** tab → **Fetch ASR Papers** → **Run workflow**.
-Select *full = true* to back-fill from 2015 and rebuild all paper markdown, or leave it as *false* for an incremental update.
+Select _full = true_ to back-fill from 2015 and rebuild all paper markdown, or leave it as _false_ for an incremental update.
 
 ## Papers
 
 <!-- PAPERS_TABLE_START -->
+
 _Showing the last 30 days (77 of 5403 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
 
 <details open>
 <summary><h3>2026</h3></summary>
 
 #### [Progressive Refinement: An Iterative Pseudo-Labeling Approach for Mandarin-English Code-Switching ASR](https://arxiv.org/abs/2607.05224) · [📄 Read](papers/2026/2607.05224.md)
+
 **Qu Yang, Cakra Wardhana, Tim Ng** · 2026-07-06
 
 <details>
@@ -73,6 +78,7 @@ Code-switching (CS), alternating languages within the same utterance, poses sign
 </details>
 
 #### [Unified Audio Intelligence Without Regressing on Text Intelligence](https://arxiv.org/abs/2607.05196) · [📄 Read](papers/2026/2607.05196.md)
+
 **Zhifeng Kong, Sang-gil Lee, Jaehyeon Kim, Boxin Wang et al.** · 2026-07-06
 
 <details>
@@ -83,6 +89,7 @@ Audio intelligence involves understanding, reasoning about, and generating both 
 </details>
 
 #### [Listen, Think, Transcribe: Continuous Latent Test-Time Scaling for ASR](https://arxiv.org/abs/2607.05051) · [📄 Read](papers/2026/2607.05051.md)
+
 **Ho Lam Chung, Yiming Chen, Dau-Cheng Lyu, Hsiao-Tsung Hung et al.** · 2026-07-06
 
 <details>
@@ -93,6 +100,7 @@ End-to-end ASR models transcribe in a single pass, leaving no room for the decod
 </details>
 
 #### [QuaSR: Quality-Aware Sample Reweighting for Pacific Indigenous Speech Recognition](https://arxiv.org/abs/2607.03658) · [📄 Read](papers/2026/2607.03658.md)
+
 **Yishun Li, Yang Xiao, Gongping Huang, Eun-Jung Holden et al.** · 2026-07-04
 
 <details>
@@ -103,6 +111,7 @@ Training automatic speech recognition (ASR) models for low-resource languages is
 </details>
 
 #### [TokAN: Accent Normalization Using Self-Supervised Speech Tokens](https://arxiv.org/abs/2607.03928) · [📄 Read](papers/2026/2607.03928.md)
+
 **Qibing Bai, Shuai Wang, Yuhan Du, Bohan Li et al.** · 2026-07-04
 
 <details>
@@ -113,6 +122,7 @@ Accent normalization (AN) seeks to convert non-native (L2) accented speech into 
 </details>
 
 #### [S-DiverSe: Spanish Diverse Speech](https://arxiv.org/abs/2607.03207) · [📄 Read](papers/2026/2607.03207.md)
+
 **Fernando López, Fernando Ibañez, Ana Martínez, Iván Alonso et al.** · 2026-07-03
 
 <details>
@@ -123,6 +133,7 @@ Automatic speech recognition (ASR) has advanced remarkably for standard speech, 
 </details>
 
 #### [Jointly Improving Dialect Identification and ASR in Indian Languages using Multimodal Feature Fusion](https://arxiv.org/abs/2607.02862) · [📄 Read](papers/2026/2607.02862.md)
+
 **Saurabh Kumar, Amartyaveer, Prasanta Kumar Ghosh** · 2026-07-03
 
 <details>
@@ -133,6 +144,7 @@ Automatic Speech Recognition (ASR) and Dialect Identification (DID) are crucial 
 </details>
 
 #### [Spatial Speech Perception Systems: A Survey of Sound Source Localization, Directional Enhancement, and Speech Recognition](https://arxiv.org/abs/2607.02296) · [📄 Read](papers/2026/2607.02296.md)
+
 **Pengyuan Shao, Dimitrios Kanoulas** · 2026-07-02
 
 <details>
@@ -143,6 +155,7 @@ Robust speech understanding in real-world acoustic environments remains a fundam
 </details>
 
 #### [Rethinking Speech-LLM Integration for ASR: Effective Joint Speech-Text Training by Interleaving](https://arxiv.org/abs/2607.01733) · [📄 Read](papers/2026/2607.01733.md)
+
 **Ruchao Fan, Yiming Wang, Rui Zhao, Liliang Ren et al.** · 2026-07-02
 
 <details>
@@ -153,6 +166,7 @@ Speech-LLM integration has shown promising results by leveraging extensive textu
 </details>
 
 #### [H-SAGE: Holistic Speaker-Aware Guided Experts for MoE-based Multi-Talker ASR](https://arxiv.org/abs/2607.01566) · [📄 Read](papers/2026/2607.01566.md)
+
 **Yujie Guo, Jiaming Zhou, Yuhang Jia, Yang chen et al.** · 2026-07-02
 
 <details>
@@ -163,6 +177,7 @@ Multi-talker Automatic Speech Recognition (MTASR) faces significant challenges i
 </details>
 
 #### [From Technical Metrics to User Perception: A User Study of a Multimodal Human-Robot Interaction System for Object Detection and Grasping](https://arxiv.org/abs/2607.00530) · [📄 Read](papers/2026/2607.00530.md)
+
 **Jian Song, Tian Zi, Shen Guanting** · 2026-07-01
 
 <details>
@@ -173,6 +188,7 @@ Improvements in the technical performance of human--robot interaction (HRI) syst
 </details>
 
 #### [Adapting Foundation ASR Models to Dysarthric Speech: A Case Study](https://arxiv.org/abs/2606.31722) · [📄 Read](papers/2026/2606.31722.md)
+
 **Christian Huber, Laura Kernahan, Alexander Waibel** · 2026-06-30
 
 <details>
@@ -183,6 +199,7 @@ Automatic speech recognition (ASR) systems often perform poorly in dysarthric sp
 </details>
 
 #### [Building an ASR Solution for Training and Assessing Children's Reading](https://arxiv.org/abs/2606.31508) · [📄 Read](papers/2026/2606.31508.md)
+
 **Yacouba Diarra, Nouhoum Souleymane Coulibaly, Mamadou Dembele, Aymane Dembele et al.** · 2026-06-30
 
 <details>
@@ -193,6 +210,7 @@ Automatic speech recognition for children's reading remains underdeveloped for m
 </details>
 
 #### [What Counts as an Error? Dual-Reference Benchmarking for Atypical ASR](https://arxiv.org/abs/2606.31112) · [📄 Read](papers/2026/2606.31112.md)
+
 **Hawau Olamide Toyin, Srinivasan Umesh, Hanan Aldarmaki** · 2026-06-30
 
 <details>
@@ -203,6 +221,7 @@ ASR systems have been often reported to underperform on atypical speech. An ofte
 </details>
 
 #### [LLM-Powered Interactive Robotic Action Synthesis from Multimodal Speech, Gestures, and Music](https://arxiv.org/abs/2606.31158) · [📄 Read](papers/2026/2606.31158.md)
+
 **Snehasis Banerjee, Ranjan Dasgupta** · 2026-06-30
 
 <details>
@@ -213,6 +232,7 @@ The quest for intuitive and natural human-robot interaction (HRI) remains a sign
 </details>
 
 #### [Improving multichannel speech enhancement through accurate room-acoustic simulations](https://arxiv.org/abs/2606.31552) · [📄 Read](papers/2026/2606.31552.md)
+
 **Georg Götz, Alessia Milo, Steinar Guðjónsson, Daniel Gert Nielsen et al.** · 2026-06-30
 
 <details>
@@ -223,6 +243,7 @@ Room-acoustic simulations are widely used to augment training data for deep-lear
 </details>
 
 #### [Beyond Clean Text: Evaluating Encoder and Decoder Robustness for Bangla Event Detection in Noisy Text](https://arxiv.org/abs/2606.30914) · [📄 Read](papers/2026/2606.30914.md)
+
 **Tanvir Ahmed Sijan, S. M Golam Rifat, Nayeemul Islam, Md. Musfique Anwar** · 2026-06-29
 
 <details>
@@ -233,6 +254,7 @@ Event detection (ED) systems are typically evaluated on clean, curated text, lea
 </details>
 
 #### [Comparing Human and Automatic Recognition of Dutch Dysarthric Continuous Speech: A Case Study](https://arxiv.org/abs/2606.30237) · [📄 Read](papers/2026/2606.30237.md)
+
 **Yuanyuan Zhang, Dimme de Groot, Jorge Martinez, Odette Scharenborg** · 2026-06-29
 
 <details>
@@ -243,6 +265,7 @@ In our goal to develop personalised dysarthric speech recognition (DSR) models, 
 </details>
 
 #### [Preserving Speech-to-Text LLM Capabilities in Speech-to-Speech Generation](https://arxiv.org/abs/2606.30944) · [📄 Read](papers/2026/2606.30944.md)
+
 **Yuxuan Hu, Heng Lu, Ruchao Fan, Yao Qian et al.** · 2026-06-29
 
 <details>
@@ -253,6 +276,7 @@ Strong speech-to-text (S2T) LLMs already provide robust speech perception and te
 </details>
 
 #### [VIB-AVSR: Variational Information Bottleneck for Noise-Robust LLM-Based Audio-Visual Speech Recognition](https://arxiv.org/abs/2606.29632) · [📄 Read](papers/2026/2606.29632.md)
+
 **Piyush Arora, Navlika Singh, Umberto Cappellazzo, Stavros Petridis et al.** · 2026-06-28
 
 <details>
@@ -263,6 +287,7 @@ Audio-Visual Speech Recognition takes two input modalities, acoustic and visual 
 </details>
 
 #### [CTC-Seeded Token Edit Refinement for Non-Autoregressive Speech Recognition](https://arxiv.org/abs/2606.28732) · [📄 Read](papers/2026/2606.28732.md)
+
 **Wanting Huang, Weiran Wang** · 2026-06-27
 
 <details>
@@ -273,6 +298,7 @@ Non-autoregressive automatic speech recognition (ASR) enables parallel decoding,
 </details>
 
 #### [Improving Large-Scale Weakly Supervised ASR by Filtering and Selection](https://arxiv.org/abs/2606.28728) · [📄 Read](papers/2026/2606.28728.md)
+
 **Kohei Matsuura, Masato Mimura** · 2026-06-27
 
 <details>
@@ -283,6 +309,7 @@ Leveraging large-scale weakly supervised datasets is crucial to train robust end
 </details>
 
 #### [SamaVaani: Auditing and Debiasing Multilingual Clinical ASR for Indian Languages](https://arxiv.org/abs/2606.26901) · [📄 Read](papers/2026/2606.26901.md)
+
 **Subham Kumar, Prakrithi Shivaprakash, Abhishek Manoharan, Astut Kurariya et al.** · 2026-06-25
 
 <details>
@@ -293,6 +320,7 @@ Automatic Speech Recognition (ASR) is increasingly used to document clinical enc
 </details>
 
 #### [Accessibility and Inclusivity in Broadcast Learning Environments: A Computational Perspective](https://www.semanticscholar.org/paper/5923b916604384779ca2d3a843f16f237342569d) · [📄 Read](papers/2026/s2:5923b916604384779ca2d3a843f16f237342569d.md)
+
 **ShuHui Liu, Muhantha Paramalingam** · 2026-06-25
 
 <details>
@@ -303,6 +331,7 @@ Broadcast learning environments—encompassing television-based education, live-
 </details>
 
 #### [Dziri Voicebot: An End-to-End Low-Resource Speech-to-Speech Conversational System for Algerian Dialect](https://arxiv.org/abs/2606.26003) · [📄 Read](papers/2026/2606.26003.md)
+
 **Dihia Lanasri, Rebeh Imane Ammar Aouchiche, Abdelkarim Remmide, Fairouz Taki et al.** · 2026-06-24
 
 <details>
@@ -313,6 +342,7 @@ Automatic speech and language technologies are still heavily biased toward high-
 </details>
 
 #### [Enhancing BEST-RQ Pseudo-Label Quality through Online Refinement for Automatic Speech Recognition](https://arxiv.org/abs/2606.30671) · [📄 Read](papers/2026/2606.30671.md)
+
 **Jingjing Xu, Zijian Yang, Mohammad Zeineldeen, Eugen Beck et al.** · 2026-06-24
 
 <details>
@@ -323,6 +353,7 @@ BEST-RQ is a simple and effective self-supervised training method for speech rep
 </details>
 
 #### [Does Translation-Enhanced Speech Encoder Pre-training Affect Speech LLMs?](https://arxiv.org/abs/2606.25444) · [📄 Read](papers/2026/2606.25444.md)
+
 **Tomoya Mizumoto, Yusuke Fujita** · 2026-06-24
 
 <details>
@@ -333,6 +364,7 @@ Connecting a pre-trained speech encoder to a Large Language Model (LLM) is the s
 </details>
 
 #### [Data Scale, Not Latency, Shapes Cross-Lingual Encoder Transfer in Streaming ASR](https://arxiv.org/abs/2606.24169) · [📄 Read](papers/2026/2606.24169.md)
+
 **Nenad Banfic** · 2026-06-23
 
 <details>
@@ -343,6 +375,7 @@ Adapting a streaming speech recognition model to a new language requires choosin
 </details>
 
 #### [Autoencoder based optimized SSL representations: Complexity Minimization and improved Dysarthric ASR](https://arxiv.org/abs/2606.24088) · [📄 Read](papers/2026/2606.24088.md)
+
 **Paban Sapkota, Hemant Kumar Kathania, Mikko Kurimo, Shrikanth Narayanan et al.** · 2026-06-23
 
 <details>
@@ -353,6 +386,7 @@ Self-supervised learning (SSL) models extract rich speech representations but of
 </details>
 
 #### [Audio--Image Alignment as a Continued-Pretraining Stage Improves Low-Resource ASR](https://arxiv.org/abs/2606.24080) · [📄 Read](papers/2026/2606.24080.md)
+
 **Sujith Pulikodan, Nihar Desai, Prasanta Kumar Ghosh** · 2026-06-23
 
 <details>
@@ -363,6 +397,7 @@ Thousands of languages are spoken worldwide, yet many remain under-resourced for
 </details>
 
 #### [Progressive Alignment Objectives for Aligner-Encoder based ASR](https://arxiv.org/abs/2606.24147) · [📄 Read](papers/2026/2606.24147.md)
+
 **Jaeyoung Lee, Masato Mimura, Takafumi Moriya** · 2026-06-23
 
 <details>
@@ -373,6 +408,7 @@ Aligner-Encoders are recently proposed seq2seq end-to-end ASR models that replac
 </details>
 
 #### [Wan-Streamer v0.1: End-to-end Real-time Interactive Foundation Models](https://arxiv.org/abs/2606.25041) · [📄 Read](papers/2026/2606.25041.md)
+
 **Lianghua Huang, Zhigang Wu, Wei Wang, Yupeng Shi et al.** · 2026-06-23
 
 <details>
@@ -383,6 +419,7 @@ We present Wan-Streamer, a native-streaming, end-to-end interactive foundation m
 </details>
 
 #### [Layer-wise Probing of wav2vec 2.0 and Whisper for Consonant Cluster Reduction in African American English](https://arxiv.org/abs/2606.23948) · [📄 Read](papers/2026/2606.23948.md)
+
 **Hamid Mojarad, Kevin Tang** · 2026-06-22
 
 <details>
@@ -393,6 +430,7 @@ Self-supervised and supervised speech models are increasingly used to investigat
 </details>
 
 #### [HALAS: A Human-Annotated Dataset of Hallucinations of Modern ASR Systems](https://arxiv.org/abs/2606.23048) · [📄 Read](papers/2026/2606.23048.md)
+
 **Mateusz Barański, Jan Jasiński, Julitta Bartolewska, Marcin Witkowski et al.** · 2026-06-22
 
 <details>
@@ -403,6 +441,7 @@ End-to-end Automatic Speech Recognition (ASR) systems hallucinate on natural spe
 </details>
 
 #### [From Text Metrics to Model Internals: A Study of Whisper ASR Hallucination Detection](https://arxiv.org/abs/2606.23060) · [📄 Read](papers/2026/2606.23060.md)
+
 **Jan Jasiński, M. Bara'nski, Julitta Bartolewska, Marcin Witkowski et al.** · 2026-06-22
 
 <details>
@@ -413,6 +452,7 @@ Hallucinations of ASR models - fluent transcriptions with no basis in audio - de
 </details>
 
 #### [From Speech to Text Corpora: Evaluating ASR-Based Data Acquisition for Low-Resource Fongbe and Hausa](https://arxiv.org/abs/2606.22274) · [📄 Read](papers/2026/2606.22274.md)
+
 **Mahounan Pericles Adjovi, Victor Olufemi, Roald Eiselen, Prasenjit Mitra** · 2026-06-20
 
 <details>
@@ -423,6 +463,7 @@ Low-resource African languages lack text corpora needed for language model train
 </details>
 
 #### [Adding Robust Code-Switching Capabilities to High Performance Multilingual ASR](https://arxiv.org/abs/2606.21990) · [📄 Read](papers/2026/2606.21990.md)
+
 **Enes Yavuz Ugan, Alexander Waibel** · 2026-06-20
 
 <details>
@@ -433,6 +474,7 @@ Code-switching (CSW) remains challenging for large multi-lingual ASR systems in 
 </details>
 
 #### [Error-Aware TF-IDF Retrieval-Augmented Generation for ASR Error Correction](https://arxiv.org/abs/2606.24915) · [📄 Read](papers/2026/2606.24915.md)
+
 **Mohammad Aref Jafari-Raddani** · 2026-06-19
 
 <details>
@@ -443,6 +485,7 @@ End-to-end automatic speech recognition systems frequently hallucinate rare enti
 </details>
 
 #### [DisSpeech: Low-Resource Controllable Mandarin Stuttered Speech Synthesis for ASR Augmentation](https://arxiv.org/abs/2606.21457) · [📄 Read](papers/2026/2606.21457.md)
+
 **Yao Lu** · 2026-06-19
 
 <details>
@@ -453,6 +496,7 @@ Stuttered speech recognition remains challenging, with disfluencies such as repe
 </details>
 
 #### [Vaani Benchmark V1.0: An Inclusive Multimodal Benchmark Dataset for Hindi](https://arxiv.org/abs/2606.21408) · [📄 Read](papers/2026/2606.21408.md)
+
 **Sujith Pulikodan, Agneedh Basu, Saurabh Kumar, Pranav Bhat et al.** · 2026-06-19
 
 <details>
@@ -463,6 +507,7 @@ Benchmarking is critical for the systematic evaluation and comparison of automat
 </details>
 
 #### [Online Predictive Coding for Dual-Mode Self-Supervised Speech Model](https://arxiv.org/abs/2606.21268) · [📄 Read](papers/2026/2606.21268.md)
+
 **Keita Goto, Takashi Maekaku, Jin Sakuma, Jinchuan Tian et al.** · 2026-06-19
 
 <details>
@@ -473,6 +518,7 @@ Dual-mode self-supervised speech models are pre-trained to handle streaming and 
 </details>
 
 #### [OpenWER: Improving Cross-Lingual ASR Evaluation and Enabling Token-Based Accuracy Metrics](https://arxiv.org/abs/2606.21237) · [📄 Read](papers/2026/2606.21237.md)
+
 **Korbinian Kuhn, Gottfried Zimmermann** · 2026-06-19
 
 <details>
@@ -483,6 +529,7 @@ Advances in deep learning and end-to-end Automatic Speech Recognition (ASR) have
 </details>
 
 #### [ReNikud: Audio-Supervised Hebrew Grapheme-to-Phoneme Conversion](https://arxiv.org/abs/2606.20179) · [📄 Read](papers/2026/2606.20179.md)
+
 **Maxim Melichov, Yakov Kolani, Morris Alper** · 2026-06-18
 
 <details>
@@ -493,6 +540,7 @@ Grapheme-to-phoneme (G2P) conversion for Modern Hebrew is needed for application
 </details>
 
 #### [Improving End-to-End Speech Recognition for Dysarthric Speech through In-Domain Data Augmentation](https://arxiv.org/abs/2606.19797) · [📄 Read](papers/2026/2606.19797.md)
+
 **Paban Sapkota, Hemant Kumar Kathania, Sudarsana Reddy Kadiri, Shrikanth Narayanan** · 2026-06-18
 
 <details>
@@ -503,6 +551,7 @@ Dysarthric speech recognition is crucial for facilitating effective communicatio
 </details>
 
 #### [Systematic Study of Dysarthric Speech Recognition: Spectral Features and Acoustic Models](https://arxiv.org/abs/2606.19793) · [📄 Read](papers/2026/2606.19793.md)
+
 **Paban Sapkota, Hemant Kumar Kathania, Mikko Kurimo, Sudarsana Reddy Kadiri et al.** · 2026-06-18
 
 <details>
@@ -513,6 +562,7 @@ The challenge associated with recognizing dysarthric speech primarily arises fro
 </details>
 
 #### [A Comparative Study of Pretrained Transformer Models for Quranic ASR: Speech Representations, Label Formats, and Dataset Composition](https://arxiv.org/abs/2606.19747) · [📄 Read](papers/2026/2606.19747.md)
+
 **Nabil Mosharraf Hossain, Riasat Islam, Unaizah Obaidellah** · 2026-06-18
 
 <details>
@@ -523,6 +573,7 @@ Quran Automatic Speech Recognition (ASR) aims to convert Quranic recitation into
 </details>
 
 #### [DASH: Dual-View Self-Distillation with Multi-Layer Hidden Representations for Robust Speech Recognition](https://arxiv.org/abs/2606.19203) · [📄 Read](papers/2026/2606.19203.md)
+
 **Jaeeun Baik, Ui-Hyeop Shin, Jiwoon Lee, Woocheol Jeong et al.** · 2026-06-17
 
 <details>
@@ -533,6 +584,7 @@ Automatic Speech Recognition (ASR) often degrades in real-world noisy environmen
 </details>
 
 #### [Responsible ASR: Overcoming Challenges of Foundational Models in Narrow-Band and Low-Resource Settings](https://arxiv.org/abs/2606.18659) · [📄 Read](papers/2026/2606.18659.md)
+
 **Tejas Godambe, Nutan Choudhary, Sanket Shah, Nagaraj Adiga et al.** · 2026-06-17
 
 <details>
@@ -543,6 +595,7 @@ Telephony conversations worldwide are conducted over narrow-band channels and ar
 </details>
 
 #### [Low-resource Language Discrimination Towards Chinese Dialects with Transfer learning and Data Augmentation](https://arxiv.org/abs/2606.18597) · [📄 Read](papers/2026/2606.18597.md)
+
 **Fan Xu, Yangjie Dan, Keyu Yan, Yong Ma et al.** · 2026-06-17
 
 <details>
@@ -553,6 +606,7 @@ Chinese dialects discrimination is a challenging natural language processing tas
 </details>
 
 #### [Speech-Driven End-to-End Language Discrimination towards Chinese Dialects](https://arxiv.org/abs/2606.18584) · [📄 Read](papers/2026/2606.18584.md)
+
 **Fan Xu, Jian Luo, MingWen Wang, GuoDong Zhou** · 2026-06-17
 
 <details>
@@ -563,6 +617,7 @@ Language discrimination among similar languages, varieties, and dialects is a ch
 </details>
 
 #### [ASTRA: A Scalable Next-Generation ATCO Training Simulator with Autonomous Simpilots](https://arxiv.org/abs/2606.18319) · [📄 Read](papers/2026/2606.18319.md)
+
 **Ethan Chew, Enjia Wu, Iruss Eng, Ian Lim et al.** · 2026-06-16
 
 <details>
@@ -573,6 +628,7 @@ Air Traffic Control Operators (ATCOs) are vital in ensuring the safe, orderly, a
 </details>
 
 #### [Improving low-resource ASR using bilingual fine-tuning with language identification: a cross-linguistic evaluation](https://arxiv.org/abs/2606.17820) · [📄 Read](papers/2026/2606.17820.md)
+
 **Reihaneh Amooie, Yun Hao, Wietse de Vries, Jelske Dijkstra et al.** · 2026-06-16
 
 <details>
@@ -583,6 +639,7 @@ This study explores how bilingual fine-tuning affects automatic speech recogniti
 </details>
 
 #### [An Analysis of the Effectiveness of Synthetic Speech Data for ASR Fine-tuning in Selected Indic Languages](https://arxiv.org/abs/2606.17662) · [📄 Read](papers/2026/2606.17662.md)
+
 **Sujith Pulikodan, Agneedh Basu, Pavan Kumar, Pranav Bhat et al.** · 2026-06-16
 
 <details>
@@ -593,6 +650,7 @@ Synthetic data has the potential to be a valuable resource for training machine 
 </details>
 
 #### [Montreal Forced Aligner and the state of speech-to-text alignment in 2026](https://arxiv.org/abs/2606.18466) · [📄 Read](papers/2026/2606.18466.md)
+
 **Michael McAuliffe, Kaylynn Gunter, Michael Wagner, Morgan Sonderegger** · 2026-06-16
 
 <details>
@@ -603,6 +661,7 @@ The Montreal Forced Aligner (MFA) was released in 2016 and has since become the 
 </details>
 
 #### [Are you speaking my languages? On spoken language adherence in multimodal LLMs](https://arxiv.org/abs/2606.17281) · [📄 Read](papers/2026/2606.17281.md)
+
 **Hyungwon Kim, Kandarp Joshi, Lillian Zhou, Pavel Golik et al.** · 2026-06-15
 
 <details>
@@ -613,6 +672,7 @@ While Large Language Model (LLM) based Automatic Speech Recognition (ASR) enable
 </details>
 
 #### [Confidence Score Guided Incremental and Speaker Adaptive Pseudo-Labeling for Semi-Supervised Elderly Speech Recognition](https://arxiv.org/abs/2606.16546) · [📄 Read](papers/2026/2606.16546.md)
+
 **Chengxi Deng, Xurong Xie, Shujie Hu, Jiajun Deng et al.** · 2026-06-15
 
 <details>
@@ -623,6 +683,7 @@ This paper proposes a novel confidence score guided incremental and speaker adap
 </details>
 
 #### [ROMPAR: Morphological Completion and Demographic Unlearning for Romanian-Accented Speech Recognition](https://arxiv.org/abs/2606.15984) · [📄 Read](papers/2026/2606.15984.md)
+
 **Andrei-Marius Avram, Aureliu-Valentin Antonie, Ştefan-Bogdan Badea, Andrei Florea et al.** · 2026-06-14
 
 <details>
@@ -633,6 +694,7 @@ Automated transcription of parliamentary proceedings faces significant hurdles d
 </details>
 
 #### [Improving Code-Switching ASR with Code-Mixing Guided Synthetic Speech](https://arxiv.org/abs/2606.19381) · [📄 Read](papers/2026/2606.19381.md)
+
 **Yue Heng Yeo, Haoyang Li, Yizhou Peng, Shreyas Gopal et al.** · 2026-06-14
 
 <details>
@@ -643,6 +705,7 @@ Code-switch (CS) Automatic Speech Recognition (ASR) remains challenging due to l
 </details>
 
 #### [MambAdapter: Lightweight Mamba-Based Adapters for Parameter-Efficient Transfer Learning in Speech and Audio](https://arxiv.org/abs/2606.15638) · [📄 Read](papers/2026/2606.15638.md)
+
 **Salman Hussain Ali, Umberto Cappellazzo, Mirco Ravanelli** · 2026-06-14
 
 <details>
@@ -653,6 +716,7 @@ Fine-tuning Transformer-based foundation models has become the dominant strategy
 </details>
 
 #### [A Practical Evaluation Method for Long-Form Simultaneous Speech-to-Speech Translation](https://arxiv.org/abs/2606.15059) · [📄 Read](papers/2026/2606.15059.md)
+
 **Yulin Xue, Siqi Ouyang, Lei Li** · 2026-06-13
 
 <details>
@@ -663,6 +727,7 @@ Simultaneous speech-to-speech translation (SimulS2ST) enables real-time cross-li
 </details>
 
 #### [Listening with Attention: Entropy-Guided Explainability for Transformer-Based Audio Models](https://arxiv.org/abs/2606.14647) · [📄 Read](papers/2026/2606.14647.md)
+
 **Ravi Ranjan, Utkarsh Grover, Xiaomin Lin, Agoritsa Polyzou** · 2026-06-12
 
 <details>
@@ -673,6 +738,7 @@ Transformer-based automatic speech recognition (ASR) models such as Whisper are 
 </details>
 
 #### [Learning to Hear Hesitation: Continual Learning for Disfluency-Aware ASR](https://arxiv.org/abs/2606.14391) · [📄 Read](papers/2026/2606.14391.md)
+
 **Henri-Leon Kordt, Theresa Pekarek Rosin, Jae Hee Lee, Stefan Wermter** · 2026-06-12
 
 <details>
@@ -683,6 +749,7 @@ Despite advances in large-scale Automatic Speech Recognition (ASR), disfluent sp
 </details>
 
 #### [Positional Encoding in the Context of Memristor-Based Analog Computation for Automatic Speech Recognition](https://arxiv.org/abs/2606.13379) · [📄 Read](papers/2026/2606.13379.md)
+
 **Benedikt Hilmes, Nick Rossenbach, Ralf Schlüter** · 2026-06-11
 
 <details>
@@ -693,6 +760,7 @@ Memristors provide a new chance for resource-efficient computation of neural mod
 </details>
 
 #### [Balancing ASR and diarization in end-to-end LLMs for multi-talker speech recognition](https://arxiv.org/abs/2606.13095) · [📄 Read](papers/2026/2606.13095.md)
+
 **Naijun Zheng, Yuke Lin, Sanli Tian, Mengtian Li et al.** · 2026-06-11
 
 <details>
@@ -703,6 +771,7 @@ Multi-talker speech recognition is often addressed by combining automatic speech
 </details>
 
 #### [PiDA: Phonetically-Informed Data Augmentation for Robust Vietnamese Speech Translation](https://arxiv.org/abs/2606.12911) · [📄 Read](papers/2026/2606.12911.md)
+
 **Giang Son Nguyen, Tung X. Nguyen, Hieu Minh Truong, Nhu Vo et al.** · 2026-06-11
 
 <details>
@@ -713,6 +782,7 @@ Cascaded speech translation (ST) systems suffer from error propagation when Auto
 </details>
 
 #### [PRISM: Prosody-Integrated Multi-Agent Reasoning Framework for Empathetic Spoken Dialogue](https://arxiv.org/abs/2606.12902) · [📄 Read](papers/2026/2606.12902.md)
+
 **Wen Zhang, Xiaocui Yang, Zhuoyue Gao, Shi Feng et al.** · 2026-06-11
 
 <details>
@@ -723,6 +793,7 @@ Empathetic spoken dialogue systems require not only semantically appropriate res
 </details>
 
 #### [Pretrained self-supervised speech models can recognize unseen consonants](https://arxiv.org/abs/2606.11542) · [📄 Read](papers/2026/2606.11542.md)
+
 **Chihiro Taguchi, Éric Le Ferrand, Hirosi Nakagawa, Hitomi Ono et al.** · 2026-06-10
 
 <details>
@@ -733,6 +804,7 @@ Modern pretrained self-supervised automatic speech recognition models are traine
 </details>
 
 #### [Speech Encoder Fusion for LLM-based Automatic Speech Recognition](https://arxiv.org/abs/2606.10853) · [📄 Read](papers/2026/2606.10853.md)
+
 **Jakob Poncelet, Hugo Van hamme** · 2026-06-09
 
 <details>
@@ -743,6 +815,7 @@ Speech-aware large language models (LLMs) can incorporate speech through pre-tra
 </details>
 
 #### [Massive Open-Vocabulary Keyword Spotting](https://arxiv.org/abs/2606.11279) · [📄 Read](papers/2026/2606.11279.md)
+
 **Leonor Barreiros, Raul Monteiro, Afonso Mendes, Gonçalo M. Correia** · 2026-06-09
 
 <details>
@@ -753,6 +826,7 @@ Automatic speech recognition systems have been shown to under-perform when it co
 </details>
 
 #### [GC-LoRA: Gated Convolutional LoRA for Parameter-Efficient Acoustic Adaptation](https://arxiv.org/abs/2606.10464) · [📄 Read](papers/2026/2606.10464.md)
+
 **Natarajan Balaji Shankar, Zilai Wang, Kaiyuan Zhang, Mohan Shi et al.** · 2026-06-09
 
 <details>
@@ -763,6 +837,7 @@ Transformer-based Speech Foundation Models excel in most Automatic Speech Recogn
 </details>
 
 #### [Speech Meets ELF: Audio Conditional Continuous-Target Diffusion for Speech Recognition and Translation](https://arxiv.org/abs/2606.10368) · [📄 Read](papers/2026/2606.10368.md)
+
 **Xuanchen Li, Tianrui Wang, Yuheng Lu, Zikang Huang et al.** · 2026-06-09
 
 <details>
@@ -773,6 +848,7 @@ Speech-to-text (S2T) systems for recognition (ASR) and translation (S2TT) typica
 </details>
 
 #### [Is Text All You Need? Text as a Universal Information Bottleneck for Speech LLMs](https://arxiv.org/abs/2606.09366) · [📄 Read](papers/2026/2606.09366.md)
+
 **Ming-Hao Hsu, Yuxuan Hu, Shujie Liu, Jinyu Li et al.** · 2026-06-08
 
 <details>
@@ -783,6 +859,7 @@ Large language models (LLMs) provide a powerful reasoning backbone for speech un
 </details>
 
 #### [Rethinking Depth: A study of the Recursive-Transformer for Speech Recognition](https://arxiv.org/abs/2606.09357) · [📄 Read](papers/2026/2606.09357.md)
+
 **Thomas Rolland, Carlos Carvalho, Alberto Abad** · 2026-06-08
 
 <details>
@@ -793,6 +870,7 @@ Transformer-based architectures have led to significant improvements in Automati
 </details>
 
 #### [Parameter-Efficient Continual Learning for Automatic Speech Recognition](https://arxiv.org/abs/2606.09342) · [📄 Read](papers/2026/2606.09342.md)
+
 **Steven Vander Eeckt, Hugo Van hamme** · 2026-06-08
 
 <details>
@@ -803,6 +881,7 @@ Speech foundation models enable strong general-purpose ASR and are attractive fo
 </details>
 
 #### [Overcoming Decoder Inconsistencies in Whisper for Dravidian and Low-Resource Languages](https://arxiv.org/abs/2606.09535) · [📄 Read](papers/2026/2606.09535.md)
+
 **Chowdam Venkata Kumar, Kumud Tripathi, Pankaj Wasnik** · 2026-06-08
 
 <details>
@@ -813,6 +892,7 @@ Multilingual ASR models such as Whisper perform well on high-resource languages 
 </details>
 
 #### [Cross-Modal Masking for Robust Silent Speech Synthesis Using sEMG and Lipreading](https://arxiv.org/abs/2606.09667) · [📄 Read](papers/2026/2606.09667.md)
+
 **Eder del Blanco, David Gimeno-Gómez, Eva Navas, Carlos-D. Martínez-Hinarejos et al.** · 2026-06-08
 
 <details>
@@ -823,6 +903,7 @@ Speech restoration through silent speech interfaces (SSIs) has emerged as a prom
 </details>
 
 #### [End-to-End Training for Discrete Token LLM based TTS System](https://arxiv.org/abs/2606.09234) · [📄 Read](papers/2026/2606.09234.md)
+
 **Changfeng Gao, Yong Ren, Jun Yuan, Ye Bai et al.** · 2026-06-08
 
 <details>
