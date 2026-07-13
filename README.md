@@ -61,10 +61,120 @@ Select _full = true_ to back-fill from 2015 and rebuild all paper markdown, or l
 
 <!-- PAPERS_TABLE_START -->
 
-_Showing the last 30 days (77 of 5403 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
+_Showing the last 30 days (71 of 5426 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
 
 <details open>
 <summary><h3>2026</h3></summary>
+
+#### [Tokenizer Transplantation: Mitigating Autoregressive Collapse in Edge-Efficient Bengali ASR](https://arxiv.org/abs/2607.09598)
+
+**Sanjid Hasan, Md. Abdur Rahman** · 2026-07-10
+
+<details>
+<summary>Abstract</summary>
+
+Lightweight speech recognition models are critical for edge deployment, yet highly optimized architectures like Moonshine often fail on morphologically rich, non-Latin languages such as Bengali. This study identifies the root cause of this failure as the model's English-centric byte-level tokenizer, which fragments Bengali words into high-fertility byte chains and triggers catastrophic autoregressive collapse during inference. To resolve this, a novel vocabulary transplantation pipeline is proposed to replace the decoder vocabulary with the native-script BanglaBERT WordPiece vocabulary and resize the corresponding token embedding matrix. Experimental results demonstrate a reduction in token fertility from 9.16 to 1.30. By decreasing autoregressive sequence length by 85.8%, decoding instability is entirely mitigated. When evaluated on the 882-hour Lipi-Ghor dataset, the modified architecture achieves a competitive 21.54% Word Error Rate (WER) and a Real-Time Factor (RTF) of 0.0053. Ultimately, this research provides a scalable, reproducible blueprint for cross-script adaptation of compact ASR models without the need for resource-intensive pre-training.
+
+</details>
+
+#### [Optimal Transport-based Semantic Alignment for LLM-based Audio-Visual Speech Recognition](https://arxiv.org/abs/2607.09001)
+
+**Xugang Lu, Peng Shen, Yu Tsao, Hisashi Kawai** · 2026-07-10
+
+<details>
+<summary>Abstract</summary>
+
+Large language model (LLM)-based audio-visual speech recognition (LLM-AVSR) has recently demonstrated strong robustness in adverse acoustic environments by leveraging complementary audio and visual information. Existing approaches typically employ independently pretrained acoustic and visual encoders, whose outputs are projected and fused as soft prompts to condition an LLM for speech recognition. However, most methods perform multimodal fusion without explicitly addressing the representational discrepancy between audio, visual and text modalities, potentially limiting the effectiveness of cross-modal integration. In this paper, we propose an optimal transport (OT)-based semantic alignment framework for LLM-AVSR. The proposed method explicitly bridges the modality gap by aligning the acoustic and visual representations with reference to the linguistic embedding space of the LLM before multimodal fusion. Specifically, OT is used to estimate probabilistic coupling matrices that characterize structured correspondences between modality-specific features and linguistic embeddings. The resulting OT couplings are further utilized as soft pseudo-labels to supervise contrastive learning, encouraging the extraction of semantically coherent and cross-modal consistent audio-visual representations. By anchoring multimodal features to the linguistic space of the LLM, the proposed framework facilitates more effective multimodal fusion and decoding. We implement the proposed framework using a Whisper-based acoustic encoder, an AV-HuBERT-based visual encoder, and a LLaMA3.2-3B decoder. Experiments conducted on the LRS3-TED benchmark demonstrate consistent improvements over strong baselines and achieve state-of-the-art performance under both clean and noisy evaluation conditions across a wide range of signal-to-noise ratios (SNRs).
+
+</details>
+
+#### [FreyaTTS Technical Report](https://arxiv.org/abs/2607.09530)
+
+**Ahmet Erdem Pamuk, Ömer Yentür, Ahmet Tunga Bayrak, Yavuz Alp Sencer Öztürk et al.** · 2026-07-10
+
+<details>
+<summary>Abstract</summary>
+
+We introduce Freya-TTS, a compact, tokenizer-free, Turkish-first text-to-speech model designed for highly reliable and efficient conversational synthesis. Freya-TTS is a 183.2M-parameter non-autoregressive conditional flow-matching Diffusion Transformer (DiT) that operates in the frozen continuous latent space of AudioVAE2 (16 kHz encode, 48 kHz decode), allowing the model to focus its capacity on text-to-latent mapping while inheriting high-quality 48 kHz reconstruction. We advance the framework along three key dimensions: (1) rule-free end-to-end modeling from a 92-symbol Turkish character vocabulary without a phonemizer, grapheme-to-phoneme frontend, or discrete speech tokenizer; (2) non-autoregressive parallel denoising, which predicts the entire latent sequence simultaneously over a predicted duration; and (3) a production-oriented two-stage post-training recipe consisting of single-speaker voice locking and short-utterance coverage, improving speaker consistency and robustness on short inputs. On the Freya-TR-Eval benchmark, Freya-TTS achieves a band-matched word error rate (WER) of 8.0% and character error rate (CER) of 3.0%, outperforming substantially larger open-source systems while using a fraction of their parameters. The model achieves a real-time factor of 0.11 on consumer GPUs and runs faster than real time on a laptop CPU, making it well suited for resource-constrained edge deployment. We release the model weights, training and inference code, and evaluation benchmark under the Apache-2.0 license.
+
+</details>
+
+#### [TVTA: Trajectory-Aware Viseme-Guided Temporal Aggregation for Event-Based Lip Reading](https://arxiv.org/abs/2607.08236)
+
+**Jingrong Zheng, Hongwei Ren, Xiangqian Wu** · 2026-07-09
+
+<details>
+<summary>Abstract</summary>
+
+Event-based lip reading has recently emerged as a promising direction for visual speech recognition, benefiting from the high temporal resolution and motion sensitivity of event cameras. However, existing methods typically perform spatial compression before sufficient temporal modeling, which may suppress sparse and localized motion trajectories that are crucial for distinguishing similar lip movements. Moreover, most current approaches optimize temporal representations mainly at the word-classification level, leaving the underlying articulatory structure weakly constrained. To address these limitations, we propose a temporally enhanced framework for event-based lip reading. First, we introduce Trajectory-Aware Differential Aggregation (TDA), which performs local temporal modeling at each spatial location before adaptive spatial aggregation. Second, we propose Viseme-Guided Aggregation (VGA), a unified temporal module composed of a CTC decoder and a viseme-guided gated aggregation branch, which injects viseme-aware sequence supervision and improves final temporal aggregation for word recognition. Third, we incorporate an EMA teacher--student training strategy to enhance robustness under strong event perturbations. Experiments on the DVS-Lip benchmark verify the effectiveness of the proposed design, and extensive ablation studies further validate the contributions of TDA, VGA, and teacher--student consistency. Qualitative decoding results also demonstrate that the proposed CTC-based temporal modeling learns meaningful viseme-aware structure from event streams.
+
+</details>
+
+#### [VSRo-200: A Romanian Visual Speech Recognition Dataset for Studying Supervision and Multimodal Robustness](https://arxiv.org/abs/2607.08112)
+
+**Iulia-Maria Udrea, Alexandra Diaconu, Bogdan Alexe** · 2026-07-09
+
+<details>
+<summary>Abstract</summary>
+
+We introduce VSRo-200, the first large-scale dataset for visual speech recognition (lip reading) in Romanian, comprising 200 hours of real-world podcast videos. All samples are annotated with pseudo-labels generated by a fine-tuned Romanian ASR model, while a subset of 100 hours is additionally transcribed by humans, enabling controlled analysis of supervision quality under a unified framework. Building on this dataset, we establish a benchmark for visual speech recognition in low-resource settings. We systematically study the impact of supervision quality, showing that while human annotations provide better performance at fixed data scales, pseudo-labels enable continued improvements through scalability. We further evaluate robustness under domain shift using curated out-of-distribution (OOD) test sets, and analyze audio-visual speech recognition (AVSR) under noisy conditions, where multimodal fusion significantly improves robustness compared to audio-only models. Finally, we demonstrate that representations learned on VSRo-200 transfer effectively to the LRRo benchmark for isolated word recognition, substantially outperforming previously reported results. Overall, VSRo-200 provides a new testbed for studying supervision, domain generalization, and multimodal fusion in low-resource visual speech recognition.
+
+</details>
+
+#### [When Synthetic Speech Is All You Have: Better Call GRPO](https://arxiv.org/abs/2607.08409)
+
+**Shashi Kumar, Yanis Labrak, Hasindri Watawana, Sergio Burdisso et al.** · 2026-07-09
+
+<details>
+<summary>Abstract</summary>
+
+LLM-based ASR adapted to regulated domains such as banking is bottlenecked by privacy: real speech is costly and legally constrained to collect, making synthetic text-to-speech (TTS) an attractive substitute. Yet synthetic speech stays acoustically mismatched with real recordings, and work on this gap has stayed within supervised fine-tuning (SFT). We instead turn to reinforcement learning, and show that Group Relative Policy Optimization (GRPO) extracts far more from the same synthetic speech than SFT. Synthetic-only adaptation of the model with GRPO, a critic-free method rewarding low-WER hypotheses, reduces WER by 40\% relative to SFT (36.71\%$\to$22.09\%), and an SFT-then-GRPO combination pushes this further to 45\%. We trace the gain to behavior rather than representation: GRPO reduces insertion errors by improving stopping calibration and speech-to-text alignment by better anchoring attention to audio, leaving early-layer representations intact. When synthetic speech is the main resource, reinforcement learning should be preferred over supervised fine-tuning.
+
+</details>
+
+#### [Diarization-Guided Qwen-ASR Adaptation for Multilingual Two-Speaker Conversational Speech](https://arxiv.org/abs/2607.08208)
+
+**Hao Wu, RongQi Han, Zhen Wang, Wei Liang et al.** · 2026-07-09
+
+<details>
+<summary>Abstract</summary>
+
+This paper describes our self-designed system for Task 1 of the MLC-SLM 2026 Challenge for multilingual two-speaker conversational speech. The system combines a modular speaker diarization front end with a challenge-adapted Qwen3-ASR-1.7B recognizer. The diarization front end performs voice activity detection, subsegment generation, CAMPPlus speaker embedding extraction, two-speaker spectral clustering, and RTTM-based audio segmentation. The resulting speaker-attributed segments are grouped by language or region and decoded by the adapted ASR model. For ASR adaptation, we first perform supervised full fine-tuning on the official training data, then apply LoRA fine-tuning with synthetic speech generated by a three-pipeline TTS-based synthetic speech augmentation framework, and finally refine the model using GRPO reinforcement learning with rewards based on WER/CER and penalties for hallucination, repetition, and length deviation. On the official development set, the full system achieves an average tcpMER of 23.70, reducing the error rate by 6.83 absolute points relative to the released Qwen-ASR-1.7B performance. On the final evaluation set, the system achieves an average tcpMER of 17.97. Ablation results show that supervised fine-tuning provides the largest gain, while synthetic-speech LoRA adaptation and reinforcement learning further improve robustness.
+
+</details>
+
+#### [From Sinhala to Dhivehi: Cross-Lingual Transfer Learning for Low-Resource Speech Recognition](https://arxiv.org/abs/2607.06289)
+
+**Lukmal Ilyas, Nevidu Jayatilleke** · 2026-07-07
+
+<details>
+<summary>Abstract</summary>
+
+Dhivehi, the national language of the Maldives, is currently under-resourced for automatic speech recognition (ASR) and other NLP tasks. This study investigates whether cross-lingual transfer learning from Sinhala, a linguistically related, relatively well-resourced Insular Indo-Aryan language, can improve Dhivehi ASR. We conduct seventeen experiments across five transfer learning paradigms: Dhivehi-only baselines, sequential fine-tuning, multilingual fine-tuning, continual pre-training, and a control using Turkish as an unrelated language. The strongest system, continual pre-training on Sinhala followed by fine-tuning on Dhivehi with KenLM, achieves 12.89% WER and 2.70% CER, outperforming the Dhivehi-only baseline by 13.50% WER and 3.02% CER. However, the adaptation strategy and decoding configuration are equally critical for a successful transfer learning experiment. We conduct seventeen controlled experiments spanning five transfer learning paradigms: Dhivehi-only baselines, sequential fine-tuning, multilingual fine-tuning, continual pre-training, and a control experiment using Turkish as an unrelated language. The strongest system, continual pre-training on Sinhala followed by fine-tuning on Dhivehi with KenLM, achieves 12.89% WER and 2.70% CER, outperforming the Dhivehi-only baseline by 13.50% WER and 3.02% CER. The Turkish control experiment confirms that observed improvements stem from linguistic relatedness; adaptation strategy and decoding configuration are also critical.
+
+</details>
+
+#### [Audio Sentiment Analysis via Distillation and Cross-Modal Integration of Generated Multilingual Transcripts](https://arxiv.org/abs/2607.06611)
+
+**Andrei-George Durdun, Victor Constantinescu, Radu Tudor Ionescu** · 2026-07-07
+
+<details>
+<summary>Abstract</summary>
+
+Automatically recognizing the sentiment, positive or negative, from speech is a challenging task, requiring both the analysis of vocal inflections and the interpretation of uttered words. Recent solutions rely on audio foundation models to solve the task, but it remains unclear if such models can take all aspects into account. To this end, we propose a multimodal solution that integrates audio and text information via cross-modal transformers, where text transcripts are automatically generated via an automatic speech recognition (ASR) tool. Moreover, we create multiple text modalities by automatically translating the transcripts into multiple languages via machine translation tools. Audio and multilingual text features are combined via a cascaded architecture comprising cross-modal transformer blocks that integrate modalities one by one. We further distill knowledge from the multimodal model, called teacher, into a unimodal (audio only) model, called student. We conduct experiments on a large-scale dataset, demonstrating that the automatically generated textual information can bring significant performance boosts in multimodal sentiment polarity classification. Our ablation study confirms that both automatic transcripts and automatic translations are helpful. Moreover, we show that the audio-only model can be enhanced via distillation, boosting performance without any computational overhead during inference. To reproduce the reported results, we publicly release our code at https://github.com/andreidurdun/cross-modal-audio-sentiment.
+
+</details>
+
+#### [Gradient-Based Speech-to-Text Alignment for Any ASR Model: From CTC to Speech LLMs](https://arxiv.org/abs/2607.06831)
+
+**Albert Zeyer, Ralf Schlüter, Hermann Ney** · 2026-07-07
+
+<details>
+<summary>Abstract</summary>
+
+Speech-to-text alignment means finding the temporal boundaries of each word in the audio. Some models provide such an alignment directly and others do not. Connectionist temporal classification (CTC) and transducer models have an alignment by construction, whereas attention-based encoder-decoders (AED) and speech large language models (LLMs) do not, and their word timings are usually read off the attention weights instead. All of these signals live on the encoder frame grid, which bounds their temporal precision. We study a generic gradient-based alignment that applies to any differentiable ASR model. We take the gradient of each teacher-forced token log probability with respect to the input, reduce it to a per-frame saliency, and decode the resulting matrix into word boundaries with a single dynamic-programming pass. The method needs no training, no model modification and no alignment heads, works across all model families including the speech LLMs, and aligns on the input grid rather than on the coarser encoder grid. We evaluate it on sixteen models from four families, on read (TIMIT) and spontaneous (Buckeye) speech, each against the model's own native or attention-based alignment. We find that the gradient yields a usable alignment for every model, that it is usually somewhat behind a strong native aligner but better where the native alignment is weak, as for the streaming models, and that its main disadvantage is the cost of one backward pass per token.
+
+</details>
 
 #### [Progressive Refinement: An Iterative Pseudo-Labeling Approach for Mandarin-English Code-Switching ASR](https://arxiv.org/abs/2607.05224) · [📄 Read](papers/2026/2607.05224.md)
 
@@ -96,6 +206,17 @@ Audio intelligence involves understanding, reasoning about, and generating both 
 <summary>Abstract</summary>
 
 End-to-end ASR models transcribe in a single pass, leaving no room for the decoder to revisit hard inputs. We propose LatentASR, a parameter-efficient method that adds continuous latent test-time scaling to a frozen ASR backbone. Two small trainable modules drive it: a Latent Adapter that iteratively refines a few latent prefix positions through bounded, stabilized updates, and a Value Head that predicts whether extra computation will help and halts the loop early. The Qwen3-ASR-0.6B backbone stays fully frozen, and we train only ~4M extra parameters. We activate this loop with a deliberately small, diverse 500-utterance training set. Under this minimal-data regime, standard adaptation methods all regress: full fine-tuning, LoRA, and prompt tuning each increase WER. LatentASR is the only tested method that reduces WER on both clean benchmarks (FLEURS -2.54% and VoxPopuli -0.47% relative). The reductions are concentrated on intrinsically hard inputs. On accented and code-switched speech (ASCEND), LatentASR achieves a 16.0% relative CER reduction. Across 30 FLEURS languages (23,049 utterances), the multilingual WER decreases uniformly across resource tiers, confirming that the adapter generalizes without overfitting. Dynamic halting preserves most of the clean-set reduction at a fraction of the compute, skipping roughly half of all utterances at the entry gate. Our results show that a small, carefully chosen activation set can switch on test-time scaling inside a frozen ASR model without corrupting the model itself, converting fixed per-utterance compute into input-dependent compute where it is most needed.
+
+</details>
+
+#### [Revisiting the Relation Between Language Model Perplexity and ASR Word Error Rate for Modern End-to-End Speech Recognition](https://arxiv.org/abs/2607.05612)
+
+**Mohammad Zeineldeen, Albert Zeyer, Haoran Zhang, Robin Schmitt et al.** · 2026-07-06
+
+<details>
+<summary>Abstract</summary>
+
+Language model (LM) perplexity (PPL) has historically been used as a proxy for automatic speech recognition (ASR) word error rate (WER), with prior work reporting an approximately linear relation in log-log space. Modern end-to-end ASR systems challenge this assumption because they already contain internal language modeling capacity, are often evaluated without external language models, and can now be combined with neural LMs and large language models (LLMs) through different recognition strategies. This paper revisits the relation between PPL and WER for modern ASR systems. We study whether external LMs still improve current end-to-end ASR systems, whether the PPL-WER relation remains linear in log-log space, how encoder context length affects this relation, and how LLM perplexities fit into the trend observed for standard neural LMs. We further investigate internal language modeling (ILM) in attention-based encoder-decoder systems and show that ILM subtraction changes the observed PPL-WER relation, indicating that the decoder's internal LM must be considered when interpreting the effect of external LM quality.
 
 </details>
 
@@ -723,193 +844,6 @@ Fine-tuning Transformer-based foundation models has become the dominant strategy
 <summary>Abstract</summary>
 
 Simultaneous speech-to-speech translation (SimulS2ST) enables real-time cross-lingual communication, but existing evaluation has focused largely on short or pre-segmented speech rather than long-form, continuous input. Prior approaches are difficult to reproduce and make assumptions that do not hold for end-to-end systems. We present a practical evaluation method for long-form SimulS2ST. Given source speech, pre-segmented source transcripts, and reference translations, we run automatic speech recognition (ASR) and forced alignment on the generated target speech to recover token-level timestamps, then apply a sentence-embedding-based aligner to match the target text to its corresponding source sentences. This enables sentence-level computation of latency and quality metrics, including YAAL and xCOMET, which are then aggregated into final system-level scores. Experiments on representative SimulS2ST systems show that the method is effective in practice and reveal that current systems suffer from substantial latency accumulation on long speech.
-
-</details>
-
-#### [Listening with Attention: Entropy-Guided Explainability for Transformer-Based Audio Models](https://arxiv.org/abs/2606.14647) · [📄 Read](papers/2026/2606.14647.md)
-
-**Ravi Ranjan, Utkarsh Grover, Xiaomin Lin, Agoritsa Polyzou** · 2026-06-12
-
-<details>
-<summary>Abstract</summary>
-
-Transformer-based automatic speech recognition (ASR) models such as Whisper are highly accurate, but their predictions remain difficult to interpret. Existing explainable AI (XAI) methods often lack faithfulness and precise temporal grounding. We propose Listening with Entropy-guided Attention for Faithful explainability (LEAF-X), a model-intrinsic XAI framework for transformer-based ASR. LEAF-X combines entropy-guided attention weighting, multi-layer attention rollout, and optional causal ablations to identify low-entropy, high-impact heads and layers, producing sparse token-to-frame attributions. Unlike perturbation-based explainers or raw attention maps, LEAF-X exploits the internal structure of encoder-decoder and speech-augmented decoder-only models to generate explanations that better reflect model computation. Results show 32% improved faithfulness, 35-39% stronger locality/sparsity, and the most stable attributions, supporting more transparent and auditable ASR.
-
-</details>
-
-#### [Learning to Hear Hesitation: Continual Learning for Disfluency-Aware ASR](https://arxiv.org/abs/2606.14391) · [📄 Read](papers/2026/2606.14391.md)
-
-**Henri-Leon Kordt, Theresa Pekarek Rosin, Jae Hee Lee, Stefan Wermter** · 2026-06-12
-
-<details>
-<summary>Abstract</summary>
-
-Despite advances in large-scale Automatic Speech Recognition (ASR), disfluent speech remains challenging, as state-of-the-art systems are often optimized to omit disfluencies, leading to information loss and hallucinations. Prior work has focused on verbatim transcription and the integration of disfluency markers, but adapting models on limited datasets can lead to catastrophic forgetting of general-domain knowledge. We address this gap by leveraging continual learning (CL) with explicit disfluency tokens. We first introduce these tokens into a pretrained ASR model to establish stable token mechanisms, and then continue training on additional datasets with varying disfluency distributions. Through a detailed analysis of model dynamics during training, we identify a trade-off between marker learning and ASR performance, and a consistent cross-attention head mechanism shared across CL methods.
-
-</details>
-
-#### [Positional Encoding in the Context of Memristor-Based Analog Computation for Automatic Speech Recognition](https://arxiv.org/abs/2606.13379) · [📄 Read](papers/2026/2606.13379.md)
-
-**Benedikt Hilmes, Nick Rossenbach, Ralf Schlüter** · 2026-06-11
-
-<details>
-<summary>Abstract</summary>
-
-Memristors provide a new chance for resource-efficient computation of neural models for natural language processing by enabling analog execution of vector-matrix-multiplication. Yet, computations on these devices are currently subject to larger distortion, both in weight programming and execution. In this work, we identify large output values of transformed positional encodings to cause major degradation within analog-to-digital conversion (ADC) as part of memristor-based computation. By adjusting the proportion of weight and precision bits of the ADC of specific memristor layers, we reduce the degradation of the execution by ~50% relative, while keeping the estimated energy consumption stable. Additionally, we investigate scenarios where the ADC cannot be modified. In that case the degradation can be reduced by ~30% relative after removing encoding-related linear transformations.
-
-</details>
-
-#### [Balancing ASR and diarization in end-to-end LLMs for multi-talker speech recognition](https://arxiv.org/abs/2606.13095) · [📄 Read](papers/2026/2606.13095.md)
-
-**Naijun Zheng, Yuke Lin, Sanli Tian, Mengtian Li et al.** · 2026-06-11
-
-<details>
-<summary>Abstract</summary>
-
-Multi-talker speech recognition is often addressed by combining automatic speech recognition (ASR) and speaker diarization in a pipeline system. Recently, LLM-based approaches have shown promise by jointly modeling semantic and speaker information, but they typically require large-scale multi-talker corpora that are costly to annotate. In this paper, we investigate how to efficiently train an LLM-based system with limited real-recorded data while maintaining high accuracy in speaker attribution. We propose several strategies: (1) a dual-encoder architecture to extract semantic and speaker features, (2) a feature interleaving format to merge these features as the inputs to the LLM, (3) a length-aware speaker ID loss to enhance diarization capability, and (4) an adaptive threshold strategy for ASR loss computation to mitigate hallucinations caused by speech overlaps. These strategies balance training between ASR and diarization tasks. Our system outperforms open-source baseline approaches, achieving relative improvements of 18% on the AliMeeting corpus and 24% on the Aishell4 corpus.
-
-</details>
-
-#### [PiDA: Phonetically-Informed Data Augmentation for Robust Vietnamese Speech Translation](https://arxiv.org/abs/2606.12911) · [📄 Read](papers/2026/2606.12911.md)
-
-**Giang Son Nguyen, Tung X. Nguyen, Hieu Minh Truong, Nhu Vo et al.** · 2026-06-11
-
-<details>
-<summary>Abstract</summary>
-
-Cascaded speech translation (ST) systems suffer from error propagation when Automatic Speech Recognition (ASR) outputs incorrect transcripts. We present the first systematic categorization of ASR errors for Vietnamese ST, classifying substitution errors by phonetic cause and quantifying their impact on downstream Neural Machine Translation (NMT) performance using Linear Mixed-Effects Modelling. We confirm that most ASR substitution errors arise from phonetic confusions rather than random noise, and that these phonetic errors significantly degrade ST quality. Motivated by this finding, we propose Phonetically-Informed Data Augmentation (PiDA), which generates ASR-like corruptions by substituting words with phonetically similar alternatives using phonetic word embeddings. Fine-tuning on a PiDA-augmented version of FLEURS Vietnamese-English improves translation of erroneous ASR outputs (up to +2.04 BLEU over standard fine-tuning) while also slightly improving clean-text performance.
-
-</details>
-
-#### [PRISM: Prosody-Integrated Multi-Agent Reasoning Framework for Empathetic Spoken Dialogue](https://arxiv.org/abs/2606.12902) · [📄 Read](papers/2026/2606.12902.md)
-
-**Wen Zhang, Xiaocui Yang, Zhuoyue Gao, Shi Feng et al.** · 2026-06-11
-
-<details>
-<summary>Abstract</summary>
-
-Empathetic spoken dialogue systems require not only semantically appropriate responses but also emotionally aligned prosodic expression. However, cascade pipelines often discard acoustic cues during speech-to-text conversion, while end-to-end speech models lack interpretable control over emotion and knowledge integration. To address these challenges, we propose PRISM, a multi-agent framework for empathetic spoken dialogue that decouples speech perception, response generation, and speech synthesis into coordinated components. PRISM introduces a prosody-to-language translation mechanism to stabilize large language model reasoning and enables on-demand invocation of external knowledge tools for empathetic dialogue generation. Experimental results demonstrate that PRISM achieves consistent improvements in empathy, prosodic appropriateness, and text response generation quality across objective and subjective metrics. Our code is available at: https://github.com/Bxzfrm/PRISM.
-
-</details>
-
-#### [Pretrained self-supervised speech models can recognize unseen consonants](https://arxiv.org/abs/2606.11542) · [📄 Read](papers/2026/2606.11542.md)
-
-**Chihiro Taguchi, Éric Le Ferrand, Hirosi Nakagawa, Hitomi Ono et al.** · 2026-06-10
-
-<details>
-<summary>Abstract</summary>
-
-Modern pretrained self-supervised automatic speech recognition models are trained on large-scale audio data to encode speech into contextualized representations. However, their training data are heavily skewed toward high-resource languages with little data from low-resource languages, raising concerns about the potential underrepresentation of typologically uncommon speech sounds such as click consonants primarily found in Khoisan languages. This leads to our central research question: Can these models recognize click consonants as accurately as other speech sounds? To address this question, we fine-tune and compare pretrained self-supervised speech models (Wav2Vec2 and HuBERT) on data from two click-rich Khoisan languages (G|ui and West !Xoon). Our results reveal that the fine-tuned models consistently recognize clicks more accurately than non-clicks, suggesting that self-supervision enables generalization across human speech sounds including rare phonemes.
-
-</details>
-
-#### [Speech Encoder Fusion for LLM-based Automatic Speech Recognition](https://arxiv.org/abs/2606.10853) · [📄 Read](papers/2026/2606.10853.md)
-
-**Jakob Poncelet, Hugo Van hamme** · 2026-06-09
-
-<details>
-<summary>Abstract</summary>
-
-Speech-aware large language models (LLMs) can incorporate speech through pre-trained acoustic encoders that project speech features into the LLM embedding space. While the choice of the speech encoder critically influences performance, different encoders often exhibit complementary strengths, motivating their combination. In this work, we investigate whether fusing multiple pre-trained speech encoders can enhance speech-aware LLMs for automatic speech recognition (ASR). We explore several fusion strategies beyond simple feature concatenation, including learned combinations and Transformer-based fusion architectures, and evaluate them across mono- and multilingual ASR settings as well as diarized speech recognition. Our results indicate that carefully fusing multiple parallel speech encoders improves downstream performance in all scenarios with limited computational overhead.
-
-</details>
-
-#### [Massive Open-Vocabulary Keyword Spotting](https://arxiv.org/abs/2606.11279) · [📄 Read](papers/2026/2606.11279.md)
-
-**Leonor Barreiros, Raul Monteiro, Afonso Mendes, Gonçalo M. Correia** · 2026-06-09
-
-<details>
-<summary>Abstract</summary>
-
-Automatic speech recognition systems have been shown to under-perform when it comes to transcribing words rarely seen in the training data, namely specialized terminology. Open-vocabulary keyword spotting, combined with contextual biasing, has been shown to mitigate this issue. However, existing systems can only handle glossaries of a few hundred terms without becoming an infeasible bottleneck. We propose a system that stores features with a memory footprint up to 128 times smaller than a comparable baseline and allows users to process massive databases while remaining open-vocabulary. Without fine-tuning the speech recognition model, our system achieves a comparable entity recall as uncompressed solutions, even in languages not seen during training.
-
-</details>
-
-#### [GC-LoRA: Gated Convolutional LoRA for Parameter-Efficient Acoustic Adaptation](https://arxiv.org/abs/2606.10464) · [📄 Read](papers/2026/2606.10464.md)
-
-**Natarajan Balaji Shankar, Zilai Wang, Kaiyuan Zhang, Mohan Shi et al.** · 2026-06-09
-
-<details>
-<summary>Abstract</summary>
-
-Transformer-based Speech Foundation Models excel in most Automatic Speech Recognition tasks but often suffer performance degradation when applied to domains with mismatched acoustic characteristics. While Parameter Efficient Fine-Tuning (PEFT) methods, such as Low-Rank Adaptation (LoRA), adjust global attention, they lack the local context modeling crucial for capturing domain-specific variations. We propose GC-LoRA, a novel adapter architecture that injects Conformer-style local convolutional processing into pretrained Transformer encoders. By integrating a lightweight adapter to encoder attention output projections, our method efficiently captures local acoustic dependencies without disrupting pretrained global representations. Experiments across diverse datasets (acoustically-degraded, bandlimited, dialectal, child) demonstrate the efficacy of our approach, achieving Word Error Rate (WER) reductions of up to 10.9% compared to baselines while adding minimal trainable parameters.
-
-</details>
-
-#### [Speech Meets ELF: Audio Conditional Continuous-Target Diffusion for Speech Recognition and Translation](https://arxiv.org/abs/2606.10368) · [📄 Read](papers/2026/2606.10368.md)
-
-**Xuanchen Li, Tianrui Wang, Yuheng Lu, Zikang Huang et al.** · 2026-06-09
-
-<details>
-<summary>Abstract</summary>
-
-Speech-to-text (S2T) systems for recognition (ASR) and translation (S2TT) typically generate discrete text tokens. In contrast, continuous-target language modelling performs generation in a continuous space, yet its potential for S2T remains unexplored. To bridge this gap, we propose ELF-S2T, an audio-conditioned continuous-target generative model for S2T. Built upon the pre-trained Embedded Language Flows (ELF) backbone, ELF-S2T processes speech via a frozen Whisper encoder and a single linear projector, prepending the resulting audio condition to the noisy text latent for in-context, flow-matching denoising. To prevent the model from over-relying on its pre-trained text context, we introduce audio forcing during training, and further amplify the audio condition via classifier-free guidance at inference. Experiments on LibriSpeech and CoVoST2 show that ELF-S2T achieves competitive ASR and S2TT performance. Crucially, our error analysis reveals that, although ASR and S2TT errors look very different on the surface, both stem from the same underlying cause, a close distance confusion in the continuous latent space. This finding naturally aligns with the continuous representation generation paradigm, indicating a common semantic mapping process beneath recognition and translation. Our code and pretrained models are publicly available at https://github.com/Sslnon/ELF-S2T.
-
-</details>
-
-#### [Is Text All You Need? Text as a Universal Information Bottleneck for Speech LLMs](https://arxiv.org/abs/2606.09366) · [📄 Read](papers/2026/2606.09366.md)
-
-**Ming-Hao Hsu, Yuxuan Hu, Shujie Liu, Jinyu Li et al.** · 2026-06-08
-
-<details>
-<summary>Abstract</summary>
-
-Large language models (LLMs) provide a powerful reasoning backbone for speech understanding, but integrating continuous acoustic signals into a frozen LLM remains challenging. Existing speech-to-LLM interfaces typically operate at two extremes: either enforcing near-discrete token alignment, which benefits transcription but loses paralinguistic information, or learning unconstrained continuous representations, which can drift away from the LLM's input space and degrade autoregressive decoding. In this work, we propose Convex Gate (C-Gate), a speech-to-LLM bridge that constrains all speech representations to lie within the LLM's input embedding manifold with an architectural convex-hull constraint. Concretely, each frame is represented as a convex combination of token embeddings, ensuring compatibility with the pretrained LLM while preserving continuous expressivity. Across automatic speech recognition (ASR) and emotion recognition, C-Gate achieves strong joint performance, improving LibriSpeech WER by up to 48.7% relative while matching or exceeding single-task emotion accuracy. Beyond performance, our analysis reveals a key insight: information is not carried by discrete token identities, but by time-resolved trajectories in the embedding space. Causal interventions confirm that both the trajectory structure and alignment to the pretrained embedding manifold are critical for performance. These results suggest that geometry, rather than token discreteness, is the fundamental design factor in speech-to-LLM interfaces, and provide a controlled regime for studying multimodal integration in frozen LLMs. We release the checkpoint, per-sample outputs, mechanism dumps, and intervention suite for replication.
-
-</details>
-
-#### [Rethinking Depth: A study of the Recursive-Transformer for Speech Recognition](https://arxiv.org/abs/2606.09357) · [📄 Read](papers/2026/2606.09357.md)
-
-**Thomas Rolland, Carlos Carvalho, Alberto Abad** · 2026-06-08
-
-<details>
-<summary>Abstract</summary>
-
-Transformer-based architectures have led to significant improvements in Automatic Speech Recognition (ASR), often at the cost of substantially increased model sizes. A promising approach to address this issue is layer sharing through depth recursion, commonly referred to as the Recursive-Transformer, which involves repeatedly applying the same layers within the model. Despite its potential shown in other fields, this technique remains relatively unexplored in ASR. In this paper, we present an experimental study of the Recursive-Transformer applied to ASR encoder architectures. We systematically investigate the impact of recursion depth and layer allocation within the Recursive-based Transformer. Our results demonstrate that the Recursive-Transformer is a viable alternative, especially when recurrence is applied in the latent space with a restricted number of loops, obtaining comparable performance while reducing the parameter count by 66%.
-
-</details>
-
-#### [Parameter-Efficient Continual Learning for Automatic Speech Recognition](https://arxiv.org/abs/2606.09342) · [📄 Read](papers/2026/2606.09342.md)
-
-**Steven Vander Eeckt, Hugo Van hamme** · 2026-06-08
-
-<details>
-<summary>Abstract</summary>
-
-Speech foundation models enable strong general-purpose ASR and are attractive for downstream adaptation. However, their size and the catastrophic forgetting induced by sequential fine-tuning demand parameter-efficient and regularized training methods, motivating parameter-efficient continual learning (PECL). While PECL has been widely studied in NLP and vision, it has received less attention in ASR. In this paper, we propose a simple yet effective PECL method based on recent advances in parameter-efficient fine-tuning for ASR. We partition pretrained weight matrices into head and tail subspaces according to singular values and restrict adaptation to approximate rotations within the low-energy tail subspace, preserving dominant components and reducing forgetting. For subsequent tasks, rotations are combined via weight averaging to further improve retention. Experiments on two benchmarks demonstrate reduced forgetting and superior overall performance compared to recent PECL baselines.
-
-</details>
-
-#### [Overcoming Decoder Inconsistencies in Whisper for Dravidian and Low-Resource Languages](https://arxiv.org/abs/2606.09535) · [📄 Read](papers/2026/2606.09535.md)
-
-**Chowdam Venkata Kumar, Kumud Tripathi, Pankaj Wasnik** · 2026-06-08
-
-<details>
-<summary>Abstract</summary>
-
-Multilingual ASR models such as Whisper perform well on high-resource languages but exhibit substantially higher Word Error Rates (WER) for Dravidian languages compared to Indo-Aryan ones. Through linguistic and dataset analysis, we show that Dravidian languages have longer words, higher vocabulary diversity, and lower repetition, resulting in sparse token distributions and frequent character-level substitution errors. Baseline fine-tuning further reveals decoder imbalance between self-attention (linguistic context) and cross-attention (acoustic cues). Although synthetic token-repetition experiments indicate potential gains, they are impractical. Motivated by these observations, we introduce two decoder-level enhancements: Weighted-Attention, which adaptively balances attention sources, and Self-Conditioning, which reinjects intermediate predictions to improve token consistency. Experiments demonstrate consistent WER reductions for low-resource and agglutinative languages.
-
-</details>
-
-#### [Cross-Modal Masking for Robust Silent Speech Synthesis Using sEMG and Lipreading](https://arxiv.org/abs/2606.09667) · [📄 Read](papers/2026/2606.09667.md)
-
-**Eder del Blanco, David Gimeno-Gómez, Eva Navas, Carlos-D. Martínez-Hinarejos et al.** · 2026-06-08
-
-<details>
-<summary>Abstract</summary>
-
-Speech restoration through silent speech interfaces (SSIs) has emerged as a promising assistive technology for individuals with impaired or absent laryngeal voice production. Among non-invasive SSI modalities, surface electromyography (sEMG) and video-based lipreading provide complementary articulatory information, yet their integration for continuous speech synthesis remains underexplored. Moreover, existing multimodal approaches rarely address robustness to modality degradation or temporary sensor failure, limiting their applicability in realistic scenarios. In this work, we propose a masked multimodal speech synthesis framework that jointly leverages sEMG and lipreading signals through modality masking during training. Under multispeaker settings, the proposed approach reduces word error rate by up to 14 absolute percentage points compared to the strongest unimodal baseline. Experimental results not only show that masking strategies are critical for these performance gains and robustness under low-bitrate conditions, but also that they generalize better than degradation-specific data augmentations in the presence of modality absence conditions. Phone-level analyses further reveal complementary contributions across modalities, with particularly strong benefits for vowels and for specific consonant groups. Overall, these findings demonstrate the effectiveness and robustness of masked multimodal integration for silent speech synthesis, although adaptation to laryngectomized speakers remains an open research challenge.
-
-</details>
-
-#### [End-to-End Training for Discrete Token LLM based TTS System](https://arxiv.org/abs/2606.09234) · [📄 Read](papers/2026/2606.09234.md)
-
-**Changfeng Gao, Yong Ren, Jun Yuan, Ye Bai et al.** · 2026-06-08
-
-<details>
-<summary>Abstract</summary>
-
-Recent state-of-the-art (SOTA) text-to-speech (TTS) systems typically adopt a cascaded pipeline consisting of a speech tokenizer, an autoregressive large language model (LLM), and a diffusion based flow-matching (FM) model, with these components trained independently. In this paper, we propose a fully end-to-end (E2E) optimization framework that unifies the training of the speech tokenizer, LLM, FM model, and an additional reward model (RM). Specifically, we first jointly optimize the tokenizer using multi-task objectives derived from reconstruction for FM, next-token prediction for LLM, and multi recognition task for RM. This joint training encourages the discrete speech token space to capture acoustically and semantically salient information that is better tailored to TTS. We then further optimize the LLM using downstream reconstruction and recognition by FM and RM, which reduces inference-time mismatch and steers the LLM toward more preferred generations. Experimental results show that our E2E framework consistently outperforms cascaded baselines. On the Seed-TTS-Eval benchmark, our system achieves a word error rate (WER) of 0.78% and 1.56%, a new SOTA result with a 0.6B-parameter LLM and 0.5B-parameter FM model. These results validate that holistic E2E optimization is critical for improving discrete-token-based TTS systems with a much simpler training pipeline.
 
 </details>
 
