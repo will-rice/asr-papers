@@ -61,12 +61,67 @@ Select _full = true_ to back-fill from 2015 and rebuild all paper markdown, or l
 
 <!-- PAPERS_TABLE_START -->
 
-_Showing the last 30 days (71 of 5426 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
+_Showing the last 30 days (77 of 5440 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
 
 <details open>
 <summary><h3>2026</h3></summary>
 
-#### [Tokenizer Transplantation: Mitigating Autoregressive Collapse in Edge-Efficient Bengali ASR](https://arxiv.org/abs/2607.09598)
+#### [Casting Everything to Online API Services? A Survey of Integrating Localized Speech Recognition Models in Robotic Systems](https://arxiv.org/abs/2607.11792)
+
+**Sheng Li, Jing Li, Felix Schijve, Jun Hu et al.** · 2026-07-13
+
+<details>
+<summary>Abstract</summary>
+
+Automatic speech recognition (ASR) has become a critical component of modern robotic systems because it is one of the most natural and intuitive ways for humans to interact with robots. A commonly used method is to directly use API services online. But is that all we can do? This article provides an overview of how ASR technologies are integrated into various intelligent robots and machines. We discuss the evolution of speech recognition from established approaches to state-of-the-art deep learning models, such as OpenAI's Whisper. We also list large-scale datasets and open source toolkits that have been widely used in both industry and academia. We structure the survey around ASR model families, deployment strategies in robotics (especially ROS-based, cloud-based, and hybrid solutions), and several real-world robotic platforms. Finally, we outline the challenges of deploying robust speech recognition in robots and discuss future directions, including multimodal interaction in diverse and dynamic environments. This paper can help social robotics researchers better navigate the emerging domain of language-based natural human-robot interaction.
+
+</details>
+
+#### [Synchronized Three-Dimensional Vocal-Tract Motion for Speech Synchronization via Joint-Embedding Predictive Architecture Alignment](https://arxiv.org/abs/2607.11772)
+
+**Sheng Li, Takahiro Shinozaki** · 2026-07-13
+
+<details>
+<summary>Abstract</summary>
+
+Modern neural speech systems can generate intelligible waveforms, but they usually hide the physical speech-production state that produced the sound. Conversely, biomechanical vocal-tract models expose articulatory structure, contact behavior, airflow routing, and geometric constraints, but direct physical waveform synthesis remains less robust than modern neural vocoders. A duration-preserving acoustic carrier supplies the listening waveform, while a corrected three-dimensional vocal-tract model supplies synchronized jaw, lip, tongue, velum, laryngeal, oral-airflow, and nasal-airflow motion. A joint-embedding predictive architecture (JEPA)-style representation and a reinforcement learning/cross-entropy method (RL/CEM) trajectory-selection loop align articulatory actions to the acoustic carrier and to physical-plausibility constraints. The evaluation contains 12 3D recordings covering 24 minimal-pair stimuli. On the 24-word set, the carrier obtains good automatic speech recognition (ASR) results (an 8.33\% WER, a 4.17\% CER), a UTMOS score of 3.174, a mean JEPA score of 0.864, and a mean timbre-guard score of 0.947.
+
+</details>
+
+#### [Which Languages Transfer Best to Warlpiri? A Similarity-Based Study for Low-Resource ASR](https://arxiv.org/abs/2607.10256)
+
+**Pravina Mylvaganam, Eliathamby Ambikairajah, Ting Dang, Vidhyasaharan Sethu et al.** · 2026-07-11
+
+<details>
+<summary>Abstract</summary>
+
+This paper investigates how language similarity can improve cross-lingual transfer for automatic speech recognition (ASR) in extremely low-resource settings. Warlpiri, an Australian Aboriginal language, has very limited transcribed speech data, making transfer learning essential. We propose a framework combining acoustic similarity from pre-trained speech models with linguistic similarity based on typology, phoneme inventories, grammatical, and syntactic features to rank high-resource source languages and evaluate their effectiveness for ASR transfer to Warlpiri. Experiments with Whisper show that acoustically and typologically similar languages outperform monolingual and multilingual baselines. Assamese and Hindi achieve substantial reductions in word and character error rates. Correlation analysis further indicates that acoustic similarity is the strongest predictor of fine-tuning performance, while phoneme inventory and typological similarity better explain zero-shot transfer.
+
+</details>
+
+#### [GigaAM Multilingual: Foundation Model for Underrepresented Languages](https://arxiv.org/abs/2607.10371)
+
+**Andrei Kuzmenko, Alexandr Maximenko, Aleksandr Kutsakov, Georgii Gospodinov et al.** · 2026-07-11
+
+<details>
+<summary>Abstract</summary>
+
+Despite recent scaling successes, multilingual ASR performance remains highly uneven, with long-tail languages suffering from severe data scarcity. This work addresses the challenge of building robust foundation models for underrepresented Central Asian languages (Kazakh, Kyrgyz, Uzbek). We present GigaAM Multilingual, a Conformer encoder pre-trained on 2M hours of audio using a HuBERT-style objective. Crucially, we introduce a cluster-level data balancing strategy during pre-training and a domain-aware sampling method during fine-tuning to mitigate head-language dominance. In controlled comparisons, our approach outperforms strong open pretrained encoders (Whisper Large v3, Omnilingual-1B) on target languages, achieving significant gains on spontaneous speech while maintaining efficiency. We release the foundation encoder and ASR model, offering a proven recipe for effective multilingual adaptation under realistic data imbalance.
+
+</details>
+
+#### [Breaking the Quality--Intelligibility Trade-off in Streaming Target Speaker Extraction via Deep-Feature-Anchored Preference Optimization](https://arxiv.org/abs/2607.10191)
+
+**Shuhai Peng, Jinjiang Liu, Hui Lu, Liyang Chen et al.** · 2026-07-11
+
+<details>
+<summary>Abstract</summary>
+
+Generative streaming models for Target Speaker Extraction (TSE) commonly exhibit a quality--intelligibility trade-off, wherein naive optimization for perceptual audio quality tends to degrade speech intelligibility, and conversely. We reveal that this trade-off arises not from the constraints of streaming architectures, but from an inappropriate choice of optimization anchor. Directly optimizing against audio quality metrics induces catastrophic reward hacking, where content critical to pronunciation and intelligibility is systematically erased to maximize a proxy score. To break this bottleneck, we propose two complementary improvements: an enlarged Conformer convolution kernel for richer local spectro-temporal modeling, and WavLM-anchored Direct Preference Optimization (DPO) fine-tuning strategy. DPO preference pairs are ranked by WavLM cosine similarity, a deep acoustic feature encoding both phonetic structure and speaker identity, providing an optimization anchor that resists hacking. Under a 560 ms streaming chunk size, the proposed method achieves a 10.9% relative intelligibility improvement (word error rate: 0.138 to 0.123), with marginal simultaneous gains in audio quality and speaker similarity.
+
+</details>
+
+#### [Tokenizer Transplantation: Mitigating Autoregressive Collapse in Edge-Efficient Bengali ASR](https://arxiv.org/abs/2607.09598) · [📄 Read](papers/2026/2607.09598.md)
 
 **Sanjid Hasan, Md. Abdur Rahman** · 2026-07-10
 
@@ -77,7 +132,7 @@ Lightweight speech recognition models are critical for edge deployment, yet high
 
 </details>
 
-#### [Optimal Transport-based Semantic Alignment for LLM-based Audio-Visual Speech Recognition](https://arxiv.org/abs/2607.09001)
+#### [Optimal Transport-based Semantic Alignment for LLM-based Audio-Visual Speech Recognition](https://arxiv.org/abs/2607.09001) · [📄 Read](papers/2026/2607.09001.md)
 
 **Xugang Lu, Peng Shen, Yu Tsao, Hisashi Kawai** · 2026-07-10
 
@@ -88,7 +143,7 @@ Large language model (LLM)-based audio-visual speech recognition (LLM-AVSR) has 
 
 </details>
 
-#### [FreyaTTS Technical Report](https://arxiv.org/abs/2607.09530)
+#### [FreyaTTS Technical Report](https://arxiv.org/abs/2607.09530) · [📄 Read](papers/2026/2607.09530.md)
 
 **Ahmet Erdem Pamuk, Ömer Yentür, Ahmet Tunga Bayrak, Yavuz Alp Sencer Öztürk et al.** · 2026-07-10
 
@@ -99,7 +154,18 @@ We introduce Freya-TTS, a compact, tokenizer-free, Turkish-first text-to-speech 
 
 </details>
 
-#### [TVTA: Trajectory-Aware Viseme-Guided Temporal Aggregation for Event-Based Lip Reading](https://arxiv.org/abs/2607.08236)
+#### [Generative Testing of Automated Speech Recognition Systems](https://arxiv.org/abs/2607.09833)
+
+**Yanis Xabier Wilbrand Peña, Oliver Weißl, Andrea Stocco** · 2026-07-10
+
+<details>
+<summary>Abstract</summary>
+
+Automatic speech recognition (ASR) systems have achieved high accuracy with transformer-based models, enabling deployment in critical applications. However, they remain vulnerable to adversarial manipulation, particularly in black-box settings where attacks must preserve perceptual naturalness. This work introduces GATAS, a black-box testing approach that generates failure inducing inputs by operating in the phoneme-level latent space of a text- to-speech model. Instead of perturbing waveforms directly, the approach interpolates latent representations to induce transcription errors while remaining within the manifold of natural speech. The attack is formulated as a multi-objective optimization problem balancing semantic divergence and perceptual quality. Our empirical evaluation against both white-box and black-box baselines shows that GATAS achieves a 98% success rate while producing lower distortion and higher perceptual quality, as confirmed by human studies. Despite operating without gradient access, GATAS remains competitive against white-box methods, highlighting that representation and perceptual alignment are more critical than access to model internals. Overall, our results demonstrate that untargeted latent-space optimization enables the efficient generation of realistic and effective test cases for ASR systems.
+
+</details>
+
+#### [TVTA: Trajectory-Aware Viseme-Guided Temporal Aggregation for Event-Based Lip Reading](https://arxiv.org/abs/2607.08236) · [📄 Read](papers/2026/2607.08236.md)
 
 **Jingrong Zheng, Hongwei Ren, Xiangqian Wu** · 2026-07-09
 
@@ -110,7 +176,7 @@ Event-based lip reading has recently emerged as a promising direction for visual
 
 </details>
 
-#### [VSRo-200: A Romanian Visual Speech Recognition Dataset for Studying Supervision and Multimodal Robustness](https://arxiv.org/abs/2607.08112)
+#### [VSRo-200: A Romanian Visual Speech Recognition Dataset for Studying Supervision and Multimodal Robustness](https://arxiv.org/abs/2607.08112) · [📄 Read](papers/2026/2607.08112.md)
 
 **Iulia-Maria Udrea, Alexandra Diaconu, Bogdan Alexe** · 2026-07-09
 
@@ -121,7 +187,7 @@ We introduce VSRo-200, the first large-scale dataset for visual speech recogniti
 
 </details>
 
-#### [When Synthetic Speech Is All You Have: Better Call GRPO](https://arxiv.org/abs/2607.08409)
+#### [When Synthetic Speech Is All You Have: Better Call GRPO](https://arxiv.org/abs/2607.08409) · [📄 Read](papers/2026/2607.08409.md)
 
 **Shashi Kumar, Yanis Labrak, Hasindri Watawana, Sergio Burdisso et al.** · 2026-07-09
 
@@ -132,7 +198,7 @@ LLM-based ASR adapted to regulated domains such as banking is bottlenecked by pr
 
 </details>
 
-#### [Diarization-Guided Qwen-ASR Adaptation for Multilingual Two-Speaker Conversational Speech](https://arxiv.org/abs/2607.08208)
+#### [Diarization-Guided Qwen-ASR Adaptation for Multilingual Two-Speaker Conversational Speech](https://arxiv.org/abs/2607.08208) · [📄 Read](papers/2026/2607.08208.md)
 
 **Hao Wu, RongQi Han, Zhen Wang, Wei Liang et al.** · 2026-07-09
 
@@ -143,7 +209,7 @@ This paper describes our self-designed system for Task 1 of the MLC-SLM 2026 Cha
 
 </details>
 
-#### [From Sinhala to Dhivehi: Cross-Lingual Transfer Learning for Low-Resource Speech Recognition](https://arxiv.org/abs/2607.06289)
+#### [From Sinhala to Dhivehi: Cross-Lingual Transfer Learning for Low-Resource Speech Recognition](https://arxiv.org/abs/2607.06289) · [📄 Read](papers/2026/2607.06289.md)
 
 **Lukmal Ilyas, Nevidu Jayatilleke** · 2026-07-07
 
@@ -154,7 +220,7 @@ Dhivehi, the national language of the Maldives, is currently under-resourced for
 
 </details>
 
-#### [Audio Sentiment Analysis via Distillation and Cross-Modal Integration of Generated Multilingual Transcripts](https://arxiv.org/abs/2607.06611)
+#### [Audio Sentiment Analysis via Distillation and Cross-Modal Integration of Generated Multilingual Transcripts](https://arxiv.org/abs/2607.06611) · [📄 Read](papers/2026/2607.06611.md)
 
 **Andrei-George Durdun, Victor Constantinescu, Radu Tudor Ionescu** · 2026-07-07
 
@@ -165,7 +231,7 @@ Automatically recognizing the sentiment, positive or negative, from speech is a 
 
 </details>
 
-#### [Gradient-Based Speech-to-Text Alignment for Any ASR Model: From CTC to Speech LLMs](https://arxiv.org/abs/2607.06831)
+#### [Gradient-Based Speech-to-Text Alignment for Any ASR Model: From CTC to Speech LLMs](https://arxiv.org/abs/2607.06831) · [📄 Read](papers/2026/2607.06831.md)
 
 **Albert Zeyer, Ralf Schlüter, Hermann Ney** · 2026-07-07
 
@@ -209,7 +275,7 @@ End-to-end ASR models transcribe in a single pass, leaving no room for the decod
 
 </details>
 
-#### [Revisiting the Relation Between Language Model Perplexity and ASR Word Error Rate for Modern End-to-End Speech Recognition](https://arxiv.org/abs/2607.05612)
+#### [Revisiting the Relation Between Language Model Perplexity and ASR Word Error Rate for Modern End-to-End Speech Recognition](https://arxiv.org/abs/2607.05612) · [📄 Read](papers/2026/2607.05612.md)
 
 **Mohammad Zeineldeen, Albert Zeyer, Haoran Zhang, Robin Schmitt et al.** · 2026-07-06
 
@@ -217,6 +283,17 @@ End-to-end ASR models transcribe in a single pass, leaving no room for the decod
 <summary>Abstract</summary>
 
 Language model (LM) perplexity (PPL) has historically been used as a proxy for automatic speech recognition (ASR) word error rate (WER), with prior work reporting an approximately linear relation in log-log space. Modern end-to-end ASR systems challenge this assumption because they already contain internal language modeling capacity, are often evaluated without external language models, and can now be combined with neural LMs and large language models (LLMs) through different recognition strategies. This paper revisits the relation between PPL and WER for modern ASR systems. We study whether external LMs still improve current end-to-end ASR systems, whether the PPL-WER relation remains linear in log-log space, how encoder context length affects this relation, and how LLM perplexities fit into the trend observed for standard neural LMs. We further investigate internal language modeling (ILM) in attention-based encoder-decoder systems and show that ILM subtraction changes the observed PPL-WER relation, indicating that the decoder's internal LM must be considered when interpreting the effect of external LM quality.
+
+</details>
+
+#### [REDDIT: Correcting Model-Generated Timestamp Drift in ASR without Forgetting via Replay-Based Distribution Editing](https://arxiv.org/abs/2607.05364)
+
+**Cheng-Kang Chou, Ming-To Chuang, Ke-Han Lu, Chan-Jan Hsu et al.** · 2026-07-06
+
+<details>
+<summary>Abstract</summary>
+
+Modern autoregressive ASR systems can emit timestamps as decoded tokens, enabling timestamped transcription without frame-level aligners or inference-time post-processing. We show that these generated timestamps can drift across long non-speech spans: the transcript may remain plausible, but the decoded time axis drifts away from the audio. We study this non-speech-induced timestamp drift with self-built gap and long-gap benchmarks across 15 evaluated timestamp-producing ASR and audio-language systems. Naive timestamp-corrected fine-tuning improves alignment but can severely degrade non-target ASR behavior, exposing a forgetting problem. We propose REDDIT(REplay-based Distribution eDITing), a lightweight two-stage post-training framework that corrects timestamps while avoiding this catastrophic forgetting: it first edits timestamp targets under the model's own replayed decoder context while matching the frozen base distribution on non-timestamp tokens, then applies a short edited-prefix refinement stage. In this framework, we construct correction supervision without human transcripts or human timestamp annotations by combining VAD-trimmed speech spans with inserted non-speech gaps and known concatenation offsets. On Whisper-tiny, 34.9 hours of targeted correction audio used and only 1.6% of model parameters updated, raising long-gap mIoU from 38.7% to 95.0% and reducing mixed-gap out-of-domain AAS from 2752 ms to 223 ms while preserving CV-en MER at 41.3% (versus 524.2% for ordinary SFT decoder tuning).
 
 </details>
 
@@ -833,17 +910,6 @@ Code-switch (CS) Automatic Speech Recognition (ASR) remains challenging due to l
 <summary>Abstract</summary>
 
 Fine-tuning Transformer-based foundation models has become the dominant strategy for domain adaptation in audio and speech processing. To reduce the computational and memory costs of this process, parameter-efficient transfer learning (PETL) methods have been widely explored. Meanwhile, Mamba, a recent state-space model, has emerged as a promising alternative to Transformers for sequence modeling. In this work, we present MambAdapter, a parameter-efficient transfer learning approach that integrates Mamba into low-rank bottleneck adapters. Our design combines parameter sharing across adapters with the injection of a lightweight Mamba module, enabling more effective modeling of audio features. We demonstrate that MambAdapter matches or outperforms strong PETL baselines on four audio classification tasks and five speech recognition languages, even when operating under reduced parameter budgets.
-
-</details>
-
-#### [A Practical Evaluation Method for Long-Form Simultaneous Speech-to-Speech Translation](https://arxiv.org/abs/2606.15059) · [📄 Read](papers/2026/2606.15059.md)
-
-**Yulin Xue, Siqi Ouyang, Lei Li** · 2026-06-13
-
-<details>
-<summary>Abstract</summary>
-
-Simultaneous speech-to-speech translation (SimulS2ST) enables real-time cross-lingual communication, but existing evaluation has focused largely on short or pre-segmented speech rather than long-form, continuous input. Prior approaches are difficult to reproduce and make assumptions that do not hold for end-to-end systems. We present a practical evaluation method for long-form SimulS2ST. Given source speech, pre-segmented source transcripts, and reference translations, we run automatic speech recognition (ASR) and forced alignment on the generated target speech to recover token-level timestamps, then apply a sentence-embedding-based aligner to match the target text to its corresponding source sentences. This enables sentence-level computation of latency and quality metrics, including YAAL and xCOMET, which are then aggregated into final system-level scores. Experiments on representative SimulS2ST systems show that the method is effective in practice and reveal that current systems suffer from substantial latency accumulation on long speech.
 
 </details>
 
