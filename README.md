@@ -61,12 +61,12 @@ Select _full = true_ to back-fill from 2015 and rebuild all paper markdown, or l
 
 <!-- PAPERS_TABLE_START -->
 
-_Showing the last 30 days (77 of 5451 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
+_Showing the last 30 days (75 of 5451 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
 
 <details open>
 <summary><h3>2026</h3></summary>
 
-#### [Audio-Native Speech Recognition with a Frozen Discrete-Diffusion Language Model](https://arxiv.org/abs/2607.13013)
+#### [Audio-Native Speech Recognition with a Frozen Discrete-Diffusion Language Model](https://arxiv.org/abs/2607.13013) · [📄 Read](papers/2026/2607.13013.md)
 
 **Harsha Vardhan Khurdula, Abhinav Kumar Singh, Yoeven D Khemlani, Vineet Agarwal** · 2026-07-14
 
@@ -77,7 +77,7 @@ Automatic speech recognition is dominated by autoregressive decoders that emit o
 
 </details>
 
-#### [AVSCap: Orchestrating Audio-Visual Synergy for Omni-modal Video Captioning](https://arxiv.org/abs/2607.12820)
+#### [AVSCap: Orchestrating Audio-Visual Synergy for Omni-modal Video Captioning](https://arxiv.org/abs/2607.12820) · [📄 Read](papers/2026/2607.12820.md)
 
 **Yanghai Wang, Jiahao Wang, Jiafu Tang, Yuanxing Zhang et al.** · 2026-07-14
 
@@ -187,7 +187,7 @@ Automatic speech recognition (ASR) systems have achieved high accuracy with tran
 
 </details>
 
-#### [ANALISIS PERFORMA OCR TESSERACT DAN CRNN PADA DOKUMEN SURAT JALAN SEMI-TERSTRUKTUR](https://www.semanticscholar.org/paper/1af221b1b8ded5942ba771c89bebfc59946ed717)
+#### [ANALISIS PERFORMA OCR TESSERACT DAN CRNN PADA DOKUMEN SURAT JALAN SEMI-TERSTRUKTUR](https://www.semanticscholar.org/paper/1af221b1b8ded5942ba771c89bebfc59946ed717) · [📄 Read](papers/2026/s2:1af221b1b8ded5942ba771c89bebfc59946ed717.md)
 
 **Ali As’ad, Iska Yanuartanti, Danang Erwanto** · 2026-07-10
 
@@ -888,28 +888,6 @@ Synthetic data has the potential to be a valuable resource for training machine 
 <summary>Abstract</summary>
 
 The Montreal Forced Aligner (MFA) was released in 2016 and has since become the most widely used tool for forced alignment in research and industry. In the decade since, MFA has undergone substantial development, including expanded coverage across more languages and dialects using larger open-source datasets, harmonized IPA dictionaries, model adaptation, cross-language phone remapping, and support utilities. This paper documents MFA 3.0's developments since version 1.0 and evaluates MFA's performance across English, Japanese, and Korean, benchmarked against classic and neural forced aligners. MFA 3.0 achieves state-of-the-art or near state-of-the-art performance across all four benchmark datasets with mean boundary errors below 15 ms. Adaptation and cross-language remapping are effective for languages outside MFA's training distribution, and pronunciation probability modeling and phonological rules provide gains in specific conditions.
-
-</details>
-
-#### [Are you speaking my languages? On spoken language adherence in multimodal LLMs](https://arxiv.org/abs/2606.17281) · [📄 Read](papers/2026/2606.17281.md)
-
-**Hyungwon Kim, Kandarp Joshi, Lillian Zhou, Pavel Golik et al.** · 2026-06-15
-
-<details>
-<summary>Abstract</summary>
-
-While Large Language Model (LLM) based Automatic Speech Recognition (ASR) enables seamless multilingual use, models often misidentify the output language, compromising transcription fidelity and downstream application quality. To preserve flexibility and code-switching capabilities, we propose a soft prompting approach that hints at potential spoken languages without strictly constraining the output. We formally define this challenge as a lack of language adherence, introduce a novel metric to quantify violations, and evaluate three mitigation strategies: (1) zero-shot prompting for robust guidance under uncertainty, (2) supervised fine-tuning (SFT) to improve prompt adherence, and (3) Chain-of-Thought (CoT) reasoning to enforce adherence during decoding. We present a comparative analysis of these methods across multiple languages, evaluating effectiveness in reducing the language violation while maintaining overall ASR performance. Finally, we discuss trade-offs to guide strategy selection under various compute constraints.
-
-</details>
-
-#### [Confidence Score Guided Incremental and Speaker Adaptive Pseudo-Labeling for Semi-Supervised Elderly Speech Recognition](https://arxiv.org/abs/2606.16546) · [📄 Read](papers/2026/2606.16546.md)
-
-**Chengxi Deng, Xurong Xie, Shujie Hu, Jiajun Deng et al.** · 2026-06-15
-
-<details>
-<summary>Abstract</summary>
-
-This paper proposes a novel confidence score guided incremental and speaker adaptive pseudo-labeling approach for semi-supervised elderly speech recognition. It facilitates higher-quality pseudo-label selection and progressive refinement, while also mitigating speaker heterogeneity. A confidence estimation module is designed to rank the reliability of untranscribed data, enabling a curriculum learning trajectory that progressively folds in unlabeled data subsets from high to low confidence. Speaker-specific characteristics are captured through speaker adaptive training with learnable prompts. Experiments on the English DementiaBank Pitt and Cantonese JCCOCC MoCA elderly speech datasets suggest that the proposed method outperforms the semi-supervised baseline using no confidence scores guided incremental or speaker adaptive pseudo-labeling by statistically significant word error rate (WER) or character error rate (CER) reductions of 1.45% and 2.27% absolute (6.21% and 6.98% relative).
 
 </details>
 
