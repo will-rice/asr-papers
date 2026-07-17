@@ -61,7 +61,7 @@ Select _full = true_ to back-fill from 2015 and rebuild all paper markdown, or l
 
 <!-- PAPERS_TABLE_START -->
 
-_Showing the last 30 days (75 of 5451 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
+_Showing the last 30 days (71 of 5452 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
 
 <details open>
 <summary><h3>2026</h3></summary>
@@ -844,50 +844,6 @@ Chinese dialects discrimination is a challenging natural language processing tas
 <summary>Abstract</summary>
 
 Language discrimination among similar languages, varieties, and dialects is a challenging natural language processing task. The traditional text-driven focus leads to poor results. In this paper, we explore the effectiveness of speech-driven features towards language discrimination among Chinese dialects. First, we systematically explore the appropriateness of speech-driven MFCC features towards CNN-based language discrimination. Then, we design an end-to-end speech recognition model based on HMM-DNN to predict Chinese dialect words. We adopt attention to extract the discriminative words related to different Chinese dialects. Finally, through a CNN, we combine the word-level embedding and the MFCC-based features. Evaluation of two benchmark Chinese dialect corpora shows the appropriateness and effectiveness of the proposed speech-driven approach to fine-grained Chinese dialect discrimination compared to the state-of-the-art methods.
-
-</details>
-
-#### [ASTRA: A Scalable Next-Generation ATCO Training Simulator with Autonomous Simpilots](https://arxiv.org/abs/2606.18319) · [📄 Read](papers/2026/2606.18319.md)
-
-**Ethan Chew, Enjia Wu, Iruss Eng, Ian Lim et al.** · 2026-06-16
-
-<details>
-<summary>Abstract</summary>
-
-Air Traffic Control Operators (ATCOs) are vital in ensuring the safe, orderly, and efficient flow of air traffic, yet training capacity is constrained by reliance on specialized human trainers known as simpilots, who must role-play both pilots and ATCOs in a simulated airspace. Existing automated solutions rely on Western-centric speech models that perform poorly in Singaporean operational contexts, with off-the-shelf systems exhibiting Word Error Rates (WER) of up to 107.80% on Singaporean-accented aviation speech. We introduce ASTRA, an end-to-end training simulator that automates these simpilot roles through a pipeline that transcribes ATCO speech, interprets instructions, and generates appropriate pilot and ATCO responses using locally adapted voice models. Our fine-tuned Automatic Speech Recognition (ASR) pipeline reduces WER to 23.45%, substantially outperforming existing approaches in this domain. Beyond traffic simulation, ASTRA incorporates an AI-assisted performance evaluation framework that assesses trainee radiotelephony communications across accuracy, brevity, and completeness, achieving post-optimization scores of 91.7%, 88.2%, and 86.9%, respectively. Built on open-source foundations such as DSPy and Unsloth, this approach enables scalable, standardized ATCO assessment while reducing instructor workload.
-
-</details>
-
-#### [Improving low-resource ASR using bilingual fine-tuning with language identification: a cross-linguistic evaluation](https://arxiv.org/abs/2606.17820) · [📄 Read](papers/2026/2606.17820.md)
-
-**Reihaneh Amooie, Yun Hao, Wietse de Vries, Jelske Dijkstra et al.** · 2026-06-16
-
-<details>
-<summary>Abstract</summary>
-
-This study explores how bilingual fine-tuning affects automatic speech recognition (ASR) in low-resource languages. We evaluate this method across nine linguistically and geographically diverse language pairs, covering a range of language families and writing systems. To distinguish the two languages, during training, we pre-pend each input text with a language identification token. At inference, the model jointly predicts both the language and transcription from the speech input alone. As texts for which the language is incorrectly determined show low ASR performance, we also conduct a follow-up experiment in which the language identification token is provided both during training and inference. Our results show that bilingual fine-tuning can be beneficial when language identification accuracy is high, and that in cases where language identification performance is low, including the language identification token at inference helps to improve ASR performance.
-
-</details>
-
-#### [An Analysis of the Effectiveness of Synthetic Speech Data for ASR Fine-tuning in Selected Indic Languages](https://arxiv.org/abs/2606.17662) · [📄 Read](papers/2026/2606.17662.md)
-
-**Sujith Pulikodan, Agneedh Basu, Pavan Kumar, Pranav Bhat et al.** · 2026-06-16
-
-<details>
-<summary>Abstract</summary>
-
-Synthetic data has the potential to be a valuable resource for training machine learning models, particularly Automatic Speech Recognition (ASR) Systems; however, its effectiveness requires systematic evaluation. In this study, we investigate the impact of incorporating synthetic speech data alongside real-world recordings for three Indic languages: Hindi, Kannada, and Telugu. We analyze the performance gains achieved by augmenting synthetic data with real data and independently examine how ASR performance varies with the sources of scripts used to generate synthetic speech. In addition, we evaluate the effect of synthetic speech generated using different speech synthesis models. Finally, we study the impact of voice cloning in synthetic speech generation on ASR performance, including how performance varies with the number of distinct cloned voices used during data generation.
-
-</details>
-
-#### [Montreal Forced Aligner and the state of speech-to-text alignment in 2026](https://arxiv.org/abs/2606.18466) · [📄 Read](papers/2026/2606.18466.md)
-
-**Michael McAuliffe, Kaylynn Gunter, Michael Wagner, Morgan Sonderegger** · 2026-06-16
-
-<details>
-<summary>Abstract</summary>
-
-The Montreal Forced Aligner (MFA) was released in 2016 and has since become the most widely used tool for forced alignment in research and industry. In the decade since, MFA has undergone substantial development, including expanded coverage across more languages and dialects using larger open-source datasets, harmonized IPA dictionaries, model adaptation, cross-language phone remapping, and support utilities. This paper documents MFA 3.0's developments since version 1.0 and evaluates MFA's performance across English, Japanese, and Korean, benchmarked against classic and neural forced aligners. MFA 3.0 achieves state-of-the-art or near state-of-the-art performance across all four benchmark datasets with mean boundary errors below 15 ms. Adaptation and cross-language remapping are effective for languages outside MFA's training distribution, and pronunciation probability modeling and phonological rules provide gains in specific conditions.
 
 </details>
 
