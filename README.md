@@ -61,7 +61,7 @@ Select _full = true_ to back-fill from 2015 and rebuild all paper markdown, or l
 
 <!-- PAPERS_TABLE_START -->
 
-_Showing the last 30 days (71 of 5452 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
+_Showing the last 30 days (69 of 5457 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
 
 <details open>
 <summary><h3>2026</h3></summary>
@@ -88,6 +88,17 @@ Omni-modal video captioning is not merely combining visual captioning with audio
 
 </details>
 
+#### [An Omnilingual-ASR-Based Speech-LLM System for the 2nd MLC-SLM Challenge](https://arxiv.org/abs/2607.12468)
+
+**Shuming Fang, Shuifei Zeng** · 2026-07-14
+
+<details>
+<summary>Abstract</summary>
+
+We describe our submission to Task 1 of the 2nd MLCSLM Challenge: a cascaded diarization-then-recognition system that combines DiariZen-Large-s80 (WavLM-Large) segmentation, CAM++ embedding-based two-speaker clustering, and a LoRA-adapted omniASR LLM 7B v2 recognizer, with no oracle segmentation or speaker labels at test time. On the official Development set (150 conversations, 21 language/accent categories) the system attains a macro tcpMER of 29.27%, versus 79.15% for the official baseline; on the Evaluation set it scores 50.23%. We also analyze two engineering choices that substantially affect tcpMER. First, embedding-based speaker clustering outperforms an end-to-end-style alternative that assigns speakers from ASRturn markers alone. Second, overlap-aware segmentation, although intended to raise diarization recall, increases tcpMER because overlapped speech is transcribed twice.
+
+</details>
+
 #### [Casting Everything to Online API Services? A Survey of Integrating Localized Speech Recognition Models in Robotic Systems](https://arxiv.org/abs/2607.11792) · [📄 Read](papers/2026/2607.11792.md)
 
 **Sheng Li, Jing Li, Felix Schijve, Jun Hu et al.** · 2026-07-13
@@ -107,6 +118,17 @@ Automatic speech recognition (ASR) has become a critical component of modern rob
 <summary>Abstract</summary>
 
 Modern neural speech systems can generate intelligible waveforms, but they usually hide the physical speech-production state that produced the sound. Conversely, biomechanical vocal-tract models expose articulatory structure, contact behavior, airflow routing, and geometric constraints, but direct physical waveform synthesis remains less robust than modern neural vocoders. A duration-preserving acoustic carrier supplies the listening waveform, while a corrected three-dimensional vocal-tract model supplies synchronized jaw, lip, tongue, velum, laryngeal, oral-airflow, and nasal-airflow motion. A joint-embedding predictive architecture (JEPA)-style representation and a reinforcement learning/cross-entropy method (RL/CEM) trajectory-selection loop align articulatory actions to the acoustic carrier and to physical-plausibility constraints. The evaluation contains 12 3D recordings covering 24 minimal-pair stimuli. On the 24-word set, the carrier obtains good automatic speech recognition (ASR) results (an 8.33\% WER, a 4.17\% CER), a UTMOS score of 3.174, a mean JEPA score of 0.864, and a mean timbre-guard score of 0.947.
+
+</details>
+
+#### [Unified Gradient Projection: Language-Balanced Continual Learning for Multilingual Low-Resource ASR](https://arxiv.org/abs/2607.11163)
+
+**Ziang Ren, Guodong Lin, Yuchen Ai, Kaize Tan et al.** · 2026-07-13
+
+<details>
+<summary>Abstract</summary>
+
+Large-scale pretrained ASR models such as Whisper exhibit strong multilingual capabilities. However, fine-tuning on low-resource languages often causes catastrophic forgetting. Although continual learning mitigates this issue, existing methods struggle to regulate cross-task interference in multilingual settings, where dominant languages bias optimization. We propose Unified Gradient Projection (UGP), which constrains parameter updates using reference gradients from language-balanced replay in a unified projection space. By equalizing per-language contributions in the projection, UGP reduces dominant-language bias and improves cross-lingual stability. We further show that combining gradient-level projection with data-level replay yields complementary gains in stability and plasticity. Across diverse low-resource language groups and model scales, UGP enables effective adaptation while substantially mitigating forgetting. On Whisper-large-v3, it achieves near-zero average forgetting.
 
 </details>
 
@@ -800,50 +822,6 @@ The challenge associated with recognizing dysarthric speech primarily arises fro
 <summary>Abstract</summary>
 
 Quran Automatic Speech Recognition (ASR) aims to convert Quranic recitation into text, enabling applications such as aided memorisation tools and Quranic search engines. However, existing ASR models often exhibit high Word Error Rates (WER) on user-recited verses and lack full coverage of the Quranic corpus. This paper presents a systematic empirical study of domain-specific fine-tuning of pretrained Transformer-based models for Quranic ASR, using advanced speech feature extraction methods: Wav2Vec2.0, HuBERT, and XLS-R. These models apply self-supervised learning by masking portions of input audio and using Transformer architectures to learn context-aware speech features. The pretrained models are fine-tuned on a filtered Quranic dataset exceeding 870 hours of professional and user recitations. Through comprehensive ablation studies across feature extractors, output label formats, training strategies, and clip durations, we identify the key factors that affect transcription accuracy in this domain. Our best-performing configuration achieves a WER of 0.08 on the EveryAyah subset and 0.11 on the combined EveryAyah+Tarteel setting, representing roughly a five-percentage-point gain over the Citrinet baseline (WER = 0.163) while reducing combined-model training time from 140 hours to 40 hours. Arabic text without diacritics yields the best fine-tuning results, and Wav2Vec2-XLSR-53 provides the strongest overall representation. Future work includes improving dataset quality and developing phoneme-aware models to extract deeper speech feature representations for Tajweed-sensitive applications.
-
-</details>
-
-#### [DASH: Dual-View Self-Distillation with Multi-Layer Hidden Representations for Robust Speech Recognition](https://arxiv.org/abs/2606.19203) · [📄 Read](papers/2026/2606.19203.md)
-
-**Jaeeun Baik, Ui-Hyeop Shin, Jiwoon Lee, Woocheol Jeong et al.** · 2026-06-17
-
-<details>
-<summary>Abstract</summary>
-
-Automatic Speech Recognition (ASR) often degrades in real-world noisy environments, making noise robustness essential for deployment. Supervised noise-augmented fine-tuning is a common remedy, but it can introduce a robustness-clean trade-off and overfit to specific corruptions, degrading recognition in clean conditions. We propose DASH, a self-distillation framework that improves robustness by learning clean--noisy consistency from paired views. DASH distills hidden representations from multiple encoder layers to capture features from low-level acoustics to high-level semantics, and stabilizes training by minimizing KL divergence between prototype assignment distributions of clean and noisy views. Experiments on LibriSpeech show that DASH consistently improves recognition under diverse noisy conditions while preserving clean accuracy, achieved by a label-free pre-training stage with minimal additional overhead (about 4% of fine-tuning time) beyond standard fine-tuning.
-
-</details>
-
-#### [Responsible ASR: Overcoming Challenges of Foundational Models in Narrow-Band and Low-Resource Settings](https://arxiv.org/abs/2606.18659) · [📄 Read](papers/2026/2606.18659.md)
-
-**Tejas Godambe, Nutan Choudhary, Sanket Shah, Nagaraj Adiga et al.** · 2026-06-17
-
-<details>
-<summary>Abstract</summary>
-
-Telephony conversations worldwide are conducted over narrow-band channels and are often spontaneous and colloquial in nature. This paper evaluates the performance of widely used foundational automatic speech recognition (ASR) models -- both open-source and commercial -- on narrow-band conversations in Hindi, a low-resource language, and Indian-accented English, a low-resource accent. We first assess these models in a zero-shot setting and find that their performance remains suboptimal across the board. Highlighting the challenges faced by ASR models in narrow-band and low-resource language scenarios, we further investigate the impact of fine-tuning open-source models using a limited set of real-life annotated recordings. Our findings indicate that while fine-tuning provides some improvements, its effectiveness varies across languages and accents, largely influenced by the amount of data encountered during pretraining
-
-</details>
-
-#### [Low-resource Language Discrimination Towards Chinese Dialects with Transfer learning and Data Augmentation](https://arxiv.org/abs/2606.18597) · [📄 Read](papers/2026/2606.18597.md)
-
-**Fan Xu, Yangjie Dan, Keyu Yan, Yong Ma et al.** · 2026-06-17
-
-<details>
-<summary>Abstract</summary>
-
-Chinese dialects discrimination is a challenging natural language processing task due to scarce annotation resource. In this article, we develop a novel Chinese dialects discrimination framework with transfer learning and data augmentation (CDDTLDA) in order to overcome the shortage of resources. To be more specific, we first use a relatively larger Chinese dialects corpus to train a source-side automatic speech recognition (ASR) model. Then, we adopt a simple but effective data augmentation method (i.e., speed, pitch, and noise disturbance) to augment the target-side low-resource Chinese dialects, and fine-tune another target ASR model based on the previous source-side ASR model. Meanwhile, the potential common semantic features between source-side and target-side ASR models can be captured by using self-attention mechanism. Finally, we extract the hidden semantic representation in the target ASR model to conduct Chinese dialects discrimination. Our extensive experimental results demonstrate that our model significantly outperforms state-of-the-art methods on two benchmark Chinese dialects corpora.
-
-</details>
-
-#### [Speech-Driven End-to-End Language Discrimination towards Chinese Dialects](https://arxiv.org/abs/2606.18584) · [📄 Read](papers/2026/2606.18584.md)
-
-**Fan Xu, Jian Luo, MingWen Wang, GuoDong Zhou** · 2026-06-17
-
-<details>
-<summary>Abstract</summary>
-
-Language discrimination among similar languages, varieties, and dialects is a challenging natural language processing task. The traditional text-driven focus leads to poor results. In this paper, we explore the effectiveness of speech-driven features towards language discrimination among Chinese dialects. First, we systematically explore the appropriateness of speech-driven MFCC features towards CNN-based language discrimination. Then, we design an end-to-end speech recognition model based on HMM-DNN to predict Chinese dialect words. We adopt attention to extract the discriminative words related to different Chinese dialects. Finally, through a CNN, we combine the word-level embedding and the MFCC-based features. Evaluation of two benchmark Chinese dialect corpora shows the appropriateness and effectiveness of the proposed speech-driven approach to fine-grained Chinese dialect discrimination compared to the state-of-the-art methods.
 
 </details>
 
