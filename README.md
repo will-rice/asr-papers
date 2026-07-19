@@ -61,7 +61,7 @@ Select _full = true_ to back-fill from 2015 and rebuild all paper markdown, or l
 
 <!-- PAPERS_TABLE_START -->
 
-_Showing the last 30 days (69 of 5457 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
+_Showing the last 30 days (65 of 5457 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
 
 <details open>
 <summary><h3>2026</h3></summary>
@@ -88,7 +88,7 @@ Omni-modal video captioning is not merely combining visual captioning with audio
 
 </details>
 
-#### [An Omnilingual-ASR-Based Speech-LLM System for the 2nd MLC-SLM Challenge](https://arxiv.org/abs/2607.12468)
+#### [An Omnilingual-ASR-Based Speech-LLM System for the 2nd MLC-SLM Challenge](https://arxiv.org/abs/2607.12468) · [📄 Read](papers/2026/2607.12468.md)
 
 **Shuming Fang, Shuifei Zeng** · 2026-07-14
 
@@ -121,7 +121,7 @@ Modern neural speech systems can generate intelligible waveforms, but they usual
 
 </details>
 
-#### [Unified Gradient Projection: Language-Balanced Continual Learning for Multilingual Low-Resource ASR](https://arxiv.org/abs/2607.11163)
+#### [Unified Gradient Projection: Language-Balanced Continual Learning for Multilingual Low-Resource ASR](https://arxiv.org/abs/2607.11163) · [📄 Read](papers/2026/2607.11163.md)
 
 **Ziang Ren, Guodong Lin, Yuchen Ai, Kaize Tan et al.** · 2026-07-13
 
@@ -778,50 +778,6 @@ Dual-mode self-supervised speech models are pre-trained to handle streaming and 
 <summary>Abstract</summary>
 
 Advances in deep learning and end-to-end Automatic Speech Recognition (ASR) have enabled robust multilingual models, but evaluation metrics remain limited in assessing accuracy. Efforts to improve or replace the common metric Word Error Rate (WER) often focus on English, leaving evaluations for low-resource languages under-explored and hindering fair cross-lingual comparisons. We present OpenWER, an open-source implementation that improves WER robustness through language-specific normalisation and compound word detection. A token-based Levenshtein alignment preserves complementary metrics and allows metadata embedding for granular accuracy scores. Our analysis of 52 languages shows absolute WER reductions of up to 25% compared to common libraries. OpenWER contributes to fairness in ASR research by increasing the reliability of WER across diverse languages and enabling more comprehensive accuracy evaluations.
-
-</details>
-
-#### [ReNikud: Audio-Supervised Hebrew Grapheme-to-Phoneme Conversion](https://arxiv.org/abs/2606.20179) · [📄 Read](papers/2026/2606.20179.md)
-
-**Maxim Melichov, Yakov Kolani, Morris Alper** · 2026-06-18
-
-<details>
-<summary>Abstract</summary>
-
-Grapheme-to-phoneme (G2P) conversion for Modern Hebrew is needed for applications like text-to-speech (TTS), but is challenging due to the language's abjad writing system, which leaves vowels largely unwritten, creating substantial ambiguity. Standard approaches first predict vowel diacritics (nikud) to produce International Phonetic Alphabet (IPA) transcriptions, but this is limited: vocalization data is scarce and laborious to produce, it does not specify features such as lexical stress, and it reflects formal grammatical rules rather than everyday spoken pronunciation. Direct sequence-to-sequence IPA prediction, meanwhile, struggles on limited data and fails to exploit the character-level alignment characteristic of abjads. Our method, ReNikud, overcomes these limitations with two key insights: (1) Weak audio supervision via a phoneme-based automatic speech recognition (ASR) pseudo-labeling pipeline on thousands of hours of unlabeled Hebrew audio, yielding phonemic transcriptions that reflect natural spoken norms without manual annotation. (2) A pseudo-vocalization architecture that predicts IPA phonemes at each character position, enforcing character-level alignment as an inductive bias. Results on existing Hebrew G2P benchmarks and the new targeted MILIM benchmark for spoken Hebrew show that ReNikud surpasses previous state-of-the-art methods. We will release our code and trained models to support further work on Hebrew TTS and speech technologies.
-
-</details>
-
-#### [Improving End-to-End Speech Recognition for Dysarthric Speech through In-Domain Data Augmentation](https://arxiv.org/abs/2606.19797) · [📄 Read](papers/2026/2606.19797.md)
-
-**Paban Sapkota, Hemant Kumar Kathania, Sudarsana Reddy Kadiri, Shrikanth Narayanan** · 2026-06-18
-
-<details>
-<summary>Abstract</summary>
-
-Dysarthric speech recognition is crucial for facilitating effective communication among individuals with dysarthria. However, accurately recognizing dysarthric speech poses significant challenges due to varying severity levels and limited data availability. In this paper, we explore data augmentation techniques for dysarthric automatic speech recognition (ASR) systems by fine-tuning the End-to-End pre-trained Wav2Vec2 model, with a specific focus on severity levels. To address the challenges of data scarcity and the need for extensive data in fine-tuning pre-trained ASR systems for dysarthric speech, we investigate four prominent data augmentation methods: Speaking-Rate Modification (SRM), Pitch Modification (PM), Formant Modification (FM), and vocal tract Length Perturbation (VTLP), tailored to different aspects of dysarthria. The study uses individually fine-tuned Wav2Vec2 models for each severity class as baseline systems. Additionally, we conducted severity-specific fine-tuning of the ASR model using augmented data. Results demonstrate distinct efficacy patterns for each augmentation technique across severity levels. The best WERs were achieved with SRM ($s$=0.8) for \textit{low} (9.02\%) and \textit{medium} (38.11\%) severities, and with PM ($τ$=0.8) for \textit{high} severity (55.15\%), reflecting relative improvements of 30.02\%, 16.64\%, and 15.47\%, respectively. These results confirm the effectiveness of the augmentation methods in improving dysarthric ASR performance.
-
-</details>
-
-#### [Systematic Study of Dysarthric Speech Recognition: Spectral Features and Acoustic Models](https://arxiv.org/abs/2606.19793) · [📄 Read](papers/2026/2606.19793.md)
-
-**Paban Sapkota, Hemant Kumar Kathania, Mikko Kurimo, Sudarsana Reddy Kadiri et al.** · 2026-06-18
-
-<details>
-<summary>Abstract</summary>
-
-The challenge associated with recognizing dysarthric speech primarily arises from pronounced acoustic variability attributed to impaired articulatory precision. Past research has demonstrated improved recognition through the use of hybrid DNN/HMM sequence discriminative training. This paper presents a comprehensive investigation of various combinations of acoustic features tailored to different Acoustic Models, offering suitable feature selections for each. The incorporation of Pitch features notably improved recognition performance, especially for sentence recognition tasks involving dysarthric speech. Through a systematic examination of the TORGO database, we have demonstrated the potential to enhance the performance of the state-of-the-art Factorized Time Delay Neural Network (F-TDNN) model for recognizing dysarthric speech. Our methods, implemented with the F-TDNN model, resulted in a 4.65\% relative improvement in isolated word recognition and a 4.63\% relative improvement in sentence recognition for dysarthric speech, compared to previous research. This improvement effectively compensates for speech variability, attributable to our deliberate selection of the number of overlapping frames between consecutive training example chunks.
-
-</details>
-
-#### [A Comparative Study of Pretrained Transformer Models for Quranic ASR: Speech Representations, Label Formats, and Dataset Composition](https://arxiv.org/abs/2606.19747) · [📄 Read](papers/2026/2606.19747.md)
-
-**Nabil Mosharraf Hossain, Riasat Islam, Unaizah Obaidellah** · 2026-06-18
-
-<details>
-<summary>Abstract</summary>
-
-Quran Automatic Speech Recognition (ASR) aims to convert Quranic recitation into text, enabling applications such as aided memorisation tools and Quranic search engines. However, existing ASR models often exhibit high Word Error Rates (WER) on user-recited verses and lack full coverage of the Quranic corpus. This paper presents a systematic empirical study of domain-specific fine-tuning of pretrained Transformer-based models for Quranic ASR, using advanced speech feature extraction methods: Wav2Vec2.0, HuBERT, and XLS-R. These models apply self-supervised learning by masking portions of input audio and using Transformer architectures to learn context-aware speech features. The pretrained models are fine-tuned on a filtered Quranic dataset exceeding 870 hours of professional and user recitations. Through comprehensive ablation studies across feature extractors, output label formats, training strategies, and clip durations, we identify the key factors that affect transcription accuracy in this domain. Our best-performing configuration achieves a WER of 0.08 on the EveryAyah subset and 0.11 on the combined EveryAyah+Tarteel setting, representing roughly a five-percentage-point gain over the Citrinet baseline (WER = 0.163) while reducing combined-model training time from 140 hours to 40 hours. Arabic text without diacritics yields the best fine-tuning results, and Wav2Vec2-XLSR-53 provides the strongest overall representation. Future work includes improving dataset quality and developing phoneme-aware models to extract deeper speech feature representations for Tajweed-sensitive applications.
 
 </details>
 
