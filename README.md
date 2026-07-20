@@ -61,10 +61,43 @@ Select _full = true_ to back-fill from 2015 and rebuild all paper markdown, or l
 
 <!-- PAPERS_TABLE_START -->
 
-_Showing the last 30 days (65 of 5457 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
+_Showing the last 30 days (63 of 5460 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
 
 <details open>
 <summary><h3>2026</h3></summary>
+
+#### [Controlling Implicit Shortcut Reliance in L2 Spoken English Auto-markers](https://arxiv.org/abs/2607.16085)
+
+**Shilin Gao, Mark J. F. Gales, Kate M. Knill** · 2026-07-17
+
+<details>
+<summary>Abstract</summary>
+
+Increasingly, speech and language processing tasks take either audio or text directly rather than extracting features from these as the input to the classifier or regressor. Often these systems make use of complex, for example transformer-based, processes that have the ability to derive highly non-linear mappings between the input and the output. Unfortunately these systems can also learn ''shortcuts'' where the classifier is overly reliant on particular aspects of the input to yield the output. For the task of language proficiency assessment, this over-reliance can enable learners to increase their score by exploiting the shortcut rather than improving their ability. This paper introduces a novel training criterion that is able to reduce the classifier's reliance on shortcuts, thus for example limiting this option for malpractice in language assessment. This process is illustrated on two forms of assessment system, one based on the audio the other on the speech recognition text. The results show that, for both systems, there is higher correlations with features that could be exploited for malpractice than expected from the human reference, indicating an over-reliance on these features. By introducing the modified training criterion, this correlation can be reduced to be closer to the reference correlation.
+
+</details>
+
+#### [Natural Backdoor Attacks on Speech Recognition Models](https://arxiv.org/abs/2607.15724)
+
+**Jinwen Xin, Xixiang Lyu, Jing Ma** · 2026-07-17
+
+<details>
+<summary>Abstract</summary>
+
+With the rapid development of deep learning, its vulnerability has gradually emerged in recent years. This work focuses on backdoor attacks on speech recognition systems. We adopt sounds that are ordinary in nature or in our daily life as triggers for natural backdoor attacks. We conduct experiments on two datasets and three models to validate the performance of natural backdoor attacks and explore the effects of poisoning rate, trigger duration and blend ratio on the performance of natural backdoor attacks. Our results show that natural backdoor attacks have a high attack success rate without compromising model performance on benign samples, even with short or low-amplitude triggers. It requires only 5% of poisoned samples to achieve a near 100% attack success rate. In addition, the backdoor will be automatically activated by the corresponding sound in nature, which is not easy to be detected and will bring severer harm.
+
+</details>
+
+#### [SpeechGuard: Online Defense against Backdoor Attacks on Speech Recognition Models](https://arxiv.org/abs/2607.15697)
+
+**Jinwen Xin, Xixiang Lv** · 2026-07-17
+
+<details>
+<summary>Abstract</summary>
+
+Backdoor attacks pose a critical threat to neural network models, allowing attackers to implant a backdoor during the training phase by manipulating a small portion of the training data. In security-sensitive applications such as voice interaction for autonomous driving, the presence of backdoor attacks introduces substantial security risks. This study focuses on implementing backdoor defense measures for speech recognition models in run-time, taking into account the characteristics of audio signals. We propose SpeechGuard, the first online backdoor defense pipeline designed to identify and purify poisoned audio samples. Specifically, we improve STRIP method to perform adaptive perturbation injection to detect and filter poisoned samples, named as S-STRIP. More importantly, we further consider the purification of poisoned samples. We utilize time-frequency (T-F) masking to suppress the expression of trigger signals and autonomously generate masks based on an autoencoder. The two-stage processing prevents the backdoor in the model from being triggered, and even input speech carrying triggers can be accurately predicted. Extensive experimental demonstrate that SpeechGuard can accurately filter out poisoned samples. Through purification, it can significantly mitigate the backdoor threat while maintaining a certain prediction accuracy.
+
+</details>
 
 #### [Audio-Native Speech Recognition with a Frozen Discrete-Diffusion Language Model](https://arxiv.org/abs/2607.13013) · [📄 Read](papers/2026/2607.13013.md)
 
@@ -723,61 +756,6 @@ Low-resource African languages lack text corpora needed for language model train
 <summary>Abstract</summary>
 
 Code-switching (CSW) remains challenging for large multi-lingual ASR systems in real-world deployment. While fine-tuning on synthetic CSW data is possible, it generally degrades strong monolingual baselines. Our goal is to preserve these capabilities while extending models to handle complex code-switching, including morphological variations across languages. We propose Bayesian factorized adaptation, which learns to efficiently integrate switching-relevant knowledge into strong pretrained models without overwriting existing capabilities. Requiring only a small amount of synthetic data, our approach reduces transcription errors by 32.87% on code-switched words while improving overall WER by 5.31%, all while maintaining mono-lingual performance. Our results demonstrate that effective CSW adaptation depends more on knowledge integration than data complexity.
-
-</details>
-
-#### [Error-Aware TF-IDF Retrieval-Augmented Generation for ASR Error Correction](https://arxiv.org/abs/2606.24915) · [📄 Read](papers/2026/2606.24915.md)
-
-**Mohammad Aref Jafari-Raddani** · 2026-06-19
-
-<details>
-<summary>Abstract</summary>
-
-End-to-end automatic speech recognition systems frequently hallucinate rare entities and domain-specific terms, especially in low-resource languages. While retrieval-augmented generation frameworks can mitigate these errors using large language models, current architectures face significant challenges. They either rely on standard sparse retrieval that ignores phonetic misrecognitions or utilize heavyweight cross-modal embeddings that introduce high latency. This letter proposes a highly efficient, purely lexical error-aware framework designed to explicitly resolve phonetic and loop hallucinations. Our approach integrates a symmetric text normalization module with a novel error-aware term frequency-inverse document frequency algorithm. By constructing a sparse diagonal penalty matrix based on historical errors, the retriever mathematically prioritizes corrective documents containing specific high-risk misrecognitions. Evaluated on the Persian subset of the FLEURS dataset, our method increased the error-aware hit rate from 53.7% to 90.9%. In end-to-end evaluations, the integrated framework reduced the final word error rate from 23.06% to 18.83%, achieving significant accuracy gains with near-zero inference latency.
-
-</details>
-
-#### [DisSpeech: Low-Resource Controllable Mandarin Stuttered Speech Synthesis for ASR Augmentation](https://arxiv.org/abs/2606.21457) · [📄 Read](papers/2026/2606.21457.md)
-
-**Yao Lu** · 2026-06-19
-
-<details>
-<summary>Abstract</summary>
-
-Stuttered speech recognition remains challenging, with disfluencies such as repetitions, prolongations, and blocks disrupting speech continuity and acoustic patterns. This problem is further aggravated in Mandarin scenarios by the limited availability of stuttered speech data, which makes it difficult to train robust ASR models for diverse disfluency patterns. To address this problem, this paper proposes DisSpeech, a discrete speech token-based framework for low-resource controllable Mandarin stuttered speech synthesis and ASR data augmentation. The proposed framework introduces explicit stuttering event labels to control different disfluency patterns. Text and stuttering event labels are mapped into semantic speech tokens by a non-autoregressive masked generative Transformer, followed by prosody-aware acoustic reconstruction with explicit pitch and energy modeling. With fine-tuning using less than 50 hours of Mandarin stuttered speech, DisSpeech can generate controllable stuttered speech with competitive speech quality. Experimental results show that the proposed method outperforms previous stuttered speech synthesis methods in both speech quality and event controllability. Furthermore, the synthesized stuttered speech effectively improves multiple ASR models, with Qwen3-ASR-0.6B achieving a state-of-the-art CER of 4.19% on the evaluated Mandarin stuttered speech recognition task, while causing only slight degradation on fluent speech.
-
-</details>
-
-#### [Vaani Benchmark V1.0: An Inclusive Multimodal Benchmark Dataset for Hindi](https://arxiv.org/abs/2606.21408) · [📄 Read](papers/2026/2606.21408.md)
-
-**Sujith Pulikodan, Agneedh Basu, Saurabh Kumar, Pranav Bhat et al.** · 2026-06-19
-
-<details>
-<summary>Abstract</summary>
-
-Benchmarking is critical for the systematic evaluation and comparison of automatic speech recognition (ASR) systems. While several open-source datasets are available for Hindi ASR, existing benchmarks remain limited in geographic diversity, demographic representation, and transcription robustness. We introduce an inclusive, multimodal Hindi ASR benchmark collected from 104 districts across India. The dataset consists of spontaneous speech elicited using image prompts and recorded in real-world acoustic conditions across diverse demographic groups. Each audio segment is annotated with three independent transcriptions, enabling multi-reference evaluation that accounts for permissible orthographic and lexical variations. This design supports more robust, inclusive, and realistic ASR evaluation. We benchmark multiple open-source and proprietary ASR models and report their comparative performance on the benchmark dataset.
-
-</details>
-
-#### [Online Predictive Coding for Dual-Mode Self-Supervised Speech Model](https://arxiv.org/abs/2606.21268) · [📄 Read](papers/2026/2606.21268.md)
-
-**Keita Goto, Takashi Maekaku, Jin Sakuma, Jinchuan Tian et al.** · 2026-06-19
-
-<details>
-<summary>Abstract</summary>
-
-Dual-mode self-supervised speech models are pre-trained to handle streaming and non-streaming conditions simultaneously. However, their attention is computed over different context ranges, which often makes optimization difficult. In previous work, we proposed online registers, additional tokens intended to compensate for missing future context in streaming mode, but the gains remained limited. To address these issues, we introduce two improvements for robust dual-mode pre-training: (1) Online Predictive Coding (OPC), which regularizes the registers through multi-step future prediction, and (2) Dual-mode Layer Normalization, which stabilizes optimization. We fine-tune the proposed dual-mode self-supervised speech models for speech recognition on LibriSpeech and WSJ. Results show that OPC consistently reduces the online-offline performance gap; at 160 ms latency on LibriSpeech, word error rates improve from 3.65% to 3.40% on test-clean and from 10.15% to 9.65% on test-other.
-
-</details>
-
-#### [OpenWER: Improving Cross-Lingual ASR Evaluation and Enabling Token-Based Accuracy Metrics](https://arxiv.org/abs/2606.21237) · [📄 Read](papers/2026/2606.21237.md)
-
-**Korbinian Kuhn, Gottfried Zimmermann** · 2026-06-19
-
-<details>
-<summary>Abstract</summary>
-
-Advances in deep learning and end-to-end Automatic Speech Recognition (ASR) have enabled robust multilingual models, but evaluation metrics remain limited in assessing accuracy. Efforts to improve or replace the common metric Word Error Rate (WER) often focus on English, leaving evaluations for low-resource languages under-explored and hindering fair cross-lingual comparisons. We present OpenWER, an open-source implementation that improves WER robustness through language-specific normalisation and compound word detection. A token-based Levenshtein alignment preserves complementary metrics and allows metadata embedding for granular accuracy scores. Our analysis of 52 languages shows absolute WER reductions of up to 25% compared to common libraries. OpenWER contributes to fairness in ASR research by increasing the reliability of WER across diverse languages and enabling more comprehensive accuracy evaluations.
 
 </details>
 
