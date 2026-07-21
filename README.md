@@ -61,12 +61,34 @@ Select _full = true_ to back-fill from 2015 and rebuild all paper markdown, or l
 
 <!-- PAPERS_TABLE_START -->
 
-_Showing the last 30 days (63 of 5460 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
+_Showing the last 30 days (63 of 5463 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
 
 <details open>
 <summary><h3>2026</h3></summary>
 
-#### [Controlling Implicit Shortcut Reliance in L2 Spoken English Auto-markers](https://arxiv.org/abs/2607.16085)
+#### [The tttAI System for the TSA-ASR Task of the SmartGlasses Challenge 2026](https://arxiv.org/abs/2607.17867)
+
+**Xuanji He, Gaoyang Dong, Xiaoxiao Li, Minchuan Chen et al.** · 2026-07-20
+
+<details>
+<summary>Abstract</summary>
+
+This paper presents the tttAI system submitted to the TSA-ASR task of the SmartGlasses Challenge 2026, evaluated on both two-person dialogues (Track 1) and multi-party meetings (Track 2). The task requires time-stamped speaker-attributed speech recognition from smart-glasses recordings. This is particularly challenging due to long-form audio, multiple speakers, and frequent overlapping speech. We proposed a cascaded architecture consisting of speaker diarization, overlap detection, target-speaker extraction, post-processing, and automatic speech recognition. The diarization module extracts features via WavLM-Large, performs frame-wise speaker classification with a Conformer encoder, and then generates global speaker segments through embedding clustering. For overlapped regions, we apply a WeSep-based target-speaker extraction model with ECAPA-TDNN speaker embeddings. When the extraction is unreliable, a dominant-speaker fallback strategy is used. The final system uses FireRedASR2-AED with the first microphone channel. The submitted system has a total parameter count of approximately 1.53B. On Track 1, our system achieves a tcpCER of 7.10%. On Track 2, it achieves a tcpCER of 34.04% and ranks second on the leaderboard.
+
+</details>
+
+#### [Robust Assamese Speech Recognition through Controlled Fine-Tuning of Whisper Models](https://arxiv.org/abs/2607.17164)
+
+**Ganapati Das, Dwipen Laskar, Hasin Afzal Ahmed, Sanjib Kr Kalita et al.** · 2026-07-19
+
+<details>
+<summary>Abstract</summary>
+
+Developing Automatic Speech Recognition (ASR) for morphologically rich, low-resource languages such as Assamese is challenging due to insufficient annotated speech data. The pretrained Whisper model performs poorly on Assamese speech recognition tasks. This paper presents a controlled, fine-tuned Whisper-based Assamese ASR system trained on the Mozilla Common Voice 24.0-Assamese corpus. A hardware-aware optimized training pipeline is implemented for resource-constrained environments, employing mixed-precision training and gradient accumulation on Tesla 4 Graphics Processing Units (T4 GPUs). The proposed fine-tuned model significantly outperformed the Zero-shot baseline, yielding Word Error Rate (WER), Character Error Rate (CER), Match Error Rate (MER), and Word Infomation Loss (WIL) of 43.17\%, 13.18\%, 43\%, and 64.81\%, respectively, achieving significant relative improvements of 78.26\%, 93.10\%, 57.0\%, and 35.19\% over the baseline. Semantic evaluation of the fine-tuned model also demonstrates notable improvement over a zero baseline, attaining Bilingual Evaluation Understudy (BLEU) and Metric for Evaluation of Translation with Explicit ORdering (METEOR) scores of 30.81 and 0.5262, respectively. Additionally, the predicted hallucination rate and Real-Time Factor (RTF) are substantially improved by 96.70\% and 32.38\%, compared to the zero-shot baseline.
+
+</details>
+
+#### [Controlling Implicit Shortcut Reliance in L2 Spoken English Auto-markers](https://arxiv.org/abs/2607.16085) · [📄 Read](papers/2026/2607.16085.md)
 
 **Shilin Gao, Mark J. F. Gales, Kate M. Knill** · 2026-07-17
 
@@ -77,7 +99,7 @@ Increasingly, speech and language processing tasks take either audio or text dir
 
 </details>
 
-#### [Natural Backdoor Attacks on Speech Recognition Models](https://arxiv.org/abs/2607.15724)
+#### [Natural Backdoor Attacks on Speech Recognition Models](https://arxiv.org/abs/2607.15724) · [📄 Read](papers/2026/2607.15724.md)
 
 **Jinwen Xin, Xixiang Lyu, Jing Ma** · 2026-07-17
 
@@ -88,7 +110,7 @@ With the rapid development of deep learning, its vulnerability has gradually eme
 
 </details>
 
-#### [SpeechGuard: Online Defense against Backdoor Attacks on Speech Recognition Models](https://arxiv.org/abs/2607.15697)
+#### [SpeechGuard: Online Defense against Backdoor Attacks on Speech Recognition Models](https://arxiv.org/abs/2607.15697) · [📄 Read](papers/2026/2607.15697.md)
 
 **Jinwen Xin, Xixiang Lv** · 2026-07-17
 
@@ -734,28 +756,6 @@ End-to-end Automatic Speech Recognition (ASR) systems hallucinate on natural spe
 <summary>Abstract</summary>
 
 Hallucinations of ASR models - fluent transcriptions with no basis in audio - degrade system performance and pose risks in downstream applications. Robust detection of such errors remains a challenge. This paper studies Whisper large v3 hallucination detection on real-speech human-annotated data across three paradigms: text-based, LLM-based, and internal decoder state probing. Text classifiers utilizing metrics for text evaluation achieve high recall but degrade without reference transcripts. LLM-based detection improves precision with domain-specific prompt conditioning, yet remains less competitive than the lightweight text-based methods. Probing Whisper's decoder representations, without a ground-truth reference, yields the strongest performance, revealing that hallucination traits are encoded across intermediate decoding layers. A late-fusion meta-classifier combining text and internal-state outputs achieves the best overall detection performance.
-
-</details>
-
-#### [From Speech to Text Corpora: Evaluating ASR-Based Data Acquisition for Low-Resource Fongbe and Hausa](https://arxiv.org/abs/2606.22274) · [📄 Read](papers/2026/2606.22274.md)
-
-**Mahounan Pericles Adjovi, Victor Olufemi, Roald Eiselen, Prasenjit Mitra** · 2026-06-20
-
-<details>
-<summary>Abstract</summary>
-
-Low-resource African languages lack text corpora needed for language model training. We investigate whether ASR pipelines can extend text resources for two typologically distinct West African languages: Fongbe (tonal, diacritic-rich) and Hausa (non-tonal). We fine-tune MMS-300M on a curated 12.3-hour Fongbe dataset, achieving 9.48% WER on the ALFFA benchmark - a 78% relative reduction from the prior 44.04% baseline - while preserving tonal diacritics critical to the language. For Hausa, we apply an existing fine-tuned Whisper-Small model. We catalog 1,553 YouTube videos (236 hours) and process a subset of 424 videos (45.49 hours) selected to balance domain diversity with available computational resources, producing 6,770 transcribed segments. Human evaluation on 50 randomly sampled segments per language shows mean quality scores of 57.4/100 for Hausa and 36.5/100 for Fongbe, indicating that while Hausa transcriptions approach acceptable quality for corpus construction, Fongbe transcriptions require post-processing or improved models for production use. We release the curated dataset, fine-tuned model, transcribed corpus, and full video catalog following platform terms and ethical guidelines.
-
-</details>
-
-#### [Adding Robust Code-Switching Capabilities to High Performance Multilingual ASR](https://arxiv.org/abs/2606.21990) · [📄 Read](papers/2026/2606.21990.md)
-
-**Enes Yavuz Ugan, Alexander Waibel** · 2026-06-20
-
-<details>
-<summary>Abstract</summary>
-
-Code-switching (CSW) remains challenging for large multi-lingual ASR systems in real-world deployment. While fine-tuning on synthetic CSW data is possible, it generally degrades strong monolingual baselines. Our goal is to preserve these capabilities while extending models to handle complex code-switching, including morphological variations across languages. We propose Bayesian factorized adaptation, which learns to efficiently integrate switching-relevant knowledge into strong pretrained models without overwriting existing capabilities. Requiring only a small amount of synthetic data, our approach reduces transcription errors by 32.87% on code-switched words while improving overall WER by 5.31%, all while maintaining mono-lingual performance. Our results demonstrate that effective CSW adaptation depends more on knowledge integration than data complexity.
 
 </details>
 
