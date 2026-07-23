@@ -61,12 +61,12 @@ Select _full = true_ to back-fill from 2015 and rebuild all paper markdown, or l
 
 <!-- PAPERS_TABLE_START -->
 
-_Showing the last 30 days (65 of 5465 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
+_Showing the last 30 days (66 of 5469 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
 
 <details open>
 <summary><h3>2026</h3></summary>
 
-#### [From a Multilingual Streaming ASR Backbone to Kenyan-Language Systems: Data-Centric Adaptation of Nemotron 3.5 for Kikuyu, Dholuo, and Kalenjin](https://arxiv.org/abs/2607.18912)
+#### [From a Multilingual Streaming ASR Backbone to Kenyan-Language Systems: Data-Centric Adaptation of Nemotron 3.5 for Kikuyu, Dholuo, and Kalenjin](https://arxiv.org/abs/2607.18912) · [📄 Read](papers/2026/2607.18912.md)
 
 **Mark Gatere** · 2026-07-21
 
@@ -88,6 +88,28 @@ This paper presents the tttAI system submitted to the TSA-ASR task of the SmartG
 
 </details>
 
+#### [Mixed approach speech-to-text translation for endangered language](https://www.semanticscholar.org/paper/ba8308e9cf1a5314b887c1b606e944d802c952be)
+
+**B. L. Sinaga, Stephanie Pamela Adithama, J. Nugraha, Martinus Maslim et al.** · 2026-07-20
+
+<details>
+<summary>Abstract</summary>
+
+This study aims to address the technological marginalization of endangered regional languages by evaluating speech-to-text translation for Dayak Ma’anyan, an extremely low-resource Austronesian language. In particular, it seeks to examine whether cascaded multilingual automatic speech recognition and machine translation models can provide effective Ma’anyan–Indonesian translation despite severe data scarcity. This study employs a cascaded speech-to-text translation framework that combines two multilingual automatic speech recognition models, Whisper Large-v3 and SeamlessM4T v2, with two LoRA-adapted multilingual machine translation models, NLLB-200 3.3B and distilled 600M. Experiments are conducted in an extremely low-resource setting using limited parallel speech and text data. The proposed pipelines are evaluated at three levels: ASR transcription quality, machine translation performance and end-to-end semantic preservation. The results show that cascaded pipelines can produce semantically meaningful Ma’anyan–Indonesian translations even under high transcription error conditions. Whisper substantially outperforms SeamlessM4T at the ASR stage, achieving a lower WER (0.464 vs 0.812) and yielding better downstream translation quality. Among the machine translation models, LoRA-adapted NLLB-200 3.3B achieves the best performance, with BLEU 31.00, chrF 58.91 and the highest end-to-end semantic similarity (SBERT 0.722). The findings further indicate that ASR quality is the dominant determinant of overall speech translation performance, while larger LoRA-adapted MT models provide stronger robustness against noisy ASR outputs. This study provides, to the best of the authors’ knowledge, the first empirical benchmark for Ma’anyan–Indonesian speech-to-text translation. It contributes a systematic evaluation of multilingual ASR and LoRA-adapted MT combinations for endangered-language technology and offers empirical insight into the relative impact of ASR quality and MT model capacity in extremely low-resource cascaded speech translation.
+
+</details>
+
+#### [When to Use Extra Context: Evidence-Grounded Terminology Adaptation for Simultaneous Speech Translation](https://arxiv.org/abs/2607.17766)
+
+**Zeyu Yang, Satoshi Nakamura** · 2026-07-20
+
+<details>
+<summary>Abstract</summary>
+
+Extra context is valuable for simultaneous speech translation of technical talks, but injecting the entire document context into every streaming segment is often too coarse. Through diagnostic experiments, we find that context gains mainly come from paper-specific terminology recovery rather than uniform semantic enhancement. We therefore propose EGTA, an Evidence-Grounded Terminology Adaptation framework that builds a document terminology memory, selects compact candidate terms conditioned on the current streaming state, and adapts ASR/speech-side and decoder-side decision spaces using only the selected terms. EGTA can be instantiated in cascaded, end-to-end, and generation-only SimulST settings without full-model fine-tuning. We evaluate EGTA on an ACL technical-talk SimulST evaluation suite consisting of MCIF-dev and ACL60/60-dev. On MCIF-dev, EGTA-RG improves BLEU by +1.05/+0.59, XCOMET-XL by +0.019/+0.006, named-entity recall by +79\%/+73\% relative, and acronym recall by +0.099/+0.171 on En$\rightarrow$Zh and En$\rightarrow$De. Across MCIF-dev latency settings, EGTA consistently improves XCOMET-XL, named-entity recall, and acronym recall. External validation on ACL60/60-dev further shows consistent terminology-recall gains without additional fine-tuning. Shuffled-memory controls and activation audits provide evidence that the improvements are tied to paper-specific evidence alignment rather than generic context prompting.
+
+</details>
+
 #### [Robust Assamese Speech Recognition through Controlled Fine-Tuning of Whisper Models](https://arxiv.org/abs/2607.17164) · [📄 Read](papers/2026/2607.17164.md)
 
 **Ganapati Das, Dwipen Laskar, Hasin Afzal Ahmed, Sanjib Kr Kalita et al.** · 2026-07-19
@@ -99,7 +121,7 @@ Developing Automatic Speech Recognition (ASR) for morphologically rich, low-reso
 
 </details>
 
-#### [Staged Depth-Pruning Distillation of a Flow-Matching Text-to-Speech Teacher: A Compact Hindi Speech Synthesizer](https://arxiv.org/abs/2607.18662)
+#### [Staged Depth-Pruning Distillation of a Flow-Matching Text-to-Speech Teacher: A Compact Hindi Speech Synthesizer](https://arxiv.org/abs/2607.18662) · [📄 Read](papers/2026/2607.18662.md)
 
 **Sivateja Trikutam** · 2026-07-19
 
@@ -140,6 +162,28 @@ With the rapid development of deep learning, its vulnerability has gradually eme
 <summary>Abstract</summary>
 
 Backdoor attacks pose a critical threat to neural network models, allowing attackers to implant a backdoor during the training phase by manipulating a small portion of the training data. In security-sensitive applications such as voice interaction for autonomous driving, the presence of backdoor attacks introduces substantial security risks. This study focuses on implementing backdoor defense measures for speech recognition models in run-time, taking into account the characteristics of audio signals. We propose SpeechGuard, the first online backdoor defense pipeline designed to identify and purify poisoned audio samples. Specifically, we improve STRIP method to perform adaptive perturbation injection to detect and filter poisoned samples, named as S-STRIP. More importantly, we further consider the purification of poisoned samples. We utilize time-frequency (T-F) masking to suppress the expression of trigger signals and autonomously generate masks based on an autoencoder. The two-stage processing prevents the backdoor in the model from being triggered, and even input speech carrying triggers can be accurately predicted. Extensive experimental demonstrate that SpeechGuard can accurately filter out poisoned samples. Through purification, it can significantly mitigate the backdoor threat while maintaining a certain prediction accuracy.
+
+</details>
+
+#### [Benchmarking Speech Recognition Models for Medical Consultations in Latin American Spanish: A Comparative Evaluation with Fine-Tuning](https://www.semanticscholar.org/paper/53bb4533a34907634f42497c6f21b19bf950868a)
+
+**R. M. Carrillo, A. Carbajal Serrano, P. S. Condori Pinedo** · 2026-07-16
+
+<details>
+<summary>Abstract</summary>
+
+BACKGROUND: Artificial intelligence (AI) medical scribes rely on speech-to-text (STT) models for transcription. Evaluations of STT models in non-English settings remain scarce. We benchmarked ten STT models on medical consultations from Latin American (LatAm) Spanish and assessed whether fine-tuning improves transcription accuracy. METHODS: Ten YouTube videos depicting medical consultations. Human transcriptions were the ground truth. Five open-source models were evaluated: Whisper Large, Whisper Large v3, Whisper Large v3 Turbo, Voxtral Mini 3B, and Canary 1B v2; and so were five close-source models: gpt-4o-transcribe, gpt-4o-mini-transcribe, gemini-2.5-pro, Eleven Labs, and Assembly AI. Whisper Large v3 was fine-tuned. One video was withheld from training. Performance assessed using Word Error Rate (WER), Character Error Rate (CER), BLEU Score, ROUGE-L, BERT Score, and Semantic Similarity on the one withheld video. RESULTS: None of the fine-tuning iterations outperformed the vanilla Whisper Large v3. With the withheld video, Gemini-2.5-pro was the close-source model with the best performance in four of six metrics. In comparison to the close-source models, the fine-tuned model never outperformed the other models (withheld video); conversely, in comparison to the close-source models, the fine-tuned model showed better performance across metrics, for instance: BLEU score (63% vs to 58% for the second-ranking model), BERT (89% vs to 86%), and semantic similarity (89% vs to 83%), CER (19% vs 20%). CONCLUSIONS: Whisper Large v3 and its fine-tuned variant are the best open-source STT models for transcribing medical conversations in LatAm Spanish. These findings provide an evidence base for developing AI medical scribes tailored to Spanish-speaking LatAm.
+
+</details>
+
+#### [Evaluating ASR Pipeline Configurations for Kazakh: Implications for Low-Resource Turkic Languages](https://www.semanticscholar.org/paper/2eb99bc21d5bc64bd6cfc333006204c889c5328d)
+
+**Nursultan Nyssanov, L. Rzayeva, Alisher Batkuldin, Zhaksylyk Kozhakhmet** · 2026-07-15
+
+<details>
+<summary>Abstract</summary>
+
+Kazakh automatic speech recognition (ASR) presents a persistent challenge for large-scale multilingual models. This paper presents a systematic evaluation of 27 ASR pipeline configurations (three ASR models × three VAD methods × three post-processing strategies) on the Kazakh Speech Dataset (KSD), examining the contribution of model fine-tuning, voice activity detection (VAD) preprocessing, and large language model (LLM) post-correction and benchmarking the resulting pipelines against two non-Whisper foundation models. Language-specific fine-tuning reduces Word Error Rate (WER) from 43.20% (generic Whisper-large-v3) to 11.88% (Kazakh fine-tuned Whisper-turbo), a 31.32-percentage-point absolute reduction (72.5% relative; p < 0.001, bootstrap test); the effect persists after controlling for model size (generic Whisper-large-v3-turbo, 18.92%, vs. the same architecture after fine-tuning, 11.88%; p < 0.001). VAD preprocessing consistently degrades performance. Zero-shot post-correction with general-purpose LLMs yields no benefit and adds substantial latency: Gemma-2-9B and Qwen2.5-7B raise WER by 5.5 and 7.2 percentage points at real-time factors of 0.52 and 0.30, and a larger 32B model still degrades accuracy (+10.8 points), indicating that scale is not the limiting factor. Among all systems evaluated, a larger multilingual foundation model, SeamlessM4T-v2 (9.72% WER), outperforms the fine-tuned Whisper, showing that for Kazakh model coverage matters more than pipeline engineering. Character-level error analysis identifies systematic confusion between Kazakh-specific and Russian Cyrillic characters as a dominant error source. These findings establish that, for Kazakh under the evaluated conditions, model choice dominates pipeline add-ons: fine-tuning is essential, VAD and zero-shot LLM correction consistently hurt, and a strong multilingual model sets the best result; we further discuss the extent to which these conclusions extend to typologically similar Kipchak-Turkic languages.
 
 </details>
 
@@ -745,39 +789,6 @@ Aligner-Encoders are recently proposed seq2seq end-to-end ASR models that replac
 <summary>Abstract</summary>
 
 We present Wan-Streamer, a native-streaming, end-to-end interactive foundation model designed from the ground up for real-time, low-latency, full-duplex audio-visual interaction. Wan-Streamer seamlessly models language, audio, and video as both input and output within a single Transformer, where the sequence is represented as interleaved visual, audio, and text input tokens together with visual, audio, and text output tokens, coordinated by block-causal attention for incremental streaming. Unlike cascaded interactive systems that rely on separate VAD, ASR, language, TTS, audio-driven animation, or video-generation modules, Wan-Streamer does not rely on external language, speech, avatar, or video-generation modules: perception, reasoning, generation, response timing, turn management, and cross-modal synchronization are learned jointly within one unified model, reducing pipeline latency and error accumulation. To support natural audio-visual responsiveness, we redesign the entire stack around streamability, including causal encoders, causal decoders, block-causal attention, and low-latency multimodal token scheduling, enabling streaming units as short as 160 ms at 25 fps. Wan-Streamer achieves approximately 200 ms model-side response latency and approximately 550 ms total interaction latency when combined with 350 ms bidirectional network latency, supporting sub-second duplex audio-visual communication. These results position Wan-Streamer as a unified, end-to-end, multimodal interactive foundation model for low-latency streaming interaction.
-
-</details>
-
-#### [Layer-wise Probing of wav2vec 2.0 and Whisper for Consonant Cluster Reduction in African American English](https://arxiv.org/abs/2606.23948) · [📄 Read](papers/2026/2606.23948.md)
-
-**Hamid Mojarad, Kevin Tang** · 2026-06-22
-
-<details>
-<summary>Abstract</summary>
-
-Self-supervised and supervised speech models are increasingly used to investigate which linguistic information their internal representations encode, and at what level of abstraction they encode it. One underexplored phenomenon is consonant cluster reduction (CCR) in African American English (AAE), a widespread phonological process and a source of automatic speech recognition (ASR) disparity. To examine how CCR is represented, we conduct speaker-independent layer-wise probing of wav2vec2-base and Whisper-small using two tasks: segmental reduction detection and segmental restoration of underlying cluster identity. Both models distinguish reduced and canonical forms with high accuracy. Crucially, reduced segments retain cues to their underlying stops, indicating that CCR is encoded as structured gradient phonological variation rather than simple segmental deletion. These results demonstrate structured phonological encoding of AAE CCR patterns in modern speech models.
-
-</details>
-
-#### [HALAS: A Human-Annotated Dataset of Hallucinations of Modern ASR Systems](https://arxiv.org/abs/2606.23048) · [📄 Read](papers/2026/2606.23048.md)
-
-**Mateusz Barański, Jan Jasiński, Julitta Bartolewska, Marcin Witkowski et al.** · 2026-06-22
-
-<details>
-<summary>Abstract</summary>
-
-End-to-end Automatic Speech Recognition (ASR) systems hallucinate on natural speech, yet existing mitigation methods are typically evaluated on non-speech or artificially corrupted audio. We introduce HALAS, the first human-annotated dataset of naturally occurring hallucinations from seven state-of-the-art ASR models on real unprocessed earnings call recordings. HALAS provides span-level labels, enabling analysis of hallucination patterns and their severity. Our analysis reveals strong cross-model vocabulary overlap and confirms that hallucinations also occur for almost correctly transcribed speech (characterized by a low Word Error Rate). The proposed benchmark with HALAS shows that the character and semantic-level metrics used as a proxy for hallucination detection reach 81% ROC-AUC, while state-of-the-art detection methods achieve an F1 score of only 53.1%. As such, HALAS establishes the first rigorous non-artificial benchmark for the detection and mitigation of ASR hallucinations.
-
-</details>
-
-#### [From Text Metrics to Model Internals: A Study of Whisper ASR Hallucination Detection](https://arxiv.org/abs/2606.23060) · [📄 Read](papers/2026/2606.23060.md)
-
-**Jan Jasiński, M. Bara'nski, Julitta Bartolewska, Marcin Witkowski et al.** · 2026-06-22
-
-<details>
-<summary>Abstract</summary>
-
-Hallucinations of ASR models - fluent transcriptions with no basis in audio - degrade system performance and pose risks in downstream applications. Robust detection of such errors remains a challenge. This paper studies Whisper large v3 hallucination detection on real-speech human-annotated data across three paradigms: text-based, LLM-based, and internal decoder state probing. Text classifiers utilizing metrics for text evaluation achieve high recall but degrade without reference transcripts. LLM-based detection improves precision with domain-specific prompt conditioning, yet remains less competitive than the lightweight text-based methods. Probing Whisper's decoder representations, without a ground-truth reference, yields the strongest performance, revealing that hallucination traits are encoded across intermediate decoding layers. A late-fusion meta-classifier combining text and internal-state outputs achieves the best overall detection performance.
 
 </details>
 
