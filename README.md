@@ -61,10 +61,32 @@ Select _full = true_ to back-fill from 2015 and rebuild all paper markdown, or l
 
 <!-- PAPERS_TABLE_START -->
 
-_Showing the last 30 days (66 of 5469 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
+_Showing the last 30 days (63 of 5471 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
 
 <details open>
 <summary><h3>2026</h3></summary>
+
+#### [DONDO: Open w2v-BERT Speech-Recognition Base Models for African Languages](https://arxiv.org/abs/2607.21540)
+
+**Paul Azunre** · 2026-07-23
+
+<details>
+<summary>Abstract</summary>
+
+We present DONDO, a family of open, permissively licensed automatic speech recognition (ASR) base models for African languages, built on the w2v-BERT 2.0 self-supervised speech encoder. DONDO comprises twenty-one monolingual models and five multilingual models spanning twenty-seven language varieties across Ghana, Sierra Leone, Nigeria, Senegal, Kenya and Zimbabwe. Models are fine-tuned primarily on read speech drawn from religious texts, which offer broad, license-clear and orthographically consistent coverage for languages that otherwise lack transcribed audio. We describe a two-step (and, for one family, three-step) learning-rate-annealed fine-tuning procedure that first adapts a shared multilingual model at a high learning rate and then anneals it to recover, and in several cases surpass, strong monolingual baselines. We further describe a lightweight language-conditioning mechanism that injects a one-hot language identity as a sequence of prefix frames prepended to the acoustic features, allowing a single multilingual checkpoint to be steered to a target language at inference. Across the five multilingual families the annealed models reach average word error rates (WER) of 10-13%, closing most of the gap to monolingual models while covering many languages in a single checkpoint. All models are released on the Hugging Face KhayaAI organisation under the Apache-2.0 license (attribution only) so that others may fine-tune them freely, including for commercial use. We provide a conservative estimate that the languages covered are spoken by on the order of one hundred million first-language speakers, and by substantially more when second-language use is included.
+
+</details>
+
+#### [Faster IndexTTS-2: Accelerating and Streaming Autoregressive Zero-Shot Text-to-Speech Synthesis on GPUs](https://arxiv.org/abs/2607.21042)
+
+**Muyang Du, Shuang Yu, Junjie Lai** · 2026-07-23
+
+<details>
+<summary>Abstract</summary>
+
+Autoregressive text-to-speech models achieve strong naturalness but suffer from slow inference due to sequential token generation, limiting their deployment in production applications that require low latency. IndexTTS-2 is a state-of-the-art autoregressive TTS model consisting of a GPT, a flow-matching Diffusion Transformer, and a vocoder. Despite its high synthesis quality, its inference speed barely reaches real-time without streaming or batching support. We present Faster IndexTTS-2, which accelerates all neural network components of IndexTTS-2 for production deployment on GPUs using NVIDIA TensorRT and TensorRT-LLM. Faster IndexTTS-2 also enables streaming synthesis for latency-sensitive interactive applications, and batched inference across all components to maximize GPU utilization. Experiments on the Seed-TTS benchmark for both English and Chinese demonstrate up to 5.0$\times$ speedup on the autoregressive GPT and 3.6$\times$ end-to-end, with minimal degradation in word error rate, speaker similarity, and naturalness. Our methodology provides a practical reference for efficiently accelerating similar autoregressive speech models on GPUs.
+
+</details>
 
 #### [From a Multilingual Streaming ASR Backbone to Kenyan-Language Systems: Data-Centric Adaptation of Nemotron 3.5 for Kikuyu, Dholuo, and Kalenjin](https://arxiv.org/abs/2607.18912) · [📄 Read](papers/2026/2607.18912.md)
 
@@ -88,7 +110,7 @@ This paper presents the tttAI system submitted to the TSA-ASR task of the SmartG
 
 </details>
 
-#### [Mixed approach speech-to-text translation for endangered language](https://www.semanticscholar.org/paper/ba8308e9cf1a5314b887c1b606e944d802c952be)
+#### [Mixed approach speech-to-text translation for endangered language](https://www.semanticscholar.org/paper/ba8308e9cf1a5314b887c1b606e944d802c952be) · [📄 Read](papers/2026/s2:ba8308e9cf1a5314b887c1b606e944d802c952be.md)
 
 **B. L. Sinaga, Stephanie Pamela Adithama, J. Nugraha, Martinus Maslim et al.** · 2026-07-20
 
@@ -99,7 +121,7 @@ This study aims to address the technological marginalization of endangered regio
 
 </details>
 
-#### [When to Use Extra Context: Evidence-Grounded Terminology Adaptation for Simultaneous Speech Translation](https://arxiv.org/abs/2607.17766)
+#### [When to Use Extra Context: Evidence-Grounded Terminology Adaptation for Simultaneous Speech Translation](https://arxiv.org/abs/2607.17766) · [📄 Read](papers/2026/2607.17766.md)
 
 **Zeyu Yang, Satoshi Nakamura** · 2026-07-20
 
@@ -165,7 +187,7 @@ Backdoor attacks pose a critical threat to neural network models, allowing attac
 
 </details>
 
-#### [Benchmarking Speech Recognition Models for Medical Consultations in Latin American Spanish: A Comparative Evaluation with Fine-Tuning](https://www.semanticscholar.org/paper/53bb4533a34907634f42497c6f21b19bf950868a)
+#### [Benchmarking Speech Recognition Models for Medical Consultations in Latin American Spanish: A Comparative Evaluation with Fine-Tuning](https://www.semanticscholar.org/paper/53bb4533a34907634f42497c6f21b19bf950868a) · [📄 Read](papers/2026/s2:53bb4533a34907634f42497c6f21b19bf950868a.md)
 
 **R. M. Carrillo, A. Carbajal Serrano, P. S. Condori Pinedo** · 2026-07-16
 
@@ -176,7 +198,7 @@ BACKGROUND: Artificial intelligence (AI) medical scribes rely on speech-to-text 
 
 </details>
 
-#### [Evaluating ASR Pipeline Configurations for Kazakh: Implications for Low-Resource Turkic Languages](https://www.semanticscholar.org/paper/2eb99bc21d5bc64bd6cfc333006204c889c5328d)
+#### [Evaluating ASR Pipeline Configurations for Kazakh: Implications for Low-Resource Turkic Languages](https://www.semanticscholar.org/paper/2eb99bc21d5bc64bd6cfc333006204c889c5328d) · [📄 Read](papers/2026/s2:2eb99bc21d5bc64bd6cfc333006204c889c5328d.md)
 
 **Nursultan Nyssanov, L. Rzayeva, Alisher Batkuldin, Zhaksylyk Kozhakhmet** · 2026-07-15
 
@@ -734,61 +756,6 @@ BEST-RQ is a simple and effective self-supervised training method for speech rep
 <summary>Abstract</summary>
 
 Connecting a pre-trained speech encoder to a Large Language Model (LLM) is the standard architecture for building Speech LLMs. However, a structural misalignment exists between the encoder and the LLM. Unlike encoders based on automatic speech recognition, which often produce representations in separate language-specific spaces, LLMs operate within a unified language-agnostic space. A mechanism is required to align the encoder's language-specific representations with the LLM's shared space. We argue that speech translation provides a principled way to achieve this. Unlike monolingual transcription, translation requires the model to bridge different languages and learn language-agnostic representations. We experimentally evaluate the impact of incorporating translation objectives into speech encoder pre-training. Our results demonstrate that translation-enhanced pre-training improves cross-modal integration and leads to superior performance across downstream Speech LLM tasks.
-
-</details>
-
-#### [Data Scale, Not Latency, Shapes Cross-Lingual Encoder Transfer in Streaming ASR](https://arxiv.org/abs/2606.24169) · [📄 Read](papers/2026/2606.24169.md)
-
-**Nenad Banfic** · 2026-06-23
-
-<details>
-<summary>Abstract</summary>
-
-Adapting a streaming speech recognition model to a new language requires choosing between two plausible warm starts: a multilingual (ML) encoder or an English-only (EN) encoder. The common intuition is that the multilingual encoder should help most at low data, but it is unclear how long that advantage persists, whether tight streaming latency amplifies it, and whether it survives deployment quantization. We answer these questions with a controlled sweep of a 0.6 B-parameter cache-aware FastConformer transducer across eight European languages, up to five target-language data scales (100 h to 2500 h), three streaming tiers plus offline decoding, and up to four public test sets. The main result is that multilingual initialization is a data-limited advantage, not a latency-limited one. On FLEURS at 160 ms, the mean EN-ML word error rate (WER) gap falls from +4.21 percentage points (pp) at 100 h to +0.20 pp at 2500 h; a power-law fit summarizes this decay, with each doubling of target-language data roughly halving the remaining advantage. Across the three streaming tiers, the across-language mean EN-ML gap is approximately stable at each scale from 100 to 1000 h, and is near zero by 2500 h. Finally, 4-bit weight-only encoder quantization at the matched 560 ms streaming tier reduces the encoder footprint by about 3x, with an average FLEURS WER increase of about 0.5 pp. The resulting guideline is simple: use multilingual initialization in low-data regimes, treat the choice as effectively irrelevant at large data, and make latency and quantization decisions independently.
-
-</details>
-
-#### [Autoencoder based optimized SSL representations: Complexity Minimization and improved Dysarthric ASR](https://arxiv.org/abs/2606.24088) · [📄 Read](papers/2026/2606.24088.md)
-
-**Paban Sapkota, Hemant Kumar Kathania, Mikko Kurimo, Shrikanth Narayanan et al.** · 2026-06-23
-
-<details>
-<summary>Abstract</summary>
-
-Self-supervised learning (SSL) models extract rich speech representations but often come with high-dimensional features, increasing computational complexity. This work explores an SSL-AutoEncoder (SSL-AE) bottlenecking approach to efficiently reduce feature dimensions while maintaining dysarthric Automatic Speech Recognition (ASR) performance. By leveraging an autoencoder, we transform high-dimensional SSL features into a compact space, reducing model complexity and training time. Our method preserves essential speech information, achieving reduced Word Error Rates (WER) while significantly lowering computational costs. Experiments show SSL-AE bottlenecking reduces training time by 8x compared to the SSL baseline, demonstrating efficiency without sacrificing recognition performance. These results highlight AE as an effective solution for SSL feature compression in resource-constrained environments.
-
-</details>
-
-#### [Audio--Image Alignment as a Continued-Pretraining Stage Improves Low-Resource ASR](https://arxiv.org/abs/2606.24080) · [📄 Read](papers/2026/2606.24080.md)
-
-**Sujith Pulikodan, Nihar Desai, Prasanta Kumar Ghosh** · 2026-06-23
-
-<details>
-<summary>Abstract</summary>
-
-Thousands of languages are spoken worldwide, yet many remain under-resourced for Automatic Speech Recognition (ASR) due to the limited availability of high-quality transcribed speech data. Collecting accurate transcriptions is often costly and labor-intensive, particularly for low-resource languages. In this work, we investigate the use of aligned audio-image pairs to adapt pretrained audio encoders without requiring transcription data before supervised fine-tuning. Our proposed representation alignment stage is introduced between large-scale pretraining and supervised ASR fine-tuning. Specifically, image representations extracted from pretrained vision encoders are aligned with audio representations to further adapt a pretrained audio encoder. For this alignment process, we utilize the Vaani dataset, in which images serve as prompts for speech collection, naturally providing paired audio-image data. We evaluate the proposed approach using multiple vision encoders and a pretrained FastConformer audio encoder. Experimental results demonstrate that models fine-tuned after representation alignment consistently achieve improved ASR performance compared to direct fine-tuning. These findings highlight the potential of audio-image representation alignment as an effective transcription-free adaptation strategy for enhancing ASR systems in low-resource language settings.
-
-</details>
-
-#### [Progressive Alignment Objectives for Aligner-Encoder based ASR](https://arxiv.org/abs/2606.24147) · [📄 Read](papers/2026/2606.24147.md)
-
-**Jaeyoung Lee, Masato Mimura, Takafumi Moriya** · 2026-06-23
-
-<details>
-<summary>Abstract</summary>
-
-Aligner-Encoders are recently proposed seq2seq end-to-end ASR models that replace decoder attention by predicting the uth token directly from the u-th encoder position, so the encoder must learn the alignment internally without cross-attention or a transducer lattice. In practice, this alignment often forms abruptly in the upper layers, making training sensitive and brittle on long utterances. We propose InterAligner, which adds an intermediate Aligner objective so alignment can form progressively across depth, together with an intermediate CTC loss (InterCTC) to stabilize optimization. On LibriSpeech with a 17-layer Conformer, a final-only Aligner reaches 5.0/7.8 WER (test-clean/other). InterCTC improves to 3.4/6.0, and InterAligner further reduces WER to 3.1/5.6 with the largest gains on long utterances.
-
-</details>
-
-#### [Wan-Streamer v0.1: End-to-end Real-time Interactive Foundation Models](https://arxiv.org/abs/2606.25041) · [📄 Read](papers/2026/2606.25041.md)
-
-**Lianghua Huang, Zhigang Wu, Wei Wang, Yupeng Shi et al.** · 2026-06-23
-
-<details>
-<summary>Abstract</summary>
-
-We present Wan-Streamer, a native-streaming, end-to-end interactive foundation model designed from the ground up for real-time, low-latency, full-duplex audio-visual interaction. Wan-Streamer seamlessly models language, audio, and video as both input and output within a single Transformer, where the sequence is represented as interleaved visual, audio, and text input tokens together with visual, audio, and text output tokens, coordinated by block-causal attention for incremental streaming. Unlike cascaded interactive systems that rely on separate VAD, ASR, language, TTS, audio-driven animation, or video-generation modules, Wan-Streamer does not rely on external language, speech, avatar, or video-generation modules: perception, reasoning, generation, response timing, turn management, and cross-modal synchronization are learned jointly within one unified model, reducing pipeline latency and error accumulation. To support natural audio-visual responsiveness, we redesign the entire stack around streamability, including causal encoders, causal decoders, block-causal attention, and low-latency multimodal token scheduling, enabling streaming units as short as 160 ms at 25 fps. Wan-Streamer achieves approximately 200 ms model-side response latency and approximately 550 ms total interaction latency when combined with 350 ms bidirectional network latency, supporting sub-second duplex audio-visual communication. These results position Wan-Streamer as a unified, end-to-end, multimodal interactive foundation model for low-latency streaming interaction.
 
 </details>
 
