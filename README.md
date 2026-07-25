@@ -61,12 +61,12 @@ Select _full = true_ to back-fill from 2015 and rebuild all paper markdown, or l
 
 <!-- PAPERS_TABLE_START -->
 
-_Showing the last 30 days (63 of 5471 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
+_Showing the last 30 days (60 of 5473 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
 
 <details open>
 <summary><h3>2026</h3></summary>
 
-#### [DONDO: Open w2v-BERT Speech-Recognition Base Models for African Languages](https://arxiv.org/abs/2607.21540)
+#### [DONDO: Open w2v-BERT Speech-Recognition Base Models for African Languages](https://arxiv.org/abs/2607.21540) · [📄 Read](papers/2026/2607.21540.md)
 
 **Paul Azunre** · 2026-07-23
 
@@ -77,7 +77,7 @@ We present DONDO, a family of open, permissively licensed automatic speech recog
 
 </details>
 
-#### [Faster IndexTTS-2: Accelerating and Streaming Autoregressive Zero-Shot Text-to-Speech Synthesis on GPUs](https://arxiv.org/abs/2607.21042)
+#### [Faster IndexTTS-2: Accelerating and Streaming Autoregressive Zero-Shot Text-to-Speech Synthesis on GPUs](https://arxiv.org/abs/2607.21042) · [📄 Read](papers/2026/2607.21042.md)
 
 **Muyang Du, Shuang Yu, Junjie Lai** · 2026-07-23
 
@@ -723,39 +723,6 @@ Automatic Speech Recognition (ASR) is increasingly used to document clinical enc
 <summary>Abstract</summary>
 
 Broadcast learning environments—encompassing television-based education, live-streamed instruction, podcasted lectures, and synchronous video classrooms—have expanded access to formal and informal education globally. Yet these environments carry inherent structural barriers for learners with disabilities, non-native language speakers, and those operating under constrained technological or bandwidth conditions. This paper examines accessibility and inclusivity challenges in broadcast learning through a computational lens, surveying the state of automatic speech recognition (ASR), natural language processing (NLP)-driven captioning, AI-based sign language synthesis, adaptive bitrate streaming, and multimodal accessibility frameworks. We analyze existing technological solutions, identify persistent gaps in computational approaches, propose an integrative framework for universally accessible broadcast education, and outline directions for future research. The findings suggest that while computational tools have significantly narrowed accessibility gaps, systemic challenges remain—particularly at the intersection of linguistic diversity, cognitive load management, and infrastructure inequality.
-
-</details>
-
-#### [Dziri Voicebot: An End-to-End Low-Resource Speech-to-Speech Conversational System for Algerian Dialect](https://arxiv.org/abs/2606.26003) · [📄 Read](papers/2026/2606.26003.md)
-
-**Dihia Lanasri, Rebeh Imane Ammar Aouchiche, Abdelkarim Remmide, Fairouz Taki et al.** · 2026-06-24
-
-<details>
-<summary>Abstract</summary>
-
-Automatic speech and language technologies are still heavily biased toward high-resource languages, limiting their applicability to dialectal and low-resource settings such as Algerian Dialect. This language presents additional challenges including lack of standardized orthography, frequent codeswitching with French, and scarcity of annotated speech resources. This paper addresses the problem of building a complete speech-to-speech conversational system for Algerian Dialect. We propose a modular pipeline integrating automatic speech recognition, natural language understanding, retrieval-augmented generation, and text-to-speech synthesis within a unified architecture. This work is the continuation of our previous work on Algerian dialectal conversational systems Bechiri and Lanasri [2026], extending it from text-based dialogue modeling to full speech-based interaction. We constructed dedicated datasets for ASR, NLU, and TTS in the telecom domain and fine-tune pretrained models for each component. The ASR system is built on Whisper-based adaptation, while the NLU module combines transformer-based embeddings with a task-oriented dialogue framework. A neural TTS system is trained on a newly collected dialectal corpus to enable spoken response generation. Experimental results show strong performance across all components, including low word error rate for ASR, high intent classification and entity recognition scores for NLU, and stable speech synthesis quality. The proposed system provides a reproducible baseline for end-to-end conversational modeling in Algerian Dialect.
-
-</details>
-
-#### [Enhancing BEST-RQ Pseudo-Label Quality through Online Refinement for Automatic Speech Recognition](https://arxiv.org/abs/2606.30671) · [📄 Read](papers/2026/2606.30671.md)
-
-**Jingjing Xu, Zijian Yang, Mohammad Zeineldeen, Eugen Beck et al.** · 2026-06-24
-
-<details>
-<summary>Abstract</summary>
-
-BEST-RQ is a simple and effective self-supervised training method for speech representation learning that performs well on automatic speech recognition (ASR) tasks. It generates pseudolabels using a fixed online quantization scheme, which simplifies training but provides weaker supervision than HuBERT-style models that iteratively refine pseudo-labels. In this work, we improve online pseudo-label generation while preserving simplicity. We propose three modifications: replacing the quantizer's linear projection with Principal Component Analysis (PCA), updating the codebook via iterative codebook refinement, and introducing an additional codebook updated via codebook distillation. We pre-train on the LibriSpeech 960-hour dataset and fine-tune using 100 hours of supervised LibriSpeech data. With all three modifications enabled, we achieve a 12% relative reduction in word error rate (WER) on the LibriSpeech test-other set, improving from 10.1% to 8.8%.
-
-</details>
-
-#### [Does Translation-Enhanced Speech Encoder Pre-training Affect Speech LLMs?](https://arxiv.org/abs/2606.25444) · [📄 Read](papers/2026/2606.25444.md)
-
-**Tomoya Mizumoto, Yusuke Fujita** · 2026-06-24
-
-<details>
-<summary>Abstract</summary>
-
-Connecting a pre-trained speech encoder to a Large Language Model (LLM) is the standard architecture for building Speech LLMs. However, a structural misalignment exists between the encoder and the LLM. Unlike encoders based on automatic speech recognition, which often produce representations in separate language-specific spaces, LLMs operate within a unified language-agnostic space. A mechanism is required to align the encoder's language-specific representations with the LLM's shared space. We argue that speech translation provides a principled way to achieve this. Unlike monolingual transcription, translation requires the model to bridge different languages and learn language-agnostic representations. We experimentally evaluate the impact of incorporating translation objectives into speech encoder pre-training. Our results demonstrate that translation-enhanced pre-training improves cross-modal integration and leads to superior performance across downstream Speech LLM tasks.
 
 </details>
 
