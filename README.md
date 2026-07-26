@@ -61,7 +61,7 @@ Select _full = true_ to back-fill from 2015 and rebuild all paper markdown, or l
 
 <!-- PAPERS_TABLE_START -->
 
-_Showing the last 30 days (60 of 5473 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
+_Showing the last 30 days (58 of 5473 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
 
 <details open>
 <summary><h3>2026</h3></summary>
@@ -701,28 +701,6 @@ Non-autoregressive automatic speech recognition (ASR) enables parallel decoding,
 <summary>Abstract</summary>
 
 Leveraging large-scale weakly supervised datasets is crucial to train robust end-to-end automatic speech recognition (ASR) models. However, such datasets often contain noisy labels and lack domain specificity, limiting their effectiveness. To address these issues and make better use of weakly supervised datasets, we propose a novel training approach incorporating data filtering and selection. Our approach consists of three steps: pretraining on the entire dataset, continued pretraining on a filtered subset based on character error rate (CER), and fine-tuning on a small number of acoustically similar samples to the target domain, selected from the filtered subset. In experiments with a 90,000-hour weakly supervised Japanese dataset, the proposed filtering and selection methods synergistically reduced CER by up to 6.4% and 4.0%, respectively, even though these steps reused training samples already used in the first pretraining step.
-
-</details>
-
-#### [SamaVaani: Auditing and Debiasing Multilingual Clinical ASR for Indian Languages](https://arxiv.org/abs/2606.26901) · [📄 Read](papers/2026/2606.26901.md)
-
-**Subham Kumar, Prakrithi Shivaprakash, Abhishek Manoharan, Astut Kurariya et al.** · 2026-06-25
-
-<details>
-<summary>Abstract</summary>
-
-Automatic Speech Recognition (ASR) is increasingly used to document clinical encounters, yet its reliability in multilingual and demographically diverse Indian healthcare context remains largely unknown. In this study, we first conduct the systematic audit of ASR performance on real-world psychiatric interview data spanning Kannada, Hindi and Indian English, comparing eight state-of-the-art models including IndicWhisper, WhisperLargeV3, Sarvam, GoogleS2T, Gemma3n, OmniLingual, Vaani, and Gemini. Our results reveal substantial variability across models and languages, with some systems performing competitively in Indian English but failing in regional speech. We further fine-tune two of the best performing opensource models, i.e., Gemma3n and OmniLingual, using various methods. With this, we uncover systematic performance gaps tied to speaker role and gender, raising concerns about equitable deployment in clinical settings, which are further mitigated by fairness-aware fine-tuning. To this end, we propose SamaVaani, a unified debiasing technique that simultaneously improves ASR performance and improves fairness across demographic groups.
-
-</details>
-
-#### [Accessibility and Inclusivity in Broadcast Learning Environments: A Computational Perspective](https://www.semanticscholar.org/paper/5923b916604384779ca2d3a843f16f237342569d) · [📄 Read](papers/2026/s2:5923b916604384779ca2d3a843f16f237342569d.md)
-
-**ShuHui Liu, Muhantha Paramalingam** · 2026-06-25
-
-<details>
-<summary>Abstract</summary>
-
-Broadcast learning environments—encompassing television-based education, live-streamed instruction, podcasted lectures, and synchronous video classrooms—have expanded access to formal and informal education globally. Yet these environments carry inherent structural barriers for learners with disabilities, non-native language speakers, and those operating under constrained technological or bandwidth conditions. This paper examines accessibility and inclusivity challenges in broadcast learning through a computational lens, surveying the state of automatic speech recognition (ASR), natural language processing (NLP)-driven captioning, AI-based sign language synthesis, adaptive bitrate streaming, and multimodal accessibility frameworks. We analyze existing technological solutions, identify persistent gaps in computational approaches, propose an integrative framework for universally accessible broadcast education, and outline directions for future research. The findings suggest that while computational tools have significantly narrowed accessibility gaps, systemic challenges remain—particularly at the intersection of linguistic diversity, cognitive load management, and infrastructure inequality.
 
 </details>
 
