@@ -61,12 +61,12 @@ Select _full = true_ to back-fill from 2015 and rebuild all paper markdown, or l
 
 <!-- PAPERS_TABLE_START -->
 
-_Showing the last 30 days (59 of 5476 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
+_Showing the last 30 days (61 of 5482 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
 
 <details open>
 <summary><h3>2026</h3></summary>
 
-#### [MoLGE: Mixture of Language Group Experts for Efficient Scaling of Massively Multilingual Speech Recognition](https://arxiv.org/abs/2607.24030)
+#### [MoLGE: Mixture of Language Group Experts for Efficient Scaling of Massively Multilingual Speech Recognition](https://arxiv.org/abs/2607.24030) · [📄 Read](papers/2026/2607.24030.md)
 
 **Sangmin Lee, Woojin Chung, Woongjib Choi, Hong-Goo Kang** · 2026-07-27
 
@@ -77,7 +77,18 @@ Massively multilingual automatic speech recognition (ASR) models covering hundre
 
 </details>
 
-#### [Low-Latency Turn-Taking via Context-Aware Preface Generation in a Real-World Dialogue Robot](https://arxiv.org/abs/2607.23204)
+#### [Indic DiarBench: A Multilingual Joint Diarization and ASR Benchmark for Indian Languages](https://arxiv.org/abs/2607.23808)
+
+**Deovrat Mehendale, Aditya Mehndiratta, Dhruv Rathi, K. Bhogale et al.** · 2026-07-26
+
+<details>
+<summary>Abstract</summary>
+
+In this work, we introduce Indic DiarBench, a speaker diarization and ASR benchmark dataset spanning all 22 scheduled languages of India. This corpus comprises approximately 108 hours of natural multi-speaker audio from near-field meetings, far-field recordings, and in-the-wild audios. All annotations are human-corrected with time-aligned speaker attributed transcriptions. The dataset captures conversational nuance prevalent in Indian speech, such as English code-mixing, dialectal variation, and frequent speaker overlap. To establish a baseline for joint ASR and diarization capabilities we evaluate leading systems including commercial speech APIs and multimodal large language models. Indic DiarBench is released as an open-access resource to advance inclusive, multilingual speech technology research for Indian languages.
+
+</details>
+
+#### [Low-Latency Turn-Taking via Context-Aware Preface Generation in a Real-World Dialogue Robot](https://arxiv.org/abs/2607.23204) · [📄 Read](papers/2026/2607.23204.md)
 
 **Yuki Okafuji, Koji Inoue, Yoshiki Ohira** · 2026-07-25
 
@@ -96,6 +107,17 @@ Large language model (LLM)-based dialogue systems suffer response delays because
 <summary>Abstract</summary>
 
 Lightweight projectors are an established way to connect pre-trained speech encoders with large language models (LLMs), mapping acoustic features into token-level embeddings for tasks like ASR and spoken question answering. Existing systems, however, typically only support a few languages and are often limited to English. We introduce MEUSLI, the first open-science multilingual projector family that links a Whisper encoder with open-source multilingual LLMs, enabling fully open-source end-to-end ASR in 28 European languages. MEUSLI extends prior monolingual pipelines, delivering strong results across high- and low-resource languages. Using proper continual leaning techniques, MEUSLI can be easily extended to other languages not seen in training. We further demonstrate that the MEUSLI projector can be leveraged beyond ASR, enabling multilingual speech translation and topic identification with only a few hours of task specific supervision per language. Overall, MEUSLI provides a solid foundation for multilingual speech understanding tasks, supporting scalable and inclu- sive open-source SpeechLLM
+
+</details>
+
+#### [Real-Time Subtitling in the Streaming Era](https://www.semanticscholar.org/paper/f832201d0b7fb53427ee78f60c0e282f3c0c5114)
+
+**M. Toktagazin, Gulmira Amangeldiyeva, L. Adilbekova, Rakhmet Kulaikhan et al.** · 2026-07-24
+
+<details>
+<summary>Abstract</summary>
+
+The aim of the study was to identify the characteristics of real-time automatic subtitling systems in the context of global streaming platforms. The methodology was based on a comprehensive approach that combined an overview of automatic speech recognition (ASR) technologies, neural machine translation and large language models, and an analysis of practical use cases (YouTube Live Captions, Zoom Auto-Caption, Netflix). As a result, it was found that the integration of ASR, neural machine translation, and large language models ensured the speed of speech stream processing, system scalability, and the possibility of multilingual coverage. At the same time, significant limitations were identified: reduced accuracy when working in noisy environments or with agglutinative languages, inaccurate reproduction of culturally marked expressions, and problems with synchronizing text with video. Case studies showed that YouTube experienced quality instability and the risk of incorrect subtitles, Zoom focused on organizational accessibility management, and Netflix prioritized regulatory and editorial control in accordance with its style guide. A comparative analysis of standards showed that automated systems did not ensure consistent compliance with the requirements of accuracy, readability, and cultural adaptation, even with a low error rate. The practical significance of the study lies in the possibility of using its results to improve automated subtitling systems and develop hybrid models capable of combining algorithmic solutions with editorial control to ensure compliance with international quality standards.
 
 </details>
 
@@ -118,6 +140,17 @@ We present DONDO, a family of open, permissively licensed automatic speech recog
 <summary>Abstract</summary>
 
 Autoregressive text-to-speech models achieve strong naturalness but suffer from slow inference due to sequential token generation, limiting their deployment in production applications that require low latency. IndexTTS-2 is a state-of-the-art autoregressive TTS model consisting of a GPT, a flow-matching Diffusion Transformer, and a vocoder. Despite its high synthesis quality, its inference speed barely reaches real-time without streaming or batching support. We present Faster IndexTTS-2, which accelerates all neural network components of IndexTTS-2 for production deployment on GPUs using NVIDIA TensorRT and TensorRT-LLM. Faster IndexTTS-2 also enables streaming synthesis for latency-sensitive interactive applications, and batched inference across all components to maximize GPU utilization. Experiments on the Seed-TTS benchmark for both English and Chinese demonstrate up to 5.0$\times$ speedup on the autoregressive GPT and 3.6$\times$ end-to-end, with minimal degradation in word error rate, speaker similarity, and naturalness. Our methodology provides a practical reference for efficiently accelerating similar autoregressive speech models on GPUs.
+
+</details>
+
+#### [VibeVoice-ASR-BitNet Technical Report](https://arxiv.org/abs/2607.21075)
+
+**Songcheng Xu, Ting Song, Shaohan Huang, Zhiliang Peng et al.** · 2026-07-23
+
+<details>
+<summary>Abstract</summary>
+
+We present VibeVoice-ASR-BitNet, a compressed variant of VibeVoice-ASR optimized for real-time inference on edge CPUs. We apply heterogeneous quantization tailored to the computational characteristics of each stage: the VAE acoustic tokenizer uses full-pipeline INT8 quantization (I8_S) with kernel fusion and SIMD optimization, while the autoregressive language model adopts BitNet-style ternary weights (I2_S). To preserve accuracy under aggressive compression, we employ a progressive quantization-aware training strategy. For inference, we implement custom SIMD kernels and fused operators within the ggml framework targeting both ARM and x86 platforms, achieving real-time recognition (RTF<1) on low-thread-count CPUs. VibeVoice-ASR-BitNet is 1.6--2.3x faster than Whisper.cpp at comparable model sizes (~1.6 GB), with only modest accuracy degradation compared to the FP16 baseline.
 
 </details>
 
@@ -701,17 +734,6 @@ In our goal to develop personalised dysarthric speech recognition (DSR) models, 
 <summary>Abstract</summary>
 
 Strong speech-to-text (S2T) LLMs already provide robust speech perception and text reasoning, but adding speech-to-speech (S2S) output is challenging: fine-tuning the backbone can degrade the original S2T performance, while attaching a downstream talker reintroduces a serial text-to-speech bottleneck. We present PRIME-Speech, a frozen-backbone S2S conversion framework that trains only speech-generation modules. PRIME-Speech synchronizes a causal audio post-decoder with intermediate hidden states of the frozen backbone, so codec tokens are generated from the model's evolving reasoning trajectory rather than from completed text chunks. The post-decoder uses mixed hidden-state, text, and audio-history conditioning, and a training-time packing strategy with turn-level audio KV-cache and position reset stabilizes multi-turn spoken interaction without additional multi-turn S2S training data. Multi-token prediction further reduces the effective codec prediction rate and improves first-audio latency without modifying the reasoning path. Across speech translation, spoken QA, speech understanding, and multi-turn dialogue, PRIME-Speech preserves the S2T behavior of the frozen backbone while producing accurate, low-WER spoken responses.
-
-</details>
-
-#### [VIB-AVSR: Variational Information Bottleneck for Noise-Robust LLM-Based Audio-Visual Speech Recognition](https://arxiv.org/abs/2606.29632) · [📄 Read](papers/2026/2606.29632.md)
-
-**Piyush Arora, Navlika Singh, Umberto Cappellazzo, Stavros Petridis et al.** · 2026-06-28
-
-<details>
-<summary>Abstract</summary>
-
-Audio-Visual Speech Recognition takes two input modalities, acoustic and visual streams, where visual information from lip movements aids recognition when audio is noisy. Recently, LLM-based AVSR models have emerged as a promising paradigm by connecting pre-trained audio-visual encoders to an LLM, achieving strong results in clean conditions. However, these models are predominantly optimized for clean acoustic conditions, with limited attention to making the LLM backbone robust to noise. No explicit mechanism is employed to produce stable representations under corrupted audio, leading to performance degradation in noisy environments. To address this, we propose VIB-AVSR, which integrates Variational Information Bottleneck layers at targeted positions within the LLM backbone to regularize representations. VIB-AVSR reduces degradation under noisy conditions across multiple SNR levels and noise types, without requiring architectural modifications or additional training data.
 
 </details>
 
