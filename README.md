@@ -61,10 +61,32 @@ Select _full = true_ to back-fill from 2015 and rebuild all paper markdown, or l
 
 <!-- PAPERS_TABLE_START -->
 
-_Showing the last 30 days (61 of 5482 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
+_Showing the last 30 days (60 of 5484 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
 
 <details open>
 <summary><h3>2026</h3></summary>
+
+#### [Voice Memory for Agentic Speech Recognition](https://arxiv.org/abs/2607.26410)
+
+**Chao-Han Huck Yang, Zih-Ching Chen, Piotr Zelasko, Zhehuai Chen et al.** · 2026-07-29
+
+<details>
+<summary>Abstract</summary>
+
+We present Voice Memory, a inference-only scheme for agentic speech recognition: at stream time, a frozen corrector reads a single per-domain memory.md and decides per utterance whether to act on the hypothesis or abstain and keep the 1-best. Asynchronously, a score-gated optimizer revises that file through bounded edits, accepting an edit only when it strictly improves a held-out score. Extended from classical ASR-LM framework, we refer this split the listener-thinker architecture; the two roles are coupled only through the memory, so no weights change and the learned skill stays auditable and portable. Restraint turns out to be the operative skill this loop discovers: unconstrained generative error correction (GER) over-corrects, breaking correct tokens on up to 64% of its edits on financial news, and Voice Memory, reduces this rate to 35%. Across ten HyPoradise domains with an open corrector, Voice Memory, lowers weighted word error rate from 8.36% to 7.52% (7.47% with three added in-context examples) without regressing any dataset below its 1-best baseline; gains concentrate where recoverable headroom is largest, including air-travel commands (8.40% to 3.40%) and noisy far-field speech (CHiME-4, 12.69% to 10.46%). The memory transfers across corrector families and adds zero parameters to the inference path. A demo and example code are provided for future studies.
+
+</details>
+
+#### [SpeechLLM Meets Federated Learning for End-to-End ASR: English and Italian Case Studies](https://arxiv.org/abs/2607.25716)
+
+**Mohamed Nabih Ali, Daniele Falavigna, Alessio Brutti** · 2026-07-28
+
+<details>
+<summary>Abstract</summary>
+
+Federated learning (FL) enables privacy-preserving training of automatic speech recognition (ASR) systems across distributed data sources, yet its application to large-scale speech language models (SpeechLLMs) remains unexplored. This paper presents the first systematic study of federated training for SpeechLLM-based end-to-end ASR systems. We design a communication-efficient federated optimization strategy tailored to the unique challenges of SpeechLLM architectures, addressing high-dimensional parameter spaces, gradient communication overhead, and computational constraints in distributed settings. Through extensive empirical evaluation on monolingual ASR tasks in English and Italian, we demonstrate the effectiveness and stability of our federated approach compared to centralized training baselines across diverse acoustic conditions and speaking styles. Additionally, we conduct a comprehensive ablation study analyzing the impact of different speech encoder architectures on monolingual English ASR performance within the federated framework, providing insights into optimal model configurations for decentralized training. Our results achieve competitive word error rates while reducing communication costs, establishing practical foundations for federated SpeechLLM deployment in real-world multilingual scenarios.
+
+</details>
 
 #### [MoLGE: Mixture of Language Group Experts for Efficient Scaling of Massively Multilingual Speech Recognition](https://arxiv.org/abs/2607.24030) · [📄 Read](papers/2026/2607.24030.md)
 
@@ -77,7 +99,7 @@ Massively multilingual automatic speech recognition (ASR) models covering hundre
 
 </details>
 
-#### [Indic DiarBench: A Multilingual Joint Diarization and ASR Benchmark for Indian Languages](https://arxiv.org/abs/2607.23808)
+#### [Indic DiarBench: A Multilingual Joint Diarization and ASR Benchmark for Indian Languages](https://arxiv.org/abs/2607.23808) · [📄 Read](papers/2026/2607.23808.md)
 
 **Deovrat Mehendale, Aditya Mehndiratta, Dhruv Rathi, K. Bhogale et al.** · 2026-07-26
 
@@ -110,7 +132,7 @@ Lightweight projectors are an established way to connect pre-trained speech enco
 
 </details>
 
-#### [Real-Time Subtitling in the Streaming Era](https://www.semanticscholar.org/paper/f832201d0b7fb53427ee78f60c0e282f3c0c5114)
+#### [Real-Time Subtitling in the Streaming Era](https://www.semanticscholar.org/paper/f832201d0b7fb53427ee78f60c0e282f3c0c5114) · [📄 Read](papers/2026/s2:f832201d0b7fb53427ee78f60c0e282f3c0c5114.md)
 
 **M. Toktagazin, Gulmira Amangeldiyeva, L. Adilbekova, Rakhmet Kulaikhan et al.** · 2026-07-24
 
@@ -143,7 +165,7 @@ Autoregressive text-to-speech models achieve strong naturalness but suffer from 
 
 </details>
 
-#### [VibeVoice-ASR-BitNet Technical Report](https://arxiv.org/abs/2607.21075)
+#### [VibeVoice-ASR-BitNet Technical Report](https://arxiv.org/abs/2607.21075) · [📄 Read](papers/2026/2607.21075.md)
 
 **Songcheng Xu, Ting Song, Shaohan Huang, Zhiliang Peng et al.** · 2026-07-23
 
@@ -701,39 +723,6 @@ The quest for intuitive and natural human-robot interaction (HRI) remains a sign
 <summary>Abstract</summary>
 
 Room-acoustic simulations are widely used to augment training data for deep-learning-based speech enhancement. While most pipelines rely on simplified geometrical acoustics, wave-based approaches offer greater physical accuracy. In this work, we examine how simulation fidelity affects multichannel speech enhancement performance. To this end, we train SpatialNet on datasets augmented with different room-acoustic simulation methods and evaluate the resulting models on measured data. We compare lower-fidelity datasets based on geometrical acoustics with a high-fidelity dataset using advanced acoustic modelling and a hybrid combination of wave-based and geometrical acoustics simulations. Training on the high-fidelity dataset results in an up to 38 % relative reduction in median word error rate compared to the lower-fidelity alternatives. These results show that augmentation with high-fidelity room-acoustic simulations directly translates into improved multichannel speech enhancement performance.
-
-</details>
-
-#### [Beyond Clean Text: Evaluating Encoder and Decoder Robustness for Bangla Event Detection in Noisy Text](https://arxiv.org/abs/2606.30914) · [📄 Read](papers/2026/2606.30914.md)
-
-**Tanvir Ahmed Sijan, S. M Golam Rifat, Nayeemul Islam, Md. Musfique Anwar** · 2026-06-29
-
-<details>
-<summary>Abstract</summary>
-
-Event detection (ED) systems are typically evaluated on clean, curated text, leaving their robustness to real-world noise largely unexplored, particularly for low-resource languages such as Bangla. We introduce a generalized Bangla news event ontology and a benchmark comprising 9,979 annotated sentences across 40 event subtypes, spanning clean news text, real-world Automatic Speech Recognition (ASR) transcripts, and orthographically corrupted text. We systematically evaluate fine-tuned encoder-only models (BanglaBERT and XLM-R) alongside instruction-tuned decoder-only large language models (Llama 3 and Gemma 3). Our results reveal a clear architectural trade-off: encoder models achieve higher performance on clean text but degrade substantially under noise, whereas decoder-only LLMs are markedly more robust, particularly when event triggers are corrupted. We further show that embedding annotation guidelines during instruction tuning establishes a higher performance baseline on noisy text but yields inconsistent reductions in performance degradation across noisy conditions. Finally, model scaling consistently improves the robustness of decoder-only LLMs, while combined training on clean and noisy data serves as an effective regularization strategy that disproportionately benefits encoder architectures, significantly narrowing the robustness gap.
-
-</details>
-
-#### [Comparing Human and Automatic Recognition of Dutch Dysarthric Continuous Speech: A Case Study](https://arxiv.org/abs/2606.30237) · [📄 Read](papers/2026/2606.30237.md)
-
-**Yuanyuan Zhang, Dimme de Groot, Jorge Martinez, Odette Scharenborg** · 2026-06-29
-
-<details>
-<summary>Abstract</summary>
-
-In our goal to develop personalised dysarthric speech recognition (DSR) models, this study compared the recognition performances of human listeners and those of three state-of-the-art, off-the-shelf ASR systems (Whisper-large-V3, Google Chirp 3, and Omnilingual) on the recognition of Dutch continuous read and spontaneous speech from a single speaker with severe dysarthria. Results showed that both humans listeners and the three off-the-shelf ASR systems exhibit word error rates (WER) exceeding 70% on average, indicating that DSR is highly challenging for both humans and ASR systems. Fine-tuning on the dysarthric speech significantly reduced WER. Although overall WERs are still quite high (>23%), the personalised DSR models outperformed the human listeners, and performance is getting closer to being useful for supporting day-to-day communication of dysarthric speakers. Future research should focus on improving personalized DSR on spontaneous speech and longer utterances in the case of read speech, with a specific focus on particular phonemes.
-
-</details>
-
-#### [Preserving Speech-to-Text LLM Capabilities in Speech-to-Speech Generation](https://arxiv.org/abs/2606.30944) · [📄 Read](papers/2026/2606.30944.md)
-
-**Yuxuan Hu, Heng Lu, Ruchao Fan, Yao Qian et al.** · 2026-06-29
-
-<details>
-<summary>Abstract</summary>
-
-Strong speech-to-text (S2T) LLMs already provide robust speech perception and text reasoning, but adding speech-to-speech (S2S) output is challenging: fine-tuning the backbone can degrade the original S2T performance, while attaching a downstream talker reintroduces a serial text-to-speech bottleneck. We present PRIME-Speech, a frozen-backbone S2S conversion framework that trains only speech-generation modules. PRIME-Speech synchronizes a causal audio post-decoder with intermediate hidden states of the frozen backbone, so codec tokens are generated from the model's evolving reasoning trajectory rather than from completed text chunks. The post-decoder uses mixed hidden-state, text, and audio-history conditioning, and a training-time packing strategy with turn-level audio KV-cache and position reset stabilizes multi-turn spoken interaction without additional multi-turn S2S training data. Multi-token prediction further reduces the effective codec prediction rate and improves first-audio latency without modifying the reasoning path. Across speech translation, spoken QA, speech understanding, and multi-turn dialogue, PRIME-Speech preserves the S2T behavior of the frozen backbone while producing accurate, low-WER spoken responses.
 
 </details>
 
