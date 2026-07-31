@@ -61,12 +61,12 @@ Select _full = true_ to back-fill from 2015 and rebuild all paper markdown, or l
 
 <!-- PAPERS_TABLE_START -->
 
-_Showing the last 30 days (60 of 5484 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
+_Showing the last 30 days (57 of 5487 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
 
 <details open>
 <summary><h3>2026</h3></summary>
 
-#### [Voice Memory for Agentic Speech Recognition](https://arxiv.org/abs/2607.26410)
+#### [Voice Memory for Agentic Speech Recognition](https://arxiv.org/abs/2607.26410) · [📄 Read](papers/2026/2607.26410.md)
 
 **Chao-Han Huck Yang, Zih-Ching Chen, Piotr Zelasko, Zhehuai Chen et al.** · 2026-07-29
 
@@ -77,7 +77,7 @@ We present Voice Memory, a inference-only scheme for agentic speech recognition:
 
 </details>
 
-#### [SpeechLLM Meets Federated Learning for End-to-End ASR: English and Italian Case Studies](https://arxiv.org/abs/2607.25716)
+#### [SpeechLLM Meets Federated Learning for End-to-End ASR: English and Italian Case Studies](https://arxiv.org/abs/2607.25716) · [📄 Read](papers/2026/2607.25716.md)
 
 **Mohamed Nabih Ali, Daniele Falavigna, Alessio Brutti** · 2026-07-28
 
@@ -96,6 +96,28 @@ Federated learning (FL) enables privacy-preserving training of automatic speech 
 <summary>Abstract</summary>
 
 Massively multilingual automatic speech recognition (ASR) models covering hundreds of languages must maintain robust performance across diverse linguistic and acoustic conditions. However, these models often encounter the curse of multilinguality, where model capacity is diluted across languages. To address this challenge, we propose Mixture of Language Group Experts (MoLGE), built upon speech self-supervised models (S3Ms). MoLGE assigns dedicated expert modules to clusters of similar languages, reducing the number of required submodules compared to conventional language-specific Mixture-of-Experts (MoE) schemes. It further integrates a hierarchical Low-Rank Adaptation (LoRA) strategy into the disentangled acoustic and linguistic components of the S3M architecture, enabling efficient modeling of language-specific characteristics while maintaining parameter efficiency. Further, we investigate the impact of language grouping strategies based on both linguistic and data-driven criteria on overall performance, providing an interpretable perspective on how language structure influences scalability in multilingual speech systems. In experiments, we evaluate MoLGE on a multilingual benchmark encompassing 495 languages. Results demonstrate that MoLGE consistently outperforms dense multilingual baselines with a minimal increase in trainable parameters. Notably, these language grouping strategies yield substantial improvements for both phonetic and orthographic aspects of ASR modeling. Our findings suggest that structured language specialization provides an effective pathway for massively scaling language coverage of multilingual ASR.
+
+</details>
+
+#### [Towards Operational Conversational Intelligence: A Speech Intelligence Framework](https://arxiv.org/abs/2607.24958)
+
+**C. Vishnoi, S. Khurana, A. Timmapur, S. Rai et al.** · 2026-07-27
+
+<details>
+<summary>Abstract</summary>
+
+Body-worn camera (BWC) audio presents unique challenges including high ambient noise, variable recording conditions, and multiple overlapping speakers that make automated transcription and speaker labeling challenging. We propose a dual-path conversational intelligence framework that preprocesses raw BWC audio, separates the processing pipeline into a diarization branch and an ASR branch, and fuses their outputs. The diarization branch uses a denoising front-end (DeepFilterNet), voice activity detection (VAD), and NVIDIA's Multi-Scale Speaker Diarization Decoder (MSDD) with TitaNet embeddings. The transcription branch uses loudness normalization and WhisperX (Large-v3) with forced alignment and probability-guided speech segmentation. Finally, word-level speaker attribution is performed by assigning each recognized word to the speaker segment with the greatest temporal overlap. We evaluate the proposed framework on a curated body-worn camera dataset constructed from publicly available U.S. and U.K. police body-worn camera recordings. Experimental results demonstrate that task-specific acoustic conditioning and probability-guided speech segmentation improve speaker diarization, transcription, and word-level speaker attribution under challenging body-worn camera recording conditions. The proposed modular architecture provides an extensible foundation for future speaker-aware conversational intelligence systems.
+
+</details>
+
+#### [The Genealogy of Large Language Models: From Auxiliary Tools in ASR to Foundational Transformers and Back Again](https://www.semanticscholar.org/paper/1904f99c0f4b93d70f6b5ce1d2217994d700f07e)
+
+**José Luciano Maldonado** · 2026-07-27
+
+<details>
+<summary>Abstract</summary>
+
+This paper traces the evolutionary trajectory of Large Language Models (LLMs), arguing that their origins lie in the practical need to correct transcription errors in Automatic Speech Recognition (ASR) systems. We delineate this development, starting with domain-specific grammars, progressing through statistical n-gram models, and then to Artificial Neural Network-based models (ANNs), specifically RNNs, LSTMs, and GRUs, until reaching the pivotal breakthrough of the Transformer architecture. This evolution, driven by the pursuit of better language modeling, enabled the massive scaling that defines modern LLMs, which exhibit unprecedented capabilities. We conclude that LLMs, which emerged as an auxiliary component to mitigate the deficiencies of ASR systems, have "closed the circle" by becoming the foundational technology that now redefines the state of the art in their progenitor systems, thereby establishing themselves as a unifying technology for Artificial Intelligence.
 
 </details>
 
@@ -668,61 +690,6 @@ Multi-talker Automatic Speech Recognition (MTASR) faces significant challenges i
 <summary>Abstract</summary>
 
 Improvements in the technical performance of human--robot interaction (HRI) systems do not automatically translate into differences that human users can detect during live interaction. This paper investigates whether a 15 percentage point gain in end-to-end task success (from 75% in a multimodal baseline system to 90% in an improved configuration identified through a prior ablation study) is sufficient to produce consistent and measurable differences in user perception. The baseline system combines Whisper for speech recognition, Florence-2 for open-vocabulary object detection, LLaMA 3.1 for action extraction, and an interval Type-2 fuzzy logic controller for motion execution. The improved configuration replaces the perception and language modules with Grounding DINO + SAM and Qwen 3.5 9B, respectively, while retaining the same controller. A within-subject user study with 24 participants compared both systems on the same tabletop object-grasping task. After interacting with each configuration, participants rated perceived speed, reliability, and overall competence and fluency on a 7-point Likert scale. Results show that 17 out of 24 participants (70.83%) preferred the improved system (exact binomial test, p = 0.043, h = 0.43), and all three perceptual constructs were rated significantly higher for the improved configuration after Holm correction, with large to very large effect sizes (p < 0.001). These findings confirm that the identified technical improvements are perceptible to users in direct interaction and underscore the importance of complementing benchmark evaluation with user-centred evidence when assessing robotic manipulation pipelines.
-
-</details>
-
-#### [Adapting Foundation ASR Models to Dysarthric Speech: A Case Study](https://arxiv.org/abs/2606.31722) · [📄 Read](papers/2026/2606.31722.md)
-
-**Christian Huber, Laura Kernahan, Alexander Waibel** · 2026-06-30
-
-<details>
-<summary>Abstract</summary>
-
-Automatic speech recognition (ASR) systems often perform poorly in dysarthric speech, limiting their usefulness to affected speakers in everyday communication. This paper presents a personalized ASR system for a dysarthric speaker, built by adapting a foundation ASR model to speaker-specific data. Using the TEQST tool, we collected 92 hours of read speech and later added 8.8 hours of user corrections gathered through a deployed mobile application. Starting from Whisper, fine-tuning reduced word error rate to 15.8% with only 1.4 hours of adaptation data, reached 10.7% with 22.5 hours, and achieved the best result of 9.7% when using all available data including the corrections. Using LoRA adaptation and/or Qwen3-ASR as foundation model performed worse in this setting. The results show that personalized fine-tuning can make foundation ASR models substantially more effective for dysarthric speech and suitable for practical deployment.
-
-</details>
-
-#### [Building an ASR Solution for Training and Assessing Children's Reading](https://arxiv.org/abs/2606.31508) · [📄 Read](papers/2026/2606.31508.md)
-
-**Yacouba Diarra, Nouhoum Souleymane Coulibaly, Mamadou Dembele, Aymane Dembele et al.** · 2026-06-30
-
-<details>
-<summary>Abstract</summary>
-
-Automatic speech recognition for children's reading remains underdeveloped for most African languages, including Bambara, despite its potential value for reproducible literacy assessment. We present an open-source system for assessing children's reading in Bambara, developed through an end-to-end process linking field data collection, benchmark construction, model adaptation, a reading application, and classroom validation. A mobile collection and assessment app was used to collect 55 hours of raw reading speech from 60 children, from which we construct a public benchmark for Bambara child-reading assessment. Fine-tuning experiments compare Soloni, a Bambara-adapted Fast-Conformer ASR framework with TDT and CTC decoders, with QuartzNet, a compact convolutional ASR architecture. The best Soloni model reduces WER from 0.42 to 0.22 and CER from 0.15 to 0.08, substantially outperforming QuartzNet on the isolated benchmark. The experiments further show that repeated readings of the same texts provide architecture-dependent benefits: they substantially improve QuartzNet but add only marginal gains for Soloni, while SpecAugment regulates training without exceeding the best unaugmented configuration. Disaggregated analysis identifies children under 10 as the main source of residual errors, motivating targeted collection from younger readers. Ten classroom trials supported continued use of the application.
-
-</details>
-
-#### [What Counts as an Error? Dual-Reference Benchmarking for Atypical ASR](https://arxiv.org/abs/2606.31112) · [📄 Read](papers/2026/2606.31112.md)
-
-**Hawau Olamide Toyin, Srinivasan Umesh, Hanan Aldarmaki** · 2026-06-30
-
-<details>
-<summary>Abstract</summary>
-
-ASR systems have been often reported to underperform on atypical speech. An often conflated compounding factor is the existence of two valid transcription references: verbatim (actual produced speech, including repetitions/prolongations) and intended (the canonical form of the text with disfluencies removed) in atypical speech recognition depending on context and use-case. Most ASR evaluations conflate this duality into a single ground truth and reward systems that delete disfluencies, ignoring verbatim faithfulness. We benchmark 11 ASR models from encoder-decoder, CTC and transducer families using both verbatim and intended references on atypical stuttered speech as a case study. Our quantitative assessment underlines the disparity in model performance and rankings using the two transcript styles. Through this analysis, we highlight the importance of selecting a suitable transcription reference for valid model selection depending on the use-case, particularly for atypical ASR.
-
-</details>
-
-#### [LLM-Powered Interactive Robotic Action Synthesis from Multimodal Speech, Gestures, and Music](https://arxiv.org/abs/2606.31158) · [📄 Read](papers/2026/2606.31158.md)
-
-**Snehasis Banerjee, Ranjan Dasgupta** · 2026-06-30
-
-<details>
-<summary>Abstract</summary>
-
-The quest for intuitive and natural human-robot interaction (HRI) remains a significant challenge in robotics. Traditional methods often rely on rigid, pre-programmed commands that limit the robot's expressiveness and adaptability. This paper introduces a novel framework that leverages the reasoning capabilities of Large Language Models (LLMs) to synthesize complex robotic actions from a rich tapestry of multimodal human inputs: natural speech, hand gestures, and music/sound beats. Our system architecture integrates a speech transcription model, a gesture recognition module, and a signal processing pipeline for beat detection. These processed inputs are contextualized using prompt templates and fed into a LLM. The LLM, informed by a predefined robot action space, reasons over the combined inputs to generate a coherent sequence of actions. This sequence is dispatched to an action queue for execution on a quadruped robot over ROS. The framework has ability to interpret and fuse semantic commands from speech, deictic information from gestures, and rhythmic cues from music. This work represents a step towards creating robots that can interact with humans in a more fluid, creative, and context-aware manner.
-
-</details>
-
-#### [Improving multichannel speech enhancement through accurate room-acoustic simulations](https://arxiv.org/abs/2606.31552) · [📄 Read](papers/2026/2606.31552.md)
-
-**Georg Götz, Alessia Milo, Steinar Guðjónsson, Daniel Gert Nielsen et al.** · 2026-06-30
-
-<details>
-<summary>Abstract</summary>
-
-Room-acoustic simulations are widely used to augment training data for deep-learning-based speech enhancement. While most pipelines rely on simplified geometrical acoustics, wave-based approaches offer greater physical accuracy. In this work, we examine how simulation fidelity affects multichannel speech enhancement performance. To this end, we train SpatialNet on datasets augmented with different room-acoustic simulation methods and evaluate the resulting models on measured data. We compare lower-fidelity datasets based on geometrical acoustics with a high-fidelity dataset using advanced acoustic modelling and a hybrid combination of wave-based and geometrical acoustics simulations. Training on the high-fidelity dataset results in an up to 38 % relative reduction in median word error rate compared to the lower-fidelity alternatives. These results show that augmentation with high-fidelity room-acoustic simulations directly translates into improved multichannel speech enhancement performance.
 
 </details>
 
