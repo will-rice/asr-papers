@@ -61,7 +61,7 @@ Select _full = true_ to back-fill from 2015 and rebuild all paper markdown, or l
 
 <!-- PAPERS_TABLE_START -->
 
-_Showing the last 30 days (57 of 5487 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
+_Showing the last 30 days (56 of 5487 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
 
 <details open>
 <summary><h3>2026</h3></summary>
@@ -99,7 +99,7 @@ Massively multilingual automatic speech recognition (ASR) models covering hundre
 
 </details>
 
-#### [Towards Operational Conversational Intelligence: A Speech Intelligence Framework](https://arxiv.org/abs/2607.24958)
+#### [Towards Operational Conversational Intelligence: A Speech Intelligence Framework](https://arxiv.org/abs/2607.24958) · [📄 Read](papers/2026/2607.24958.md)
 
 **C. Vishnoi, S. Khurana, A. Timmapur, S. Rai et al.** · 2026-07-27
 
@@ -110,7 +110,7 @@ Body-worn camera (BWC) audio presents unique challenges including high ambient n
 
 </details>
 
-#### [The Genealogy of Large Language Models: From Auxiliary Tools in ASR to Foundational Transformers and Back Again](https://www.semanticscholar.org/paper/1904f99c0f4b93d70f6b5ce1d2217994d700f07e)
+#### [The Genealogy of Large Language Models: From Auxiliary Tools in ASR to Foundational Transformers and Back Again](https://www.semanticscholar.org/paper/1904f99c0f4b93d70f6b5ce1d2217994d700f07e) · [📄 Read](papers/2026/s2:1904f99c0f4b93d70f6b5ce1d2217994d700f07e.md)
 
 **José Luciano Maldonado** · 2026-07-27
 
@@ -679,17 +679,6 @@ Speech-LLM integration has shown promising results by leveraging extensive textu
 <summary>Abstract</summary>
 
 Multi-talker Automatic Speech Recognition (MTASR) faces significant challenges in accurately transcribing overlapping speech, particularly under complex high-overlap conditions. While recent Mixture-of-Experts (MoE) approaches have shown promise, they typically rely on frame-independent routing that leads to temporal myopia, and depend solely on the downstream ASR objective, which results in implicit and ungrounded representation learning. To address these limitations, we propose Holistic Speaker-Aware Guided Experts (H-SAGE) for MoE-based MTASR. Specifically, we introduce a Speaker-Aware Global Encoder to capture long-term dependencies, supervised by an auxiliary Overlap-Aware Loss that explicitly guides the model to discern acoustic states. Furthermore, we design a Holistic Gating Mechanism to arbitrate expert selection by jointly evaluating global context and local details. Experiments on LibriSpeechMix demonstrate that H-SAGE achieves consistent improvements over strong baselines, particularly in complex scenarios, validating that explicit acoustic guidance effectively enhances expert collaboration. Our code can be found at https://github.com/NKU-HLT/H-SAGE.
-
-</details>
-
-#### [From Technical Metrics to User Perception: A User Study of a Multimodal Human-Robot Interaction System for Object Detection and Grasping](https://arxiv.org/abs/2607.00530) · [📄 Read](papers/2026/2607.00530.md)
-
-**Jian Song, Tian Zi, Shen Guanting** · 2026-07-01
-
-<details>
-<summary>Abstract</summary>
-
-Improvements in the technical performance of human--robot interaction (HRI) systems do not automatically translate into differences that human users can detect during live interaction. This paper investigates whether a 15 percentage point gain in end-to-end task success (from 75% in a multimodal baseline system to 90% in an improved configuration identified through a prior ablation study) is sufficient to produce consistent and measurable differences in user perception. The baseline system combines Whisper for speech recognition, Florence-2 for open-vocabulary object detection, LLaMA 3.1 for action extraction, and an interval Type-2 fuzzy logic controller for motion execution. The improved configuration replaces the perception and language modules with Grounding DINO + SAM and Qwen 3.5 9B, respectively, while retaining the same controller. A within-subject user study with 24 participants compared both systems on the same tabletop object-grasping task. After interacting with each configuration, participants rated perceived speed, reliability, and overall competence and fluency on a 7-point Likert scale. Results show that 17 out of 24 participants (70.83%) preferred the improved system (exact binomial test, p = 0.043, h = 0.43), and all three perceptual constructs were rated significantly higher for the improved configuration after Holm correction, with large to very large effect sizes (p < 0.001). These findings confirm that the identified technical improvements are perceptible to users in direct interaction and underscore the importance of complementing benchmark evaluation with user-centred evidence when assessing robotic manipulation pipelines.
 
 </details>
 
