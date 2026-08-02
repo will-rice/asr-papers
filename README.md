@@ -61,10 +61,21 @@ Select _full = true_ to back-fill from 2015 and rebuild all paper markdown, or l
 
 <!-- PAPERS_TABLE_START -->
 
-_Showing the last 30 days (56 of 5487 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
+_Showing the last 30 days (54 of 5488 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
 
 <details open>
 <summary><h3>2026</h3></summary>
+
+#### [Integration of multiple acoustic information included in end-to-end ASR models via density ratio approach for Japanese language](https://www.semanticscholar.org/paper/671416137c2743e83b367325a433171ef4dd7310)
+
+**Keigo Hojo, Yukoh Wakabayashi, Kengo Ohta, Atsunori Ogawa et al.** · 2026-07-31
+
+<details>
+<summary>Abstract</summary>
+
+This study aims to perform automatic speech recognition (ASR) robustly in an unknown target domain by integrating multiple end-to-end (E2E) ASR models trained on different source domains. Such a system combination approaches have long been confirmed effective for improving recognition accuracy in conventional GMM–HMM systems, however there have been few studies evaluating the effectiveness of ensembles of multiple E2E ASR models. Instead, the use of external language models (LMs) is considered to be a more promising approach for adapting E2E ASR models to a target domain without retraining. One representative LM integration method, the density ratio approach (DRA), removes implicit language information from an E2E ASR model using an external LM. Inspired by this approach, here the authors assume that an E2E ASR model whose language information is excluded retains only pure acoustic information from source domain, so the authors use this idea within an ensemble of ASR models. The experimental results show that integrating multiple pretrained E2E ASR models using the proposed method outperforms ROVER, a simple ASR model ensemble and conventional LM integration methods, without requiring any additional ASR model training. The proposed method allows the concept of integrating multiple systems, which has proven effective in conventional GMM–HMM systems, to be applied to E2E ASR. It enables robust recognition in unknown target domains using diverse acoustic information from multiple source domains without requiring additional ASR model training or fine-tuning.
+
+</details>
 
 #### [Voice Memory for Agentic Speech Recognition](https://arxiv.org/abs/2607.26410) · [📄 Read](papers/2026/2607.26410.md)
 
@@ -646,39 +657,6 @@ Automatic speech recognition (ASR) has advanced remarkably for standard speech, 
 <summary>Abstract</summary>
 
 Automatic Speech Recognition (ASR) and Dialect Identification (DID) are crucial for Indian languages, many of which are low-resource and exhibit significant dialectal differences. Existing methods often optimize ASR or DID individually, resulting in performance trade-offs. In this work, we propose a multimodal framework that jointly improves ASR and DID. Our method employs a Bottleneck Encoder to extract dialectal features from Conformer-based speech representations and a RoBERTa encoder to process ASR-generated CTC embeddings. A gating mechanism merges these features, followed by an attention encoder to refine the representations. The learned embeddings are concatenated with Conformer outputs to enhance ASR features. Evaluated on eight Indian languages with thirty-three dialects, our method achieves an average DID accuracy of 81.63% and average CER and WER of 4.65% and 17.73%, respectively. These results highlight the effectiveness of our method for joint ASR-DID modeling.
-
-</details>
-
-#### [Spatial Speech Perception Systems: A Survey of Sound Source Localization, Directional Enhancement, and Speech Recognition](https://arxiv.org/abs/2607.02296) · [📄 Read](papers/2026/2607.02296.md)
-
-**Pengyuan Shao, Dimitrios Kanoulas** · 2026-07-02
-
-<details>
-<summary>Abstract</summary>
-
-Robust speech understanding in real-world acoustic environments remains a fundamental challenge for intelligent auditory systems such as robot audition, hearing aids, teleconferencing systems, smart speakers, and voice-controlled assistants. These systems must operate under background noise, reverberation, competing speakers, and dynamic acoustic conditions. Spatial speech perception addresses this challenge by exploiting microphone-array information to localize, enhance, and interpret target speech in complex acoustic scenes. This paper surveys spatial speech perception systems with emphasis on the roles of sound source localization (SSL), directional speech enhancement (DSE), and automatic speech recognition (ASR), both individually and within integrated processing pipelines. We review classical signal-processing approaches and recent learning-based methods for microphone-array localization, beamforming, neural enhancement, speech separation, and modern recognition architectures. Beyond component-level analysis, we discuss robustness to noise and reverberation, multi-speaker operation, real-time constraints, and computational efficiency. We also examine representative applications in robot audition, hearing assistance, smart speakers, and teleconferencing, and identify open challenges and future directions toward robust, low-latency, and perception-aware speech systems for complex acoustic environments.
-
-</details>
-
-#### [Rethinking Speech-LLM Integration for ASR: Effective Joint Speech-Text Training by Interleaving](https://arxiv.org/abs/2607.01733) · [📄 Read](papers/2026/2607.01733.md)
-
-**Ruchao Fan, Yiming Wang, Rui Zhao, Liliang Ren et al.** · 2026-07-02
-
-<details>
-<summary>Abstract</summary>
-
-Speech-LLM integration has shown promising results by leveraging extensive textual pretraining, yet its specific benefits for automatic speech recognition (ASR) remain unclear. We observe that as supervised ASR training data increases, the contribution of LLM priors becomes less evident, and simple speech-text joint training under-utilizes textual knowledge. We therefore propose Joint Speech-Text Interleaved Pretraining (JSTIP), an ASR-oriented pretraining strategy that constructs word-level and segment-level interleaved speech-text sequences within aligned pairs for speech-LLM architectures that accept continuous inputs. Experiments on 38k hours of ASR data show consistent entity accuracy improvement compared to ASR-only and joint speech-text training baselines. JSTIP achieves on-par entity recognition performance using domain transcription text compared to synthetic speech-text pairs, simplifying domain adaptation. Benefiting from textual pretraining and domain text data, JSTIP is competitive with open-source ASR and Speech-LLM systems in medical entity recognition. The zero-shot speech question answering behaviors further suggest that interleaving reduces the speech-text modality gap and preserves the LLM generative prior, which is likely the reason for the entity improvements on the ASR task.
-
-</details>
-
-#### [H-SAGE: Holistic Speaker-Aware Guided Experts for MoE-based Multi-Talker ASR](https://arxiv.org/abs/2607.01566) · [📄 Read](papers/2026/2607.01566.md)
-
-**Yujie Guo, Jiaming Zhou, Yuhang Jia, Yang chen et al.** · 2026-07-02
-
-<details>
-<summary>Abstract</summary>
-
-Multi-talker Automatic Speech Recognition (MTASR) faces significant challenges in accurately transcribing overlapping speech, particularly under complex high-overlap conditions. While recent Mixture-of-Experts (MoE) approaches have shown promise, they typically rely on frame-independent routing that leads to temporal myopia, and depend solely on the downstream ASR objective, which results in implicit and ungrounded representation learning. To address these limitations, we propose Holistic Speaker-Aware Guided Experts (H-SAGE) for MoE-based MTASR. Specifically, we introduce a Speaker-Aware Global Encoder to capture long-term dependencies, supervised by an auxiliary Overlap-Aware Loss that explicitly guides the model to discern acoustic states. Furthermore, we design a Holistic Gating Mechanism to arbitrate expert selection by jointly evaluating global context and local details. Experiments on LibriSpeechMix demonstrate that H-SAGE achieves consistent improvements over strong baselines, particularly in complex scenarios, validating that explicit acoustic guidance effectively enhances expert collaboration. Our code can be found at https://github.com/NKU-HLT/H-SAGE.
 
 </details>
 
