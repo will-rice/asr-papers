@@ -61,12 +61,12 @@ Select _full = true_ to back-fill from 2015 and rebuild all paper markdown, or l
 
 <!-- PAPERS_TABLE_START -->
 
-_Showing the last 30 days (54 of 5488 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
+_Showing the last 30 days (56 of 5492 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
 
 <details open>
 <summary><h3>2026</h3></summary>
 
-#### [Integration of multiple acoustic information included in end-to-end ASR models via density ratio approach for Japanese language](https://www.semanticscholar.org/paper/671416137c2743e83b367325a433171ef4dd7310)
+#### [Integration of multiple acoustic information included in end-to-end ASR models via density ratio approach for Japanese language](https://www.semanticscholar.org/paper/671416137c2743e83b367325a433171ef4dd7310) · [📄 Read](papers/2026/s2:671416137c2743e83b367325a433171ef4dd7310.md)
 
 **Keigo Hojo, Yukoh Wakabayashi, Kengo Ohta, Atsunori Ogawa et al.** · 2026-07-31
 
@@ -74,6 +74,50 @@ _Showing the last 30 days (54 of 5488 papers). The full list lives in [papers.cs
 <summary>Abstract</summary>
 
 This study aims to perform automatic speech recognition (ASR) robustly in an unknown target domain by integrating multiple end-to-end (E2E) ASR models trained on different source domains. Such a system combination approaches have long been confirmed effective for improving recognition accuracy in conventional GMM–HMM systems, however there have been few studies evaluating the effectiveness of ensembles of multiple E2E ASR models. Instead, the use of external language models (LMs) is considered to be a more promising approach for adapting E2E ASR models to a target domain without retraining. One representative LM integration method, the density ratio approach (DRA), removes implicit language information from an E2E ASR model using an external LM. Inspired by this approach, here the authors assume that an E2E ASR model whose language information is excluded retains only pure acoustic information from source domain, so the authors use this idea within an ensemble of ASR models. The experimental results show that integrating multiple pretrained E2E ASR models using the proposed method outperforms ROVER, a simple ASR model ensemble and conventional LM integration methods, without requiring any additional ASR model training. The proposed method allows the concept of integrating multiple systems, which has proven effective in conventional GMM–HMM systems, to be applied to E2E ASR. It enables robust recognition in unknown target domains using diverse acoustic information from multiple source domains without requiring additional ASR model training or fine-tuning.
+
+</details>
+
+#### [Leveraging Beam Search Information for Confidence Estimation in E2E ASR](https://arxiv.org/abs/2607.29299)
+
+**Yichen Jia, Hugo Van hamme** · 2026-07-31
+
+<details>
+<summary>Abstract</summary>
+
+To estimate confidence for end-to-end Automatic Speech Recognition (ASR) systems, recent research has proposed Confidence Estimation Modules that incorporate features from the backbone ASR model. Most existing approaches, however, are architecture-dependent. In this paper, we propose the Score-Rank Confidence Estimation Module (SR-CEM), a lightweight module that leverages beam search information to generate token- and word-level confidence scores. Specifically, SR-CEM constructs features by combining the scores and ranks of tokens within a hypothesis. Experiments show that SR-CEM achieves effective calibration on both in-domain and out-of-domain English data. On the in-domain testset, it attains a Maximum Calibration Error of 4.50% and an Expected Calibration Error of 0.30% at the token level, significantly outperforming softmax confidence (20.04% and 1.75%, respectively). At the word level, SR-CEM achieves 8.17% and 0.35%, compared to 17.91% and 1.67% from softmax confidence. Furthermore, we demonstrate its robustness across hybrid and transducer ASR architectures with different decoding strategies, as well as on Dutch, noisy and conversational speech conditions. Our main finding is that SR-CEM is particularly effective in reducing Maximum Calibration Error, which is critical for reliable downstream use of ASR outputs, while maintaining architecture independence and generality across diverse evaluation conditions.
+
+</details>
+
+#### [ParaASR: Multi-Token Prediction for Fast and Long-Context LLM-Based Speech Recognition](https://arxiv.org/abs/2607.29279)
+
+**Qingjian Lin, Yuxin Li, Haoyang Zhang, Jun Chen et al.** · 2026-07-31
+
+<details>
+<summary>Abstract</summary>
+
+Audio-encoder-LLM-decoder architectures have become the dominant paradigm for modern automatic speech recognition (ASR), improving transcription quality through large-scale language modeling. However, the cost of autoregressive decoding scales with decoder size, creating a fundamental trade-off between recognition quality and serving latency. We argue this trade-off is not inherent: unlike open-ended text generation, ASR outputs are strongly anchored to the input speech signal, providing a natural inductive bias toward high-parallelism decoding. Building on this, we introduce ParaASR, an ASR system that leverages Multi-Token Prediction (MTP) to let a 4B LLM decoder emit multiple tokens per forward step. Starting from a publicly available audio-language foundation, the model first establishes a robust autoregressive recognizer and then aligns five future-token branches through a staged optimization recipe. At inference, it proposes a six-token continuation per step and admits only the verified prefix into the transcript, preserving the safety of standard autoregressive decoding. The average accepted length reaches 5.0 out of 6 proposed tokens, confirming that the deterministic structure of speech makes ASR an especially natural setting for multi-token decoding. ParaASR further retains a native 32K-context window and transcribes up to 30 minutes of audio in a single pass. Across diverse benchmarks, it attains average error rates of 2.97%, 3.68%, and 3.70% on Chinese, English, and long-form evaluations, respectively, while reaching a real-time factor (RTF) as low as 0.0053. These results show that decoder scaling, low-latency inference, and long-context transcription need not be competing goals when future-token proposals are anchored by the acoustic signal and guarded by autoregressive verification.
+
+</details>
+
+#### [DoubleHelix: Structured Cross-Modal Fusion for Audio-Visual Speech Recognition with LLMs](https://arxiv.org/abs/2607.29112)
+
+**Ziwei Cheng, Zhenhua Tan, Zhuomin Zhu** · 2026-07-31
+
+<details>
+<summary>Abstract</summary>
+
+Audio-visual speech recognition (AVSR) relies on effective fusion of audio and visual modalities, yet existing approaches treat cross-modal interaction as a single-step operation without structured iterative refinement. We present DoubleHelix, a multimodal fusion framework that reformulates fusion as an iterative cross-modal interaction process with adaptive degradation-aware enhancement. The framework comprises three components including ReverseParallelHelix for multi-turn structured interaction with learned alignment constraints, QualitySensor for learning degradation-aware gating signals, and HelixReplication for consistency-guided conditional feature enhancement. Experiments on LRS3 demonstrate that DoubleHelix achieves 0.68% WER on clean audio, outperforming previous best results by 5.6% relative improvement under matched backbone settings. Comprehensive ablation studies validate each component contribution, including targeted analysis of design choices such as asymmetric pathway weighting. The framework shows improved robustness under evaluated babble-noise conditions, achieving 11.6% WER at SNR -5dB.
+
+</details>
+
+#### [YazSes: An Offline, Privacy-First, Cross-Platform Hold-to-Talk Voice-Dictation System](https://arxiv.org/abs/2607.28878)
+
+**Mohsen Seyedkazemi Ardebili** · 2026-07-30
+
+<details>
+<summary>Abstract</summary>
+
+Cloud voice-dictation services deliver strong accuracy but require streaming a user's speech to a remote provider, an unacceptable trade-off in privacy-sensitive professions and offline or air-gapped settings; the leading on-device alternatives are either platform-locked or aimed at expert scripting rather than plug-and-play dictation. We present YazSes, an open-source (Apache-2.0) hold-to-talk voice dictation daemon that runs entirely on-device, with a single codebase targeting Linux, macOS, and Windows through a protocol-based platform abstraction. YazSes transcribes speech locally with faster-whisper (CPU, int8) and injects the result into the focused application; a fast regex command grammar, backed by an optional small-language-model router, maps utterances to editor and terminal actions. Nothing leaves the machine: recording is push-to-talk rather than always-listening, there is no telemetry, and an opt-in personalization loop keeps its corpus encrypted on-device and proposes configuration changes instead of shipping data out. We describe the system architecture -- a staged pipeline behind a protocol-based platform abstraction with a JSON-RPC control plane -- and its privacy and threat model. We evaluate the shipping Python implementation on a single commodity Linux laptop; the macOS and Windows backends are implemented and unit-tested but not end-to-end evaluated here. On 200 LibriSpeech test-clean utterances spanning 40 speakers, word error rate ranges from 4.82% (tiny.en) to 2.59% (small.en) at a real-time factor of 0.520 for small.en, decoding faster than real time on CPU with no GPU. The command grammar reaches 100% action accuracy with a 0.0% false-positive rate on plain dictation at 0.021 ms per call, and the non-decode pipeline adds 0.289 ms of overhead. The system and the reproducible benchmark harness behind every number in this paper are public.
 
 </details>
 
@@ -635,28 +679,6 @@ Training automatic speech recognition (ASR) models for low-resource languages is
 <summary>Abstract</summary>
 
 Accent normalization (AN) seeks to convert non-native (L2) accented speech into standard (L1) speech while preserving speaker identity. The current techniques either require naturally recorded parallel L1-L2 speech for training, or suffer from quality degradation when supervised by synthesized targets. In this paper, we present TokAN, a token-based accent normalization framework that operates on self-supervised discrete speech tokens extracted from a L1-L2 jointly trained vector-quantization (VQ) tokenizer, without the need of synthetic supervisory speech. An autoregressive encoder-decoder model performs token-to-token conversion, translating L2-accented token sequences into the tokens of standard voice. We also introduce reinforcement learning (RL) post-training based on Group Relative Policy Optimization (GRPO), using word error rate and accent classifier confidence as complementary rewards. A non-autoregressive flow-matching synthesizer recovers the Mel-spectrogram from the converted tokens, conditioned on the source speaker embedding. We also develop a flow-matching duration predictor that supports total-duration-aware synthesis, making TokAN applicable to duration-critical tasks such as voice dubbing and live casting. Experiments on seven English accents demonstrate that TokAN reduced the word error rate from 12.40% to 9.89% after supervised fine-tuning, and further to 9.23% after RL post-training, consistently outperforming frame-to-frame, direct flow-matching, and prompt-based token-conversion baselines in terms of accent reduction and intelligibility.
-
-</details>
-
-#### [S-DiverSe: Spanish Diverse Speech](https://arxiv.org/abs/2607.03207) · [📄 Read](papers/2026/2607.03207.md)
-
-**Fernando López, Fernando Ibañez, Ana Martínez, Iván Alonso et al.** · 2026-07-03
-
-<details>
-<summary>Abstract</summary>
-
-Automatic speech recognition (ASR) has advanced remarkably for standard speech, yet speech affected by neurological conditions remains a challenge. We present S-DiverSe (Spanish Diverse Speech), a corpus of 3.2 hours of in-the-wild Spanish speech from 22 speakers with amyotrophic lateral sclerosis, Parkinson's disease, and stroke. The dataset contains 444 manually transcribed audio segments with metadata on speaker sex, disease type, and intelligibility. S-DiverSe is designed to support ASR evaluation and development for neurologically affected Spanish speech. We describe the dataset, analyze its composition, and report baseline ASR results alongside initial adaptation experiments. Our findings reveal that heuristic text post-processing is more robust than fine-tuning for out-of-domain neurological Spanish speech. This underscores the need for dedicated in-the-wild Spanish benchmarks.
-
-</details>
-
-#### [Jointly Improving Dialect Identification and ASR in Indian Languages using Multimodal Feature Fusion](https://arxiv.org/abs/2607.02862) · [📄 Read](papers/2026/2607.02862.md)
-
-**Saurabh Kumar, Amartyaveer, Prasanta Kumar Ghosh** · 2026-07-03
-
-<details>
-<summary>Abstract</summary>
-
-Automatic Speech Recognition (ASR) and Dialect Identification (DID) are crucial for Indian languages, many of which are low-resource and exhibit significant dialectal differences. Existing methods often optimize ASR or DID individually, resulting in performance trade-offs. In this work, we propose a multimodal framework that jointly improves ASR and DID. Our method employs a Bottleneck Encoder to extract dialectal features from Conformer-based speech representations and a RoBERTa encoder to process ASR-generated CTC embeddings. A gating mechanism merges these features, followed by an attention encoder to refine the representations. The learned embeddings are concatenated with Conformer outputs to enhance ASR features. Evaluated on eight Indian languages with thirty-three dialects, our method achieves an average DID accuracy of 81.63% and average CER and WER of 4.65% and 17.73%, respectively. These results highlight the effectiveness of our method for joint ASR-DID modeling.
 
 </details>
 
