@@ -61,10 +61,21 @@ Select _full = true_ to back-fill from 2015 and rebuild all paper markdown, or l
 
 <!-- PAPERS_TABLE_START -->
 
-_Showing the last 30 days (56 of 5492 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
+_Showing the last 30 days (56 of 5494 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
 
 <details open>
 <summary><h3>2026</h3></summary>
+
+#### [Analyzing Speech Condition Effects in Dysarthric ASR: A Layer-wise Probing Study](https://arxiv.org/abs/2608.01865)
+
+**Darwin Jelestin Muthu, Navya Gupta, Wei Lin Tay, Zhengchen Zhang et al.** · 2026-08-03
+
+<details>
+<summary>Abstract</summary>
+
+Automatic speech recognition (ASR) performance degrades sharply on dysarthric speech, yet how disordered articulation reshapes a model's internal representations is underexplored. We present a layer-wise probing analysis of a transformer ASR encoder on Mandarin dysarthric speech under three transcript-matched conditions: original dysarthric speech, speaker conditioned zero-shot TTS resynthesis, and unconditioned TTS. The probes reveal a task-dependent hierarchy: phoneme boundary information stays weak for dysarthric speech at every layer, phoneme identity becomes recoverable toward the upper layers, and recognition difficulty is encoded in the deepest layers. Tone-sensitive evaluation shows Mandarin lexical tone is a persistent error source. Cross-condition similarity divergence grows with depth, indicating that disordered speech affects high-level representations more than low-level acoustic features. Guided by these findings, single-layer LoRA at layer 7 and adaptation on subset layers 5-8 achieve performance within 3.5% and 2.48% relative margins of full encoder adaptation, respectively, while upper-layer adaptation is less effective for dysarthric speech. These findings link representation analysis to parameter-efficient fine-tuning and motivate layer-aware adaptation for low-resource Mandarin dysarthric ASR.
+
+</details>
 
 #### [Integration of multiple acoustic information included in end-to-end ASR models via density ratio approach for Japanese language](https://www.semanticscholar.org/paper/671416137c2743e83b367325a433171ef4dd7310) · [📄 Read](papers/2026/s2:671416137c2743e83b367325a433171ef4dd7310.md)
 
@@ -77,7 +88,7 @@ This study aims to perform automatic speech recognition (ASR) robustly in an unk
 
 </details>
 
-#### [Leveraging Beam Search Information for Confidence Estimation in E2E ASR](https://arxiv.org/abs/2607.29299)
+#### [Leveraging Beam Search Information for Confidence Estimation in E2E ASR](https://arxiv.org/abs/2607.29299) · [📄 Read](papers/2026/2607.29299.md)
 
 **Yichen Jia, Hugo Van hamme** · 2026-07-31
 
@@ -88,7 +99,7 @@ To estimate confidence for end-to-end Automatic Speech Recognition (ASR) systems
 
 </details>
 
-#### [ParaASR: Multi-Token Prediction for Fast and Long-Context LLM-Based Speech Recognition](https://arxiv.org/abs/2607.29279)
+#### [ParaASR: Multi-Token Prediction for Fast and Long-Context LLM-Based Speech Recognition](https://arxiv.org/abs/2607.29279) · [📄 Read](papers/2026/2607.29279.md)
 
 **Qingjian Lin, Yuxin Li, Haoyang Zhang, Jun Chen et al.** · 2026-07-31
 
@@ -99,7 +110,7 @@ Audio-encoder-LLM-decoder architectures have become the dominant paradigm for mo
 
 </details>
 
-#### [DoubleHelix: Structured Cross-Modal Fusion for Audio-Visual Speech Recognition with LLMs](https://arxiv.org/abs/2607.29112)
+#### [DoubleHelix: Structured Cross-Modal Fusion for Audio-Visual Speech Recognition with LLMs](https://arxiv.org/abs/2607.29112) · [📄 Read](papers/2026/2607.29112.md)
 
 **Ziwei Cheng, Zhenhua Tan, Zhuomin Zhu** · 2026-07-31
 
@@ -110,7 +121,18 @@ Audio-visual speech recognition (AVSR) relies on effective fusion of audio and v
 
 </details>
 
-#### [YazSes: An Offline, Privacy-First, Cross-Platform Hold-to-Talk Voice-Dictation System](https://arxiv.org/abs/2607.28878)
+#### [Normal-Anchored First-Order Model-Agnostic Meta-Learning based Whisper Fine-Tuning for Enhancing Fairness of Cleft Lip and Palate Speech Recognition](https://arxiv.org/abs/2608.00186)
+
+**Susmita Bhattacharjee, Jagabandhu Mishra, H. S. Shekhawat, Ravi Jasuja et al.** · 2026-07-31
+
+<details>
+<summary>Abstract</summary>
+
+Automatic speech recognition (ASR) for cleft lip and palate (CLP) speech is difficult because acoustic and articulatory patterns vary across severity levels. This variability reduces the performance of pretrained ASR systems, and conventional fine-tuning may not generalize well under low-resource, heterogeneous CLP conditions. This work proposes Normal-Anchored First-Order Model-Agnostic Meta-Learning (NA-FOMAML) for adapting Whisper to CLP speech. The method uses a first-order bilevel meta-learning framework in which normal speech is used in the inner loop as a stable support condition, while CLP severity groups are used in the outer loop to improve post-adaptation robustness. This design aims to reduce the performance gap between normal and pathological speech. Experiments are conducted on the NMCPC and AIISH datasets using four normal-anchored training configurations. Frozen encoder, full encoder, and selected Whisper encoder-layer tuning strategies are evaluated, including layers 0--5, 4--11, 6--11, and 8--11, with decoder and projection-head adaptation. Results show that outer-loop training with only normal speech is insufficient. For NMCPC, full encoder tuning with Normal to Normal+Mild+Moderate gives WERs of 4.40%, 5.53%, 16.14%, and 52.07% for normal, mild, moderate, and severe speech. For AIISH, full encoder tuning with Normal to Normal+Mild+Moderate+Severe gives WERs of 2.48%, 19.66%, 14.05%, and 57.50%. A transcription-based phoneme-category analysis shows that severe CLP speech has high error rates across fricatives, affricates, nasals, liquids, plosives, and vowels. Overall, NA-FOMAML improves cross-severity robustness, but severe speech still requires severity-aware sampling, phoneme-aware loss functions, and augmentation targeting pressure consonant and resonance-related distortions.
+
+</details>
+
+#### [YazSes: An Offline, Privacy-First, Cross-Platform Hold-to-Talk Voice-Dictation System](https://arxiv.org/abs/2607.28878) · [📄 Read](papers/2026/2607.28878.md)
 
 **Mohsen Seyedkazemi Ardebili** · 2026-07-30
 
@@ -657,28 +679,6 @@ Language model (LM) perplexity (PPL) has historically been used as a proxy for a
 <summary>Abstract</summary>
 
 Modern autoregressive ASR systems can emit timestamps as decoded tokens, enabling timestamped transcription without frame-level aligners or inference-time post-processing. We show that these generated timestamps can drift across long non-speech spans: the transcript may remain plausible, but the decoded time axis drifts away from the audio. We study this non-speech-induced timestamp drift with self-built gap and long-gap benchmarks across 15 evaluated timestamp-producing ASR and audio-language systems. Naive timestamp-corrected fine-tuning improves alignment but can severely degrade non-target ASR behavior, exposing a forgetting problem. We propose REDDIT(REplay-based Distribution eDITing), a lightweight two-stage post-training framework that corrects timestamps while avoiding this catastrophic forgetting: it first edits timestamp targets under the model's own replayed decoder context while matching the frozen base distribution on non-timestamp tokens, then applies a short edited-prefix refinement stage. In this framework, we construct correction supervision without human transcripts or human timestamp annotations by combining VAD-trimmed speech spans with inserted non-speech gaps and known concatenation offsets. On Whisper-tiny, 34.9 hours of targeted correction audio used and only 1.6% of model parameters updated, raising long-gap mIoU from 38.7% to 95.0% and reducing mixed-gap out-of-domain AAS from 2752 ms to 223 ms while preserving CV-en MER at 41.3% (versus 524.2% for ordinary SFT decoder tuning).
-
-</details>
-
-#### [QuaSR: Quality-Aware Sample Reweighting for Pacific Indigenous Speech Recognition](https://arxiv.org/abs/2607.03658) · [📄 Read](papers/2026/2607.03658.md)
-
-**Yishun Li, Yang Xiao, Gongping Huang, Eun-Jung Holden et al.** · 2026-07-04
-
-<details>
-<summary>Abstract</summary>
-
-Training automatic speech recognition (ASR) models for low-resource languages is challenging due to limited data and highly variable supervision quality. In particular, Pacific Indigenous speech corpora often exhibit heterogeneous acoustic conditions, transcript inconsistencies, and varying degrees of acoustic-text alignment reliability, making standard fine-tuning approaches sensitive to noisy or misleading supervision signals. In this work, we propose QuaSR, a simple yet effective weighting framework that combines data-side reliability with model-side learnability to improve ASR adaptation. Specifically, we estimate data reliability from acoustic, transcription, and alignment, while measuring learnability using training loss from the model. These two complementary signals are integrated into a unified sample utility score to produce training weights for the samples. We also evaluated across four Pacific Indigenous languages, which shows that the proposed utility scores reliably correlate with adaptation performance. Furthermore, QuaSR consistently improves ASR adaptation over standard fine-tuning and alternative data selection strategies, highlighting a new way to leverage difficulty scores for low-resource speech learning.
-
-</details>
-
-#### [TokAN: Accent Normalization Using Self-Supervised Speech Tokens](https://arxiv.org/abs/2607.03928) · [📄 Read](papers/2026/2607.03928.md)
-
-**Qibing Bai, Shuai Wang, Yuhan Du, Bohan Li et al.** · 2026-07-04
-
-<details>
-<summary>Abstract</summary>
-
-Accent normalization (AN) seeks to convert non-native (L2) accented speech into standard (L1) speech while preserving speaker identity. The current techniques either require naturally recorded parallel L1-L2 speech for training, or suffer from quality degradation when supervised by synthesized targets. In this paper, we present TokAN, a token-based accent normalization framework that operates on self-supervised discrete speech tokens extracted from a L1-L2 jointly trained vector-quantization (VQ) tokenizer, without the need of synthetic supervisory speech. An autoregressive encoder-decoder model performs token-to-token conversion, translating L2-accented token sequences into the tokens of standard voice. We also introduce reinforcement learning (RL) post-training based on Group Relative Policy Optimization (GRPO), using word error rate and accent classifier confidence as complementary rewards. A non-autoregressive flow-matching synthesizer recovers the Mel-spectrogram from the converted tokens, conditioned on the source speaker embedding. We also develop a flow-matching duration predictor that supports total-duration-aware synthesis, making TokAN applicable to duration-critical tasks such as voice dubbing and live casting. Experiments on seven English accents demonstrate that TokAN reduced the word error rate from 12.40% to 9.89% after supervised fine-tuning, and further to 9.23% after RL post-training, consistently outperforming frame-to-frame, direct flow-matching, and prompt-based token-conversion baselines in terms of accent reduction and intelligibility.
 
 </details>
 
