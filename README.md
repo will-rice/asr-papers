@@ -66,7 +66,7 @@ _Showing the last 30 days (56 of 5494 papers). The full list lives in [papers.cs
 <details open>
 <summary><h3>2026</h3></summary>
 
-#### [Analyzing Speech Condition Effects in Dysarthric ASR: A Layer-wise Probing Study](https://arxiv.org/abs/2608.01865)
+#### [Analyzing Speech Condition Effects in Dysarthric ASR: A Layer-wise Probing Study](https://arxiv.org/abs/2608.01865) · [📄 Read](papers/2026/2608.01865.md)
 
 **Darwin Jelestin Muthu, Navya Gupta, Wei Lin Tay, Zhengchen Zhang et al.** · 2026-08-03
 
@@ -121,7 +121,7 @@ Audio-visual speech recognition (AVSR) relies on effective fusion of audio and v
 
 </details>
 
-#### [Normal-Anchored First-Order Model-Agnostic Meta-Learning based Whisper Fine-Tuning for Enhancing Fairness of Cleft Lip and Palate Speech Recognition](https://arxiv.org/abs/2608.00186)
+#### [Normal-Anchored First-Order Model-Agnostic Meta-Learning based Whisper Fine-Tuning for Enhancing Fairness of Cleft Lip and Palate Speech Recognition](https://arxiv.org/abs/2608.00186) · [📄 Read](papers/2026/2608.00186.md)
 
 **Susmita Bhattacharjee, Jagabandhu Mishra, H. S. Shekhawat, Ravi Jasuja et al.** · 2026-07-31
 
