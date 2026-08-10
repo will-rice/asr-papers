@@ -61,7 +61,7 @@ Select _full = true_ to back-fill from 2015 and rebuild all paper markdown, or l
 
 <!-- PAPERS_TABLE_START -->
 
-_Showing the last 30 days (45 of 5497 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
+_Showing the last 30 days (40 of 5498 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
 
 <details open>
 <summary><h3>2026</h3></summary>
@@ -503,61 +503,6 @@ Despite recent scaling successes, multilingual ASR performance remains highly un
 <summary>Abstract</summary>
 
 Generative streaming models for Target Speaker Extraction (TSE) commonly exhibit a quality--intelligibility trade-off, wherein naive optimization for perceptual audio quality tends to degrade speech intelligibility, and conversely. We reveal that this trade-off arises not from the constraints of streaming architectures, but from an inappropriate choice of optimization anchor. Directly optimizing against audio quality metrics induces catastrophic reward hacking, where content critical to pronunciation and intelligibility is systematically erased to maximize a proxy score. To break this bottleneck, we propose two complementary improvements: an enlarged Conformer convolution kernel for richer local spectro-temporal modeling, and WavLM-anchored Direct Preference Optimization (DPO) fine-tuning strategy. DPO preference pairs are ranked by WavLM cosine similarity, a deep acoustic feature encoding both phonetic structure and speaker identity, providing an optimization anchor that resists hacking. Under a 560 ms streaming chunk size, the proposed method achieves a 10.9% relative intelligibility improvement (word error rate: 0.138 to 0.123), with marginal simultaneous gains in audio quality and speaker similarity.
-
-</details>
-
-#### [Tokenizer Transplantation: Mitigating Autoregressive Collapse in Edge-Efficient Bengali ASR](https://arxiv.org/abs/2607.09598) · [📄 Read](papers/2026/2607.09598.md)
-
-**Sanjid Hasan, Md. Abdur Rahman** · 2026-07-10
-
-<details>
-<summary>Abstract</summary>
-
-Lightweight speech recognition models are critical for edge deployment, yet highly optimized architectures like Moonshine often fail on morphologically rich, non-Latin languages such as Bengali. This study identifies the root cause of this failure as the model's English-centric byte-level tokenizer, which fragments Bengali words into high-fertility byte chains and triggers catastrophic autoregressive collapse during inference. To resolve this, a novel vocabulary transplantation pipeline is proposed to replace the decoder vocabulary with the native-script BanglaBERT WordPiece vocabulary and resize the corresponding token embedding matrix. Experimental results demonstrate a reduction in token fertility from 9.16 to 1.30. By decreasing autoregressive sequence length by 85.8%, decoding instability is entirely mitigated. When evaluated on the 882-hour Lipi-Ghor dataset, the modified architecture achieves a competitive 21.54% Word Error Rate (WER) and a Real-Time Factor (RTF) of 0.0053. Ultimately, this research provides a scalable, reproducible blueprint for cross-script adaptation of compact ASR models without the need for resource-intensive pre-training.
-
-</details>
-
-#### [Optimal Transport-based Semantic Alignment for LLM-based Audio-Visual Speech Recognition](https://arxiv.org/abs/2607.09001) · [📄 Read](papers/2026/2607.09001.md)
-
-**Xugang Lu, Peng Shen, Yu Tsao, Hisashi Kawai** · 2026-07-10
-
-<details>
-<summary>Abstract</summary>
-
-Large language model (LLM)-based audio-visual speech recognition (LLM-AVSR) has recently demonstrated strong robustness in adverse acoustic environments by leveraging complementary audio and visual information. Existing approaches typically employ independently pretrained acoustic and visual encoders, whose outputs are projected and fused as soft prompts to condition an LLM for speech recognition. However, most methods perform multimodal fusion without explicitly addressing the representational discrepancy between audio, visual and text modalities, potentially limiting the effectiveness of cross-modal integration. In this paper, we propose an optimal transport (OT)-based semantic alignment framework for LLM-AVSR. The proposed method explicitly bridges the modality gap by aligning the acoustic and visual representations with reference to the linguistic embedding space of the LLM before multimodal fusion. Specifically, OT is used to estimate probabilistic coupling matrices that characterize structured correspondences between modality-specific features and linguistic embeddings. The resulting OT couplings are further utilized as soft pseudo-labels to supervise contrastive learning, encouraging the extraction of semantically coherent and cross-modal consistent audio-visual representations. By anchoring multimodal features to the linguistic space of the LLM, the proposed framework facilitates more effective multimodal fusion and decoding. We implement the proposed framework using a Whisper-based acoustic encoder, an AV-HuBERT-based visual encoder, and a LLaMA3.2-3B decoder. Experiments conducted on the LRS3-TED benchmark demonstrate consistent improvements over strong baselines and achieve state-of-the-art performance under both clean and noisy evaluation conditions across a wide range of signal-to-noise ratios (SNRs).
-
-</details>
-
-#### [FreyaTTS Technical Report](https://arxiv.org/abs/2607.09530) · [📄 Read](papers/2026/2607.09530.md)
-
-**Ahmet Erdem Pamuk, Ömer Yentür, Ahmet Tunga Bayrak, Yavuz Alp Sencer Öztürk et al.** · 2026-07-10
-
-<details>
-<summary>Abstract</summary>
-
-We introduce Freya-TTS, a compact, tokenizer-free, Turkish-first text-to-speech model designed for highly reliable and efficient conversational synthesis. Freya-TTS is a 183.2M-parameter non-autoregressive conditional flow-matching Diffusion Transformer (DiT) that operates in the frozen continuous latent space of AudioVAE2 (16 kHz encode, 48 kHz decode), allowing the model to focus its capacity on text-to-latent mapping while inheriting high-quality 48 kHz reconstruction. We advance the framework along three key dimensions: (1) rule-free end-to-end modeling from a 92-symbol Turkish character vocabulary without a phonemizer, grapheme-to-phoneme frontend, or discrete speech tokenizer; (2) non-autoregressive parallel denoising, which predicts the entire latent sequence simultaneously over a predicted duration; and (3) a production-oriented two-stage post-training recipe consisting of single-speaker voice locking and short-utterance coverage, improving speaker consistency and robustness on short inputs. On the Freya-TR-Eval benchmark, Freya-TTS achieves a band-matched word error rate (WER) of 8.0% and character error rate (CER) of 3.0%, outperforming substantially larger open-source systems while using a fraction of their parameters. The model achieves a real-time factor of 0.11 on consumer GPUs and runs faster than real time on a laptop CPU, making it well suited for resource-constrained edge deployment. We release the model weights, training and inference code, and evaluation benchmark under the Apache-2.0 license.
-
-</details>
-
-#### [Generative Testing of Automated Speech Recognition Systems](https://arxiv.org/abs/2607.09833) · [📄 Read](papers/2026/2607.09833.md)
-
-**Yanis Xabier Wilbrand Peña, Oliver Weißl, Andrea Stocco** · 2026-07-10
-
-<details>
-<summary>Abstract</summary>
-
-Automatic speech recognition (ASR) systems have achieved high accuracy with transformer-based models, enabling deployment in critical applications. However, they remain vulnerable to adversarial manipulation, particularly in black-box settings where attacks must preserve perceptual naturalness. This work introduces GATAS, a black-box testing approach that generates failure inducing inputs by operating in the phoneme-level latent space of a text- to-speech model. Instead of perturbing waveforms directly, the approach interpolates latent representations to induce transcription errors while remaining within the manifold of natural speech. The attack is formulated as a multi-objective optimization problem balancing semantic divergence and perceptual quality. Our empirical evaluation against both white-box and black-box baselines shows that GATAS achieves a 98% success rate while producing lower distortion and higher perceptual quality, as confirmed by human studies. Despite operating without gradient access, GATAS remains competitive against white-box methods, highlighting that representation and perceptual alignment are more critical than access to model internals. Overall, our results demonstrate that untargeted latent-space optimization enables the efficient generation of realistic and effective test cases for ASR systems.
-
-</details>
-
-#### [ANALISIS PERFORMA OCR TESSERACT DAN CRNN PADA DOKUMEN SURAT JALAN SEMI-TERSTRUKTUR](https://www.semanticscholar.org/paper/1af221b1b8ded5942ba771c89bebfc59946ed717) · [📄 Read](papers/2026/s2:1af221b1b8ded5942ba771c89bebfc59946ed717.md)
-
-**Ali As’ad, Iska Yanuartanti, Danang Erwanto** · 2026-07-10
-
-<details>
-<summary>Abstract</summary>
-
-Surat jalan merupakan dokumen penting dalam proses logistik yang memerlukan pencatatan data secara akurat, namun metode manual yang masih digunakan seringkali tidak efisien dan rentan terhadap kesalahan, terutama pada lingkungan dengan volume tinggi. Penelitian ini bertujuan untuk mengevaluasi performa Optical Character Recognition (OCR) berbasis Tesseract dan Convolutional Recurrent Neural Network (CRNN) dalam mengenali teks pada dokumen semi-terstruktur. Penelitian ini menggunakan pendekatan eksperimental komparatif dengan dataset sebanyak 200 citra dokumen yang mencakup 180 teks cetak dan 20 tulisan tangan dengan berbagai variasi kondisi. Sebanyak 33 citra digunakan sebagai data uji, sedangkan sisanya digunakan sebagai data pelatihan dengan augmentasi. Sistem yang dikembangkan meliputi preprocessing citra, pengenalan teks, serta ekstraksi field menggunakan regular expression. Evaluasi dilakukan menggunakan metrik Character Error Rate (CER), Word Error Rate (WER), dan Match Error Rate (MER). Hasil menunjukkan bahwa OCR Tesseract lebih unggul pada tingkat karakter (CER) sebesar 42,84% , sedangkan OCR+CRNN menunjukkan performa yang relatif lebih baik pada tingkat kata dan pencocokan keseluruhan (WER dan MER) sebesar 68,24% dan 51,56% . Perlu dicatat bahwa kedua nilai tersebut masih sangat tinggi, CER 42,84% mengindikasikan hampir separuh karakter masih salah dikenali, sedangkan WER 68,24% menunjukkan lebih dari dua pertiga kata masih mengandung kesalahan, sehingga sistem belum siap untuk diterapkan secara praktis. Namun, peningkatan performa oleh CRNN belum signifikan, yang mengindikasikan keterbatasan jumlah dan variasi data pelatihan. Selain itu, performa sistem dipengaruhi oleh karakteristik dokumen, di mana teks cetak memberikan hasil yang lebih baik dibandingkan tulisan tangan yang masih terbatas dan belum representatif. Pada tahap ekstraksi informasi, field terstruktur menunjukkan akurasi lebih tinggi dibandingkan field kompleks, yang menegaskan bahwa kualitas hasil OCR menjadi faktor utama dalam keberhasilan ekstraksi. Penelitian ini menunjukkan bahwa pemilihan metode OCR perlu disesuaikan dengan karakteristik dokumen serta menegaskan pentingnya ketersediaan dataset yang lebih besar dan beragam untuk meningkatkan performa model berbasis deep learning.
 
 </details>
 
