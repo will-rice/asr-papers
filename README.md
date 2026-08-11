@@ -61,10 +61,43 @@ Select _full = true_ to back-fill from 2015 and rebuild all paper markdown, or l
 
 <!-- PAPERS_TABLE_START -->
 
-_Showing the last 30 days (40 of 5498 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
+_Showing the last 30 days (40 of 5502 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
 
 <details open>
 <summary><h3>2026</h3></summary>
+
+#### [VoxZip: Semantic-Anchored Temporal KV Cache Compression for Long-Context Audio Inference](https://arxiv.org/abs/2608.08569)
+
+**Wenxu Jia, Dongjie Fu, Xize Cheng, Fangming Feng et al.** · 2026-08-09
+
+<details>
+<summary>Abstract</summary>
+
+Recent advancements in Speech Large Language Models have demonstrated remarkable capabilities in understanding complex audio tasks. Despite this progress, their long-context inference remains severely bottlenecked by prohibitive KV cache memory demands. Existing text-centric compression methods struggle here, often disrupting speech continuity or discarding crucial semantic cues. To address this, we propose VoxZip, a train-free, two-stage semantic-anchored KV cache compression framework. The first stage uses automatic speech recognition (ASR) transcriptions as explicit semantic anchors to temporally align, compress, and fuse audio tokens, significantly reducing the initial KV cache while elevating token information density. To further improve the compression ratio, the second stage employs a dynamic filtering strategy based on temporally decayed accumulated attention to evict non-essential tokens while mitigating early-token bias. Comprehensive evaluations on Qwen3-Omni across six diverse audio benchmarks demonstrate the superiority of our approach. VoxZip excels in long-audio reasoning and consistently maintains high-fidelity perception on short-form tasks. Notably, it sustains over 90\% of the uncompressed baseline performance even under an aggressive 20x KV cache compression in long-context scenarios. Furthermore, at a 4x compression ratio, VoxZip yields a 1.9x increase in inference throughput alongside a 3.3x reduction in peak memory overhead. Code and models will be available at https://github.com/MM-Speech/VoxZip.
+
+</details>
+
+#### [From Speech to Interaction: Analyzing Multimodal Systems in Cocktail-Party Scenarios](https://arxiv.org/abs/2608.08510)
+
+**Thai-Binh Nguyen, Zhaolin Li, Jan Niehues, Alexander Waibel** · 2026-08-09
+
+<details>
+<summary>Abstract</summary>
+
+Humans have the remarkable ability to engage in spontaneous informal conversations and selectively attend to individual speakers while filtering out competing speech from nearby conversations. This "cocktail party" scenario still presents severe challenges to speech recognition systems. The CHiME-9 MCoRec task provides a testbed where systems must recognize groups of speakers and transcribe each of their conversations from audio-visual input. In this work, we analyze a diverse set of systems, representing different design directions for addressing the cocktail-party scenario, where the best system achieves up to 57% relative error reduction. We identify three main strategies: (1) explicit or implicit audio-visual target speech separation, (2) improved audio-visual speech recognition for each target speaker, and (3) the use of large language models to group speakers into conversations and enhance conversational consistency. Our analysis shows that these directions address complementary failure modes of the cocktail-party problem, and that high speech overlap alone does not explain performance differences, challenging the common assumption that overlap is the primary source of difficulty in cocktail-party recognition.
+
+</details>
+
+#### [SraVaani 1.0: Scaling Inclusive Speech Recognition for Indic Languages](https://arxiv.org/abs/2608.08235)
+
+**Sujith Pulikodan, Agneedh Basu, Pavan Kumar J, Pranav D Bhat et al.** · 2026-08-08
+
+<details>
+<summary>Abstract</summary>
+
+India's linguistic landscape spans over 700 languages and thousands of dialects, yet the vast majority of automatic speech recognition (ASR) systems support only a small fraction of this diversity. We present SraVaani-1.0, a multilingual ASR model covering 65 Indian languages and dialects, many of which currently have no publicly available or competing ASR system. SraVaani-1.0 is built on a FastConformer architecture and trained from scratch through a three-stage pipeline.In the first stage, we perform self-supervised pretraining on 31,255 hours of unlabelled speech from the VAANI corpus using a contrastive learning objective. In the second stage, we introduce an audio-image representation alignment stage that leverages the paired images and speech available in the VAANI corpus. This multimodal alignment encourages the speech encoder to learn semantically richer representations by exploiting the relationship between visual context and spoken content, thereby improving downstream recognition, particularly for low-resource languages.In the final stage, the aligned encoder is fine-tuned end-to-end using a Hybrid Token-and-Duration Transducer (TDT)-CTC decoder on 31,263 hours of labelled multilingual Indian speech compiled from 24 public datasets spanning 65 languages and dialects. We evaluate SraVaani-1.0 against three state-of-the-art multilingual ASR systems across eight benchmarks. SraVaani-1.0 achieves the lowest word error rate (WER) on a large number of language-dataset pairs while remaining competitive with the best-performing systems on high-resource languages.Most importantly, it is the only open-source evaluated model that provides transcription capability for multiple low-resource and tribal Indian languages, which are assessed exclusively on the VAANI benchmark.
+
+</details>
 
 #### [Breaking the Curse ofMultilinguality inMany-to-Many Speech-to-Text Translation via a Resource-AwareMixture of Speech Encoders](https://arxiv.org/abs/2608.04586) · [📄 Read](papers/2026/2608.04586.md)
 
@@ -470,39 +503,6 @@ Modern neural speech systems can generate intelligible waveforms, but they usual
 <summary>Abstract</summary>
 
 Large-scale pretrained ASR models such as Whisper exhibit strong multilingual capabilities. However, fine-tuning on low-resource languages often causes catastrophic forgetting. Although continual learning mitigates this issue, existing methods struggle to regulate cross-task interference in multilingual settings, where dominant languages bias optimization. We propose Unified Gradient Projection (UGP), which constrains parameter updates using reference gradients from language-balanced replay in a unified projection space. By equalizing per-language contributions in the projection, UGP reduces dominant-language bias and improves cross-lingual stability. We further show that combining gradient-level projection with data-level replay yields complementary gains in stability and plasticity. Across diverse low-resource language groups and model scales, UGP enables effective adaptation while substantially mitigating forgetting. On Whisper-large-v3, it achieves near-zero average forgetting.
-
-</details>
-
-#### [Which Languages Transfer Best to Warlpiri? A Similarity-Based Study for Low-Resource ASR](https://arxiv.org/abs/2607.10256) · [📄 Read](papers/2026/2607.10256.md)
-
-**Pravina Mylvaganam, Eliathamby Ambikairajah, Ting Dang, Vidhyasaharan Sethu et al.** · 2026-07-11
-
-<details>
-<summary>Abstract</summary>
-
-This paper investigates how language similarity can improve cross-lingual transfer for automatic speech recognition (ASR) in extremely low-resource settings. Warlpiri, an Australian Aboriginal language, has very limited transcribed speech data, making transfer learning essential. We propose a framework combining acoustic similarity from pre-trained speech models with linguistic similarity based on typology, phoneme inventories, grammatical, and syntactic features to rank high-resource source languages and evaluate their effectiveness for ASR transfer to Warlpiri. Experiments with Whisper show that acoustically and typologically similar languages outperform monolingual and multilingual baselines. Assamese and Hindi achieve substantial reductions in word and character error rates. Correlation analysis further indicates that acoustic similarity is the strongest predictor of fine-tuning performance, while phoneme inventory and typological similarity better explain zero-shot transfer.
-
-</details>
-
-#### [GigaAM Multilingual: Foundation Model for Underrepresented Languages](https://arxiv.org/abs/2607.10371) · [📄 Read](papers/2026/2607.10371.md)
-
-**Andrei Kuzmenko, Alexandr Maximenko, Aleksandr Kutsakov, Georgii Gospodinov et al.** · 2026-07-11
-
-<details>
-<summary>Abstract</summary>
-
-Despite recent scaling successes, multilingual ASR performance remains highly uneven, with long-tail languages suffering from severe data scarcity. This work addresses the challenge of building robust foundation models for underrepresented Central Asian languages (Kazakh, Kyrgyz, Uzbek). We present GigaAM Multilingual, a Conformer encoder pre-trained on 2M hours of audio using a HuBERT-style objective. Crucially, we introduce a cluster-level data balancing strategy during pre-training and a domain-aware sampling method during fine-tuning to mitigate head-language dominance. In controlled comparisons, our approach outperforms strong open pretrained encoders (Whisper Large v3, Omnilingual-1B) on target languages, achieving significant gains on spontaneous speech while maintaining efficiency. We release the foundation encoder and ASR model, offering a proven recipe for effective multilingual adaptation under realistic data imbalance.
-
-</details>
-
-#### [Breaking the Quality--Intelligibility Trade-off in Streaming Target Speaker Extraction via Deep-Feature-Anchored Preference Optimization](https://arxiv.org/abs/2607.10191) · [📄 Read](papers/2026/2607.10191.md)
-
-**Shuhai Peng, Jinjiang Liu, Hui Lu, Liyang Chen et al.** · 2026-07-11
-
-<details>
-<summary>Abstract</summary>
-
-Generative streaming models for Target Speaker Extraction (TSE) commonly exhibit a quality--intelligibility trade-off, wherein naive optimization for perceptual audio quality tends to degrade speech intelligibility, and conversely. We reveal that this trade-off arises not from the constraints of streaming architectures, but from an inappropriate choice of optimization anchor. Directly optimizing against audio quality metrics induces catastrophic reward hacking, where content critical to pronunciation and intelligibility is systematically erased to maximize a proxy score. To break this bottleneck, we propose two complementary improvements: an enlarged Conformer convolution kernel for richer local spectro-temporal modeling, and WavLM-anchored Direct Preference Optimization (DPO) fine-tuning strategy. DPO preference pairs are ranked by WavLM cosine similarity, a deep acoustic feature encoding both phonetic structure and speaker identity, providing an optimization anchor that resists hacking. Under a 560 ms streaming chunk size, the proposed method achieves a 10.9% relative intelligibility improvement (word error rate: 0.138 to 0.123), with marginal simultaneous gains in audio quality and speaker similarity.
 
 </details>
 
