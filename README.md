@@ -61,12 +61,34 @@ Select _full = true_ to back-fill from 2015 and rebuild all paper markdown, or l
 
 <!-- PAPERS_TABLE_START -->
 
-_Showing the last 30 days (40 of 5502 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
+_Showing the last 30 days (43 of 5505 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
 
 <details open>
 <summary><h3>2026</h3></summary>
 
-#### [VoxZip: Semantic-Anchored Temporal KV Cache Compression for Long-Context Audio Inference](https://arxiv.org/abs/2608.08569)
+#### [myMediWhisper: Construction of Burmese Medical Speech Corpus and Whisper Fine-Tuning for Clinical Dialogue ASR](https://arxiv.org/abs/2608.11036)
+
+**Ye Kyaw Thu, Ye Bhone Lin, Thura Aung, Htet Arkar et al.** · 2026-08-11
+
+<details>
+<summary>Abstract</summary>
+
+Although Whisper models benefit from large-scale multilingual pre-training, their performance on Burmese medical speech remains limited. This work presents a Burmese medical speech recognition framework built on a high-quality 28-hour corpus recorded and validated by native speakers. We fine-tune Whisper models using full fine-tuning (FFT) and parameter-efficient fine-tuning (PEFT) with LoRA. To evaluate robustness, we apply waveform- and spectrogram-level data augmentation under controlled noise and simulated room acoustics. While augmentation reduces performance on clean speech, it significantly improves robustness in noisy and reverberant environments across FFT and PEFT settings. Our best-performing system, fully fine-tuned myMediWhisper-Medium without augmentation, achieves a state-of-the-art Word Error Rate (WER) of 23.44%, outperforming much larger general-domain fine-tuned models. Dataset and other resources can be found at the Huggingface repository: https://huggingface.co/datasets/LULab/mediTalk-mm-rdy.
+
+</details>
+
+#### [Whisper-Aware LLM: Self-Supervised Uncertainty Learning for Robust Whispered Speech Recognition](https://arxiv.org/abs/2608.10836)
+
+**Gaopeng Xu, Zhenyu Wang, Zheng Xue, Yinfeng Xia et al.** · 2026-08-11
+
+<details>
+<summary>Abstract</summary>
+
+The signal ambiguity of whispered speech drives ASR systems toward two opposing failure modes: failing to capture whispered speech or hallucinatory transcription of noise. This paper introduces the Whisper-Aware LLM, a framework that teaches an Audio-LLM to perceive and react to this uncertainty. Our model develops an intrinsic self-awareness by learning to quantify the physical deficiencies of acoustic signals through targeted self-supervised tasks. This learned uncertainty is then operationalized via a novel Confidence-Fused Decoding mechanism, which provides both high-level instructions and frame-level attention modulation to the LLM decoder. Our experiments confirm the effectiveness of this approach. The model sets a new state-of-the-art on whispered speech with a 17% relative CER reduction on AISHELL6-Whisper. At the same time, it directly addresses the reliability trade-off, with hallucination rates dropping from over 25% to 4.5%.
+
+</details>
+
+#### [VoxZip: Semantic-Anchored Temporal KV Cache Compression for Long-Context Audio Inference](https://arxiv.org/abs/2608.08569) · [📄 Read](papers/2026/2608.08569.md)
 
 **Wenxu Jia, Dongjie Fu, Xize Cheng, Fangming Feng et al.** · 2026-08-09
 
@@ -77,7 +99,7 @@ Recent advancements in Speech Large Language Models have demonstrated remarkable
 
 </details>
 
-#### [From Speech to Interaction: Analyzing Multimodal Systems in Cocktail-Party Scenarios](https://arxiv.org/abs/2608.08510)
+#### [From Speech to Interaction: Analyzing Multimodal Systems in Cocktail-Party Scenarios](https://arxiv.org/abs/2608.08510) · [📄 Read](papers/2026/2608.08510.md)
 
 **Thai-Binh Nguyen, Zhaolin Li, Jan Niehues, Alexander Waibel** · 2026-08-09
 
@@ -88,7 +110,7 @@ Humans have the remarkable ability to engage in spontaneous informal conversatio
 
 </details>
 
-#### [SraVaani 1.0: Scaling Inclusive Speech Recognition for Indic Languages](https://arxiv.org/abs/2608.08235)
+#### [SraVaani 1.0: Scaling Inclusive Speech Recognition for Indic Languages](https://arxiv.org/abs/2608.08235) · [📄 Read](papers/2026/2608.08235.md)
 
 **Sujith Pulikodan, Agneedh Basu, Pavan Kumar J, Pranav D Bhat et al.** · 2026-08-08
 
@@ -96,6 +118,17 @@ Humans have the remarkable ability to engage in spontaneous informal conversatio
 <summary>Abstract</summary>
 
 India's linguistic landscape spans over 700 languages and thousands of dialects, yet the vast majority of automatic speech recognition (ASR) systems support only a small fraction of this diversity. We present SraVaani-1.0, a multilingual ASR model covering 65 Indian languages and dialects, many of which currently have no publicly available or competing ASR system. SraVaani-1.0 is built on a FastConformer architecture and trained from scratch through a three-stage pipeline.In the first stage, we perform self-supervised pretraining on 31,255 hours of unlabelled speech from the VAANI corpus using a contrastive learning objective. In the second stage, we introduce an audio-image representation alignment stage that leverages the paired images and speech available in the VAANI corpus. This multimodal alignment encourages the speech encoder to learn semantically richer representations by exploiting the relationship between visual context and spoken content, thereby improving downstream recognition, particularly for low-resource languages.In the final stage, the aligned encoder is fine-tuned end-to-end using a Hybrid Token-and-Duration Transducer (TDT)-CTC decoder on 31,263 hours of labelled multilingual Indian speech compiled from 24 public datasets spanning 65 languages and dialects. We evaluate SraVaani-1.0 against three state-of-the-art multilingual ASR systems across eight benchmarks. SraVaani-1.0 achieves the lowest word error rate (WER) on a large number of language-dataset pairs while remaining competitive with the best-performing systems on high-resource languages.Most importantly, it is the only open-source evaluated model that provides transcription capability for multiple low-resource and tribal Indian languages, which are assessed exclusively on the VAANI benchmark.
+
+</details>
+
+#### [iRead: A Reading Enhancement Platform with Integrated Small-Vocabulary Speech Recognition for English, Filipino, and Hiligaynon](https://www.semanticscholar.org/paper/af1b479b87afe3718b3bcfb26b917a995c86e53e)
+
+**Jan Carlo T. Arroyo, Bon Eric A. Besonia, Allemar Jhone P. Delima, Felipe P. Vista IV et al.** · 2026-08-08
+
+<details>
+<summary>Abstract</summary>
+
+Reading proficiency is considered a critical educational challenge in a highly multilingual nation such as the Philippines. Digital literacy tools available on the market and those that are found in the literature are mostly English-centric and often lack interactive mechanisms. This study shows the design, technical validation, and implementation of the iRead mobile application software. It is a multilingual mobile reading platform with offline speech recognition function available for three languages, specifically English, Filipino, and Hiligaynon. The mobile application was developed specifically for the Android Operating System using the Flutter framework, while the Vosk API was used for the speech recognition engine. Publicly available pretrained speech recognition models were utilized for English and Filipino languages, while a novel baseline small-vocabulary speech recognition model for Hiligaynon was developed and trained from scratch. A Gaussian Mixture Model-Hidden Markov Model (GMM-HMM) pipeline within the Kaldi framework was then used to form the Hiligaynon speech recognition model. Recognition vocabulary was limited to a 380-word phonics-based lexicon that is aligned with early literacy instruction. Cross-speaker generalization for Hiligaynon was evaluated using a leave-one-speaker-out cross-validation technique across four speakers. Recognition stability was further assessed using standard deviation and confidence interval analysis. The overall system evaluation was conducted using 540 utterances across the three languages under controlled conditions. Recognition performance achieved average accuracies of 92.8% for English, 88.3% for Filipino, and 85.6% for Hiligaynon. Category-level analysis demonstrated the highest performance for vowels, followed by consonants, then consonant–vowel blends. Results suggest that a classical small-vocabulary acoustic model combined with grammar-constrained decoding is technically viable and deployment-ready in a multilingual offline speech-supported literacy app for low-resource educational settings.
 
 </details>
 
