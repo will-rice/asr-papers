@@ -61,12 +61,34 @@ Select _full = true_ to back-fill from 2015 and rebuild all paper markdown, or l
 
 <!-- PAPERS_TABLE_START -->
 
-_Showing the last 30 days (43 of 5505 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
+_Showing the last 30 days (43 of 5509 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
 
 <details open>
 <summary><h3>2026</h3></summary>
 
-#### [myMediWhisper: Construction of Burmese Medical Speech Corpus and Whisper Fine-Tuning for Clinical Dialogue ASR](https://arxiv.org/abs/2608.11036)
+#### [The SLT 2026 SmartGlasses Challenge: Benchmarking Egocentric Multi-Talker Speech Recognition and Understanding with Audio-Language Models](https://arxiv.org/abs/2608.12034)
+
+**Dehui Gao, Zhixian Zhao, Zhennan Lin, Yujie Liao et al.** · 2026-08-12
+
+<details>
+<summary>Abstract</summary>
+
+Recent advances in large language models (LLMs) and multimodal LLMs (MLLMs) have created new opportunities for wearable speech interfaces, with smart glasses providing an egocentric platform for continuous audio sensing and assistance. However, speech recognition and understanding in this setting remain challenging because of dynamic acoustic conditions, speaker overlap, and the spatial ambiguity introduced by wearer-centered recording geometry. To support systematic evaluation in this setting, we introduce the IEEE SLT 2026 SmartGlasses Challenge for egocentric multi-speaker speech processing. The challenge consists of two tracks, Dyadic Dialogue Understanding and Multi-party Meeting Understanding, and jointly evaluates Time-Stamped Speaker-Attributed Automatic Speech Recognition (TSA-ASR) and Spoken Language Understanding (SLU). It is built on a 106-hour four-channel egocentric speech dataset containing 714 sessions collected in real-world scenarios. This paper describes challenge tasks, dataset construction, submissions, and summarizes the main findings from the shared evaluation. The results show that heavy speaker overlap remains a major factor affecting TSA-ASR performance, while paralinguistic acoustic understanding continues to be difficult for current audio-language models in complex SLU settings. Further details can be found on the official challenge website.
+
+</details>
+
+#### [MiDashengLM-Gen: Unified Audio Scene Generation via LLM-Driven Autoregressive Flow Matching](https://arxiv.org/abs/2608.11804)
+
+**Xingwei Sun, Heinrich Dinkel, Gang Li, Jiahao Mei et al.** · 2026-08-12
+
+<details>
+<summary>Abstract</summary>
+
+Generating coherent audio scenes that simultaneously blend speech, music, and sound effects remains a significant challenge. Current approaches typically rely on a disjointed pipeline where a frozen, decoupled text encoder feeds a separate audio decoder, limiting cross-modal optimization and leading to poor speech intelligibility. To overcome these limitations, we introduce MiDashengLM-Gen, an end-to-end framework that couples a pre-trained Large Language Model (LLM) with per-token conditional flow matching for autoregressive, variable-length mixed-audio scene generation. MiDashengLM-Gen represents a first approach for general text-to-audio generation with one end-to-end trained model. Empirical evaluations demonstrate that MiDashengLM-Gen drastically improves speech intelligibility over existing unified models. On the Seed-TTS benchmark, English Word Error Rate (WER) drops from 12.15% to 2.79%, approaching the performance of dedicated Text-to-Speech (TTS) systems (1.24%). Furthermore, the framework extends effectively to multilingual settings, yielding highly competitive multilingual WERs compared to existing baselines. Lastly, the model maintains competitive mixed-audio generation quality on the MECAT benchmark. Code and checkpoints are available at https://github.com/xiaomi-research/midashenglm-gen and https://huggingface.co/mispeech/midashenglm-gen, and the demo page is available at https://xingws.github.io/midashenglm-gen-demo/.
+
+</details>
+
+#### [myMediWhisper: Construction of Burmese Medical Speech Corpus and Whisper Fine-Tuning for Clinical Dialogue ASR](https://arxiv.org/abs/2608.11036) · [📄 Read](papers/2026/2608.11036.md)
 
 **Ye Kyaw Thu, Ye Bhone Lin, Thura Aung, Htet Arkar et al.** · 2026-08-11
 
@@ -77,7 +99,7 @@ Although Whisper models benefit from large-scale multilingual pre-training, thei
 
 </details>
 
-#### [Whisper-Aware LLM: Self-Supervised Uncertainty Learning for Robust Whispered Speech Recognition](https://arxiv.org/abs/2608.10836)
+#### [Whisper-Aware LLM: Self-Supervised Uncertainty Learning for Robust Whispered Speech Recognition](https://arxiv.org/abs/2608.10836) · [📄 Read](papers/2026/2608.10836.md)
 
 **Gaopeng Xu, Zhenyu Wang, Zheng Xue, Yinfeng Xia et al.** · 2026-08-11
 
@@ -85,6 +107,17 @@ Although Whisper models benefit from large-scale multilingual pre-training, thei
 <summary>Abstract</summary>
 
 The signal ambiguity of whispered speech drives ASR systems toward two opposing failure modes: failing to capture whispered speech or hallucinatory transcription of noise. This paper introduces the Whisper-Aware LLM, a framework that teaches an Audio-LLM to perceive and react to this uncertainty. Our model develops an intrinsic self-awareness by learning to quantify the physical deficiencies of acoustic signals through targeted self-supervised tasks. This learned uncertainty is then operationalized via a novel Confidence-Fused Decoding mechanism, which provides both high-level instructions and frame-level attention modulation to the LLM decoder. Our experiments confirm the effectiveness of this approach. The model sets a new state-of-the-art on whispered speech with a 17% relative CER reduction on AISHELL6-Whisper. At the same time, it directly addresses the reliability trade-off, with hallucination rates dropping from over 25% to 4.5%.
+
+</details>
+
+#### [Never Stop Speaking: a Denial-of-Service Attack on End-to-End Speech Language Models](https://arxiv.org/abs/2608.10405)
+
+**Shuo Cheng, Kunlan Xiang, Mingxuan Li, Ji Zhang et al.** · 2026-08-11
+
+<details>
+<summary>Abstract</summary>
+
+Many studies have shown that specially crafted inputs can induce large language models (LLMs) to generate excessively long outputs, resulting in significant computational overhead and resource consumption. While most existing denial-of-service (DoS) attacks target text-only LLMs, end-to-end (E2E) speech LLMs are rapidly emerging. Existing text-based DoS attacks primarily rely on prompt engineering, such as adversarial suffixes or semantic inducement, which exploit the discrete nature of text inputs and therefore cannot be directly transferred to continuous speech inputs. Moreover, prior studies on speech model security mainly focus on ASR or TTS systems, leaving the DoS vulnerability of E2E speech LLMs largely unexplored. To address this gap, we propose the perturbation-based DoS attack targeting E2E speech models. Instead of inducing long outputs through prompt manipulation, our method optimizes imperceptible acoustic perturbations to directly influence the model's autoregressive generation process while preserving the original input length. Specifically, we formulate the attack as a composite optimization objective that jointly suppresses EOS generation, encourages prolonged decoding, and largely preserves semantic consistency by integrating weighted EOS loss, top-k logit loss, length loss, and semantic alignment loss. To further improve stealthiness, we employ voice activity detection (VAD) to inject perturbations only into voiced regions. Extensive experiments on three open-source E2E speech LLMs demonstrate that our method achieves stable attack success rate while significantly increasing generation length and GPU resource consumption, revealing security risks in modern ALLMs.
 
 </details>
 
@@ -121,7 +154,7 @@ India's linguistic landscape spans over 700 languages and thousands of dialects,
 
 </details>
 
-#### [iRead: A Reading Enhancement Platform with Integrated Small-Vocabulary Speech Recognition for English, Filipino, and Hiligaynon](https://www.semanticscholar.org/paper/af1b479b87afe3718b3bcfb26b917a995c86e53e)
+#### [iRead: A Reading Enhancement Platform with Integrated Small-Vocabulary Speech Recognition for English, Filipino, and Hiligaynon](https://www.semanticscholar.org/paper/af1b479b87afe3718b3bcfb26b917a995c86e53e) · [📄 Read](papers/2026/s2:af1b479b87afe3718b3bcfb26b917a995c86e53e.md)
 
 **Jan Carlo T. Arroyo, Bon Eric A. Besonia, Allemar Jhone P. Delima, Felipe P. Vista IV et al.** · 2026-08-08
 
@@ -503,39 +536,6 @@ Omni-modal video captioning is not merely combining visual captioning with audio
 <summary>Abstract</summary>
 
 We describe our submission to Task 1 of the 2nd MLCSLM Challenge: a cascaded diarization-then-recognition system that combines DiariZen-Large-s80 (WavLM-Large) segmentation, CAM++ embedding-based two-speaker clustering, and a LoRA-adapted omniASR LLM 7B v2 recognizer, with no oracle segmentation or speaker labels at test time. On the official Development set (150 conversations, 21 language/accent categories) the system attains a macro tcpMER of 29.27%, versus 79.15% for the official baseline; on the Evaluation set it scores 50.23%. We also analyze two engineering choices that substantially affect tcpMER. First, embedding-based speaker clustering outperforms an end-to-end-style alternative that assigns speakers from ASRturn markers alone. Second, overlap-aware segmentation, although intended to raise diarization recall, increases tcpMER because overlapped speech is transcribed twice.
-
-</details>
-
-#### [Casting Everything to Online API Services? A Survey of Integrating Localized Speech Recognition Models in Robotic Systems](https://arxiv.org/abs/2607.11792) · [📄 Read](papers/2026/2607.11792.md)
-
-**Sheng Li, Jing Li, Felix Schijve, Jun Hu et al.** · 2026-07-13
-
-<details>
-<summary>Abstract</summary>
-
-Automatic speech recognition (ASR) has become a critical component of modern robotic systems because it is one of the most natural and intuitive ways for humans to interact with robots. A commonly used method is to directly use API services online. But is that all we can do? This article provides an overview of how ASR technologies are integrated into various intelligent robots and machines. We discuss the evolution of speech recognition from established approaches to state-of-the-art deep learning models, such as OpenAI's Whisper. We also list large-scale datasets and open source toolkits that have been widely used in both industry and academia. We structure the survey around ASR model families, deployment strategies in robotics (especially ROS-based, cloud-based, and hybrid solutions), and several real-world robotic platforms. Finally, we outline the challenges of deploying robust speech recognition in robots and discuss future directions, including multimodal interaction in diverse and dynamic environments. This paper can help social robotics researchers better navigate the emerging domain of language-based natural human-robot interaction.
-
-</details>
-
-#### [Synchronized Three-Dimensional Vocal-Tract Motion for Speech Synchronization via Joint-Embedding Predictive Architecture Alignment](https://arxiv.org/abs/2607.11772) · [📄 Read](papers/2026/2607.11772.md)
-
-**Sheng Li, Takahiro Shinozaki** · 2026-07-13
-
-<details>
-<summary>Abstract</summary>
-
-Modern neural speech systems can generate intelligible waveforms, but they usually hide the physical speech-production state that produced the sound. Conversely, biomechanical vocal-tract models expose articulatory structure, contact behavior, airflow routing, and geometric constraints, but direct physical waveform synthesis remains less robust than modern neural vocoders. A duration-preserving acoustic carrier supplies the listening waveform, while a corrected three-dimensional vocal-tract model supplies synchronized jaw, lip, tongue, velum, laryngeal, oral-airflow, and nasal-airflow motion. A joint-embedding predictive architecture (JEPA)-style representation and a reinforcement learning/cross-entropy method (RL/CEM) trajectory-selection loop align articulatory actions to the acoustic carrier and to physical-plausibility constraints. The evaluation contains 12 3D recordings covering 24 minimal-pair stimuli. On the 24-word set, the carrier obtains good automatic speech recognition (ASR) results (an 8.33\% WER, a 4.17\% CER), a UTMOS score of 3.174, a mean JEPA score of 0.864, and a mean timbre-guard score of 0.947.
-
-</details>
-
-#### [Unified Gradient Projection: Language-Balanced Continual Learning for Multilingual Low-Resource ASR](https://arxiv.org/abs/2607.11163) · [📄 Read](papers/2026/2607.11163.md)
-
-**Ziang Ren, Guodong Lin, Yuchen Ai, Kaize Tan et al.** · 2026-07-13
-
-<details>
-<summary>Abstract</summary>
-
-Large-scale pretrained ASR models such as Whisper exhibit strong multilingual capabilities. However, fine-tuning on low-resource languages often causes catastrophic forgetting. Although continual learning mitigates this issue, existing methods struggle to regulate cross-task interference in multilingual settings, where dominant languages bias optimization. We propose Unified Gradient Projection (UGP), which constrains parameter updates using reference gradients from language-balanced replay in a unified projection space. By equalizing per-language contributions in the projection, UGP reduces dominant-language bias and improves cross-lingual stability. We further show that combining gradient-level projection with data-level replay yields complementary gains in stability and plasticity. Across diverse low-resource language groups and model scales, UGP enables effective adaptation while substantially mitigating forgetting. On Whisper-large-v3, it achieves near-zero average forgetting.
 
 </details>
 
