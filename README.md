@@ -61,12 +61,23 @@ Select _full = true_ to back-fill from 2015 and rebuild all paper markdown, or l
 
 <!-- PAPERS_TABLE_START -->
 
-_Showing the last 30 days (43 of 5509 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
+_Showing the last 30 days (41 of 5510 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
 
 <details open>
 <summary><h3>2026</h3></summary>
 
-#### [The SLT 2026 SmartGlasses Challenge: Benchmarking Egocentric Multi-Talker Speech Recognition and Understanding with Audio-Language Models](https://arxiv.org/abs/2608.12034)
+#### [Alignment Drift in Single-Model Speculative Decoding for ASR: Mechanism, Correction, and Cost](https://arxiv.org/abs/2608.12703)
+
+**Xinyu Wang, Huapeng Zhou, Ziyu Zhao, Silin Meng et al.** · 2026-08-13
+
+<details>
+<summary>Abstract</summary>
+
+Speculative decoding speeds up generation by letting a cheap draft propose several tokens that a target model checks in one pass. In the single-model form, the draft is a lightweight module attached to the target rather than a separate model. Applying this design to Automatic Speech Recognition (ASR) introduces an extra problem. The draft can read the whole audio at every step, yet its proposals get worse as it runs on its own. Access is not localization. The accepted text keeps the transcript position explicit, but the draft must also track the changing audio position. In the primary matched comparison, per-step audio access changes the first proposal modestly but roughly doubles later-proposal acceptance. Fixed-width windows show that the audio position explains part of this gap. A correctly placed window recovers continuation, while an equally narrow window at the wrong position reduces it. Late-draft median error reaches 21 frames in the hardest reported condition, while target attention during verification stays within a 2-frame median. We test two ways to reduce this drift. The first reads the audio position from verification attention and uses it to guide the next draft round. It saves time only when the extra accepted tokens offset the readout cost. The second is AnchorDraft, which teaches the draft to track the audio position during training without changing the inference graph. The trained draft improves end-to-end speed at both tested target scales. These results show that ASR self-speculation depends on token prediction, audio-position tracking, and draft cost.
+
+</details>
+
+#### [The SLT 2026 SmartGlasses Challenge: Benchmarking Egocentric Multi-Talker Speech Recognition and Understanding with Audio-Language Models](https://arxiv.org/abs/2608.12034) · [📄 Read](papers/2026/2608.12034.md)
 
 **Dehui Gao, Zhixian Zhao, Zhennan Lin, Yujie Liao et al.** · 2026-08-12
 
@@ -77,7 +88,7 @@ Recent advances in large language models (LLMs) and multimodal LLMs (MLLMs) have
 
 </details>
 
-#### [MiDashengLM-Gen: Unified Audio Scene Generation via LLM-Driven Autoregressive Flow Matching](https://arxiv.org/abs/2608.11804)
+#### [MiDashengLM-Gen: Unified Audio Scene Generation via LLM-Driven Autoregressive Flow Matching](https://arxiv.org/abs/2608.11804) · [📄 Read](papers/2026/2608.11804.md)
 
 **Xingwei Sun, Heinrich Dinkel, Gang Li, Jiahao Mei et al.** · 2026-08-12
 
@@ -110,7 +121,7 @@ The signal ambiguity of whispered speech drives ASR systems toward two opposing 
 
 </details>
 
-#### [Never Stop Speaking: a Denial-of-Service Attack on End-to-End Speech Language Models](https://arxiv.org/abs/2608.10405)
+#### [Never Stop Speaking: a Denial-of-Service Attack on End-to-End Speech Language Models](https://arxiv.org/abs/2608.10405) · [📄 Read](papers/2026/2608.10405.md)
 
 **Shuo Cheng, Kunlan Xiang, Mingxuan Li, Ji Zhang et al.** · 2026-08-11
 
@@ -503,39 +514,6 @@ BACKGROUND: Artificial intelligence (AI) medical scribes rely on speech-to-text 
 <summary>Abstract</summary>
 
 Kazakh automatic speech recognition (ASR) presents a persistent challenge for large-scale multilingual models. This paper presents a systematic evaluation of 27 ASR pipeline configurations (three ASR models × three VAD methods × three post-processing strategies) on the Kazakh Speech Dataset (KSD), examining the contribution of model fine-tuning, voice activity detection (VAD) preprocessing, and large language model (LLM) post-correction and benchmarking the resulting pipelines against two non-Whisper foundation models. Language-specific fine-tuning reduces Word Error Rate (WER) from 43.20% (generic Whisper-large-v3) to 11.88% (Kazakh fine-tuned Whisper-turbo), a 31.32-percentage-point absolute reduction (72.5% relative; p < 0.001, bootstrap test); the effect persists after controlling for model size (generic Whisper-large-v3-turbo, 18.92%, vs. the same architecture after fine-tuning, 11.88%; p < 0.001). VAD preprocessing consistently degrades performance. Zero-shot post-correction with general-purpose LLMs yields no benefit and adds substantial latency: Gemma-2-9B and Qwen2.5-7B raise WER by 5.5 and 7.2 percentage points at real-time factors of 0.52 and 0.30, and a larger 32B model still degrades accuracy (+10.8 points), indicating that scale is not the limiting factor. Among all systems evaluated, a larger multilingual foundation model, SeamlessM4T-v2 (9.72% WER), outperforms the fine-tuned Whisper, showing that for Kazakh model coverage matters more than pipeline engineering. Character-level error analysis identifies systematic confusion between Kazakh-specific and Russian Cyrillic characters as a dominant error source. These findings establish that, for Kazakh under the evaluated conditions, model choice dominates pipeline add-ons: fine-tuning is essential, VAD and zero-shot LLM correction consistently hurt, and a strong multilingual model sets the best result; we further discuss the extent to which these conclusions extend to typologically similar Kipchak-Turkic languages.
-
-</details>
-
-#### [Audio-Native Speech Recognition with a Frozen Discrete-Diffusion Language Model](https://arxiv.org/abs/2607.13013) · [📄 Read](papers/2026/2607.13013.md)
-
-**Harsha Vardhan Khurdula, Abhinav Kumar Singh, Yoeven D Khemlani, Vineet Agarwal** · 2026-07-14
-
-<details>
-<summary>Abstract</summary>
-
-Automatic speech recognition is dominated by autoregressive decoders that emit one token at a time. We ask whether a discrete diffusion language model can transcribe speech instead, refining a whole transcript in parallel over a small number of denoising steps. We train an audio-native interface for DiffusionGemma, a 26B mixture-of-experts model that generates text by uniform, random-token discrete diffusion rather than the absorbing-mask scheme common to recent diffusion language models. A frozen Whisper encoder supplies acoustic features, a lightweight projector maps them into the model embedding space, and low-rank adapters let the frozen backbone attend to the new modality. About 42M parameters are trained, which is 0.16 percent of the backbone. We find that the natural training objectives fail to ground the audio because their gradient reaches the projector only through attention that has already dismissed it. A connectionist temporal classification loss applied through the frozen output head breaks this deadlock. The resulting model reaches 6.6 percent word error rate on LibriSpeech test-clean, transcribes in roughly eight parallel steps regardless of utterance length, and uses a single adapter trained on six languages, which we evaluate here on English, Hindi, and Mandarin.
-
-</details>
-
-#### [AVSCap: Orchestrating Audio-Visual Synergy for Omni-modal Video Captioning](https://arxiv.org/abs/2607.12820) · [📄 Read](papers/2026/2607.12820.md)
-
-**Yanghai Wang, Jiahao Wang, Jiafu Tang, Yuanxing Zhang et al.** · 2026-07-14
-
-<details>
-<summary>Abstract</summary>
-
-Omni-modal video captioning is not merely combining visual captioning with audio transcription: a useful caption must describe how visual actions, speech, music, and sound effects co-evolve. Existing large multimodal models often fail at this relational step, treating audio and visual streams as loosely coupled observations, relying on automatic speech recognition, and under-specifying non-speech sounds and their links to visual events. We present AVSCap, a framework for audio-visual captioning centered on explicit cross-modal event binding. First, we construct AVSCap-130K, a tri-modal training corpus generated by a decoupled-then-fused pipeline that anchors visual and acoustic evidence before composing grounded omni-modal captions. Second, we train AVSCap-7B, a 7B captioner with a two-stage strategy: supervised fine-tuning establishes baseline capabilities, while sample-efficient reinforcement learning uses hybrid rewards to optimize acoustic completeness and audio-visual synergy. Our scaling analysis shows that reinforcement learning brings larger gains than increasing SFT data. Third, we introduce AVSCapBench, a benchmark that decomposes captions into visual, audio, and synergy events and evaluates them with fine-grained event recall. Experiments on AVSCapBench and external benchmarks show that AVSCap-7B improves non-speech audio coverage and cross-modal binding, delivering the best overall performance among evaluated open-source models.
-
-</details>
-
-#### [An Omnilingual-ASR-Based Speech-LLM System for the 2nd MLC-SLM Challenge](https://arxiv.org/abs/2607.12468) · [📄 Read](papers/2026/2607.12468.md)
-
-**Shuming Fang, Shuifei Zeng** · 2026-07-14
-
-<details>
-<summary>Abstract</summary>
-
-We describe our submission to Task 1 of the 2nd MLCSLM Challenge: a cascaded diarization-then-recognition system that combines DiariZen-Large-s80 (WavLM-Large) segmentation, CAM++ embedding-based two-speaker clustering, and a LoRA-adapted omniASR LLM 7B v2 recognizer, with no oracle segmentation or speaker labels at test time. On the official Development set (150 conversations, 21 language/accent categories) the system attains a macro tcpMER of 29.27%, versus 79.15% for the official baseline; on the Evaluation set it scores 50.23%. We also analyze two engineering choices that substantially affect tcpMER. First, embedding-based speaker clustering outperforms an end-to-end-style alternative that assigns speakers from ASRturn markers alone. Second, overlap-aware segmentation, although intended to raise diarization recall, increases tcpMER because overlapped speech is transcribed twice.
 
 </details>
 
