@@ -61,12 +61,12 @@ Select _full = true_ to back-fill from 2015 and rebuild all paper markdown, or l
 
 <!-- PAPERS_TABLE_START -->
 
-_Showing the last 30 days (41 of 5510 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
+_Showing the last 30 days (41 of 5511 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
 
 <details open>
 <summary><h3>2026</h3></summary>
 
-#### [Alignment Drift in Single-Model Speculative Decoding for ASR: Mechanism, Correction, and Cost](https://arxiv.org/abs/2608.12703)
+#### [Alignment Drift in Single-Model Speculative Decoding for ASR: Mechanism, Correction, and Cost](https://arxiv.org/abs/2608.12703) · [📄 Read](papers/2026/2608.12703.md)
 
 **Xinyu Wang, Huapeng Zhou, Ziyu Zhao, Silin Meng et al.** · 2026-08-13
 
@@ -96,6 +96,17 @@ Recent advances in large language models (LLMs) and multimodal LLMs (MLLMs) have
 <summary>Abstract</summary>
 
 Generating coherent audio scenes that simultaneously blend speech, music, and sound effects remains a significant challenge. Current approaches typically rely on a disjointed pipeline where a frozen, decoupled text encoder feeds a separate audio decoder, limiting cross-modal optimization and leading to poor speech intelligibility. To overcome these limitations, we introduce MiDashengLM-Gen, an end-to-end framework that couples a pre-trained Large Language Model (LLM) with per-token conditional flow matching for autoregressive, variable-length mixed-audio scene generation. MiDashengLM-Gen represents a first approach for general text-to-audio generation with one end-to-end trained model. Empirical evaluations demonstrate that MiDashengLM-Gen drastically improves speech intelligibility over existing unified models. On the Seed-TTS benchmark, English Word Error Rate (WER) drops from 12.15% to 2.79%, approaching the performance of dedicated Text-to-Speech (TTS) systems (1.24%). Furthermore, the framework extends effectively to multilingual settings, yielding highly competitive multilingual WERs compared to existing baselines. Lastly, the model maintains competitive mixed-audio generation quality on the MECAT benchmark. Code and checkpoints are available at https://github.com/xiaomi-research/midashenglm-gen and https://huggingface.co/mispeech/midashenglm-gen, and the demo page is available at https://xingws.github.io/midashenglm-gen-demo/.
+
+</details>
+
+#### [Analysing Korean children's speech data for early childhood educational services: age-specific insights from text and audio analysis](https://www.semanticscholar.org/paper/778a89e03fa4cce1ccb318d10972c38a6c01f247)
+
+**Haein Lee, H. Jung, K. Park** · 2026-08-12
+
+<details>
+<summary>Abstract</summary>
+
+As speech-based artificial intelligence (AI) becomes integrated into educational contexts, attention is growing towards its role in supporting child-centred learning environments. This study offers insights for developing child-friendly conversational AI systems by analysing age-specific linguistic and acoustic features in the speech of Korean-speaking children aged 4–9 years. The study was conducted in three phases: linguistic analysis of transcribed text, acoustic analysis of recorded utterances and automatic speech recognition (ASR) analysis. In the ASR phase, we benchmarked two modern models (Whisper and wav2vec2) using character error rate and performed a classification analysis to identify factors influencing recognition success, excluding age-related variables from model inputs. The results revealed age-related differences in vocabulary diversity, syntactic complexity, pitch, intensity and articulation rate, with younger children exhibiting more frequent pronunciation errors and lower ASR performance. Acoustic features, such as articulation patterns and pitch variability, were found to significantly influence recognition performance. These findings highlight the importance of designing AI systems that reflect children's developmental speech characteristics. Overall, this study provides an empirical foundation for improving speech-based AI interactions in early learning environments.
 
 </details>
 
@@ -503,17 +514,6 @@ Backdoor attacks pose a critical threat to neural network models, allowing attac
 <summary>Abstract</summary>
 
 BACKGROUND: Artificial intelligence (AI) medical scribes rely on speech-to-text (STT) models for transcription. Evaluations of STT models in non-English settings remain scarce. We benchmarked ten STT models on medical consultations from Latin American (LatAm) Spanish and assessed whether fine-tuning improves transcription accuracy. METHODS: Ten YouTube videos depicting medical consultations. Human transcriptions were the ground truth. Five open-source models were evaluated: Whisper Large, Whisper Large v3, Whisper Large v3 Turbo, Voxtral Mini 3B, and Canary 1B v2; and so were five close-source models: gpt-4o-transcribe, gpt-4o-mini-transcribe, gemini-2.5-pro, Eleven Labs, and Assembly AI. Whisper Large v3 was fine-tuned. One video was withheld from training. Performance assessed using Word Error Rate (WER), Character Error Rate (CER), BLEU Score, ROUGE-L, BERT Score, and Semantic Similarity on the one withheld video. RESULTS: None of the fine-tuning iterations outperformed the vanilla Whisper Large v3. With the withheld video, Gemini-2.5-pro was the close-source model with the best performance in four of six metrics. In comparison to the close-source models, the fine-tuned model never outperformed the other models (withheld video); conversely, in comparison to the close-source models, the fine-tuned model showed better performance across metrics, for instance: BLEU score (63% vs to 58% for the second-ranking model), BERT (89% vs to 86%), and semantic similarity (89% vs to 83%), CER (19% vs 20%). CONCLUSIONS: Whisper Large v3 and its fine-tuned variant are the best open-source STT models for transcribing medical conversations in LatAm Spanish. These findings provide an evidence base for developing AI medical scribes tailored to Spanish-speaking LatAm.
-
-</details>
-
-#### [Evaluating ASR Pipeline Configurations for Kazakh: Implications for Low-Resource Turkic Languages](https://www.semanticscholar.org/paper/2eb99bc21d5bc64bd6cfc333006204c889c5328d) · [📄 Read](papers/2026/s2:2eb99bc21d5bc64bd6cfc333006204c889c5328d.md)
-
-**Nursultan Nyssanov, L. Rzayeva, Alisher Batkuldin, Zhaksylyk Kozhakhmet** · 2026-07-15
-
-<details>
-<summary>Abstract</summary>
-
-Kazakh automatic speech recognition (ASR) presents a persistent challenge for large-scale multilingual models. This paper presents a systematic evaluation of 27 ASR pipeline configurations (three ASR models × three VAD methods × three post-processing strategies) on the Kazakh Speech Dataset (KSD), examining the contribution of model fine-tuning, voice activity detection (VAD) preprocessing, and large language model (LLM) post-correction and benchmarking the resulting pipelines against two non-Whisper foundation models. Language-specific fine-tuning reduces Word Error Rate (WER) from 43.20% (generic Whisper-large-v3) to 11.88% (Kazakh fine-tuned Whisper-turbo), a 31.32-percentage-point absolute reduction (72.5% relative; p < 0.001, bootstrap test); the effect persists after controlling for model size (generic Whisper-large-v3-turbo, 18.92%, vs. the same architecture after fine-tuning, 11.88%; p < 0.001). VAD preprocessing consistently degrades performance. Zero-shot post-correction with general-purpose LLMs yields no benefit and adds substantial latency: Gemma-2-9B and Qwen2.5-7B raise WER by 5.5 and 7.2 percentage points at real-time factors of 0.52 and 0.30, and a larger 32B model still degrades accuracy (+10.8 points), indicating that scale is not the limiting factor. Among all systems evaluated, a larger multilingual foundation model, SeamlessM4T-v2 (9.72% WER), outperforms the fine-tuned Whisper, showing that for Kazakh model coverage matters more than pipeline engineering. Character-level error analysis identifies systematic confusion between Kazakh-specific and Russian Cyrillic characters as a dominant error source. These findings establish that, for Kazakh under the evaluated conditions, model choice dominates pipeline add-ons: fine-tuning is essential, VAD and zero-shot LLM correction consistently hurt, and a strong multilingual model sets the best result; we further discuss the extent to which these conclusions extend to typologically similar Kipchak-Turkic languages.
 
 </details>
 
