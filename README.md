@@ -61,7 +61,7 @@ Select _full = true_ to back-fill from 2015 and rebuild all paper markdown, or l
 
 <!-- PAPERS_TABLE_START -->
 
-_Showing the last 30 days (41 of 5511 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
+_Showing the last 30 days (41 of 5513 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
 
 <details open>
 <summary><h3>2026</h3></summary>
@@ -74,6 +74,17 @@ _Showing the last 30 days (41 of 5511 papers). The full list lives in [papers.cs
 <summary>Abstract</summary>
 
 Speculative decoding speeds up generation by letting a cheap draft propose several tokens that a target model checks in one pass. In the single-model form, the draft is a lightweight module attached to the target rather than a separate model. Applying this design to Automatic Speech Recognition (ASR) introduces an extra problem. The draft can read the whole audio at every step, yet its proposals get worse as it runs on its own. Access is not localization. The accepted text keeps the transcript position explicit, but the draft must also track the changing audio position. In the primary matched comparison, per-step audio access changes the first proposal modestly but roughly doubles later-proposal acceptance. Fixed-width windows show that the audio position explains part of this gap. A correctly placed window recovers continuation, while an equally narrow window at the wrong position reduces it. Late-draft median error reaches 21 frames in the hardest reported condition, while target attention during verification stays within a 2-frame median. We test two ways to reduce this drift. The first reads the audio position from verification attention and uses it to guide the next draft round. It saves time only when the extra accepted tokens offset the readout cost. The second is AnchorDraft, which teaches the draft to track the audio position during training without changing the inference graph. The trained draft improves end-to-end speed at both tested target scales. These results show that ASR self-speculation depends on token prediction, audio-position tracking, and draft cost.
+
+</details>
+
+#### [Application of Conformer Architecture in Clinical Speech Input and Intelligent Medical Record Generation](https://www.semanticscholar.org/paper/4d19cfd20eda17c7145a6c1e8c55caa581e55962)
+
+**X. Zou, L. Wang, J. Sun, S. Y. Guo et al.** · 2026-08-13
+
+<details>
+<summary>Abstract</summary>
+
+Accurate clinical speech recognition remains challenging because rapid pronunciation, domain-specific terminology, and background noise often degrade automatic speech recognition and subsequent medical record generation. This study proposes a multi-stage intelligent documentation framework that integrates a 12-layer Conformer architecture, BERT-BiLSTM-CRF semantic modeling, and BART-based structured text generation. The Conformer encoder captures both local acoustic characteristics and long-range contextual dependencies, while the semantic module performs medical entity recognition and normalization to enhance terminology consistency. The extracted information is subsequently incorporated into a BART generator with clinical knowledge prompts to produce standardized SOAP-compliant medical records. Experimental results demonstrate a word error rate of 6.3%, medical term accuracy of 95.8%, low response latency of approximately 940–960 ms, and generation quality approaching physician-written records. Beyond clinical documentation, the proposed framework illustrates the effectiveness of deep time-frequency feature extraction and contextual sequence modeling for complex noisy signals, offering methodological insights for electromagnetic signal interpretation, antenna measurement data processing, and intelligent information extraction in propagation-related applications.
 
 </details>
 
@@ -99,7 +110,7 @@ Generating coherent audio scenes that simultaneously blend speech, music, and so
 
 </details>
 
-#### [Analysing Korean children's speech data for early childhood educational services: age-specific insights from text and audio analysis](https://www.semanticscholar.org/paper/778a89e03fa4cce1ccb318d10972c38a6c01f247)
+#### [Analysing Korean children's speech data for early childhood educational services: age-specific insights from text and audio analysis](https://www.semanticscholar.org/paper/778a89e03fa4cce1ccb318d10972c38a6c01f247) · [📄 Read](papers/2026/s2:778a89e03fa4cce1ccb318d10972c38a6c01f247.md)
 
 **Haein Lee, H. Jung, K. Park** · 2026-08-12
 
@@ -503,17 +514,6 @@ With the rapid development of deep learning, its vulnerability has gradually eme
 <summary>Abstract</summary>
 
 Backdoor attacks pose a critical threat to neural network models, allowing attackers to implant a backdoor during the training phase by manipulating a small portion of the training data. In security-sensitive applications such as voice interaction for autonomous driving, the presence of backdoor attacks introduces substantial security risks. This study focuses on implementing backdoor defense measures for speech recognition models in run-time, taking into account the characteristics of audio signals. We propose SpeechGuard, the first online backdoor defense pipeline designed to identify and purify poisoned audio samples. Specifically, we improve STRIP method to perform adaptive perturbation injection to detect and filter poisoned samples, named as S-STRIP. More importantly, we further consider the purification of poisoned samples. We utilize time-frequency (T-F) masking to suppress the expression of trigger signals and autonomously generate masks based on an autoencoder. The two-stage processing prevents the backdoor in the model from being triggered, and even input speech carrying triggers can be accurately predicted. Extensive experimental demonstrate that SpeechGuard can accurately filter out poisoned samples. Through purification, it can significantly mitigate the backdoor threat while maintaining a certain prediction accuracy.
-
-</details>
-
-#### [Benchmarking Speech Recognition Models for Medical Consultations in Latin American Spanish: A Comparative Evaluation with Fine-Tuning](https://www.semanticscholar.org/paper/53bb4533a34907634f42497c6f21b19bf950868a) · [📄 Read](papers/2026/s2:53bb4533a34907634f42497c6f21b19bf950868a.md)
-
-**R. M. Carrillo, A. Carbajal Serrano, P. S. Condori Pinedo** · 2026-07-16
-
-<details>
-<summary>Abstract</summary>
-
-BACKGROUND: Artificial intelligence (AI) medical scribes rely on speech-to-text (STT) models for transcription. Evaluations of STT models in non-English settings remain scarce. We benchmarked ten STT models on medical consultations from Latin American (LatAm) Spanish and assessed whether fine-tuning improves transcription accuracy. METHODS: Ten YouTube videos depicting medical consultations. Human transcriptions were the ground truth. Five open-source models were evaluated: Whisper Large, Whisper Large v3, Whisper Large v3 Turbo, Voxtral Mini 3B, and Canary 1B v2; and so were five close-source models: gpt-4o-transcribe, gpt-4o-mini-transcribe, gemini-2.5-pro, Eleven Labs, and Assembly AI. Whisper Large v3 was fine-tuned. One video was withheld from training. Performance assessed using Word Error Rate (WER), Character Error Rate (CER), BLEU Score, ROUGE-L, BERT Score, and Semantic Similarity on the one withheld video. RESULTS: None of the fine-tuning iterations outperformed the vanilla Whisper Large v3. With the withheld video, Gemini-2.5-pro was the close-source model with the best performance in four of six metrics. In comparison to the close-source models, the fine-tuned model never outperformed the other models (withheld video); conversely, in comparison to the close-source models, the fine-tuned model showed better performance across metrics, for instance: BLEU score (63% vs to 58% for the second-ranking model), BERT (89% vs to 86%), and semantic similarity (89% vs to 83%), CER (19% vs 20%). CONCLUSIONS: Whisper Large v3 and its fine-tuned variant are the best open-source STT models for transcribing medical conversations in LatAm Spanish. These findings provide an evidence base for developing AI medical scribes tailored to Spanish-speaking LatAm.
 
 </details>
 
