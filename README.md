@@ -61,10 +61,21 @@ Select _full = true_ to back-fill from 2015 and rebuild all paper markdown, or l
 
 <!-- PAPERS_TABLE_START -->
 
-_Showing the last 30 days (41 of 5513 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
+_Showing the last 30 days (41 of 5516 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
 
 <details open>
 <summary><h3>2026</h3></summary>
+
+#### [Persona-ASR: Bilingual Target-Speaker Speech Recognition for Kazakh–English Overlapping Speech](https://www.semanticscholar.org/paper/d005f39b4ee75dd94a87e196852e008330589e40)
+
+**Rakhat Meiramov, Tomiris Rakhimzhanova, Adil Taibassarov, Z. Makhataeva et al.** · 2026-08-14
+
+<details>
+<summary>Abstract</summary>
+
+Target-speaker automatic speech recognition (TS-ASR) enables transcription of a specific speaker in multi-talker environments, yet remains largely unexplored for multilingual, low-resource languages. Existing TS-ASR systems predominantly target monolingual English using diarization-based or speaker-embedding approaches, leaving a critical gap for languages such as Kazakh, where code-switching with Russian and English is commonplace. We propose Persona-ASR, a modular two-stage architecture. The first stage is an explicit target-presence gate that verifies whether the enrolled speaker appears in the mixture and emits a token to suppress transcription when the speaker is absent, directly addressing the acoustic-hallucination failure mode of prior systems. The second stage performs enrollment-conditioned recognition: a 192-dimensional ECAPA-TDNN speaker embedding modulates a WavLM-Base-Plus encoder through feature-wise linear modulation (FiLM), while language-specific CTC heads enable joint Kazakh and English decoding without forcing Latin and Cyrillic symbols to compete in a single output space. To evaluate the system, we introduce KazMix3, a Kazakh overlap dataset for TS-ASR training, and PersonaMix, a controlled bilingual benchmark spanning same- and cross-language enrollment across varying interferer counts (1–3) and signal-to-noise ratios (−3 to +3 dB). Persona-ASR outperforms a strong off-the-shelf cascade baseline by 13.3 WER points on English and 24.6 on Kazakh, and matches a published monolingual English baseline. On PersonaMix, speaker conditioning reduces relative word error rate by 40.7% on English and 59.3% on Kazakh mixtures over an unconditioned variant of the same model, and cross-language enrollment (unseen during training) remains effective, increasing average raw WER by only 4.1 points (English) and 2.2 points (Kazakh) relative to same-language enrollment. To our knowledge, Persona-ASR is the first TS-ASR system for the Kazakh language, establishing a foundation for multilingual personalized ASR in low-resource settings.
+
+</details>
 
 #### [Alignment Drift in Single-Model Speculative Decoding for ASR: Mechanism, Correction, and Cost](https://arxiv.org/abs/2608.12703) · [📄 Read](papers/2026/2608.12703.md)
 
@@ -77,7 +88,7 @@ Speculative decoding speeds up generation by letting a cheap draft propose sever
 
 </details>
 
-#### [Application of Conformer Architecture in Clinical Speech Input and Intelligent Medical Record Generation](https://www.semanticscholar.org/paper/4d19cfd20eda17c7145a6c1e8c55caa581e55962)
+#### [Application of Conformer Architecture in Clinical Speech Input and Intelligent Medical Record Generation](https://www.semanticscholar.org/paper/4d19cfd20eda17c7145a6c1e8c55caa581e55962) · [📄 Read](papers/2026/s2:4d19cfd20eda17c7145a6c1e8c55caa581e55962.md)
 
 **X. Zou, L. Wang, J. Sun, S. Y. Guo et al.** · 2026-08-13
 
@@ -85,6 +96,17 @@ Speculative decoding speeds up generation by letting a cheap draft propose sever
 <summary>Abstract</summary>
 
 Accurate clinical speech recognition remains challenging because rapid pronunciation, domain-specific terminology, and background noise often degrade automatic speech recognition and subsequent medical record generation. This study proposes a multi-stage intelligent documentation framework that integrates a 12-layer Conformer architecture, BERT-BiLSTM-CRF semantic modeling, and BART-based structured text generation. The Conformer encoder captures both local acoustic characteristics and long-range contextual dependencies, while the semantic module performs medical entity recognition and normalization to enhance terminology consistency. The extracted information is subsequently incorporated into a BART generator with clinical knowledge prompts to produce standardized SOAP-compliant medical records. Experimental results demonstrate a word error rate of 6.3%, medical term accuracy of 95.8%, low response latency of approximately 940–960 ms, and generation quality approaching physician-written records. Beyond clinical documentation, the proposed framework illustrates the effectiveness of deep time-frequency feature extraction and contextual sequence modeling for complex noisy signals, offering methodological insights for electromagnetic signal interpretation, antenna measurement data processing, and intelligent information extraction in propagation-related applications.
+
+</details>
+
+#### [StreamHear: Domain-Adapted Pseudo-Labeling for Semi-Supervised Streaming Speech Recognition](https://arxiv.org/abs/2608.13717)
+
+**Zefang Liu, Chenyang Zhu, Sangwoo Cho, Xujun Peng et al.** · 2026-08-13
+
+<details>
+<summary>Abstract</summary>
+
+Streaming automatic speech recognition (ASR) underperforms on domain-shifted target audio, where labeled in-domain data is costly to prepare while unlabeled audio is abundant. We present StreamHear, a semi-supervised pipeline that adapts a pretrained streaming student by fine-tuning an offline transducer teacher on the labeled training set, generating pseudo-labels on the unlabeled portion, and fine-tuning the student on the mixture. We further introduce a prior-regularized dynamic-programming realignment step that fixes chunk-level word placement using an ASR-hypothesis anchor. Across four datasets spanning financial calls, prepared read speech, and phone-quality dialogue, StreamHear consistently outperforms supervised student fine-tuning and narrows the gap to the offline teacher.
 
 </details>
 
@@ -118,6 +140,17 @@ Generating coherent audio scenes that simultaneously blend speech, music, and so
 <summary>Abstract</summary>
 
 As speech-based artificial intelligence (AI) becomes integrated into educational contexts, attention is growing towards its role in supporting child-centred learning environments. This study offers insights for developing child-friendly conversational AI systems by analysing age-specific linguistic and acoustic features in the speech of Korean-speaking children aged 4–9 years. The study was conducted in three phases: linguistic analysis of transcribed text, acoustic analysis of recorded utterances and automatic speech recognition (ASR) analysis. In the ASR phase, we benchmarked two modern models (Whisper and wav2vec2) using character error rate and performed a classification analysis to identify factors influencing recognition success, excluding age-related variables from model inputs. The results revealed age-related differences in vocabulary diversity, syntactic complexity, pitch, intensity and articulation rate, with younger children exhibiting more frequent pronunciation errors and lower ASR performance. Acoustic features, such as articulation patterns and pitch variability, were found to significantly influence recognition performance. These findings highlight the importance of designing AI systems that reflect children's developmental speech characteristics. Overall, this study provides an empirical foundation for improving speech-based AI interactions in early learning environments.
+
+</details>
+
+#### [LoopVSR: A Loop Engineering Framework for Automated Repair of Visual Speech Recognition Inference Pipelines](https://arxiv.org/abs/2608.13610)
+
+**Fei Qin, Bowen Zhang, Chao Fan, Pengcheng Luo et al.** · 2026-08-12
+
+<details>
+<summary>Abstract</summary>
+
+Visual speech recognition (VSR) recovers speech from lip movements when audio is noisy or unavailable. Its multi-stage inference pipeline spans video decoding, mouth-region extraction, preprocessing, model invocation, and decoding, where upstream failures can mask downstream faults. Pipeline maintenance therefore still relies largely on predefined checks and manual debugging. We propose LoopVSR, a Loop Engineering framework that enables a code agent to automatically diagnose and repair VSR inference pipelines using end-to-end execution evidence. It couples constrained repository-level diagnosis and patching with an external controller that audits changes, runs real inference, and accepts or rolls back patches using failures and character error rate (CER). The resulting feedback loop returns newly observed exceptions, tensor statistics, and recognition errors to the agent, progressively exposing faults masked by upstream failures. On the CMLR VSR system, LoopVSR repairs all 11 main faults with 100% mean recovery, whereas the Static guard repairs 2 of 11 with 18.13% mean recovery. It also resolves three cascading tasks in seven accepted iterations and preserves recovery on an independent 200-video hidden set. These results demonstrate that LoopVSR enables measurable, end-to-end automated repair of VSR inference pipelines.
 
 </details>
 
@@ -481,39 +514,6 @@ Developing Automatic Speech Recognition (ASR) for morphologically rich, low-reso
 <summary>Abstract</summary>
 
 We present a practical recipe for building a compact Hindi text-to-speech (TTS) model by distilling a large flow-matching teacher (IndicF5, 337M-parameter DiT) under a severe data budget (~17.6 hours). Training a small model from scratch on this much data fails outright. Instead we warm-start the student from the teacher by pruning depth only: keeping the teacher's width, text dimension, attention heads, and mel/text I/O fixed so all non-block tensors copy one-to-one, and retaining an evenly-spaced subset of transformer blocks. We first measure how much depth the teacher tolerates (it remains near-functional at -27% blocks but collapses past -50%), then descend gradually (22 -> 16 -> 12 -> 8 -> 6 blocks), re-fine-tuning after each prune, with each step gated by an objective ASR word-error-rate (WER) check. The resulting students reach WER 0.00 on unseen sentences at 249M and 190M parameters, and remain robust down to 131M; at 102M we observe a clear capacity cliff that we attribute to the data budget rather than the recipe. We also document two train/inference feature- and library-parity failures (mel filterbank and rotary-embedding library versions) that silently degrade audio, and a version-independent fix. The method yields a high-quality Hindi voice that runs in real time on a 6 GB laptop GPU. An independent 50-sentence FLEURS benchmark compares the released 190M student against its teacher and MMS-TTS-hin.
-
-</details>
-
-#### [Controlling Implicit Shortcut Reliance in L2 Spoken English Auto-markers](https://arxiv.org/abs/2607.16085) · [📄 Read](papers/2026/2607.16085.md)
-
-**Shilin Gao, Mark J. F. Gales, Kate M. Knill** · 2026-07-17
-
-<details>
-<summary>Abstract</summary>
-
-Increasingly, speech and language processing tasks take either audio or text directly rather than extracting features from these as the input to the classifier or regressor. Often these systems make use of complex, for example transformer-based, processes that have the ability to derive highly non-linear mappings between the input and the output. Unfortunately these systems can also learn ''shortcuts'' where the classifier is overly reliant on particular aspects of the input to yield the output. For the task of language proficiency assessment, this over-reliance can enable learners to increase their score by exploiting the shortcut rather than improving their ability. This paper introduces a novel training criterion that is able to reduce the classifier's reliance on shortcuts, thus for example limiting this option for malpractice in language assessment. This process is illustrated on two forms of assessment system, one based on the audio the other on the speech recognition text. The results show that, for both systems, there is higher correlations with features that could be exploited for malpractice than expected from the human reference, indicating an over-reliance on these features. By introducing the modified training criterion, this correlation can be reduced to be closer to the reference correlation.
-
-</details>
-
-#### [Natural Backdoor Attacks on Speech Recognition Models](https://arxiv.org/abs/2607.15724) · [📄 Read](papers/2026/2607.15724.md)
-
-**Jinwen Xin, Xixiang Lyu, Jing Ma** · 2026-07-17
-
-<details>
-<summary>Abstract</summary>
-
-With the rapid development of deep learning, its vulnerability has gradually emerged in recent years. This work focuses on backdoor attacks on speech recognition systems. We adopt sounds that are ordinary in nature or in our daily life as triggers for natural backdoor attacks. We conduct experiments on two datasets and three models to validate the performance of natural backdoor attacks and explore the effects of poisoning rate, trigger duration and blend ratio on the performance of natural backdoor attacks. Our results show that natural backdoor attacks have a high attack success rate without compromising model performance on benign samples, even with short or low-amplitude triggers. It requires only 5% of poisoned samples to achieve a near 100% attack success rate. In addition, the backdoor will be automatically activated by the corresponding sound in nature, which is not easy to be detected and will bring severer harm.
-
-</details>
-
-#### [SpeechGuard: Online Defense against Backdoor Attacks on Speech Recognition Models](https://arxiv.org/abs/2607.15697) · [📄 Read](papers/2026/2607.15697.md)
-
-**Jinwen Xin, Xixiang Lv** · 2026-07-17
-
-<details>
-<summary>Abstract</summary>
-
-Backdoor attacks pose a critical threat to neural network models, allowing attackers to implant a backdoor during the training phase by manipulating a small portion of the training data. In security-sensitive applications such as voice interaction for autonomous driving, the presence of backdoor attacks introduces substantial security risks. This study focuses on implementing backdoor defense measures for speech recognition models in run-time, taking into account the characteristics of audio signals. We propose SpeechGuard, the first online backdoor defense pipeline designed to identify and purify poisoned audio samples. Specifically, we improve STRIP method to perform adaptive perturbation injection to detect and filter poisoned samples, named as S-STRIP. More importantly, we further consider the purification of poisoned samples. We utilize time-frequency (T-F) masking to suppress the expression of trigger signals and autonomously generate masks based on an autoencoder. The two-stage processing prevents the backdoor in the model from being triggered, and even input speech carrying triggers can be accurately predicted. Extensive experimental demonstrate that SpeechGuard can accurately filter out poisoned samples. Through purification, it can significantly mitigate the backdoor threat while maintaining a certain prediction accuracy.
 
 </details>
 
