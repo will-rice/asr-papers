@@ -61,12 +61,34 @@ Select _full = true_ to back-fill from 2015 and rebuild all paper markdown, or l
 
 <!-- PAPERS_TABLE_START -->
 
-_Showing the last 30 days (41 of 5516 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
+_Showing the last 30 days (43 of 5518 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
 
 <details open>
 <summary><h3>2026</h3></summary>
 
-#### [Persona-ASR: Bilingual Target-Speaker Speech Recognition for Kazakh–English Overlapping Speech](https://www.semanticscholar.org/paper/d005f39b4ee75dd94a87e196852e008330589e40)
+#### [Cached LLM Probability Retrieval for Speech Recognition](https://arxiv.org/abs/2608.16023)
+
+**Sheng Li, Takahiro Shinozaki, Tatsuya Kawahara** · 2026-08-17
+
+<details>
+<summary>Abstract</summary>
+
+Large language models (LLMs) enhance automatic speech recognition (ASR) by providing linguistic priors; however, their direct rescoring is costly because it requires evaluating every N-best hypothesis. This paper introduces "cached LLM probability retrieval," which involves querying a local teacher LLM offline to obtain next-token probabilities for ASR-relevant context-target pairs. These probabilities are then utilized during recognition via cache lookups, backoff strategies, and optional scoring for significant misses. The method is training-free and can integrate with existing recognizers without requiring modifications to acoustic models. Evaluations across various ASR models reveal that cached retrieval outperforms 1-pass ASR in 28 of 39 settings and achieves lower non-oracle errors. Context length analysis indicates that benefits peak at a context length of 8, suggesting that cached probability retrieval is an effective and lightweight ASR adaptation method, in contrast to the heavy training required for Generative Error Correction (GER) or knowledge distillation (KD).
+
+</details>
+
+#### [MDwAIstScheduler: Bringing On-Device Voice Documentation into Clinical Practice](https://arxiv.org/abs/2608.15252)
+
+**Diego Mardian, Frank Liu** · 2026-08-15
+
+<details>
+<summary>Abstract</summary>
+
+Clinical documentation forces physicians to split attention between the patient and their keyboard, and much of it spills into uncom- pensated after-hours work. We present MDwAIstScheduler, a low- cost, belt-worn pipeline that lets a physician speak naturally dur- ing the encounter and have the resulting medications, allergies, labs/orders/referrals, follow-up scheduling, vitals, and problems land in the EHR as review-ready drafts. Building on our earlier prototype, which relied on cloud speech recognition and a cloud language model, the current pipeline runs both transcription and intent extraction entirely on-device. Using a medical-domain auto- matic speech recognition (ASR) model and a 1.7B-parameter lan- guage model we fine-tuned for clinical action extraction, no patient audio or text leaves the device, and the structured drafts are written directly into the Elation EHR for the physician to confirm. The result is a documentation tool that removes keyboard work from the visit without removing the clinician from the record, allowing them to focus on what matters most, patient care, while reducing burden at the same time.
+
+</details>
+
+#### [Persona-ASR: Bilingual Target-Speaker Speech Recognition for Kazakh–English Overlapping Speech](https://www.semanticscholar.org/paper/d005f39b4ee75dd94a87e196852e008330589e40) · [📄 Read](papers/2026/s2:d005f39b4ee75dd94a87e196852e008330589e40.md)
 
 **Rakhat Meiramov, Tomiris Rakhimzhanova, Adil Taibassarov, Z. Makhataeva et al.** · 2026-08-14
 
@@ -99,7 +121,7 @@ Accurate clinical speech recognition remains challenging because rapid pronuncia
 
 </details>
 
-#### [StreamHear: Domain-Adapted Pseudo-Labeling for Semi-Supervised Streaming Speech Recognition](https://arxiv.org/abs/2608.13717)
+#### [StreamHear: Domain-Adapted Pseudo-Labeling for Semi-Supervised Streaming Speech Recognition](https://arxiv.org/abs/2608.13717) · [📄 Read](papers/2026/2608.13717.md)
 
 **Zefang Liu, Chenyang Zhu, Sangwoo Cho, Xujun Peng et al.** · 2026-08-13
 
@@ -143,7 +165,7 @@ As speech-based artificial intelligence (AI) becomes integrated into educational
 
 </details>
 
-#### [LoopVSR: A Loop Engineering Framework for Automated Repair of Visual Speech Recognition Inference Pipelines](https://arxiv.org/abs/2608.13610)
+#### [LoopVSR: A Loop Engineering Framework for Automated Repair of Visual Speech Recognition Inference Pipelines](https://arxiv.org/abs/2608.13610) · [📄 Read](papers/2026/2608.13610.md)
 
 **Fei Qin, Bowen Zhang, Chao Fan, Pengcheng Luo et al.** · 2026-08-12
 
