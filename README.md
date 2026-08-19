@@ -61,12 +61,12 @@ Select _full = true_ to back-fill from 2015 and rebuild all paper markdown, or l
 
 <!-- PAPERS_TABLE_START -->
 
-_Showing the last 30 days (43 of 5518 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
+_Showing the last 30 days (42 of 5519 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
 
 <details open>
 <summary><h3>2026</h3></summary>
 
-#### [Cached LLM Probability Retrieval for Speech Recognition](https://arxiv.org/abs/2608.16023)
+#### [Cached LLM Probability Retrieval for Speech Recognition](https://arxiv.org/abs/2608.16023) · [📄 Read](papers/2026/2608.16023.md)
 
 **Sheng Li, Takahiro Shinozaki, Tatsuya Kawahara** · 2026-08-17
 
@@ -77,7 +77,7 @@ Large language models (LLMs) enhance automatic speech recognition (ASR) by provi
 
 </details>
 
-#### [MDwAIstScheduler: Bringing On-Device Voice Documentation into Clinical Practice](https://arxiv.org/abs/2608.15252)
+#### [MDwAIstScheduler: Bringing On-Device Voice Documentation into Clinical Practice](https://arxiv.org/abs/2608.15252) · [📄 Read](papers/2026/2608.15252.md)
 
 **Diego Mardian, Frank Liu** · 2026-08-15
 
@@ -175,6 +175,10 @@ As speech-based artificial intelligence (AI) becomes integrated into educational
 Visual speech recognition (VSR) recovers speech from lip movements when audio is noisy or unavailable. Its multi-stage inference pipeline spans video decoding, mouth-region extraction, preprocessing, model invocation, and decoding, where upstream failures can mask downstream faults. Pipeline maintenance therefore still relies largely on predefined checks and manual debugging. We propose LoopVSR, a Loop Engineering framework that enables a code agent to automatically diagnose and repair VSR inference pipelines using end-to-end execution evidence. It couples constrained repository-level diagnosis and patching with an external controller that audits changes, runs real inference, and accepts or rolls back patches using failures and character error rate (CER). The resulting feedback loop returns newly observed exceptions, tensor statistics, and recognition errors to the agent, progressively exposing faults masked by upstream failures. On the CMLR VSR system, LoopVSR repairs all 11 main faults with 100% mean recovery, whereas the Static guard repairs 2 of 11 with 18.13% mean recovery. It also resolves three cascading tasks in seven accepted iterations and preserves recovery on an independent 200-video hidden set. These results demonstrate that LoopVSR enables measurable, end-to-end automated repair of VSR inference pipelines.
 
 </details>
+
+#### [Hybrid deep learning for dysarthric speech recognition: a benchmark study using the UASPEECH preprocessed dataset](https://www.semanticscholar.org/paper/c58857744b705193c2c77dd130bdf372a53c4f32)
+
+**A. Benba, Sara Sandabad, Zaynab Boujelb, L. Doudach et al.** · 2026-08-12
 
 #### [myMediWhisper: Construction of Burmese Medical Speech Corpus and Whisper Fine-Tuning for Clinical Dialogue ASR](https://arxiv.org/abs/2608.11036) · [📄 Read](papers/2026/2608.11036.md)
 
@@ -514,28 +518,6 @@ This study aims to address the technological marginalization of endangered regio
 <summary>Abstract</summary>
 
 Extra context is valuable for simultaneous speech translation of technical talks, but injecting the entire document context into every streaming segment is often too coarse. Through diagnostic experiments, we find that context gains mainly come from paper-specific terminology recovery rather than uniform semantic enhancement. We therefore propose EGTA, an Evidence-Grounded Terminology Adaptation framework that builds a document terminology memory, selects compact candidate terms conditioned on the current streaming state, and adapts ASR/speech-side and decoder-side decision spaces using only the selected terms. EGTA can be instantiated in cascaded, end-to-end, and generation-only SimulST settings without full-model fine-tuning. We evaluate EGTA on an ACL technical-talk SimulST evaluation suite consisting of MCIF-dev and ACL60/60-dev. On MCIF-dev, EGTA-RG improves BLEU by +1.05/+0.59, XCOMET-XL by +0.019/+0.006, named-entity recall by +79\%/+73\% relative, and acronym recall by +0.099/+0.171 on En$\rightarrow$Zh and En$\rightarrow$De. Across MCIF-dev latency settings, EGTA consistently improves XCOMET-XL, named-entity recall, and acronym recall. External validation on ACL60/60-dev further shows consistent terminology-recall gains without additional fine-tuning. Shuffled-memory controls and activation audits provide evidence that the improvements are tied to paper-specific evidence alignment rather than generic context prompting.
-
-</details>
-
-#### [Robust Assamese Speech Recognition through Controlled Fine-Tuning of Whisper Models](https://arxiv.org/abs/2607.17164) · [📄 Read](papers/2026/2607.17164.md)
-
-**Ganapati Das, Dwipen Laskar, Hasin Afzal Ahmed, Sanjib Kr Kalita et al.** · 2026-07-19
-
-<details>
-<summary>Abstract</summary>
-
-Developing Automatic Speech Recognition (ASR) for morphologically rich, low-resource languages such as Assamese is challenging due to insufficient annotated speech data. The pretrained Whisper model performs poorly on Assamese speech recognition tasks. This paper presents a controlled, fine-tuned Whisper-based Assamese ASR system trained on the Mozilla Common Voice 24.0-Assamese corpus. A hardware-aware optimized training pipeline is implemented for resource-constrained environments, employing mixed-precision training and gradient accumulation on Tesla 4 Graphics Processing Units (T4 GPUs). The proposed fine-tuned model significantly outperformed the Zero-shot baseline, yielding Word Error Rate (WER), Character Error Rate (CER), Match Error Rate (MER), and Word Infomation Loss (WIL) of 43.17\%, 13.18\%, 43\%, and 64.81\%, respectively, achieving significant relative improvements of 78.26\%, 93.10\%, 57.0\%, and 35.19\% over the baseline. Semantic evaluation of the fine-tuned model also demonstrates notable improvement over a zero baseline, attaining Bilingual Evaluation Understudy (BLEU) and Metric for Evaluation of Translation with Explicit ORdering (METEOR) scores of 30.81 and 0.5262, respectively. Additionally, the predicted hallucination rate and Real-Time Factor (RTF) are substantially improved by 96.70\% and 32.38\%, compared to the zero-shot baseline.
-
-</details>
-
-#### [Staged Depth-Pruning Distillation of a Flow-Matching Text-to-Speech Teacher: A Compact Hindi Speech Synthesizer](https://arxiv.org/abs/2607.18662) · [📄 Read](papers/2026/2607.18662.md)
-
-**Sivateja Trikutam** · 2026-07-19
-
-<details>
-<summary>Abstract</summary>
-
-We present a practical recipe for building a compact Hindi text-to-speech (TTS) model by distilling a large flow-matching teacher (IndicF5, 337M-parameter DiT) under a severe data budget (~17.6 hours). Training a small model from scratch on this much data fails outright. Instead we warm-start the student from the teacher by pruning depth only: keeping the teacher's width, text dimension, attention heads, and mel/text I/O fixed so all non-block tensors copy one-to-one, and retaining an evenly-spaced subset of transformer blocks. We first measure how much depth the teacher tolerates (it remains near-functional at -27% blocks but collapses past -50%), then descend gradually (22 -> 16 -> 12 -> 8 -> 6 blocks), re-fine-tuning after each prune, with each step gated by an objective ASR word-error-rate (WER) check. The resulting students reach WER 0.00 on unseen sentences at 249M and 190M parameters, and remain robust down to 131M; at 102M we observe a clear capacity cliff that we attribute to the data budget rather than the recipe. We also document two train/inference feature- and library-parity failures (mel filterbank and rotary-embedding library versions) that silently degrade audio, and a version-independent fix. The method yields a high-quality Hindi voice that runs in real time on a 6 GB laptop GPU. An independent 50-sentence FLEURS benchmark compares the released 190M student against its teacher and MMS-TTS-hin.
 
 </details>
 
