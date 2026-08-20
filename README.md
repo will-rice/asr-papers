@@ -61,10 +61,21 @@ Select _full = true_ to back-fill from 2015 and rebuild all paper markdown, or l
 
 <!-- PAPERS_TABLE_START -->
 
-_Showing the last 30 days (42 of 5519 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
+_Showing the last 30 days (41 of 5523 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
 
 <details open>
 <summary><h3>2026</h3></summary>
+
+#### [Understanding Multilingual Medical ASR Adaptation Through Layer-Wise Analysis](https://arxiv.org/abs/2608.18825)
+
+**Souranil Kahali, Rituparna Bose, Abner Hernandez, Tomas Arias-Vergara et al.** · 2026-08-19
+
+<details>
+<summary>Abstract</summary>
+
+Medical automatic speech recognition (MedASR) requires adaptation to specialised terminology, limited annotated clinical data, and multilingual use cases. Although large-scale pretrained ASR models such as Whisper achieve strong generalisation, their behaviour after medical and multilingual adaptation remains insufficiently understood beyond word error rate (WER). This paper investigates how multilingual medical adaptation reshapes the internal representations of Whisper models through layer-wise encoder analysis. We compare zero-shot decoding, English-only fine-tuning, German-only diagnostic fine-tuning, two-stage EN->EN+DE continuation, and direct EN+DE fine-tuning across Whisper model sizes. Fine-tuning substantially improves MedASR performance, but the best model depends on the adaptation setting: Whisper-Medium gives the lowest English WER (7.72%) and the lowest combined EN+DE WER under direct EN+DE training (26.30%); German-only Whisper-Large-v3 gives the lowest German WER (44.96%), but as a within-corpus diagnostic on 86 single-speaker training utterances rather than robust generalisation. Layer-wise analysis of the two-stage Whisper-Small trajectory shows that English medical fine-tuning produces the dominant encoder shift, whereas multilingual continuation largely preserves the adapted representation space. Domain and language information remain highly recoverable across layers, while linearly recoverable error-predictive cues weaken as WER improves.
+
+</details>
 
 #### [Cached LLM Probability Retrieval for Speech Recognition](https://arxiv.org/abs/2608.16023) · [📄 Read](papers/2026/2608.16023.md)
 
@@ -132,6 +143,17 @@ Streaming automatic speech recognition (ASR) underperforms on domain-shifted tar
 
 </details>
 
+#### [Development of Real-Time Oral Error Correction System for College English Classrooms Based on BERT](https://www.semanticscholar.org/paper/b504e76dace098261d0b0a5bfff1c51db2aa8a8b)
+
+**Y. M. Wu** · 2026-08-13
+
+<details>
+<summary>Abstract</summary>
+
+This paper presents a real-time oral error correction system for college English classrooms based on an acoustic-semantic fusion DistilBERT+Adapter architecture. Whisper-small is used for speech transcription, and ASR confidence scores and word-duration features are embedded directly into the BERT representation space to improve robustness against speech-recognition noise. The model jointly performs error localization through a CRF layer and error-type classification, and the resulting outputs guide a constrained decoding mechanism that generates Top-3 correction candidates. These candidates are subsequently re-ranked using a KenLM language model. The system is lightweight and efficient, containing only 44M parameters and achieving an inference latency of 190 ms. End-to-end evaluation shows a latency of 438 ± 52 ms, Accuracy@Top1 of 73.1%, F0.5 of 0.692, and a teacher rating of 4.2. Through adapter fine-tuning, knowledge distillation, and ONNX runtime optimization, the proposed system achieves strong noise robustness and generalization, offering a deployable solution for personalized oral English instruction and real-time acoustic-semantic signal processing.
+
+</details>
+
 #### [The SLT 2026 SmartGlasses Challenge: Benchmarking Egocentric Multi-Talker Speech Recognition and Understanding with Audio-Language Models](https://arxiv.org/abs/2608.12034) · [📄 Read](papers/2026/2608.12034.md)
 
 **Dehui Gao, Zhixian Zhao, Zhennan Lin, Yujie Liao et al.** · 2026-08-12
@@ -176,7 +198,7 @@ Visual speech recognition (VSR) recovers speech from lip movements when audio is
 
 </details>
 
-#### [Hybrid deep learning for dysarthric speech recognition: a benchmark study using the UASPEECH preprocessed dataset](https://www.semanticscholar.org/paper/c58857744b705193c2c77dd130bdf372a53c4f32)
+#### [Hybrid deep learning for dysarthric speech recognition: a benchmark study using the UASPEECH preprocessed dataset](https://www.semanticscholar.org/paper/c58857744b705193c2c77dd130bdf372a53c4f32) · [📄 Read](papers/2026/s2:c58857744b705193c2c77dd130bdf372a53c4f32.md)
 
 **A. Benba, Sara Sandabad, Zaynab Boujelb, L. Doudach et al.** · 2026-08-12
 
@@ -485,39 +507,6 @@ We present VibeVoice-ASR-BitNet, a compressed variant of VibeVoice-ASR optimized
 <summary>Abstract</summary>
 
 Automatic speech recognition (ASR) for African languages is constrained by orthographic inconsistency, annotation artifacts, missing audio, speaker and domain imbalance, and evaluation procedures that differ from deployment. We present an end-to-end engineering study adapting NVIDIA Nemotron 3.5 ASR Streaming 0.6B to Kikuyu, Dholuo, and Kalenjin. Starting from a Kenyan Swahili-adapted checkpoint, we retain its cache-aware FastConformer RNN-T, prompt conditioning, and streaming decoder during full-parameter fine-tuning. The study covers corpus auditing, Unicode normalization, split checks, duration filtering, low-rate continuation, validation-based checkpoint selection, true-streaming evaluation, artifact preservation, and isolated serving. On internal, adaptively consulted evaluation sets excluded from gradient updates at context [56,13], selected Kikuyu and Dholuo models achieve 42.97% and 33.98% WER, respectively. Dholuo records 9.59% CER and 8.13% no-space CER under its frozen historical label policy; Kikuyu records 7.79% no-space CER. Kalenjin remains a work in progress: v1-v reaches 68.74% WER on a 2,411-row clean-v3 diagnostic subset excluding long-pause annotations, digit-bearing references, and targets shorter than three tokens. Its checkpoint selection used a mixed-source validation manifest containing test-origin rows, so the score is not an independent generalization estimate. We also report negative findings involving non-speech labels, short-utterance over-generation, boundary-sensitive WER, and cloud job-lifecycle failures. We make no state-of-the-art claim because the internal sets, repeated consultation, and normalization differ from public benchmarks. This work provides an auditable account of adapting a multilingual streaming model into language-specific systems without discarding streaming constraints.
-
-</details>
-
-#### [The tttAI System for the TSA-ASR Task of the SmartGlasses Challenge 2026](https://arxiv.org/abs/2607.17867) · [📄 Read](papers/2026/2607.17867.md)
-
-**Xuanji He, Gaoyang Dong, Xiaoxiao Li, Minchuan Chen et al.** · 2026-07-20
-
-<details>
-<summary>Abstract</summary>
-
-This paper presents the tttAI system submitted to the TSA-ASR task of the SmartGlasses Challenge 2026, evaluated on both two-person dialogues (Track 1) and multi-party meetings (Track 2). The task requires time-stamped speaker-attributed speech recognition from smart-glasses recordings. This is particularly challenging due to long-form audio, multiple speakers, and frequent overlapping speech. We proposed a cascaded architecture consisting of speaker diarization, overlap detection, target-speaker extraction, post-processing, and automatic speech recognition. The diarization module extracts features via WavLM-Large, performs frame-wise speaker classification with a Conformer encoder, and then generates global speaker segments through embedding clustering. For overlapped regions, we apply a WeSep-based target-speaker extraction model with ECAPA-TDNN speaker embeddings. When the extraction is unreliable, a dominant-speaker fallback strategy is used. The final system uses FireRedASR2-AED with the first microphone channel. The submitted system has a total parameter count of approximately 1.53B. On Track 1, our system achieves a tcpCER of 7.10%. On Track 2, it achieves a tcpCER of 34.04% and ranks second on the leaderboard.
-
-</details>
-
-#### [Mixed approach speech-to-text translation for endangered language](https://www.semanticscholar.org/paper/ba8308e9cf1a5314b887c1b606e944d802c952be) · [📄 Read](papers/2026/s2:ba8308e9cf1a5314b887c1b606e944d802c952be.md)
-
-**B. L. Sinaga, Stephanie Pamela Adithama, J. Nugraha, Martinus Maslim et al.** · 2026-07-20
-
-<details>
-<summary>Abstract</summary>
-
-This study aims to address the technological marginalization of endangered regional languages by evaluating speech-to-text translation for Dayak Ma’anyan, an extremely low-resource Austronesian language. In particular, it seeks to examine whether cascaded multilingual automatic speech recognition and machine translation models can provide effective Ma’anyan–Indonesian translation despite severe data scarcity. This study employs a cascaded speech-to-text translation framework that combines two multilingual automatic speech recognition models, Whisper Large-v3 and SeamlessM4T v2, with two LoRA-adapted multilingual machine translation models, NLLB-200 3.3B and distilled 600M. Experiments are conducted in an extremely low-resource setting using limited parallel speech and text data. The proposed pipelines are evaluated at three levels: ASR transcription quality, machine translation performance and end-to-end semantic preservation. The results show that cascaded pipelines can produce semantically meaningful Ma’anyan–Indonesian translations even under high transcription error conditions. Whisper substantially outperforms SeamlessM4T at the ASR stage, achieving a lower WER (0.464 vs 0.812) and yielding better downstream translation quality. Among the machine translation models, LoRA-adapted NLLB-200 3.3B achieves the best performance, with BLEU 31.00, chrF 58.91 and the highest end-to-end semantic similarity (SBERT 0.722). The findings further indicate that ASR quality is the dominant determinant of overall speech translation performance, while larger LoRA-adapted MT models provide stronger robustness against noisy ASR outputs. This study provides, to the best of the authors’ knowledge, the first empirical benchmark for Ma’anyan–Indonesian speech-to-text translation. It contributes a systematic evaluation of multilingual ASR and LoRA-adapted MT combinations for endangered-language technology and offers empirical insight into the relative impact of ASR quality and MT model capacity in extremely low-resource cascaded speech translation.
-
-</details>
-
-#### [When to Use Extra Context: Evidence-Grounded Terminology Adaptation for Simultaneous Speech Translation](https://arxiv.org/abs/2607.17766) · [📄 Read](papers/2026/2607.17766.md)
-
-**Zeyu Yang, Satoshi Nakamura** · 2026-07-20
-
-<details>
-<summary>Abstract</summary>
-
-Extra context is valuable for simultaneous speech translation of technical talks, but injecting the entire document context into every streaming segment is often too coarse. Through diagnostic experiments, we find that context gains mainly come from paper-specific terminology recovery rather than uniform semantic enhancement. We therefore propose EGTA, an Evidence-Grounded Terminology Adaptation framework that builds a document terminology memory, selects compact candidate terms conditioned on the current streaming state, and adapts ASR/speech-side and decoder-side decision spaces using only the selected terms. EGTA can be instantiated in cascaded, end-to-end, and generation-only SimulST settings without full-model fine-tuning. We evaluate EGTA on an ACL technical-talk SimulST evaluation suite consisting of MCIF-dev and ACL60/60-dev. On MCIF-dev, EGTA-RG improves BLEU by +1.05/+0.59, XCOMET-XL by +0.019/+0.006, named-entity recall by +79\%/+73\% relative, and acronym recall by +0.099/+0.171 on En$\rightarrow$Zh and En$\rightarrow$De. Across MCIF-dev latency settings, EGTA consistently improves XCOMET-XL, named-entity recall, and acronym recall. External validation on ACL60/60-dev further shows consistent terminology-recall gains without additional fine-tuning. Shuffled-memory controls and activation audits provide evidence that the improvements are tied to paper-specific evidence alignment rather than generic context prompting.
 
 </details>
 
