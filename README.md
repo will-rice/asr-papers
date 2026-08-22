@@ -77,7 +77,7 @@ Medical automatic speech recognition (MedASR) requires adaptation to specialised
 
 </details>
 
-#### [A Speech Corpus for Mizo Automatic Speech Recognition: Whisper and SraVaani 1.0 Fine-Tuning with Morphology-Aware Evaluation](https://arxiv.org/abs/2608.19361)
+#### [A Speech Corpus for Mizo Automatic Speech Recognition: Whisper and SraVaani 1.0 Fine-Tuning with Morphology-Aware Evaluation](https://arxiv.org/abs/2608.19361) · [📄 Read](papers/2026/2608.19361.md)
 
 **Priyankoo Sarmah, Sanasam Ranbir Singh, Lalhmingmawia** · 2026-08-19
 
