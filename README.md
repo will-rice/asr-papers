@@ -61,7 +61,7 @@ Select _full = true_ to back-fill from 2015 and rebuild all paper markdown, or l
 
 <!-- PAPERS_TABLE_START -->
 
-_Showing the last 30 days (41 of 5524 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
+_Showing the last 30 days (40 of 5526 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
 
 <details open>
 <summary><h3>2026</h3></summary>
@@ -88,6 +88,17 @@ This study reports the development of an Automatic Speech Recognition (ASR) syst
 
 </details>
 
+#### [Verifikasi Otomatis Bukti Pembayaran SPP Berbasis OCR pada Sistem Informasi Manajemen Sekolah](https://www.semanticscholar.org/paper/f0348456b5df81cbfc78502594b92806674b0c7a)
+
+**Dadan Nuh Faturahman, Achmad Lutfi Fuadi** · 2026-08-18
+
+<details>
+<summary>Abstract</summary>
+
+This study develops a web-based School Management Information System (SIMS) equipped with a deep learning Optical Character Recognition (OCR) module that extracts data from tuition payment receipts at SMK BIT Bina Aulia, Bogor. The system aims to accelerate transaction verification, reduce manual input errors, and improve administrative transparency. The Research and Development method was applied, with the Waterfall model used to construct the product. The OCR module was built on PaddleOCR PP-OCRv4 with DBNet text detection and SVTR_LCNet text recognition using a CTC decoder, fine tuned on 384 receipt images collected from 14 payment channels and augmented into 14,824 training crops. The best training checkpoint reached 79.04% exact match accuracy with a normalized edit distance of 0.9563 at epoch 90. Evaluated on 940 text crops, the deployed service achieved 94.79% character accuracy, a 5.21% Character Error Rate, a 25.67% Word Error Rate, and 76.60% exact match accuracy, rising to 86.49% when spacing differences are ignored. Fine tuning improved exact match accuracy by 4.05 percentage points, and the proposed model outperformed Tesseract OCR 5 and EasyOCR on every metric. Black box testing of 63 test items and white box basis path testing of 53 independent paths passed without failure.
+
+</details>
+
 #### [Cached LLM Probability Retrieval for Speech Recognition](https://arxiv.org/abs/2608.16023) · [📄 Read](papers/2026/2608.16023.md)
 
 **Sheng Li, Takahiro Shinozaki, Tatsuya Kawahara** · 2026-08-17
@@ -96,6 +107,17 @@ This study reports the development of an Automatic Speech Recognition (ASR) syst
 <summary>Abstract</summary>
 
 Large language models (LLMs) enhance automatic speech recognition (ASR) by providing linguistic priors; however, their direct rescoring is costly because it requires evaluating every N-best hypothesis. This paper introduces "cached LLM probability retrieval," which involves querying a local teacher LLM offline to obtain next-token probabilities for ASR-relevant context-target pairs. These probabilities are then utilized during recognition via cache lookups, backoff strategies, and optional scoring for significant misses. The method is training-free and can integrate with existing recognizers without requiring modifications to acoustic models. Evaluations across various ASR models reveal that cached retrieval outperforms 1-pass ASR in 28 of 39 settings and achieves lower non-oracle errors. Context length analysis indicates that benefits peak at a context length of 8, suggesting that cached probability retrieval is an effective and lightweight ASR adaptation method, in contrast to the heavy training required for Generative Error Correction (GER) or knowledge distillation (KD).
+
+</details>
+
+#### [Performance Analysis of a Modular Framework for Edge-Based Generative Conversational AI](https://www.semanticscholar.org/paper/b1fbd422136f7dfb1a14fed40342c87b20d5b909)
+
+**Lorenzo Mazzone, D. Pau** · 2026-08-16
+
+<details>
+<summary>Abstract</summary>
+
+This study presents a multi-tier framework for deploying multi-modal Conversational AI on edge devices, spanning from constrained ultra-low-power systems to high-performance edge workstations. Utilizing an automated model discovery process and a modular benchmarking testbed, the research demonstrates that real-time, fully edge AI execution is feasible through strategic model selection and hardware acceleration. Key outcomes from the performance analysis are as follows. Speech-to-Text: Fun-ASR-Nano achieved the highest transcription accuracy with a Word Error Rate of 0.026, while Moonshine Tiny was the most efficient, recording a Real-Time Factor of 0.036 on the CPU. Scaling up to the high-performance tier, Whisper Large-V3 Turbo demonstrated high speed and robustness on a dedicated GPU, achieving an RTF of 0.093. Language Modeling: The Qwen 2.5 (1.5B Instruct) model, optimized for the Intel edge NPU, delivered robust constrained edge performance with an average generation speed of 20.15 tokens per second and a high semantic accuracy score of 0.86. The non-transformer Liquid LFM-24B model showcased server-level reasoning capabilities on the high-performance edge, reaching an impressive 39.2 tokens per second when fully offloaded to a dedicated GPU, despite its massive VRAM requirements. Text-to-Speech: Piper TTS emerged as the most efficient model for constrained environments (RTF of 0.034). However, Kokoro TTS redefined high-fidelity zero-shot synthesis on the GPU tier, achieving a groundbreaking RTF of 0.024 and far outperforming larger autoregressive audio models like OuteTTS, which remained too slow for real-time use without significant acceleration. Hardware Acceleration and Energy Efficiency: The use of Intel OpenVINO 2026.0 for hardware offloading significantly reduced energy consumption; for example, Whisper Large-V3 Turbo’s energy per audio second dropped from 52.68 Joules on the CPU to just 3.24 Joules on the integrated GPU. Furthermore, dedicated GPU acceleration revealed a critical “race-to-sleep” paradigm, where higher peak wattage is offset by drastically reduced processing times. The study concludes by identifying two optimal cascaded pipelines: a constrained edge tier (Moonshine, Qwen 1.5B, Piper) running on a Khadas NUC (Khadas Technology, Shenzhen, China powered by an Intel processor (Intel Corporation, Santa Clara, CA, USA) maximizing energy efficiency, and a high-performance tier (Whisper V3 Turbo, Liquid LFM-24B, Kokoro) running on an NVIDIA 5060ti, delivering uncompromising accuracy and subsecond latency for privacy-preserving, advanced edge AI.
 
 </details>
 
@@ -474,39 +496,6 @@ Lightweight projectors are an established way to connect pre-trained speech enco
 <summary>Abstract</summary>
 
 The aim of the study was to identify the characteristics of real-time automatic subtitling systems in the context of global streaming platforms. The methodology was based on a comprehensive approach that combined an overview of automatic speech recognition (ASR) technologies, neural machine translation and large language models, and an analysis of practical use cases (YouTube Live Captions, Zoom Auto-Caption, Netflix). As a result, it was found that the integration of ASR, neural machine translation, and large language models ensured the speed of speech stream processing, system scalability, and the possibility of multilingual coverage. At the same time, significant limitations were identified: reduced accuracy when working in noisy environments or with agglutinative languages, inaccurate reproduction of culturally marked expressions, and problems with synchronizing text with video. Case studies showed that YouTube experienced quality instability and the risk of incorrect subtitles, Zoom focused on organizational accessibility management, and Netflix prioritized regulatory and editorial control in accordance with its style guide. A comparative analysis of standards showed that automated systems did not ensure consistent compliance with the requirements of accuracy, readability, and cultural adaptation, even with a low error rate. The practical significance of the study lies in the possibility of using its results to improve automated subtitling systems and develop hybrid models capable of combining algorithmic solutions with editorial control to ensure compliance with international quality standards.
-
-</details>
-
-#### [DONDO: Open w2v-BERT Speech-Recognition Base Models for African Languages](https://arxiv.org/abs/2607.21540) · [📄 Read](papers/2026/2607.21540.md)
-
-**Paul Azunre** · 2026-07-23
-
-<details>
-<summary>Abstract</summary>
-
-We present DONDO, a family of open, permissively licensed automatic speech recognition (ASR) base models for African languages, built on the w2v-BERT 2.0 self-supervised speech encoder. DONDO comprises twenty-one monolingual models and five multilingual models spanning twenty-seven language varieties across Ghana, Sierra Leone, Nigeria, Senegal, Kenya and Zimbabwe. Models are fine-tuned primarily on read speech drawn from religious texts, which offer broad, license-clear and orthographically consistent coverage for languages that otherwise lack transcribed audio. We describe a two-step (and, for one family, three-step) learning-rate-annealed fine-tuning procedure that first adapts a shared multilingual model at a high learning rate and then anneals it to recover, and in several cases surpass, strong monolingual baselines. We further describe a lightweight language-conditioning mechanism that injects a one-hot language identity as a sequence of prefix frames prepended to the acoustic features, allowing a single multilingual checkpoint to be steered to a target language at inference. Across the five multilingual families the annealed models reach average word error rates (WER) of 10-13%, closing most of the gap to monolingual models while covering many languages in a single checkpoint. All models are released on the Hugging Face KhayaAI organisation under the Apache-2.0 license (attribution only) so that others may fine-tune them freely, including for commercial use. We provide a conservative estimate that the languages covered are spoken by on the order of one hundred million first-language speakers, and by substantially more when second-language use is included.
-
-</details>
-
-#### [Faster IndexTTS-2: Accelerating and Streaming Autoregressive Zero-Shot Text-to-Speech Synthesis on GPUs](https://arxiv.org/abs/2607.21042) · [📄 Read](papers/2026/2607.21042.md)
-
-**Muyang Du, Shuang Yu, Junjie Lai** · 2026-07-23
-
-<details>
-<summary>Abstract</summary>
-
-Autoregressive text-to-speech models achieve strong naturalness but suffer from slow inference due to sequential token generation, limiting their deployment in production applications that require low latency. IndexTTS-2 is a state-of-the-art autoregressive TTS model consisting of a GPT, a flow-matching Diffusion Transformer, and a vocoder. Despite its high synthesis quality, its inference speed barely reaches real-time without streaming or batching support. We present Faster IndexTTS-2, which accelerates all neural network components of IndexTTS-2 for production deployment on GPUs using NVIDIA TensorRT and TensorRT-LLM. Faster IndexTTS-2 also enables streaming synthesis for latency-sensitive interactive applications, and batched inference across all components to maximize GPU utilization. Experiments on the Seed-TTS benchmark for both English and Chinese demonstrate up to 5.0$\times$ speedup on the autoregressive GPT and 3.6$\times$ end-to-end, with minimal degradation in word error rate, speaker similarity, and naturalness. Our methodology provides a practical reference for efficiently accelerating similar autoregressive speech models on GPUs.
-
-</details>
-
-#### [VibeVoice-ASR-BitNet Technical Report](https://arxiv.org/abs/2607.21075) · [📄 Read](papers/2026/2607.21075.md)
-
-**Songcheng Xu, Ting Song, Shaohan Huang, Zhiliang Peng et al.** · 2026-07-23
-
-<details>
-<summary>Abstract</summary>
-
-We present VibeVoice-ASR-BitNet, a compressed variant of VibeVoice-ASR optimized for real-time inference on edge CPUs. We apply heterogeneous quantization tailored to the computational characteristics of each stage: the VAE acoustic tokenizer uses full-pipeline INT8 quantization (I8_S) with kernel fusion and SIMD optimization, while the autoregressive language model adopts BitNet-style ternary weights (I2_S). To preserve accuracy under aggressive compression, we employ a progressive quantization-aware training strategy. For inference, we implement custom SIMD kernels and fused operators within the ggml framework targeting both ARM and x86 platforms, achieving real-time recognition (RTF<1) on low-thread-count CPUs. VibeVoice-ASR-BitNet is 1.6--2.3x faster than Whisper.cpp at comparable model sizes (~1.6 GB), with only modest accuracy degradation compared to the FP16 baseline.
 
 </details>
 
