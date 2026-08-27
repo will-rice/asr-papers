@@ -61,10 +61,131 @@ Select _full = true_ to back-fill from 2015 and rebuild all paper markdown, or l
 
 <!-- PAPERS_TABLE_START -->
 
-_Showing the last 30 days (40 of 5526 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
+_Showing the last 30 days (44 of 5537 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
 
 <details open>
 <summary><h3>2026</h3></summary>
+
+#### [Fine-Tuning Whisper for Automatic Speech Recognition in Baniwa: A Preliminary Study](https://arxiv.org/abs/2608.26060)
+
+**Leonardo Duart, Tiago Fonseca, Thiago Chacón** · 2026-08-26
+
+<details>
+<summary>Abstract</summary>
+
+Automatic Speech Recognition (ASR) technologies have achieved remarkable performance in recent years through the use of large multilingual foundation models. However, most advances remain concentrated on high-resource languages, while indigenous languages continue to suffer from a lack of speech resources and language technologies. This work presents a preliminary study on the adaptation of Whisper for Automatic Speech Recognition in Baniwa, an indigenous Arawakan language spoken in Brazil, Colombia, and Venezuela. The experiments were conducted using a corpus of 1,373 manually transcribed recordings obtained from a linguistic documentation project. The corpus contains approximately 0.54 hours of speech and consists primarily of isolated words and short elicited utterances. The Whisper Small model was fine-tuned using supervised learning and evaluated using Word Error Rate (WER) and Character Error Rate (CER). The best model achieved a WER of 37.5% and a CER of 7.45%, demonstrating that multilingual foundation models can be successfully adapted to extremely low-resource indigenous languages. The results establish an initial baseline for Baniwa Automatic Speech Recognition and provide a foundation for future research involving larger datasets, language-specific adaptation strategies, and post-processing techniques.
+
+</details>
+
+#### [Lost but not erased: Finding traces of a forgotten language in neural speech models](https://arxiv.org/abs/2608.25976)
+
+**Peter Plantinga, Charlotte Moore, Peter W. Donhauser, Krista Byers-Heinlein et al.** · 2026-08-26
+
+<details>
+<summary>Abstract</summary>
+
+International adoptees retain phonological traces of a birth language they can no longer speak or comprehend, a persistence typically attributed to a biologically-timed critical period. We asked whether it could instead reflect the ordinary dynamics of learning, using automatic speech recognition models that simulate the international adoptee experience without maturational confounds. Models were trained on one language and then abruptly switched to a second. We found that traces of the first language persisted throughout second-language training, but mainly in the lowest, pre-phonemic layers. These traces were functional, as models with early exposure re-learned their lost first language 14% faster than naive models; this advantage held even against models adopted early from a related language and disappeared when the earliest layers were substituted from a non-adopted model. We argue that these critical-period effects reflect entrenchment of foundational representations rather than a maturational loss of plasticity, and that experience plays a central role in critical periods in language acquisition.
+
+</details>
+
+#### [Generative vs. Encoder Large Language Models for ASR Evaluation: A Comparative Study](https://arxiv.org/abs/2608.25574)
+
+**Thibault Bañeras-Roux, Shashi Kumar, Driss Khalil, Sergio Burdisso et al.** · 2026-08-26
+
+<details>
+<summary>Abstract</summary>
+
+Automatic Speech Recognition (ASR) is typically evaluated using Word Error Rate (WER), which poorly reflects semantic similarity. While embedding-based metrics correlate better with human judgments, the respective roles of encoder and decoder-based Large Language Models (LLMs) remain underexplored. This paper presents a comparative study of both families for ASR evaluation. We analyze BERTScore and SemDist across different LLMs, layers, and pooling strategies, showing that both metrics can achieve strong correlation with human judgments when properly configured. For decoder models, we investigate generative LLMs in two settings: pairwise hypothesis selection via prompting and direct qualitative error classification. Our results show that encoder-based metrics remain highly competitive, while generative LLMs perform strongly in hypothesis comparison and improve the interpretability of ASR evaluation.
+
+</details>
+
+#### [Mandarin Humorous Homophone Recognition and Disambiguation in Automatic Speech Recognition](https://arxiv.org/abs/2608.25384)
+
+**Sicheng Jin, Jinghao Chen, Mostafa Shahin, Beena Ahmed et al.** · 2026-08-26
+
+<details>
+<summary>Abstract</summary>
+
+Automatic mispronunciation detection and diagnosis (MDD) plays a crucial role in L2 Mandarin pronunciation learning. While end-to-end (E2E) based MDD methods have substantially improved phoneme-level detection accuracy, diagnostic feedback remains limited, as segmental and tonal errors are not explicitly separated. In this paper, we propose a phonological feature-based MDD framework that models both segmental and tonal attributes within a unified Wav2Vec2-CTC architecture. Experimental results show that the proposed method reduces the False Acceptance Rate (FAR) by 10.1% and the Diagnostic Error Rate (DER) by 23.6% compared with the phoneme-only baseline system. By decomposing phonemes into low-level phonological components, the proposed approach enables more detailed and interpretable diagnostic feedback for L2 learners.
+
+</details>
+
+#### [Relative Time Intervals Representation for Word-level Timestamping with Masked Training](https://arxiv.org/abs/2608.24041)
+
+**Quanwei Tang, Zhiyu Tang, Xu Li, Dong Zhang et al.** · 2026-08-25
+
+<details>
+<summary>Abstract</summary>
+
+Although Speech Large Language Models (SpeechLLMs) excel at speech understanding and generation, their capacity for fine-grained, temporally aligned outputs remains underexplored. Our work addresses this gap by enabling SpeechLLMs to jointly model speech content and temporal structure, effectively transforming them from `content understanding machines" into `temporal-aware content understanding machines". Specifically, we replace traditional absolute timestamps with relative timestamps, achieving a more compact vocabulary and stronger generalization capabilities. To efficiently infuse timestamp prediction ability into pre-trained large language models, we introduce a hybrid fine-tuning strategy: full-parameter fine-tuning of the timestamp-augmented embedding layer and language model head, combined with LoRA fine-tuning of the decoder layers. Moreover, we design a masked timestamp training objective, preventing the model from over-relying on ground-truth timestamps, and thereby enhancing robustness against noisy real-world annotations. Extensive experiments demonstrate that our approach achieves significant improvements in timestamp prediction accuracy while maintaining strong speech transcription performance.
+
+</details>
+
+#### [FireRedAudio: A General-Purpose Audio Language Model with Decoupled Continuous Representations for Understanding and Generation](https://arxiv.org/abs/2608.24168)
+
+**Junjie Li, Xuelong Geng, Kun Xie, Feiyu Shen et al.** · 2026-08-25
+
+<details>
+<summary>Abstract</summary>
+
+A unified audio model must recognize and understand linguistic, paralinguistic, and environmental information while supporting speech synthesis and editing. A key challenge is representation: understanding favors compact features suited to long-context modeling, whereas speech generation requires reconstructible features that preserve fine-grained acoustic detail. We introduce FireRedAudio, a general-purpose audio language model with a shared 9B-parameter LLM. To the best of our knowledge, it is the first publicly disclosed unified audio-language model to provide separate continuous input representations for understanding and generation within a single trainable autoregressive LLM. Audio to be recognized or analyzed is processed by a dedicated Audio Encoder, while speech inputs for generation use a RedAE-based pathway. The LLM directly generates text or conditions a flow-matching DiT to produce continuous acoustic latents. Through progressive multitask training, FireRedAudio supports ASR and audio understanding, with the latter extending to recordings of up to one hour, as well as zero-shot TTS, Instruct TTS, and semantic and acoustic speech editing. Its structured organization of long-form audio achieves second-level timestamp accuracy. Across comprehensive evaluations, FireRedAudio achieves competitive or leading performance in audio understanding and multilingual ASR, strong content accuracy and speaker preservation in zero-shot TTS, leading instruction following in Instruct TTS, and substantial improvements over Ming-UniAudio-Edit in both semantic and acoustic speech editing. These results demonstrate the viability of decoupled continuous input representations for unifying audio understanding and continuous-latent speech generation in a model of moderate scale. Our code is available at https://github.com/FireRedTeam/FireRedAudio.
+
+</details>
+
+#### [A Comparative Evaluation of Digitization Pipelines for Historiographical Sources](https://arxiv.org/abs/2608.24976)
+
+**Marina Gómez Rey, Patricia Callejo, Mario Muñoz-Organero, Carlos Alario-Hoyos** · 2026-08-25
+
+<details>
+<summary>Abstract</summary>
+
+Purpose: The digitization of historical documents presents fundamental challenges for modern information retrieval and Artificial Intelligence (AI) systems. Optical character recognition (OCR) errors in source corpora propagate through retrieval-augmented generation (RAG) pipelines, compromising the factual accuracy of generated outputs. Methods: This study presents a systematic evaluation of PDF-to-text extraction pipelines applied to historiographical secondary sources on the Visigothic period. We assess thirteen distinct approaches spanning three methodological families: direct extraction, Large Language Model (LLM) post-correction, and chunk-and-extract. Documents are stratified into five categories based on production method and visual complexity. Performance is measured using character error rate (CER) and word error rate (WER) against manually corrected ground truth. Results: Results demonstrate that direct extraction with Marker achieves superior performance (98.70% CER accuracy; 97.71% WER accuracy overall), while conventional OCR pipelines exhibit substantial degradation on scanned documents and complex layouts. Embedded-text extraction performs well on digital PDFs but fails on scanned documents. LLM post-correction does not provide systematic improvements and frequently degrades accurate extractions. Conclusion: End-to-end document parsing is the most reliable approach for heterogeneous historical collections. Document characteristics such as scan quality, layout complexity, and the presence of embedded text layers have a significant impact on extraction accuracy. LLM-based post-correction should not be assumed beneficial by default and requires validation before large-scale application.
+
+</details>
+
+#### [Unsupervised Speech Recognition at the Syllable Level](https://arxiv.org/abs/2608.22907)
+
+**Liming Wang, Kai-Wei Chang, Kunio Kashino, David Harwath et al.** · 2026-08-24
+
+<details>
+<summary>Abstract</summary>
+
+Training speech recognizers with unpaired speech and text -- known as unsupervised speech recognition (UASR) -- is a crucial step toward extending ASR to low-resource languages in the long-tail distribution and enabling multimodal learning from non-parallel data. However, existing approaches based on phones often rely on costly resources such as grapheme-to-phoneme converters (G2Ps) and struggle to generalize to languages with ambiguous phoneme boundaries due to training instability. In this paper, we address both challenges by introducing a syllable-level UASR framework based on masked language modeling, which avoids the need for G2P and the instability of GAN-based methods. Our approach achieves up to a 40\% relative reduction in character error rate (CER) on LibriSpeech and generalizes effectively to low-resource languages that have remained particularly difficult for prior methods. Code is publicly available\footnote{https://github.com/cactuswiththoughts/SylCipher}.
+
+</details>
+
+#### [Better Retrieval, Worse Robustness: How Multi-hop RAG Amplifies Upstream ASR Errors](https://arxiv.org/abs/2608.22872)
+
+**Zhenghua Bao** · 2026-08-24
+
+<details>
+<summary>Abstract</summary>
+
+Speech-based applications pass spoken queries through automatic speech recognition (ASR) before any retrieval module, so ASR errors enter the pipeline as a fixed upstream constraint. We empirically test whether two extensions to standard retrieval-augmented generation (RAG), entity-graph linking and iterative reformulation, absorb or amplify these errors. Using four English accents synthesized through neural TTS, we evaluate four RAG configurations on three multi-hop QA benchmarks (HotpotQA, 2WikiMultiHopQA and MuSiQue) against a clean-text oracle. Although the structurally richer configurations generally retain higher absolute F1 under ASR input, both extensions amplify the error: the F1 gap from clean text to the highest-WER accent is 36-67% larger under their combination than under naive dense retrieval, on all three benchmarks. The dominant failure mode is corruption of one or more query entities, accounting for 87-96% of degradation cases on 2WikiMultiHopQA across all four methods. Two lightweight surface-form mitigations leave most of the gap intact, indicating that downstream retrieval structure amplifies remaining entity errors. We release code and data at https://github.com/Continuum-AI-Corp/spoken-multihop-rag .
+
+</details>
+
+#### [DiaScriber: A Speech LLM for Joint Diarization and Transcription in Multi-Speaker Scenarios](https://arxiv.org/abs/2608.22796)
+
+**Bingshen Mu, Xian Shi, Xiong Wang, Zhifang Guo et al.** · 2026-08-24
+
+<details>
+<summary>Abstract</summary>
+
+Multi-speaker automatic speech recognition (MSASR) aims to jointly predict content transcriptions, speaker identities, and timestamps, thereby addressing the key question of "who spoke what and when" and holds substantial practical value in real-world multi-speaker scenarios. However, MSASR still encounters considerable challenges in the presence of fast turn transitions, overlapping speech, and complex, diverse multi-speaker scenarios. In this work, we propose DiaScriber, an end-to-end multi-speaker diarization and transcription model built on a speech large language model. We first construct diverse data pipelines to cover a wide variety of multi-speaker scenarios and their complexities, including validation and refinement, turn-transition and overlapping-speech simulation, and multimodal annotation. Furthermore, DiaScriber is developed based on the pretrained version of Qwen3.5-Omni through a three-stage training strategy involving continual pretraining, supervised fine-tuning, and reinforcement learning. Experiments show that DiaScriber achieves superior performance over comparison methods across extensive multi-speaker scenario test sets and demonstrates outstanding generalization ability in unseen multi-speaker scenarios.
+
+</details>
+
+#### [AffAdapt: AFFect-driven ADAPTive AI Personas for Seamless Conversations](https://arxiv.org/abs/2608.22702)
+
+**Nishanth Chidambaram, Kaustubh Paliwal, Kayla Hom, Shaoze Zhou et al.** · 2026-08-24
+
+<details>
+<summary>Abstract</summary>
+
+AI-generated personas are being increasingly used for support, training and simulations. While generative AI models possess abilities to generate affect-aware responses, their embodiment into visual personas is an active area of investigation. Naturalistic exchanges require understanding of the conversational partners' turn completions, whether the agent should respond or keep listening and rely on non-verbal cues aligned with one's emotional states. Seamless human-AI conversation in a multimodal setting requires all modalities being generated to act in coordination. We present AffAdapt, a seamless interaction design framework for AI-personas, which coordinates streaming speech recognition, proactive turn-management, persona-grounded response generation, a persistent emotional state, and synchronized embodied output into a single interaction loop. We demonstrate the architecture in the context of practicing sensitive, high-stakes conversations, and report an initial case study showing fluid turn management and adaptive, persona-consistent behavior, alongside open challenges in interruption handling, open-ended dialogue, and multimodal affective alignment. AffAdapt's interaction loop is a generalizable pattern for coordinating timing, identity, and affect in real-time AI personas - applicable to training, coaching, education, and simulation contexts wherever believable, responsive interaction matters.
+
+</details>
 
 #### [Understanding Multilingual Medical ASR Adaptation Through Layer-Wise Analysis](https://arxiv.org/abs/2608.18825) · [📄 Read](papers/2026/2608.18825.md)
 
@@ -419,83 +540,6 @@ We present Voice Memory, a inference-only scheme for agentic speech recognition:
 <summary>Abstract</summary>
 
 Federated learning (FL) enables privacy-preserving training of automatic speech recognition (ASR) systems across distributed data sources, yet its application to large-scale speech language models (SpeechLLMs) remains unexplored. This paper presents the first systematic study of federated training for SpeechLLM-based end-to-end ASR systems. We design a communication-efficient federated optimization strategy tailored to the unique challenges of SpeechLLM architectures, addressing high-dimensional parameter spaces, gradient communication overhead, and computational constraints in distributed settings. Through extensive empirical evaluation on monolingual ASR tasks in English and Italian, we demonstrate the effectiveness and stability of our federated approach compared to centralized training baselines across diverse acoustic conditions and speaking styles. Additionally, we conduct a comprehensive ablation study analyzing the impact of different speech encoder architectures on monolingual English ASR performance within the federated framework, providing insights into optimal model configurations for decentralized training. Our results achieve competitive word error rates while reducing communication costs, establishing practical foundations for federated SpeechLLM deployment in real-world multilingual scenarios.
-
-</details>
-
-#### [MoLGE: Mixture of Language Group Experts for Efficient Scaling of Massively Multilingual Speech Recognition](https://arxiv.org/abs/2607.24030) · [📄 Read](papers/2026/2607.24030.md)
-
-**Sangmin Lee, Woojin Chung, Woongjib Choi, Hong-Goo Kang** · 2026-07-27
-
-<details>
-<summary>Abstract</summary>
-
-Massively multilingual automatic speech recognition (ASR) models covering hundreds of languages must maintain robust performance across diverse linguistic and acoustic conditions. However, these models often encounter the curse of multilinguality, where model capacity is diluted across languages. To address this challenge, we propose Mixture of Language Group Experts (MoLGE), built upon speech self-supervised models (S3Ms). MoLGE assigns dedicated expert modules to clusters of similar languages, reducing the number of required submodules compared to conventional language-specific Mixture-of-Experts (MoE) schemes. It further integrates a hierarchical Low-Rank Adaptation (LoRA) strategy into the disentangled acoustic and linguistic components of the S3M architecture, enabling efficient modeling of language-specific characteristics while maintaining parameter efficiency. Further, we investigate the impact of language grouping strategies based on both linguistic and data-driven criteria on overall performance, providing an interpretable perspective on how language structure influences scalability in multilingual speech systems. In experiments, we evaluate MoLGE on a multilingual benchmark encompassing 495 languages. Results demonstrate that MoLGE consistently outperforms dense multilingual baselines with a minimal increase in trainable parameters. Notably, these language grouping strategies yield substantial improvements for both phonetic and orthographic aspects of ASR modeling. Our findings suggest that structured language specialization provides an effective pathway for massively scaling language coverage of multilingual ASR.
-
-</details>
-
-#### [Towards Operational Conversational Intelligence: A Speech Intelligence Framework](https://arxiv.org/abs/2607.24958) · [📄 Read](papers/2026/2607.24958.md)
-
-**C. Vishnoi, S. Khurana, A. Timmapur, S. Rai et al.** · 2026-07-27
-
-<details>
-<summary>Abstract</summary>
-
-Body-worn camera (BWC) audio presents unique challenges including high ambient noise, variable recording conditions, and multiple overlapping speakers that make automated transcription and speaker labeling challenging. We propose a dual-path conversational intelligence framework that preprocesses raw BWC audio, separates the processing pipeline into a diarization branch and an ASR branch, and fuses their outputs. The diarization branch uses a denoising front-end (DeepFilterNet), voice activity detection (VAD), and NVIDIA's Multi-Scale Speaker Diarization Decoder (MSDD) with TitaNet embeddings. The transcription branch uses loudness normalization and WhisperX (Large-v3) with forced alignment and probability-guided speech segmentation. Finally, word-level speaker attribution is performed by assigning each recognized word to the speaker segment with the greatest temporal overlap. We evaluate the proposed framework on a curated body-worn camera dataset constructed from publicly available U.S. and U.K. police body-worn camera recordings. Experimental results demonstrate that task-specific acoustic conditioning and probability-guided speech segmentation improve speaker diarization, transcription, and word-level speaker attribution under challenging body-worn camera recording conditions. The proposed modular architecture provides an extensible foundation for future speaker-aware conversational intelligence systems.
-
-</details>
-
-#### [The Genealogy of Large Language Models: From Auxiliary Tools in ASR to Foundational Transformers and Back Again](https://www.semanticscholar.org/paper/1904f99c0f4b93d70f6b5ce1d2217994d700f07e) · [📄 Read](papers/2026/s2:1904f99c0f4b93d70f6b5ce1d2217994d700f07e.md)
-
-**José Luciano Maldonado** · 2026-07-27
-
-<details>
-<summary>Abstract</summary>
-
-This paper traces the evolutionary trajectory of Large Language Models (LLMs), arguing that their origins lie in the practical need to correct transcription errors in Automatic Speech Recognition (ASR) systems. We delineate this development, starting with domain-specific grammars, progressing through statistical n-gram models, and then to Artificial Neural Network-based models (ANNs), specifically RNNs, LSTMs, and GRUs, until reaching the pivotal breakthrough of the Transformer architecture. This evolution, driven by the pursuit of better language modeling, enabled the massive scaling that defines modern LLMs, which exhibit unprecedented capabilities. We conclude that LLMs, which emerged as an auxiliary component to mitigate the deficiencies of ASR systems, have "closed the circle" by becoming the foundational technology that now redefines the state of the art in their progenitor systems, thereby establishing themselves as a unifying technology for Artificial Intelligence.
-
-</details>
-
-#### [Indic DiarBench: A Multilingual Joint Diarization and ASR Benchmark for Indian Languages](https://arxiv.org/abs/2607.23808) · [📄 Read](papers/2026/2607.23808.md)
-
-**Deovrat Mehendale, Aditya Mehndiratta, Dhruv Rathi, K. Bhogale et al.** · 2026-07-26
-
-<details>
-<summary>Abstract</summary>
-
-In this work, we introduce Indic DiarBench, a speaker diarization and ASR benchmark dataset spanning all 22 scheduled languages of India. This corpus comprises approximately 108 hours of natural multi-speaker audio from near-field meetings, far-field recordings, and in-the-wild audios. All annotations are human-corrected with time-aligned speaker attributed transcriptions. The dataset captures conversational nuance prevalent in Indian speech, such as English code-mixing, dialectal variation, and frequent speaker overlap. To establish a baseline for joint ASR and diarization capabilities we evaluate leading systems including commercial speech APIs and multimodal large language models. Indic DiarBench is released as an open-access resource to advance inclusive, multilingual speech technology research for Indian languages.
-
-</details>
-
-#### [Low-Latency Turn-Taking via Context-Aware Preface Generation in a Real-World Dialogue Robot](https://arxiv.org/abs/2607.23204) · [📄 Read](papers/2026/2607.23204.md)
-
-**Yuki Okafuji, Koji Inoue, Yoshiki Ohira** · 2026-07-25
-
-<details>
-<summary>Abstract</summary>
-
-Large language model (LLM)-based dialogue systems suffer response delays because generation begins only after final speech recognition. While fixed fillers are a workaround, they become unnatural over time. We propose a two-stage incremental framework that decouples prefatory-response preparation from speech onset. Once user intent becomes predictable, an intent readiness detector triggers LLM-based generation of a short prefatory response. Concurrently, a voice activity projection (VAP) model determines when to deliver it. Through a field experiment with a route-guidance robot in a shopping mall, we evaluated three conditions: no-filler, fixed-filler, and contextual-preface. Both fixed-filler and contextual-preface significantly reduced initial response latency relative to no-filler. Relative to fixed-filler, contextual-preface had significantly longer initial response latency but a significantly shorter initial-to-main gap. Exploratory ratings showed no significant differences. These results indicate a timing trade-off.
-
-</details>
-
-#### [MEUSLI: a Multilingual Projector for LLM-based ASR and Beyond](https://arxiv.org/abs/2607.22100) · [📄 Read](papers/2026/2607.22100.md)
-
-**Lorenzo Concina, Seraphina Fong, Marco Matassoni, Alessio Brutti** · 2026-07-24
-
-<details>
-<summary>Abstract</summary>
-
-Lightweight projectors are an established way to connect pre-trained speech encoders with large language models (LLMs), mapping acoustic features into token-level embeddings for tasks like ASR and spoken question answering. Existing systems, however, typically only support a few languages and are often limited to English. We introduce MEUSLI, the first open-science multilingual projector family that links a Whisper encoder with open-source multilingual LLMs, enabling fully open-source end-to-end ASR in 28 European languages. MEUSLI extends prior monolingual pipelines, delivering strong results across high- and low-resource languages. Using proper continual leaning techniques, MEUSLI can be easily extended to other languages not seen in training. We further demonstrate that the MEUSLI projector can be leveraged beyond ASR, enabling multilingual speech translation and topic identification with only a few hours of task specific supervision per language. Overall, MEUSLI provides a solid foundation for multilingual speech understanding tasks, supporting scalable and inclu- sive open-source SpeechLLM
-
-</details>
-
-#### [Real-Time Subtitling in the Streaming Era](https://www.semanticscholar.org/paper/f832201d0b7fb53427ee78f60c0e282f3c0c5114) · [📄 Read](papers/2026/s2:f832201d0b7fb53427ee78f60c0e282f3c0c5114.md)
-
-**M. Toktagazin, Gulmira Amangeldiyeva, L. Adilbekova, Rakhmet Kulaikhan et al.** · 2026-07-24
-
-<details>
-<summary>Abstract</summary>
-
-The aim of the study was to identify the characteristics of real-time automatic subtitling systems in the context of global streaming platforms. The methodology was based on a comprehensive approach that combined an overview of automatic speech recognition (ASR) technologies, neural machine translation and large language models, and an analysis of practical use cases (YouTube Live Captions, Zoom Auto-Caption, Netflix). As a result, it was found that the integration of ASR, neural machine translation, and large language models ensured the speed of speech stream processing, system scalability, and the possibility of multilingual coverage. At the same time, significant limitations were identified: reduced accuracy when working in noisy environments or with agglutinative languages, inaccurate reproduction of culturally marked expressions, and problems with synchronizing text with video. Case studies showed that YouTube experienced quality instability and the risk of incorrect subtitles, Zoom focused on organizational accessibility management, and Netflix prioritized regulatory and editorial control in accordance with its style guide. A comparative analysis of standards showed that automated systems did not ensure consistent compliance with the requirements of accuracy, readability, and cultural adaptation, even with a low error rate. The practical significance of the study lies in the possibility of using its results to improve automated subtitling systems and develop hybrid models capable of combining algorithmic solutions with editorial control to ensure compliance with international quality standards.
 
 </details>
 
