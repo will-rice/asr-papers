@@ -61,12 +61,34 @@ Select _full = true_ to back-fill from 2015 and rebuild all paper markdown, or l
 
 <!-- PAPERS_TABLE_START -->
 
-_Showing the last 30 days (44 of 5537 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
+_Showing the last 30 days (47 of 5541 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
 
 <details open>
 <summary><h3>2026</h3></summary>
 
-#### [Fine-Tuning Whisper for Automatic Speech Recognition in Baniwa: A Preliminary Study](https://arxiv.org/abs/2608.26060)
+#### [Soft Active Electromyography Interface for Machine Learning-Enabled Silent Speech Recognition](https://arxiv.org/abs/2608.27048)
+
+**Yuta Kurotaki, Shusuke Yamakoshi, Reitaro Yoshida, Yutaka Isoda et al.** · 2026-08-27
+
+<details>
+<summary>Abstract</summary>
+
+Silent speech recognition (SSR) provides an alternative communication pathway in the absence of audible speech. However, conventional approaches are limited by the need for constant facial attachment, privacy concerns, and unstable signal acquisition. Here, we propose a soft, active electromyography (EMG) interface that enables word-level SSR using machine learning. Worn on the hand, the device uses a fingertip electrode that can be positioned near the lips to acquire EMG signals only when needed. The interface integrates liquid metal (LM) interconnects, transparent flexible printed circuit (FPC) electrodes, and elastomer encapsulation to ensure high mechanical stability during finger motion. A deep neural network trained on these stable signals achieved a mean accuracy of 97.2 $\pm$ 1.3% across three subjects in classifying a 30-word vocabulary, demonstrating robust linguistic discrimination. Furthermore, real-time drone control validates the practicality of this approach in noisy and privacy-sensitive environments where conventional voice recognition fails. This study highlights the potential of soft, wearable EMG systems as secure and intuitive human-machine interfaces.
+
+</details>
+
+#### [Direct or Mediated? Task-Dependent Audio Information Routing in Large Audio Language Models](https://arxiv.org/abs/2608.27026)
+
+**Yizhou Zhang, Wangjin Zhou, Xin Gu, Yichi Wang et al.** · 2026-08-27
+
+<details>
+<summary>Abstract</summary>
+
+Large Audio Language Models (LALMs) have demonstrated strong performance across a wide range of audio understanding tasks. However, they are typically evaluated on single, coherent audio segments, leaving their behavior under less familiar input configurations underexplored. We study this issue through a controlled setting in which two audio segments are concatenated into a single input. Across multiple LALMs, we observe a striking task-dependent robustness gap: automatic speech recognition (ASR) remains comparatively stable, whereas audio question answering (AQA) degrades substantially. To investigate the mechanisms underlying this disparity, we analyze how audio information is routed through LALM decoders using layer-wise attention knockout. The results reveal distinct task-dependent pathways. ASR relies primarily on direct retrieval from audio tokens by answer tokens, whereas AQA depends more strongly on a mediated route in which audio information is first integrated into prompt tokens and subsequently accessed during generation. We further probe prompt-token representations under audio concatenation and find that task-relevant audio attributes remain readily decodable, particularly in middle and later decoder layers, even when AQA performance deteriorates sharply. This dissociation indicates that the failure cannot be explained by complete loss of audio information from the decoder states and is instead consistent with a downstream bottleneck in retrieving or utilizing prompt-mediated information during answer generation. Together, our findings reveal task-dependent audio information routing in LALMs and highlight information utilization as a potential limitation on their generalization.
+
+</details>
+
+#### [Fine-Tuning Whisper for Automatic Speech Recognition in Baniwa: A Preliminary Study](https://arxiv.org/abs/2608.26060) · [📄 Read](papers/2026/2608.26060.md)
 
 **Leonardo Duart, Tiago Fonseca, Thiago Chacón** · 2026-08-26
 
@@ -77,7 +99,7 @@ Automatic Speech Recognition (ASR) technologies have achieved remarkable perform
 
 </details>
 
-#### [Lost but not erased: Finding traces of a forgotten language in neural speech models](https://arxiv.org/abs/2608.25976)
+#### [Lost but not erased: Finding traces of a forgotten language in neural speech models](https://arxiv.org/abs/2608.25976) · [📄 Read](papers/2026/2608.25976.md)
 
 **Peter Plantinga, Charlotte Moore, Peter W. Donhauser, Krista Byers-Heinlein et al.** · 2026-08-26
 
@@ -88,7 +110,7 @@ International adoptees retain phonological traces of a birth language they can n
 
 </details>
 
-#### [Generative vs. Encoder Large Language Models for ASR Evaluation: A Comparative Study](https://arxiv.org/abs/2608.25574)
+#### [Generative vs. Encoder Large Language Models for ASR Evaluation: A Comparative Study](https://arxiv.org/abs/2608.25574) · [📄 Read](papers/2026/2608.25574.md)
 
 **Thibault Bañeras-Roux, Shashi Kumar, Driss Khalil, Sergio Burdisso et al.** · 2026-08-26
 
@@ -99,7 +121,7 @@ Automatic Speech Recognition (ASR) is typically evaluated using Word Error Rate 
 
 </details>
 
-#### [Mandarin Humorous Homophone Recognition and Disambiguation in Automatic Speech Recognition](https://arxiv.org/abs/2608.25384)
+#### [Mandarin Humorous Homophone Recognition and Disambiguation in Automatic Speech Recognition](https://arxiv.org/abs/2608.25384) · [📄 Read](papers/2026/2608.25384.md)
 
 **Sicheng Jin, Jinghao Chen, Mostafa Shahin, Beena Ahmed et al.** · 2026-08-26
 
@@ -110,7 +132,18 @@ Automatic mispronunciation detection and diagnosis (MDD) plays a crucial role in
 
 </details>
 
-#### [Relative Time Intervals Representation for Word-level Timestamping with Masked Training](https://arxiv.org/abs/2608.24041)
+#### [Attention-Guided Reliability Scaling for Contrastive Decoding in Robust Audio-Visual Speech Recognition](https://arxiv.org/abs/2608.26213)
+
+**YoungChae Kim, Da-Hee Yang, Joon-Hyuk Chang** · 2026-08-26
+
+<details>
+<summary>Abstract</summary>
+
+Large language model (LLM)-based audio-visual speech recognition (AVSR) systems are robust under noise. Contrastive decoding (CD), originally introduced to stabilize LLM generation by contrasting a weaker model against a stronger one at inference time, adjusts predictions without additional training. In this work, we apply CD to AVSR by contrasting audio-only conditioning with full audio-visual conditioning within the same underlying model. However, using a fixed contrastive strength introduces a trade-off across noise levels: stronger intervention helps under severe noise but may over-correct reliable predictions in clean conditions. We propose reliability-aware scaling of CD for AVSR. Instead of using a fixed strength, we adaptively modulate the contrastive influence at each token based on reliability signals derived from attention dynamics and inter-model predictive divergence. Experiments on LRS3 show consistent improvements across clean and low-SNR conditions.
+
+</details>
+
+#### [Relative Time Intervals Representation for Word-level Timestamping with Masked Training](https://arxiv.org/abs/2608.24041) · [📄 Read](papers/2026/2608.24041.md)
 
 **Quanwei Tang, Zhiyu Tang, Xu Li, Dong Zhang et al.** · 2026-08-25
 
@@ -121,7 +154,7 @@ Although Speech Large Language Models (SpeechLLMs) excel at speech understanding
 
 </details>
 
-#### [FireRedAudio: A General-Purpose Audio Language Model with Decoupled Continuous Representations for Understanding and Generation](https://arxiv.org/abs/2608.24168)
+#### [FireRedAudio: A General-Purpose Audio Language Model with Decoupled Continuous Representations for Understanding and Generation](https://arxiv.org/abs/2608.24168) · [📄 Read](papers/2026/2608.24168.md)
 
 **Junjie Li, Xuelong Geng, Kun Xie, Feiyu Shen et al.** · 2026-08-25
 
@@ -132,7 +165,7 @@ A unified audio model must recognize and understand linguistic, paralinguistic, 
 
 </details>
 
-#### [A Comparative Evaluation of Digitization Pipelines for Historiographical Sources](https://arxiv.org/abs/2608.24976)
+#### [A Comparative Evaluation of Digitization Pipelines for Historiographical Sources](https://arxiv.org/abs/2608.24976) · [📄 Read](papers/2026/2608.24976.md)
 
 **Marina Gómez Rey, Patricia Callejo, Mario Muñoz-Organero, Carlos Alario-Hoyos** · 2026-08-25
 
@@ -143,7 +176,7 @@ Purpose: The digitization of historical documents presents fundamental challenge
 
 </details>
 
-#### [Unsupervised Speech Recognition at the Syllable Level](https://arxiv.org/abs/2608.22907)
+#### [Unsupervised Speech Recognition at the Syllable Level](https://arxiv.org/abs/2608.22907) · [📄 Read](papers/2026/2608.22907.md)
 
 **Liming Wang, Kai-Wei Chang, Kunio Kashino, David Harwath et al.** · 2026-08-24
 
@@ -154,7 +187,7 @@ Training speech recognizers with unpaired speech and text -- known as unsupervis
 
 </details>
 
-#### [Better Retrieval, Worse Robustness: How Multi-hop RAG Amplifies Upstream ASR Errors](https://arxiv.org/abs/2608.22872)
+#### [Better Retrieval, Worse Robustness: How Multi-hop RAG Amplifies Upstream ASR Errors](https://arxiv.org/abs/2608.22872) · [📄 Read](papers/2026/2608.22872.md)
 
 **Zhenghua Bao** · 2026-08-24
 
@@ -165,7 +198,7 @@ Speech-based applications pass spoken queries through automatic speech recogniti
 
 </details>
 
-#### [DiaScriber: A Speech LLM for Joint Diarization and Transcription in Multi-Speaker Scenarios](https://arxiv.org/abs/2608.22796)
+#### [DiaScriber: A Speech LLM for Joint Diarization and Transcription in Multi-Speaker Scenarios](https://arxiv.org/abs/2608.22796) · [📄 Read](papers/2026/2608.22796.md)
 
 **Bingshen Mu, Xian Shi, Xiong Wang, Zhifang Guo et al.** · 2026-08-24
 
@@ -176,7 +209,7 @@ Multi-speaker automatic speech recognition (MSASR) aims to jointly predict conte
 
 </details>
 
-#### [AffAdapt: AFFect-driven ADAPTive AI Personas for Seamless Conversations](https://arxiv.org/abs/2608.22702)
+#### [AffAdapt: AFFect-driven ADAPTive AI Personas for Seamless Conversations](https://arxiv.org/abs/2608.22702) · [📄 Read](papers/2026/2608.22702.md)
 
 **Nishanth Chidambaram, Kaustubh Paliwal, Kayla Hom, Shaoze Zhou et al.** · 2026-08-24
 
@@ -184,6 +217,17 @@ Multi-speaker automatic speech recognition (MSASR) aims to jointly predict conte
 <summary>Abstract</summary>
 
 AI-generated personas are being increasingly used for support, training and simulations. While generative AI models possess abilities to generate affect-aware responses, their embodiment into visual personas is an active area of investigation. Naturalistic exchanges require understanding of the conversational partners' turn completions, whether the agent should respond or keep listening and rely on non-verbal cues aligned with one's emotional states. Seamless human-AI conversation in a multimodal setting requires all modalities being generated to act in coordination. We present AffAdapt, a seamless interaction design framework for AI-personas, which coordinates streaming speech recognition, proactive turn-management, persona-grounded response generation, a persistent emotional state, and synchronized embodied output into a single interaction loop. We demonstrate the architecture in the context of practicing sensitive, high-stakes conversations, and report an initial case study showing fluid turn management and adaptive, persona-consistent behavior, alongside open challenges in interruption handling, open-ended dialogue, and multimodal affective alignment. AffAdapt's interaction loop is a generalizable pattern for coordinating timing, identity, and affect in real-time AI personas - applicable to training, coaching, education, and simulation contexts wherever believable, responsive interaction matters.
+
+</details>
+
+#### [Lightweight LLM-based Speech Recognition via KAN Adapters](https://www.semanticscholar.org/paper/70aed4a563d81219b32f255e4889695c4a1c6f67)
+
+**Yuxi Li, Yan Wang** · 2026-08-24
+
+<details>
+<summary>Abstract</summary>
+
+In recent years, the combination of large language model (LLM) and pre-trained voice encoder has shown great potential in the field of automatic speech recognition (ASR). However, bridging the modal communication between acoustic characterization and language embedding often requires a large number of training parameters, which makes it difficult for them to apply in environments with limited resources. This study proposes to use the Kolmogorov-Arnold network (KANs) as a simplified adapter for the automatic speech recognition (ASR) system based on the Large Language Model (LLM). And by introducing a KAN adapter between the pre-trained voice encoder and TinyLlama-1.1B, the system improves the correspondence between acoustic characterization and language characterization with very few training parameters. The experimental results show stable optimization characteristics, with a word error rate (WER) of 16.79% and a character error rate (CER) of 10.46%. These results highlight the potential of KAN-based adapters in ASR systems with limited resources and parameters. The KAN-based adapter provides a promising and parameter-efficient solution for matching acoustic and language scenarios. In another words, in the resource-limited automatic speech recognition (ASR) scenario, which is crucial to computing efficiency and training stability, it shows significant advantages.
 
 </details>
 
@@ -231,7 +275,7 @@ Large language models (LLMs) enhance automatic speech recognition (ASR) by provi
 
 </details>
 
-#### [Performance Analysis of a Modular Framework for Edge-Based Generative Conversational AI](https://www.semanticscholar.org/paper/b1fbd422136f7dfb1a14fed40342c87b20d5b909)
+#### [Performance Analysis of a Modular Framework for Edge-Based Generative Conversational AI](https://www.semanticscholar.org/paper/b1fbd422136f7dfb1a14fed40342c87b20d5b909) · [📄 Read](papers/2026/s2:b1fbd422136f7dfb1a14fed40342c87b20d5b909.md)
 
 **Lorenzo Mazzone, D. Pau** · 2026-08-16
 
@@ -529,17 +573,6 @@ Cloud voice-dictation services deliver strong accuracy but require streaming a u
 <summary>Abstract</summary>
 
 We present Voice Memory, a inference-only scheme for agentic speech recognition: at stream time, a frozen corrector reads a single per-domain memory.md and decides per utterance whether to act on the hypothesis or abstain and keep the 1-best. Asynchronously, a score-gated optimizer revises that file through bounded edits, accepting an edit only when it strictly improves a held-out score. Extended from classical ASR-LM framework, we refer this split the listener-thinker architecture; the two roles are coupled only through the memory, so no weights change and the learned skill stays auditable and portable. Restraint turns out to be the operative skill this loop discovers: unconstrained generative error correction (GER) over-corrects, breaking correct tokens on up to 64% of its edits on financial news, and Voice Memory, reduces this rate to 35%. Across ten HyPoradise domains with an open corrector, Voice Memory, lowers weighted word error rate from 8.36% to 7.52% (7.47% with three added in-context examples) without regressing any dataset below its 1-best baseline; gains concentrate where recoverable headroom is largest, including air-travel commands (8.40% to 3.40%) and noisy far-field speech (CHiME-4, 12.69% to 10.46%). The memory transfers across corrector families and adds zero parameters to the inference path. A demo and example code are provided for future studies.
-
-</details>
-
-#### [SpeechLLM Meets Federated Learning for End-to-End ASR: English and Italian Case Studies](https://arxiv.org/abs/2607.25716) · [📄 Read](papers/2026/2607.25716.md)
-
-**Mohamed Nabih Ali, Daniele Falavigna, Alessio Brutti** · 2026-07-28
-
-<details>
-<summary>Abstract</summary>
-
-Federated learning (FL) enables privacy-preserving training of automatic speech recognition (ASR) systems across distributed data sources, yet its application to large-scale speech language models (SpeechLLMs) remains unexplored. This paper presents the first systematic study of federated training for SpeechLLM-based end-to-end ASR systems. We design a communication-efficient federated optimization strategy tailored to the unique challenges of SpeechLLM architectures, addressing high-dimensional parameter spaces, gradient communication overhead, and computational constraints in distributed settings. Through extensive empirical evaluation on monolingual ASR tasks in English and Italian, we demonstrate the effectiveness and stability of our federated approach compared to centralized training baselines across diverse acoustic conditions and speaking styles. Additionally, we conduct a comprehensive ablation study analyzing the impact of different speech encoder architectures on monolingual English ASR performance within the federated framework, providing insights into optimal model configurations for decentralized training. Our results achieve competitive word error rates while reducing communication costs, establishing practical foundations for federated SpeechLLM deployment in real-world multilingual scenarios.
 
 </details>
 
