@@ -61,12 +61,12 @@ Select _full = true_ to back-fill from 2015 and rebuild all paper markdown, or l
 
 <!-- PAPERS_TABLE_START -->
 
-_Showing the last 30 days (47 of 5541 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
+_Showing the last 30 days (46 of 5541 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
 
 <details open>
 <summary><h3>2026</h3></summary>
 
-#### [Soft Active Electromyography Interface for Machine Learning-Enabled Silent Speech Recognition](https://arxiv.org/abs/2608.27048)
+#### [Soft Active Electromyography Interface for Machine Learning-Enabled Silent Speech Recognition](https://arxiv.org/abs/2608.27048) · [📄 Read](papers/2026/2608.27048.md)
 
 **Yuta Kurotaki, Shusuke Yamakoshi, Reitaro Yoshida, Yutaka Isoda et al.** · 2026-08-27
 
@@ -77,7 +77,7 @@ Silent speech recognition (SSR) provides an alternative communication pathway in
 
 </details>
 
-#### [Direct or Mediated? Task-Dependent Audio Information Routing in Large Audio Language Models](https://arxiv.org/abs/2608.27026)
+#### [Direct or Mediated? Task-Dependent Audio Information Routing in Large Audio Language Models](https://arxiv.org/abs/2608.27026) · [📄 Read](papers/2026/2608.27026.md)
 
 **Yizhou Zhang, Wangjin Zhou, Xin Gu, Yichi Wang et al.** · 2026-08-27
 
@@ -132,7 +132,7 @@ Automatic mispronunciation detection and diagnosis (MDD) plays a crucial role in
 
 </details>
 
-#### [Attention-Guided Reliability Scaling for Contrastive Decoding in Robust Audio-Visual Speech Recognition](https://arxiv.org/abs/2608.26213)
+#### [Attention-Guided Reliability Scaling for Contrastive Decoding in Robust Audio-Visual Speech Recognition](https://arxiv.org/abs/2608.26213) · [📄 Read](papers/2026/2608.26213.md)
 
 **YoungChae Kim, Da-Hee Yang, Joon-Hyuk Chang** · 2026-08-26
 
@@ -220,7 +220,7 @@ AI-generated personas are being increasingly used for support, training and simu
 
 </details>
 
-#### [Lightweight LLM-based Speech Recognition via KAN Adapters](https://www.semanticscholar.org/paper/70aed4a563d81219b32f255e4889695c4a1c6f67)
+#### [Lightweight LLM-based Speech Recognition via KAN Adapters](https://www.semanticscholar.org/paper/70aed4a563d81219b32f255e4889695c4a1c6f67) · [📄 Read](papers/2026/s2:70aed4a563d81219b32f255e4889695c4a1c6f67.md)
 
 **Yuxi Li, Yan Wang** · 2026-08-24
 
@@ -562,17 +562,6 @@ Automatic speech recognition (ASR) for cleft lip and palate (CLP) speech is diff
 <summary>Abstract</summary>
 
 Cloud voice-dictation services deliver strong accuracy but require streaming a user's speech to a remote provider, an unacceptable trade-off in privacy-sensitive professions and offline or air-gapped settings; the leading on-device alternatives are either platform-locked or aimed at expert scripting rather than plug-and-play dictation. We present YazSes, an open-source (Apache-2.0) hold-to-talk voice dictation daemon that runs entirely on-device, with a single codebase targeting Linux, macOS, and Windows through a protocol-based platform abstraction. YazSes transcribes speech locally with faster-whisper (CPU, int8) and injects the result into the focused application; a fast regex command grammar, backed by an optional small-language-model router, maps utterances to editor and terminal actions. Nothing leaves the machine: recording is push-to-talk rather than always-listening, there is no telemetry, and an opt-in personalization loop keeps its corpus encrypted on-device and proposes configuration changes instead of shipping data out. We describe the system architecture -- a staged pipeline behind a protocol-based platform abstraction with a JSON-RPC control plane -- and its privacy and threat model. We evaluate the shipping Python implementation on a single commodity Linux laptop; the macOS and Windows backends are implemented and unit-tested but not end-to-end evaluated here. On 200 LibriSpeech test-clean utterances spanning 40 speakers, word error rate ranges from 4.82% (tiny.en) to 2.59% (small.en) at a real-time factor of 0.520 for small.en, decoding faster than real time on CPU with no GPU. The command grammar reaches 100% action accuracy with a 0.0% false-positive rate on plain dictation at 0.021 ms per call, and the non-decode pipeline adds 0.289 ms of overhead. The system and the reproducible benchmark harness behind every number in this paper are public.
-
-</details>
-
-#### [Voice Memory for Agentic Speech Recognition](https://arxiv.org/abs/2607.26410) · [📄 Read](papers/2026/2607.26410.md)
-
-**Chao-Han Huck Yang, Zih-Ching Chen, Piotr Zelasko, Zhehuai Chen et al.** · 2026-07-29
-
-<details>
-<summary>Abstract</summary>
-
-We present Voice Memory, a inference-only scheme for agentic speech recognition: at stream time, a frozen corrector reads a single per-domain memory.md and decides per utterance whether to act on the hypothesis or abstain and keep the 1-best. Asynchronously, a score-gated optimizer revises that file through bounded edits, accepting an edit only when it strictly improves a held-out score. Extended from classical ASR-LM framework, we refer this split the listener-thinker architecture; the two roles are coupled only through the memory, so no weights change and the learned skill stays auditable and portable. Restraint turns out to be the operative skill this loop discovers: unconstrained generative error correction (GER) over-corrects, breaking correct tokens on up to 64% of its edits on financial news, and Voice Memory, reduces this rate to 35%. Across ten HyPoradise domains with an open corrector, Voice Memory, lowers weighted word error rate from 8.36% to 7.52% (7.47% with three added in-context examples) without regressing any dataset below its 1-best baseline; gains concentrate where recoverable headroom is largest, including air-travel commands (8.40% to 3.40%) and noisy far-field speech (CHiME-4, 12.69% to 10.46%). The memory transfers across corrector families and adds zero parameters to the inference path. A demo and example code are provided for future studies.
 
 </details>
 
