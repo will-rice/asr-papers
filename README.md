@@ -61,7 +61,7 @@ Select _full = true_ to back-fill from 2015 and rebuild all paper markdown, or l
 
 <!-- PAPERS_TABLE_START -->
 
-_Showing the last 30 days (46 of 5541 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
+_Showing the last 30 days (46 of 5542 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
 
 <details open>
 <summary><h3>2026</h3></summary>
@@ -173,6 +173,17 @@ A unified audio model must recognize and understand linguistic, paralinguistic, 
 <summary>Abstract</summary>
 
 Purpose: The digitization of historical documents presents fundamental challenges for modern information retrieval and Artificial Intelligence (AI) systems. Optical character recognition (OCR) errors in source corpora propagate through retrieval-augmented generation (RAG) pipelines, compromising the factual accuracy of generated outputs. Methods: This study presents a systematic evaluation of PDF-to-text extraction pipelines applied to historiographical secondary sources on the Visigothic period. We assess thirteen distinct approaches spanning three methodological families: direct extraction, Large Language Model (LLM) post-correction, and chunk-and-extract. Documents are stratified into five categories based on production method and visual complexity. Performance is measured using character error rate (CER) and word error rate (WER) against manually corrected ground truth. Results: Results demonstrate that direct extraction with Marker achieves superior performance (98.70% CER accuracy; 97.71% WER accuracy overall), while conventional OCR pipelines exhibit substantial degradation on scanned documents and complex layouts. Embedded-text extraction performs well on digital PDFs but fails on scanned documents. LLM post-correction does not provide systematic improvements and frequently degrades accurate extractions. Conclusion: End-to-end document parsing is the most reliable approach for heterogeneous historical collections. Document characteristics such as scan quality, layout complexity, and the presence of embedded text layers have a significant impact on extraction accuracy. LLM-based post-correction should not be assumed beneficial by default and requires validation before large-scale application.
+
+</details>
+
+#### [Automatic Assessment of L2 Speech Intelligibility and Pronunciation](https://www.semanticscholar.org/paper/52d41b0746e317d6a31343c6eb6568b7936800c8)
+
+**Xing Wei** · 2026-08-25
+
+<details>
+<summary>Abstract</summary>
+
+This doctoral dissertation investigates methods to enhance the automatic assessment of second language (L2) speech intelligibility and pronunciation within Computer-Assisted Language Learning (CALL) systems. To address non-native speech variability and data scarcity, the research explores three main avenues: leveraging linguistically grounded features, refining and predicting multi-dimensional speech intelligibility measures, and applying advanced end-to-end architectures. First, a data-driven classification study demonstrates that standardized acoustic-phonetic features effectively distinguish non-native from native speech. Second, the thesis validates speech intelligibility measures, revealing that visual analogue scale ratings and transcription-based accuracy capture distinct communicative dimensions, both of which can be predicted using automated acoustic models. Third, focusing on pluricentric languages, the research shows that cumulating cross-variety speech resources enhances automatic speech recognition performance for non-dominant varieties but degrades pronunciation error detection. Finally, the dissertation introduces novel end-to-end frameworks that integrate articulatory features, significantly improving mispronunciation detection accuracy and lowering diagnostic error rates. Overall, this work integrates phonetic knowledge into deep learning architectures to support next-generation automated tutoring systems with detailed, subsegmental feedback.
 
 </details>
 
@@ -551,17 +562,6 @@ Audio-visual speech recognition (AVSR) relies on effective fusion of audio and v
 <summary>Abstract</summary>
 
 Automatic speech recognition (ASR) for cleft lip and palate (CLP) speech is difficult because acoustic and articulatory patterns vary across severity levels. This variability reduces the performance of pretrained ASR systems, and conventional fine-tuning may not generalize well under low-resource, heterogeneous CLP conditions. This work proposes Normal-Anchored First-Order Model-Agnostic Meta-Learning (NA-FOMAML) for adapting Whisper to CLP speech. The method uses a first-order bilevel meta-learning framework in which normal speech is used in the inner loop as a stable support condition, while CLP severity groups are used in the outer loop to improve post-adaptation robustness. This design aims to reduce the performance gap between normal and pathological speech. Experiments are conducted on the NMCPC and AIISH datasets using four normal-anchored training configurations. Frozen encoder, full encoder, and selected Whisper encoder-layer tuning strategies are evaluated, including layers 0--5, 4--11, 6--11, and 8--11, with decoder and projection-head adaptation. Results show that outer-loop training with only normal speech is insufficient. For NMCPC, full encoder tuning with Normal to Normal+Mild+Moderate gives WERs of 4.40%, 5.53%, 16.14%, and 52.07% for normal, mild, moderate, and severe speech. For AIISH, full encoder tuning with Normal to Normal+Mild+Moderate+Severe gives WERs of 2.48%, 19.66%, 14.05%, and 57.50%. A transcription-based phoneme-category analysis shows that severe CLP speech has high error rates across fricatives, affricates, nasals, liquids, plosives, and vowels. Overall, NA-FOMAML improves cross-severity robustness, but severe speech still requires severity-aware sampling, phoneme-aware loss functions, and augmentation targeting pressure consonant and resonance-related distortions.
-
-</details>
-
-#### [YazSes: An Offline, Privacy-First, Cross-Platform Hold-to-Talk Voice-Dictation System](https://arxiv.org/abs/2607.28878) · [📄 Read](papers/2026/2607.28878.md)
-
-**Mohsen Seyedkazemi Ardebili** · 2026-07-30
-
-<details>
-<summary>Abstract</summary>
-
-Cloud voice-dictation services deliver strong accuracy but require streaming a user's speech to a remote provider, an unacceptable trade-off in privacy-sensitive professions and offline or air-gapped settings; the leading on-device alternatives are either platform-locked or aimed at expert scripting rather than plug-and-play dictation. We present YazSes, an open-source (Apache-2.0) hold-to-talk voice dictation daemon that runs entirely on-device, with a single codebase targeting Linux, macOS, and Windows through a protocol-based platform abstraction. YazSes transcribes speech locally with faster-whisper (CPU, int8) and injects the result into the focused application; a fast regex command grammar, backed by an optional small-language-model router, maps utterances to editor and terminal actions. Nothing leaves the machine: recording is push-to-talk rather than always-listening, there is no telemetry, and an opt-in personalization loop keeps its corpus encrypted on-device and proposes configuration changes instead of shipping data out. We describe the system architecture -- a staged pipeline behind a protocol-based platform abstraction with a JSON-RPC control plane -- and its privacy and threat model. We evaluate the shipping Python implementation on a single commodity Linux laptop; the macOS and Windows backends are implemented and unit-tested but not end-to-end evaluated here. On 200 LibriSpeech test-clean utterances spanning 40 speakers, word error rate ranges from 4.82% (tiny.en) to 2.59% (small.en) at a real-time factor of 0.520 for small.en, decoding faster than real time on CPU with no GPU. The command grammar reaches 100% action accuracy with a 0.0% false-positive rate on plain dictation at 0.021 ms per call, and the non-decode pipeline adds 0.289 ms of overhead. The system and the reproducible benchmark harness behind every number in this paper are public.
 
 </details>
 
