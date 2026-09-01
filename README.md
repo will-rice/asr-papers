@@ -61,10 +61,120 @@ Select _full = true_ to back-fill from 2015 and rebuild all paper markdown, or l
 
 <!-- PAPERS_TABLE_START -->
 
-_Showing the last 30 days (46 of 5542 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
+_Showing the last 30 days (52 of 5553 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
 
 <details open>
 <summary><h3>2026</h3></summary>
+
+#### [Conjoint Audio-to-Spikes Encoding and Processing for Efficient Neuromorphic Speech Recognition](https://arxiv.org/abs/2608.30792)
+
+**Valentin M. Meunier, Amélie Gruel, Pierre Lewden, Adrien F. Vincent et al.** · 2026-08-31
+
+<details>
+<summary>Abstract</summary>
+
+Obtaining data from neuromorphic sensors and processing it with Spiking Neural Networks is a promising solution to lower the energy cost of artificial intelligence. The current rarity of natively neuromorphic datasets promotes the development of software tools to translate input sensory data into spikes. However, highly bio-mimetic simulators can be challenging to implement on digital hardware. In this work, we evaluate the neuromorphic encoding and subsequent classification of audio into spikes using a non-learnable, high-level, programmable encoder targeting hardware implementation on FPGA. We quantify the pipeline's efficiency with hardware-agnostic metrics based on the quantitative spiking activity. Our study focuses on the simultaneous optimisation of encoder and classifier: the first provides efficient and informative data so that the latter achieves a better performance with an overall lower energy cost at learning and inference. This work introduces the first end-to-end neuromorphic spike-encoding and evaluation of the TIMIT dataset. Our simple feedforward network reaches a classification accuracy of 99.77% on a spike-encoded Heidelberg Digits, overcoming the neuromorphic state of the art on this benchmark dataset.
+
+</details>
+
+#### [Likelihood-Constrained Acoustic Reranking for Training-Free Hallucination Mitigation in LLM-Based ASR](https://arxiv.org/abs/2608.30776)
+
+**Jiasheng Kuang, Linru Zheng, Hongjin Song, Zhaoqi Cui et al.** · 2026-08-31
+
+<details>
+<summary>Abstract</summary>
+
+Large language model (LLM)-based automatic speech recognition (ASR) systems achieve strong performance on conventional speech data by leveraging powerful linguistic priors and multilingual capabilities. However, under challenging conditions, these priors can override acoustic evidence, resulting in unintended translation, instruction execution, repetition, or catastrophic deletion. We propose Likelihood-Constrained Acoustic Reranking (LCAR), a training-free decoding method that improves acoustic grounding while preserving support from the base model. At each decoding step, LCAR first retains tokens whose base-model likelihood falls within a margin of the greedy token, then reranks them using an acoustic compatibility score computed from attention-pooled audio embeddings and the existing LM head. By restricting acoustic intervention to plausible, model-supported alternatives, LCAR requires no additional training, external detector, reference transcript, or auxiliary model at inference. We evaluate LCAR on four LLM-based ASR systems using human-audited TTS and open-source speech challenge suites. At $δ=0.60$, LCAR removes 38.8--57.1\% of detector-identified hallucination failures while largely maintaining WER/CER on standard open-source test sets.
+
+</details>
+
+#### [Closing the Verification Loop: Self-Check Captioning for Long-Paragraph Detailed Audio Captioning](https://arxiv.org/abs/2608.30713)
+
+**Fengji Ma, Yan Rong, Xu Li, Chen Zhang et al.** · 2026-08-31
+
+<details>
+<summary>Abstract</summary>
+
+Long-paragraph detailed audio captioning, which requires dense and transcript-faithful descriptions of fine-grained audio content, remains unsolved for current audio-visual multimodal language models. We attribute this failure to two structural problems. The first is data poverty, as no public corpus jointly provides long clips, paragraph captions, and verbatim-transcript fidelity. The second is generation-mode failure, evidenced by a 44.8 to 46.4 percentage-point gap between right-audio and shuffled-audio multiple-choice question (MCQ) accuracy. We address both within Self-Check Captioning (SCC), a unified framework that instantiates audio-grounded question answering as the verification primitive at every lifecycle stage. SCC yields three artifacts. Long-paragraph Audio Caption 50k (LACap-50k) is a 50,222-clip audio-visual corpus with 491.5-word captions and a post-hoc automatic speech recognition (ASR) audit. Layer-Curvature Supervised Fine-Tuning (LC-SFT) is the first on-policy supervised fine-tuning method to weight tokens by intermediate-layer evidence, motivated by our identification of Late-Layer Semantic-Entropy Collapse (SEC). SCC-Verifier arbitrates among caption rollouts via audio-grounded self-answering at inference. Across multiple benchmarks, our system attains state-of-the-art among open-source captioners and is competitive with proprietary baselines. We release LACap-50k to fill the resource gap for long-paragraph detailed audio captioning research.
+
+</details>
+
+#### [Weakly Supervised Tabla Stroke Transcription via an Adaptive Dynamic Rhythm Language Model (ADRM)](https://arxiv.org/abs/2608.30314)
+
+**Rahul Bapusaheb Kodag, Vipul Arora** · 2026-08-31
+
+<details>
+<summary>Abstract</summary>
+
+Tabla Stroke Transcription (TST) is central to the analysis of rhythmic structure in Hindustani music, yet it remains challenging due to complex and dynamic rhythmic organization and the scarcity of strongly annotated data. Existing approaches largely rely on fully supervised learning with onset-level annotations, which are costly and impractical at scale. This work addresses TST in a weakly supervised setting, using only symbolic stroke sequences without temporal alignment of onsets. We propose a framework that combines a Connectionist Temporal Classification (CTC)-based acoustic model with a sequence-level rhythmic language model for rescoring, similar to that used in automatic speech recognition. The acoustic model produces a decoding lattice, which is refined using an Adaptive Dynamic Rhythm Language Model (ADRM) that combines $t\bar{a}la$-conditioned symbolic rhythmic regularities with local stroke dynamics. Moreover, we release a new performance-recorded tabla dataset, named \emph{Tabla Improvisation Dataset}, along with a complementary synthetic dataset for sequence-level weakly supervised TST. Experiments demonstrate consistent and substantial reductions in stroke error rates with ADRM compared to those with acoustic-only decoding, confirming the benefit of incorporating symbolic rhythmic regularities during lattice rescoring for accurate transcription.
+
+</details>
+
+#### [Parallel Time-Band Mixing with Learned Observation-Adding for Robust ASR Front-Ends](https://arxiv.org/abs/2608.30326)
+
+**Xingyu Shen, Runze Wang, Wei-Ping Zhu, Benoit Champagne** · 2026-08-31
+
+<details>
+<summary>Abstract</summary>
+
+Speech enhancement is often used as a front-end for robust ASR, yet recurrent temporal and cross-band modules introduce sequential dependencies that reduce parallel efficiency. In this paper, we present a sequence-parallel band-split enhancement front-end built on a Parallel Time-Band Mixer (PTBM) block that eliminates within-block recurrent unrolling. PTBM integrates intra-band temporal mixing and per-frame cross-band attention within a unified parallel architecture, enabling efficient contextual modeling across both time and frequency dimensions. The system retains the mask-plus-residual reconstruction interface and introduces learned Observation-Adding (LOA) to suppress ASR-sensitive artifacts without development-set tuning. Experiments on DNS Challenge and CHiME-4 with frozen Whisper back-ends show that the proposed front-end consistently reduces word error rate relative to recurrent band-split baselines while requiring only 0.96 M parameters and 0.58 GMAC/s for the front-end network.
+
+</details>
+
+#### [TEMPO: Temporally-grounded Multi-task Post-training for Large Audio-Language Models](https://arxiv.org/abs/2608.29999)
+
+**Apoorva Kulkarni, Kaousheik Jayakumar, Sreyan Ghosh, Utathya Aich et al.** · 2026-08-30
+
+<details>
+<summary>Abstract</summary>
+
+Large audio-language models (LALMs) describe audio at the clip level but cannot assign timestamps to the events, speakers, or sounds they identify. Despite being essential for downstream tasks like speech recognition and dense audio captioning, timestamping remains a key limitation of most LALMs. We present TEMPO (Temporally-grounded Multi-task Post-training), the first unified model to handle audio, speech, and music timestamping tasks. Our core contribution is a supervised fine-tuning (SFT) stage built on three innovations: atomic timestamp tokens, a time-aware projector that injects sinusoidal wall-clock encodings into audio frame embeddings, and a distance-aware Gaussian loss. Our training is based on a synthetic-to-real curriculum. We further introduce, to our knowledge, the first application of reinforcement learning to unified audio timestamping, using GRPO with verifiable temporal rewards that directly optimize the evaluation objectives. Rather than serving as the primary source of performance gains, GRPO acts as a refinement stage on top of the SFT checkpoint, providing modest additional improvements. To support this work, we build a training dataset containing 119K samples and an evaluation benchmark containing 10K samples, drawn from established corpora across five tasks. On this benchmark, TEMPO outperforms Audio Flamingo Next and Qwen3-Omni, two state-of-the-art LALMs explicitly trained on timestamped data. Experiments confirm that SFT delivers most of these gains, with GRPO providing consistent but moderate refinements.
+
+</details>
+
+#### [Anchoring Speech with Semantics: A Multimodal Adapter Mechanism for Automatic Speech Recognition in Low-Resource Languages](https://arxiv.org/abs/2608.29239)
+
+**Kuan-Tang Huang, Cheng-Yeh Yang, Chien-Chun Wang, Hung-Shin Lee et al.** · 2026-08-29
+
+<details>
+<summary>Abstract</summary>
+
+Low-resource ASR remains difficult because scarce transcripts provide limited supervised evidence for target-side generation. To address this gap, we propose SAMA-ASR, a lightweight adapter mechanism that augments the decoder with semantic anchors from auxiliary translations and an acoustic anchor from speech; in principle, the mechanism can be applied to similar encoder--decoder multitask speech models. Through cross-modal adaptation, SAMA-ASR conditions decoder states on translation-derived semantic embeddings and a speech embedding, combining utterance-level meaning with speech-grounded evidence before token prediction. At evaluation time, these semantic anchors can be generated automatically by an upstream speech-to-text translator rather than supplied as oracle translations. Experiments on two 30-hour datasets covering the low-resource Sinitic varieties Taiwanese Hokkien and Hakka show that SAMA-ASR improves over acoustic, prior prompt-based, and semantic-only translation-guided baselines and remains effective in practical automatic semantic-anchor settings; translator-capacity analyses show that useful semantic anchors can be produced by a compact ST model.
+
+</details>
+
+#### [The Web-CLI: Verifiable Privacy for Tools, Models, and Inference Engines in the Browser](https://arxiv.org/abs/2608.28950)
+
+**Tejaswi Gowda** · 2026-08-28
+
+<details>
+<summary>Abstract</summary>
+
+We introduce the Web-CLI, a novel application architecture deploying powerful computational capabilities (command-line tools compiled to WebAssembly, models run through client-side inference runtimes, and GPU-accelerated engines) as zero-install, offline-capable browser applications that preserve full underlying capability. Unlike web-based alternatives that require server-side processing and expose user data to third parties, Web-CLI applications execute entirely on the client, providing a verifiable privacy guarantee by architecture rather than policy. We define the pattern and its four properties: fidelity, progressive disclosure, offline-first, and zero egress. We present four reference implementations across distinct domains: ffmpeg-webCLI, a browser-based video editor built on FFmpeg; whisper-webCLI, speech transcription via Transformers.js; chat-webCLI, WebLLM-based language model inference; and 3mf-webCLI, a deterministic tool segmenting 3D models into multi-material files for physical 3D printing. Together they demonstrate that the pattern generalizes across deterministic media processing, neural speech recognition, LLM inference, and geometry processing with a physical output, and we outline how it extends to AI-native interfaces in which a local language model becomes the command surface itself. We further report early, anecdotal signs of independent reuse by third-party tools, suggesting the pattern generalizes beyond its reference implementations. We evaluate the primary implementation against native FFmpeg on performance and feature parity, and argue that progressive disclosure lowers the barrier for non-technical users. We argue that for applications processing sensitive user data (medical, legal, journalistic, or personal), the Web-CLI should be the default architecture, as it makes data locality an independently verifiable technical property rather than a policy promise.
+
+</details>
+
+#### [Auditing Generative Audio Calls for Known-Task Audio-LLM Evaluation](https://arxiv.org/abs/2608.27817)
+
+**Mengzhe Geng** · 2026-08-28
+
+<details>
+<summary>Abstract</summary>
+
+Speech and audio LLMs are often evaluated by asking whether a waveform prompt beats an automatic speech recognition (ASR) transcript. For known closed-set tasks, that comparison conflates two factors: access to acoustic evidence and the need to call a generative audio model. We evaluate this distinction as a controlled call-decision problem. For each example, a policy chooses among keeping a transcript label, using encoder evidence from Contrastive Language-Audio Pretraining (CLAP), Audio Spectrogram Transformer (AST), or WavLM, and calling Qwen2-Audio, Qwen2.5-Omni, or MOSS-Audio; the decisive ablation removes all generative actions while keeping the selector and development protocol fixed. On VocalSound, transcripts reach 0.296 accuracy, so waveform information is needed. Yet supervised CLAP and WavLM controls reach 0.850 and 0.854 with no generative audio calls. A selector with generative actions reaches 0.925 accuracy using 12.5% calls, compared with 0.921 for the matched no-call selector (paired difference 0.004; 95% CI [-0.025,0.033]). Agreement and stacking features improve weaker selectors but do not beat the strongest no-call control. For known-task endpoint claims, the relevant quantity is the marginal value of the generative call after transcript and encoder evidence have already been used.
+
+</details>
+
+#### [No Detectable Change in Side-Level WER from Prompt-Level Context: A Preregistered Ablation on a Production Oral-History Corpus](https://arxiv.org/abs/2608.28875)
+
+**Theodore O. Cochran, Stephanie Dodson, Keith Nore** · 2026-08-28
+
+<details>
+<summary>Abstract</summary>
+
+Supplying context at inference time to a large multimodal model is an inexpensive lever for adapting speech transcription to a domain, and earlier results on smaller models reported large gains. This work tested that mechanism where it ships, in the prompt-conditioning layer of a production oral-history transcription tool, on a sample from its own production corpus. Full prompt-level context did not detectably change side-level word error rate (WER), and none of the four preregistered hypotheses was supported. The design was a within-item paired ablation, preregistered with the analysis code frozen by hash before the confirmatory batch was scored; two disclosed gpt-4o pilot sides had been scored earlier, during scorer development. Nineteen cassette sides, about 10.6 hours of degraded 1970s-80s interview audio, were reprocessed through the production code path under three prompt arms, crossed with two deployed commercial configurations, gpt-4o-transcribe and gemini-2.5-flash, and scored against operator-corrected verbatim references. For gpt-4o-transcribe the median paired difference between the full-context and no-context arms was +0.6 WER points, with a side-resampled interval of [-1.1, +1.0]; the Gemini estimates were too unstable to support a comparable negative inference. A post-hoc rerun found run-to-run pipeline variability larger than the confirmatory differences, so effects of that size cannot be resolved from one transcription per cell. An implementation audit verified the manipulation was live, and sequence-alignment analysis found a small improvement on complete context-listed phrases, too small to materially change side-level WER, and for Gemini coexisting with worsened unlisted-token error. Evaluating context mechanisms therefore requires sequence-aligned term-level, insertion, and speaker-label measures alongside aggregate accuracy.
+
+</details>
 
 #### [Soft Active Electromyography Interface for Machine Learning-Enabled Silent Speech Recognition](https://arxiv.org/abs/2608.27048) · [📄 Read](papers/2026/2608.27048.md)
 
@@ -176,7 +286,7 @@ Purpose: The digitization of historical documents presents fundamental challenge
 
 </details>
 
-#### [Automatic Assessment of L2 Speech Intelligibility and Pronunciation](https://www.semanticscholar.org/paper/52d41b0746e317d6a31343c6eb6568b7936800c8)
+#### [Automatic Assessment of L2 Speech Intelligibility and Pronunciation](https://www.semanticscholar.org/paper/52d41b0746e317d6a31343c6eb6568b7936800c8) · [📄 Read](papers/2026/s2:52d41b0746e317d6a31343c6eb6568b7936800c8.md)
 
 **Xing Wei** · 2026-08-25
 
@@ -184,6 +294,17 @@ Purpose: The digitization of historical documents presents fundamental challenge
 <summary>Abstract</summary>
 
 This doctoral dissertation investigates methods to enhance the automatic assessment of second language (L2) speech intelligibility and pronunciation within Computer-Assisted Language Learning (CALL) systems. To address non-native speech variability and data scarcity, the research explores three main avenues: leveraging linguistically grounded features, refining and predicting multi-dimensional speech intelligibility measures, and applying advanced end-to-end architectures. First, a data-driven classification study demonstrates that standardized acoustic-phonetic features effectively distinguish non-native from native speech. Second, the thesis validates speech intelligibility measures, revealing that visual analogue scale ratings and transcription-based accuracy capture distinct communicative dimensions, both of which can be predicted using automated acoustic models. Third, focusing on pluricentric languages, the research shows that cumulating cross-variety speech resources enhances automatic speech recognition performance for non-dominant varieties but degrades pronunciation error detection. Finally, the dissertation introduces novel end-to-end frameworks that integrate articulatory features, significantly improving mispronunciation detection accuracy and lowering diagnostic error rates. Overall, this work integrates phonetic knowledge into deep learning architectures to support next-generation automated tutoring systems with detailed, subsegmental feedback.
+
+</details>
+
+#### [Lost in Speech: Trilingual Spoken Hallucination Detection Across Audio and Transcripts](https://arxiv.org/abs/2608.24707)
+
+**Meruyert Aristombayeva, Jason Samuel Lucas, Chaewan Chun, Dongwon Lee** · 2026-08-25
+
+<details>
+<summary>Abstract</summary>
+
+While text-based hallucination detection has been extensively studied, spoken hallucination detection remains largely unexplored, particularly for low-resource languages. We present the first multilingual spoken hallucination benchmark comprising 12,013 news samples across English, Russian, and Kazakh with controlled hallucinations of three types and three severity levels. Samples comprise original articles and aligned hallucinated counterparts in text and audio. We complement the synthetic corpus with 290 fact-checked fake news items collected natively in Russian (225) and Kazakh (65), translated into the other language and rendered through the same TTS-ASR pipeline. We assess fine-tuned multilingual encoders and, in zero-shot in-context settings, multimodal decoder models on transcript-based versus direct audio processing. Transcript-based detection generally outperforms direct audio processing, with binary-task degradation for strong encoders tracking per-language ASR error. On real-world fakes, synthetic-trained detectors transfer strongly (macro-F1 0.82-0.88 on original text), while Russian provenance analysis reveals both veracity-related and model-dependent machine-style signals, quantifying a key confound in synthetic hallucination benchmarks.
 
 </details>
 
@@ -507,61 +628,6 @@ Multimodal large language models (MLLMs) have achieved significant success in sp
 <summary>Abstract</summary>
 
 Automatic speech recognition (ASR) performance degrades sharply on dysarthric speech, yet how disordered articulation reshapes a model's internal representations is underexplored. We present a layer-wise probing analysis of a transformer ASR encoder on Mandarin dysarthric speech under three transcript-matched conditions: original dysarthric speech, speaker conditioned zero-shot TTS resynthesis, and unconditioned TTS. The probes reveal a task-dependent hierarchy: phoneme boundary information stays weak for dysarthric speech at every layer, phoneme identity becomes recoverable toward the upper layers, and recognition difficulty is encoded in the deepest layers. Tone-sensitive evaluation shows Mandarin lexical tone is a persistent error source. Cross-condition similarity divergence grows with depth, indicating that disordered speech affects high-level representations more than low-level acoustic features. Guided by these findings, single-layer LoRA at layer 7 and adaptation on subset layers 5-8 achieve performance within 3.5% and 2.48% relative margins of full encoder adaptation, respectively, while upper-layer adaptation is less effective for dysarthric speech. These findings link representation analysis to parameter-efficient fine-tuning and motivate layer-aware adaptation for low-resource Mandarin dysarthric ASR.
-
-</details>
-
-#### [Integration of multiple acoustic information included in end-to-end ASR models via density ratio approach for Japanese language](https://www.semanticscholar.org/paper/671416137c2743e83b367325a433171ef4dd7310) · [📄 Read](papers/2026/s2:671416137c2743e83b367325a433171ef4dd7310.md)
-
-**Keigo Hojo, Yukoh Wakabayashi, Kengo Ohta, Atsunori Ogawa et al.** · 2026-07-31
-
-<details>
-<summary>Abstract</summary>
-
-This study aims to perform automatic speech recognition (ASR) robustly in an unknown target domain by integrating multiple end-to-end (E2E) ASR models trained on different source domains. Such a system combination approaches have long been confirmed effective for improving recognition accuracy in conventional GMM–HMM systems, however there have been few studies evaluating the effectiveness of ensembles of multiple E2E ASR models. Instead, the use of external language models (LMs) is considered to be a more promising approach for adapting E2E ASR models to a target domain without retraining. One representative LM integration method, the density ratio approach (DRA), removes implicit language information from an E2E ASR model using an external LM. Inspired by this approach, here the authors assume that an E2E ASR model whose language information is excluded retains only pure acoustic information from source domain, so the authors use this idea within an ensemble of ASR models. The experimental results show that integrating multiple pretrained E2E ASR models using the proposed method outperforms ROVER, a simple ASR model ensemble and conventional LM integration methods, without requiring any additional ASR model training. The proposed method allows the concept of integrating multiple systems, which has proven effective in conventional GMM–HMM systems, to be applied to E2E ASR. It enables robust recognition in unknown target domains using diverse acoustic information from multiple source domains without requiring additional ASR model training or fine-tuning.
-
-</details>
-
-#### [Leveraging Beam Search Information for Confidence Estimation in E2E ASR](https://arxiv.org/abs/2607.29299) · [📄 Read](papers/2026/2607.29299.md)
-
-**Yichen Jia, Hugo Van hamme** · 2026-07-31
-
-<details>
-<summary>Abstract</summary>
-
-To estimate confidence for end-to-end Automatic Speech Recognition (ASR) systems, recent research has proposed Confidence Estimation Modules that incorporate features from the backbone ASR model. Most existing approaches, however, are architecture-dependent. In this paper, we propose the Score-Rank Confidence Estimation Module (SR-CEM), a lightweight module that leverages beam search information to generate token- and word-level confidence scores. Specifically, SR-CEM constructs features by combining the scores and ranks of tokens within a hypothesis. Experiments show that SR-CEM achieves effective calibration on both in-domain and out-of-domain English data. On the in-domain testset, it attains a Maximum Calibration Error of 4.50% and an Expected Calibration Error of 0.30% at the token level, significantly outperforming softmax confidence (20.04% and 1.75%, respectively). At the word level, SR-CEM achieves 8.17% and 0.35%, compared to 17.91% and 1.67% from softmax confidence. Furthermore, we demonstrate its robustness across hybrid and transducer ASR architectures with different decoding strategies, as well as on Dutch, noisy and conversational speech conditions. Our main finding is that SR-CEM is particularly effective in reducing Maximum Calibration Error, which is critical for reliable downstream use of ASR outputs, while maintaining architecture independence and generality across diverse evaluation conditions.
-
-</details>
-
-#### [ParaASR: Multi-Token Prediction for Fast and Long-Context LLM-Based Speech Recognition](https://arxiv.org/abs/2607.29279) · [📄 Read](papers/2026/2607.29279.md)
-
-**Qingjian Lin, Yuxin Li, Haoyang Zhang, Jun Chen et al.** · 2026-07-31
-
-<details>
-<summary>Abstract</summary>
-
-Audio-encoder-LLM-decoder architectures have become the dominant paradigm for modern automatic speech recognition (ASR), improving transcription quality through large-scale language modeling. However, the cost of autoregressive decoding scales with decoder size, creating a fundamental trade-off between recognition quality and serving latency. We argue this trade-off is not inherent: unlike open-ended text generation, ASR outputs are strongly anchored to the input speech signal, providing a natural inductive bias toward high-parallelism decoding. Building on this, we introduce ParaASR, an ASR system that leverages Multi-Token Prediction (MTP) to let a 4B LLM decoder emit multiple tokens per forward step. Starting from a publicly available audio-language foundation, the model first establishes a robust autoregressive recognizer and then aligns five future-token branches through a staged optimization recipe. At inference, it proposes a six-token continuation per step and admits only the verified prefix into the transcript, preserving the safety of standard autoregressive decoding. The average accepted length reaches 5.0 out of 6 proposed tokens, confirming that the deterministic structure of speech makes ASR an especially natural setting for multi-token decoding. ParaASR further retains a native 32K-context window and transcribes up to 30 minutes of audio in a single pass. Across diverse benchmarks, it attains average error rates of 2.97%, 3.68%, and 3.70% on Chinese, English, and long-form evaluations, respectively, while reaching a real-time factor (RTF) as low as 0.0053. These results show that decoder scaling, low-latency inference, and long-context transcription need not be competing goals when future-token proposals are anchored by the acoustic signal and guarded by autoregressive verification.
-
-</details>
-
-#### [DoubleHelix: Structured Cross-Modal Fusion for Audio-Visual Speech Recognition with LLMs](https://arxiv.org/abs/2607.29112) · [📄 Read](papers/2026/2607.29112.md)
-
-**Ziwei Cheng, Zhenhua Tan, Zhuomin Zhu** · 2026-07-31
-
-<details>
-<summary>Abstract</summary>
-
-Audio-visual speech recognition (AVSR) relies on effective fusion of audio and visual modalities, yet existing approaches treat cross-modal interaction as a single-step operation without structured iterative refinement. We present DoubleHelix, a multimodal fusion framework that reformulates fusion as an iterative cross-modal interaction process with adaptive degradation-aware enhancement. The framework comprises three components including ReverseParallelHelix for multi-turn structured interaction with learned alignment constraints, QualitySensor for learning degradation-aware gating signals, and HelixReplication for consistency-guided conditional feature enhancement. Experiments on LRS3 demonstrate that DoubleHelix achieves 0.68% WER on clean audio, outperforming previous best results by 5.6% relative improvement under matched backbone settings. Comprehensive ablation studies validate each component contribution, including targeted analysis of design choices such as asymmetric pathway weighting. The framework shows improved robustness under evaluated babble-noise conditions, achieving 11.6% WER at SNR -5dB.
-
-</details>
-
-#### [Normal-Anchored First-Order Model-Agnostic Meta-Learning based Whisper Fine-Tuning for Enhancing Fairness of Cleft Lip and Palate Speech Recognition](https://arxiv.org/abs/2608.00186) · [📄 Read](papers/2026/2608.00186.md)
-
-**Susmita Bhattacharjee, Jagabandhu Mishra, H. S. Shekhawat, Ravi Jasuja et al.** · 2026-07-31
-
-<details>
-<summary>Abstract</summary>
-
-Automatic speech recognition (ASR) for cleft lip and palate (CLP) speech is difficult because acoustic and articulatory patterns vary across severity levels. This variability reduces the performance of pretrained ASR systems, and conventional fine-tuning may not generalize well under low-resource, heterogeneous CLP conditions. This work proposes Normal-Anchored First-Order Model-Agnostic Meta-Learning (NA-FOMAML) for adapting Whisper to CLP speech. The method uses a first-order bilevel meta-learning framework in which normal speech is used in the inner loop as a stable support condition, while CLP severity groups are used in the outer loop to improve post-adaptation robustness. This design aims to reduce the performance gap between normal and pathological speech. Experiments are conducted on the NMCPC and AIISH datasets using four normal-anchored training configurations. Frozen encoder, full encoder, and selected Whisper encoder-layer tuning strategies are evaluated, including layers 0--5, 4--11, 6--11, and 8--11, with decoder and projection-head adaptation. Results show that outer-loop training with only normal speech is insufficient. For NMCPC, full encoder tuning with Normal to Normal+Mild+Moderate gives WERs of 4.40%, 5.53%, 16.14%, and 52.07% for normal, mild, moderate, and severe speech. For AIISH, full encoder tuning with Normal to Normal+Mild+Moderate+Severe gives WERs of 2.48%, 19.66%, 14.05%, and 57.50%. A transcription-based phoneme-category analysis shows that severe CLP speech has high error rates across fricatives, affricates, nasals, liquids, plosives, and vowels. Overall, NA-FOMAML improves cross-severity robustness, but severe speech still requires severity-aware sampling, phoneme-aware loss functions, and augmentation targeting pressure consonant and resonance-related distortions.
 
 </details>
 
