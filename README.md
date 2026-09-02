@@ -61,12 +61,23 @@ Select _full = true_ to back-fill from 2015 and rebuild all paper markdown, or l
 
 <!-- PAPERS_TABLE_START -->
 
-_Showing the last 30 days (52 of 5553 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
+_Showing the last 30 days (55 of 5556 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
 
 <details open>
 <summary><h3>2026</h3></summary>
 
-#### [Conjoint Audio-to-Spikes Encoding and Processing for Efficient Neuromorphic Speech Recognition](https://arxiv.org/abs/2608.30792)
+#### [Soft Posterior Speaker Injection for Multi-Talker Speech Recognition](https://arxiv.org/abs/2609.01287)
+
+**Jian Zhu, Cheng Luo** · 2026-09-01
+
+<details>
+<summary>Abstract</summary>
+
+Multi-talker automatic speech recognition (MT-ASR) remains challenging under overlapping speech. Hard diarization-based segmentation introduces irreversible errors, whereas serialized output training (SOT) avoids explicit segmentation but does not condition a pretrained encoder on speaker activity. We propose Soft Posterior Speaker Injection (SPSI): a lightweight head predicts frame-level speaker posteriors $\hat{\mathbf{P}}$ and injects them into Whisper through multi-layer feature-wise linear modulation (FiLM) and decoder speaker-memory prompts. On controlled two-speaker LibriSpeech overlap, SPSI reduces utterance-mean constrained permutation word error rate (cpWER) from 50.7\% (SOT) to 49.6\% (one-sided paired bootstrap $p{\approx}0.006$), with a larger reduction in the high-overlap bin (60.4\%$\to$58.8\%). Same-backbone speaker-auxiliary objectives and voice activity detection (VAD) pipelines do not outperform SOT; zero-shot (ZS) LibriCSS is comparable. Freeze-posterior adaptation with overlap-heavy (OV-heavy) continuation reduces held-out LibriCSS cpWER (sessions 8--9) to 32.4\% (versus 37.5\% for SOT). Ablations indicate complementary encoder FiLM and decoder prompts, and that the effective signal is a \emph{soft} simplex-valued speaker share.
+
+</details>
+
+#### [Conjoint Audio-to-Spikes Encoding and Processing for Efficient Neuromorphic Speech Recognition](https://arxiv.org/abs/2608.30792) · [📄 Read](papers/2026/2608.30792.md)
 
 **Valentin M. Meunier, Amélie Gruel, Pierre Lewden, Adrien F. Vincent et al.** · 2026-08-31
 
@@ -77,7 +88,7 @@ Obtaining data from neuromorphic sensors and processing it with Spiking Neural N
 
 </details>
 
-#### [Likelihood-Constrained Acoustic Reranking for Training-Free Hallucination Mitigation in LLM-Based ASR](https://arxiv.org/abs/2608.30776)
+#### [Likelihood-Constrained Acoustic Reranking for Training-Free Hallucination Mitigation in LLM-Based ASR](https://arxiv.org/abs/2608.30776) · [📄 Read](papers/2026/2608.30776.md)
 
 **Jiasheng Kuang, Linru Zheng, Hongjin Song, Zhaoqi Cui et al.** · 2026-08-31
 
@@ -88,7 +99,7 @@ Large language model (LLM)-based automatic speech recognition (ASR) systems achi
 
 </details>
 
-#### [Closing the Verification Loop: Self-Check Captioning for Long-Paragraph Detailed Audio Captioning](https://arxiv.org/abs/2608.30713)
+#### [Closing the Verification Loop: Self-Check Captioning for Long-Paragraph Detailed Audio Captioning](https://arxiv.org/abs/2608.30713) · [📄 Read](papers/2026/2608.30713.md)
 
 **Fengji Ma, Yan Rong, Xu Li, Chen Zhang et al.** · 2026-08-31
 
@@ -99,7 +110,7 @@ Long-paragraph detailed audio captioning, which requires dense and transcript-fa
 
 </details>
 
-#### [Weakly Supervised Tabla Stroke Transcription via an Adaptive Dynamic Rhythm Language Model (ADRM)](https://arxiv.org/abs/2608.30314)
+#### [Weakly Supervised Tabla Stroke Transcription via an Adaptive Dynamic Rhythm Language Model (ADRM)](https://arxiv.org/abs/2608.30314) · [📄 Read](papers/2026/2608.30314.md)
 
 **Rahul Bapusaheb Kodag, Vipul Arora** · 2026-08-31
 
@@ -110,7 +121,7 @@ Tabla Stroke Transcription (TST) is central to the analysis of rhythmic structur
 
 </details>
 
-#### [Parallel Time-Band Mixing with Learned Observation-Adding for Robust ASR Front-Ends](https://arxiv.org/abs/2608.30326)
+#### [Parallel Time-Band Mixing with Learned Observation-Adding for Robust ASR Front-Ends](https://arxiv.org/abs/2608.30326) · [📄 Read](papers/2026/2608.30326.md)
 
 **Xingyu Shen, Runze Wang, Wei-Ping Zhu, Benoit Champagne** · 2026-08-31
 
@@ -121,7 +132,29 @@ Speech enhancement is often used as a front-end for robust ASR, yet recurrent te
 
 </details>
 
-#### [TEMPO: Temporally-grounded Multi-task Post-training for Large Audio-Language Models](https://arxiv.org/abs/2608.29999)
+#### [Conversation Coach: A Voice-enabled AI System that Helps Practice Difficult Workplace Conversations](https://arxiv.org/abs/2609.00441)
+
+**Fanyou Wu, Suraj Maharjan, Ainur Yessenalina, Dennis Xu Chen et al.** · 2026-08-31
+
+<details>
+<summary>Abstract</summary>
+
+Effective manager-employee communication is critical for retaining high performers and developing underperformers, yet training managers in these skills remains costly. Text-based chatbots offer a scalable approach but cannot provide realistic rehearsal: managers need to practice speaking aloud to build confidence before high-stakes conversations. In this paper, we propose Conversation Coach, a voice-first AI system that enables managers to rehearse difficult workplace conversations in a realistic spoken format. The system addresses three challenges: achieving low-latency interactions with strong language understanding, enabling adaptive conversations through configurable bot personalities that simulate different employee types, and generating personalized feedback on content and policy compliance. We compare an end-to-end speech-to-speech model with a cascaded approach combining automatic speech recognition, a large language model, and text-to-speech synthesis. The end-to-end approach achieves 3$\times$ lower median (P50) latency with native barge-in capability at an estimated 8$\times$ lower cost, while the cascaded approach offers superior reasoning essential for coaching quality. We deployed the cascaded architecture in production, where 40,000+ managers used it over six months, with adoption patterns indicating selective use for difficult conversations.
+
+</details>
+
+#### [Assessing Suicide Risk in Arabic Crisis Helpline Calls: A Comparison of Arabic and English Large Language Models](https://arxiv.org/abs/2609.00191)
+
+**Linhai Ma, Rita El Hachem, Mahatab El Hajj, Lilian Ghandour et al.** · 2026-08-31
+
+<details>
+<summary>Abstract</summary>
+
+Crisis helplines assess suicide risk through structured interviews, a process that is slow and dependent on operator training and workload. Natural language processing could support risk assessment and call prioritization, but almost no work addresses Arabic-language helpline calls or operates within the privacy constraints of real helpline data. We analysed de-identified transcripts from Lebanon's National Lifeline for Emotional Support and Suicide Prevention. Audio never left the helpline: calls were transcribed on site with a speech recognition model for Levantine Arabic, and an Arabic named-entity recognition model removed identifying information locally. Only the de-identified transcripts were shared with the research team. Operators recorded the five suicidal ideation items of the Columbia Suicide Severity Rating Scale, which we combined into two binary outcomes: at-risk and high-risk. We also machine-translated the transcripts into English, giving a paired Arabic/English comparison. On each corpus, we fine-tuned five instruction-tuned large language models alongside six transformer encoder baselines (four Arabic, two English) and evaluated all models on a held-out test set. We included 383 calls: 373 for the at-risk task (52.3% positive) and 297 for the high-risk task (30.0% positive). The best Arabic model reached a macro-F1 of 81.19 and a ROC-AUC of 90.61 on high-risk; the best English model reached 85.00 and 92.59, identifying 88.9% of high-risk calls. In both languages, high-risk calls separated more cleanly than at-risk calls, and translation to English did not reduce the best observed performance. Suicide risk can be classified from de-identified Arabic transcripts without sending audio outside the helpline. The high-risk results support further testing as an operator-facing tool; lower-severity ideation proved the harder case.
+
+</details>
+
+#### [TEMPO: Temporally-grounded Multi-task Post-training for Large Audio-Language Models](https://arxiv.org/abs/2608.29999) · [📄 Read](papers/2026/2608.29999.md)
 
 **Apoorva Kulkarni, Kaousheik Jayakumar, Sreyan Ghosh, Utathya Aich et al.** · 2026-08-30
 
@@ -132,7 +165,7 @@ Large audio-language models (LALMs) describe audio at the clip level but cannot 
 
 </details>
 
-#### [Anchoring Speech with Semantics: A Multimodal Adapter Mechanism for Automatic Speech Recognition in Low-Resource Languages](https://arxiv.org/abs/2608.29239)
+#### [Anchoring Speech with Semantics: A Multimodal Adapter Mechanism for Automatic Speech Recognition in Low-Resource Languages](https://arxiv.org/abs/2608.29239) · [📄 Read](papers/2026/2608.29239.md)
 
 **Kuan-Tang Huang, Cheng-Yeh Yang, Chien-Chun Wang, Hung-Shin Lee et al.** · 2026-08-29
 
@@ -143,7 +176,7 @@ Low-resource ASR remains difficult because scarce transcripts provide limited su
 
 </details>
 
-#### [The Web-CLI: Verifiable Privacy for Tools, Models, and Inference Engines in the Browser](https://arxiv.org/abs/2608.28950)
+#### [The Web-CLI: Verifiable Privacy for Tools, Models, and Inference Engines in the Browser](https://arxiv.org/abs/2608.28950) · [📄 Read](papers/2026/2608.28950.md)
 
 **Tejaswi Gowda** · 2026-08-28
 
@@ -154,7 +187,7 @@ We introduce the Web-CLI, a novel application architecture deploying powerful co
 
 </details>
 
-#### [Auditing Generative Audio Calls for Known-Task Audio-LLM Evaluation](https://arxiv.org/abs/2608.27817)
+#### [Auditing Generative Audio Calls for Known-Task Audio-LLM Evaluation](https://arxiv.org/abs/2608.27817) · [📄 Read](papers/2026/2608.27817.md)
 
 **Mengzhe Geng** · 2026-08-28
 
@@ -165,7 +198,7 @@ Speech and audio LLMs are often evaluated by asking whether a waveform prompt be
 
 </details>
 
-#### [No Detectable Change in Side-Level WER from Prompt-Level Context: A Preregistered Ablation on a Production Oral-History Corpus](https://arxiv.org/abs/2608.28875)
+#### [No Detectable Change in Side-Level WER from Prompt-Level Context: A Preregistered Ablation on a Production Oral-History Corpus](https://arxiv.org/abs/2608.28875) · [📄 Read](papers/2026/2608.28875.md)
 
 **Theodore O. Cochran, Stephanie Dodson, Keith Nore** · 2026-08-28
 
@@ -297,7 +330,7 @@ This doctoral dissertation investigates methods to enhance the automatic assessm
 
 </details>
 
-#### [Lost in Speech: Trilingual Spoken Hallucination Detection Across Audio and Transcripts](https://arxiv.org/abs/2608.24707)
+#### [Lost in Speech: Trilingual Spoken Hallucination Detection Across Audio and Transcripts](https://arxiv.org/abs/2608.24707) · [📄 Read](papers/2026/2608.24707.md)
 
 **Meruyert Aristombayeva, Jason Samuel Lucas, Chaewan Chun, Dongwon Lee** · 2026-08-25
 
