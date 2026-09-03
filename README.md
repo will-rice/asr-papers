@@ -61,12 +61,34 @@ Select _full = true_ to back-fill from 2015 and rebuild all paper markdown, or l
 
 <!-- PAPERS_TABLE_START -->
 
-_Showing the last 30 days (55 of 5556 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
+_Showing the last 30 days (58 of 5563 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
 
 <details open>
 <summary><h3>2026</h3></summary>
 
-#### [Soft Posterior Speaker Injection for Multi-Talker Speech Recognition](https://arxiv.org/abs/2609.01287)
+#### [Choosing a PEFT Variant for Per-Patient Dysarthric ASR: A Single-Speaker Case Study on Two ASR Bases](https://arxiv.org/abs/2609.02735)
+
+**Bernard Muller, László Tóth, LaVonne Roberts** · 2026-09-02
+
+<details>
+<summary>Abstract</summary>
+
+Per-patient adapters are the preferred production architecture for dysarthric automatic speech recognition (ASR), yet parameter-efficient fine-tuning (PEFT) variants have not been compared in the speaker-dependent, per-patient regime. We present a single-speaker case study comparing seven LoRA-family methods (LoRA, QLoRA, AdaLoRA, DoRA, LoHA, VeRA, VB-LoRA) on two production bases (Whisper-large-v3 with Hungarian fine-tuning, and a multilingual Qwen3-ASR-1.7B checkpoint) for one post-stroke Hungarian male speaker (S1, 409 utterances; severe dysarthria on auditory-perceptual clinical assessment). Attention-projection adapters substantially improve CER on both bases. Across three seeds, a paired bootstrap detects no significant LoRA-DoRA difference (p>0.5; 13.86/13.90 % CER on Whisper, 28.10/28.33 % on Qwen3-ASR), so we adopt the simpler, cheaper LoRA. Real 4-bit (NF4) QLoRA is worse on every seed and both bases (14.56/30.09 % CER) with no memory saving at this scale, and LoHA, VeRA, VB-LoRA and AdaLoRA do not reach the LoRA family, though LoHA still gives an 18.6 % relative CER reduction on Whisper. On the same base, full fine-tuning is more accurate (11.43 % CER), but a 115 MB LoRA that also adapts the feed-forward blocks reaches within 0.66 pp of it at approximately 3.7 % of the per-patient storage. A 6-point enrollment grid shows about 5 min of patient audio captures 45.6 % of the zero-shot-to-30-min CER reduction, with further gains at 10 and 30 min (caveat: one speaker, one language, severe post-stroke dysarthria). Training scripts and recipes will be released, source-available under a research-use licence, on publication.
+
+</details>
+
+#### [A Common Measure of Communication for Speech Brain-Computer Interfaces](https://arxiv.org/abs/2609.02887)
+
+**Dulhan Jayalath, Benjamin Ballyk, Oiwi Parker Jones** · 2026-09-02
+
+<details>
+<summary>Abstract</summary>
+
+Speech brain-computer interfaces (speech BCIs) translate neural activity into language, offering a path towards restoring speech for people with paralysis and, more broadly, enabling new forms of natural human-computer interaction. Despite this promise, the field lacks a common measure of progress because systems use different datasets, recording methods, types of speech, and vocabularies, so their reported scores are rarely comparable. Underlying this measurement problem are two unresolved questions: (i) what distribution of words should a speech BCI enable a user to communicate, and (ii) how much information from this distribution can a system convey. We address both by deriving open-vocabulary mutual information (OVMI), an information-theoretic quantity that measures the information conveyed by a decoder relative to a reference distribution over the words a user may wish to communicate. This allows capabilities measured under different conditions, such as distinct vocabularies, to be evaluated on a common communication scale. We show that ordinarily reported accuracy, word error rate (WER), and other metrics computed only over the words a system supports can overstate how much of a user's intended speech the system can communicate. We then use OVMI to compare existing systems, expose trade-offs between how much of the user's language a system supports and how accurately it decodes those words, show that these comparisons depend on what the user is expected to communicate, and demonstrate that selecting a vocabulary to maximise OVMI yields up to 16.3% relative improvement in accuracy across three speech domains. OVMI therefore provides the speech BCI community with a principled way to compare heterogeneous systems, improve vocabulary design, and measure progress in the field.
+
+</details>
+
+#### [Soft Posterior Speaker Injection for Multi-Talker Speech Recognition](https://arxiv.org/abs/2609.01287) · [📄 Read](papers/2026/2609.01287.md)
 
 **Jian Zhu, Cheng Luo** · 2026-09-01
 
@@ -74,6 +96,17 @@ _Showing the last 30 days (55 of 5556 papers). The full list lives in [papers.cs
 <summary>Abstract</summary>
 
 Multi-talker automatic speech recognition (MT-ASR) remains challenging under overlapping speech. Hard diarization-based segmentation introduces irreversible errors, whereas serialized output training (SOT) avoids explicit segmentation but does not condition a pretrained encoder on speaker activity. We propose Soft Posterior Speaker Injection (SPSI): a lightweight head predicts frame-level speaker posteriors $\hat{\mathbf{P}}$ and injects them into Whisper through multi-layer feature-wise linear modulation (FiLM) and decoder speaker-memory prompts. On controlled two-speaker LibriSpeech overlap, SPSI reduces utterance-mean constrained permutation word error rate (cpWER) from 50.7\% (SOT) to 49.6\% (one-sided paired bootstrap $p{\approx}0.006$), with a larger reduction in the high-overlap bin (60.4\%$\to$58.8\%). Same-backbone speaker-auxiliary objectives and voice activity detection (VAD) pipelines do not outperform SOT; zero-shot (ZS) LibriCSS is comparable. Freeze-posterior adaptation with overlap-heavy (OV-heavy) continuation reduces held-out LibriCSS cpWER (sessions 8--9) to 32.4\% (versus 37.5\% for SOT). Ablations indicate complementary encoder FiLM and decoder prompts, and that the effective signal is a \emph{soft} simplex-valued speaker share.
+
+</details>
+
+#### [SpeakPay: Domain-Adaptive LoRA Fine-Tuning of Whisper for Low-Resource Nepali Financial Speech Recognition](https://arxiv.org/abs/2609.01737)
+
+**Biraj Subedi** · 2026-09-01
+
+<details>
+<summary>Abstract</summary>
+
+Mobile payment applications in Nepal are graphically mediated and largely inaccessible to visually impaired users. This paper presents SpeakPay, a voice-first digital wallet, and documents the central technical contribution: a controlled study of domain adaptation for low-resource financial speech recognition. We introduce NepFinSpeech-403, a 403-utterance dataset of Nepali financial voice commands (send, load, and balance operations spanning 237 unique numerals), and fine-tune Whisper large-v2 with LoRA. On the held-out test set, the domain-adapted model reduces Word Error Rate from 129.95% (zero-shot baseline) to 42.58% --- a 67.2% relative reduction --- and improves Devanagari numeral recognition accuracy from 0.0% to 73.9%. We find that word-level metrics understate the practical task-level impact: domain adaptation improves the Transaction Success Rate from 1.67% to 33.33%, a roughly 20x gain. The improvement is consistent at the individual-utterance level (sign test, $p < 10^{-17}$) and across all command types. A data efficiency analysis shows that as few as 100 domain-specific utterances are sufficient to halve the zero-shot WER, with performance plateauing around 300 examples. Error analysis reveals systematic numeral confusion patterns (zero insertion/deletion, prefix hallucination) that account for the majority of remaining transaction failures. The trained system is deployed as a publicly accessible voice-first web application. All code, dataset, model weights, and this paper are released at https://github.com/subedibiraj/speakpay.
 
 </details>
 
@@ -132,7 +165,7 @@ Speech enhancement is often used as a front-end for robust ASR, yet recurrent te
 
 </details>
 
-#### [Conversation Coach: A Voice-enabled AI System that Helps Practice Difficult Workplace Conversations](https://arxiv.org/abs/2609.00441)
+#### [Conversation Coach: A Voice-enabled AI System that Helps Practice Difficult Workplace Conversations](https://arxiv.org/abs/2609.00441) · [📄 Read](papers/2026/2609.00441.md)
 
 **Fanyou Wu, Suraj Maharjan, Ainur Yessenalina, Dennis Xu Chen et al.** · 2026-08-31
 
@@ -143,7 +176,7 @@ Effective manager-employee communication is critical for retaining high performe
 
 </details>
 
-#### [Assessing Suicide Risk in Arabic Crisis Helpline Calls: A Comparison of Arabic and English Large Language Models](https://arxiv.org/abs/2609.00191)
+#### [Assessing Suicide Risk in Arabic Crisis Helpline Calls: A Comparison of Arabic and English Large Language Models](https://arxiv.org/abs/2609.00191) · [📄 Read](papers/2026/2609.00191.md)
 
 **Linhai Ma, Rita El Hachem, Mahatab El Hajj, Lilian Ghandour et al.** · 2026-08-31
 
@@ -228,6 +261,17 @@ Silent speech recognition (SSR) provides an alternative communication pathway in
 <summary>Abstract</summary>
 
 Large Audio Language Models (LALMs) have demonstrated strong performance across a wide range of audio understanding tasks. However, they are typically evaluated on single, coherent audio segments, leaving their behavior under less familiar input configurations underexplored. We study this issue through a controlled setting in which two audio segments are concatenated into a single input. Across multiple LALMs, we observe a striking task-dependent robustness gap: automatic speech recognition (ASR) remains comparatively stable, whereas audio question answering (AQA) degrades substantially. To investigate the mechanisms underlying this disparity, we analyze how audio information is routed through LALM decoders using layer-wise attention knockout. The results reveal distinct task-dependent pathways. ASR relies primarily on direct retrieval from audio tokens by answer tokens, whereas AQA depends more strongly on a mediated route in which audio information is first integrated into prompt tokens and subsequently accessed during generation. We further probe prompt-token representations under audio concatenation and find that task-relevant audio attributes remain readily decodable, particularly in middle and later decoder layers, even when AQA performance deteriorates sharply. This dissociation indicates that the failure cannot be explained by complete loss of audio information from the decoder states and is instead consistent with a downstream bottleneck in retrieving or utilizing prompt-mediated information during answer generation. Together, our findings reveal task-dependent audio information routing in LALMs and highlight information utilization as a potential limitation on their generalization.
+
+</details>
+
+#### [Karelian speech recognition system with support for Karelian-Russian code-switching](https://www.semanticscholar.org/paper/01abdb4f7208aa896147cdbd622407b27d840d3c)
+
+**I. Kipyatkova, M. Dolgushin, K. O. Kiseleva, I. Kagirov** · 2026-08-27
+
+<details>
+<summary>Abstract</summary>
+
+This paper focuses on the development of an automatic speech recognition system for the Livvi-Karelian variety of the Karelian language, as it is spoken under conditions of code-switching between Karelian and Russian. The study of bilingual speech recognition methods is carried out. In order to improve the quality of speech recognition, a methodology for training text data augmentation via partial translation and intra-word code-switched wordforms artificial synthesis was developed. Acoustic modeling was performed by fine-tuning a pre-trained multilingual Wav2Vec2-BERT 2.0 model with the use of the data from two previously collected corpora containing 7.5 hours of speech. Fine-tuning was performed using the Transformers framework. When developing the language model, in order to address the problem of limited code-switching data, an augmentation method was applied based on partial automatic translation of Karelian texts into Russian, followed by the generation of word-forms with intra-word code-switching based on special linguistic rules. On the base of formulated rules, a list of words with intra-word code-switching was generated for a language model. The experiments showed that using a full vocabulary that includes generated hybrid word forms yields a consistent improvement in results. A further reduction in word error rate to 25.82 % on the development set and 29 % on the test portion of the corpus was achieved through linear interpolation of the Karelian language model with the Russian language model (interpolation weight 0.7). The conducted experiments confirm the effectiveness of the developed methodology for developing a bilingual speech recognition system. In particular, it is recommended to combine finetuning of multilingual acoustic models, text augmentation with morphological rules, and language model interpolation. The proposed approach can be applied to developing speech recognition systems for other low-resource languages of Russia spoken in an unbalanced bilingual environment.
 
 </details>
 
@@ -650,17 +694,6 @@ Reading proficiency is considered a critical educational challenge in a highly m
 <summary>Abstract</summary>
 
 Multimodal large language models (MLLMs) have achieved significant success in speech-to-text translation (S2TT). However, when processing multilingual speech inputs, a single speech encoder shared across all languages suffers from the curse of multilinguality: languages at different resource levels compete for limited representation capacity, leading to strong high-resource performance but substantial degradation on low-resource speech. To address this problem and improve multilingual consistency, we propose MSRT, a novel framework built around a resource-aware Mixture of Speech Encoders (MoSE). MoSE uses an explicit language router to assign each utterance to an appropriate expert encoder. A frozen expert preserves high-resource language capabilities, while a trainable expert adapts to and specializes in medium- and low-resource languages. We further introduce a five-stage curriculum learning strategy that substantially reduces data dependence, requiring only 10 hours of paired S2TT data per language for effective alignment. We conduct extensive experiments on 45 languages, systematically evaluating all $45 \times 44$ translation directions. Our 4B-parameter model achieves state-of-the-art performance, outperforming substantially larger baselines. Empirical analyses show that MoSE improves high-, medium-, and low-resource languages simultaneously, with the largest gains on low-resource speech, thereby breaking the curse of multilinguality without compromising high-resource performance. To support future multilingual S2TT research, we release our code and models.
-
-</details>
-
-#### [Analyzing Speech Condition Effects in Dysarthric ASR: A Layer-wise Probing Study](https://arxiv.org/abs/2608.01865) · [📄 Read](papers/2026/2608.01865.md)
-
-**Darwin Jelestin Muthu, Navya Gupta, Wei Lin Tay, Zhengchen Zhang et al.** · 2026-08-03
-
-<details>
-<summary>Abstract</summary>
-
-Automatic speech recognition (ASR) performance degrades sharply on dysarthric speech, yet how disordered articulation reshapes a model's internal representations is underexplored. We present a layer-wise probing analysis of a transformer ASR encoder on Mandarin dysarthric speech under three transcript-matched conditions: original dysarthric speech, speaker conditioned zero-shot TTS resynthesis, and unconditioned TTS. The probes reveal a task-dependent hierarchy: phoneme boundary information stays weak for dysarthric speech at every layer, phoneme identity becomes recoverable toward the upper layers, and recognition difficulty is encoded in the deepest layers. Tone-sensitive evaluation shows Mandarin lexical tone is a persistent error source. Cross-condition similarity divergence grows with depth, indicating that disordered speech affects high-level representations more than low-level acoustic features. Guided by these findings, single-layer LoRA at layer 7 and adaptation on subset layers 5-8 achieve performance within 3.5% and 2.48% relative margins of full encoder adaptation, respectively, while upper-layer adaptation is less effective for dysarthric speech. These findings link representation analysis to parameter-efficient fine-tuning and motivate layer-aware adaptation for low-resource Mandarin dysarthric ASR.
 
 </details>
 
