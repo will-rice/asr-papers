@@ -61,12 +61,23 @@ Select _full = true_ to back-fill from 2015 and rebuild all paper markdown, or l
 
 <!-- PAPERS_TABLE_START -->
 
-_Showing the last 30 days (58 of 5563 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
+_Showing the last 30 days (59 of 5564 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
 
 <details open>
 <summary><h3>2026</h3></summary>
 
-#### [Choosing a PEFT Variant for Per-Patient Dysarthric ASR: A Single-Speaker Case Study on Two ASR Bases](https://arxiv.org/abs/2609.02735)
+#### [Fairness Evaluation of Edge-AI Implementation for Cleft Lip and Palate Speech ASR](https://arxiv.org/abs/2609.03982)
+
+**Susmita Bhattacharjee, Himashri Deka, H. S. Shekhawat, S. R. M. Prasanna** · 2026-09-03
+
+<details>
+<summary>Abstract</summary>
+
+Automatic speech recognition (ASR) remains challenging for individuals with cleft lip and palate (CLP) because of limited pathological speech data and large variations in speech characteristics across speakers and severity levels. These recognition difficulties can reduce the accessibility of voice-based human-computer interaction, particularly when cloud-based ASR services are unavailable or unreliable. This work investigates a severity-aware and edge-deployable ASR framework for improving recognition of CLP speech using Whisper-small. The model was fine-tuned using different combinations of normal and CLP speech representing mild, moderate, and severe conditions, together with a CLP-only training configuration, to examine how the inclusion of different severity levels influences recognition performance and fairness across speakers. The pretrained model produced pooled word error rate (WER) and phoneme error rate (PER) values of 62.46% and 52.72%, respectively. Severity-aware fine-tuning substantially improved performance, reducing the best pooled WER to 22.72% and the best pooled PER to 18.44%. Training with a broader representation of CLP severity levels also provided the best overall balance between recognition accuracy and performance consistency across severity groups. Deployment on an NVIDIA Jetson platform demonstrated real-time inference for all fine-tuned models, with real-time factors of 0.167-0.171 and peak GPU memory usage of approximately 566 MB. The results demonstrate that incorporating severity diversity during ASR adaptation can substantially improve recognition of CLP speech while reducing performance disparities across severity groups. The proposed approach further enables low-latency, Internet-independent speech interaction on edge devices, supporting more accessible and inclusive voice-based human-computer interaction for individuals with CLP.
+
+</details>
+
+#### [Choosing a PEFT Variant for Per-Patient Dysarthric ASR: A Single-Speaker Case Study on Two ASR Bases](https://arxiv.org/abs/2609.02735) · [📄 Read](papers/2026/2609.02735.md)
 
 **Bernard Muller, László Tóth, LaVonne Roberts** · 2026-09-02
 
@@ -77,7 +88,7 @@ Per-patient adapters are the preferred production architecture for dysarthric au
 
 </details>
 
-#### [A Common Measure of Communication for Speech Brain-Computer Interfaces](https://arxiv.org/abs/2609.02887)
+#### [A Common Measure of Communication for Speech Brain-Computer Interfaces](https://arxiv.org/abs/2609.02887) · [📄 Read](papers/2026/2609.02887.md)
 
 **Dulhan Jayalath, Benjamin Ballyk, Oiwi Parker Jones** · 2026-09-02
 
@@ -99,7 +110,7 @@ Multi-talker automatic speech recognition (MT-ASR) remains challenging under ove
 
 </details>
 
-#### [SpeakPay: Domain-Adaptive LoRA Fine-Tuning of Whisper for Low-Resource Nepali Financial Speech Recognition](https://arxiv.org/abs/2609.01737)
+#### [SpeakPay: Domain-Adaptive LoRA Fine-Tuning of Whisper for Low-Resource Nepali Financial Speech Recognition](https://arxiv.org/abs/2609.01737) · [📄 Read](papers/2026/2609.01737.md)
 
 **Biraj Subedi** · 2026-09-01
 
@@ -264,7 +275,7 @@ Large Audio Language Models (LALMs) have demonstrated strong performance across 
 
 </details>
 
-#### [Karelian speech recognition system with support for Karelian-Russian code-switching](https://www.semanticscholar.org/paper/01abdb4f7208aa896147cdbd622407b27d840d3c)
+#### [Karelian speech recognition system with support for Karelian-Russian code-switching](https://www.semanticscholar.org/paper/01abdb4f7208aa896147cdbd622407b27d840d3c) · [📄 Read](papers/2026/s2:01abdb4f7208aa896147cdbd622407b27d840d3c.md)
 
 **I. Kipyatkova, M. Dolgushin, K. O. Kiseleva, I. Kagirov** · 2026-08-27
 
