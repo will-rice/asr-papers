@@ -61,12 +61,23 @@ Select _full = true_ to back-fill from 2015 and rebuild all paper markdown, or l
 
 <!-- PAPERS_TABLE_START -->
 
-_Showing the last 30 days (59 of 5564 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
+_Showing the last 30 days (62 of 5569 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
 
 <details open>
 <summary><h3>2026</h3></summary>
 
-#### [Fairness Evaluation of Edge-AI Implementation for Cleft Lip and Palate Speech ASR](https://arxiv.org/abs/2609.03982)
+#### [Development of a Humanoid Robot Prototype for Multimodal Human-Robot Interaction](https://arxiv.org/abs/2609.05361)
+
+**Thang Tran Viet, Thanh Nguyen Canh, Huy Uong Gia, Phuc Dinh Van et al.** · 2026-09-04
+
+<details>
+<summary>Abstract</summary>
+
+Human-robot interaction (HRI) enables intuitive and intelligent collaboration between humans and robots in real-world environments. This paper introduces a humanoid robot prototype designed as a flexible testbed for developing and integrating artificial intelligence (AI) modules in HRI tasks. The system features a 12 degree-of-freedom (DOFs) dual-arm mechanism and a 2 DOFs head with an expressive LCD screen to express facial emotions. All hardware components are controlled by a custom-designed controller board with real-time AI processing supported by an onboard Jetson module. The system incorporates three AI modules: (1) gesture recognition using MediaPipe Pose and an LSTM classifier, (2) object detection with YOLO and 3D localization, and (3) voice-command processing through speech recognition and large language model(LLM)-based semantic parsing. The platform is validated through experiments on positioning accuracy, with results showing average manipulation errors of approximately 1.83 cm. To demonstrate its versatility, experimental results show over 90% task accuracy, with gesture recognition reaching 96%, speech recognition reaching 92%. The results confirm the effectiveness of the proposed system as a reproducible and accessible humanoid platform for research and prototyping in HRI.
+
+</details>
+
+#### [Fairness Evaluation of Edge-AI Implementation for Cleft Lip and Palate Speech ASR](https://arxiv.org/abs/2609.03982) · [📄 Read](papers/2026/2609.03982.md)
 
 **Susmita Bhattacharjee, Himashri Deka, H. S. Shekhawat, S. R. M. Prasanna** · 2026-09-03
 
@@ -74,6 +85,28 @@ _Showing the last 30 days (59 of 5564 papers). The full list lives in [papers.cs
 <summary>Abstract</summary>
 
 Automatic speech recognition (ASR) remains challenging for individuals with cleft lip and palate (CLP) because of limited pathological speech data and large variations in speech characteristics across speakers and severity levels. These recognition difficulties can reduce the accessibility of voice-based human-computer interaction, particularly when cloud-based ASR services are unavailable or unreliable. This work investigates a severity-aware and edge-deployable ASR framework for improving recognition of CLP speech using Whisper-small. The model was fine-tuned using different combinations of normal and CLP speech representing mild, moderate, and severe conditions, together with a CLP-only training configuration, to examine how the inclusion of different severity levels influences recognition performance and fairness across speakers. The pretrained model produced pooled word error rate (WER) and phoneme error rate (PER) values of 62.46% and 52.72%, respectively. Severity-aware fine-tuning substantially improved performance, reducing the best pooled WER to 22.72% and the best pooled PER to 18.44%. Training with a broader representation of CLP severity levels also provided the best overall balance between recognition accuracy and performance consistency across severity groups. Deployment on an NVIDIA Jetson platform demonstrated real-time inference for all fine-tuned models, with real-time factors of 0.167-0.171 and peak GPU memory usage of approximately 566 MB. The results demonstrate that incorporating severity diversity during ASR adaptation can substantially improve recognition of CLP speech while reducing performance disparities across severity groups. The proposed approach further enables low-latency, Internet-independent speech interaction on edge devices, supporting more accessible and inclusive voice-based human-computer interaction for individuals with CLP.
+
+</details>
+
+#### [Reducing Hallucinated Transcripts in Whisper via Hallucination Space Projection](https://arxiv.org/abs/2609.04561)
+
+**Maryam Abbasihafshejani, Murtuza Jadliwala** · 2026-09-03
+
+<details>
+<summary>Abstract</summary>
+
+Whisper is a widely used foundation model for automatic speech recognition (ASR), but its generative decoder can produce fluent hallucinated transcripts for inputs containing little or no speech. We propose a training-free, inference-time method to reduce these hallucinations using low-rank projection of decoder activations. A compact hallucination-associated subspace is estimated from non-speech calibration data, and decoder hidden states are projected away from this subspace during inference. We evaluate two variants: always-on, which applies projection to all inputs, and gated, which applies it only when Whisper predicts that an input is likely non-speech. Across non-speech benchmarks, always-on projection reduces average hallucination rate (HR) from 31.31% to 2.44%, a 92.21% relative reduction, while gated projection reduces HR to 3.74%, an 88.05% relative reduction, with lower false rejection of genuine speech. On LibriSpeech, gated projection increases absolute word error rate (WER) by 0.33-4.39 percentage points and yields false-rejection rates (FRR) of 0.41--9.97% across model and split settings. These results show that low-rank activation projection can substantially suppress Whisper hallucinations without retraining, while providing a controllable trade-off between hallucination suppression and speech recognition performance.
+
+</details>
+
+#### [TRILOGUE: A Trilingual Spoken Dialogue Fact-Checking Benchmark with Evidence and Paired Audio](https://arxiv.org/abs/2609.04452)
+
+**Chaewan Chun, Meruyert Aristombayeva, Jiyoung Choi, Mahjabin Nahar et al.** · 2026-09-03
+
+<details>
+<summary>Abstract</summary>
+
+Modern misinformation is often heard before it is read, yet fact-checking systems are still evaluated mainly on clean written claims. Spoken dialogue remains different even when systems operate on transcripts: claims may be distributed across speakers and turns, depend on prior context, and become harder to verify when Automatic Speech Recognition (ASR) errors distort the available text. Prior spoken dialogue fact-checking resources are small, English-centric, or focused on annotation rather than end-to-end benchmarking, leaving no large multilingual benchmark with paired speech and turn-level labels. We introduce TRILOGUE (TRIlingual spoken diaLOGUE fact-checking), a large-scale trilingual benchmark of source-grounded spoken dialogues in English, Russian, and Kazakh. It contains nearly 12K dialogues, 187K turns, and 390 hours of paired audio with ASR transcripts and word-level timestamp alignments across all three languages, including nearly 5K human-recorded Russian and Kazakh dialogue files. TRILOGUE supports claim check-worthiness detection, source-article evidence retrieval, and claim verification with claim-only, gold-evidence, and retrieved-evidence inputs. Baselines show that ASR degradation and cross-lingual transfer remain challenging, especially for Kazakh, while retrieved source evidence substantially narrows the gap to gold-evidence verification.
 
 </details>
 
@@ -96,6 +129,17 @@ Per-patient adapters are the preferred production architecture for dysarthric au
 <summary>Abstract</summary>
 
 Speech brain-computer interfaces (speech BCIs) translate neural activity into language, offering a path towards restoring speech for people with paralysis and, more broadly, enabling new forms of natural human-computer interaction. Despite this promise, the field lacks a common measure of progress because systems use different datasets, recording methods, types of speech, and vocabularies, so their reported scores are rarely comparable. Underlying this measurement problem are two unresolved questions: (i) what distribution of words should a speech BCI enable a user to communicate, and (ii) how much information from this distribution can a system convey. We address both by deriving open-vocabulary mutual information (OVMI), an information-theoretic quantity that measures the information conveyed by a decoder relative to a reference distribution over the words a user may wish to communicate. This allows capabilities measured under different conditions, such as distinct vocabularies, to be evaluated on a common communication scale. We show that ordinarily reported accuracy, word error rate (WER), and other metrics computed only over the words a system supports can overstate how much of a user's intended speech the system can communicate. We then use OVMI to compare existing systems, expose trade-offs between how much of the user's language a system supports and how accurately it decodes those words, show that these comparisons depend on what the user is expected to communicate, and demonstrate that selecting a vocabulary to maximise OVMI yields up to 16.3% relative improvement in accuracy across three speech domains. OVMI therefore provides the speech BCI community with a principled way to compare heterogeneous systems, improve vocabulary design, and measure progress in the field.
+
+</details>
+
+#### [VibeVoice-ASR-Streaming Technical Report](https://arxiv.org/abs/2609.02812)
+
+**Yu-Jie Tu, Zhiliang Peng, Jianwei Yu, Li Dong et al.** · 2026-09-02
+
+<details>
+<summary>Abstract</summary>
+
+Traditional speaker-attributed ASR systems treated ASR and speaker diarization as two separate tasks. Recently, end-to-end models such as VibeVoice-ASR have unified the two tasks within a single model. However, existing unified models still mainly support offline recognition, making it difficult to meet the low-latency requirements of real-time voice assistants and agents. To tackle this issue, we present VibeVoice-ASR-Streaming, one of the first LLM-based end-to-end approaches to streaming speaker-attributed ASR. It interleaves fixed-size audio chunks, a small amount of lookahead audio and previous text. This allows the model to produce''who said what''as speech arrives, without a separate diarization stage. For transcription accuracy, our 7B model achieves the lowest average WER/CER across five evaluation sets. For speaker attribution, it achieves the best or tied-best on 12 of 13 evaluation settings. We release the 1.5B and 7B model weights together with inference code.
 
 </details>
 
@@ -694,17 +738,6 @@ India's linguistic landscape spans over 700 languages and thousands of dialects,
 <summary>Abstract</summary>
 
 Reading proficiency is considered a critical educational challenge in a highly multilingual nation such as the Philippines. Digital literacy tools available on the market and those that are found in the literature are mostly English-centric and often lack interactive mechanisms. This study shows the design, technical validation, and implementation of the iRead mobile application software. It is a multilingual mobile reading platform with offline speech recognition function available for three languages, specifically English, Filipino, and Hiligaynon. The mobile application was developed specifically for the Android Operating System using the Flutter framework, while the Vosk API was used for the speech recognition engine. Publicly available pretrained speech recognition models were utilized for English and Filipino languages, while a novel baseline small-vocabulary speech recognition model for Hiligaynon was developed and trained from scratch. A Gaussian Mixture Model-Hidden Markov Model (GMM-HMM) pipeline within the Kaldi framework was then used to form the Hiligaynon speech recognition model. Recognition vocabulary was limited to a 380-word phonics-based lexicon that is aligned with early literacy instruction. Cross-speaker generalization for Hiligaynon was evaluated using a leave-one-speaker-out cross-validation technique across four speakers. Recognition stability was further assessed using standard deviation and confidence interval analysis. The overall system evaluation was conducted using 540 utterances across the three languages under controlled conditions. Recognition performance achieved average accuracies of 92.8% for English, 88.3% for Filipino, and 85.6% for Hiligaynon. Category-level analysis demonstrated the highest performance for vowels, followed by consonants, then consonant–vowel blends. Results suggest that a classical small-vocabulary acoustic model combined with grammar-constrained decoding is technically viable and deployment-ready in a multilingual offline speech-supported literacy app for low-resource educational settings.
-
-</details>
-
-#### [Breaking the Curse ofMultilinguality inMany-to-Many Speech-to-Text Translation via a Resource-AwareMixture of Speech Encoders](https://arxiv.org/abs/2608.04586) · [📄 Read](papers/2026/2608.04586.md)
-
-**Yexing Du, Kaiyuan Liu, Youcheng Pan, Bo Yang et al.** · 2026-08-05
-
-<details>
-<summary>Abstract</summary>
-
-Multimodal large language models (MLLMs) have achieved significant success in speech-to-text translation (S2TT). However, when processing multilingual speech inputs, a single speech encoder shared across all languages suffers from the curse of multilinguality: languages at different resource levels compete for limited representation capacity, leading to strong high-resource performance but substantial degradation on low-resource speech. To address this problem and improve multilingual consistency, we propose MSRT, a novel framework built around a resource-aware Mixture of Speech Encoders (MoSE). MoSE uses an explicit language router to assign each utterance to an appropriate expert encoder. A frozen expert preserves high-resource language capabilities, while a trainable expert adapts to and specializes in medium- and low-resource languages. We further introduce a five-stage curriculum learning strategy that substantially reduces data dependence, requiring only 10 hours of paired S2TT data per language for effective alignment. We conduct extensive experiments on 45 languages, systematically evaluating all $45 \times 44$ translation directions. Our 4B-parameter model achieves state-of-the-art performance, outperforming substantially larger baselines. Empirical analyses show that MoSE improves high-, medium-, and low-resource languages simultaneously, with the largest gains on low-resource speech, thereby breaking the curse of multilinguality without compromising high-resource performance. To support future multilingual S2TT research, we release our code and models.
 
 </details>
 
