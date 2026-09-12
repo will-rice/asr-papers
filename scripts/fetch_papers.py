@@ -33,6 +33,7 @@ import json
 import re
 import sys
 import time
+import urllib.error
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -182,6 +183,10 @@ MAX_PAGES_PER_QUERY = 5
 
 # Semantic Scholar API base URL
 SEMANTIC_SCHOLAR_API_BASE = "https://api.semanticscholar.org/graph/v1/paper/search"
+
+
+class SourceRateLimitedError(RuntimeError):
+    """Raised when a remote source responds with HTTP 429."""
 
 
 # ---------------------------------------------------------------------------
@@ -362,6 +367,12 @@ def _fetch_s2_page(keywords: str, year_filter: str, offset: int) -> dict:
             req = urllib.request.Request(url, headers={"User-Agent": "asr-papers-bot/1.0"})
             with urllib.request.urlopen(req, timeout=30) as resp:
                 return json.loads(resp.read())
+        except urllib.error.HTTPError as exc:
+            if exc.code == 429:
+                raise SourceRateLimitedError(f"Semantic Scholar rate limited request: {url}") from exc
+            wait = min(2**attempt * API_DELAY_SECONDS, 30)
+            print(f"  [warn] S2 request failed ({exc}); retrying in {wait}s …", file=sys.stderr)
+            time.sleep(wait)
         except Exception as exc:  # noqa: BLE001
             wait = min(2**attempt * API_DELAY_SECONDS, 30)
             print(f"  [warn] S2 request failed ({exc}); retrying in {wait}s …", file=sys.stderr)
@@ -588,6 +599,9 @@ def _collect_from_source(
         print(f"\nQuerying {source_name} for: {keywords!r} …")
         try:
             papers = fetch_fn(keywords, start_date, end_date)
+        except SourceRateLimitedError as exc:
+            print(f"  [error] {exc}; skipping remaining {source_name} queries.", file=sys.stderr)
+            break
         except RuntimeError as exc:
             print(f"  [error] {exc}", file=sys.stderr)
             continue
