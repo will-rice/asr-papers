@@ -61,12 +61,12 @@ Select _full = true_ to back-fill from 2015 and rebuild all paper markdown, or l
 
 <!-- PAPERS_TABLE_START -->
 
-_Showing the last 30 days (60 of 5571 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
+_Showing the last 30 days (46 of 5571 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
 
 <details open>
 <summary><h3>2026</h3></summary>
 
-#### [LANTERN: Language Model Assessment on Noisy and Transformed Tasks for Understanding Error and Robustness Nuances](https://arxiv.org/abs/2609.07309)
+#### [LANTERN: Language Model Assessment on Noisy and Transformed Tasks for Understanding Error and Robustness Nuances](https://arxiv.org/abs/2609.07309) · [📄 Read](papers/2026/2609.07309.md)
 
 **Vamsi Krishna Kodavali, Rituraj Singh** · 2026-09-07
 
@@ -176,7 +176,7 @@ Mobile payment applications in Nepal are graphically mediated and largely inacce
 
 </details>
 
-#### [AVERT: Audio-Verified Adjudication for Spoken Dialogue State Tracking](https://arxiv.org/abs/2609.01828)
+#### [AVERT: Audio-Verified Adjudication for Spoken Dialogue State Tracking](https://arxiv.org/abs/2609.01828) · [📄 Read](papers/2026/2609.01828.md)
 
 **C. Lee, H. Pfister** · 2026-09-01
 
@@ -569,153 +569,6 @@ Large language models (LLMs) enhance automatic speech recognition (ASR) by provi
 <summary>Abstract</summary>
 
 This study presents a multi-tier framework for deploying multi-modal Conversational AI on edge devices, spanning from constrained ultra-low-power systems to high-performance edge workstations. Utilizing an automated model discovery process and a modular benchmarking testbed, the research demonstrates that real-time, fully edge AI execution is feasible through strategic model selection and hardware acceleration. Key outcomes from the performance analysis are as follows. Speech-to-Text: Fun-ASR-Nano achieved the highest transcription accuracy with a Word Error Rate of 0.026, while Moonshine Tiny was the most efficient, recording a Real-Time Factor of 0.036 on the CPU. Scaling up to the high-performance tier, Whisper Large-V3 Turbo demonstrated high speed and robustness on a dedicated GPU, achieving an RTF of 0.093. Language Modeling: The Qwen 2.5 (1.5B Instruct) model, optimized for the Intel edge NPU, delivered robust constrained edge performance with an average generation speed of 20.15 tokens per second and a high semantic accuracy score of 0.86. The non-transformer Liquid LFM-24B model showcased server-level reasoning capabilities on the high-performance edge, reaching an impressive 39.2 tokens per second when fully offloaded to a dedicated GPU, despite its massive VRAM requirements. Text-to-Speech: Piper TTS emerged as the most efficient model for constrained environments (RTF of 0.034). However, Kokoro TTS redefined high-fidelity zero-shot synthesis on the GPU tier, achieving a groundbreaking RTF of 0.024 and far outperforming larger autoregressive audio models like OuteTTS, which remained too slow for real-time use without significant acceleration. Hardware Acceleration and Energy Efficiency: The use of Intel OpenVINO 2026.0 for hardware offloading significantly reduced energy consumption; for example, Whisper Large-V3 Turbo’s energy per audio second dropped from 52.68 Joules on the CPU to just 3.24 Joules on the integrated GPU. Furthermore, dedicated GPU acceleration revealed a critical “race-to-sleep” paradigm, where higher peak wattage is offset by drastically reduced processing times. The study concludes by identifying two optimal cascaded pipelines: a constrained edge tier (Moonshine, Qwen 1.5B, Piper) running on a Khadas NUC (Khadas Technology, Shenzhen, China powered by an Intel processor (Intel Corporation, Santa Clara, CA, USA) maximizing energy efficiency, and a high-performance tier (Whisper V3 Turbo, Liquid LFM-24B, Kokoro) running on an NVIDIA 5060ti, delivering uncompromising accuracy and subsecond latency for privacy-preserving, advanced edge AI.
-
-</details>
-
-#### [MDwAIstScheduler: Bringing On-Device Voice Documentation into Clinical Practice](https://arxiv.org/abs/2608.15252) · [📄 Read](papers/2026/2608.15252.md)
-
-**Diego Mardian, Frank Liu** · 2026-08-15
-
-<details>
-<summary>Abstract</summary>
-
-Clinical documentation forces physicians to split attention between the patient and their keyboard, and much of it spills into uncom- pensated after-hours work. We present MDwAIstScheduler, a low- cost, belt-worn pipeline that lets a physician speak naturally dur- ing the encounter and have the resulting medications, allergies, labs/orders/referrals, follow-up scheduling, vitals, and problems land in the EHR as review-ready drafts. Building on our earlier prototype, which relied on cloud speech recognition and a cloud language model, the current pipeline runs both transcription and intent extraction entirely on-device. Using a medical-domain auto- matic speech recognition (ASR) model and a 1.7B-parameter lan- guage model we fine-tuned for clinical action extraction, no patient audio or text leaves the device, and the structured drafts are written directly into the Elation EHR for the physician to confirm. The result is a documentation tool that removes keyboard work from the visit without removing the clinician from the record, allowing them to focus on what matters most, patient care, while reducing burden at the same time.
-
-</details>
-
-#### [Persona-ASR: Bilingual Target-Speaker Speech Recognition for Kazakh–English Overlapping Speech](https://www.semanticscholar.org/paper/d005f39b4ee75dd94a87e196852e008330589e40) · [📄 Read](papers/2026/s2:d005f39b4ee75dd94a87e196852e008330589e40.md)
-
-**Rakhat Meiramov, Tomiris Rakhimzhanova, Adil Taibassarov, Z. Makhataeva et al.** · 2026-08-14
-
-<details>
-<summary>Abstract</summary>
-
-Target-speaker automatic speech recognition (TS-ASR) enables transcription of a specific speaker in multi-talker environments, yet remains largely unexplored for multilingual, low-resource languages. Existing TS-ASR systems predominantly target monolingual English using diarization-based or speaker-embedding approaches, leaving a critical gap for languages such as Kazakh, where code-switching with Russian and English is commonplace. We propose Persona-ASR, a modular two-stage architecture. The first stage is an explicit target-presence gate that verifies whether the enrolled speaker appears in the mixture and emits a token to suppress transcription when the speaker is absent, directly addressing the acoustic-hallucination failure mode of prior systems. The second stage performs enrollment-conditioned recognition: a 192-dimensional ECAPA-TDNN speaker embedding modulates a WavLM-Base-Plus encoder through feature-wise linear modulation (FiLM), while language-specific CTC heads enable joint Kazakh and English decoding without forcing Latin and Cyrillic symbols to compete in a single output space. To evaluate the system, we introduce KazMix3, a Kazakh overlap dataset for TS-ASR training, and PersonaMix, a controlled bilingual benchmark spanning same- and cross-language enrollment across varying interferer counts (1–3) and signal-to-noise ratios (−3 to +3 dB). Persona-ASR outperforms a strong off-the-shelf cascade baseline by 13.3 WER points on English and 24.6 on Kazakh, and matches a published monolingual English baseline. On PersonaMix, speaker conditioning reduces relative word error rate by 40.7% on English and 59.3% on Kazakh mixtures over an unconditioned variant of the same model, and cross-language enrollment (unseen during training) remains effective, increasing average raw WER by only 4.1 points (English) and 2.2 points (Kazakh) relative to same-language enrollment. To our knowledge, Persona-ASR is the first TS-ASR system for the Kazakh language, establishing a foundation for multilingual personalized ASR in low-resource settings.
-
-</details>
-
-#### [Alignment Drift in Single-Model Speculative Decoding for ASR: Mechanism, Correction, and Cost](https://arxiv.org/abs/2608.12703) · [📄 Read](papers/2026/2608.12703.md)
-
-**Xinyu Wang, Huapeng Zhou, Ziyu Zhao, Silin Meng et al.** · 2026-08-13
-
-<details>
-<summary>Abstract</summary>
-
-Speculative decoding speeds up generation by letting a cheap draft propose several tokens that a target model checks in one pass. In the single-model form, the draft is a lightweight module attached to the target rather than a separate model. Applying this design to Automatic Speech Recognition (ASR) introduces an extra problem. The draft can read the whole audio at every step, yet its proposals get worse as it runs on its own. Access is not localization. The accepted text keeps the transcript position explicit, but the draft must also track the changing audio position. In the primary matched comparison, per-step audio access changes the first proposal modestly but roughly doubles later-proposal acceptance. Fixed-width windows show that the audio position explains part of this gap. A correctly placed window recovers continuation, while an equally narrow window at the wrong position reduces it. Late-draft median error reaches 21 frames in the hardest reported condition, while target attention during verification stays within a 2-frame median. We test two ways to reduce this drift. The first reads the audio position from verification attention and uses it to guide the next draft round. It saves time only when the extra accepted tokens offset the readout cost. The second is AnchorDraft, which teaches the draft to track the audio position during training without changing the inference graph. The trained draft improves end-to-end speed at both tested target scales. These results show that ASR self-speculation depends on token prediction, audio-position tracking, and draft cost.
-
-</details>
-
-#### [Application of Conformer Architecture in Clinical Speech Input and Intelligent Medical Record Generation](https://www.semanticscholar.org/paper/4d19cfd20eda17c7145a6c1e8c55caa581e55962) · [📄 Read](papers/2026/s2:4d19cfd20eda17c7145a6c1e8c55caa581e55962.md)
-
-**X. Zou, L. Wang, J. Sun, S. Y. Guo et al.** · 2026-08-13
-
-<details>
-<summary>Abstract</summary>
-
-Accurate clinical speech recognition remains challenging because rapid pronunciation, domain-specific terminology, and background noise often degrade automatic speech recognition and subsequent medical record generation. This study proposes a multi-stage intelligent documentation framework that integrates a 12-layer Conformer architecture, BERT-BiLSTM-CRF semantic modeling, and BART-based structured text generation. The Conformer encoder captures both local acoustic characteristics and long-range contextual dependencies, while the semantic module performs medical entity recognition and normalization to enhance terminology consistency. The extracted information is subsequently incorporated into a BART generator with clinical knowledge prompts to produce standardized SOAP-compliant medical records. Experimental results demonstrate a word error rate of 6.3%, medical term accuracy of 95.8%, low response latency of approximately 940–960 ms, and generation quality approaching physician-written records. Beyond clinical documentation, the proposed framework illustrates the effectiveness of deep time-frequency feature extraction and contextual sequence modeling for complex noisy signals, offering methodological insights for electromagnetic signal interpretation, antenna measurement data processing, and intelligent information extraction in propagation-related applications.
-
-</details>
-
-#### [StreamHear: Domain-Adapted Pseudo-Labeling for Semi-Supervised Streaming Speech Recognition](https://arxiv.org/abs/2608.13717) · [📄 Read](papers/2026/2608.13717.md)
-
-**Zefang Liu, Chenyang Zhu, Sangwoo Cho, Xujun Peng et al.** · 2026-08-13
-
-<details>
-<summary>Abstract</summary>
-
-Streaming automatic speech recognition (ASR) underperforms on domain-shifted target audio, where labeled in-domain data is costly to prepare while unlabeled audio is abundant. We present StreamHear, a semi-supervised pipeline that adapts a pretrained streaming student by fine-tuning an offline transducer teacher on the labeled training set, generating pseudo-labels on the unlabeled portion, and fine-tuning the student on the mixture. We further introduce a prior-regularized dynamic-programming realignment step that fixes chunk-level word placement using an ASR-hypothesis anchor. Across four datasets spanning financial calls, prepared read speech, and phone-quality dialogue, StreamHear consistently outperforms supervised student fine-tuning and narrows the gap to the offline teacher.
-
-</details>
-
-#### [Development of Real-Time Oral Error Correction System for College English Classrooms Based on BERT](https://www.semanticscholar.org/paper/b504e76dace098261d0b0a5bfff1c51db2aa8a8b) · [📄 Read](papers/2026/s2:b504e76dace098261d0b0a5bfff1c51db2aa8a8b.md)
-
-**Y. M. Wu** · 2026-08-13
-
-<details>
-<summary>Abstract</summary>
-
-This paper presents a real-time oral error correction system for college English classrooms based on an acoustic-semantic fusion DistilBERT+Adapter architecture. Whisper-small is used for speech transcription, and ASR confidence scores and word-duration features are embedded directly into the BERT representation space to improve robustness against speech-recognition noise. The model jointly performs error localization through a CRF layer and error-type classification, and the resulting outputs guide a constrained decoding mechanism that generates Top-3 correction candidates. These candidates are subsequently re-ranked using a KenLM language model. The system is lightweight and efficient, containing only 44M parameters and achieving an inference latency of 190 ms. End-to-end evaluation shows a latency of 438 ± 52 ms, Accuracy@Top1 of 73.1%, F0.5 of 0.692, and a teacher rating of 4.2. Through adapter fine-tuning, knowledge distillation, and ONNX runtime optimization, the proposed system achieves strong noise robustness and generalization, offering a deployable solution for personalized oral English instruction and real-time acoustic-semantic signal processing.
-
-</details>
-
-#### [The SLT 2026 SmartGlasses Challenge: Benchmarking Egocentric Multi-Talker Speech Recognition and Understanding with Audio-Language Models](https://arxiv.org/abs/2608.12034) · [📄 Read](papers/2026/2608.12034.md)
-
-**Dehui Gao, Zhixian Zhao, Zhennan Lin, Yujie Liao et al.** · 2026-08-12
-
-<details>
-<summary>Abstract</summary>
-
-Recent advances in large language models (LLMs) and multimodal LLMs (MLLMs) have created new opportunities for wearable speech interfaces, with smart glasses providing an egocentric platform for continuous audio sensing and assistance. However, speech recognition and understanding in this setting remain challenging because of dynamic acoustic conditions, speaker overlap, and the spatial ambiguity introduced by wearer-centered recording geometry. To support systematic evaluation in this setting, we introduce the IEEE SLT 2026 SmartGlasses Challenge for egocentric multi-speaker speech processing. The challenge consists of two tracks, Dyadic Dialogue Understanding and Multi-party Meeting Understanding, and jointly evaluates Time-Stamped Speaker-Attributed Automatic Speech Recognition (TSA-ASR) and Spoken Language Understanding (SLU). It is built on a 106-hour four-channel egocentric speech dataset containing 714 sessions collected in real-world scenarios. This paper describes challenge tasks, dataset construction, submissions, and summarizes the main findings from the shared evaluation. The results show that heavy speaker overlap remains a major factor affecting TSA-ASR performance, while paralinguistic acoustic understanding continues to be difficult for current audio-language models in complex SLU settings. Further details can be found on the official challenge website.
-
-</details>
-
-#### [MiDashengLM-Gen: Unified Audio Scene Generation via LLM-Driven Autoregressive Flow Matching](https://arxiv.org/abs/2608.11804) · [📄 Read](papers/2026/2608.11804.md)
-
-**Xingwei Sun, Heinrich Dinkel, Gang Li, Jiahao Mei et al.** · 2026-08-12
-
-<details>
-<summary>Abstract</summary>
-
-Generating coherent audio scenes that simultaneously blend speech, music, and sound effects remains a significant challenge. Current approaches typically rely on a disjointed pipeline where a frozen, decoupled text encoder feeds a separate audio decoder, limiting cross-modal optimization and leading to poor speech intelligibility. To overcome these limitations, we introduce MiDashengLM-Gen, an end-to-end framework that couples a pre-trained Large Language Model (LLM) with per-token conditional flow matching for autoregressive, variable-length mixed-audio scene generation. MiDashengLM-Gen represents a first approach for general text-to-audio generation with one end-to-end trained model. Empirical evaluations demonstrate that MiDashengLM-Gen drastically improves speech intelligibility over existing unified models. On the Seed-TTS benchmark, English Word Error Rate (WER) drops from 12.15% to 2.79%, approaching the performance of dedicated Text-to-Speech (TTS) systems (1.24%). Furthermore, the framework extends effectively to multilingual settings, yielding highly competitive multilingual WERs compared to existing baselines. Lastly, the model maintains competitive mixed-audio generation quality on the MECAT benchmark. Code and checkpoints are available at https://github.com/xiaomi-research/midashenglm-gen and https://huggingface.co/mispeech/midashenglm-gen, and the demo page is available at https://xingws.github.io/midashenglm-gen-demo/.
-
-</details>
-
-#### [Analysing Korean children's speech data for early childhood educational services: age-specific insights from text and audio analysis](https://www.semanticscholar.org/paper/778a89e03fa4cce1ccb318d10972c38a6c01f247) · [📄 Read](papers/2026/s2:778a89e03fa4cce1ccb318d10972c38a6c01f247.md)
-
-**Haein Lee, H. Jung, K. Park** · 2026-08-12
-
-<details>
-<summary>Abstract</summary>
-
-As speech-based artificial intelligence (AI) becomes integrated into educational contexts, attention is growing towards its role in supporting child-centred learning environments. This study offers insights for developing child-friendly conversational AI systems by analysing age-specific linguistic and acoustic features in the speech of Korean-speaking children aged 4–9 years. The study was conducted in three phases: linguistic analysis of transcribed text, acoustic analysis of recorded utterances and automatic speech recognition (ASR) analysis. In the ASR phase, we benchmarked two modern models (Whisper and wav2vec2) using character error rate and performed a classification analysis to identify factors influencing recognition success, excluding age-related variables from model inputs. The results revealed age-related differences in vocabulary diversity, syntactic complexity, pitch, intensity and articulation rate, with younger children exhibiting more frequent pronunciation errors and lower ASR performance. Acoustic features, such as articulation patterns and pitch variability, were found to significantly influence recognition performance. These findings highlight the importance of designing AI systems that reflect children's developmental speech characteristics. Overall, this study provides an empirical foundation for improving speech-based AI interactions in early learning environments.
-
-</details>
-
-#### [LoopVSR: A Loop Engineering Framework for Automated Repair of Visual Speech Recognition Inference Pipelines](https://arxiv.org/abs/2608.13610) · [📄 Read](papers/2026/2608.13610.md)
-
-**Fei Qin, Bowen Zhang, Chao Fan, Pengcheng Luo et al.** · 2026-08-12
-
-<details>
-<summary>Abstract</summary>
-
-Visual speech recognition (VSR) recovers speech from lip movements when audio is noisy or unavailable. Its multi-stage inference pipeline spans video decoding, mouth-region extraction, preprocessing, model invocation, and decoding, where upstream failures can mask downstream faults. Pipeline maintenance therefore still relies largely on predefined checks and manual debugging. We propose LoopVSR, a Loop Engineering framework that enables a code agent to automatically diagnose and repair VSR inference pipelines using end-to-end execution evidence. It couples constrained repository-level diagnosis and patching with an external controller that audits changes, runs real inference, and accepts or rolls back patches using failures and character error rate (CER). The resulting feedback loop returns newly observed exceptions, tensor statistics, and recognition errors to the agent, progressively exposing faults masked by upstream failures. On the CMLR VSR system, LoopVSR repairs all 11 main faults with 100% mean recovery, whereas the Static guard repairs 2 of 11 with 18.13% mean recovery. It also resolves three cascading tasks in seven accepted iterations and preserves recovery on an independent 200-video hidden set. These results demonstrate that LoopVSR enables measurable, end-to-end automated repair of VSR inference pipelines.
-
-</details>
-
-#### [Hybrid deep learning for dysarthric speech recognition: a benchmark study using the UASPEECH preprocessed dataset](https://www.semanticscholar.org/paper/c58857744b705193c2c77dd130bdf372a53c4f32) · [📄 Read](papers/2026/s2:c58857744b705193c2c77dd130bdf372a53c4f32.md)
-
-**A. Benba, Sara Sandabad, Zaynab Boujelb, L. Doudach et al.** · 2026-08-12
-
-#### [myMediWhisper: Construction of Burmese Medical Speech Corpus and Whisper Fine-Tuning for Clinical Dialogue ASR](https://arxiv.org/abs/2608.11036) · [📄 Read](papers/2026/2608.11036.md)
-
-**Ye Kyaw Thu, Ye Bhone Lin, Thura Aung, Htet Arkar et al.** · 2026-08-11
-
-<details>
-<summary>Abstract</summary>
-
-Although Whisper models benefit from large-scale multilingual pre-training, their performance on Burmese medical speech remains limited. This work presents a Burmese medical speech recognition framework built on a high-quality 28-hour corpus recorded and validated by native speakers. We fine-tune Whisper models using full fine-tuning (FFT) and parameter-efficient fine-tuning (PEFT) with LoRA. To evaluate robustness, we apply waveform- and spectrogram-level data augmentation under controlled noise and simulated room acoustics. While augmentation reduces performance on clean speech, it significantly improves robustness in noisy and reverberant environments across FFT and PEFT settings. Our best-performing system, fully fine-tuned myMediWhisper-Medium without augmentation, achieves a state-of-the-art Word Error Rate (WER) of 23.44%, outperforming much larger general-domain fine-tuned models. Dataset and other resources can be found at the Huggingface repository: https://huggingface.co/datasets/LULab/mediTalk-mm-rdy.
-
-</details>
-
-#### [Whisper-Aware LLM: Self-Supervised Uncertainty Learning for Robust Whispered Speech Recognition](https://arxiv.org/abs/2608.10836) · [📄 Read](papers/2026/2608.10836.md)
-
-**Gaopeng Xu, Zhenyu Wang, Zheng Xue, Yinfeng Xia et al.** · 2026-08-11
-
-<details>
-<summary>Abstract</summary>
-
-The signal ambiguity of whispered speech drives ASR systems toward two opposing failure modes: failing to capture whispered speech or hallucinatory transcription of noise. This paper introduces the Whisper-Aware LLM, a framework that teaches an Audio-LLM to perceive and react to this uncertainty. Our model develops an intrinsic self-awareness by learning to quantify the physical deficiencies of acoustic signals through targeted self-supervised tasks. This learned uncertainty is then operationalized via a novel Confidence-Fused Decoding mechanism, which provides both high-level instructions and frame-level attention modulation to the LLM decoder. Our experiments confirm the effectiveness of this approach. The model sets a new state-of-the-art on whispered speech with a 17% relative CER reduction on AISHELL6-Whisper. At the same time, it directly addresses the reliability trade-off, with hallucination rates dropping from over 25% to 4.5%.
-
-</details>
-
-#### [Never Stop Speaking: a Denial-of-Service Attack on End-to-End Speech Language Models](https://arxiv.org/abs/2608.10405) · [📄 Read](papers/2026/2608.10405.md)
-
-**Shuo Cheng, Kunlan Xiang, Mingxuan Li, Ji Zhang et al.** · 2026-08-11
-
-<details>
-<summary>Abstract</summary>
-
-Many studies have shown that specially crafted inputs can induce large language models (LLMs) to generate excessively long outputs, resulting in significant computational overhead and resource consumption. While most existing denial-of-service (DoS) attacks target text-only LLMs, end-to-end (E2E) speech LLMs are rapidly emerging. Existing text-based DoS attacks primarily rely on prompt engineering, such as adversarial suffixes or semantic inducement, which exploit the discrete nature of text inputs and therefore cannot be directly transferred to continuous speech inputs. Moreover, prior studies on speech model security mainly focus on ASR or TTS systems, leaving the DoS vulnerability of E2E speech LLMs largely unexplored. To address this gap, we propose the perturbation-based DoS attack targeting E2E speech models. Instead of inducing long outputs through prompt manipulation, our method optimizes imperceptible acoustic perturbations to directly influence the model's autoregressive generation process while preserving the original input length. Specifically, we formulate the attack as a composite optimization objective that jointly suppresses EOS generation, encourages prolonged decoding, and largely preserves semantic consistency by integrating weighted EOS loss, top-k logit loss, length loss, and semantic alignment loss. To further improve stealthiness, we employ voice activity detection (VAD) to inject perturbations only into voiced regions. Extensive experiments on three open-source E2E speech LLMs demonstrate that our method achieves stable attack success rate while significantly increasing generation length and GPU resource consumption, revealing security risks in modern ALLMs.
 
 </details>
 
