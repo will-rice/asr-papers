@@ -1,7 +1,7 @@
-"""Fetch ASR-related papers from multiple academic sources.
+"""Fetch ASR-related papers from arXiv.
 
-This script queries arXiv and Semantic Scholar for papers
-related to automatic speech recognition and related topics.  It is designed
+This script queries arXiv for papers related to automatic speech
+recognition and related topics.  It is designed
 to be run in two modes:
 
 * **Historical (first run)**: pulls everything submitted since the
@@ -620,7 +620,7 @@ def _collect_from_source(
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
-        description="Fetch ASR papers from arXiv and Semantic Scholar."
+        description="Fetch ASR papers from arXiv."
     )
     mode = parser.add_mutually_exclusive_group()
     mode.add_argument(
@@ -665,14 +665,6 @@ def main() -> None:
     new_count = 0
     new_count += _collect_from_source(
         "arXiv", fetch_papers, SEARCH_QUERIES, start_date, end_date, existing
-    )
-    new_count += _collect_from_source(
-        "Semantic Scholar",
-        fetch_semantic_scholar_papers,
-        SEARCH_QUERIES,
-        start_date,
-        end_date,
-        existing,
     )
 
     print(f"\nFound {new_count} new papers. Total: {len(existing)}.")
