@@ -1,22 +1,15 @@
 ---
-arxiv_id: s2:66ff6a74fe647c5401da2a6b2e9b46a6abde075d
-title:
-  Improving Transducer-Based Spoken Language Understanding With Self-Conditioned
-  CTC and Knowledge Transfer
+identifier: semantic_scholar:66ff6a74fe647c5401da2a6b2e9b46a6abde075d
+title: Improving Transducer-Based Spoken Language Understanding With Self-Conditioned CTC and Knowledge Transfer
 authors:
-  - Vishal Sunder
-  - E. Fosler-Lussier
-submitted: "2024-12-02"
+- Vishal Sunder
+- E. Fosler-Lussier
+published: '2024-12-02T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/66ff6a74fe647c5401da2a6b2e9b46a6abde075d
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/66ff6a74fe647c5401da2a6b2e9b46a6abde075d
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T18:49:18+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

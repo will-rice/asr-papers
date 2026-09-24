@@ -1,23 +1,18 @@
 ---
-arxiv_id: "2407.16074"
+identifier: arxiv:2407.16074
 title: Schrödinger Bridge for Generative Speech Enhancement
 authors:
-  - Ante Jukić
-  - Roman Korostik
-  - Jagadeesh Balam
-  - Boris Ginsburg
-submitted: "2024-07-22"
+- Ante Jukić
+- Roman Korostik
+- Jagadeesh Balam
+- Boris Ginsburg
+published: '2024-07-22T00:00:00+00:00'
+url: https://arxiv.org/abs/2407.16074
+source: arxiv
+doi: null
+arxiv_id: '2407.16074'
 categories:
-  - eess.AS
-arxiv_url: https://arxiv.org/abs/2407.16074
-github_repo: ""
-source: latex
-converter: pandoc
-llm_remediated: false
-citations_resolved: 2/40
-citations_resolved_at: "2026-07-07T18:54:27+00:00"
-references_parsed: 40
-arxiv_version: ""
+- eess.AS
 ---
 
 section 1 - 0.25 Introduction Recordings of speech signals are frequently corrupted by environmental noise, undesired sounds and room reverberation. The undesired signal components may impair the quality or intelligibility for human or machine listeners . The goal of speech enhancement (SE) in such scenarios is to recover the clean speech signal from a corrupted recording.

@@ -1,23 +1,18 @@
 ---
-arxiv_id: s2:cf054d23c66d67525e6673f7de7b67eb7d64c9b8
+identifier: semantic_scholar:cf054d23c66d67525e6673f7de7b67eb7d64c9b8
 title: Building ASR Resources for the Hutsul Dialect of Ukrainian
 authors:
-  - R. Kyslyi
-  - A. Orlovskyi
-  - Pavlo Khomenko
-  - Bohdan Onyshchenko
-  - Zakhar Guzii
-submitted: "2026-01-01"
+- R. Kyslyi
+- A. Orlovskyi
+- Pavlo Khomenko
+- Bohdan Onyshchenko
+- Zakhar Guzii
+published: '2026-01-01T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/cf054d23c66d67525e6673f7de7b67eb7d64c9b8
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/cf054d23c66d67525e6673f7de7b67eb7d64c9b8
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-18T06:52:45+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

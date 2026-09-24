@@ -1,23 +1,16 @@
 ---
-arxiv_id: s2:e8de0a99aa27dea21519d59e428e4ed36ba0208c
-title:
-  "Development of Multilingual ASR Using GlobalPhone for Less-Resourced Languages:
-  The Case of Ethiopian Languages"
+identifier: semantic_scholar:e8de0a99aa27dea21519d59e428e4ed36ba0208c
+title: 'Development of Multilingual ASR Using GlobalPhone for Less-Resourced Languages: The Case of Ethiopian Languages'
 authors:
-  - Martha Yifiru Tachbelie
-  - S. Abate
-  - T. Schultz
-submitted: "2020-10-25"
+- Martha Yifiru Tachbelie
+- S. Abate
+- T. Schultz
+published: '2020-10-25T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/e8de0a99aa27dea21519d59e428e4ed36ba0208c
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/e8de0a99aa27dea21519d59e428e4ed36ba0208c
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T19:52:52+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

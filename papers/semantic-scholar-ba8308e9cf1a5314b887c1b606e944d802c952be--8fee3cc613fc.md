@@ -1,26 +1,21 @@
 ---
-arxiv_id: s2:ba8308e9cf1a5314b887c1b606e944d802c952be
+identifier: semantic_scholar:ba8308e9cf1a5314b887c1b606e944d802c952be
 title: Mixed approach speech-to-text translation for endangered language
 authors:
-  - B. L. Sinaga
-  - Stephanie Pamela Adithama
-  - J. Nugraha
-  - Martinus Maslim
-  - Albert William Wibisono
-  - Y. Prabowo
-  - Yohanes Sigit Purnomo W.P.
-  - Vinindita Citrayasa
-submitted: "2026-07-20"
+- B. L. Sinaga
+- Stephanie Pamela Adithama
+- J. Nugraha
+- Martinus Maslim
+- Albert William Wibisono
+- Y. Prabowo
+- Yohanes Sigit Purnomo W.P.
+- Vinindita Citrayasa
+published: '2026-07-20T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/ba8308e9cf1a5314b887c1b606e944d802c952be
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/ba8308e9cf1a5314b887c1b606e944d802c952be
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-23T07:05:07+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

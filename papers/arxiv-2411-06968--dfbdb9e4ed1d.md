@@ -1,25 +1,18 @@
 ---
-arxiv_id: "2411.06968"
-title:
-  Mamba-based Decoder-Only Approach with Bidirectional Speech Modeling for Speech
-  Recognition
+identifier: arxiv:2411.06968
+title: Mamba-based Decoder-Only Approach with Bidirectional Speech Modeling for Speech Recognition
 authors:
-  - Yoshiki Masuyama
-  - Koichi Miyazaki
-  - Masato Murata
-submitted: "2024-11-11"
+- Yoshiki Masuyama
+- Koichi Miyazaki
+- Masato Murata
+published: '2024-11-11T00:00:00+00:00'
+url: https://arxiv.org/abs/2411.06968
+source: arxiv
+doi: null
+arxiv_id: '2411.06968'
 categories:
-  - cs.SD
-  - eess.AS
-arxiv_url: https://arxiv.org/abs/2411.06968
-github_repo: https://github.com/YoshikiMas/madeon-asr
-source: arxiv-html
-converter: pandoc
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T18:50:05+00:00"
-references_parsed: 0
-arxiv_version: ""
+- cs.SD
+- eess.AS
 ---
 
 \addbibresource

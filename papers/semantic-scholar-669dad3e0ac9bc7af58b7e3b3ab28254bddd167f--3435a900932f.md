@@ -1,22 +1,15 @@
 ---
-arxiv_id: s2:669dad3e0ac9bc7af58b7e3b3ab28254bddd167f
-title:
-  A Hybrid Acoustic Model for Automatic Speech Recognition Based on Discriminative
-  Learning
+identifier: semantic_scholar:669dad3e0ac9bc7af58b7e3b3ab28254bddd167f
+title: A Hybrid Acoustic Model for Automatic Speech Recognition Based on Discriminative Learning
 authors:
-  - M. K. Rohil
-  - Ishant Gupta
-submitted: "2026-01-01"
+- M. K. Rohil
+- Ishant Gupta
+published: '2026-01-01T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/669dad3e0ac9bc7af58b7e3b3ab28254bddd167f
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/669dad3e0ac9bc7af58b7e3b3ab28254bddd167f
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-14T06:57:43+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

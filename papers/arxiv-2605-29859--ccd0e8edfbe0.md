@@ -1,38 +1,31 @@
 ---
-arxiv_id: "2605.29859"
-title:
-  "MELD: Mel-Spectrogram-Based Speech Language Modeling with Discrete Latent
-  Variables"
+identifier: arxiv:2605.29859
+title: 'MELD: Mel-Spectrogram-Based Speech Language Modeling with Discrete Latent Variables'
 authors:
-  - Sung-Lin Yeh
-  - Wei Zhou
-  - Gil Keren
-  - Duc Le
-  - Zhong Meng
-  - Hao Tang
-  - Jay Mahadeokar
-  - Ozlem Kalinli
-  - Alexandre Mourachko
-submitted: "2026-05-28"
+- Sung-Lin Yeh
+- Wei Zhou
+- Gil Keren
+- Duc Le
+- Zhong Meng
+- Hao Tang
+- Jay Mahadeokar
+- Ozlem Kalinli
+- Alexandre Mourachko
+published: '2026-05-28T00:00:00+00:00'
+url: https://arxiv.org/abs/2605.29859
+source: arxiv
+doi: null
+arxiv_id: '2605.29859'
 categories:
-  - eess.AS
-  - cs.CL
-arxiv_url: https://arxiv.org/abs/2605.29859
-github_repo: ""
-source: latex
-converter: pandoc
-llm_remediated: false
-citations_resolved: 10/60
-citations_resolved_at: "2026-07-07T18:27:32+00:00"
-references_parsed: 60
-arxiv_version: ""
+- cs.CL
+- eess.AS
 ---
 
 ## References
 
 1. Natural tts synthesis by conditioning wavenet on mel spectrogram predictions
 2. Tacotron: Towards end-to-end speech synthesis
-3. Moshi: a speech-text foundation model for real-time dialogue [arXiv:2410.00037](../2024/2410.00037.md)
+3. Moshi: a speech-text foundation model for real-time dialogue [arXiv:2410.00037](arxiv-2410-00037--533719231255.md)
 4. VioLA: Conditional language models for speech recognition, synthesis, and translation
 5. Neural codec language models are zero-shot text to speech synthesizers
 6. Simple and controllable music generation

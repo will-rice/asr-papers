@@ -1,33 +1,28 @@
 ---
-arxiv_id: "2512.01603"
-title: "MAC-SLU: Multi-Intent Automotive Cabin Spoken Language Understanding Benchmark"
+identifier: arxiv:2512.01603
+title: 'MAC-SLU: Multi-Intent Automotive Cabin Spoken Language Understanding Benchmark'
 authors:
-  - Yuezhang Peng
-  - Chonghao Cai
-  - Ziang Liu
-  - Shuai Fan
-  - Sheng Jiang
-  - Hua Xu
-  - Yuxin Liu
-  - Qiguang Chen
-  - Kele Xu
-  - Yao Li
-  - Sheng Wang
-  - Libo Qin
-  - Xie Chen
-submitted: "2025-12-01"
+- Yuezhang Peng
+- Chonghao Cai
+- Ziang Liu
+- Shuai Fan
+- Sheng Jiang
+- Hua Xu
+- Yuxin Liu
+- Qiguang Chen
+- Kele Xu
+- Yao Li
+- Sheng Wang
+- Libo Qin
+- Xie Chen
+published: '2025-12-01T00:00:00+00:00'
+url: https://arxiv.org/abs/2512.01603
+source: arxiv
+doi: null
+arxiv_id: '2512.01603'
 categories:
-  - cs.CL
-  - cs.MM
-arxiv_url: https://arxiv.org/abs/2512.01603
-github_repo: https://github.com/Gatsby-web/MAC_SLU
-source: latex
-converter: pandoc
-llm_remediated: false
-citations_resolved: 18/30
-citations_resolved_at: "2026-07-07T18:33:59+00:00"
-references_parsed: 30
-arxiv_version: ""
+- cs.CL
+- cs.MM
 ---
 
 <div class="keywords">
@@ -251,11 +246,11 @@ This paper introduced MAC-SLU, a novel Chinese multi-intent SLU dataset for auto
 1. Article Title
 2. Spoken language understanding: Systems for extracting semantic information from speech
 3. Using recurrent neural networks for slot filling in spoken language understanding
-4. Speech model pre-training for end-to-end spoken language understanding [arXiv:1904.03670](../2019/1904.03670.md)
-5. ML-LMCL: Mutual learning and large-margin contrastive learning for improving asr robustness in spoken language understanding [arXiv:2311.11375](../2023/2311.11375.md)
+4. Speech model pre-training for end-to-end spoken language understanding [arXiv:1904.03670](arxiv-1904-03670--99cc37e7bf59.md)
+5. ML-LMCL: Mutual learning and large-margin contrastive learning for improving asr robustness in spoken language understanding [arXiv:2311.11375](arxiv-2311-11375--9bfdfb28d482.md)
 6. RoBERTa: A robustly optimized bert pretraining approach [arXiv:1907.11692](https://arxiv.org/abs/1907.11692)
 7. The ATIS spoken language systems pilot corpus
-8. SNIPS Voice Platform: an embedded spoken language understanding system for private-by-design voice interfaces [arXiv:1805.10190](../2018/1805.10190.md)
+8. SNIPS Voice Platform: an embedded spoken language understanding system for private-by-design voice interfaces [arXiv:1805.10190](arxiv-1805-10190--ec5c6e1a4a21.md)
 9. SLURP: A spoken language understanding resource package [arXiv:2011.13205](https://arxiv.org/abs/2011.13205)
 10. A co-interactive transformer for joint slot filling and intent detection
 11. Can ChatGPT detect intent? evaluating large language models for spoken language understanding [arXiv:2305.13512](https://arxiv.org/abs/2305.13512)
@@ -275,6 +270,6 @@ This paper introduced MAC-SLU, a novel Chinese multi-intent SLU dataset for auto
 25. Efficient memory management for large language model serving with pagedattention
 26. Llamafactory: Unified efficient fine-tuning of 100+ language models [arXiv:2403.13372](https://arxiv.org/abs/2403.13372)
 27. A survey on spoken language understanding: Recent advances and new frontiers [arXiv:2103.03095](https://arxiv.org/abs/2103.03095)
-28. Paraformer: Fast and accurate parallel transformer for non-autoregressive end-to-end speech recognition [arXiv:2206.08317](../2022/2206.08317.md)
+28. Paraformer: Fast and accurate parallel transformer for non-autoregressive end-to-end speech recognition [arXiv:2206.08317](arxiv-2206-08317--f52b918a7cea.md)
 29. CM-NET: A novel collaborative memory network for spoken language understanding [arXiv:1909.06937](https://arxiv.org/abs/1909.06937)
 30. Training language models to follow instructions with human feedback

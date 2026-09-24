@@ -1,27 +1,22 @@
 ---
-arxiv_id: s2:4fda5df1dfd54e43972e345491cc8d8de901fdfb
+identifier: semantic_scholar:4fda5df1dfd54e43972e345491cc8d8de901fdfb
 title: Adaptation of RNN Transducer with Text-To-Speech Technology for Keyword Spotting
 authors:
-  - Eva Sharma
-  - Guoli Ye
-  - Wenning Wei
-  - Rui Zhao
-  - Yao Tian
-  - Jian Wu
-  - Lei He
-  - Ed Lin
-  - Y. Gong
-submitted: "2020-05-01"
+- Eva Sharma
+- Guoli Ye
+- Wenning Wei
+- Rui Zhao
+- Yao Tian
+- Jian Wu
+- Lei He
+- Ed Lin
+- Y. Gong
+published: '2020-05-01T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/4fda5df1dfd54e43972e345491cc8d8de901fdfb
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/4fda5df1dfd54e43972e345491cc8d8de901fdfb
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T20:00:24+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

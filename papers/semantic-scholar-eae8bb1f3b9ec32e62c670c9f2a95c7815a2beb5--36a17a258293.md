@@ -1,22 +1,17 @@
 ---
-arxiv_id: s2:eae8bb1f3b9ec32e62c670c9f2a95c7815a2beb5
-title: "Automatic Speech Recognition Using Limited Vocabulary: A Survey"
+identifier: semantic_scholar:eae8bb1f3b9ec32e62c670c9f2a95c7815a2beb5
+title: 'Automatic Speech Recognition Using Limited Vocabulary: A Survey'
 authors:
-  - J. Ebongue
-  - D. Tala
-  - B. Yenke
-  - M. Atemkeng
-submitted: "2022-07-25"
+- J. Ebongue
+- D. Tala
+- B. Yenke
+- M. Atemkeng
+published: '2022-07-25T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/eae8bb1f3b9ec32e62c670c9f2a95c7815a2beb5
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/eae8bb1f3b9ec32e62c670c9f2a95c7815a2beb5
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T19:24:46+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

@@ -1,23 +1,18 @@
 ---
-arxiv_id: "2010.02384"
+identifier: arxiv:2010.02384
 title: Fine-Grained Grounding for Multimodal Speech Recognition
 authors:
-  - Tejas Srinivasan
-  - Ramon Sanabria
-  - Florian Metze
-  - Desmond Elliott
-submitted: "2020-10-05"
+- Tejas Srinivasan
+- Ramon Sanabria
+- Florian Metze
+- Desmond Elliott
+published: '2020-10-05T00:00:00+00:00'
+url: https://arxiv.org/abs/2010.02384
+source: arxiv
+doi: null
+arxiv_id: '2010.02384'
 categories:
-  - cs.CL
-arxiv_url: https://arxiv.org/abs/2010.02384
-github_repo: ""
-source: arxiv-html
-converter: pandoc
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T19:54:08+00:00"
-references_parsed: 0
-arxiv_version: ""
+- cs.CL
 ---
 
 # Fine-Grained Grounding for Multimodal Speech Recognition

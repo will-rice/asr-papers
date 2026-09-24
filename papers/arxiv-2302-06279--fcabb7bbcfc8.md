@@ -1,27 +1,20 @@
 ---
-arxiv_id: "2302.06279"
-title:
-  "Sneaky Spikes: Uncovering Stealthy Backdoor Attacks in Spiking Neural Networks
-  with Neuromorphic Data"
+identifier: arxiv:2302.06279
+title: 'Sneaky Spikes: Uncovering Stealthy Backdoor Attacks in Spiking Neural Networks with Neuromorphic Data'
 authors:
-  - Gorka Abad
-  - Oguzhan Ersoy
-  - Stjepan Picek
-  - Aitor Urbieta
-submitted: "2023-02-13"
+- Gorka Abad
+- Oguzhan Ersoy
+- Stjepan Picek
+- Aitor Urbieta
+published: '2023-02-13T00:00:00+00:00'
+url: https://arxiv.org/abs/2302.06279
+source: arxiv
+doi: null
+arxiv_id: '2302.06279'
 categories:
-  - cs.CR
-  - cs.CV
-  - cs.LG
-arxiv_url: https://arxiv.org/abs/2302.06279
-github_repo: ""
-source: arxiv-html
-converter: pandoc
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T19:17:37+00:00"
-references_parsed: 0
-arxiv_version: ""
+- cs.CR
+- cs.CV
+- cs.LG
 ---
 
 Sneaky Spikes: Uncovering Stealthy\

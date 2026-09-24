@@ -1,24 +1,17 @@
 ---
-arxiv_id: s2:3f80dcbe73cc707c67652675b8fa1e2631e2db1b
-title:
-  "ViTSTR-Transducer: Cross-Attention-Free Vision Transformer Transducer for
-  Scene Text Recognition"
+identifier: semantic_scholar:3f80dcbe73cc707c67652675b8fa1e2631e2db1b
+title: 'ViTSTR-Transducer: Cross-Attention-Free Vision Transformer Transducer for Scene Text Recognition'
 authors:
-  - Rina Buoy
-  - M. Iwamura
-  - Sovila Srun
-  - Koichi Kise
-submitted: "2023-12-01"
+- Rina Buoy
+- M. Iwamura
+- Sovila Srun
+- Koichi Kise
+published: '2023-12-01T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/3f80dcbe73cc707c67652675b8fa1e2631e2db1b
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/3f80dcbe73cc707c67652675b8fa1e2631e2db1b
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T19:03:57+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

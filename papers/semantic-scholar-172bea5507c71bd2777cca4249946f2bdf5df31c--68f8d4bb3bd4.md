@@ -1,22 +1,15 @@
 ---
-arxiv_id: s2:172bea5507c71bd2777cca4249946f2bdf5df31c
-title:
-  Streaming cascade-based speech translation leveraged by a direct segmentation
-  model
+identifier: semantic_scholar:172bea5507c71bd2777cca4249946f2bdf5df31c
+title: Streaming cascade-based speech translation leveraged by a direct segmentation model
 authors:
-  - Adrià Giménez
-  - Alfons Juan
-submitted: "2021-05-17"
+- Adrià Giménez
+- Alfons Juan
+published: '2021-05-17T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/172bea5507c71bd2777cca4249946f2bdf5df31c
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/172bea5507c71bd2777cca4249946f2bdf5df31c
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T19:43:39+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

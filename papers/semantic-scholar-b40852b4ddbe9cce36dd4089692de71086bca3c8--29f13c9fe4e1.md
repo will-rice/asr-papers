@@ -1,22 +1,15 @@
 ---
-arxiv_id: s2:b40852b4ddbe9cce36dd4089692de71086bca3c8
-title:
-  Multilingual Self-Supervised Fine-Tuning for Low-Resource Telugu Automatic
-  Speech Recognition
+identifier: semantic_scholar:b40852b4ddbe9cce36dd4089692de71086bca3c8
+title: Multilingual Self-Supervised Fine-Tuning for Low-Resource Telugu Automatic Speech Recognition
 authors:
-  - Srivarthin Vaddepalli
-  - Renjith Prabhavathi Neelakandan
-submitted: "2026-01-01"
+- Srivarthin Vaddepalli
+- Renjith Prabhavathi Neelakandan
+published: '2026-01-01T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/b40852b4ddbe9cce36dd4089692de71086bca3c8
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/b40852b4ddbe9cce36dd4089692de71086bca3c8
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-13T07:18:11+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

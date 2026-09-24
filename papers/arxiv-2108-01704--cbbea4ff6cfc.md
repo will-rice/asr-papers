@@ -1,23 +1,18 @@
 ---
-arxiv_id: "2108.01704"
-title: "Bifocal Neural ASR: Exploiting Keyword Spotting for Inference Optimization"
+identifier: arxiv:2108.01704
+title: 'Bifocal Neural ASR: Exploiting Keyword Spotting for Inference Optimization'
 authors:
-  - Jonathan Macoskey
-  - Grant P. Strimel
-  - Ariya Rastrow
-submitted: "2021-08-03"
+- Jonathan Macoskey
+- Grant P. Strimel
+- Ariya Rastrow
+published: '2021-08-03T00:00:00+00:00'
+url: https://arxiv.org/abs/2108.01704
+source: arxiv
+doi: null
+arxiv_id: '2108.01704'
 categories:
-  - eess.AS
-  - cs.SD
-arxiv_url: https://arxiv.org/abs/2108.01704
-github_repo: ""
-source: latex
-converter: pandoc
-llm_remediated: false
-citations_resolved: 3/25
-citations_resolved_at: "2026-07-07T19:40:22+00:00"
-references_parsed: 25
-arxiv_version: ""
+- cs.SD
+- eess.AS
 ---
 
 ## References
@@ -90,7 +85,7 @@ arxiv_version: ""
     Communication Association (INTERSPEECH)}, , no. September, pp. 27--31, 2018.
 15. Yuan Shangguan, Jian Li, Qiao Liang, Raziel Alvarez, and Ian McGraw,
     \newblock ``{Optimizing speech recognition for the edge},''
-    \newblock {\em arXiv preprint arXiv:1909.12408}, 2019. [arXiv:1909.12408](../2019/1909.12408.md)
+    \newblock {\em arXiv preprint arXiv:1909.12408}, 2019. [arXiv:1909.12408](arxiv-1909-12408--950b76c1e7cd.md)
 16. Klaus Greff, Rupesh~K. Srivastava, Jan Koutnik, Bas~R. Steunebrink, and Jurgen
     Schmidhuber,
     \newblock ``{LSTM: a search space odyssey},''

@@ -1,23 +1,18 @@
 ---
-arxiv_id: s2:f832201d0b7fb53427ee78f60c0e282f3c0c5114
+identifier: semantic_scholar:f832201d0b7fb53427ee78f60c0e282f3c0c5114
 title: Real-Time Subtitling in the Streaming Era
 authors:
-  - M. Toktagazin
-  - Gulmira Amangeldiyeva
-  - L. Adilbekova
-  - Rakhmet Kulaikhan
-  - Sholpan Sagatova
-submitted: "2026-07-24"
+- M. Toktagazin
+- Gulmira Amangeldiyeva
+- L. Adilbekova
+- Rakhmet Kulaikhan
+- Sholpan Sagatova
+published: '2026-07-24T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/f832201d0b7fb53427ee78f60c0e282f3c0c5114
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/f832201d0b7fb53427ee78f60c0e282f3c0c5114
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-29T07:30:02+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

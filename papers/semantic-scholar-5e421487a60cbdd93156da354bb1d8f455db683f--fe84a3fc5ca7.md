@@ -1,26 +1,19 @@
 ---
-arxiv_id: s2:5e421487a60cbdd93156da354bb1d8f455db683f
-title:
-  Comparative Study of Different Tokenization Strategies for Streaming End-to-End
-  ASR
+identifier: semantic_scholar:5e421487a60cbdd93156da354bb1d8f455db683f
+title: Comparative Study of Different Tokenization Strategies for Streaming End-to-End ASR
 authors:
-  - Sachin Singh
-  - Ashutosh Gupta
-  - Aman Maghan
-  - Dhananjaya N. Gowda
-  - Shatrughan Singh
-  - Chanwoo Kim
-submitted: "2021-12-13"
+- Sachin Singh
+- Ashutosh Gupta
+- Aman Maghan
+- Dhananjaya N. Gowda
+- Shatrughan Singh
+- Chanwoo Kim
+published: '2021-12-13T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/5e421487a60cbdd93156da354bb1d8f455db683f
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/5e421487a60cbdd93156da354bb1d8f455db683f
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T19:34:31+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

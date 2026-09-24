@@ -1,31 +1,24 @@
 ---
-arxiv_id: "2510.21014"
-title:
-  "ReFESS-QI: Reference-Free Evaluation For Speech Separation With Joint Quality
-  And Intelligibility Scoring"
+identifier: arxiv:2510.21014
+title: 'ReFESS-QI: Reference-Free Evaluation For Speech Separation With Joint Quality And Intelligibility Scoring'
 authors:
-  - Ari Frummer
-  - Helin Wang
-  - Tianyu Cao
-  - Adi Arbel
-  - Yuval Sieradzki
-  - Oren Gal
-  - Jesús Villalba
-  - Thomas Thebaud
-  - Najim Dehak
-submitted: "2025-10-23"
+- Ari Frummer
+- Helin Wang
+- Tianyu Cao
+- Adi Arbel
+- Yuval Sieradzki
+- Oren Gal
+- Jesús Villalba
+- Thomas Thebaud
+- Najim Dehak
+published: '2025-10-23T00:00:00+00:00'
+url: https://arxiv.org/abs/2510.21014
+source: arxiv
+doi: null
+arxiv_id: '2510.21014'
 categories:
-  - eess.AS
-  - cs.SD
-arxiv_url: https://arxiv.org/abs/2510.21014
-github_repo: ""
-source: arxiv-html
-converter: pandoc
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T18:35:11+00:00"
-references_parsed: 0
-arxiv_version: ""
+- cs.SD
+- eess.AS
 ---
 
 # REFESS-QI: REFERENCE-FREE EVALUATION FOR SPEECH SEPARATION WITH JOINT QUALITY AND INTELLIGIBILITY SCORING

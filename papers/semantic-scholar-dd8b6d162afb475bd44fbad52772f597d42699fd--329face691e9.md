@@ -1,27 +1,20 @@
 ---
-arxiv_id: s2:dd8b6d162afb475bd44fbad52772f597d42699fd
-title:
-  Self-Adaptive Multilingual ASR Rescoring with Language Identification and Unified
-  Language Model
+identifier: semantic_scholar:dd8b6d162afb475bd44fbad52772f597d42699fd
+title: Self-Adaptive Multilingual ASR Rescoring with Language Identification and Unified Language Model
 authors:
-  - Zhuo Gong
-  - D. Saito
-  - Longfei Yang
-  - T. Shinozaki
-  - Sheng Li
-  - H. Kawai
-  - N. Minematsu
-submitted: "2022-06-28"
+- Zhuo Gong
+- D. Saito
+- Longfei Yang
+- T. Shinozaki
+- Sheng Li
+- H. Kawai
+- N. Minematsu
+published: '2022-06-28T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/dd8b6d162afb475bd44fbad52772f597d42699fd
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/dd8b6d162afb475bd44fbad52772f597d42699fd
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T19:26:11+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

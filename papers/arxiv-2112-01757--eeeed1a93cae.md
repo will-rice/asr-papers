@@ -1,26 +1,21 @@
 ---
-arxiv_id: "2112.01757"
+identifier: arxiv:2112.01757
 title: BBS-KWS:The Mandarin Keyword Spotting System Won the Video Keyword Wakeup Challenge
 authors:
-  - Yuting Yang
-  - Binbin Du
-  - Yingxin Zhang
-  - Wenxuan Wang
-  - Yuke Li
-submitted: "2021-12-03"
+- Yuting Yang
+- Binbin Du
+- Yingxin Zhang
+- Wenxuan Wang
+- Yuke Li
+published: '2021-12-03T00:00:00+00:00'
+url: https://arxiv.org/abs/2112.01757
+source: arxiv
+doi: null
+arxiv_id: '2112.01757'
 categories:
-  - cs.CL
-  - cs.SD
-  - eess.AS
-arxiv_url: https://arxiv.org/abs/2112.01757
-github_repo: ""
-source: arxiv-html
-converter: pandoc
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T19:34:55+00:00"
-references_parsed: 0
-arxiv_version: ""
+- cs.CL
+- cs.SD
+- eess.AS
 ---
 
 # BBS-KWS: The Mandarin Keyword Spotting System Won the Video Keyword Wakeup Challenge^(†)^(†)thanks: \* Equal contributions to this work

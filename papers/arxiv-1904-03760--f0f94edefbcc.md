@@ -1,27 +1,22 @@
 ---
-arxiv_id: "1904.03760"
+identifier: arxiv:1904.03760
 title: Time Domain Audio Visual Speech Separation
 authors:
-  - Jian Wu
-  - Yong Xu
-  - Shi-Xiong Zhang
-  - Lian-Wu Chen
-  - Meng Yu
-  - Lei Xie
-  - Dong Yu
-submitted: "2019-04-07"
+- Jian Wu
+- Yong Xu
+- Shi-Xiong Zhang
+- Lian-Wu Chen
+- Meng Yu
+- Lei Xie
+- Dong Yu
+published: '2019-04-07T00:00:00+00:00'
+url: https://arxiv.org/abs/1904.03760
+source: arxiv
+doi: null
+arxiv_id: '1904.03760'
 categories:
-  - eess.AS
-  - cs.SD
-arxiv_url: https://arxiv.org/abs/1904.03760
-github_repo: ""
-source: arxiv-html
-converter: pandoc
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T20:11:18+00:00"
-references_parsed: 0
-arxiv_version: ""
+- cs.SD
+- eess.AS
 ---
 
 # Time Domain Audio Visual Speech Separation

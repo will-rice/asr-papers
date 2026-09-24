@@ -1,21 +1,14 @@
 ---
-arxiv_id: s2:b504e76dace098261d0b0a5bfff1c51db2aa8a8b
-title:
-  Development of Real-Time Oral Error Correction System for College English Classrooms
-  Based on BERT
+identifier: semantic_scholar:b504e76dace098261d0b0a5bfff1c51db2aa8a8b
+title: Development of Real-Time Oral Error Correction System for College English Classrooms Based on BERT
 authors:
-  - Y. M. Wu
-submitted: "2026-08-13"
+- Y. M. Wu
+published: '2026-08-13T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/b504e76dace098261d0b0a5bfff1c51db2aa8a8b
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/b504e76dace098261d0b0a5bfff1c51db2aa8a8b
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-08-20T06:22:37+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

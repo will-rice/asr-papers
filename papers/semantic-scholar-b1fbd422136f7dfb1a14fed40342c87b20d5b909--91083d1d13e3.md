@@ -1,22 +1,15 @@
 ---
-arxiv_id: s2:b1fbd422136f7dfb1a14fed40342c87b20d5b909
-title:
-  Performance Analysis of a Modular Framework for Edge-Based Generative Conversational
-  AI
+identifier: semantic_scholar:b1fbd422136f7dfb1a14fed40342c87b20d5b909
+title: Performance Analysis of a Modular Framework for Edge-Based Generative Conversational AI
 authors:
-  - Lorenzo Mazzone
-  - D. Pau
-submitted: "2026-08-16"
+- Lorenzo Mazzone
+- D. Pau
+published: '2026-08-16T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/b1fbd422136f7dfb1a14fed40342c87b20d5b909
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/b1fbd422136f7dfb1a14fed40342c87b20d5b909
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-08-27T09:14:41+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

@@ -1,28 +1,23 @@
 ---
-arxiv_id: "2305.13716"
-title: "BA-SOT: Boundary-Aware Serialized Output Training for Multi-Talker ASR"
+identifier: arxiv:2305.13716
+title: 'BA-SOT: Boundary-Aware Serialized Output Training for Multi-Talker ASR'
 authors:
-  - Yuhao Liang
-  - Fan Yu
-  - Yangze Li
-  - Pengcheng Guo
-  - Shiliang Zhang
-  - Qian Chen
-  - Lei Xie
-submitted: "2023-05-23"
+- Yuhao Liang
+- Fan Yu
+- Yangze Li
+- Pengcheng Guo
+- Shiliang Zhang
+- Qian Chen
+- Lei Xie
+published: '2023-05-23T00:00:00+00:00'
+url: https://arxiv.org/abs/2305.13716
+source: arxiv
+doi: null
+arxiv_id: '2305.13716'
 categories:
-  - cs.SD
-  - cs.CL
-  - eess.AS
-arxiv_url: https://arxiv.org/abs/2305.13716
-github_repo: ""
-source: arxiv-html
-converter: pandoc
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T19:13:19+00:00"
-references_parsed: 0
-arxiv_version: ""
+- cs.CL
+- cs.SD
+- eess.AS
 ---
 
 \interspeechcameraready\name

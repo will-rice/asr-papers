@@ -1,21 +1,14 @@
 ---
-arxiv_id: s2:bc1b1caeafc1181bf8d8557eb7388b55e3e5a0b1
-title:
-  "Speech Vision: An End-to-End Deep Learning-Based Dysarthric Automatic Speech
-  Recognition System"
+identifier: semantic_scholar:bc1b1caeafc1181bf8d8557eb7388b55e3e5a0b1
+title: 'Speech Vision: An End-to-End Deep Learning-Based Dysarthric Automatic Speech Recognition System'
 authors:
-  - S. R. Shahamiri
-submitted: "2021-04-30"
+- S. R. Shahamiri
+published: '2021-04-30T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/bc1b1caeafc1181bf8d8557eb7388b55e3e5a0b1
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/bc1b1caeafc1181bf8d8557eb7388b55e3e5a0b1
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T19:44:26+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

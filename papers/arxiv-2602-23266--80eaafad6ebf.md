@@ -1,29 +1,22 @@
 ---
-arxiv_id: "2602.23266"
-title:
-  Discourse-Aware Dual-Track Streaming Response for Low-Latency Spoken Dialogue
-  Systems
+identifier: arxiv:2602.23266
+title: Discourse-Aware Dual-Track Streaming Response for Low-Latency Spoken Dialogue Systems
 authors:
-  - Siyuan Liu
-  - Jiahui Xu
-  - Feng Jiang
-  - Kuang Wang
-  - Zefeng Zhao
-  - Chu-Ren Huang
-  - Jinghang Gu
-  - Changqing Yin
-  - Haizhou Li
-submitted: "2026-02-26"
+- Siyuan Liu
+- Jiahui Xu
+- Feng Jiang
+- Kuang Wang
+- Zefeng Zhao
+- Chu-Ren Huang
+- Jinghang Gu
+- Changqing Yin
+- Haizhou Li
+published: '2026-02-26T00:00:00+00:00'
+url: https://arxiv.org/abs/2602.23266
+source: arxiv
+doi: null
+arxiv_id: '2602.23266'
 categories: []
-arxiv_url: https://arxiv.org/abs/2602.23266
-github_repo: ""
-source: latex
-converter: pandoc
-llm_remediated: false
-citations_resolved: 38/114
-citations_resolved_at: "2026-07-07T18:31:17+00:00"
-references_parsed: 114
-arxiv_version: ""
 ---
 
 # Introduction
@@ -479,7 +472,7 @@ For text quality, we focus on logical consistency and discourse coherence. Logic
 2. ESPnet-SDS: Unified Toolkit and Demo for Spoken Dialogue Systems
 3. SpeechGPT: Empowering Large Language Models with Intrinsic Cross-Modal Conversational Abilities
 4. Paralinguistics-Aware Speech-Empowered Large Language Models for Natural Conversation
-5. Stream rag: Instant and accurate spoken dialogue systems with streaming tool usage [arXiv:2510.02044](../2025/2510.02044.md)
+5. Stream rag: Instant and accurate spoken dialogue systems with streaming tool usage [arXiv:2510.02044](arxiv-2510-02044--70173715a0b8.md)
 6. Soundstream: An end-to-end neural audio codec
 7. High Fidelity Neural Audio Compression
 8. SpeechTokenizer: Unified Speech Tokenizer for Speech Large Language Models
@@ -507,15 +500,15 @@ For text quality, we focus on logical consistency and discourse coherence. Logic
 30. UniSpeaker: A Unified Approach for Multimodality-driven Speaker Generation [doi:10.18653/v1/2025.findings-emnlp.1381](https://doi.org/10.18653/v1/2025.findings-emnlp.1381)
 31. Towards Human-like Multimodal Conversational Agent by Generating Engaging Speech [doi:10.21437/Interspeech.2025-1075](https://doi.org/10.21437/Interspeech.2025-1075)
 32. WavChat: A Survey of Spoken Dialogue Models
-33. Toward Low-Latency End-to-End Voice Agents for Telecommunications Using Streaming ASR, Quantized LLMs, and Real-Time TTS [arXiv:2508.04721](../2025/2508.04721.md)
+33. Toward Low-Latency End-to-End Voice Agents for Telecommunications Using Streaming ASR, Quantized LLMs, and Real-Time TTS [arXiv:2508.04721](arxiv-2508-04721--63e4c609e28a.md)
 34. Anygpt: Unified multimodal llm with discrete sequence modeling
-35. Glm-4-voice: Towards intelligent and human-like end-to-end spoken chatbot [arXiv:2412.02612](../2024/2412.02612.md)
+35. Glm-4-voice: Towards intelligent and human-like end-to-end spoken chatbot [arXiv:2412.02612](arxiv-2412-02612--f2a7f18cee85.md)
 36. Super-human performance in online low-latency recognition of conversational speech [arXiv:2010.03449](https://arxiv.org/abs/2010.03449)
 37. Robust speech recognition via large-scale weak supervision
 38. Hubert: Self-supervised speech representation learning by masked prediction of hidden units
 39. Mini-Omni: Language Models Can Hear, Talk While Thinking in Streaming [arXiv:2408.16725](https://arxiv.org/abs/2408.16725)
 40. Mini-omni2: Towards open-source gpt-4o with vision, speech and duplex capabilities [arXiv:2410.11190](https://arxiv.org/abs/2410.11190)
-41. Llama-omni: Seamless speech interaction with large language models [arXiv:2409.06666](../2024/2409.06666.md)
+41. Llama-omni: Seamless speech interaction with large language models [arXiv:2409.06666](arxiv-2409-06666--8f5f6507e635.md)
 42. Llama-omni2: Llm-based real-time spoken chatbot with autoregressive streaming speech synthesis [arXiv:2505.02625](https://arxiv.org/abs/2505.02625)
 43. Freeze-omni: A smart and low latency speech-to-speech dialogue model with frozen llm [arXiv:2411.00774](https://arxiv.org/abs/2411.00774)
 44. Qwen2.5-Omni Technical Report [arXiv:2503.20215](https://arxiv.org/abs/2503.20215)
@@ -525,7 +518,7 @@ For text quality, we focus on logical consistency and discourse coherence. Logic
 48. An End-to-End Speech Summarization Using Large Language Model
 49. Speculative diffusion decoding: Accelerating language generation through diffusion
 50. Specinfer: Accelerating generative large language model serving with tree-based speculative inference and verification [arXiv:2305.09781](https://arxiv.org/abs/2305.09781)
-51. Toward Low-Latency End-to-End Voice Agents for Telecommunications Using Streaming ASR, Quantized LLMs, and Real-Time TTS [arXiv:2508.04721](../2025/2508.04721.md)
+51. Toward Low-Latency End-to-End Voice Agents for Telecommunications Using Streaming ASR, Quantized LLMs, and Real-Time TTS [arXiv:2508.04721](arxiv-2508-04721--63e4c609e28a.md)
 52. Hierarchical macro discourse parsing based on topic segmentation
 53. Not Just Classification: Recognizing Implicit Discourse Relation on Joint Modeling of Classification and Generation [doi:10.18653/v1/2021.emnlp-main.187](https://doi.org/10.18653/v1/2021.emnlp-main.187)
 54. Improving Dialogue Discourse Parsing via Reply-to Structures of Addressee Recognition [doi:10.18653/v1/2023.emnlp-main.526](https://doi.org/10.18653/v1/2023.emnlp-main.526)
@@ -535,13 +528,13 @@ For text quality, we focus on logical consistency and discourse coherence. Logic
 58. Incremental Dialogue Management: Survey, Discussion, and Implications for HRI
 59. Conditional variational autoencoder with adversarial learning for end-to-end text-to-speech
 60. Direct speech-to-speech translation with a sequence-to-sequence model
-61. SeamlessM4T: massively multilingual \& multimodal machine translation [arXiv:2308.11596](../2023/2308.11596.md)
+61. SeamlessM4T: massively multilingual \& multimodal machine translation [arXiv:2308.11596](arxiv-2308-11596--a9ddce51ae5c.md)
 62. Audiolm: a language modeling approach to audio generation
 63. Neural Codec Language Models are Zero-Shot Text to Speech Synthesizers [arXiv:2301.02111](https://arxiv.org/abs/2301.02111)
 64. Voicebox: Text-guided multilingual universal speech generation at scale
 65. Pauses, gaps and overlaps in conversations [doi:10.1016/j.wocn.2010.08.002](https://doi.org/10.1016/j.wocn.2010.08.002)
 66. Timing in turn-taking and its implications for processing models of language [doi:10.3389/fpsyg.2015.00731](https://doi.org/10.3389/fpsyg.2015.00731)
-67. Sequence transduction with recurrent neural networks [arXiv:1211.3711](../2012/1211.3711.md)
+67. Sequence transduction with recurrent neural networks [arXiv:1211.3711](arxiv-1211-3711--d90a4e95a67e.md)
 68. Monotonic Chunkwise Attention
 69. A General, Abstract Model of Incremental Dialogue Processing
 70. Incremental Dialogue Processing in a Micro-Domain
@@ -549,10 +542,10 @@ For text quality, we focus on logical consistency and discourse coherence. Logic
 72. Efficient Incremental Text-to-Speech on GPUs
 73. LLMVoX: Autoregressive Streaming Text-to-Speech Model for Any LLM
 74. Draft\& verify: Lossless large language model acceleration via self-speculative decoding
-75. Moshi: a speech-text foundation model for real-time dialogue [arXiv:2410.00037](../2024/2410.00037.md)
+75. Moshi: a speech-text foundation model for real-time dialogue [arXiv:2410.00037](arxiv-2410-00037--533719231255.md)
 76. Decoding speculative decoding
 77. Dialogue Response Prefetching Based on Semantic Similarity and Prediction Confidence of Language Model
-78. Qwen3-Omni Technical Report [arXiv:2509.17765](../2025/2509.17765.md)
+78. Qwen3-Omni Technical Report [arXiv:2509.17765](arxiv-2509-17765--3b40d0cc757b.md)
 79. Speaking: From Intention to Articulation
 80. Using uh and um in spontaneous speaking [doi:https://doi.org/10.1016/S0010-0277(02)00017-3](<https://doi.org/https://doi.org/10.1016/S0010-0277(02)00017-3>)
 81. Neural signatures of response planning occur midway through an incoming question in conversation
@@ -588,4 +581,4 @@ For text quality, we focus on logical consistency and discourse coherence. Logic
 111. Incremental Text-to-Speech Synthesis with Prefix-to-Prefix Framework [doi:10.18653/v1/2020.findings-emnlp.346](https://doi.org/10.18653/v1/2020.findings-emnlp.346)
 112. LiveSpeech: Low-Latency Zero-shot Text-to-Speech via Autoregressive Modeling of Audio Discrete Codes
 113. Discourse syntax
-114. Funaudiollm: Voice understanding and generation foundation models for natural interaction between humans and llms [arXiv:2407.04051](../2024/2407.04051.md)
+114. Funaudiollm: Voice understanding and generation foundation models for natural interaction between humans and llms [arXiv:2407.04051](arxiv-2407-04051--5e5dc653ea11.md)

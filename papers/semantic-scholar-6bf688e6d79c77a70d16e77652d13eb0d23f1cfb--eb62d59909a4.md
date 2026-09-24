@@ -1,20 +1,15 @@
 ---
-arxiv_id: s2:6bf688e6d79c77a70d16e77652d13eb0d23f1cfb
+identifier: semantic_scholar:6bf688e6d79c77a70d16e77652d13eb0d23f1cfb
 title: Effectiveness of Streaming ASR for Real-Time Laughter and Screaming Detection
 authors:
-  - Mizuki Kurasawa
-  - Yoshiko Arimoto
-submitted: "2025-10-22"
+- Mizuki Kurasawa
+- Yoshiko Arimoto
+published: '2025-10-22T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/6bf688e6d79c77a70d16e77652d13eb0d23f1cfb
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/6bf688e6d79c77a70d16e77652d13eb0d23f1cfb
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T18:35:08+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

@@ -1,25 +1,20 @@
 ---
-arxiv_id: "2203.15149"
-title: "CMGAN: Conformer-based Metric GAN for Speech Enhancement"
+identifier: arxiv:2203.15149
+title: 'CMGAN: Conformer-based Metric GAN for Speech Enhancement'
 authors:
-  - Ruizhe Cao
-  - Sherif Abdulatif
-  - Bin Yang
-submitted: "2022-03-28"
+- Ruizhe Cao
+- Sherif Abdulatif
+- Bin Yang
+published: '2022-03-28T00:00:00+00:00'
+url: https://arxiv.org/abs/2203.15149
+source: arxiv
+doi: null
+arxiv_id: '2203.15149'
 categories:
-  - cs.SD
-  - cs.AI
-  - cs.LG
-  - eess.AS
-arxiv_url: https://arxiv.org/abs/2203.15149
-github_repo: ""
-source: arxiv-html
-converter: pandoc
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T19:31:00+00:00"
-references_parsed: 0
-arxiv_version: ""
+- cs.AI
+- cs.LG
+- cs.SD
+- eess.AS
 ---
 
 # CMGAN: Conformer-based Metric GAN for Speech Enhancement

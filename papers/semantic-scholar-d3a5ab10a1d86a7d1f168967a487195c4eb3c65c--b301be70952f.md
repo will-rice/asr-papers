@@ -1,27 +1,20 @@
 ---
-arxiv_id: s2:d3a5ab10a1d86a7d1f168967a487195c4eb3c65c
-title:
-  Extending Multilingual ASR to New Languages Using Supplementary Encoder and
-  Decoder Components
+identifier: semantic_scholar:d3a5ab10a1d86a7d1f168967a487195c4eb3c65c
+title: Extending Multilingual ASR to New Languages Using Supplementary Encoder and Decoder Components
 authors:
-  - Yerbolat Khassanov
-  - Zhipeng Chen
-  - Tianfeng Chen
-  - Tze Yuang Chong
-  - Wei Li
-  - Lu Lu
-  - Zejun Ma
-submitted: "2024-04-14"
+- Yerbolat Khassanov
+- Zhipeng Chen
+- Tianfeng Chen
+- Tze Yuang Chong
+- Wei Li
+- Lu Lu
+- Zejun Ma
+published: '2024-04-14T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/d3a5ab10a1d86a7d1f168967a487195c4eb3c65c
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/d3a5ab10a1d86a7d1f168967a487195c4eb3c65c
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T18:59:24+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

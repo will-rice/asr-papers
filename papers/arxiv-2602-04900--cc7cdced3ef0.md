@@ -1,28 +1,21 @@
 ---
-arxiv_id: "2602.04900"
-title:
-  "Evaluating Kubernetes Performance for GenAI Inference: From Automatic Speech
-  Recognition to LLM Summarization"
+identifier: arxiv:2602.04900
+title: 'Evaluating Kubernetes Performance for GenAI Inference: From Automatic Speech Recognition to LLM Summarization'
 authors:
-  - Sai Sindhur Malleni
-  - Raúl Sevilla
-  - Aleksei Vasilevskii
-  - José Castillo Lema
-  - André Bauer
-submitted: "2026-02-03"
+- Sai Sindhur Malleni
+- Raúl Sevilla
+- Aleksei Vasilevskii
+- José Castillo Lema
+- André Bauer
+published: '2026-02-03T00:00:00+00:00'
+url: https://arxiv.org/abs/2602.04900
+source: arxiv
+doi: null
+arxiv_id: '2602.04900'
 categories:
-  - cs.ET
-  - cs.AI
-  - cs.DC
-arxiv_url: https://arxiv.org/abs/2602.04900
-github_repo: ""
-source: arxiv-html
-converter: pandoc
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T18:31:58+00:00"
-references_parsed: 0
-arxiv_version: ""
+- cs.AI
+- cs.DC
+- cs.ET
 ---
 
 # Evaluating Kubernetes Performance for GenAI Inference: From Automatic Speech Recognition to LLM Summarization

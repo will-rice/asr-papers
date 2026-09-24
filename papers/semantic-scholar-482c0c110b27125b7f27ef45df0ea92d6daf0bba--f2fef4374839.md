@@ -1,25 +1,18 @@
 ---
-arxiv_id: s2:482c0c110b27125b7f27ef45df0ea92d6daf0bba
-title:
-  Staged Knowledge Distillation for End-to-End Dysarthric Speech Recognition
-  and Speech Attribute Transcription
+identifier: semantic_scholar:482c0c110b27125b7f27ef45df0ea92d6daf0bba
+title: Staged Knowledge Distillation for End-to-End Dysarthric Speech Recognition and Speech Attribute Transcription
 authors:
-  - Yuqin Lin
-  - Longbiao Wang
-  - Sheng Li
-  - J. Dang
-  - Chenchen Ding
-submitted: "2020-10-25"
+- Yuqin Lin
+- Longbiao Wang
+- Sheng Li
+- J. Dang
+- Chenchen Ding
+published: '2020-10-25T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/482c0c110b27125b7f27ef45df0ea92d6daf0bba
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/482c0c110b27125b7f27ef45df0ea92d6daf0bba
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T19:52:51+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

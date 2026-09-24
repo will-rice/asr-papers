@@ -1,27 +1,22 @@
 ---
-arxiv_id: "2204.01977"
+identifier: arxiv:2204.01977
 title: Audio-visual multi-channel speech separation, dereverberation and recognition
 authors:
-  - Guinan Li
-  - Jianwei Yu
-  - Jiajun Deng
-  - Xunying Liu
-  - Helen Meng
-submitted: "2022-04-05"
+- Guinan Li
+- Jianwei Yu
+- Jiajun Deng
+- Xunying Liu
+- Helen Meng
+published: '2022-04-05T00:00:00+00:00'
+url: https://arxiv.org/abs/2204.01977
+source: arxiv
+doi: null
+arxiv_id: '2204.01977'
 categories:
-  - cs.SD
-  - cs.CV
-  - cs.MM
-  - eess.AS
-arxiv_url: https://arxiv.org/abs/2204.01977
-github_repo: ""
-source: arxiv-html
-converter: pandoc
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T19:29:48+00:00"
-references_parsed: 0
-arxiv_version: ""
+- cs.CV
+- cs.MM
+- cs.SD
+- eess.AS
 ---
 
 # AUDIO-VISUAL MULTI-CHANNEL SPEECH SEPARATION, DEREVERBERATION AND RECOGNITION

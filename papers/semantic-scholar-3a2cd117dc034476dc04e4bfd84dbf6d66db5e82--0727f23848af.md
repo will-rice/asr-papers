@@ -1,21 +1,16 @@
 ---
-arxiv_id: s2:3a2cd117dc034476dc04e4bfd84dbf6d66db5e82
+identifier: semantic_scholar:3a2cd117dc034476dc04e4bfd84dbf6d66db5e82
 title: A New Tunisian Arabic Corpus and Benchmark for Automatic Speech Recognition
 authors:
-  - M. Sghaier
-  - M. Bellagha
-  - Mounir Zrigui
-submitted: "2026-01-01"
+- M. Sghaier
+- M. Bellagha
+- Mounir Zrigui
+published: '2026-01-01T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/3a2cd117dc034476dc04e4bfd84dbf6d66db5e82
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/3a2cd117dc034476dc04e4bfd84dbf6d66db5e82
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-14T06:57:43+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

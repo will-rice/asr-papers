@@ -1,27 +1,22 @@
 ---
-arxiv_id: "2601.19533"
-title: "SLM-SS: Speech Language Model for Generative Speech Separation"
+identifier: arxiv:2601.19533
+title: 'SLM-SS: Speech Language Model for Generative Speech Separation'
 authors:
-  - Tianhua Li
-  - Chenda Li
-  - Wei Wang
-  - Xin Zhou
-  - Xihui Chen
-  - Jianqing Gao
-  - Yanmin Qian
-submitted: "2026-01-27"
+- Tianhua Li
+- Chenda Li
+- Wei Wang
+- Xin Zhou
+- Xihui Chen
+- Jianqing Gao
+- Yanmin Qian
+published: '2026-01-27T00:00:00+00:00'
+url: https://arxiv.org/abs/2601.19533
+source: arxiv
+doi: null
+arxiv_id: '2601.19533'
 categories:
-  - cs.SD
-  - cs.AI
-arxiv_url: https://arxiv.org/abs/2601.19533
-github_repo: ""
-source: arxiv-html
-converter: pandoc
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T18:32:16+00:00"
-references_parsed: 0
-arxiv_version: ""
+- cs.AI
+- cs.SD
 ---
 
 # SLM-SS: Speech Language Model for Generative Speech Separation

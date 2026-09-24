@@ -1,21 +1,16 @@
 ---
-arxiv_id: s2:cca5f6f4b2763a66e3ad18da16fa6c195f9a4715
+identifier: semantic_scholar:cca5f6f4b2763a66e3ad18da16fa6c195f9a4715
 title: End-to-end recognition of streaming Japanese speech using CTC and local attention
 authors:
-  - Jiahao Chen
-  - Ryota Nishimura
-  - N. Kitaoka
-submitted: "2020-11-23"
+- Jiahao Chen
+- Ryota Nishimura
+- N. Kitaoka
+published: '2020-11-23T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/cca5f6f4b2763a66e3ad18da16fa6c195f9a4715
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/cca5f6f4b2763a66e3ad18da16fa6c195f9a4715
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T19:50:46+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

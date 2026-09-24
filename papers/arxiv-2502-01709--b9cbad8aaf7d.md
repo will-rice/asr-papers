@@ -1,24 +1,19 @@
 ---
-arxiv_id: "2502.01709"
+identifier: arxiv:2502.01709
 title: Adapter-Based Multi-Agent AVSR Extension for Pre-Trained ASR Models
 authors:
-  - Christopher Simic
-  - Korbinian Riedhammer
-  - Tobias Bocklet
-submitted: "2025-02-03"
+- Christopher Simic
+- Korbinian Riedhammer
+- Tobias Bocklet
+published: '2025-02-03T00:00:00+00:00'
+url: https://arxiv.org/abs/2502.01709
+source: arxiv
+doi: null
+arxiv_id: '2502.01709'
 categories:
-  - cs.SD
-  - cs.LG
-  - eess.AS
-arxiv_url: https://arxiv.org/abs/2502.01709
-github_repo: ""
-source: arxiv-html
-converter: pandoc
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T18:46:59+00:00"
-references_parsed: 0
-arxiv_version: ""
+- cs.LG
+- cs.SD
+- eess.AS
 ---
 
 # Adapter-Based Multi-Agent AVSR Extension for Pre-Trained ASR Models

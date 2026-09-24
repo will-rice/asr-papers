@@ -1,42 +1,37 @@
 ---
-arxiv_id: s2:b05e2df517662bffcd25a396deea07f21855fea3
+identifier: semantic_scholar:b05e2df517662bffcd25a396deea07f21855fea3
 title: An analog-AI chip for energy-efficient speech recognition and transcription
 authors:
-  - S. Ambrogio
-  - P. Narayanan
-  - A. Okazaki
-  - A. Fasoli
-  - C. Mackin
-  - K. Hosokawa
-  - A. Nomura
-  - Takeo Yasuda
-  - An Chen
-  - A. Friz
-  - M. Ishii
-  - J. Luquin
-  - Y. Kohda
-  - N. Saulnier
-  - K. Brew
-  - Samuel Choi
-  - I. Ok
-  - Timothy Philip
-  - Victor Chan
-  - M. Silvestre
-  - I. Ahsan
-  - Vijay Narayanan
-  - H. Tsai
-  - Geoffrey W. Burr
-submitted: "2023-08-01"
+- S. Ambrogio
+- P. Narayanan
+- A. Okazaki
+- A. Fasoli
+- C. Mackin
+- K. Hosokawa
+- A. Nomura
+- Takeo Yasuda
+- An Chen
+- A. Friz
+- M. Ishii
+- J. Luquin
+- Y. Kohda
+- N. Saulnier
+- K. Brew
+- Samuel Choi
+- I. Ok
+- Timothy Philip
+- Victor Chan
+- M. Silvestre
+- I. Ahsan
+- Vijay Narayanan
+- H. Tsai
+- Geoffrey W. Burr
+published: '2023-08-01T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/b05e2df517662bffcd25a396deea07f21855fea3
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/b05e2df517662bffcd25a396deea07f21855fea3
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T19:09:02+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

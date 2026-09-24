@@ -1,25 +1,20 @@
 ---
-arxiv_id: s2:0caad9e30f177d505669c10e64da3da4d9d75466
+identifier: semantic_scholar:0caad9e30f177d505669c10e64da3da4d9d75466
 title: Transcripto Fine-Tuning Multilingual ASR for Indian Grievance Feedback Calls
 authors:
-  - Dr. Viomesh Kumar Singh
-  - Manasi Pandit
-  - Rahul Kumar
-  - Shivani Kshirsagar
-  - Mayank Kulkarni
-  - Sanket Kulkarni
-  - Tanaya Korhalkar
-submitted: "2025-05-03"
+- Dr. Viomesh Kumar Singh
+- Manasi Pandit
+- Rahul Kumar
+- Shivani Kshirsagar
+- Mayank Kulkarni
+- Sanket Kulkarni
+- Tanaya Korhalkar
+published: '2025-05-03T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/0caad9e30f177d505669c10e64da3da4d9d75466
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/0caad9e30f177d505669c10e64da3da4d9d75466
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T18:44:44+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

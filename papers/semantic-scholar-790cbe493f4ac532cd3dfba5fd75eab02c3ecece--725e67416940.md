@@ -1,22 +1,17 @@
 ---
-arxiv_id: s2:790cbe493f4ac532cd3dfba5fd75eab02c3ecece
+identifier: semantic_scholar:790cbe493f4ac532cd3dfba5fd75eab02c3ecece
 title: A Comprehensive Study of Residual CNNS for Acoustic Modeling in ASR
 authors:
-  - Vitalii Bozheniuk
-  - Albert Zeyer
-  - Ralf Schlüter
-  - H. Ney
-submitted: "2020-05-01"
+- Vitalii Bozheniuk
+- Albert Zeyer
+- Ralf Schlüter
+- H. Ney
+published: '2020-05-01T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/790cbe493f4ac532cd3dfba5fd75eab02c3ecece
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/790cbe493f4ac532cd3dfba5fd75eab02c3ecece
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T20:00:23+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

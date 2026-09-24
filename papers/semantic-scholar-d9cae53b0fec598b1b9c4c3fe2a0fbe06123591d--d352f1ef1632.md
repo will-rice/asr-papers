@@ -1,23 +1,16 @@
 ---
-arxiv_id: s2:d9cae53b0fec598b1b9c4c3fe2a0fbe06123591d
-title:
-  Inference-Configuration Robust Backdoor Attacks on Diffusion Models via Cross-Timestep
-  Consistent Trigger
+identifier: semantic_scholar:d9cae53b0fec598b1b9c4c3fe2a0fbe06123591d
+title: Inference-Configuration Robust Backdoor Attacks on Diffusion Models via Cross-Timestep Consistent Trigger
 authors:
-  - Zhiyuan Shen
-  - Zuonan Xiao
-  - Bing Li
-submitted: "2026-01-01"
+- Zhiyuan Shen
+- Zuonan Xiao
+- Bing Li
+published: '2026-01-01T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/d9cae53b0fec598b1b9c4c3fe2a0fbe06123591d
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/d9cae53b0fec598b1b9c4c3fe2a0fbe06123591d
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-18T06:52:45+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

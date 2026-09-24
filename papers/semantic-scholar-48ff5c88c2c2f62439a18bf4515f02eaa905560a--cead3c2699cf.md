@@ -1,27 +1,20 @@
 ---
-arxiv_id: s2:48ff5c88c2c2f62439a18bf4515f02eaa905560a
-title:
-  "Intelligent speech technologies for transcription, disease diagnosis, and
-  medical equipment interactive control in smart hospitals: A review"
+identifier: semantic_scholar:48ff5c88c2c2f62439a18bf4515f02eaa905560a
+title: 'Intelligent speech technologies for transcription, disease diagnosis, and medical equipment interactive control in smart hospitals: A review'
 authors:
-  - Jun Zhang
-  - Jingyue Wu
-  - Yiyi Qiu
-  - Aiguo Song
-  - Weifeng Li
-  - Xin Li
-  - Yecheng Liu
-submitted: "2023-01-05"
+- Jun Zhang
+- Jingyue Wu
+- Yiyi Qiu
+- Aiguo Song
+- Weifeng Li
+- Xin Li
+- Yecheng Liu
+published: '2023-01-05T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/48ff5c88c2c2f62439a18bf4515f02eaa905560a
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/48ff5c88c2c2f62439a18bf4515f02eaa905560a
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T19:18:14+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

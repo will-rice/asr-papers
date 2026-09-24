@@ -1,23 +1,16 @@
 ---
-arxiv_id: s2:bfb9e1b05f0af863fbde0573b71a2de62cf180cd
-title:
-  "CCE-Net: Causal Convolution Embedding Network for Streaming Automatic Speech
-  Recognition"
+identifier: semantic_scholar:bfb9e1b05f0af863fbde0573b71a2de62cf180cd
+title: 'CCE-Net: Causal Convolution Embedding Network for Streaming Automatic Speech Recognition'
 authors:
-  - Fei Deng
-  - Yue Ming
-  - Boyang Lyu
-submitted: "2024-09-27"
+- Fei Deng
+- Yue Ming
+- Boyang Lyu
+published: '2024-09-27T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/bfb9e1b05f0af863fbde0573b71a2de62cf180cd
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/bfb9e1b05f0af863fbde0573b71a2de62cf180cd
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T18:51:31+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

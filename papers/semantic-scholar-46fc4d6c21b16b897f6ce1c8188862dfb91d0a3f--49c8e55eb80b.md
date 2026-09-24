@@ -1,26 +1,19 @@
 ---
-arxiv_id: s2:46fc4d6c21b16b897f6ce1c8188862dfb91d0a3f
-title:
-  "DP-DWA: Dual-Path Dynamic Weight Attention Network With Streaming Dfsmn-San
-  For Automatic Speech Recognition"
+identifier: semantic_scholar:46fc4d6c21b16b897f6ce1c8188862dfb91d0a3f
+title: 'DP-DWA: Dual-Path Dynamic Weight Attention Network With Streaming Dfsmn-San For Automatic Speech Recognition'
 authors:
-  - Dongpeng Ma
-  - Yiwen Wang
-  - Liqiang He
-  - Mingjie Jin
-  - Dan Su
-  - Dong Yu
-submitted: "2022-05-23"
+- Dongpeng Ma
+- Yiwen Wang
+- Liqiang He
+- Mingjie Jin
+- Dan Su
+- Dong Yu
+published: '2022-05-23T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/46fc4d6c21b16b897f6ce1c8188862dfb91d0a3f
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/46fc4d6c21b16b897f6ce1c8188862dfb91d0a3f
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T19:27:39+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

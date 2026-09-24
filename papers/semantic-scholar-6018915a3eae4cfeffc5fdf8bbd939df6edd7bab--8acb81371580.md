@@ -1,21 +1,16 @@
 ---
-arxiv_id: s2:6018915a3eae4cfeffc5fdf8bbd939df6edd7bab
+identifier: semantic_scholar:6018915a3eae4cfeffc5fdf8bbd939df6edd7bab
 title: Children’s Speech Recognition in Slovak
 authors:
-  - Stanislav Ondáš
-  - Ján Staš
-  - Matus Pleva
-submitted: "2026-01-01"
+- Stanislav Ondáš
+- Ján Staš
+- Matus Pleva
+published: '2026-01-01T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/6018915a3eae4cfeffc5fdf8bbd939df6edd7bab
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/6018915a3eae4cfeffc5fdf8bbd939df6edd7bab
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-13T07:18:09+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

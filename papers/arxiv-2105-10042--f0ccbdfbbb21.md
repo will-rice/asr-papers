@@ -1,27 +1,22 @@
 ---
-arxiv_id: "2105.10042"
+identifier: arxiv:2105.10042
 title: A Streaming End-to-End Framework For Spoken Language Understanding
 authors:
-  - Nihal Potdar
-  - Anderson R. Avila
-  - Chao Xing
-  - Dong Wang
-  - Yiran Cao
-  - Xiao Chen
-submitted: "2021-05-20"
+- Nihal Potdar
+- Anderson R. Avila
+- Chao Xing
+- Dong Wang
+- Yiran Cao
+- Xiao Chen
+published: '2021-05-20T00:00:00+00:00'
+url: https://arxiv.org/abs/2105.10042
+source: arxiv
+doi: null
+arxiv_id: '2105.10042'
 categories:
-  - cs.CL
-  - cs.SD
-  - eess.AS
-arxiv_url: https://arxiv.org/abs/2105.10042
-github_repo: ""
-source: arxiv-html
-converter: pandoc
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T19:43:44+00:00"
-references_parsed: 0
-arxiv_version: ""
+- cs.CL
+- cs.SD
+- eess.AS
 ---
 
 # A Streaming End-to-End Framework For Spoken Language Understanding

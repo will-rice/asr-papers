@@ -1,23 +1,18 @@
 ---
-arxiv_id: "2303.10510"
+identifier: arxiv:2303.10510
 title: A Deep Learning System for Domain-specific Speech Recognition
 authors:
-  - Yanan Jia
-submitted: "2023-03-18"
+- Yanan Jia
+published: '2023-03-18T00:00:00+00:00'
+url: https://arxiv.org/abs/2303.10510
+source: arxiv
+doi: null
+arxiv_id: '2303.10510'
 categories:
-  - cs.CL
-  - cs.LG
-  - cs.SD
-  - eess.AS
-arxiv_url: https://arxiv.org/abs/2303.10510
-github_repo: ""
-source: arxiv-html
-converter: pandoc
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T19:15:50+00:00"
-references_parsed: 0
-arxiv_version: ""
+- cs.CL
+- cs.LG
+- cs.SD
+- eess.AS
 ---
 
 A Deep Learning System for\

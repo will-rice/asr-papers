@@ -1,26 +1,21 @@
 ---
-arxiv_id: "2608.08235"
-title: "SraVaani 1.0: Scaling Inclusive Speech Recognition for Indic Languages"
+identifier: arxiv:2608.08235
+title: 'SraVaani 1.0: Scaling Inclusive Speech Recognition for Indic Languages'
 authors:
-  - Sujith Pulikodan
-  - Agneedh Basu
-  - Pavan Kumar J
-  - Pranav D Bhat
-  - Suryansh Shukla
-  - Nihar Desai
-  - Prasanta Kumar Ghosh
-submitted: "2026-08-08"
+- Sujith Pulikodan
+- Agneedh Basu
+- Pavan Kumar J
+- Pranav D Bhat
+- Suryansh Shukla
+- Nihar Desai
+- Prasanta Kumar Ghosh
+published: '2026-08-08T00:00:00+00:00'
+url: https://arxiv.org/abs/2608.08235
+source: arxiv
+doi: null
+arxiv_id: '2608.08235'
 categories:
-  - eess.AS
-arxiv_url: https://arxiv.org/abs/2608.08235
-github_repo: ""
-source: arxiv-html
-converter: pandoc
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-08-11T06:30:44+00:00"
-references_parsed: 0
-arxiv_version: ""
+- eess.AS
 ---
 
 SraVaani 1.0: Scaling Inclusive Speech Recognition\

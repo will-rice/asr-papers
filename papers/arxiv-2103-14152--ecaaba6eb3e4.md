@@ -1,27 +1,22 @@
 ---
-arxiv_id: "2103.14152"
+identifier: arxiv:2103.14152
 title: Residual Energy-Based Models for End-to-End Speech Recognition
 authors:
-  - Qiujia Li
-  - Yu Zhang
-  - Bo Li
-  - Liangliang Cao
-  - Philip C. Woodland
-submitted: "2021-03-25"
+- Qiujia Li
+- Yu Zhang
+- Bo Li
+- Liangliang Cao
+- Philip C. Woodland
+published: '2021-03-25T00:00:00+00:00'
+url: https://arxiv.org/abs/2103.14152
+source: arxiv
+doi: null
+arxiv_id: '2103.14152'
 categories:
-  - eess.AS
-  - cs.CL
-  - cs.LG
-  - cs.SD
-arxiv_url: https://arxiv.org/abs/2103.14152
-github_repo: ""
-source: arxiv-html
-converter: pandoc
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T19:47:00+00:00"
-references_parsed: 0
-arxiv_version: ""
+- cs.CL
+- cs.LG
+- cs.SD
+- eess.AS
 ---
 
 # Residual Energy-Based Models for End-to-End Speech Recognition

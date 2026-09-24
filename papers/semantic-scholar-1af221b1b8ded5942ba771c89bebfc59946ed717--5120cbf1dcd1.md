@@ -1,21 +1,16 @@
 ---
-arxiv_id: s2:1af221b1b8ded5942ba771c89bebfc59946ed717
+identifier: semantic_scholar:1af221b1b8ded5942ba771c89bebfc59946ed717
 title: ANALISIS PERFORMA OCR TESSERACT DAN CRNN PADA DOKUMEN SURAT JALAN SEMI-TERSTRUKTUR
 authors:
-  - Ali As’ad
-  - Iska Yanuartanti
-  - Danang Erwanto
-submitted: "2026-07-10"
+- Ali As’ad
+- Iska Yanuartanti
+- Danang Erwanto
+published: '2026-07-10T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/1af221b1b8ded5942ba771c89bebfc59946ed717
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/1af221b1b8ded5942ba771c89bebfc59946ed717
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-15T06:57:26+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

@@ -1,25 +1,18 @@
 ---
-arxiv_id: s2:4d19cfd20eda17c7145a6c1e8c55caa581e55962
-title:
-  Application of Conformer Architecture in Clinical Speech Input and Intelligent
-  Medical Record Generation
+identifier: semantic_scholar:4d19cfd20eda17c7145a6c1e8c55caa581e55962
+title: Application of Conformer Architecture in Clinical Speech Input and Intelligent Medical Record Generation
 authors:
-  - X. Zou
-  - L. Wang
-  - J. Sun
-  - S. Y. Guo
-  - N. Li
-submitted: "2026-08-13"
+- X. Zou
+- L. Wang
+- J. Sun
+- S. Y. Guo
+- N. Li
+published: '2026-08-13T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/4d19cfd20eda17c7145a6c1e8c55caa581e55962
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/4d19cfd20eda17c7145a6c1e8c55caa581e55962
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-08-16T06:20:13+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

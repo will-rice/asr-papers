@@ -1,24 +1,19 @@
 ---
-arxiv_id: "2204.09883"
+identifier: arxiv:2204.09883
 title: Layer-wise Fast Adaptation for End-to-End Multi-Accent Speech Recognition
 authors:
-  - Xun Gong
-  - Yizhou Lu
-  - Zhikai Zhou
-  - Yanmin Qian
-submitted: "2022-04-21"
+- Xun Gong
+- Yizhou Lu
+- Zhikai Zhou
+- Yanmin Qian
+published: '2022-04-21T00:00:00+00:00'
+url: https://arxiv.org/abs/2204.09883
+source: arxiv
+doi: null
+arxiv_id: '2204.09883'
 categories:
-  - cs.SD
-  - eess.AS
-arxiv_url: https://arxiv.org/abs/2204.09883
-github_repo: ""
-source: arxiv-html
-converter: pandoc
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T19:28:52+00:00"
-references_parsed: 0
-arxiv_version: ""
+- cs.SD
+- eess.AS
 ---
 
 # Layer-wise Fast Adaptation for End-to-End Multi-Accent Speech Recognition

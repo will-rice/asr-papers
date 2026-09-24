@@ -1,27 +1,22 @@
 ---
-arxiv_id: s2:82241d2062ffef8e99f4d5e22b5ce690c8f6a122
+identifier: semantic_scholar:82241d2062ffef8e99f4d5e22b5ce690c8f6a122
 title: MLLP-VRAIN Spanish ASR Systems for the Albayzin-RTVE 2020 Speech-To-Text Challenge
 authors:
-  - Javier Jorge
-  - Adrià Giménez
-  - Pau Baquero-Arnal
-  - Javier Iranzo-Sánchez
-  - A. Pérez
-  - Gonçal V. Garcés Díaz-Munío
-  - J. Silvestre-Cerdà
-  - Jorge Civera Saiz
-  - A. Sanchís
-submitted: "2021-03-24"
+- Javier Jorge
+- Adrià Giménez
+- Pau Baquero-Arnal
+- Javier Iranzo-Sánchez
+- A. Pérez
+- Gonçal V. Garcés Díaz-Munío
+- J. Silvestre-Cerdà
+- Jorge Civera Saiz
+- A. Sanchís
+published: '2021-03-24T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/82241d2062ffef8e99f4d5e22b5ce690c8f6a122
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/82241d2062ffef8e99f4d5e22b5ce690c8f6a122
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T19:46:56+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

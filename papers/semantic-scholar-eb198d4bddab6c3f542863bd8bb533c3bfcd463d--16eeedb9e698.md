@@ -1,27 +1,22 @@
 ---
-arxiv_id: s2:eb198d4bddab6c3f542863bd8bb533c3bfcd463d
+identifier: semantic_scholar:eb198d4bddab6c3f542863bd8bb533c3bfcd463d
 title: Efficient Cascaded Streaming ASR System Via Frame Rate Reduction
 authors:
-  - Xingyu Cai
-  - David Qiu
-  - Shaojin Ding
-  - Dongseong Hwang
-  - Weiran Wang
-  - A. Bruguier
-  - Rohit Prabhavalkar
-  - Tara N. Sainath
-  - Yanzhang He
-submitted: "2023-12-16"
+- Xingyu Cai
+- David Qiu
+- Shaojin Ding
+- Dongseong Hwang
+- Weiran Wang
+- A. Bruguier
+- Rohit Prabhavalkar
+- Tara N. Sainath
+- Yanzhang He
+published: '2023-12-16T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/eb198d4bddab6c3f542863bd8bb533c3bfcd463d
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/eb198d4bddab6c3f542863bd8bb533c3bfcd463d
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T19:03:05+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

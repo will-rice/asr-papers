@@ -1,23 +1,16 @@
 ---
-arxiv_id: s2:aa473026c73bee38a0f5be38d4499ae3945d1d84
-title:
-  Leveraging IPA and Articulatory Features as Effective Inductive Biases for
-  Multilingual ASR Training
+identifier: semantic_scholar:aa473026c73bee38a0f5be38d4499ae3945d1d84
+title: Leveraging IPA and Articulatory Features as Effective Inductive Biases for Multilingual ASR Training
 authors:
-  - Jaeyoung Lee
-  - M. Mimura
-  - Tatsuya Kawahara
-submitted: "2025-04-06"
+- Jaeyoung Lee
+- M. Mimura
+- Tatsuya Kawahara
+published: '2025-04-06T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/aa473026c73bee38a0f5be38d4499ae3945d1d84
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/aa473026c73bee38a0f5be38d4499ae3945d1d84
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T18:45:01+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

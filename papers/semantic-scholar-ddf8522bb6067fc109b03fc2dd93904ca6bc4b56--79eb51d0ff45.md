@@ -1,24 +1,17 @@
 ---
-arxiv_id: s2:ddf8522bb6067fc109b03fc2dd93904ca6bc4b56
-title:
-  "MoNet: A Mixture of Experts Solution for Multilingual and Low-Resource ASR
-  Challenges"
+identifier: semantic_scholar:ddf8522bb6067fc109b03fc2dd93904ca6bc4b56
+title: 'MoNet: A Mixture of Experts Solution for Multilingual and Low-Resource ASR Challenges'
 authors:
-  - Yongchao Li
-  - Lixu Sun
-  - Yineng Cai
-  - Nurmemet Yolwas
-submitted: "2024-06-30"
+- Yongchao Li
+- Lixu Sun
+- Yineng Cai
+- Nurmemet Yolwas
+published: '2024-06-30T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/ddf8522bb6067fc109b03fc2dd93904ca6bc4b56
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/ddf8522bb6067fc109b03fc2dd93904ca6bc4b56
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T18:55:28+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

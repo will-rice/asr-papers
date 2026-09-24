@@ -1,22 +1,17 @@
 ---
-arxiv_id: s2:6393db2985169ccbe328095e13887b25aa660a9f
-title: "ADASTT: Adaptive Speech-to-Text Algorithm Selection via Meta-Learning"
+identifier: semantic_scholar:6393db2985169ccbe328095e13887b25aa660a9f
+title: 'ADASTT: Adaptive Speech-to-Text Algorithm Selection via Meta-Learning'
 authors:
-  - A. Namlı
-  - Onurhan Çelik
-  - Eray Yapagci
-  - S. Kozat
-submitted: "2026-01-01"
+- A. Namlı
+- Onurhan Çelik
+- Eray Yapagci
+- S. Kozat
+published: '2026-01-01T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/6393db2985169ccbe328095e13887b25aa660a9f
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/6393db2985169ccbe328095e13887b25aa660a9f
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-13T07:18:10+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

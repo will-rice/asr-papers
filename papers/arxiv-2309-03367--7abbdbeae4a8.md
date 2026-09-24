@@ -1,27 +1,20 @@
 ---
-arxiv_id: "2309.03367"
-title:
-  Self-Supervised Masked Digital Elevation Models Encoding for Low-Resource Downstream
-  Tasks
+identifier: arxiv:2309.03367
+title: Self-Supervised Masked Digital Elevation Models Encoding for Low-Resource Downstream Tasks
 authors:
-  - Priyam Mazumdar
-  - Aiman Soliman
-  - Volodymyr Kindratenko
-  - Luigi Marini
-  - Kenton McHenry
-submitted: "2023-09-06"
+- Priyam Mazumdar
+- Aiman Soliman
+- Volodymyr Kindratenko
+- Luigi Marini
+- Kenton McHenry
+published: '2023-09-06T00:00:00+00:00'
+url: https://arxiv.org/abs/2309.03367
+source: arxiv
+doi: null
+arxiv_id: '2309.03367'
 categories:
-  - cs.CV
-  - cs.AI
-arxiv_url: https://arxiv.org/abs/2309.03367
-github_repo: ""
-source: arxiv-html
-converter: pandoc
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T19:07:59+00:00"
-references_parsed: 0
-arxiv_version: ""
+- cs.AI
+- cs.CV
 ---
 
 # Self-Supervised Masked Digital Elevation Models Encoding for Low-Resource Downstream Tasks

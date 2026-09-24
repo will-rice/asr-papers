@@ -1,24 +1,17 @@
 ---
-arxiv_id: "2605.02928"
-title:
-  Keyword spotting using convolutional neural network for speech recognition
-  in Hindi
+identifier: arxiv:2605.02928
+title: Keyword spotting using convolutional neural network for speech recognition in Hindi
 authors:
-  - Saru Bharti
-  - Pushparaj Mani Pathak
-submitted: "2026-04-26"
+- Saru Bharti
+- Pushparaj Mani Pathak
+published: '2026-04-26T00:00:00+00:00'
+url: https://arxiv.org/abs/2605.02928
+source: arxiv
+doi: null
+arxiv_id: '2605.02928'
 categories:
-  - cs.SD
-  - cs.AI
-arxiv_url: https://arxiv.org/abs/2605.02928
-github_repo: ""
-source: arxiv-html
-converter: pandoc
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T18:28:30+00:00"
-references_parsed: 0
-arxiv_version: ""
+- cs.AI
+- cs.SD
 ---
 
 # Keyword spotting using convolutional neural network for speech recognition in Hindi

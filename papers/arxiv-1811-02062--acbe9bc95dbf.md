@@ -1,25 +1,20 @@
 ---
-arxiv_id: "1811.02062"
+identifier: arxiv:1811.02062
 title: End-to-End Monaural Multi-speaker ASR System without Pretraining
 authors:
-  - Xuankai Chang
-  - Yanmin Qian
-  - Kai Yu
-  - Shinji Watanabe
-submitted: "2018-11-05"
+- Xuankai Chang
+- Yanmin Qian
+- Kai Yu
+- Shinji Watanabe
+published: '2018-11-05T00:00:00+00:00'
+url: https://arxiv.org/abs/1811.02062
+source: arxiv
+doi: null
+arxiv_id: '1811.02062'
 categories:
-  - cs.CL
-  - cs.SD
-  - eess.AS
-arxiv_url: https://arxiv.org/abs/1811.02062
-github_repo: ""
-source: arxiv-html
-converter: pandoc
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T20:14:30+00:00"
-references_parsed: 0
-arxiv_version: ""
+- cs.CL
+- cs.SD
+- eess.AS
 ---
 
 # End-to-End Monaural Multi-speaker ASR System without Pretraining

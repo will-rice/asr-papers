@@ -1,23 +1,16 @@
 ---
-arxiv_id: s2:94a6d3a2d930ce05bc5aad38b5ca8990cd630c09
-title:
-  "Multilingual Video Translation and Speech Synthesis: A Deep Learning Approach
-  for Seamless Language Adaptation"
+identifier: semantic_scholar:94a6d3a2d930ce05bc5aad38b5ca8990cd630c09
+title: 'Multilingual Video Translation and Speech Synthesis: A Deep Learning Approach for Seamless Language Adaptation'
 authors:
-  - Frania Chettiar
-  - Harsh Lahrani
-  - Kapil Rathor
-submitted: "2025-03-06"
+- Frania Chettiar
+- Harsh Lahrani
+- Kapil Rathor
+published: '2025-03-06T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/94a6d3a2d930ce05bc5aad38b5ca8990cd630c09
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/94a6d3a2d930ce05bc5aad38b5ca8990cd630c09
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T18:45:49+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

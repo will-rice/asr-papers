@@ -1,23 +1,18 @@
 ---
-arxiv_id: s2:ab4b8fe73044fc944defef6dbdeb0465074429dd
+identifier: semantic_scholar:ab4b8fe73044fc944defef6dbdeb0465074429dd
 title: Multilingual end-to-end ASR for low-resource Turkic languages with common alphabets
 authors:
-  - A. Bekarystankyzy
-  - Orken J. Mamyrbayev
-  - Mateus Mendes
-  - A. Fazylzhanova
-  - Muhammad Assam
-submitted: "2024-06-15"
+- A. Bekarystankyzy
+- Orken J. Mamyrbayev
+- Mateus Mendes
+- A. Fazylzhanova
+- Muhammad Assam
+published: '2024-06-15T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/ab4b8fe73044fc944defef6dbdeb0465074429dd
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/ab4b8fe73044fc944defef6dbdeb0465074429dd
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T18:56:31+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

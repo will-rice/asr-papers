@@ -1,28 +1,23 @@
 ---
-arxiv_id: "2005.09629"
+identifier: arxiv:2005.09629
 title: Improved Noisy Student Training for Automatic Speech Recognition
 authors:
-  - Daniel S. Park
-  - Yu Zhang
-  - Ye Jia
-  - Wei Han
-  - Chung-Cheng Chiu
-  - Bo Li
-  - Yonghui Wu
-  - Quoc V. Le
-submitted: "2020-05-19"
+- Daniel S. Park
+- Yu Zhang
+- Ye Jia
+- Wei Han
+- Chung-Cheng Chiu
+- Bo Li
+- Yonghui Wu
+- Quoc V. Le
+published: '2020-05-19T00:00:00+00:00'
+url: https://arxiv.org/abs/2005.09629
+source: arxiv
+doi: null
+arxiv_id: '2005.09629'
 categories:
-  - eess.AS
-  - cs.LG
-arxiv_url: https://arxiv.org/abs/2005.09629
-github_repo: ""
-source: arxiv-html
-converter: pandoc
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T19:59:17+00:00"
-references_parsed: 0
-arxiv_version: ""
+- cs.LG
+- eess.AS
 ---
 
 # Improved Noisy Student Training for Automatic Speech Recognition

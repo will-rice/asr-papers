@@ -1,26 +1,21 @@
 ---
-arxiv_id: s2:8db532fe1ae4fbaec64fa2ec433d216d78d34b47
+identifier: semantic_scholar:8db532fe1ae4fbaec64fa2ec433d216d78d34b47
 title: Improved Hybrid Streaming ASR with Transformer Language Models
 authors:
-  - Pau Baquero-Arnal
-  - Javier Jorge
-  - Adrià Giménez
-  - J. Silvestre-Cerdà
-  - Javier Iranzo-Sánchez
-  - A. Sanchís
-  - Jorge Civera Saiz
-  - Alfons Juan-Císcar
-submitted: "2020-10-25"
+- Pau Baquero-Arnal
+- Javier Jorge
+- Adrià Giménez
+- J. Silvestre-Cerdà
+- Javier Iranzo-Sánchez
+- A. Sanchís
+- Jorge Civera Saiz
+- Alfons Juan-Císcar
+published: '2020-10-25T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/8db532fe1ae4fbaec64fa2ec433d216d78d34b47
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/8db532fe1ae4fbaec64fa2ec433d216d78d34b47
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T19:52:51+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

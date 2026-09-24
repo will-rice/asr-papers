@@ -1,20 +1,15 @@
 ---
-arxiv_id: s2:8519f5e45ab01eef747821be791c6be141808fab
+identifier: semantic_scholar:8519f5e45ab01eef747821be791c6be141808fab
 title: A Unified Perspective on CTC and Soft-DTW Using Differentiable DTW
 authors:
-  - Johannes Zeitler
-  - Meinard Müller
-submitted: "2026-01-01"
+- Johannes Zeitler
+- Meinard Müller
+published: '2026-01-01T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/8519f5e45ab01eef747821be791c6be141808fab
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/8519f5e45ab01eef747821be791c6be141808fab
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-08-09T06:29:37+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

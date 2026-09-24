@@ -1,24 +1,17 @@
 ---
-arxiv_id: "2508.09868"
-title:
-  Analysis of Domain Shift across ASR Architectures via TTS-Enabled Separation
-  of Target Domain and Acoustic Conditions
+identifier: arxiv:2508.09868
+title: Analysis of Domain Shift across ASR Architectures via TTS-Enabled Separation of Target Domain and Acoustic Conditions
 authors:
-  - Tina Raissi
-  - Nick Rossenbach
-  - Ralf Schlüter
-submitted: "2025-08-13"
+- Tina Raissi
+- Nick Rossenbach
+- Ralf Schlüter
+published: '2025-08-13T00:00:00+00:00'
+url: https://arxiv.org/abs/2508.09868
+source: arxiv
+doi: null
+arxiv_id: '2508.09868'
 categories:
-  - cs.SD
-arxiv_url: https://arxiv.org/abs/2508.09868
-github_repo: ""
-source: arxiv-html
-converter: pandoc
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T18:38:29+00:00"
-references_parsed: 0
-arxiv_version: ""
+- cs.SD
 ---
 
 Analysis of Domain Shift across ASR Architectures via TTS-Enabled Separation of Target Domain and Acoustic Conditions\

@@ -1,26 +1,19 @@
 ---
-arxiv_id: s2:31e28d1b6b81dc6e6e9bb948f48edce89e5ba91d
-title:
-  Real-Time Recognition of Peruvian Sign Language Using Convolutional Neural
-  Networks (CNNs)
+identifier: semantic_scholar:31e28d1b6b81dc6e6e9bb948f48edce89e5ba91d
+title: Real-Time Recognition of Peruvian Sign Language Using Convolutional Neural Networks (CNNs)
 authors:
-  - Sonia J. León-Jimenez
-  - Claudia C. Leon-Chavarri
-  - Rafael Chavez-Ugaz
-  - Lucia B. Suni-Chavez
-  - Fabricio Paredes-Larroca
-  - Ezilda M. Cabrera-Gil
-submitted: "2026-01-01"
+- Sonia J. León-Jimenez
+- Claudia C. Leon-Chavarri
+- Rafael Chavez-Ugaz
+- Lucia B. Suni-Chavez
+- Fabricio Paredes-Larroca
+- Ezilda M. Cabrera-Gil
+published: '2026-01-01T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/31e28d1b6b81dc6e6e9bb948f48edce89e5ba91d
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/31e28d1b6b81dc6e6e9bb948f48edce89e5ba91d
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-25T07:00:02+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

@@ -1,24 +1,17 @@
 ---
-arxiv_id: s2:f8f7b648b2b56fa3b2312f8f07b13f2a602d70cd
-title:
-  Improving Generalization of End-to-End ASR through Diversity and Independence
-  Regularization
+identifier: semantic_scholar:f8f7b648b2b56fa3b2312f8f07b13f2a602d70cd
+title: Improving Generalization of End-to-End ASR through Diversity and Independence Regularization
 authors:
-  - Ye-Eun Ko
-  - Mun-Hak Lee
-  - Donghyun Kim
-  - Joon-Hyuk Chang
-submitted: "2025-08-17"
+- Ye-Eun Ko
+- Mun-Hak Lee
+- Donghyun Kim
+- Joon-Hyuk Chang
+published: '2025-08-17T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/f8f7b648b2b56fa3b2312f8f07b13f2a602d70cd
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/f8f7b648b2b56fa3b2312f8f07b13f2a602d70cd
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T18:38:14+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

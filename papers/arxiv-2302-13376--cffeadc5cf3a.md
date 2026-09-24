@@ -1,27 +1,20 @@
 ---
-arxiv_id: "2302.13376"
-title:
-  Efficient Ensemble for Multimodal Punctuation Restoration using Time-Delay
-  Neural Network
+identifier: arxiv:2302.13376
+title: Efficient Ensemble for Multimodal Punctuation Restoration using Time-Delay Neural Network
 authors:
-  - Xing Yi Liu
-  - Homayoon Beigi
-submitted: "2023-02-26"
+- Xing Yi Liu
+- Homayoon Beigi
+published: '2023-02-26T00:00:00+00:00'
+url: https://arxiv.org/abs/2302.13376
+source: arxiv
+doi: null
+arxiv_id: '2302.13376'
 categories:
-  - cs.CL
-  - cs.HC
-  - cs.LG
-  - cs.SD
-  - eess.AS
-arxiv_url: https://arxiv.org/abs/2302.13376
-github_repo: ""
-source: arxiv-html
-converter: pandoc
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T19:16:52+00:00"
-references_parsed: 0
-arxiv_version: ""
+- cs.CL
+- cs.HC
+- cs.LG
+- cs.SD
+- eess.AS
 ---
 
 DOI: [10.1109/IMCOM60618.2024.10418445](https://doi.org/10.1109/IMCOM60618.2024.10418445)

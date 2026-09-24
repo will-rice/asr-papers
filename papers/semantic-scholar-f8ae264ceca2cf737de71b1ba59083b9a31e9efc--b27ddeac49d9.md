@@ -1,29 +1,22 @@
 ---
-arxiv_id: s2:f8ae264ceca2cf737de71b1ba59083b9a31e9efc
-title:
-  Hybrid RNN-T/Attention-Based Streaming ASR with Triggered Chunkwise Attention
-  and Dual Internal Language Model Integration
+identifier: semantic_scholar:f8ae264ceca2cf737de71b1ba59083b9a31e9efc
+title: Hybrid RNN-T/Attention-Based Streaming ASR with Triggered Chunkwise Attention and Dual Internal Language Model Integration
 authors:
-  - Takafumi Moriya
-  - Takanori Ashihara
-  - Atsushi Ando
-  - Hiroshi Sato
-  - Tomohiro Tanaka
-  - Kohei Matsuura
-  - Ryo Masumura
-  - Marc Delcroix
-  - T. Shinozaki
-submitted: "2022-05-23"
+- Takafumi Moriya
+- Takanori Ashihara
+- Atsushi Ando
+- Hiroshi Sato
+- Tomohiro Tanaka
+- Kohei Matsuura
+- Ryo Masumura
+- Marc Delcroix
+- T. Shinozaki
+published: '2022-05-23T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/f8ae264ceca2cf737de71b1ba59083b9a31e9efc
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/f8ae264ceca2cf737de71b1ba59083b9a31e9efc
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T19:27:39+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

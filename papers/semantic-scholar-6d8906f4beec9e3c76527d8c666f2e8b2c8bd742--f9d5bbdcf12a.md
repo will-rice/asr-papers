@@ -1,25 +1,18 @@
 ---
-arxiv_id: s2:6d8906f4beec9e3c76527d8c666f2e8b2c8bd742
-title:
-  "LCMA-SRT: Language-Conditional Mixture-of-Experts Adapters for Joint Multilingual
-  Speech Recognition and Translation"
+identifier: semantic_scholar:6d8906f4beec9e3c76527d8c666f2e8b2c8bd742
+title: 'LCMA-SRT: Language-Conditional Mixture-of-Experts Adapters for Joint Multilingual Speech Recognition and Translation'
 authors:
-  - Nan Li
-  - Xiaoyong Guo
-  - Hao Huang
-  - Haihua Xu
-  - Wei Shi
-submitted: "2026-01-01"
+- Nan Li
+- Xiaoyong Guo
+- Hao Huang
+- Haihua Xu
+- Wei Shi
+published: '2026-01-01T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/6d8906f4beec9e3c76527d8c666f2e8b2c8bd742
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/6d8906f4beec9e3c76527d8c666f2e8b2c8bd742
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-15T06:57:36+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

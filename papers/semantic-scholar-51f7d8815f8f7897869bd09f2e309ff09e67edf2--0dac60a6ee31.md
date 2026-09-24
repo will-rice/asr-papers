@@ -1,24 +1,17 @@
 ---
-arxiv_id: s2:51f7d8815f8f7897869bd09f2e309ff09e67edf2
-title:
-  Improving Speed/Accuracy Tradeoff for Online Streaming ASR via Real-Valued
-  and Trainable Strides
+identifier: semantic_scholar:51f7d8815f8f7897869bd09f2e309ff09e67edf2
+title: Improving Speed/Accuracy Tradeoff for Online Streaming ASR via Real-Valued and Trainable Strides
 authors:
-  - Dario Albesano
-  - Nicola Ferri
-  - F. Weninger
-  - Puming Zhan
-submitted: "2024-04-14"
+- Dario Albesano
+- Nicola Ferri
+- F. Weninger
+- Puming Zhan
+published: '2024-04-14T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/51f7d8815f8f7897869bd09f2e309ff09e67edf2
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/51f7d8815f8f7897869bd09f2e309ff09e67edf2
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T18:59:23+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

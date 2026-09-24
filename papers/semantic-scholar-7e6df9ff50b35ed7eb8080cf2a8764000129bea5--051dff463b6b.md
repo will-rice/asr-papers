@@ -1,20 +1,15 @@
 ---
-arxiv_id: s2:7e6df9ff50b35ed7eb8080cf2a8764000129bea5
+identifier: semantic_scholar:7e6df9ff50b35ed7eb8080cf2a8764000129bea5
 title: CTC Regularization for Low-Resource Speech-to-Text Translation
 authors:
-  - Zachary Hopton
-  - Rico Sennrich
-submitted: "2026-01-01"
+- Zachary Hopton
+- Rico Sennrich
+published: '2026-01-01T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/7e6df9ff50b35ed7eb8080cf2a8764000129bea5
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/7e6df9ff50b35ed7eb8080cf2a8764000129bea5
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-08-11T06:30:44+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

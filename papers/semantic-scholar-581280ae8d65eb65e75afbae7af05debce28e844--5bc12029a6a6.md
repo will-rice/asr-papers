@@ -1,23 +1,16 @@
 ---
-arxiv_id: s2:581280ae8d65eb65e75afbae7af05debce28e844
-title:
-  "Learning How Long to Wait: Adaptively-Constrained Monotonic Multihead Attention
-  for Streaming ASR"
+identifier: semantic_scholar:581280ae8d65eb65e75afbae7af05debce28e844
+title: 'Learning How Long to Wait: Adaptively-Constrained Monotonic Multihead Attention for Streaming ASR'
 authors:
-  - Jae-gyun Song
-  - Hajin Shim
-  - Eunho Yang
-submitted: "2021-12-13"
+- Jae-gyun Song
+- Hajin Shim
+- Eunho Yang
+published: '2021-12-13T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/581280ae8d65eb65e75afbae7af05debce28e844
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/581280ae8d65eb65e75afbae7af05debce28e844
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T19:34:30+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

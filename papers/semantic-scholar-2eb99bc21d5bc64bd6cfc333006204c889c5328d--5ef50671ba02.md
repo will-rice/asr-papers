@@ -1,24 +1,17 @@
 ---
-arxiv_id: s2:2eb99bc21d5bc64bd6cfc333006204c889c5328d
-title:
-  "Evaluating ASR Pipeline Configurations for Kazakh: Implications for Low-Resource
-  Turkic Languages"
+identifier: semantic_scholar:2eb99bc21d5bc64bd6cfc333006204c889c5328d
+title: 'Evaluating ASR Pipeline Configurations for Kazakh: Implications for Low-Resource Turkic Languages'
 authors:
-  - Nursultan Nyssanov
-  - L. Rzayeva
-  - Alisher Batkuldin
-  - Zhaksylyk Kozhakhmet
-submitted: "2026-07-15"
+- Nursultan Nyssanov
+- L. Rzayeva
+- Alisher Batkuldin
+- Zhaksylyk Kozhakhmet
+published: '2026-07-15T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/2eb99bc21d5bc64bd6cfc333006204c889c5328d
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/2eb99bc21d5bc64bd6cfc333006204c889c5328d
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-23T07:05:07+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

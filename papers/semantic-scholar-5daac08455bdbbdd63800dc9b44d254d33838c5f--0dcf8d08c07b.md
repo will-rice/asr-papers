@@ -1,26 +1,19 @@
 ---
-arxiv_id: s2:5daac08455bdbbdd63800dc9b44d254d33838c5f
-title:
-  Real-Time Accent Adaptation in English Speech Interfaces Using Federated Deep
-  Learning Across Multilingual Datasets
+identifier: semantic_scholar:5daac08455bdbbdd63800dc9b44d254d33838c5f
+title: Real-Time Accent Adaptation in English Speech Interfaces Using Federated Deep Learning Across Multilingual Datasets
 authors:
-  - Neha Jain
-  - Gayatri Avinash Amate
-  - Purnachandra Rao Alapati
-  - G. Bansode
-  - Sankar Musunoori
-  - S. B
-submitted: "2025-09-10"
+- Neha Jain
+- Gayatri Avinash Amate
+- Purnachandra Rao Alapati
+- G. Bansode
+- Sankar Musunoori
+- S. B
+published: '2025-09-10T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/5daac08455bdbbdd63800dc9b44d254d33838c5f
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/5daac08455bdbbdd63800dc9b44d254d33838c5f
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T18:36:59+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

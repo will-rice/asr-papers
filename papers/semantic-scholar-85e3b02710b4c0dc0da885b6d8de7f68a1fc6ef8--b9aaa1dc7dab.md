@@ -1,20 +1,15 @@
 ---
-arxiv_id: s2:85e3b02710b4c0dc0da885b6d8de7f68a1fc6ef8
+identifier: semantic_scholar:85e3b02710b4c0dc0da885b6d8de7f68a1fc6ef8
 title: Towards Scalable and Robust Multilingual ASR for Indian Languages with MixLoRA-Whisper
 authors:
-  - Yeseul Park
-  - Bowon Lee
-submitted: "2025-12-06"
+- Yeseul Park
+- Bowon Lee
+published: '2025-12-06T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/85e3b02710b4c0dc0da885b6d8de7f68a1fc6ef8
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/85e3b02710b4c0dc0da885b6d8de7f68a1fc6ef8
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T18:33:48+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

@@ -1,24 +1,17 @@
 ---
-arxiv_id: s2:1cbae5c820fb903a727bee2540cf817ad30c8010
-title:
-  "Thesis Proposal: Self-Adaptive and Epistemic Uncertainty-Guided ASR of Dense
-  Intra-Sentential Code-Switched Speech for African Low-Resource Languages"
+identifier: semantic_scholar:1cbae5c820fb903a727bee2540cf817ad30c8010
+title: 'Thesis Proposal: Self-Adaptive and Epistemic Uncertainty-Guided ASR of Dense Intra-Sentential Code-Switched Speech for African Low-Resource Languages'
 authors:
-  - U. Umar
-  - S. Bashir
-  - A. D. Mohammed
-  - A. G. Tafida
-submitted: "2026-01-01"
+- U. Umar
+- S. Bashir
+- A. D. Mohammed
+- A. G. Tafida
+published: '2026-01-01T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/1cbae5c820fb903a727bee2540cf817ad30c8010
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/1cbae5c820fb903a727bee2540cf817ad30c8010
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-31T07:12:57+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

@@ -1,23 +1,16 @@
 ---
-arxiv_id: s2:314fec5a604d6d3b840ca0cd147152781f931f86
-title:
-  Cumulative Attention Based Streaming Transformer ASR with Internal Language
-  Model Joint Training and Rescoring
+identifier: semantic_scholar:314fec5a604d6d3b840ca0cd147152781f931f86
+title: Cumulative Attention Based Streaming Transformer ASR with Internal Language Model Joint Training and Rescoring
 authors:
-  - Mohan Li
-  - Cong-Thanh Do
-  - R. Doddipatla
-submitted: "2023-06-04"
+- Mohan Li
+- Cong-Thanh Do
+- R. Doddipatla
+published: '2023-06-04T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/314fec5a604d6d3b840ca0cd147152781f931f86
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/314fec5a604d6d3b840ca0cd147152781f931f86
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T19:11:56+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

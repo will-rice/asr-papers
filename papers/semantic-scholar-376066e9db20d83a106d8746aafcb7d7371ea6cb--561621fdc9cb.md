@@ -1,24 +1,16 @@
 ---
-arxiv_id: s2:376066e9db20d83a106d8746aafcb7d7371ea6cb
-title:
-  Noise-Invariant Agentic Human–Robot Interaction GenAI System Using a Dual-Encoder
-  Contrastive ASR Architecture and VLMs for Robot Control and Navigation in Acoustically
-  Challenging Jobsites
+identifier: semantic_scholar:376066e9db20d83a106d8746aafcb7d7371ea6cb
+title: Noise-Invariant Agentic Human–Robot Interaction GenAI System Using a Dual-Encoder Contrastive ASR Architecture and VLMs for Robot Control and Navigation in Acoustically Challenging Jobsites
 authors:
-  - Oscar Poudel
-  - Rayan H. Assaad
-  - Mohamad Awada
-submitted: "2026-01-01"
+- Oscar Poudel
+- Rayan H. Assaad
+- Mohamad Awada
+published: '2026-01-01T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/376066e9db20d83a106d8746aafcb7d7371ea6cb
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/376066e9db20d83a106d8746aafcb7d7371ea6cb
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-08-20T06:22:42+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

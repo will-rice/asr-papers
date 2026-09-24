@@ -1,25 +1,18 @@
 ---
-arxiv_id: s2:af586651186e960b0c03c80e45d39e6e4e7cf8cf
-title:
-  Pre-Trained Multilingual Models for Low-Resource Sinhala Automatic Speech Recognition
-  Enhancement
+identifier: semantic_scholar:af586651186e960b0c03c80e45d39e6e4e7cf8cf
+title: Pre-Trained Multilingual Models for Low-Resource Sinhala Automatic Speech Recognition Enhancement
 authors:
-  - Inuri Harischandra
-  - Sasangi Nayanathara
-  - Thamira Weerakoon
-  - Randil Pushpananda
-  - Ruvan Weerasinghe
-submitted: "2025-12-08"
+- Inuri Harischandra
+- Sasangi Nayanathara
+- Thamira Weerakoon
+- Randil Pushpananda
+- Ruvan Weerasinghe
+published: '2025-12-08T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/af586651186e960b0c03c80e45d39e6e4e7cf8cf
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/af586651186e960b0c03c80e45d39e6e4e7cf8cf
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T18:33:43+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

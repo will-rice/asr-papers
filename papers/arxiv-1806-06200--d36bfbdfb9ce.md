@@ -1,25 +1,18 @@
 ---
-arxiv_id: "1806.06200"
-title:
-  Study of Semi-supervised Approaches to Improving English-Mandarin Code-Switching
-  Speech Recognition
+identifier: arxiv:1806.06200
+title: Study of Semi-supervised Approaches to Improving English-Mandarin Code-Switching Speech Recognition
 authors:
-  - Pengcheng Guo
-  - Haihua Xu
-  - Lei Xie
-  - Eng Siong Chng
-submitted: "2018-06-16"
+- Pengcheng Guo
+- Haihua Xu
+- Lei Xie
+- Eng Siong Chng
+published: '2018-06-16T00:00:00+00:00'
+url: https://arxiv.org/abs/1806.06200
+source: arxiv
+doi: null
+arxiv_id: '1806.06200'
 categories:
-  - cs.CL
-arxiv_url: https://arxiv.org/abs/1806.06200
-github_repo: ""
-source: arxiv-html
-converter: pandoc
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T20:17:41+00:00"
-references_parsed: 0
-arxiv_version: ""
+- cs.CL
 ---
 
 # Study of Semi-supervised Approaches to Improving English-Mandarin Code-Switching Speech Recognition

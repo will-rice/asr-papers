@@ -1,26 +1,19 @@
 ---
-arxiv_id: "2403.16655"
-title:
-  "Grammatical vs Spelling Error Correction: An Investigation into the Responsiveness
-  of Transformer-based Language Models using BART and MarianMT"
+identifier: arxiv:2403.16655
+title: 'Grammatical vs Spelling Error Correction: An Investigation into the Responsiveness of Transformer-based Language Models using BART and MarianMT'
 authors:
-  - Rohit Raju
-  - Peeta Basa Pati
-  - SA Gandheesh
-  - Gayatri Sanjana Sannala
-  - Suriya KS
-submitted: "2024-03-25"
+- Rohit Raju
+- Peeta Basa Pati
+- SA Gandheesh
+- Gayatri Sanjana Sannala
+- Suriya KS
+published: '2024-03-25T00:00:00+00:00'
+url: https://arxiv.org/abs/2403.16655
+source: arxiv
+doi: null
+arxiv_id: '2403.16655'
 categories:
-  - cs.CL
-arxiv_url: https://arxiv.org/abs/2403.16655
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T19:00:04+00:00"
-references_parsed: 0
-arxiv_version: ""
+- cs.CL
 ---
 
 ## Abstract

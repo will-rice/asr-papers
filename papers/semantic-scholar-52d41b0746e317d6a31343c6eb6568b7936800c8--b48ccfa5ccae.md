@@ -1,19 +1,14 @@
 ---
-arxiv_id: s2:52d41b0746e317d6a31343c6eb6568b7936800c8
+identifier: semantic_scholar:52d41b0746e317d6a31343c6eb6568b7936800c8
 title: Automatic Assessment of L2 Speech Intelligibility and Pronunciation
 authors:
-  - Xing Wei
-submitted: "2026-08-25"
+- Xing Wei
+published: '2026-08-25T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/52d41b0746e317d6a31343c6eb6568b7936800c8
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/52d41b0746e317d6a31343c6eb6568b7936800c8
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-08-30T06:22:07+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

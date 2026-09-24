@@ -1,31 +1,24 @@
 ---
-arxiv_id: s2:00e8aef5ed097814aa61e783eeaebd7ecf54977c
-title:
-  Speech translation for multilingual medical education leveraged by large language
-  models
+identifier: semantic_scholar:00e8aef5ed097814aa61e783eeaebd7ecf54977c
+title: Speech translation for multilingual medical education leveraged by large language models
 authors:
-  - Jorge Iranzo-Sánchez
-  - Jaume Santamaria-Jorda
-  - Gerard Mas-Mollà
-  - Gonçal V. Garcés Díaz-Munío
-  - Javier Iranzo-Sánchez
-  - Javier Jorge
-  - J. Silvestre-Cerdà
-  - Adrià Giménez
-  - Jorge Civera
-  - Albert Sanchís
-  - Alfons Juan-Císcar
-submitted: "2025-05-01"
+- Jorge Iranzo-Sánchez
+- Jaume Santamaria-Jorda
+- Gerard Mas-Mollà
+- Gonçal V. Garcés Díaz-Munío
+- Javier Iranzo-Sánchez
+- Javier Jorge
+- J. Silvestre-Cerdà
+- Adrià Giménez
+- Jorge Civera
+- Albert Sanchís
+- Alfons Juan-Císcar
+published: '2025-05-01T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/00e8aef5ed097814aa61e783eeaebd7ecf54977c
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/00e8aef5ed097814aa61e783eeaebd7ecf54977c
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T18:44:48+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

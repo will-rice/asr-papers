@@ -1,25 +1,20 @@
 ---
-arxiv_id: "2201.06469"
+identifier: arxiv:2201.06469
 title: Handling Compounding in Mobile Keyboard Input
 authors:
-  - Andreas Kabel
-  - Keith Hall
-  - Tom Ouyang
-  - David Rybach
-  - Daan van Esch
-  - Françoise Beaufays
-submitted: "2022-01-17"
+- Andreas Kabel
+- Keith Hall
+- Tom Ouyang
+- David Rybach
+- Daan van Esch
+- Françoise Beaufays
+published: '2022-01-17T00:00:00+00:00'
+url: https://arxiv.org/abs/2201.06469
+source: arxiv
+doi: null
+arxiv_id: '2201.06469'
 categories:
-  - cs.CL
-arxiv_url: https://arxiv.org/abs/2201.06469
-github_repo: ""
-source: arxiv-html
-converter: pandoc
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T19:33:37+00:00"
-references_parsed: 0
-arxiv_version: ""
+- cs.CL
 ---
 
 # Handling Compounding in Mobile Keyboard Input

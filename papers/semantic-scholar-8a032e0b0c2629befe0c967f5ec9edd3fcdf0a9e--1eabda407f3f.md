@@ -1,23 +1,16 @@
 ---
-arxiv_id: s2:8a032e0b0c2629befe0c967f5ec9edd3fcdf0a9e
-title:
-  Structural Ambiguity Resolution in Indonesian–English Speech-to-Text Translation
-  by Utilizing Prosodic Information
+identifier: semantic_scholar:8a032e0b0c2629befe0c967f5ec9edd3fcdf0a9e
+title: Structural Ambiguity Resolution in Indonesian–English Speech-to-Text Translation by Utilizing Prosodic Information
 authors:
-  - Ruhiyah Faradishi Widiaputri
-  - Ayu Purwarianti
-  - S. Sakti
-submitted: "2026-01-01"
+- Ruhiyah Faradishi Widiaputri
+- Ayu Purwarianti
+- S. Sakti
+published: '2026-01-01T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/8a032e0b0c2629befe0c967f5ec9edd3fcdf0a9e
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/8a032e0b0c2629befe0c967f5ec9edd3fcdf0a9e
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-13T07:18:10+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

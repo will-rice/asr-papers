@@ -1,25 +1,18 @@
 ---
-arxiv_id: s2:97984887c38d47fd7101de0efbdaa167e6c1adc2
-title:
-  "HIPA-MoE: A Parameter-Efficient Fine-Tuning Architecture with Hierarchical
-  Adapter-Based Mixture-Of-Experts for Multilingual ASR"
+identifier: semantic_scholar:97984887c38d47fd7101de0efbdaa167e6c1adc2
+title: 'HIPA-MoE: A Parameter-Efficient Fine-Tuning Architecture with Hierarchical Adapter-Based Mixture-Of-Experts for Multilingual ASR'
 authors:
-  - Xun Lu
-  - Xuyang Wang
-  - Gaofeng Cheng
-  - Lin Zheng
-  - Pengyuan Zhang
-submitted: "2025-10-22"
+- Xun Lu
+- Xuyang Wang
+- Gaofeng Cheng
+- Lin Zheng
+- Pengyuan Zhang
+published: '2025-10-22T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/97984887c38d47fd7101de0efbdaa167e6c1adc2
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/97984887c38d47fd7101de0efbdaa167e6c1adc2
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T18:35:08+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

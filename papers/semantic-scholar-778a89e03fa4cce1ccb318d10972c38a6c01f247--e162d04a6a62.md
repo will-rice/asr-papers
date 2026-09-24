@@ -1,23 +1,16 @@
 ---
-arxiv_id: s2:778a89e03fa4cce1ccb318d10972c38a6c01f247
-title:
-  "Analysing Korean children's speech data for early childhood educational services:
-  age-specific insights from text and audio analysis"
+identifier: semantic_scholar:778a89e03fa4cce1ccb318d10972c38a6c01f247
+title: 'Analysing Korean children''s speech data for early childhood educational services: age-specific insights from text and audio analysis'
 authors:
-  - Haein Lee
-  - H. Jung
-  - K. Park
-submitted: "2026-08-12"
+- Haein Lee
+- H. Jung
+- K. Park
+published: '2026-08-12T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/778a89e03fa4cce1ccb318d10972c38a6c01f247
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/778a89e03fa4cce1ccb318d10972c38a6c01f247
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-08-15T06:19:44+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

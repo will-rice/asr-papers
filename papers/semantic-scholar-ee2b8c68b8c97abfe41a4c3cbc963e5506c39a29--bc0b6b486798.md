@@ -1,25 +1,18 @@
 ---
-arxiv_id: s2:ee2b8c68b8c97abfe41a4c3cbc963e5506c39a29
-title:
-  Speech-enriched Memory for Inference-time Adaptation of ASR Models to Word
-  Dictionaries
+identifier: semantic_scholar:ee2b8c68b8c97abfe41a4c3cbc963e5506c39a29
+title: Speech-enriched Memory for Inference-time Adaptation of ASR Models to Word Dictionaries
 authors:
-  - Ashish R. Mittal
-  - Sunita Sarawagi
-  - P. Jyothi
-  - G. Saon
-  - Gakuto Kurata
-submitted: "2023-01-01"
+- Ashish R. Mittal
+- Sunita Sarawagi
+- P. Jyothi
+- G. Saon
+- Gakuto Kurata
+published: '2023-01-01T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/ee2b8c68b8c97abfe41a4c3cbc963e5506c39a29
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/ee2b8c68b8c97abfe41a4c3cbc963e5506c39a29
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T19:18:17+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

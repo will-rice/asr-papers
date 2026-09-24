@@ -1,21 +1,16 @@
 ---
-arxiv_id: "2410.13318"
+identifier: arxiv:2410.13318
 title: Computational Approaches to Arabic-English Code-Switching
 authors:
-  - Caroline Sabty
-submitted: "2024-10-17"
+- Caroline Sabty
+published: '2024-10-17T00:00:00+00:00'
+url: https://arxiv.org/abs/2410.13318
+source: arxiv
+doi: null
+arxiv_id: '2410.13318'
 categories:
-  - cs.CL
-  - cs.AI
-arxiv_url: https://arxiv.org/abs/2410.13318
-github_repo: ""
-source: arxiv-html
-converter: pandoc
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T18:50:43+00:00"
-references_parsed: 0
-arxiv_version: ""
+- cs.AI
+- cs.CL
 ---
 
 \noautomath

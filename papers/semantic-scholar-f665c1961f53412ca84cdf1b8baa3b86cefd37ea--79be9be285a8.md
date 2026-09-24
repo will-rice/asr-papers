@@ -1,26 +1,19 @@
 ---
-arxiv_id: s2:f665c1961f53412ca84cdf1b8baa3b86cefd37ea
-title:
-  Live Streaming Speech Recognition Using Deep Bidirectional LSTM Acoustic Models
-  and Interpolated Language Models
+identifier: semantic_scholar:f665c1961f53412ca84cdf1b8baa3b86cefd37ea
+title: Live Streaming Speech Recognition Using Deep Bidirectional LSTM Acoustic Models and Interpolated Language Models
 authors:
-  - Javier Jorge
-  - Adrià Giménez
-  - J. Silvestre-Cerdà
-  - Jorge Civera Saiz
-  - A. Sanchís
-  - A. Juan
-submitted: "2022-01-01"
+- Javier Jorge
+- Adrià Giménez
+- J. Silvestre-Cerdà
+- Jorge Civera Saiz
+- A. Sanchís
+- A. Juan
+published: '2022-01-01T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/f665c1961f53412ca84cdf1b8baa3b86cefd37ea
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/f665c1961f53412ca84cdf1b8baa3b86cefd37ea
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T19:33:56+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

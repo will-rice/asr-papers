@@ -1,20 +1,15 @@
 ---
-arxiv_id: s2:f949735b2471d6caa531ce032cd1a85ecb2add22
+identifier: semantic_scholar:f949735b2471d6caa531ce032cd1a85ecb2add22
 title: Regarding the Existence of the Internal Language Model in CTC-Based E2E ASR
 authors:
-  - Zeyu Zhao
-  - Peter Bell
-submitted: "2025-04-06"
+- Zeyu Zhao
+- Peter Bell
+published: '2025-04-06T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/f949735b2471d6caa531ce032cd1a85ecb2add22
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/f949735b2471d6caa531ce032cd1a85ecb2add22
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T18:45:02+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

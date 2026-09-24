@@ -1,36 +1,29 @@
 ---
-arxiv_id: "2102.11588"
-title:
-  "Data Fusion for Audiovisual Speaker Localization: Extending Dynamic Stream
-  Weights to the Spatial Domain"
+identifier: arxiv:2102.11588
+title: 'Data Fusion for Audiovisual Speaker Localization: Extending Dynamic Stream Weights to the Spatial Domain'
 authors:
-  - Julio Wissing
-  - Benedikt Boenninghoff
-  - Dorothea Kolossa
-  - Tsubasa Ochiai
-  - Marc Delcroix
-  - Keisuke Kinoshita
-  - Tomohiro Nakatani
-  - Shoko Araki
-  - Christopher Schymura
-submitted: "2021-02-23"
+- Julio Wissing
+- Benedikt Boenninghoff
+- Dorothea Kolossa
+- Tsubasa Ochiai
+- Marc Delcroix
+- Keisuke Kinoshita
+- Tomohiro Nakatani
+- Shoko Araki
+- Christopher Schymura
+published: '2021-02-23T00:00:00+00:00'
+url: https://arxiv.org/abs/2102.11588
+source: arxiv
+doi: null
+arxiv_id: '2102.11588'
 categories:
-  - cs.SD
-  - cs.AI
-  - cs.CL
-  - cs.CV
-  - cs.LG
-  - eess.AS
-  - eess.IV
-arxiv_url: https://arxiv.org/abs/2102.11588
-github_repo: ""
-source: arxiv-html
-converter: pandoc
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T19:47:48+00:00"
-references_parsed: 0
-arxiv_version: ""
+- cs.AI
+- cs.CL
+- cs.CV
+- cs.LG
+- cs.SD
+- eess.AS
+- eess.IV
 ---
 
 DATA FUSION FOR AUDIOVISUAL SPEAKER LOCALIZATION:\

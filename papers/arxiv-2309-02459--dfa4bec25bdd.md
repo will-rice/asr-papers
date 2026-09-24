@@ -1,32 +1,25 @@
 ---
-arxiv_id: "2309.02459"
-title:
-  Text-Only Domain Adaptation for End-to-End Speech Recognition through Down-Sampling
-  Acoustic Representation
+identifier: arxiv:2309.02459
+title: Text-Only Domain Adaptation for End-to-End Speech Recognition through Down-Sampling Acoustic Representation
 authors:
-  - Jiaxu Zhu
-  - Weinan Tong
-  - Yaoxun Xu
-  - Changhe Song
-  - Zhiyong Wu
-  - Zhao You
-  - Dan Su
-  - Dong Yu
-  - Helen Meng
-submitted: "2023-09-04"
+- Jiaxu Zhu
+- Weinan Tong
+- Yaoxun Xu
+- Changhe Song
+- Zhiyong Wu
+- Zhao You
+- Dan Su
+- Dong Yu
+- Helen Meng
+published: '2023-09-04T00:00:00+00:00'
+url: https://arxiv.org/abs/2309.02459
+source: arxiv
+doi: null
+arxiv_id: '2309.02459'
 categories:
-  - cs.SD
-  - cs.CL
-  - eess.AS
-arxiv_url: https://arxiv.org/abs/2309.02459
-github_repo: ""
-source: arxiv-html
-converter: pandoc
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T19:08:02+00:00"
-references_parsed: 0
-arxiv_version: ""
+- cs.CL
+- cs.SD
+- eess.AS
 ---
 
 \interspeechcameraready\name

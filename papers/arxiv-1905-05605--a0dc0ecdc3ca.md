@@ -1,26 +1,21 @@
 ---
-arxiv_id: "1905.05605"
+identifier: arxiv:1905.05605
 title: Encrypted Speech Recognition using Deep Polynomial Networks
 authors:
-  - Shi-Xiong Zhang
-  - Yifan Gong
-  - Dong Yu
-submitted: "2019-05-11"
+- Shi-Xiong Zhang
+- Yifan Gong
+- Dong Yu
+published: '2019-05-11T00:00:00+00:00'
+url: https://arxiv.org/abs/1905.05605
+source: arxiv
+doi: null
+arxiv_id: '1905.05605'
 categories:
-  - cs.CR
-  - cs.CL
-  - cs.SD
-  - eess.AS
-  - stat.ML
-arxiv_url: https://arxiv.org/abs/1905.05605
-github_repo: ""
-source: latex
-converter: pandoc
-llm_remediated: false
-citations_resolved: 3/27
-citations_resolved_at: "2026-07-07T20:10:15+00:00"
-references_parsed: 27
-arxiv_version: ""
+- cs.CL
+- cs.CR
+- cs.SD
+- eess.AS
+- stat.ML
 ---
 
 <div class="keywords">
@@ -349,7 +344,7 @@ The cloud-based SR service empowers users or third-parties to try state-of-art s
     Lynn-Li Lim, et~al.,
     \newblock ``English conversational telephone speech recognition by humans and
     machines,''
-    \newblock {\em arXiv preprint arXiv:1703.02136}, 2017. [arXiv:1703.02136](../2017/1703.02136.md)
+    \newblock {\em arXiv preprint arXiv:1703.02136}, 2017. [arXiv:1703.02136](arxiv-1703-02136--f9f3873f1b61.md)
 26. Shi-Xiong Zhang, Zhuo Chen, Yong Zhao, Jinyu Li, and Yifan Gong,
     \newblock ``End-to-end attention based text-dependent speaker verification,''
     \newblock in {\em Spoken Language Technology Workshop (SLT), 2016 IEEE}. IEEE,

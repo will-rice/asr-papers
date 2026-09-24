@@ -1,22 +1,17 @@
 ---
-arxiv_id: s2:e9b1ac6649a75e046d9cf8bf1523bd03d28b8637
+identifier: semantic_scholar:e9b1ac6649a75e046d9cf8bf1523bd03d28b8637
 title: Transfer and Triangulation Pivot Translation Approaches for Burmese Dialects
 authors:
-  - T. Oo
-  - T. Tanprasert
-  - Ye Kyaw Thu
-  - T. Supnithi
-submitted: "2023-01-01"
+- T. Oo
+- T. Tanprasert
+- Ye Kyaw Thu
+- T. Supnithi
+published: '2023-01-01T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/e9b1ac6649a75e046d9cf8bf1523bd03d28b8637
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/e9b1ac6649a75e046d9cf8bf1523bd03d28b8637
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T19:18:18+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

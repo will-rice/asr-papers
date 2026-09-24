@@ -1,31 +1,24 @@
 ---
-arxiv_id: s2:26da0b420c12d06f15af0a0f15b826c96a193beb
-title:
-  "Europarl-ASR: A Large Corpus of Parliamentary Debates for Streaming ASR Benchmarking
-  and Speech Data Filtering/Verbatimization"
+identifier: semantic_scholar:26da0b420c12d06f15af0a0f15b826c96a193beb
+title: 'Europarl-ASR: A Large Corpus of Parliamentary Debates for Streaming ASR Benchmarking and Speech Data Filtering/Verbatimization'
 authors:
-  - Gonçal V. Garcés Díaz-Munío
-  - J. Silvestre-Cerdà
-  - Javier Jorge
-  - Adrián Giménez Pastor
-  - Javier Iranzo-Sánchez
-  - Pau Baquero-Arnal
-  - Nahuel Roselló
-  - Alejandro Pérez-González-de-Martos
-  - Jorge Civera Saiz
-  - A. Sanchís
-  - A. Juan
-submitted: "2021-08-30"
+- Gonçal V. Garcés Díaz-Munío
+- J. Silvestre-Cerdà
+- Javier Jorge
+- Adrián Giménez Pastor
+- Javier Iranzo-Sánchez
+- Pau Baquero-Arnal
+- Nahuel Roselló
+- Alejandro Pérez-González-de-Martos
+- Jorge Civera Saiz
+- A. Sanchís
+- A. Juan
+published: '2021-08-30T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/26da0b420c12d06f15af0a0f15b826c96a193beb
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/26da0b420c12d06f15af0a0f15b826c96a193beb
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T19:39:19+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

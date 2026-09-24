@@ -1,21 +1,14 @@
 ---
-arxiv_id: s2:1e9a3c8b6bc1c81aa1ca706da188bff5349f2d3c
-title:
-  "Att2RAG: A Double-Condition Framework for Knowledge Poisoning Attacks on RAG
-  Systems"
+identifier: semantic_scholar:1e9a3c8b6bc1c81aa1ca706da188bff5349f2d3c
+title: 'Att2RAG: A Double-Condition Framework for Knowledge Poisoning Attacks on RAG Systems'
 authors:
-  - Zhize Hao
-submitted: "2026-01-01"
+- Zhize Hao
+published: '2026-01-01T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/1e9a3c8b6bc1c81aa1ca706da188bff5349f2d3c
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/1e9a3c8b6bc1c81aa1ca706da188bff5349f2d3c
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-09-03T06:24:34+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

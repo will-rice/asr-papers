@@ -1,25 +1,18 @@
 ---
-arxiv_id: "2604.26296"
-title:
-  "SPG-Codec: Exploring the Role and Boundaries of Semantic Priors in Ultra-Low-Bitrate
-  Neural Speech Coding"
+identifier: arxiv:2604.26296
+title: 'SPG-Codec: Exploring the Role and Boundaries of Semantic Priors in Ultra-Low-Bitrate Neural Speech Coding'
 authors:
-  - Mingyu Zhao
-  - Zijian Lin
-  - Kun Wei
-  - Zhiyong Wu
-submitted: "2026-04-29"
+- Mingyu Zhao
+- Zijian Lin
+- Kun Wei
+- Zhiyong Wu
+published: '2026-04-29T00:00:00+00:00'
+url: https://arxiv.org/abs/2604.26296
+source: arxiv
+doi: null
+arxiv_id: '2604.26296'
 categories:
-  - eess.AS
-arxiv_url: https://arxiv.org/abs/2604.26296
-github_repo: ""
-source: arxiv-html
-converter: pandoc
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T18:28:24+00:00"
-references_parsed: 0
-arxiv_version: ""
+- eess.AS
 ---
 
 # SPG-Codec: Exploring the Role and Boundaries of Semantic Priors in Ultra-Low-Bitrate Neural Speech Coding

@@ -1,28 +1,21 @@
 ---
-arxiv_id: s2:9e8b8d25c94aa67025a441d8fb838749d4c79dba
-title:
-  Improving RNN-T for Domain Scaling Using Semi-Supervised Training with Neural
-  TTS
+identifier: semantic_scholar:9e8b8d25c94aa67025a441d8fb838749d4c79dba
+title: Improving RNN-T for Domain Scaling Using Semi-Supervised Training with Neural TTS
 authors:
-  - Yan Deng
-  - Rui Zhao
-  - Zhong Meng
-  - Xie Chen
-  - Bing Liu
-  - Jinyu Li
-  - Yifan Gong
-  - Lei He
-submitted: "2021-08-30"
+- Yan Deng
+- Rui Zhao
+- Zhong Meng
+- Xie Chen
+- Bing Liu
+- Jinyu Li
+- Yifan Gong
+- Lei He
+published: '2021-08-30T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/9e8b8d25c94aa67025a441d8fb838749d4c79dba
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/9e8b8d25c94aa67025a441d8fb838749d4c79dba
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T19:39:20+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

@@ -1,25 +1,20 @@
 ---
-arxiv_id: "2309.17395"
-title: "AV-CPL: Continuous Pseudo-Labeling for Audio-Visual Speech Recognition"
+identifier: arxiv:2309.17395
+title: 'AV-CPL: Continuous Pseudo-Labeling for Audio-Visual Speech Recognition'
 authors:
-  - Andrew Rouditchenko
-  - Ronan Collobert
-  - Tatiana Likhomanenko
-submitted: "2023-09-29"
+- Andrew Rouditchenko
+- Ronan Collobert
+- Tatiana Likhomanenko
+published: '2023-09-29T00:00:00+00:00'
+url: https://arxiv.org/abs/2309.17395
+source: arxiv
+doi: null
+arxiv_id: '2309.17395'
 categories:
-  - cs.LG
-  - cs.SD
-  - eess.AS
-  - stat.ML
-arxiv_url: https://arxiv.org/abs/2309.17395
-github_repo: ""
-source: arxiv-html
-converter: pandoc
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T19:06:15+00:00"
-references_parsed: 0
-arxiv_version: ""
+- cs.LG
+- cs.SD
+- eess.AS
+- stat.ML
 ---
 
 # AV-CPL: Continuous Pseudo-Labeling for Audio-Visual Speech Recognition

@@ -1,23 +1,18 @@
 ---
-arxiv_id: s2:df4f0c97d4ee2e28bb8a88fcc9a1c865a861fc69
+identifier: semantic_scholar:df4f0c97d4ee2e28bb8a88fcc9a1c865a861fc69
 title: Cross Attention Augmented Transducer Networks for Simultaneous Translation
 authors:
-  - Dan Liu
-  - Mengge Du
-  - Xiaoxi Li
-  - Ya Li
-  - Enhong Chen
-submitted: "2021-01-01"
+- Dan Liu
+- Mengge Du
+- Xiaoxi Li
+- Ya Li
+- Enhong Chen
+published: '2021-01-01T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/df4f0c97d4ee2e28bb8a88fcc9a1c865a861fc69
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/df4f0c97d4ee2e28bb8a88fcc9a1c865a861fc69
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T19:49:28+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

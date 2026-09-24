@@ -1,25 +1,18 @@
 ---
-arxiv_id: s2:30acaa4525bdc2c23744379fed3bbac7170d9cef
-title:
-  Telugu Language Low-resource ASR Fine-Tuning with Wav2Vec2-XLS-R-300 and Interface
-  Development
+identifier: semantic_scholar:30acaa4525bdc2c23744379fed3bbac7170d9cef
+title: Telugu Language Low-resource ASR Fine-Tuning with Wav2Vec2-XLS-R-300 and Interface Development
 authors:
-  - A. Bharadwaj
-  - K. Laxmi Srina
-  - K. Snuhith
-  - R. Bhavani
-  - M. Jabbar
-submitted: "2025-05-09"
+- A. Bharadwaj
+- K. Laxmi Srina
+- K. Snuhith
+- R. Bhavani
+- M. Jabbar
+published: '2025-05-09T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/30acaa4525bdc2c23744379fed3bbac7170d9cef
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/30acaa4525bdc2c23744379fed3bbac7170d9cef
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T18:44:35+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

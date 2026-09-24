@@ -1,22 +1,17 @@
 ---
-arxiv_id: "2408.16589"
-title: "CrisperWhisper: Accurate Timestamps on Verbatim Speech Transcriptions"
+identifier: arxiv:2408.16589
+title: 'CrisperWhisper: Accurate Timestamps on Verbatim Speech Transcriptions'
 authors:
-  - Laurin Wagner
-  - Bernhard Thallinger
-  - Mario Zusag
-submitted: "2024-08-29"
+- Laurin Wagner
+- Bernhard Thallinger
+- Mario Zusag
+published: '2024-08-29T00:00:00+00:00'
+url: https://arxiv.org/abs/2408.16589
+source: arxiv
+doi: null
+arxiv_id: '2408.16589'
 categories:
-  - cs.LG
-arxiv_url: https://arxiv.org/abs/2408.16589
-github_repo: ""
-source: arxiv-html
-converter: pandoc
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T18:53:19+00:00"
-references_parsed: 0
-arxiv_version: ""
+- cs.LG
 ---
 
 \interspeechcameraready\name

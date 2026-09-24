@@ -1,29 +1,22 @@
 ---
-arxiv_id: s2:af1b479b87afe3718b3bcfb26b917a995c86e53e
-title:
-  "iRead: A Reading Enhancement Platform with Integrated Small-Vocabulary Speech
-  Recognition for English, Filipino, and Hiligaynon"
+identifier: semantic_scholar:af1b479b87afe3718b3bcfb26b917a995c86e53e
+title: 'iRead: A Reading Enhancement Platform with Integrated Small-Vocabulary Speech Recognition for English, Filipino, and Hiligaynon'
 authors:
-  - Jan Carlo T. Arroyo
-  - Bon Eric A. Besonia
-  - Allemar Jhone P. Delima
-  - Felipe P. Vista IV
-  - Mark Ronar G. Galagala
-  - Marieth Flor M. Bernardez
-  - Shiela Mae H. Espora
-  - A. Zaragosa
-  - Rizzamila R. Superio
-submitted: "2026-08-08"
+- Jan Carlo T. Arroyo
+- Bon Eric A. Besonia
+- Allemar Jhone P. Delima
+- Felipe P. Vista IV
+- Mark Ronar G. Galagala
+- Marieth Flor M. Bernardez
+- Shiela Mae H. Espora
+- A. Zaragosa
+- Rizzamila R. Superio
+published: '2026-08-08T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/af1b479b87afe3718b3bcfb26b917a995c86e53e
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/af1b479b87afe3718b3bcfb26b917a995c86e53e
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-08-12T06:42:14+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

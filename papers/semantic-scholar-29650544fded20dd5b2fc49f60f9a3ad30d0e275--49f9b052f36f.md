@@ -1,23 +1,18 @@
 ---
-arxiv_id: s2:29650544fded20dd5b2fc49f60f9a3ad30d0e275
-title: "Speech Recognition Using Deep Neural Networks: A Systematic Review"
+identifier: semantic_scholar:29650544fded20dd5b2fc49f60f9a3ad30d0e275
+title: 'Speech Recognition Using Deep Neural Networks: A Systematic Review'
 authors:
-  - Ali Bou Nassif
-  - I. Shahin
-  - Imtinan B. Attili
-  - Mohammad Azzeh
-  - Khaled Shaalan
-submitted: "2019-02-01"
+- Ali Bou Nassif
+- I. Shahin
+- Imtinan B. Attili
+- Mohammad Azzeh
+- Khaled Shaalan
+published: '2019-02-01T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/29650544fded20dd5b2fc49f60f9a3ad30d0e275
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/29650544fded20dd5b2fc49f60f9a3ad30d0e275
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T20:12:23+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

@@ -1,24 +1,19 @@
 ---
-arxiv_id: "2505.11391"
-title: "LipDiffuser: Lip-to-Speech Generation with Conditional Diffusion Models"
+identifier: arxiv:2505.11391
+title: 'LipDiffuser: Lip-to-Speech Generation with Conditional Diffusion Models'
 authors:
-  - Julius Richter
-  - Danilo de Oliveira
-  - Tal Peer
-  - Timo Gerkmann
-submitted: "2025-05-16"
+- Julius Richter
+- Danilo de Oliveira
+- Tal Peer
+- Timo Gerkmann
+published: '2025-05-16T00:00:00+00:00'
+url: https://arxiv.org/abs/2505.11391
+source: arxiv
+doi: null
+arxiv_id: '2505.11391'
 categories:
-  - eess.AS
-  - cs.SD
-arxiv_url: https://arxiv.org/abs/2505.11391
-github_repo: ""
-source: arxiv-html
-converter: pandoc
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T18:44:33+00:00"
-references_parsed: 0
-arxiv_version: ""
+- cs.SD
+- eess.AS
 ---
 
 Signal Processing, University of Hamburg, Germany

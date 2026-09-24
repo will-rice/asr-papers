@@ -1,30 +1,23 @@
 ---
-arxiv_id: "2208.03067"
-title:
-  "Large vocabulary speech recognition for languages of Africa: multilingual
-  modeling and self-supervised learning"
+identifier: arxiv:2208.03067
+title: 'Large vocabulary speech recognition for languages of Africa: multilingual modeling and self-supervised learning'
 authors:
-  - Sandy Ritchie
-  - You-Chi Cheng
-  - Mingqing Chen
-  - Rajiv Mathews
-  - Daan van Esch
-  - Bo Li
-  - Khe Chai Sim
-submitted: "2022-08-05"
+- Sandy Ritchie
+- You-Chi Cheng
+- Mingqing Chen
+- Rajiv Mathews
+- Daan van Esch
+- Bo Li
+- Khe Chai Sim
+published: '2022-08-05T00:00:00+00:00'
+url: https://arxiv.org/abs/2208.03067
+source: arxiv
+doi: null
+arxiv_id: '2208.03067'
 categories:
-  - cs.CL
-  - cs.SD
-  - eess.AS
-arxiv_url: https://arxiv.org/abs/2208.03067
-github_repo: ""
-source: arxiv-html
-converter: pandoc
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T19:24:35+00:00"
-references_parsed: 0
-arxiv_version: ""
+- cs.CL
+- cs.SD
+- eess.AS
 ---
 
 # Large vocabulary speech recognition for languages of Africa: multilingual modeling and self-supervised learning

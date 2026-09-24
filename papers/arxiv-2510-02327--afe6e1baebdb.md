@@ -1,27 +1,20 @@
 ---
-arxiv_id: "2510.02327"
-title:
-  "KAME: Tandem Architecture for Enhancing Knowledge in Real-Time Speech-to-Speech
-  Conversational AI"
+identifier: arxiv:2510.02327
+title: 'KAME: Tandem Architecture for Enhancing Knowledge in Real-Time Speech-to-Speech Conversational AI'
 authors:
-  - So Kuroki
-  - Yotaro Kubo
-  - Takuya Akiba
-  - Yujin Tang
-submitted: "2025-09-26"
+- So Kuroki
+- Yotaro Kubo
+- Takuya Akiba
+- Yujin Tang
+published: '2025-09-26T00:00:00+00:00'
+url: https://arxiv.org/abs/2510.02327
+source: arxiv
+doi: null
+arxiv_id: '2510.02327'
 categories:
-  - cs.CL
-  - cs.AI
-  - eess.AS
-arxiv_url: https://arxiv.org/abs/2510.02327
-github_repo: ""
-source: arxiv-html
-converter: pandoc
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T18:36:08+00:00"
-references_parsed: 0
-arxiv_version: ""
+- cs.AI
+- cs.CL
+- eess.AS
 ---
 
 KAME: TANDEM ARCHITECTURE FOR ENHANCING KNOWLEDGE\

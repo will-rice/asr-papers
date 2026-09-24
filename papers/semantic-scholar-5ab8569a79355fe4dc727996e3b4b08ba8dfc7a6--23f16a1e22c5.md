@@ -1,24 +1,17 @@
 ---
-arxiv_id: s2:5ab8569a79355fe4dc727996e3b4b08ba8dfc7a6
-title:
-  Enhanced Video Summarization Using Superframe-Based Segmentation with Deep
-  Learning and Multilingual Support
+identifier: semantic_scholar:5ab8569a79355fe4dc727996e3b4b08ba8dfc7a6
+title: Enhanced Video Summarization Using Superframe-Based Segmentation with Deep Learning and Multilingual Support
 authors:
-  - R. Sarala
-  - N.R.K Akkash Dheep
-  - M. F. Khan
-  - A.R Dhineshkumar
-submitted: "2025-11-27"
+- R. Sarala
+- N.R.K Akkash Dheep
+- M. F. Khan
+- A.R Dhineshkumar
+published: '2025-11-27T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/5ab8569a79355fe4dc727996e3b4b08ba8dfc7a6
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/5ab8569a79355fe4dc727996e3b4b08ba8dfc7a6
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T18:34:09+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

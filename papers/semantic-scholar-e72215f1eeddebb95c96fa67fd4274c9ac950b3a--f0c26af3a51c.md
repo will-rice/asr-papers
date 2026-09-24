@@ -1,31 +1,26 @@
 ---
-arxiv_id: s2:e72215f1eeddebb95c96fa67fd4274c9ac950b3a
+identifier: semantic_scholar:e72215f1eeddebb95c96fa67fd4274c9ac950b3a
 title: Streaming On-Device End-to-End ASR System for Privacy-Sensitive Voice-Typing
 authors:
-  - Abhinav Garg
-  - Gowtham P. Vadisetti
-  - Dhananjaya N. Gowda
-  - Sichen Jin
-  - Aditya Jayasimha
-  - Young-Kyu Han
-  - Jiyeon Kim
-  - Junmo Park
-  - Kwangyoun Kim
-  - Sooyeon Kim
-  - Young-Yoon Lee
-  - Kyung-Joong Min
-  - Chanwoo Kim
-submitted: "2020-10-25"
+- Abhinav Garg
+- Gowtham P. Vadisetti
+- Dhananjaya N. Gowda
+- Sichen Jin
+- Aditya Jayasimha
+- Young-Kyu Han
+- Jiyeon Kim
+- Junmo Park
+- Kwangyoun Kim
+- Sooyeon Kim
+- Young-Yoon Lee
+- Kyung-Joong Min
+- Chanwoo Kim
+published: '2020-10-25T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/e72215f1eeddebb95c96fa67fd4274c9ac950b3a
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/e72215f1eeddebb95c96fa67fd4274c9ac950b3a
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T19:52:51+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

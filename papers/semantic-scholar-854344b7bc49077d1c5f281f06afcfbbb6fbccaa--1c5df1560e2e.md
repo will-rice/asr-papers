@@ -1,23 +1,16 @@
 ---
-arxiv_id: s2:854344b7bc49077d1c5f281f06afcfbbb6fbccaa
-title:
-  A Novel Recurrent Convolutional Neural Network Framework for Continuous Sign
-  Language Recognition Using Iterative Training and Multimodal Fusion
+identifier: semantic_scholar:854344b7bc49077d1c5f281f06afcfbbb6fbccaa
+title: A Novel Recurrent Convolutional Neural Network Framework for Continuous Sign Language Recognition Using Iterative Training and Multimodal Fusion
 authors:
-  - K. Krishnaiah
-  - P. V. Krishna
-  - H. H
-submitted: "2026-01-01"
+- K. Krishnaiah
+- P. V. Krishna
+- H. H
+published: '2026-01-01T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/854344b7bc49077d1c5f281f06afcfbbb6fbccaa
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/854344b7bc49077d1c5f281f06afcfbbb6fbccaa
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-15T06:57:36+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

@@ -1,27 +1,22 @@
 ---
-arxiv_id: s2:4db2063a3bd0ae621a1b8d177d098e84c0a45844
+identifier: semantic_scholar:4db2063a3bd0ae621a1b8d177d098e84c0a45844
 title: Streaming End-to-End Speech Recognition for Hybrid RNN-T/Attention Architecture
 authors:
-  - Takafumi Moriya
-  - Tomohiro Tanaka
-  - Takanori Ashihara
-  - Tsubasa Ochiai
-  - Hiroshi Sato
-  - Atsushi Ando
-  - Ryo Masumura
-  - Marc Delcroix
-  - Taichi Asami
-submitted: "2021-08-30"
+- Takafumi Moriya
+- Tomohiro Tanaka
+- Takanori Ashihara
+- Tsubasa Ochiai
+- Hiroshi Sato
+- Atsushi Ando
+- Ryo Masumura
+- Marc Delcroix
+- Taichi Asami
+published: '2021-08-30T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/4db2063a3bd0ae621a1b8d177d098e84c0a45844
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/4db2063a3bd0ae621a1b8d177d098e84c0a45844
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T19:39:20+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

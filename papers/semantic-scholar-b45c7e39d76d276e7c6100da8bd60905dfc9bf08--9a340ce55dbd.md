@@ -1,24 +1,19 @@
 ---
-arxiv_id: s2:b45c7e39d76d276e7c6100da8bd60905dfc9bf08
+identifier: semantic_scholar:b45c7e39d76d276e7c6100da8bd60905dfc9bf08
 title: AI Powered Educational Video Summarization & Quiz Generation
 authors:
-  - A. Sawant
-  - Vedant Dhamane
-  - Ayusha Patil
-  - Kishan Chaudhary
-  - Eshaan Dasarwar
-  - Saif Bichu
-submitted: "2026-01-01"
+- A. Sawant
+- Vedant Dhamane
+- Ayusha Patil
+- Kishan Chaudhary
+- Eshaan Dasarwar
+- Saif Bichu
+published: '2026-01-01T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/b45c7e39d76d276e7c6100da8bd60905dfc9bf08
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/b45c7e39d76d276e7c6100da8bd60905dfc9bf08
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-13T07:18:11+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

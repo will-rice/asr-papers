@@ -1,25 +1,20 @@
 ---
-arxiv_id: s2:78ac809f38acad5a09d10bb928373b7f6e6bcb94
-title: "KNN-CTC$+$: Retrieval-Augmented Decoding for Robust CTC-Based ASR"
+identifier: semantic_scholar:78ac809f38acad5a09d10bb928373b7f6e6bcb94
+title: 'KNN-CTC$+$: Retrieval-Augmented Decoding for Robust CTC-Based ASR'
 authors:
-  - Jiaming Zhou
-  - Shiwan Zhao
-  - Hui Wang
-  - Haoqin Sun
-  - Wenjia Zeng
-  - Yong Chen
-  - Yong Qin
-submitted: "2026-01-01"
+- Jiaming Zhou
+- Shiwan Zhao
+- Hui Wang
+- Haoqin Sun
+- Wenjia Zeng
+- Yong Chen
+- Yong Qin
+published: '2026-01-01T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/78ac809f38acad5a09d10bb928373b7f6e6bcb94
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/78ac809f38acad5a09d10bb928373b7f6e6bcb94
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-29T07:30:12+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

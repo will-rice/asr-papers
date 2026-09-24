@@ -1,26 +1,21 @@
 ---
-arxiv_id: "2111.03017"
-title: "MT3: Multi-Task Multitrack Music Transcription"
+identifier: arxiv:2111.03017
+title: 'MT3: Multi-Task Multitrack Music Transcription'
 authors:
-  - Josh Gardner
-  - Ian Simon
-  - Ethan Manilow
-  - Curtis Hawthorne
-  - Jesse Engel
-submitted: "2021-11-04"
+- Josh Gardner
+- Ian Simon
+- Ethan Manilow
+- Curtis Hawthorne
+- Jesse Engel
+published: '2021-11-04T00:00:00+00:00'
+url: https://arxiv.org/abs/2111.03017
+source: arxiv
+doi: null
+arxiv_id: '2111.03017'
 categories:
-  - cs.SD
-  - cs.LG
-  - eess.AS
-arxiv_url: https://arxiv.org/abs/2111.03017
-github_repo: ""
-source: arxiv-html
-converter: pandoc
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T19:35:55+00:00"
-references_parsed: 0
-arxiv_version: ""
+- cs.LG
+- cs.SD
+- eess.AS
 ---
 
 MT3: Multi-Task Multitrack\

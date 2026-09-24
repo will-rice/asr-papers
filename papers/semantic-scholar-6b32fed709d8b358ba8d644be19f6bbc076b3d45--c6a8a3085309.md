@@ -1,21 +1,16 @@
 ---
-arxiv_id: s2:6b32fed709d8b358ba8d644be19f6bbc076b3d45
+identifier: semantic_scholar:6b32fed709d8b358ba8d644be19f6bbc076b3d45
 title: Phonetic RNN-Transducer for Mispronunciation Diagnosis
 authors:
-  - Dan Zhang
-  - Soumya Saha
-  - Sarah Campbell
-submitted: "2023-06-04"
+- Dan Zhang
+- Soumya Saha
+- Sarah Campbell
+published: '2023-06-04T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/6b32fed709d8b358ba8d644be19f6bbc076b3d45
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/6b32fed709d8b358ba8d644be19f6bbc076b3d45
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T19:11:57+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

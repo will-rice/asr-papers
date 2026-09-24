@@ -1,24 +1,19 @@
 ---
-arxiv_id: "2005.13211"
+identifier: arxiv:2005.13211
 title: Insertion-Based Modeling for End-to-End Automatic Speech Recognition
 authors:
-  - Yuya Fujita
-  - Shinji Watanabe
-  - Motoi Omachi
-  - Xuankai Chan
-submitted: "2020-05-27"
+- Yuya Fujita
+- Shinji Watanabe
+- Motoi Omachi
+- Xuankai Chan
+published: '2020-05-27T00:00:00+00:00'
+url: https://arxiv.org/abs/2005.13211
+source: arxiv
+doi: null
+arxiv_id: '2005.13211'
 categories:
-  - eess.AS
-  - cs.SD
-arxiv_url: https://arxiv.org/abs/2005.13211
-github_repo: ""
-source: arxiv-html
-converter: pandoc
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T19:58:31+00:00"
-references_parsed: 0
-arxiv_version: ""
+- cs.SD
+- eess.AS
 ---
 
 # Insertion-Based Modeling for End-to-End Automatic Speech Recognition

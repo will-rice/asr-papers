@@ -1,20 +1,15 @@
 ---
-arxiv_id: s2:b90ac0931e6b60662e684a7e92c07d2e3ee84518
+identifier: semantic_scholar:b90ac0931e6b60662e684a7e92c07d2e3ee84518
 title: Dynamic Diffusion Programming and Classification
 authors:
-  - Jen-Tzung Chien
-  - Chia-Kai Yeh
-submitted: "2026-01-01"
+- Jen-Tzung Chien
+- Chia-Kai Yeh
+published: '2026-01-01T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/b90ac0931e6b60662e684a7e92c07d2e3ee84518
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/b90ac0931e6b60662e684a7e92c07d2e3ee84518
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-13T07:18:10+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

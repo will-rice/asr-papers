@@ -1,23 +1,18 @@
 ---
-arxiv_id: s2:505d9f862052756a071871f6c5faf3f6f1c13496
+identifier: semantic_scholar:505d9f862052756a071871f6c5faf3f6f1c13496
 title: Context-Aware Two-Stage Training for Domain Generalization in Speech Separation
 authors:
-  - Wupeng Wang
-  - Zexu Pan
-  - Jingru Lin
-  - Shuai Wang
-  - Haizhou Li
-submitted: "2026-01-01"
+- Wupeng Wang
+- Zexu Pan
+- Jingru Lin
+- Shuai Wang
+- Haizhou Li
+published: '2026-01-01T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/505d9f862052756a071871f6c5faf3f6f1c13496
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/505d9f862052756a071871f6c5faf3f6f1c13496
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-08-16T06:20:16+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

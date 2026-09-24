@@ -1,24 +1,19 @@
 ---
-arxiv_id: "2210.11885"
+identifier: arxiv:2210.11885
 title: Deep LSTM Spoken Term Detection using Wav2Vec 2.0 Recognizer
 authors:
-  - Jan Švec
-  - Jan Lehečka
-  - Luboš Šmídl
-submitted: "2022-10-21"
+- Jan Švec
+- Jan Lehečka
+- Luboš Šmídl
+published: '2022-10-21T00:00:00+00:00'
+url: https://arxiv.org/abs/2210.11885
+source: arxiv
+doi: null
+arxiv_id: '2210.11885'
 categories:
-  - cs.CL
-  - cs.SD
-  - eess.AS
-arxiv_url: https://arxiv.org/abs/2210.11885
-github_repo: ""
-source: arxiv-html
-converter: pandoc
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T19:22:19+00:00"
-references_parsed: 0
-arxiv_version: ""
+- cs.CL
+- cs.SD
+- eess.AS
 ---
 
 # Deep LSTM Spoken Term Detection using Wav2Vec 2.0 Recognizer

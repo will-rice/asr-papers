@@ -1,24 +1,17 @@
 ---
-arxiv_id: "2410.14709"
-title:
-  A two-stage transliteration approach to improve performance of a multilingual
-  ASR
+identifier: arxiv:2410.14709
+title: A two-stage transliteration approach to improve performance of a multilingual ASR
 authors:
-  - Rohit Kumar
-submitted: "2024-10-09"
+- Rohit Kumar
+published: '2024-10-09T00:00:00+00:00'
+url: https://arxiv.org/abs/2410.14709
+source: arxiv
+doi: null
+arxiv_id: '2410.14709'
 categories:
-  - cs.CL
-  - cs.SD
-  - eess.AS
-arxiv_url: https://arxiv.org/abs/2410.14709
-github_repo: ""
-source: arxiv-html
-converter: pandoc
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T18:51:00+00:00"
-references_parsed: 0
-arxiv_version: ""
+- cs.CL
+- cs.SD
+- eess.AS
 ---
 
 # A two-stage transliteration approach to improve performance of a multilingual ASR

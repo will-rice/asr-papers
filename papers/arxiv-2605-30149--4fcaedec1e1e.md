@@ -1,26 +1,19 @@
 ---
-arxiv_id: "2605.30149"
-title:
-  Deep Binarized Photonic Reservoir Computing for Ultrafast Multimedia Signal
-  Processing
+identifier: arxiv:2605.30149
+title: Deep Binarized Photonic Reservoir Computing for Ultrafast Multimedia Signal Processing
 authors:
-  - Muhammad Waqar Iqbal
-  - Mohamad Alassir
-  - Nicolas Marsal
-  - Damien Rontani
-submitted: "2026-05-28"
+- Muhammad Waqar Iqbal
+- Mohamad Alassir
+- Nicolas Marsal
+- Damien Rontani
+published: '2026-05-28T00:00:00+00:00'
+url: https://arxiv.org/abs/2605.30149
+source: arxiv
+doi: null
+arxiv_id: '2605.30149'
 categories:
-  - cs.NE
-  - physics.optics
-arxiv_url: https://arxiv.org/abs/2605.30149
-github_repo: ""
-source: arxiv-html
-converter: pandoc
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T18:27:20+00:00"
-references_parsed: 0
-arxiv_version: ""
+- cs.NE
+- physics.optics
 ---
 
 ¹¹affiliationtext: Université de Lorraine, CentraleSupélec, LMOPS Laboratory, F-57070 Metz, France²²affiliationtext: Chaire Photonique, LMOPS Laboratory, CentraleSupélec, F-57070 Metz, France^(\*)^(\*)affiliationtext: muhammad-waqar.iqbal@centralesupélec.fr - damien.rontani@centralesupelec.fr

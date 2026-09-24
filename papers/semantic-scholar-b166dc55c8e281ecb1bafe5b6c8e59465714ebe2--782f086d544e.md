@@ -1,28 +1,23 @@
 ---
-arxiv_id: s2:b166dc55c8e281ecb1bafe5b6c8e59465714ebe2
+identifier: semantic_scholar:b166dc55c8e281ecb1bafe5b6c8e59465714ebe2
 title: Hot-Fixing Wake Word Recognition for End-to-End ASR Via Neural Model Reprogramming
 authors:
-  - Pin-Jui Ku
-  - I-Fan Chen
-  - Chao-Han Huck Yang
-  - A. Raju
-  - Pranav Dheram
-  - Pegah Ghahremani
-  - Brian King
-  - Jing Liu
-  - Roger Ren
-  - P. S. Nidadavolu
-submitted: "2024-04-14"
+- Pin-Jui Ku
+- I-Fan Chen
+- Chao-Han Huck Yang
+- A. Raju
+- Pranav Dheram
+- Pegah Ghahremani
+- Brian King
+- Jing Liu
+- Roger Ren
+- P. S. Nidadavolu
+published: '2024-04-14T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/b166dc55c8e281ecb1bafe5b6c8e59465714ebe2
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/b166dc55c8e281ecb1bafe5b6c8e59465714ebe2
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T18:59:23+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

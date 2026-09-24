@@ -1,22 +1,15 @@
 ---
-arxiv_id: s2:e10ac2c5e38286440c338bb06f4dbf3b1569f85b
-title:
-  "Review: Multilingual Acoustic modeling of Automatic Speech Recognition(ASR)
-  for low resource languages"
+identifier: semantic_scholar:e10ac2c5e38286440c338bb06f4dbf3b1569f85b
+title: 'Review: Multilingual Acoustic modeling of Automatic Speech Recognition(ASR) for low resource languages'
 authors:
-  - Suvarnsing G. Bhable
-  - C. Kayte
-submitted: "2020-12-30"
+- Suvarnsing G. Bhable
+- C. Kayte
+published: '2020-12-30T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/e10ac2c5e38286440c338bb06f4dbf3b1569f85b
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/e10ac2c5e38286440c338bb06f4dbf3b1569f85b
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T19:49:28+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

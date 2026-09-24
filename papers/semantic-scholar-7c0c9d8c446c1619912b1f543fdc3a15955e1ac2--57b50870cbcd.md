@@ -1,28 +1,21 @@
 ---
-arxiv_id: s2:7c0c9d8c446c1619912b1f543fdc3a15955e1ac2
-title:
-  Knowledge Distillation via Module Replacing for Automatic Speech Recognition
-  with Recurrent Neural Network Transducer
+identifier: semantic_scholar:7c0c9d8c446c1619912b1f543fdc3a15955e1ac2
+title: Knowledge Distillation via Module Replacing for Automatic Speech Recognition with Recurrent Neural Network Transducer
 authors:
-  - Kaiqi Zhao
-  - H. Nguyen
-  - Animesh Jain
-  - Nathan Susanj
-  - A. Mouchtaris
-  - Lokesh
-  - A Gupta
-  - Ming Zhao
-submitted: "2022-09-18"
+- Kaiqi Zhao
+- H. Nguyen
+- Animesh Jain
+- Nathan Susanj
+- A. Mouchtaris
+- Lokesh
+- A Gupta
+- Ming Zhao
+published: '2022-09-18T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/7c0c9d8c446c1619912b1f543fdc3a15955e1ac2
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/7c0c9d8c446c1619912b1f543fdc3a15955e1ac2
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T19:23:31+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

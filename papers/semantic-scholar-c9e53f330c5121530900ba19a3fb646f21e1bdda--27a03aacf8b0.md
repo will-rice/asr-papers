@@ -1,22 +1,15 @@
 ---
-arxiv_id: s2:c9e53f330c5121530900ba19a3fb646f21e1bdda
-title:
-  Joint Learning of Language Identification and Multilingual ASR Using Deep Neural
-  Architectures
+identifier: semantic_scholar:c9e53f330c5121530900ba19a3fb646f21e1bdda
+title: Joint Learning of Language Identification and Multilingual ASR Using Deep Neural Architectures
 authors:
-  - Nisha Madewaal
-  - G. Rani
-submitted: "2025-11-07"
+- Nisha Madewaal
+- G. Rani
+published: '2025-11-07T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/c9e53f330c5121530900ba19a3fb646f21e1bdda
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/c9e53f330c5121530900ba19a3fb646f21e1bdda
-github_repo: ""
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T18:34:47+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract
