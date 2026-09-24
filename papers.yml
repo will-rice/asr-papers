@@ -6,18 +6,25 @@ adapters:
   - name: arxiv
     enabled: true
     secret_env: null
-    lookback_days: 7
+    # Daily runs look back 8 days so a missed run never drops papers.
+    lookback_days: 8
     page_size: 100
     max_pages: 5
     max_results: 500
-    filters: {}
+    # Walk history back to the corpus's earliest publication year, 90 days
+    # per nightly run.
+    backfill_start: 2012-01-01
+    backfill_days: 90
+    filters:
+      # Title or abstract phrase match for each legacy search query.
+      search_query: 'ti:"speech recognition" OR abs:"speech recognition" OR ti:"speech-to-text" OR abs:"speech-to-text" OR ti:"speech to text" OR abs:"speech to text" OR ti:"speech transcription" OR abs:"speech transcription" OR ti:"end-to-end ASR" OR abs:"end-to-end ASR" OR ti:"streaming ASR" OR abs:"streaming ASR" OR ti:"multilingual ASR" OR abs:"multilingual ASR" OR ti:"word error rate" OR abs:"word error rate" OR ti:"speech foundation model" OR abs:"speech foundation model" OR ti:"RNN transducer" OR abs:"RNN transducer"'
 topic:
-  include_any:
-    - "A curated, automatically-updated collection of ASR papers with an LLM-friendly markdown corpus."
+  include_any: []
   include_all: []
   exclude_any: []
   categories: []
-  plugin: null
+  # Word-bounded ASR + ML + negative-keyword rule; see topic_plugin.py.
+  plugin: topic_plugin:accept_topic
 fetch:
   request_timeout_seconds: 30
   retries: 3
