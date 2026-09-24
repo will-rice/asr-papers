@@ -61,7 +61,7 @@ Select _full = true_ to back-fill from 2015 and rebuild all paper markdown, or l
 
 <!-- PAPERS_TABLE_START -->
 
-_Showing the last 30 days (46 of 5571 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
+_Showing the last 30 days (36 of 5571 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
 
 <details open>
 <summary><h3>2026</h3></summary>
@@ -459,116 +459,6 @@ This doctoral dissertation investigates methods to enhance the automatic assessm
 <summary>Abstract</summary>
 
 While text-based hallucination detection has been extensively studied, spoken hallucination detection remains largely unexplored, particularly for low-resource languages. We present the first multilingual spoken hallucination benchmark comprising 12,013 news samples across English, Russian, and Kazakh with controlled hallucinations of three types and three severity levels. Samples comprise original articles and aligned hallucinated counterparts in text and audio. We complement the synthetic corpus with 290 fact-checked fake news items collected natively in Russian (225) and Kazakh (65), translated into the other language and rendered through the same TTS-ASR pipeline. We assess fine-tuned multilingual encoders and, in zero-shot in-context settings, multimodal decoder models on transcript-based versus direct audio processing. Transcript-based detection generally outperforms direct audio processing, with binary-task degradation for strong encoders tracking per-language ASR error. On real-world fakes, synthetic-trained detectors transfer strongly (macro-F1 0.82-0.88 on original text), while Russian provenance analysis reveals both veracity-related and model-dependent machine-style signals, quantifying a key confound in synthetic hallucination benchmarks.
-
-</details>
-
-#### [Unsupervised Speech Recognition at the Syllable Level](https://arxiv.org/abs/2608.22907) · [📄 Read](papers/2026/2608.22907.md)
-
-**Liming Wang, Kai-Wei Chang, Kunio Kashino, David Harwath et al.** · 2026-08-24
-
-<details>
-<summary>Abstract</summary>
-
-Training speech recognizers with unpaired speech and text -- known as unsupervised speech recognition (UASR) -- is a crucial step toward extending ASR to low-resource languages in the long-tail distribution and enabling multimodal learning from non-parallel data. However, existing approaches based on phones often rely on costly resources such as grapheme-to-phoneme converters (G2Ps) and struggle to generalize to languages with ambiguous phoneme boundaries due to training instability. In this paper, we address both challenges by introducing a syllable-level UASR framework based on masked language modeling, which avoids the need for G2P and the instability of GAN-based methods. Our approach achieves up to a 40\% relative reduction in character error rate (CER) on LibriSpeech and generalizes effectively to low-resource languages that have remained particularly difficult for prior methods. Code is publicly available\footnote{https://github.com/cactuswiththoughts/SylCipher}.
-
-</details>
-
-#### [Better Retrieval, Worse Robustness: How Multi-hop RAG Amplifies Upstream ASR Errors](https://arxiv.org/abs/2608.22872) · [📄 Read](papers/2026/2608.22872.md)
-
-**Zhenghua Bao** · 2026-08-24
-
-<details>
-<summary>Abstract</summary>
-
-Speech-based applications pass spoken queries through automatic speech recognition (ASR) before any retrieval module, so ASR errors enter the pipeline as a fixed upstream constraint. We empirically test whether two extensions to standard retrieval-augmented generation (RAG), entity-graph linking and iterative reformulation, absorb or amplify these errors. Using four English accents synthesized through neural TTS, we evaluate four RAG configurations on three multi-hop QA benchmarks (HotpotQA, 2WikiMultiHopQA and MuSiQue) against a clean-text oracle. Although the structurally richer configurations generally retain higher absolute F1 under ASR input, both extensions amplify the error: the F1 gap from clean text to the highest-WER accent is 36-67% larger under their combination than under naive dense retrieval, on all three benchmarks. The dominant failure mode is corruption of one or more query entities, accounting for 87-96% of degradation cases on 2WikiMultiHopQA across all four methods. Two lightweight surface-form mitigations leave most of the gap intact, indicating that downstream retrieval structure amplifies remaining entity errors. We release code and data at https://github.com/Continuum-AI-Corp/spoken-multihop-rag .
-
-</details>
-
-#### [DiaScriber: A Speech LLM for Joint Diarization and Transcription in Multi-Speaker Scenarios](https://arxiv.org/abs/2608.22796) · [📄 Read](papers/2026/2608.22796.md)
-
-**Bingshen Mu, Xian Shi, Xiong Wang, Zhifang Guo et al.** · 2026-08-24
-
-<details>
-<summary>Abstract</summary>
-
-Multi-speaker automatic speech recognition (MSASR) aims to jointly predict content transcriptions, speaker identities, and timestamps, thereby addressing the key question of "who spoke what and when" and holds substantial practical value in real-world multi-speaker scenarios. However, MSASR still encounters considerable challenges in the presence of fast turn transitions, overlapping speech, and complex, diverse multi-speaker scenarios. In this work, we propose DiaScriber, an end-to-end multi-speaker diarization and transcription model built on a speech large language model. We first construct diverse data pipelines to cover a wide variety of multi-speaker scenarios and their complexities, including validation and refinement, turn-transition and overlapping-speech simulation, and multimodal annotation. Furthermore, DiaScriber is developed based on the pretrained version of Qwen3.5-Omni through a three-stage training strategy involving continual pretraining, supervised fine-tuning, and reinforcement learning. Experiments show that DiaScriber achieves superior performance over comparison methods across extensive multi-speaker scenario test sets and demonstrates outstanding generalization ability in unseen multi-speaker scenarios.
-
-</details>
-
-#### [AffAdapt: AFFect-driven ADAPTive AI Personas for Seamless Conversations](https://arxiv.org/abs/2608.22702) · [📄 Read](papers/2026/2608.22702.md)
-
-**Nishanth Chidambaram, Kaustubh Paliwal, Kayla Hom, Shaoze Zhou et al.** · 2026-08-24
-
-<details>
-<summary>Abstract</summary>
-
-AI-generated personas are being increasingly used for support, training and simulations. While generative AI models possess abilities to generate affect-aware responses, their embodiment into visual personas is an active area of investigation. Naturalistic exchanges require understanding of the conversational partners' turn completions, whether the agent should respond or keep listening and rely on non-verbal cues aligned with one's emotional states. Seamless human-AI conversation in a multimodal setting requires all modalities being generated to act in coordination. We present AffAdapt, a seamless interaction design framework for AI-personas, which coordinates streaming speech recognition, proactive turn-management, persona-grounded response generation, a persistent emotional state, and synchronized embodied output into a single interaction loop. We demonstrate the architecture in the context of practicing sensitive, high-stakes conversations, and report an initial case study showing fluid turn management and adaptive, persona-consistent behavior, alongside open challenges in interruption handling, open-ended dialogue, and multimodal affective alignment. AffAdapt's interaction loop is a generalizable pattern for coordinating timing, identity, and affect in real-time AI personas - applicable to training, coaching, education, and simulation contexts wherever believable, responsive interaction matters.
-
-</details>
-
-#### [Lightweight LLM-based Speech Recognition via KAN Adapters](https://www.semanticscholar.org/paper/70aed4a563d81219b32f255e4889695c4a1c6f67) · [📄 Read](papers/2026/s2:70aed4a563d81219b32f255e4889695c4a1c6f67.md)
-
-**Yuxi Li, Yan Wang** · 2026-08-24
-
-<details>
-<summary>Abstract</summary>
-
-In recent years, the combination of large language model (LLM) and pre-trained voice encoder has shown great potential in the field of automatic speech recognition (ASR). However, bridging the modal communication between acoustic characterization and language embedding often requires a large number of training parameters, which makes it difficult for them to apply in environments with limited resources. This study proposes to use the Kolmogorov-Arnold network (KANs) as a simplified adapter for the automatic speech recognition (ASR) system based on the Large Language Model (LLM). And by introducing a KAN adapter between the pre-trained voice encoder and TinyLlama-1.1B, the system improves the correspondence between acoustic characterization and language characterization with very few training parameters. The experimental results show stable optimization characteristics, with a word error rate (WER) of 16.79% and a character error rate (CER) of 10.46%. These results highlight the potential of KAN-based adapters in ASR systems with limited resources and parameters. The KAN-based adapter provides a promising and parameter-efficient solution for matching acoustic and language scenarios. In another words, in the resource-limited automatic speech recognition (ASR) scenario, which is crucial to computing efficiency and training stability, it shows significant advantages.
-
-</details>
-
-#### [Understanding Multilingual Medical ASR Adaptation Through Layer-Wise Analysis](https://arxiv.org/abs/2608.18825) · [📄 Read](papers/2026/2608.18825.md)
-
-**Souranil Kahali, Rituparna Bose, Abner Hernandez, Tomas Arias-Vergara et al.** · 2026-08-19
-
-<details>
-<summary>Abstract</summary>
-
-Medical automatic speech recognition (MedASR) requires adaptation to specialised terminology, limited annotated clinical data, and multilingual use cases. Although large-scale pretrained ASR models such as Whisper achieve strong generalisation, their behaviour after medical and multilingual adaptation remains insufficiently understood beyond word error rate (WER). This paper investigates how multilingual medical adaptation reshapes the internal representations of Whisper models through layer-wise encoder analysis. We compare zero-shot decoding, English-only fine-tuning, German-only diagnostic fine-tuning, two-stage EN->EN+DE continuation, and direct EN+DE fine-tuning across Whisper model sizes. Fine-tuning substantially improves MedASR performance, but the best model depends on the adaptation setting: Whisper-Medium gives the lowest English WER (7.72%) and the lowest combined EN+DE WER under direct EN+DE training (26.30%); German-only Whisper-Large-v3 gives the lowest German WER (44.96%), but as a within-corpus diagnostic on 86 single-speaker training utterances rather than robust generalisation. Layer-wise analysis of the two-stage Whisper-Small trajectory shows that English medical fine-tuning produces the dominant encoder shift, whereas multilingual continuation largely preserves the adapted representation space. Domain and language information remain highly recoverable across layers, while linearly recoverable error-predictive cues weaken as WER improves.
-
-</details>
-
-#### [A Speech Corpus for Mizo Automatic Speech Recognition: Whisper and SraVaani 1.0 Fine-Tuning with Morphology-Aware Evaluation](https://arxiv.org/abs/2608.19361) · [📄 Read](papers/2026/2608.19361.md)
-
-**Priyankoo Sarmah, Sanasam Ranbir Singh, Lalhmingmawia** · 2026-08-19
-
-<details>
-<summary>Abstract</summary>
-
-This study reports the development of an Automatic Speech Recognition (ASR) system in Mizo, a low-resource language. The development included collecting 17.62 hours of speech data, curating it, and fine-tuning the Mizo ASR system with three Whisper multilingual models and with the SraVaani 1.0 Indic multilingual model. Whisper-large-v3 achieved the lowest conventional WER (18.08%), while morphology-aware evaluation yielded a WER of 7.22%. Zero-shot evaluation of the SraVaani 1.0 Indic multilingual model yielded a WER of 58.27%, while Mizo-specific fine-tuning reduced the conventional WER to 29.45% and the morphology-aware WER to 17.93%. The results demonstrate that the Whisper model can achieve a substantially low WER, even when adapted to an unseen language. In contrast, SraVaani 1.0 supports the Mizo language in its multilingual model; however, fine-tuning with carefully curated Mizo speech data substantially improves its performance.
-
-</details>
-
-#### [Verifikasi Otomatis Bukti Pembayaran SPP Berbasis OCR pada Sistem Informasi Manajemen Sekolah](https://www.semanticscholar.org/paper/f0348456b5df81cbfc78502594b92806674b0c7a)
-
-**Dadan Nuh Faturahman, Achmad Lutfi Fuadi** · 2026-08-18
-
-<details>
-<summary>Abstract</summary>
-
-This study develops a web-based School Management Information System (SIMS) equipped with a deep learning Optical Character Recognition (OCR) module that extracts data from tuition payment receipts at SMK BIT Bina Aulia, Bogor. The system aims to accelerate transaction verification, reduce manual input errors, and improve administrative transparency. The Research and Development method was applied, with the Waterfall model used to construct the product. The OCR module was built on PaddleOCR PP-OCRv4 with DBNet text detection and SVTR_LCNet text recognition using a CTC decoder, fine tuned on 384 receipt images collected from 14 payment channels and augmented into 14,824 training crops. The best training checkpoint reached 79.04% exact match accuracy with a normalized edit distance of 0.9563 at epoch 90. Evaluated on 940 text crops, the deployed service achieved 94.79% character accuracy, a 5.21% Character Error Rate, a 25.67% Word Error Rate, and 76.60% exact match accuracy, rising to 86.49% when spacing differences are ignored. Fine tuning improved exact match accuracy by 4.05 percentage points, and the proposed model outperformed Tesseract OCR 5 and EasyOCR on every metric. Black box testing of 63 test items and white box basis path testing of 53 independent paths passed without failure.
-
-</details>
-
-#### [Cached LLM Probability Retrieval for Speech Recognition](https://arxiv.org/abs/2608.16023) · [📄 Read](papers/2026/2608.16023.md)
-
-**Sheng Li, Takahiro Shinozaki, Tatsuya Kawahara** · 2026-08-17
-
-<details>
-<summary>Abstract</summary>
-
-Large language models (LLMs) enhance automatic speech recognition (ASR) by providing linguistic priors; however, their direct rescoring is costly because it requires evaluating every N-best hypothesis. This paper introduces "cached LLM probability retrieval," which involves querying a local teacher LLM offline to obtain next-token probabilities for ASR-relevant context-target pairs. These probabilities are then utilized during recognition via cache lookups, backoff strategies, and optional scoring for significant misses. The method is training-free and can integrate with existing recognizers without requiring modifications to acoustic models. Evaluations across various ASR models reveal that cached retrieval outperforms 1-pass ASR in 28 of 39 settings and achieves lower non-oracle errors. Context length analysis indicates that benefits peak at a context length of 8, suggesting that cached probability retrieval is an effective and lightweight ASR adaptation method, in contrast to the heavy training required for Generative Error Correction (GER) or knowledge distillation (KD).
-
-</details>
-
-#### [Performance Analysis of a Modular Framework for Edge-Based Generative Conversational AI](https://www.semanticscholar.org/paper/b1fbd422136f7dfb1a14fed40342c87b20d5b909) · [📄 Read](papers/2026/s2:b1fbd422136f7dfb1a14fed40342c87b20d5b909.md)
-
-**Lorenzo Mazzone, D. Pau** · 2026-08-16
-
-<details>
-<summary>Abstract</summary>
-
-This study presents a multi-tier framework for deploying multi-modal Conversational AI on edge devices, spanning from constrained ultra-low-power systems to high-performance edge workstations. Utilizing an automated model discovery process and a modular benchmarking testbed, the research demonstrates that real-time, fully edge AI execution is feasible through strategic model selection and hardware acceleration. Key outcomes from the performance analysis are as follows. Speech-to-Text: Fun-ASR-Nano achieved the highest transcription accuracy with a Word Error Rate of 0.026, while Moonshine Tiny was the most efficient, recording a Real-Time Factor of 0.036 on the CPU. Scaling up to the high-performance tier, Whisper Large-V3 Turbo demonstrated high speed and robustness on a dedicated GPU, achieving an RTF of 0.093. Language Modeling: The Qwen 2.5 (1.5B Instruct) model, optimized for the Intel edge NPU, delivered robust constrained edge performance with an average generation speed of 20.15 tokens per second and a high semantic accuracy score of 0.86. The non-transformer Liquid LFM-24B model showcased server-level reasoning capabilities on the high-performance edge, reaching an impressive 39.2 tokens per second when fully offloaded to a dedicated GPU, despite its massive VRAM requirements. Text-to-Speech: Piper TTS emerged as the most efficient model for constrained environments (RTF of 0.034). However, Kokoro TTS redefined high-fidelity zero-shot synthesis on the GPU tier, achieving a groundbreaking RTF of 0.024 and far outperforming larger autoregressive audio models like OuteTTS, which remained too slow for real-time use without significant acceleration. Hardware Acceleration and Energy Efficiency: The use of Intel OpenVINO 2026.0 for hardware offloading significantly reduced energy consumption; for example, Whisper Large-V3 Turbo’s energy per audio second dropped from 52.68 Joules on the CPU to just 3.24 Joules on the integrated GPU. Furthermore, dedicated GPU acceleration revealed a critical “race-to-sleep” paradigm, where higher peak wattage is offset by drastically reduced processing times. The study concludes by identifying two optimal cascaded pipelines: a constrained edge tier (Moonshine, Qwen 1.5B, Piper) running on a Khadas NUC (Khadas Technology, Shenzhen, China powered by an Intel processor (Intel Corporation, Santa Clara, CA, USA) maximizing energy efficiency, and a high-performance tier (Whisper V3 Turbo, Liquid LFM-24B, Kokoro) running on an NVIDIA 5060ti, delivering uncompromising accuracy and subsecond latency for privacy-preserving, advanced edge AI.
 
 </details>
 
