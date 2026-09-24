@@ -1,0 +1,20 @@
+---
+identifier: semantic_scholar:df4f0c97d4ee2e28bb8a88fcc9a1c865a861fc69
+title: Cross Attention Augmented Transducer Networks for Simultaneous Translation
+authors:
+- Dan Liu
+- Mengge Du
+- Xiaoxi Li
+- Ya Li
+- Enhong Chen
+published: '2021-01-01T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/df4f0c97d4ee2e28bb8a88fcc9a1c865a861fc69
+source: semantic_scholar
+doi: null
+arxiv_id: null
+categories: []
+---
+
+## Abstract
+
+This paper proposes a novel architecture, Cross Attention Augmented Transducer (CAAT), for simultaneous translation. The framework aims to jointly optimize the policy and translation models. To effectively consider all possible READ-WRITE simultaneous translation action paths, we adapt the online automatic speech recognition (ASR) model, RNN-T, but remove the strong monotonic constraint, which is critical for the translation task to consider reordering. To make CAAT work, we introduce a novel latency loss whose expectation can be optimized by a forward-backward algorithm. We implement CAAT with Transformer while the general CAAT architecture can also be implemented with other attention-based encoder-decoder frameworks. Experiments on both speech-to-text (S2T) and text-to-text (T2T) simultaneous translation tasks show that CAAT achieves significantly better latency-quality trade-offs compared to the state-of-the-art simultaneous translation approaches.

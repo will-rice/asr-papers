@@ -1,0 +1,19 @@
+---
+identifier: semantic_scholar:eae8bb1f3b9ec32e62c670c9f2a95c7815a2beb5
+title: 'Automatic Speech Recognition Using Limited Vocabulary: A Survey'
+authors:
+- J. Ebongue
+- D. Tala
+- B. Yenke
+- M. Atemkeng
+published: '2022-07-25T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/eae8bb1f3b9ec32e62c670c9f2a95c7815a2beb5
+source: semantic_scholar
+doi: null
+arxiv_id: null
+categories: []
+---
+
+## Abstract
+
+ABSTRACT Automatic Speech Recognition (ASR) is an active field of research due to its large number of applications and the proliferation of interfaces or computing devices that can support speech processing. However, the bulk of applications are based on well-resourced languages that overshadow under-resourced ones. Yet, ASR represents an undeniable means to promote such languages, especially when designing human-to-human or human-to-machine systems involving illiterate people. An approach to design an ASR system targeting under-resourced languages is to start with a limited vocabulary. ASR using a limited vocabulary is a subset of the speech recognition problem that focuses on the recognition of a small number of words or sentences. This paper aims to provide a comprehensive view of mechanisms behind ASR systems as well as techniques, tools, projects, recent contributions, and possible future directions in ASR using a limited vocabulary. This work consequently provides a way forward when designing an ASR system using limited vocabulary. Although an emphasis is put on limited vocabulary, most of the tools and techniques reported in this survey can be applied to ASR systems in general. AbbreviationsACC: Accuracy; AM: Acoustic Model; ASR: Automatic Speech Recognition; BD-4SK-ASR: Basic Dataset for Sorani Kurdish Automatic Speech Recognition; CER: Character Error Rate; CMU: Carnegie Mellon University; CNN: Convolutional Neural Network; CNTK: CogNitive ToolKit; CUED: Cambridge University Engineering Department; DCT:Discrete Cosine Transformation; DL: Deep Learning; DNN: Deep Neural Network; DRL: Deep Reinforcement Learning; DWT: Discrete Wavelet Transform; FFT: Fast Fourier Transformation; GMM: Gaussian Mixture Model; HMM: Hidden Markov Model; HTK: Hidden Markov Model ToolKit; JASPER: Just Another Speech Recognizer; LDA: Linear Discriminant Analysis; LER: Letter Error Rate; LGB: Light Gradient Boosting Machine; LM:Language Model; LPC: Linear Predictive Coding; LVCSR: Large Vocabulary Continuous Speech Recognition; LVQ: Learning Vector Quantization Algorithm; MFCC: Mel-Frequency Cepstrum Coefficient; ML: Machine Learning; PCM:Pulse-Code Modulation; PPVT: Peabody Picture Vocabulary Test; RASTA: RelAtive SpecTral; RLAT: Rapid Language Adaptation Toolkit; S2ST: Speech-to-Speech Translation; SAPI: Speech Application Programming Interface; SDK: Software Development Kit; SVASR:Small Vocabulary Automatic Speech Recognition; WER: Word Error Rate

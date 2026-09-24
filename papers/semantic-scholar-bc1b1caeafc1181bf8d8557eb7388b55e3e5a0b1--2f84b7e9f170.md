@@ -1,0 +1,16 @@
+---
+identifier: semantic_scholar:bc1b1caeafc1181bf8d8557eb7388b55e3e5a0b1
+title: 'Speech Vision: An End-to-End Deep Learning-Based Dysarthric Automatic Speech Recognition System'
+authors:
+- S. R. Shahamiri
+published: '2021-04-30T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/bc1b1caeafc1181bf8d8557eb7388b55e3e5a0b1
+source: semantic_scholar
+doi: null
+arxiv_id: null
+categories: []
+---
+
+## Abstract
+
+Dysarthria is a disorder that affects an individual’s speech intelligibility due to the paralysis of muscles and organs involved in the articulation process. As the condition is often associated with physically debilitating disabilities, not only do such individuals face communication problems, but also interactions with digital devices can become a burden. For these individuals, automatic speech recognition (ASR) technologies can make a significant difference in their lives as computing and portable digital devices can become an interaction medium, enabling them to communicate with others and computers. However, ASR technologies have performed poorly in recognizing dysarthric speech, especially for severe dysarthria, due to multiple challenges facing dysarthric ASR systems. We identified these challenges are due to the alternation and inaccuracy of dysarthric phonemes, the scarcity of dysarthric speech data, and the phoneme labeling imprecision. This paper reports on our second dysarthric-specific ASR system, called Speech Vision (SV) that tackles these challenges by adopting a novel approach towards dysarthric ASR in which speech features are extracted visually, then SV learns to see the shape of the words pronounced by dysarthric individuals. This visual acoustic modeling feature of SV eliminates phoneme-related challenges. To address the data scarcity problem, SV adopts visual data augmentation techniques, generates synthetic dysarthric acoustic visuals, and leverages transfer learning. Benchmarking with other state-of-the-art dysarthric ASR considered in this study, SV outperformed them by improving recognition accuracies for 67% of UA-Speech speakers, where the biggest improvements were achieved for severe dysarthria.

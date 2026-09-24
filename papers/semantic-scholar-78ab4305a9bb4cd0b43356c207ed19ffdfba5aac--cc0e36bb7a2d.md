@@ -1,0 +1,18 @@
+---
+identifier: semantic_scholar:78ab4305a9bb4cd0b43356c207ed19ffdfba5aac
+title: Real-Time Voice Transmission over Wireless Sensor Network (VoWSN) based Automatic Speech Recognition (ASR) Technique
+authors:
+- Ina'am Fathi
+- Qutaiba Ibrahim
+- J. Abdul-Jabbar
+published: '2019-12-01T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/78ab4305a9bb4cd0b43356c207ed19ffdfba5aac
+source: semantic_scholar
+doi: null
+arxiv_id: null
+categories: []
+---
+
+## Abstract
+
+The speech recognition process under the embedded system with constrained resources represents a challenge in terms of processing capability, storage memory, and B.W (or data rate). So, in this paper an efficient Real-Time Voice over Wireless sensor network (VoWSN) platform based on Automatic Speech Recognition (ASR) system to be used in emergency scenarios is proposed, implemented and evaluated. The workflow principle of the proposed system is depending on a Category Transformation Protocol (CTP) that transforms system category gradually from network dependent ASR system with a full dictionary and language model (i.e. large vocabulary) to fully embedded ASR system with customized dictionary and language model (i.e. small vocabulary ). Moreover, a comparison study has been performed between our proposed VoWSN based ASR system and a VoWSN based streaming system. This comparison is performed to elaborate the gains achieved when sending the text of the voice signal instead of sending the voice signal. Additionally, the Voice over IoTs (VoIoTs) system has been evaluated utilizing Voice streaming or ASR system to evaluate the system performance when connecting to the Internet. The comparison evaluation process is achieved by means of experimental platform and simulation.

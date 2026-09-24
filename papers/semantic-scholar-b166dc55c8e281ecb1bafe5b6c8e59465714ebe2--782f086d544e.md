@@ -1,0 +1,25 @@
+---
+identifier: semantic_scholar:b166dc55c8e281ecb1bafe5b6c8e59465714ebe2
+title: Hot-Fixing Wake Word Recognition for End-to-End ASR Via Neural Model Reprogramming
+authors:
+- Pin-Jui Ku
+- I-Fan Chen
+- Chao-Han Huck Yang
+- A. Raju
+- Pranav Dheram
+- Pegah Ghahremani
+- Brian King
+- Jing Liu
+- Roger Ren
+- P. S. Nidadavolu
+published: '2024-04-14T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/b166dc55c8e281ecb1bafe5b6c8e59465714ebe2
+source: semantic_scholar
+doi: null
+arxiv_id: null
+categories: []
+---
+
+## Abstract
+
+This paper proposes two novel variants of neural reprogramming to enhance wake word recognition in streaming end-to-end ASR models without updating model weights. The first, "trigger-frame reprogramming", prepends the input speech feature sequence with the learned trigger-frames of the target wake word to adjust ASR model’s hidden states for improved wake word recognition. The second, "predictor-state initialization", trains only the initial state vectors (cell and hidden states) of the LSTMs in the prediction network. When applying to a baseline LibriSpeech Emformer RNN-T model with a 98% wake word verification false rejection rate (FRR) on unseen wake words, the proposed approaches achieve 76% and 97% relative FRR reductions with no increase on false acceptance rate. In-depth characteristic analyses of the proposed approaches are also conducted to provide deeper insights. These approaches offer an effective hot-fixing methods to improve wake word recognition performance in deployed production ASR models without the need for model updates.
