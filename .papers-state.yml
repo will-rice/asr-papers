@@ -49,8 +49,3 @@ failures:
     occurred_at: '2026-09-25T23:55:29.801554Z'
   - error: 'conversion input HTTP 404: https://arxiv.org/pdf/9809026v1'
     occurred_at: '2026-09-25T23:56:28.126386Z'
-  arxiv:9811022v2:
-  - error: 'conversion input HTTP 404: https://arxiv.org/pdf/9811022v2'
-    occurred_at: '2026-09-25T22:27:36.966901Z'
-  - error: 'conversion input HTTP 404: https://arxiv.org/pdf/9811022v2'
-    occurred_at: '2026-09-25T23:55:29.801554Z'
