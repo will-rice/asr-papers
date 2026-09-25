@@ -1,7 +1,7 @@
 backfill:
   arxiv:
     continuation: null
-    covered_from: '1993-09-24T23:26:22.988681Z'
+    covered_from: '1991-08-01T00:00:00Z'
 continuations: {}
 failures:
   arxiv:0001020v1:
