@@ -10,3 +10,8 @@ failures:
   arxiv:2609.09852v1:
   - error: 'conversion timed out after 1800s: marker_single'
     occurred_at: '2026-09-25T00:35:58.007005Z'
+  - error: 'conversion timed out after 1800s: marker_single'
+    occurred_at: '2026-09-25T14:39:28.729648Z'
+  semantic_scholar:3ad534aa331bc96a6aec3b5e10a3a4e29762f103:
+  - error: 'conversion input is not a PDF: https://doi.org/10.5220/0014339500004084'
+    occurred_at: '2026-09-25T14:39:28.729648Z'
