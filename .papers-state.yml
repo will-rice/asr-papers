@@ -7,17 +7,13 @@ backfill:
     covered_from: '2020-09-17T23:26:22.988681Z'
 continuations: {}
 failures:
-  arxiv:2609.09852v1:
-  - error: 'conversion timed out after 1800s: marker_single'
-    occurred_at: '2026-09-25T00:35:58.007005Z'
-  - error: 'conversion timed out after 1800s: marker_single'
-    occurred_at: '2026-09-25T14:39:28.729648Z'
   semantic_scholar:3ad534aa331bc96a6aec3b5e10a3a4e29762f103:
   - error: 'conversion input is not a PDF: https://doi.org/10.5220/0014339500004084'
     occurred_at: '2026-09-25T14:39:28.729648Z'
+  - error: 'conversion input is not a PDF: https://doi.org/10.5220/0014339500004084'
+    occurred_at: '2026-09-25T16:12:49.115196Z'
   semantic_scholar:52966f8488f194dc3aeba74576286aac8615d4c9:
   - error: 'conversion input is not a PDF: https://doi.org/10.1109/access.2026.3676694'
     occurred_at: '2026-09-25T15:41:24.479343Z'
-  semantic_scholar:f0348456b5df81cbfc78502594b92806674b0c7a:
-  - error: 'conversion timed out after 1800s: marker_single'
-    occurred_at: '2026-09-25T15:41:24.479343Z'
+  - error: 'conversion input is not a PDF: https://doi.org/10.1109/access.2026.3676694'
+    occurred_at: '2026-09-25T16:12:49.115196Z'
