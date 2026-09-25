@@ -69,9 +69,25 @@ failures:
   arxiv:9611002v1:
   - error: 'conversion input HTTP 404: https://arxiv.org/pdf/9611002v1'
     occurred_at: '2026-09-25T23:55:20.547103Z'
+  arxiv:9611005v1:
+  - error: 'conversion input HTTP 404: https://arxiv.org/pdf/9611005v1'
+    occurred_at: '2026-09-25T23:55:29.801554Z'
+  arxiv:9712009v1:
+  - error: 'conversion input HTTP 404: https://arxiv.org/pdf/9712009v1'
+    occurred_at: '2026-09-25T23:55:29.801554Z'
+  arxiv:9801002v1:
+  - error: 'conversion input HTTP 404: https://arxiv.org/pdf/9801002v1'
+    occurred_at: '2026-09-25T23:55:29.801554Z'
+  arxiv:9809026v1:
+  - error: 'conversion input HTTP 404: https://arxiv.org/pdf/9809026v1'
+    occurred_at: '2026-09-25T23:55:29.801554Z'
   arxiv:9809110v1:
   - error: 'conversion input HTTP 404: https://arxiv.org/pdf/9809110v1'
     occurred_at: '2026-09-25T22:27:36.966901Z'
+  - error: 'conversion input HTTP 404: https://arxiv.org/pdf/9809110v1'
+    occurred_at: '2026-09-25T23:55:29.801554Z'
   arxiv:9811022v2:
   - error: 'conversion input HTTP 404: https://arxiv.org/pdf/9811022v2'
     occurred_at: '2026-09-25T22:27:36.966901Z'
+  - error: 'conversion input HTTP 404: https://arxiv.org/pdf/9811022v2'
+    occurred_at: '2026-09-25T23:55:29.801554Z'
