@@ -3,42 +3,44 @@
 Standalone paper discovery and conversion for A curated, automatically-updated collection of ASR papers with an LLM-friendly markdown corpus..
 
 <!-- papers-index:start -->
+
 # Papers
 
-The 30 most recent of 5731 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
+The 30 most recent of 5741 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
 
-| Published | Identifier | Title | Source |
-| --- | --- | --- | --- |
-| 2026-09-25T09:33:19+00:00 | arxiv:2609.31041v1 | [Room Impulse Response Embeddings for Speech Enhancement in Noisy and Reverberant Environments](papers/arxiv-2609-31041v1--27353434ab4f.md) | arxiv |
-| 2026-09-25T07:38:49+00:00 | arxiv:2609.30924v1 | [Training-Free Pronunciation Transcription via Text-Constrained Acoustic Rescoring](papers/arxiv-2609-30924v1--62fba85faa5a.md) | arxiv |
-| 2026-09-25T05:34:46+00:00 | arxiv:2609.30839v1 | [Attention-Based Adaptive Policies for Simultaneous Speech-to-Text Translation](papers/arxiv-2609-30839v1--1af8d4f03da6.md) | arxiv |
-| 2026-09-25T04:06:01+00:00 | arxiv:2609.30784v1 | [Symbiotic Architecture for Post-Hoc Audio Extension of Frozen Language Models](papers/arxiv-2609-30784v1--370274e53c5e.md) | arxiv |
-| 2026-09-25T02:00:44+00:00 | arxiv:2609.30694v1 | [Training-Free Contextual ASR via SpeechLLM-Based Error-Aware Selective Retrieval](papers/arxiv-2609-30694v1--9ade1192a7a2.md) | arxiv |
-| 2026-09-25T01:57:42+00:00 | arxiv:2609.30692v1 | [LUMO (Lightweight Unified Multilingual Orchestrator): A Privacy Preserving Offline Voice Assistant](papers/arxiv-2609-30692v1--61ffdb703ece.md) | arxiv |
-| 2026-09-24T19:16:16+00:00 | arxiv:2609.30476v1 | [Asymmetric Classifier-Free Guidance for Target-Speaker ASR](papers/arxiv-2609-30476v1--6b6fa353d264.md) | arxiv |
-| 2026-09-24T18:33:58+00:00 | arxiv:2609.30439v1 | [Inference-Time Target Speaker Unlearning in LLM-Based Automatic Speech Recognition](papers/arxiv-2609-30439v1--f05e50cb7802.md) | arxiv |
-| 2026-09-24T13:37:22+00:00 | arxiv:2609.29800v1 | [Adaptive Fisher-Whitened Cross-Covariance for Low-Resource Speech Recognition](papers/arxiv-2609-29800v1--508aff5782d7.md) | arxiv |
-| 2026-09-24T13:36:38+00:00 | arxiv:2609.29798v1 | [Benchmarking and Domain Adaptation of Automatic Speech Recognition (ASR) for Adolescent Health Communication in Ghanaian Languages](papers/arxiv-2609-29798v1--b679a274e93d.md) | arxiv |
-| 2026-09-24T13:14:50+00:00 | arxiv:2609.29768v1 | [Depth through recurrence: Looped transformers for flow-matching TTS](papers/arxiv-2609-29768v1--75d89e10d9b3.md) | arxiv |
-| 2026-09-24T12:06:46+00:00 | arxiv:2609.29448v1 | [YODAS v3: Over 1 Million Hours of High-Bandwidth, Stereophonic, Multilingual Speech](papers/arxiv-2609-29448v1--2867e0d94ebc.md) | arxiv |
-| 2026-09-24T11:30:22+00:00 | arxiv:2609.29405v1 | [Transcript-Supervised Post-Training of Generative Speech Enhancement on Real Recordings via Reinforce Adjoint Matching](papers/arxiv-2609-29405v1--f10222b27676.md) | arxiv |
-| 2026-09-24T07:24:01+00:00 | arxiv:2609.29146v1 | [BanglaKontho: Closing the Long-Form Gap in Bangla Text-to-Speech](papers/arxiv-2609-29146v1--f1875a6fab5a.md) | arxiv |
-| 2026-09-24T04:01:10+00:00 | arxiv:2609.28988v1 | [Personalized Korean Lipreading as Visual Speech Recognition: Transfer, Census and Adaptation on OLKAVS](papers/arxiv-2609-28988v1--d8609ae46009.md) | arxiv |
-| 2026-09-24T00:54:31+00:00 | arxiv:2609.28877v1 | [Learning New Words from Unlabeled Test Data in Automatic Speech Recognition](papers/arxiv-2609-28877v1--0e9092a2d855.md) | arxiv |
-| 2026-09-23T12:05:22+00:00 | arxiv:2609.27980v1 | [Six Layers Less: Encoder Pruning for Whisper with Label-Free Recovery](papers/arxiv-2609-27980v1--753fb8b606ae.md) | arxiv |
-| 2026-09-23T08:12:07+00:00 | arxiv:2609.27514v1 | [The Second MLC-SLM Challenge: Multilingual Conversational Speech Diarization, Recognition, and Understanding](papers/arxiv-2609-27514v1--8373fc4bddf4.md) | arxiv |
-| 2026-09-22T21:37:54+00:00 | arxiv:2609.27086v1 | [NADI 2026: The Second Multidialectal Arabic Speech Processing Shared Task](papers/arxiv-2609-27086v1--3f75c978a23f.md) | arxiv |
-| 2026-09-22T14:57:51+00:00 | arxiv:2609.26536v1 | [Transcribe, Translate, and Optimize: Joint Reward Learning for Speech Translation](papers/arxiv-2609-26536v1--7ec5a5878787.md) | arxiv |
-| 2026-09-21T22:53:48+00:00 | arxiv:2609.25471v1 | [A Practical Recipe for Semi-Supervised Federated ASR: Online Pseudo-Labels with Server Update Stabilization](papers/arxiv-2609-25471v1--2f76d87b201b.md) | arxiv |
-| 2026-09-21T14:20:47+00:00 | arxiv:2609.25176v1 | [Qwen-Audio-3.1-Realtime: Towards Reliable Agentic Voice Interaction](papers/arxiv-2609-25176v1--ac4373892aa5.md) | arxiv |
-| 2026-09-21T11:01:00+00:00 | arxiv:2609.24410v1 | [End-to-end Jordanian dialect speech-to-text self-supervised learning framework](papers/arxiv-2609-24410v1--6b270fe29ac6.md) | arxiv |
-| 2026-09-21T10:36:30+00:00 | arxiv:2609.24391v1 | [NAVIR: Neuromorphic Audio-Visual Speech Recognition for Robust Human-Robot Interaction on Edge Hardware](papers/arxiv-2609-24391v1--7772c8381b6a.md) | arxiv |
-| 2026-09-21T01:21:01+00:00 | arxiv:2609.23979v1 | [AURA: Uncertainty-Routed Activation Editing for Acoustic Grounding in Speech Foundation Models](papers/arxiv-2609-23979v1--299b152bd395.md) | arxiv |
-| 2026-09-20T23:47:30+00:00 | arxiv:2609.23951v1 | [HaikuS2S: A Cascaded System For Responding In Verse](papers/arxiv-2609-23951v1--ca3a0a7233bf.md) | arxiv |
-| 2026-09-20T19:23:15+00:00 | arxiv:2609.23825v1 | [Federated Multilingual Speech-LLMs: Architecture and Aggregation Strategy Benchmarking](papers/arxiv-2609-23825v1--875b048c4142.md) | arxiv |
-| 2026-09-20T10:19:46+00:00 | arxiv:2609.23525v1 | [Beyond Encoder Fusion: Multi-View Discrete Token Augmentation for LLM-Based ASR](papers/arxiv-2609-23525v1--1820587cbc0b.md) | arxiv |
-| 2026-09-20T08:45:31+00:00 | arxiv:2609.23462v2 | [Long-Tail Rebalancing for Non-Verbal Vocalization-Aware ASR: A Track 1 System for the NVVSpeech Challenge](papers/arxiv-2609-23462v2--3603a6f2d110.md) | arxiv |
-| 2026-09-18T16:27:22+00:00 | arxiv:2609.21967v1 | [NemotronLabs VoiceChat: An Open Full-duplex Speech-to-Speech Model with Tool Calling Capabilities](papers/arxiv-2609-21967v1--c45be84f95ca.md) | arxiv |
+| Published                 | Identifier         | Title                                                                                                                                                                            | Source |
+| ------------------------- | ------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
+| 2026-09-27T19:34:08+00:00 | arxiv:2609.33865v1 | [In-Context Adaptation of Encoder-Decoder Models in Speech Recognition](papers/arxiv-2609-33865v1--2be365a63f53.md)                                                              | arxiv  |
+| 2026-09-27T19:12:06+00:00 | arxiv:2609.33853v1 | [Unified Target-Speaker ASR with Text and Enrollment Speech Cues](papers/arxiv-2609-33853v1--3e434691ef7a.md)                                                                    | arxiv  |
+| 2026-09-27T15:13:14+00:00 | arxiv:2609.33650v1 | [FuseAlign: Forced Alignment in the Wild](papers/arxiv-2609-33650v1--4b824fc00847.md)                                                                                            | arxiv  |
+| 2026-09-27T15:10:59+00:00 | arxiv:2609.33645v1 | [Pruned CTC for Memory-Efficient Large-Vocabulary ASR Training](papers/arxiv-2609-33645v1--6f7f7570b9f8.md)                                                                      | arxiv  |
+| 2026-09-27T05:36:33+00:00 | arxiv:2609.33245v1 | [Acoustic Progress Propagation for Long-Horizon Speculative Decoding in ASR](papers/arxiv-2609-33245v1--7e0020cea49d.md)                                                         | arxiv  |
+| 2026-09-26T18:54:10+00:00 | arxiv:2609.32869v1 | [Whisper-Flash: Acoustically Conditioned Parallel Drafting for Faster Whisper Decoding](papers/arxiv-2609-32869v1--ef8b882d6f11.md)                                              | arxiv  |
+| 2026-09-26T09:29:57+00:00 | arxiv:2609.32408v1 | [Automatic Speech Recognition for the Basaà Language: A Low-Resource Approach](papers/arxiv-2609-32408v1--5057d89784e0.md)                                                       | arxiv  |
+| 2026-09-25T20:06:39+00:00 | arxiv:2609.31961v1 | [Improving Audiovisual Speech Recognition through Synthetic Visual Data Augmentation](papers/arxiv-2609-31961v1--53641caf9aee.md)                                                | arxiv  |
+| 2026-09-25T18:28:40+00:00 | arxiv:2609.31892v1 | [NVAlign: Direct-Gradient Optimization for Non-Verbal Control in Continuous Autoregressive Flow Matching Text-to-Speech](papers/arxiv-2609-31892v1--747a3536a322.md)             | arxiv  |
+| 2026-09-25T09:33:19+00:00 | arxiv:2609.31041v1 | [Room Impulse Response Embeddings for Speech Enhancement in Noisy and Reverberant Environments](papers/arxiv-2609-31041v1--27353434ab4f.md)                                      | arxiv  |
+| 2026-09-25T07:38:49+00:00 | arxiv:2609.30924v1 | [Training-Free Pronunciation Transcription via Text-Constrained Acoustic Rescoring](papers/arxiv-2609-30924v1--62fba85faa5a.md)                                                  | arxiv  |
+| 2026-09-25T05:34:46+00:00 | arxiv:2609.30839v1 | [Attention-Based Adaptive Policies for Simultaneous Speech-to-Text Translation](papers/arxiv-2609-30839v1--1af8d4f03da6.md)                                                      | arxiv  |
+| 2026-09-25T04:06:01+00:00 | arxiv:2609.30784v1 | [Symbiotic Architecture for Post-Hoc Audio Extension of Frozen Language Models](papers/arxiv-2609-30784v1--370274e53c5e.md)                                                      | arxiv  |
+| 2026-09-25T02:00:44+00:00 | arxiv:2609.30694v1 | [Training-Free Contextual ASR via SpeechLLM-Based Error-Aware Selective Retrieval](papers/arxiv-2609-30694v1--9ade1192a7a2.md)                                                   | arxiv  |
+| 2026-09-25T01:57:42+00:00 | arxiv:2609.30692v1 | [LUMO (Lightweight Unified Multilingual Orchestrator): A Privacy Preserving Offline Voice Assistant](papers/arxiv-2609-30692v1--61ffdb703ece.md)                                 | arxiv  |
+| 2026-09-24T23:58:23+00:00 | arxiv:2609.31787v1 | [Optimal transport meets speech: a tutorial review](papers/arxiv-2609-31787v1--144802f89635.md)                                                                                  | arxiv  |
+| 2026-09-24T19:16:16+00:00 | arxiv:2609.30476v1 | [Asymmetric Classifier-Free Guidance for Target-Speaker ASR](papers/arxiv-2609-30476v1--6b6fa353d264.md)                                                                         | arxiv  |
+| 2026-09-24T18:33:58+00:00 | arxiv:2609.30439v1 | [Inference-Time Target Speaker Unlearning in LLM-Based Automatic Speech Recognition](papers/arxiv-2609-30439v1--f05e50cb7802.md)                                                 | arxiv  |
+| 2026-09-24T13:37:22+00:00 | arxiv:2609.29800v1 | [Adaptive Fisher-Whitened Cross-Covariance for Low-Resource Speech Recognition](papers/arxiv-2609-29800v1--508aff5782d7.md)                                                      | arxiv  |
+| 2026-09-24T13:36:38+00:00 | arxiv:2609.29798v1 | [Benchmarking and Domain Adaptation of Automatic Speech Recognition (ASR) for Adolescent Health Communication in Ghanaian Languages](papers/arxiv-2609-29798v1--b679a274e93d.md) | arxiv  |
+| 2026-09-24T13:14:50+00:00 | arxiv:2609.29768v1 | [Depth through recurrence: Looped transformers for flow-matching TTS](papers/arxiv-2609-29768v1--75d89e10d9b3.md)                                                                | arxiv  |
+| 2026-09-24T12:06:46+00:00 | arxiv:2609.29448v1 | [YODAS v3: Over 1 Million Hours of High-Bandwidth, Stereophonic, Multilingual Speech](papers/arxiv-2609-29448v1--2867e0d94ebc.md)                                                | arxiv  |
+| 2026-09-24T11:30:22+00:00 | arxiv:2609.29405v1 | [Transcript-Supervised Post-Training of Generative Speech Enhancement on Real Recordings via Reinforce Adjoint Matching](papers/arxiv-2609-29405v1--f10222b27676.md)             | arxiv  |
+| 2026-09-24T07:24:01+00:00 | arxiv:2609.29146v1 | [BanglaKontho: Closing the Long-Form Gap in Bangla Text-to-Speech](papers/arxiv-2609-29146v1--f1875a6fab5a.md)                                                                   | arxiv  |
+| 2026-09-24T04:01:10+00:00 | arxiv:2609.28988v1 | [Personalized Korean Lipreading as Visual Speech Recognition: Transfer, Census and Adaptation on OLKAVS](papers/arxiv-2609-28988v1--d8609ae46009.md)                             | arxiv  |
+| 2026-09-24T00:54:31+00:00 | arxiv:2609.28877v1 | [Learning New Words from Unlabeled Test Data in Automatic Speech Recognition](papers/arxiv-2609-28877v1--0e9092a2d855.md)                                                        | arxiv  |
+| 2026-09-23T12:05:22+00:00 | arxiv:2609.27980v1 | [Six Layers Less: Encoder Pruning for Whisper with Label-Free Recovery](papers/arxiv-2609-27980v1--753fb8b606ae.md)                                                              | arxiv  |
+| 2026-09-23T08:12:07+00:00 | arxiv:2609.27514v1 | [The Second MLC-SLM Challenge: Multilingual Conversational Speech Diarization, Recognition, and Understanding](papers/arxiv-2609-27514v1--8373fc4bddf4.md)                       | arxiv  |
+| 2026-09-22T21:37:54+00:00 | arxiv:2609.27086v1 | [NADI 2026: The Second Multidialectal Arabic Speech Processing Shared Task](papers/arxiv-2609-27086v1--3f75c978a23f.md)                                                          | arxiv  |
+| 2026-09-22T14:57:51+00:00 | arxiv:2609.26536v1 | [Transcribe, Translate, and Optimize: Joint Reward Learning for Speech Translation](papers/arxiv-2609-26536v1--7ec5a5878787.md)                                                  | arxiv  |
+
 <!-- papers-index:end -->
 
 ## Architecture
