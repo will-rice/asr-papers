@@ -6,10 +6,15 @@ Standalone paper discovery and conversion for A curated, automatically-updated c
 
 # Papers
 
-The 30 most recent of 5741 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
+The 30 most recent of 5746 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
 
 | Published                 | Identifier         | Title                                                                                                                                                                            | Source |
 | ------------------------- | ------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
+| 2026-09-29T17:46:50+00:00 | arxiv:2609.38106v1 | [Pruning for Efficiency, Paying in Fairness: Demographic Disparities in Pruned Speech-LLMs](papers/arxiv-2609-38106v1--4f139bdbe75f.md)                                          | arxiv  |
+| 2026-09-29T13:56:41+00:00 | arxiv:2609.37611v1 | [Selective Lookahead for Attention-Based Streaming ASR](papers/arxiv-2609-37611v1--697c9c726a14.md)                                                                              | arxiv  |
+| 2026-09-29T07:34:13+00:00 | arxiv:2609.36913v1 | [BaLEEN: Biasing with Latent Encoded Entities for Context-Aware ASR](papers/arxiv-2609-36913v1--8437b9f5c8ff.md)                                                                 | arxiv  |
+| 2026-09-28T09:02:12+00:00 | arxiv:2609.34662v1 | [Unsupervised Speech Enhancement via Drifting](papers/arxiv-2609-34662v1--e9b960ccb524.md)                                                                                       | arxiv  |
+| 2026-09-28T01:32:56+00:00 | arxiv:2609.34092v1 | [Evaluating Machine Unlearning in ASR](papers/arxiv-2609-34092v1--f7cb9ea9606a.md)                                                                                               | arxiv  |
 | 2026-09-27T19:34:08+00:00 | arxiv:2609.33865v1 | [In-Context Adaptation of Encoder-Decoder Models in Speech Recognition](papers/arxiv-2609-33865v1--2be365a63f53.md)                                                              | arxiv  |
 | 2026-09-27T19:12:06+00:00 | arxiv:2609.33853v1 | [Unified Target-Speaker ASR with Text and Enrollment Speech Cues](papers/arxiv-2609-33853v1--3e434691ef7a.md)                                                                    | arxiv  |
 | 2026-09-27T15:13:14+00:00 | arxiv:2609.33650v1 | [FuseAlign: Forced Alignment in the Wild](papers/arxiv-2609-33650v1--4b824fc00847.md)                                                                                            | arxiv  |
@@ -35,11 +40,6 @@ The 30 most recent of 5741 papers. Every paper is listed in [papers.csv](papers.
 | 2026-09-24T11:30:22+00:00 | arxiv:2609.29405v1 | [Transcript-Supervised Post-Training of Generative Speech Enhancement on Real Recordings via Reinforce Adjoint Matching](papers/arxiv-2609-29405v1--f10222b27676.md)             | arxiv  |
 | 2026-09-24T07:24:01+00:00 | arxiv:2609.29146v1 | [BanglaKontho: Closing the Long-Form Gap in Bangla Text-to-Speech](papers/arxiv-2609-29146v1--f1875a6fab5a.md)                                                                   | arxiv  |
 | 2026-09-24T04:01:10+00:00 | arxiv:2609.28988v1 | [Personalized Korean Lipreading as Visual Speech Recognition: Transfer, Census and Adaptation on OLKAVS](papers/arxiv-2609-28988v1--d8609ae46009.md)                             | arxiv  |
-| 2026-09-24T00:54:31+00:00 | arxiv:2609.28877v1 | [Learning New Words from Unlabeled Test Data in Automatic Speech Recognition](papers/arxiv-2609-28877v1--0e9092a2d855.md)                                                        | arxiv  |
-| 2026-09-23T12:05:22+00:00 | arxiv:2609.27980v1 | [Six Layers Less: Encoder Pruning for Whisper with Label-Free Recovery](papers/arxiv-2609-27980v1--753fb8b606ae.md)                                                              | arxiv  |
-| 2026-09-23T08:12:07+00:00 | arxiv:2609.27514v1 | [The Second MLC-SLM Challenge: Multilingual Conversational Speech Diarization, Recognition, and Understanding](papers/arxiv-2609-27514v1--8373fc4bddf4.md)                       | arxiv  |
-| 2026-09-22T21:37:54+00:00 | arxiv:2609.27086v1 | [NADI 2026: The Second Multidialectal Arabic Speech Processing Shared Task](papers/arxiv-2609-27086v1--3f75c978a23f.md)                                                          | arxiv  |
-| 2026-09-22T14:57:51+00:00 | arxiv:2609.26536v1 | [Transcribe, Translate, and Optimize: Joint Reward Learning for Speech Translation](papers/arxiv-2609-26536v1--7ec5a5878787.md)                                                  | arxiv  |
 
 <!-- papers-index:end -->
 
