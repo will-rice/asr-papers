@@ -1,0 +1,59 @@
+<svg id="A2.F4.pic1" class="ltx_picture ltx_centering" height="531.38" overflow="visible" version="1.1" viewbox="0 0 653.15 531.38" width="653.15"><g style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" fill="#000000" stroke="#000000" stroke-width="0.4pt" transform="translate(0,531.38) matrix(1 0 0 -1 0 0)"><g style="--ltx-fill-color:#000000;" fill="#000000" fill-opacity="1.0"><path style="stroke:none" d="M 0 5.91 L 0 525.48 C 0 528.74 2.64 531.38 5.91 531.38 L 647.24 531.38 C 650.51 531.38 653.15 528.74 653.15 525.48 L 653.15 5.91 C 653.15 2.64 650.51 0 647.24 0 L 5.91 0 C 2.64 0 0 2.64 0 5.91 Z" /></g><g style="--ltx-fill-color:#F9F9F9;" fill="#F9F9F9" fill-opacity="1.0"><path style="stroke:none" d="M 1.97 5.91 L 1.97 509.96 L 651.18 509.96 L 651.18 5.91 C 651.18 3.73 649.42 1.97 647.24 1.97 L 5.91 1.97 C 3.73 1.97 1.97 3.73 1.97 5.91 Z" /></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 21.65 515.87)"><foreignobject style="--ltx-fo-width:44.07em;--ltx-fo-height:0.69em;--ltx-fo-depth:0em;font-size:10pt;" height="9.61" overflow="visible" transform="matrix(1 0 0 -1 0 9.61)" width="609.8"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="A2.F4.pic1.1" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:44.07em;">
+<span id="A2.F4.pic1.1.1" class="ltx_p"><span id="A2.F4.pic1.1.1.1" class="ltx_text" style="--ltx-fg-color:#FFFFFF;">Audio Evaluation Instructions</span></span>
+</span></span></span></foreignobject></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 21.65 206.42)"><foreignobject style="--ltx-fo-width:41.97em;--ltx-fo-height:21.08em;--ltx-fo-depth:13.92em;font-size:10pt;" height="484.38" overflow="visible" transform="matrix(1 0 0 -1 0 291.73)" width="580.75"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="A2.F4.pic1.2" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:41.97em;">
+<span id="A2.F4.pic1.2.1" class="ltx_p"><span id="A2.F4.pic1.2.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">In this test, you will hear an audio sample consisting of a <span id="A2.F4.pic1.2.1.1.1" class="ltx_text ltx_font_bold">Prompt + Continuation</span>.
+The continuation is audiobook-style speech.
+The prompt and the continuation are separated by a beep sound.
+</span></span>
+<span id="A2.F4.pic1.2.2" class="ltx_p"><span id="A2.F4.pic1.2.2.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">Please do not focus on the audio before or immediately around the beep.
+Instead, focus on the continuation after the beep and evaluate how well it continues from the prompt.
+Also, please ignore any changes in speaker identity.
+</span></span>
+<span id="A2.F4.pic1.2.3" class="ltx_p"><span id="A2.F4.pic1.2.3.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">Please rate the continuation on the following aspects:
+</span></span>
+<span id="A2.I1" class="ltx_itemize">
+<span id="A2.I1.i1" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A2.I1.i1.p1" class="ltx_para">
+<span id="A2.I1.i1.p1.1" class="ltx_p"><span id="A2.I1.i1.p1.1.1" class="ltx_text ltx_font_typewriter ltx_font_bold" style="--ltx-fg-color:#000000;">Naturalness:</span><span id="A2.I1.i1.p1.1.2" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;"> Does the continuation sound smooth and natural, regardless of the speech content?
+</span></span>
+</span></span>
+<span id="A2.I1.i2" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A2.I1.i2.p1" class="ltx_para">
+<span id="A2.I1.i2.p1.1" class="ltx_p"><span id="A2.I1.i2.p1.1.1" class="ltx_text ltx_font_typewriter ltx_font_bold" style="--ltx-fg-color:#000000;">Prosody Preservation:</span><span id="A2.I1.i2.p1.1.2" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;"> Are the intonation, pacing, and stress patterns of the prompt preserved in the continuation?
+</span></span>
+</span></span>
+</span>
+<span id="A2.F4.pic1.2.4" class="ltx_p"><span id="A2.F4.pic1.2.4.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">A higher score means the continuation sounds more fluent, natural, seamless, and consistent with the prompt.
+</span></span>
+<span id="A2.F4.pic1.2.5" class="ltx_p"><span id="A2.F4.pic1.2.5.1" class="ltx_text ltx_font_typewriter ltx_font_bold" style="--ltx-fg-color:#000000;">Scoring Definitions:<span id="A2.F4.pic1.2.5.1.1" class="ltx_text ltx_font_medium">
+</span></span></span>
+<span id="A2.I2" class="ltx_itemize">
+<span id="A2.I2.i1" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A2.I2.i1.p1" class="ltx_para">
+<span id="A2.I2.i1.p1.1" class="ltx_p"><span id="A2.I2.i1.p1.1.1" class="ltx_text ltx_font_typewriter ltx_font_bold" style="--ltx-fg-color:#000000;">1 (Bad):</span><span id="A2.I2.i1.p1.1.2" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;"> Clearly unnatural, with very poor fluency or serious flow problems.
+</span></span>
+</span></span>
+<span id="A2.I2.i2" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A2.I2.i2.p1" class="ltx_para">
+<span id="A2.I2.i2.p1.1" class="ltx_p"><span id="A2.I2.i2.p1.1.1" class="ltx_text ltx_font_typewriter ltx_font_bold" style="--ltx-fg-color:#000000;">2 (Poor):</span><span id="A2.I2.i2.p1.1.2" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;"> Noticeably unnatural, with poor fluency or inconsistent flow.
+</span></span>
+</span></span>
+<span id="A2.I2.i3" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A2.I2.i3.p1" class="ltx_para">
+<span id="A2.I2.i3.p1.1" class="ltx_p"><span id="A2.I2.i3.p1.1.1" class="ltx_text ltx_font_typewriter ltx_font_bold" style="--ltx-fg-color:#000000;">3 (Fair):</span><span id="A2.I2.i3.p1.1.2" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;"> Somewhat natural, but with noticeable fluency or prosody issues.
+</span></span>
+</span></span>
+<span id="A2.I2.i4" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A2.I2.i4.p1" class="ltx_para">
+<span id="A2.I2.i4.p1.1" class="ltx_p"><span id="A2.I2.i4.p1.1.1" class="ltx_text ltx_font_typewriter ltx_font_bold" style="--ltx-fg-color:#000000;">4 (Good):</span><span id="A2.I2.i4.p1.1.2" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;"> Mostly natural and fluent, with only minor flow or prosody issues.
+</span></span>
+</span></span>
+<span id="A2.I2.i5" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A2.I2.i5.p1" class="ltx_para">
+<span id="A2.I2.i5.p1.1" class="ltx_p"><span id="A2.I2.i5.p1.1.1" class="ltx_text ltx_font_typewriter ltx_font_bold" style="--ltx-fg-color:#000000;">5 (Excellent):</span><span id="A2.I2.i5.p1.1.2" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;"> Completely natural, fluent, and seamless, with no noticeable flow or prosody issues.
+</span></span>
+</span></span>
+</span>
+</span></span></span></foreignobject></g></g></svg>
