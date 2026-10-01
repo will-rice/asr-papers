@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="456.95" height="141.66" overflow="visible"><g transform="translate(0,141.66) scale(1,-1)"><g transform="translate(0,0)"><g transform="translate(0,143.99) scale(1,-1)"><foreignobject width="467.98" height="143.99" overflow="visible"><img src="arxiv-2511-09084--400e25867a13.figures/figure-5.webp" id="S6.F5.pic1.g1" class="ltx_graphics ltx_img_landscape" style="width:100%;height:100%;object-fit:contain" width="476" height="150" alt="Refer to caption"></foreignobject></g></g><g transform="translate(38.08,-11.9)"><g transform="scale(1,-1)"><text fontsize="80%" xml:id="S6.F5.pic1.2">(a) <text font="italic" xml:id="S6.F5.pic1.2.1">Config. 1</text></g></g><g transform="translate(57.12,-28.56)"><g transform="scale(1,-1)"><text fontsize="80%" xml:id="S6.F5.pic1.3">=1,</text></g><g transform="translate(0,9.43) scale(1,-1)"><foreignobject width="54.73" height="7.31" overflow="visible"><math mode="inline" tex="K_{\rm main}" text="K _ main" xml:id="S6.F5.pic1.m1">
+              <xmath xml:id="S6.F5.pic1.m1.1">
+                <xmapp xml:id="S6.F5.pic1.m1.1.1">
+                  <xmtok role="SUBSCRIPTOP" scriptpos="post1"></xmtok>
+                  <xmtok font="italic" fontsize="80%" role="UNKNOWN">K</xmtok>
+                  <xmtok fontsize="56%" role="UNKNOWN">main</xmtok>
+                </xmapp>
+              </xmath>
+            </math></foreignobject></g></g><g transform="translate(23.8,-45.22)"><g transform="translate(0,13.28) scale(1,-1)"><foreignobject width="89.27" height="9.96" overflow="visible"><math mode="inline" tex="K_{1},K_{2}\in\{2,3,4\}" text="list@(K _ 1, K _ 2 element-of set@(2, 3, 4))" xml:id="S6.F5.pic1.m2">
+              <xmath xml:id="S6.F5.pic1.m2.7">
+                <xmdual xml:id="S6.F5.pic1.m2.7.1">
+                  <xmapp xml:id="S6.F5.pic1.m2.7.1.1">
+                    <xmtok meaning="list"></xmtok>
+                    <xmref idref="S6.F5.pic1.m2.1" xml:id="S6.F5.pic1.m2.7.1.1.2"></xmref>
+                    <xmref idref="S6.F5.pic1.m2.2" xml:id="S6.F5.pic1.m2.7.1.1.3"></xmref>
+                  </xmapp>
+                  <xmwrap xml:id="S6.F5.pic1.m2.7.1.2">
+                    <xmapp xml:id="S6.F5.pic1.m2.1">
+                      <xmtok role="SUBSCRIPTOP" scriptpos="post1"></xmtok>
+                      <xmtok font="italic" fontsize="80%" role="UNKNOWN">K</xmtok>
+                      <xmtok fontsize="56%" meaning="1" role="NUMBER">1</xmtok>
+                    </xmapp>
+                    <xmtok fontsize="80%" role="PUNCT">,</xmtok>
+                    <xmapp xml:id="S6.F5.pic1.m2.2">
+                      <xmtok fontsize="80%" meaning="element-of" name="in" role="RELOP">∈</xmtok>
+                      <xmapp xml:id="S6.F5.pic1.m2.2.2">
+                        <xmtok role="SUBSCRIPTOP" scriptpos="post1"></xmtok>
+                        <xmtok font="italic" fontsize="80%" role="UNKNOWN">K</xmtok>
+                        <xmtok fontsize="56%" meaning="2" role="NUMBER">2</xmtok>
+                      </xmapp>
+                      <xmdual xml:id="S6.F5.pic1.m2.2.3">
+                        <xmapp xml:id="S6.F5.pic1.m2.2.3.1">
+                          <xmtok meaning="set"></xmtok>
+                          <xmref idref="S6.F5.pic1.m2.3" xml:id="S6.F5.pic1.m2.2.3.1.2"></xmref>
+                          <xmref idref="S6.F5.pic1.m2.4" xml:id="S6.F5.pic1.m2.2.3.1.3"></xmref>
+                          <xmref idref="S6.F5.pic1.m2.5" xml:id="S6.F5.pic1.m2.2.3.1.4"></xmref>
+                        </xmapp>
+                        <xmwrap xml:id="S6.F5.pic1.m2.2.3.2">
+                          <xmtok role="OPEN" stretchy="false">{</xmtok>
+                          <xmtok fontsize="80%" meaning="2" role="NUMBER" xml:id="S6.F5.pic1.m2.3">2</xmtok>
+                          <xmtok fontsize="80%" role="PUNCT">,</xmtok>
+                          <xmtok fontsize="80%" meaning="3" role="NUMBER" xml:id="S6.F5.pic1.m2.4">3</xmtok>
+                          <xmtok fontsize="80%" role="PUNCT">,</xmtok>
+                          <xmtok fontsize="80%" meaning="4" role="NUMBER" xml:id="S6.F5.pic1.m2.5">4</xmtok>
+                          <xmtok role="CLOSE" stretchy="false">}</xmtok>
+                        </xmwrap>
+                      </xmdual>
+                    </xmapp>
+                  </xmwrap>
+                </xmdual>
+              </xmath>
+            </math></foreignobject></g></g><g transform="translate(204.68,-11.9)"><g transform="scale(1,-1)"><text fontsize="80%" xml:id="S6.F5.pic1.4">(b) <text font="italic" xml:id="S6.F5.pic1.4.1">Config. 1</text></g></g><g transform="translate(223.72,-28.56)"><g transform="scale(1,-1)"><text fontsize="80%" xml:id="S6.F5.pic1.5">=60,</text></g><g transform="translate(0,9.43) scale(1,-1)"><foreignobject width="55.92" height="7.31" overflow="visible"><math mode="inline" tex="K_{\rm main}" text="K _ main" xml:id="S6.F5.pic1.m3">
+              <xmath xml:id="S6.F5.pic1.m3.1">
+                <xmapp xml:id="S6.F5.pic1.m3.1.1">
+                  <xmtok role="SUBSCRIPTOP" scriptpos="post1"></xmtok>
+                  <xmtok font="italic" fontsize="80%" role="UNKNOWN">K</xmtok>
+                  <xmtok fontsize="56%" role="UNKNOWN">main</xmtok>
+                </xmapp>
+              </xmath>
+            </math></foreignobject></g></g><g transform="translate(166.6,-45.22)"><g transform="translate(0,13.28) scale(1,-1)"><foreignobject width="113.04" height="9.96" overflow="visible"><math mode="inline" tex="K_{1},K_{2}\in\{75,120,180\}" text="list@(K _ 1, K _ 2 element-of set@(75120180))" xml:id="S6.F5.pic1.m4">
+              <xmath xml:id="S6.F5.pic1.m4.5">
+                <xmdual xml:id="S6.F5.pic1.m4.5.1">
+                  <xmapp xml:id="S6.F5.pic1.m4.5.1.1">
+                    <xmtok meaning="list"></xmtok>
+                    <xmref idref="S6.F5.pic1.m4.1" xml:id="S6.F5.pic1.m4.5.1.1.2"></xmref>
+                    <xmref idref="S6.F5.pic1.m4.2" xml:id="S6.F5.pic1.m4.5.1.1.3"></xmref>
+                  </xmapp>
+                  <xmwrap xml:id="S6.F5.pic1.m4.5.1.2">
+                    <xmapp xml:id="S6.F5.pic1.m4.1">
+                      <xmtok role="SUBSCRIPTOP" scriptpos="post1"></xmtok>
+                      <xmtok font="italic" fontsize="80%" role="UNKNOWN">K</xmtok>
+                      <xmtok fontsize="56%" meaning="1" role="NUMBER">1</xmtok>
+                    </xmapp>
+                    <xmtok fontsize="80%" role="PUNCT">,</xmtok>
+                    <xmapp xml:id="S6.F5.pic1.m4.2">
+                      <xmtok fontsize="80%" meaning="element-of" name="in" role="RELOP">∈</xmtok>
+                      <xmapp xml:id="S6.F5.pic1.m4.2.2">
+                        <xmtok role="SUBSCRIPTOP" scriptpos="post1"></xmtok>
+                        <xmtok font="italic" fontsize="80%" role="UNKNOWN">K</xmtok>
+                        <xmtok fontsize="56%" meaning="2" role="NUMBER">2</xmtok>
+                      </xmapp>
+                      <xmdual xml:id="S6.F5.pic1.m4.2.3">
+                        <xmapp xml:id="S6.F5.pic1.m4.2.3.1">
+                          <xmtok meaning="set"></xmtok>
+                          <xmref idref="S6.F5.pic1.m4.3" xml:id="S6.F5.pic1.m4.2.3.1.2"></xmref>
+                        </xmapp>
+                        <xmwrap xml:id="S6.F5.pic1.m4.2.3.2">
+                          <xmtok role="OPEN" stretchy="false">{</xmtok>
+                          <xmtok fontsize="80%" meaning="75120180" role="NUMBER" xml:id="S6.F5.pic1.m4.3">75,120,180</xmtok>
+                          <xmtok role="CLOSE" stretchy="false">}</xmtok>
+                        </xmwrap>
+                      </xmdual>
+                    </xmapp>
+                  </xmwrap>
+                </xmdual>
+              </xmath>
+            </math></foreignobject></g></g><g transform="translate(356.99,-11.9)"><g transform="scale(1,-1)"><text fontsize="80%" xml:id="S6.F5.pic1.6">(c) <text font="italic" xml:id="S6.F5.pic1.6.1">Config. 3</text></g></g><g transform="translate(376.03,-28.56)"><g transform="scale(1,-1)"><text fontsize="80%" xml:id="S6.F5.pic1.7">=4,</text></g><g transform="translate(0,9.43) scale(1,-1)"><foreignobject width="50.34" height="7.31" overflow="visible"><math mode="inline" tex="K_{\rm main}" text="K _ main" xml:id="S6.F5.pic1.m5">
+              <xmath xml:id="S6.F5.pic1.m5.1">
+                <xmapp xml:id="S6.F5.pic1.m5.1.1">
+                  <xmtok role="SUBSCRIPTOP" scriptpos="post1"></xmtok>
+                  <xmtok font="italic" fontsize="80%" role="UNKNOWN">K</xmtok>
+                  <xmtok fontsize="56%" role="UNKNOWN">main</xmtok>
+                </xmapp>
+              </xmath>
+            </math></foreignobject></g></g><g transform="translate(347.47,-45.22)"><g transform="translate(0,13.28) scale(1,-1)"><foreignobject width="84.75" height="9.96" overflow="visible"><math mode="inline" tex="K_{1},K_{2}\in\{5,6,8\}" text="list@(K _ 1, K _ 2 element-of set@(5, 6, 8))" xml:id="S6.F5.pic1.m6">
+              <xmath xml:id="S6.F5.pic1.m6.7">
+                <xmdual xml:id="S6.F5.pic1.m6.7.1">
+                  <xmapp xml:id="S6.F5.pic1.m6.7.1.1">
+                    <xmtok meaning="list"></xmtok>
+                    <xmref idref="S6.F5.pic1.m6.1" xml:id="S6.F5.pic1.m6.7.1.1.2"></xmref>
+                    <xmref idref="S6.F5.pic1.m6.2" xml:id="S6.F5.pic1.m6.7.1.1.3"></xmref>
+                  </xmapp>
+                  <xmwrap xml:id="S6.F5.pic1.m6.7.1.2">
+                    <xmapp xml:id="S6.F5.pic1.m6.1">
+                      <xmtok role="SUBSCRIPTOP" scriptpos="post1"></xmtok>
+                      <xmtok font="italic" fontsize="80%" role="UNKNOWN">K</xmtok>
+                      <xmtok fontsize="56%" meaning="1" role="NUMBER">1</xmtok>
+                    </xmapp>
+                    <xmtok fontsize="80%" role="PUNCT">,</xmtok>
+                    <xmapp xml:id="S6.F5.pic1.m6.2">
+                      <xmtok fontsize="80%" meaning="element-of" name="in" role="RELOP">∈</xmtok>
+                      <xmapp xml:id="S6.F5.pic1.m6.2.2">
+                        <xmtok role="SUBSCRIPTOP" scriptpos="post1"></xmtok>
+                        <xmtok font="italic" fontsize="80%" role="UNKNOWN">K</xmtok>
+                        <xmtok fontsize="56%" meaning="2" role="NUMBER">2</xmtok>
+                      </xmapp>
+                      <xmdual xml:id="S6.F5.pic1.m6.2.3">
+                        <xmapp xml:id="S6.F5.pic1.m6.2.3.1">
+                          <xmtok meaning="set"></xmtok>
+                          <xmref idref="S6.F5.pic1.m6.3" xml:id="S6.F5.pic1.m6.2.3.1.2"></xmref>
+                          <xmref idref="S6.F5.pic1.m6.4" xml:id="S6.F5.pic1.m6.2.3.1.3"></xmref>
+                          <xmref idref="S6.F5.pic1.m6.5" xml:id="S6.F5.pic1.m6.2.3.1.4"></xmref>
+                        </xmapp>
+                        <xmwrap xml:id="S6.F5.pic1.m6.2.3.2">
+                          <xmtok role="OPEN" stretchy="false">{</xmtok>
+                          <xmtok fontsize="80%" meaning="5" role="NUMBER" xml:id="S6.F5.pic1.m6.3">5</xmtok>
+                          <xmtok fontsize="80%" role="PUNCT">,</xmtok>
+                          <xmtok fontsize="80%" meaning="6" role="NUMBER" xml:id="S6.F5.pic1.m6.4">6</xmtok>
+                          <xmtok fontsize="80%" role="PUNCT">,</xmtok>
+                          <xmtok fontsize="80%" meaning="8" role="NUMBER" xml:id="S6.F5.pic1.m6.5">8</xmtok>
+                          <xmtok role="CLOSE" stretchy="false">}</xmtok>
+                        </xmwrap>
+                      </xmdual>
+                    </xmapp>
+                  </xmwrap>
+                </xmdual>
+              </xmath>
+            </math></foreignobject></g></g></g></svg>
