@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="458.28" height="4.58" overflow="visible"><g transform="translate(0,4.58) scale(1,-1)"><g transform="translate(0,0)"><g transform="translate(0,9.17) scale(1,-1)"><foreignobject width="469.31" height="9.17" overflow="visible"><img src="arxiv-2401-09315--31efc2318886.figures/figure-1.webp" id="S2.F1.pic1.g1" class="ltx_graphics ltx_img_landscape" style="width:100%;height:100%;object-fit:contain" width="476" height="90" alt="Refer to caption"></foreignobject></g></g><g transform="translate(29.6,77.81)"><g transform="translate(0,6.38) scale(1,-1)"><foreignobject width="9.03" height="6.38" overflow="visible"><math mode="inline" tex="\mathbf{Y}" text="Y" xml:id="S2.F1.pic1.m1">
+            <xmath xml:id="S2.F1.pic1.m1.1">
+              <xmtok font="bold" fontsize="70%" role="UNKNOWN">Y</xmtok>
+            </xmath>
+          </math></foreignobject></g></g><g transform="translate(343.71,77.81)"><g transform="translate(0,9.56) scale(1,-1)"><foreignobject width="7.44" height="9.56" overflow="visible"><math mode="inline" tex="\hat{\mathbfcal{M}}" text="hat@(ℳ)" xml:id="S2.F1.pic1.m2">
+            <xmath xml:id="S2.F1.pic1.m2.1">
+              <xmapp xml:id="S2.F1.pic1.m2.1.1">
+                <xmtok name="hat" role="OVERACCENT" stretchy="false">^</xmtok>
+                <xmtok fontsize="70%" role="UNKNOWN">ℳ</xmtok>
+              </xmapp>
+            </xmath>
+          </math></foreignobject></g></g><g transform="translate(440.14,77.81)"><g transform="translate(0,9.56) scale(1,-1)"><foreignobject width="7.44" height="9.56" overflow="visible"><math mode="inline" tex="\hat{\mathbf{X}}" text="hat@(X)" xml:id="S2.F1.pic1.m3">
+            <xmath xml:id="S2.F1.pic1.m3.1">
+              <xmapp xml:id="S2.F1.pic1.m3.1.1">
+                <xmtok name="hat" role="OVERACCENT" stretchy="false">^</xmtok>
+                <xmtok font="bold" fontsize="70%" role="UNKNOWN">X</xmtok>
+              </xmapp>
+            </xmath>
+          </math></foreignobject></g></g><g transform="translate(206.7,11.93)"><g transform="translate(0,9.43) scale(1,-1)"><foreignobject width="25.77" height="7.04" overflow="visible"><math class="ltx_math_unparsed" mode="inline" tex="\mathbf{f}\left(\cdot|\theta\right)" xml:id="S2.F1.pic1.m4">
+            <xmath xml:id="S2.F1.pic1.m4.1">
+              <xmtok font="bold" fontsize="70%" role="UNKNOWN">f</xmtok>
+              <xmwrap xml:id="S2.F1.pic1.m4.1.2">
+                <xmtok fontsize="70%" role="OPEN" stretchy="true">(</xmtok>
+                <xmtok fontsize="70%" name="cdot" role="MULOP">⋅</xmtok>
+                <xmtok fontsize="70%" role="VERTBAR" stretchy="false">|</xmtok>
+                <xmtok font="italic" fontsize="70%" name="theta" role="UNKNOWN">θ</xmtok>
+                <xmtok fontsize="70%" role="CLOSE" stretchy="true">)</xmtok>
+              </xmwrap>
+            </xmath>
+          </math></foreignobject></g></g></g></svg>
