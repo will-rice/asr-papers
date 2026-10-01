@@ -1,0 +1,59 @@
+<svg id="S3.T2.pic1" class="ltx_picture" height="152.21" overflow="visible" style="vertical-align:-72.64px" version="1.1" viewbox="0 0 489.13 152.21" width="489.13"><g style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" fill="#000000" stroke="#000000" stroke-width="0.4pt" transform="translate(0,152.21) matrix(1 0 0 -1 0 0) translate(0,72.65)"><clippath id="pgfcp1"><path d="M 0 -72.64 L 0 79.56 L 489.13 79.56 L 489.13 -72.64 Z" /></clippath><g clip-path="url(#pgfcp1)"><g transform="matrix(1.0 0.0 0.0 1.0 0 0)"><foreignobject style="--ltx-fo-width:35.35em;--ltx-fo-height:5.75em;--ltx-fo-depth:5.25em;font-size:10pt;" height="152.21" overflow="visible" transform="matrix(1 0 0 -1 0 79.56)" width="489.14"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<table id="S3.T2.pic1.1" class="ltx_tabular ltx_guessed_headers ltx_align_middle">
+<tbody class="ltx_tbody">
+<tr id="S3.T2.pic1.1.1" class="ltx_tr">
+<th id="S3.T2.pic1.1.1.1" class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_t" style="padding-left:8.5pt;padding-right:8.5pt;"><span id="S3.T2.pic1.1.1.1.1" class="ltx_text ltx_font_bold">VoxCPM2 variant</span></th>
+<td id="S3.T2.pic1.1.1.2" class="ltx_td ltx_align_center ltx_border_t" style="padding-left:8.5pt;padding-right:8.5pt;"><span id="S3.T2.pic1.1.1.2.1" class="ltx_text ltx_font_bold">NVV reward</span></td>
+<td id="S3.T2.pic1.1.1.3" class="ltx_td ltx_align_center ltx_border_t" style="padding-left:8.5pt;padding-right:8.5pt;"> <span id="S3.T2.pic1.1.1.3.1" class="ltx_text ltx_font_bold">Gemini</span></td>
+<td id="S3.T2.pic1.1.1.4" class="ltx_td ltx_align_center ltx_border_t" style="padding-left:8.5pt;padding-right:8.5pt;"><span id="S3.T2.pic1.1.1.4.1" class="ltx_text ltx_font_bold">SIM</span></td>
+<td id="S3.T2.pic1.1.1.5" class="ltx_td ltx_nopad_r ltx_align_center ltx_border_t" style="padding-left:8.5pt;padding-right:8.5pt;"><span id="S3.T2.pic1.1.1.5.1" class="ltx_text ltx_font_bold">UTMOS</span></td></tr>
+<tr id="S3.T2.pic1.1.2" class="ltx_tr" style="--ltx-bg-color:#FFFFFF;">
+<th id="S3.T2.pic1.1.2.1" class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_t" style="padding-left:8.5pt;padding-right:8.5pt;"><span id="S3.T2.pic1.1.2.1.1" class="ltx_text" style="--ltx-bg-color:#FFFFFF;">SFT</span></th>
+<td id="S3.T2.pic1.1.2.2" class="ltx_td ltx_align_center ltx_border_t" style="padding-left:8.5pt;padding-right:8.5pt;"><span id="S3.T2.pic1.1.2.2.1" class="ltx_text" style="--ltx-bg-color:#FFFFFF;">0.397</span></td>
+<td id="S3.T2.pic1.1.2.3" class="ltx_td ltx_align_center ltx_border_t" style="padding-left:8.5pt;padding-right:8.5pt;"><span id="S3.T2.pic1.1.2.3.1" class="ltx_text" style="--ltx-bg-color:#FFFFFF;"> 3.09 / 3.06</span></td>
+<td id="S3.T2.pic1.1.2.4" class="ltx_td ltx_align_center ltx_border_t" style="padding-left:8.5pt;padding-right:8.5pt;"><span id="S3.T2.pic1.1.2.4.1" class="ltx_text" style="--ltx-bg-color:#FFFFFF;">0.683</span></td>
+<td id="S3.T2.pic1.1.2.5" class="ltx_td ltx_nopad_r ltx_align_center ltx_border_t" style="padding-left:8.5pt;padding-right:8.5pt;"><span id="S3.T2.pic1.1.2.5.1" class="ltx_text" style="--ltx-bg-color:#FFFFFF;">2.71</span></td></tr>
+<tr id="S3.T2.pic1.1.3" class="ltx_tr" style="--ltx-bg-color:#F2F2F2;">
+<th id="S3.T2.pic1.1.3.1" class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_t" style="padding-left:8.5pt;padding-right:8.5pt;"><span id="S3.T2.pic1.1.3.1.1" class="ltx_text ltx_font_bold" style="--ltx-bg-color:#F2F2F2;">NVAlign</span></th>
+<td id="S3.T2.pic1.1.3.2" class="ltx_td ltx_align_center ltx_border_t" style="padding-left:8.5pt;padding-right:8.5pt;"><span id="S3.T2.pic1.1.3.2.1" class="ltx_text" style="--ltx-bg-color:#F2F2F2;">0.468</span></td>
+<td id="S3.T2.pic1.1.3.3" class="ltx_td ltx_align_center ltx_border_t" style="padding-left:8.5pt;padding-right:8.5pt;"><span id="S3.T2.pic1.1.3.3.1" class="ltx_text" style="--ltx-bg-color:#F2F2F2;"> <span id="S3.T2.pic1.1.3.3.1.1" class="ltx_text ltx_font_bold">3.54</span> / <span id="S3.T2.pic1.1.3.3.1.2" class="ltx_text ltx_font_bold">3.34</span></span></td>
+<td id="S3.T2.pic1.1.3.4" class="ltx_td ltx_align_center ltx_border_t" style="padding-left:8.5pt;padding-right:8.5pt;"><span id="S3.T2.pic1.1.3.4.1" class="ltx_text" style="--ltx-bg-color:#F2F2F2;">0.798</span></td>
+<td id="S3.T2.pic1.1.3.5" class="ltx_td ltx_nopad_r ltx_align_center ltx_border_t" style="padding-left:8.5pt;padding-right:8.5pt;"><span id="S3.T2.pic1.1.3.5.1" class="ltx_text" style="--ltx-bg-color:#F2F2F2;">3.33</span></td></tr>
+<tr id="S3.T2.pic1.1.4" class="ltx_tr" style="--ltx-bg-color:#FFFFFF;">
+<th id="S3.T2.pic1.1.4.1" class="ltx_td ltx_align_left ltx_th ltx_th_row" style="padding-left:8.5pt;padding-right:8.5pt;"><span id="S3.T2.pic1.1.4.1.1" class="ltx_text" style="--ltx-bg-color:#FFFFFF;">w/o velocity reg.</span></th>
+<td id="S3.T2.pic1.1.4.2" class="ltx_td ltx_align_center" style="padding-left:8.5pt;padding-right:8.5pt;"><span id="S3.T2.pic1.1.4.2.1" class="ltx_text" style="--ltx-bg-color:#FFFFFF;">0.488</span></td>
+<td id="S3.T2.pic1.1.4.3" class="ltx_td ltx_align_center" style="padding-left:8.5pt;padding-right:8.5pt;"><span id="S3.T2.pic1.1.4.3.1" class="ltx_text" style="--ltx-bg-color:#FFFFFF;"> 2.88 / 1.94</span></td>
+<td id="S3.T2.pic1.1.4.4" class="ltx_td ltx_align_center" style="padding-left:8.5pt;padding-right:8.5pt;"><span id="S3.T2.pic1.1.4.4.1" class="ltx_text" style="--ltx-bg-color:#FFFFFF;">0.799</span></td>
+<td id="S3.T2.pic1.1.4.5" class="ltx_td ltx_nopad_r ltx_align_center" style="padding-left:8.5pt;padding-right:8.5pt;"><span id="S3.T2.pic1.1.4.5.1" class="ltx_text" style="--ltx-bg-color:#FFFFFF;">3.39</span></td></tr>
+<tr id="S3.T2.pic1.1.5" class="ltx_tr" style="--ltx-bg-color:#F2F2F2;">
+<th id="S3.T2.pic1.1.5.1" class="ltx_td ltx_align_left ltx_th ltx_th_row" style="padding-left:8.5pt;padding-right:8.5pt;"><span id="S3.T2.pic1.1.5.1.1" class="ltx_text" style="--ltx-bg-color:#F2F2F2;">w/o UTMOS</span></th>
+<td id="S3.T2.pic1.1.5.2" class="ltx_td ltx_align_center" style="padding-left:8.5pt;padding-right:8.5pt;"><span id="S3.T2.pic1.1.5.2.1" class="ltx_text" style="--ltx-bg-color:#F2F2F2;">0.474</span></td>
+<td id="S3.T2.pic1.1.5.3" class="ltx_td ltx_align_center" style="padding-left:8.5pt;padding-right:8.5pt;"><span id="S3.T2.pic1.1.5.3.1" class="ltx_text" style="--ltx-bg-color:#F2F2F2;"> 2.94 / 2.28</span></td>
+<td id="S3.T2.pic1.1.5.4" class="ltx_td ltx_align_center" style="padding-left:8.5pt;padding-right:8.5pt;"><span id="S3.T2.pic1.1.5.4.1" class="ltx_text" style="--ltx-bg-color:#F2F2F2;">0.786</span></td>
+<td id="S3.T2.pic1.1.5.5" class="ltx_td ltx_nopad_r ltx_align_center" style="padding-left:8.5pt;padding-right:8.5pt;"><span id="S3.T2.pic1.1.5.5.1" class="ltx_text" style="--ltx-bg-color:#F2F2F2;">3.01</span></td></tr>
+<tr id="S3.T2.pic1.1.6" class="ltx_tr" style="--ltx-bg-color:#FFFFFF;">
+<th id="S3.T2.pic1.1.6.1" class="ltx_td ltx_align_left ltx_th ltx_th_row" style="padding-left:8.5pt;padding-right:8.5pt;"><span id="S3.T2.pic1.1.6.1.1" class="ltx_text" style="--ltx-bg-color:#FFFFFF;">w/o signal terms</span></th>
+<td id="S3.T2.pic1.1.6.2" class="ltx_td ltx_align_center" style="padding-left:8.5pt;padding-right:8.5pt;"><span id="S3.T2.pic1.1.6.2.1" class="ltx_text" style="--ltx-bg-color:#FFFFFF;">0.454</span></td>
+<td id="S3.T2.pic1.1.6.3" class="ltx_td ltx_align_center" style="padding-left:8.5pt;padding-right:8.5pt;"><span id="S3.T2.pic1.1.6.3.1" class="ltx_text" style="--ltx-bg-color:#FFFFFF;"> 2.42 / 1.52</span></td>
+<td id="S3.T2.pic1.1.6.4" class="ltx_td ltx_align_center" style="padding-left:8.5pt;padding-right:8.5pt;"><span id="S3.T2.pic1.1.6.4.1" class="ltx_text" style="--ltx-bg-color:#FFFFFF;">0.796</span></td>
+<td id="S3.T2.pic1.1.6.5" class="ltx_td ltx_nopad_r ltx_align_center" style="padding-left:8.5pt;padding-right:8.5pt;"><span id="S3.T2.pic1.1.6.5.1" class="ltx_text" style="--ltx-bg-color:#FFFFFF;">2.72</span></td></tr>
+<tr id="S3.T2.pic1.1.7" class="ltx_tr" style="--ltx-bg-color:#F2F2F2;">
+<th id="S3.T2.pic1.1.7.1" class="ltx_td ltx_align_left ltx_th ltx_th_row" style="padding-left:8.5pt;padding-right:8.5pt;"><span id="S3.T2.pic1.1.7.1.1" class="ltx_text" style="--ltx-bg-color:#F2F2F2;">w/o speaker terms</span></th>
+<td id="S3.T2.pic1.1.7.2" class="ltx_td ltx_align_center" style="padding-left:8.5pt;padding-right:8.5pt;"><span id="S3.T2.pic1.1.7.2.1" class="ltx_text" style="--ltx-bg-color:#F2F2F2;">0.457</span></td>
+<td id="S3.T2.pic1.1.7.3" class="ltx_td ltx_align_center" style="padding-left:8.5pt;padding-right:8.5pt;"><span id="S3.T2.pic1.1.7.3.1" class="ltx_text" style="--ltx-bg-color:#F2F2F2;"> 2.40 / 1.31</span></td>
+<td id="S3.T2.pic1.1.7.4" class="ltx_td ltx_align_center" style="padding-left:8.5pt;padding-right:8.5pt;"><span id="S3.T2.pic1.1.7.4.1" class="ltx_text" style="--ltx-bg-color:#F2F2F2;">0.360</span></td>
+<td id="S3.T2.pic1.1.7.5" class="ltx_td ltx_nopad_r ltx_align_center" style="padding-left:8.5pt;padding-right:8.5pt;"><span id="S3.T2.pic1.1.7.5.1" class="ltx_text" style="--ltx-bg-color:#F2F2F2;">2.31</span></td></tr>
+<tr id="S3.T2.pic1.1.8" class="ltx_tr" style="--ltx-bg-color:#FFFFFF;">
+<th id="S3.T2.pic1.1.8.1" class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_t" style="padding-left:8.5pt;padding-right:8.5pt;"><span id="S3.T2.pic1.1.8.1.1" class="ltx_text" style="--ltx-bg-color:#FFFFFF;">Flow head only</span></th>
+<td id="S3.T2.pic1.1.8.2" class="ltx_td ltx_align_center ltx_border_t" style="padding-left:8.5pt;padding-right:8.5pt;"><span id="S3.T2.pic1.1.8.2.1" class="ltx_text" style="--ltx-bg-color:#FFFFFF;">0.441</span></td>
+<td id="S3.T2.pic1.1.8.3" class="ltx_td ltx_align_center ltx_border_t" style="padding-left:8.5pt;padding-right:8.5pt;"><span id="S3.T2.pic1.1.8.3.1" class="ltx_text" style="--ltx-bg-color:#FFFFFF;"> 2.89 / 3.01</span></td>
+<td id="S3.T2.pic1.1.8.4" class="ltx_td ltx_align_center ltx_border_t" style="padding-left:8.5pt;padding-right:8.5pt;"><span id="S3.T2.pic1.1.8.4.1" class="ltx_text" style="--ltx-bg-color:#FFFFFF;">0.767</span></td>
+<td id="S3.T2.pic1.1.8.5" class="ltx_td ltx_nopad_r ltx_align_center ltx_border_t" style="padding-left:8.5pt;padding-right:8.5pt;"><span id="S3.T2.pic1.1.8.5.1" class="ltx_text" style="--ltx-bg-color:#FFFFFF;">3.36</span></td></tr>
+<tr id="S3.T2.pic1.1.9" class="ltx_tr" style="--ltx-bg-color:#F2F2F2;">
+<th id="S3.T2.pic1.1.9.1" class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_b" style="padding-left:8.5pt;padding-right:8.5pt;"><span id="S3.T2.pic1.1.9.1.1" class="ltx_text" style="--ltx-bg-color:#F2F2F2;">Flow-GRPO</span></th>
+<td id="S3.T2.pic1.1.9.2" class="ltx_td ltx_align_center ltx_border_b" style="padding-left:8.5pt;padding-right:8.5pt;"><span id="S3.T2.pic1.1.9.2.1" class="ltx_text" style="--ltx-bg-color:#F2F2F2;">0.392</span></td>
+<td id="S3.T2.pic1.1.9.3" class="ltx_td ltx_align_center ltx_border_b" style="padding-left:8.5pt;padding-right:8.5pt;"><span id="S3.T2.pic1.1.9.3.1" class="ltx_text" style="--ltx-bg-color:#F2F2F2;"> 3.01 / 3.20</span></td>
+<td id="S3.T2.pic1.1.9.4" class="ltx_td ltx_align_center ltx_border_b" style="padding-left:8.5pt;padding-right:8.5pt;"><span id="S3.T2.pic1.1.9.4.1" class="ltx_text" style="--ltx-bg-color:#F2F2F2;">0.712</span></td>
+<td id="S3.T2.pic1.1.9.5" class="ltx_td ltx_nopad_r ltx_align_center ltx_border_b" style="padding-left:8.5pt;padding-right:8.5pt;"><span id="S3.T2.pic1.1.9.5.1" class="ltx_text" style="--ltx-bg-color:#F2F2F2;">2.95</span></td></tr>
+</tbody>
+</table></span></span></foreignobject></g><g></g></g></g></svg>
