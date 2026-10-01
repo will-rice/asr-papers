@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="205.89" height="162.66" overflow="visible"><g transform="translate(0,162.66) scale(1,-1)"><g transform="translate(0,0)"><g transform="translate(0,163.52) scale(1,-1)"><foreignobject width="217.32" height="163.52" overflow="visible"><object type="image/svg+xml" data="2308.04832v1/myf.svg" id="S1.F1.pic1.g1" class="ltx_graphics ltx_img_landscape" style="width:100%;height:100%;object-fit:contain" width="215" height="170" aria-label="Refer to caption"></object></foreignobject></g></g><g transform="translate(42.89,27.88)"><g transform="translate(0,26.04) scale(1,-1)"><foreignobject width="119.55" height="16.34" overflow="visible"><math mode="inline" tex="\footnotesize{f=\left\{\begin{array}[]{l}x,\mathrm{if}~|x|\leq 1\\
+\delta(x)(2\sqrt{|x|}-1)\end{array}\right.}" text="f = cases@(Array[[formulae@(x &lt;= 1, if * absolute-value@(x) &lt;= 1)], [delta * x * (2 * square-root@(absolute-value@(x)) - 1)]])" xml:id="S1.F1.pic1.m1">
+            <xmath xml:id="S1.F1.pic1.m1.10">
+              <xmapp xml:id="S1.F1.pic1.m1.10.1">
+                <xmtok fontsize="80%" meaning="equals" role="RELOP">=</xmtok>
+                <xmtok font="italic" fontsize="80%" role="UNKNOWN">f</xmtok>
+                <xmdual xml:id="S1.F1.pic1.m1.10.1.3">
+                  <xmapp xml:id="S1.F1.pic1.m1.10.1.3.1">
+                    <xmtok meaning="cases"></xmtok>
+                    <xmref idref="S1.F1.pic1.m1.1" xml:id="S1.F1.pic1.m1.10.1.3.1.2"></xmref>
+                  </xmapp>
+                  <xmwrap xml:id="S1.F1.pic1.m1.10.1.3.2">
+                    <xmtok fontsize="80%" role="OPEN" stretchy="true">{</xmtok>
+                    <xmarray role="ARRAY" vattach="middle" xml:id="S1.F1.pic1.m1.1">
+                      <xmrow xml:id="S1.F1.pic1.m1.1.1">
+                        <xmcell align="left" xml:id="S1.F1.pic1.m1.1.1.1">
+                          <xmdual xml:id="S1.F1.pic1.m1.1.1.1.1">
+                            <xmapp xml:id="S1.F1.pic1.m1.1.1.1.1.1">
+                              <xmtok meaning="formulae"></xmtok>
+                              <xmapp xml:id="S1.F1.pic1.m1.1.1.1.1.1.2">
+                                <xmref idref="S1.F1.pic1.m1.2" xml:id="S1.F1.pic1.m1.1.1.1.1.1.2.1"></xmref>
+                                <xmref idref="S1.F1.pic1.m1.3" xml:id="S1.F1.pic1.m1.1.1.1.1.1.2.2"></xmref>
+                                <xmref idref="S1.F1.pic1.m1.6" xml:id="S1.F1.pic1.m1.1.1.1.1.1.2.3"></xmref>
+                              </xmapp>
+                              <xmapp xml:id="S1.F1.pic1.m1.1.1.1.1.1.3">
+                                <xmref idref="S1.F1.pic1.m1.2" xml:id="S1.F1.pic1.m1.1.1.1.1.1.3.1"></xmref>
+                                <xmref idref="S1.F1.pic1.m1.4" xml:id="S1.F1.pic1.m1.1.1.1.1.1.3.2"></xmref>
+                                <xmref idref="S1.F1.pic1.m1.6" xml:id="S1.F1.pic1.m1.1.1.1.1.1.3.3"></xmref>
+                              </xmapp>
+                            </xmapp>
+                            <xmapp xml:id="S1.F1.pic1.m1.1.1.1.1.2">
+                              <xmtok fontsize="80%" meaning="less-than-or-equals" name="leq" role="RELOP" xml:id="S1.F1.pic1.m1.2">≤</xmtok>
+                              <xmwrap xml:id="S1.F1.pic1.m1.1.1.1.1.2.1">
+                                <xmtok font="italic" fontsize="80%" role="UNKNOWN" xml:id="S1.F1.pic1.m1.3">x</xmtok>
+                                <xmtok fontsize="80%" role="PUNCT">,</xmtok>
+                                <xmapp xml:id="S1.F1.pic1.m1.4">
+                                  <xmtok meaning="times" role="MULOP">⁢</xmtok>
+                                  <xmtok fontsize="80%" role="UNKNOWN" rpadding="2.8pt">if</xmtok>
+                                  <xmdual xml:id="S1.F1.pic1.m1.4.3">
+                                    <xmapp xml:id="S1.F1.pic1.m1.4.3.1">
+                                      <xmtok meaning="absolute-value"></xmtok>
+                                      <xmref idref="S1.F1.pic1.m1.5" xml:id="S1.F1.pic1.m1.4.3.1.2"></xmref>
+                                    </xmapp>
+                                    <xmwrap xml:id="S1.F1.pic1.m1.4.3.2">
+                                      <xmtok fontsize="80%" role="OPEN" stretchy="false">|</xmtok>
+                                      <xmtok font="italic" fontsize="80%" role="UNKNOWN" xml:id="S1.F1.pic1.m1.5">x</xmtok>
+                                      <xmtok fontsize="80%" role="CLOSE" stretchy="false">|</xmtok>
+                                    </xmwrap>
+                                  </xmdual>
+                                </xmapp>
+                              </xmwrap>
+                              <xmtok fontsize="80%" meaning="1" role="NUMBER" xml:id="S1.F1.pic1.m1.6">1</xmtok>
+                            </xmapp>
+                          </xmdual>
+                        </xmcell>
+                      </xmrow>
+                      <xmrow xml:id="S1.F1.pic1.m1.1.2">
+                        <xmcell align="left" xml:id="S1.F1.pic1.m1.1.2.1">
+                          <xmapp xml:id="S1.F1.pic1.m1.1.2.1.1">
+                            <xmtok meaning="times" role="MULOP">⁢</xmtok>
+                            <xmtok font="italic" fontsize="80%" name="delta" role="UNKNOWN">δ</xmtok>
+                            <xmdual xml:id="S1.F1.pic1.m1.1.2.1.1.3">
+                              <xmref idref="S1.F1.pic1.m1.7" xml:id="S1.F1.pic1.m1.1.2.1.1.3.1"></xmref>
+                              <xmwrap xml:id="S1.F1.pic1.m1.1.2.1.1.3.2">
+                                <xmtok fontsize="80%" role="OPEN" stretchy="false">(</xmtok>
+                                <xmtok font="italic" fontsize="80%" role="UNKNOWN" xml:id="S1.F1.pic1.m1.7">x</xmtok>
+                                <xmtok fontsize="80%" role="CLOSE" stretchy="false">)</xmtok>
+                              </xmwrap>
+                            </xmdual>
+                            <xmdual xml:id="S1.F1.pic1.m1.1.2.1.1.4">
+                              <xmref idref="S1.F1.pic1.m1.8" xml:id="S1.F1.pic1.m1.1.2.1.1.4.1"></xmref>
+                              <xmwrap xml:id="S1.F1.pic1.m1.1.2.1.1.4.2">
+                                <xmtok fontsize="80%" role="OPEN" stretchy="false">(</xmtok>
+                                <xmapp xml:id="S1.F1.pic1.m1.8">
+                                  <xmtok fontsize="80%" meaning="minus" role="ADDOP">-</xmtok>
+                                  <xmapp xml:id="S1.F1.pic1.m1.8.2">
+                                    <xmtok meaning="times" role="MULOP">⁢</xmtok>
+                                    <xmtok fontsize="80%" meaning="2" role="NUMBER">2</xmtok>
+                                    <xmapp xml:id="S1.F1.pic1.m1.8.2.3">
+                                      <xmtok meaning="square-root"></xmtok>
+                                      <xmdual xml:id="S1.F1.pic1.m1.8.2.3.2">
+                                        <xmapp xml:id="S1.F1.pic1.m1.8.2.3.2.1">
+                                          <xmtok meaning="absolute-value"></xmtok>
+                                          <xmref idref="S1.F1.pic1.m1.9" xml:id="S1.F1.pic1.m1.8.2.3.2.1.2"></xmref>
+                                        </xmapp>
+                                        <xmwrap xml:id="S1.F1.pic1.m1.8.2.3.2.2">
+                                          <xmtok fontsize="80%" role="OPEN" stretchy="false">|</xmtok>
+                                          <xmtok font="italic" fontsize="80%" role="UNKNOWN" xml:id="S1.F1.pic1.m1.9">x</xmtok>
+                                          <xmtok fontsize="80%" role="CLOSE" stretchy="false">|</xmtok>
+                                        </xmwrap>
+                                      </xmdual>
+                                    </xmapp>
+                                  </xmapp>
+                                  <xmtok fontsize="80%" meaning="1" role="NUMBER">1</xmtok>
+                                </xmapp>
+                                <xmtok fontsize="80%" role="CLOSE" stretchy="false">)</xmtok>
+                              </xmwrap>
+                            </xmdual>
+                          </xmapp>
+                        </xmcell>
+                      </xmrow>
+                    </xmarray>
+                    <xmtok meaning="absent"></xmtok>
+                  </xmwrap>
+                </xmdual>
+              </xmapp>
+            </xmath>
+          </math></foreignobject></g></g></g></svg>
