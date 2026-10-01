@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="358.66" height="179.33" overflow="visible"><g transform="translate(0,179.33) scale(1,-1)"><g transform="translate(19.37,13.84)"><g transform="translate(0,1.33) scale(1,-1)"><foreignobject width="1.33" height="1.33" overflow="visible"><object type="image/svg+xml" data="1105.4665v1/3_4_160_arxiv.svg" id="S3.F4.pic1.g1" class="ltx_graphics ltx_img_landscape" style="width:100%;height:100%;object-fit:contain" width="267" height="160" aria-label="Refer to caption"></object></foreignobject></g></g><g transform="translate(24.91,-11.07)"><g transform="translate(0,8.37) scale(1,-1)"><foreignobject width="16.34" height="8.37" overflow="visible"><math mode="inline" tex="0" text="0" xml:id="S3.F4.pic1.m12">
+                      <xmath xml:id="S3.F4.pic1.m12.1">
+                        <xmtok fontsize="90%" meaning="0" role="NUMBER">0</xmtok>
+                      </xmath>
+                    </math></foreignobject></g></g><g transform="translate(207.56,-27.67)"><g transform="scale(1,-1)"><text fontsize="90%" xml:id="S3.F4.pic1.m13.1.1.3.1">(dB)</text></g><g transform="translate(0,12.09) scale(1,-1)"><foreignobject width="80.76" height="9.03" overflow="visible"><math mode="inline" tex="E_{b}/N_{0}\,\,\text{(dB)}" text="(E _ b / N _ 0) * [(dB)]" xml:id="S3.F4.pic1.m13">
+                      <xmath xml:id="S3.F4.pic1.m13.1">
+                        <xmapp xml:id="S3.F4.pic1.m13.1.1">
+                          <xmtok meaning="times" role="MULOP">⁢</xmtok>
+                          <xmapp xml:id="S3.F4.pic1.m13.1.1.2">
+                            <xmtok fontsize="90%" meaning="divide" role="MULOP">/</xmtok>
+                            <xmapp xml:id="S3.F4.pic1.m13.1.1.2.2">
+                              <xmtok role="SUBSCRIPTOP" scriptpos="post1"></xmtok>
+                              <xmtok font="italic" fontsize="90%" role="UNKNOWN">E</xmtok>
+                              <xmtok font="italic" fontsize="63%" role="UNKNOWN">b</xmtok>
+                            </xmapp>
+                            <xmapp rpadding="3.4pt" xml:id="S3.F4.pic1.m13.1.1.2.3">
+                              <xmtok role="SUBSCRIPTOP" scriptpos="post1"></xmtok>
+                              <xmtok font="italic" fontsize="90%" role="UNKNOWN">N</xmtok>
+                              <xmtok fontsize="63%" meaning="0" role="NUMBER">0</xmtok>
+                            </xmapp>
+                          </xmapp>
+                          <xmtext xml:id="S3.F4.pic1.m13.1.1.3"><text fontsize="90%" xml:id="S3.F4.pic1.m13.1.1.3.1">(dB)</text></xmtext>
+                        </xmapp>
+                      </xmath>
+                    </math></foreignobject></g></g><g transform="translate(-6.92,110.7)"><g transform="scale(1,-1)"><text fontsize="90%" xml:id="S3.F4.pic1.12.1.1">WER</text></g></g><g transform="translate(253.22,161.89)"><g transform="scale(1,-1)"><text fontsize="90%" xml:id="S3.F4.pic1.13.1.1">Basic LP</text></g></g><g transform="translate(253.22,148.06)"><g transform="scale(1,-1)"><text fontsize="90%" xml:id="S3.F4.pic1.14.1.1">LP-FC</text></g></g></g></svg>

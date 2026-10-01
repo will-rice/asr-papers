@@ -6,10 +6,14 @@ Standalone paper discovery and conversion for A curated, automatically-updated c
 
 # Papers
 
-The 30 most recent of 5746 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
+The 30 most recent of 5750 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
 
 | Published                 | Identifier         | Title                                                                                                                                                                    | Source |
 | ------------------------- | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------ |
+| 2026-09-30T17:59:52+00:00 | arxiv:2609.40359v1 | [Removing Timing Shortcuts Improves Non-Invasive Brain-to-Text](https://arxiv.org/abs/2609.40359v1)                                                                      | arxiv  |
+| 2026-09-30T17:05:58+00:00 | arxiv:2609.40181v1 | [Index-Translate: A Multilingual Translation Model Family -- Text, Speech, Controlled Dubbing, and Long-Document Translation](https://arxiv.org/abs/2609.40181v1)        | arxiv  |
+| 2026-09-30T04:51:32+00:00 | arxiv:2609.38976v1 | [Fairness Beyond a Single Run: Training-Seed Variability in Speech LLM Adaptation](https://arxiv.org/abs/2609.38976v1)                                                   | arxiv  |
+| 2026-09-30T03:28:23+00:00 | arxiv:2609.38878v1 | [Audio Token Attention Is Predictable Before the Language Model Runs](https://arxiv.org/abs/2609.38878v1)                                                                | arxiv  |
 | 2026-09-29T17:46:50+00:00 | arxiv:2609.38106v1 | [Pruning for Efficiency, Paying in Fairness: Demographic Disparities in Pruned Speech-LLMs](https://arxiv.org/abs/2609.38106v1)                                          | arxiv  |
 | 2026-09-29T13:56:41+00:00 | arxiv:2609.37611v1 | [Selective Lookahead for Attention-Based Streaming ASR](https://arxiv.org/abs/2609.37611v1)                                                                              | arxiv  |
 | 2026-09-29T07:34:13+00:00 | arxiv:2609.36913v1 | [BaLEEN: Biasing with Latent Encoded Entities for Context-Aware ASR](https://arxiv.org/abs/2609.36913v1)                                                                 | arxiv  |
@@ -36,10 +40,6 @@ The 30 most recent of 5746 papers. Every paper is listed in [papers.csv](papers.
 | 2026-09-24T13:37:22+00:00 | arxiv:2609.29800v1 | [Adaptive Fisher-Whitened Cross-Covariance for Low-Resource Speech Recognition](https://arxiv.org/abs/2609.29800v1)                                                      | arxiv  |
 | 2026-09-24T13:36:38+00:00 | arxiv:2609.29798v1 | [Benchmarking and Domain Adaptation of Automatic Speech Recognition (ASR) for Adolescent Health Communication in Ghanaian Languages](https://arxiv.org/abs/2609.29798v1) | arxiv  |
 | 2026-09-24T13:14:50+00:00 | arxiv:2609.29768v1 | [Depth through recurrence: Looped transformers for flow-matching TTS](papers/arxiv-2609-29768v1--75d89e10d9b3.md)                                                        | arxiv  |
-| 2026-09-24T12:06:46+00:00 | arxiv:2609.29448v1 | [YODAS v3: Over 1 Million Hours of High-Bandwidth, Stereophonic, Multilingual Speech](https://arxiv.org/abs/2609.29448v1)                                                | arxiv  |
-| 2026-09-24T11:30:22+00:00 | arxiv:2609.29405v1 | [Transcript-Supervised Post-Training of Generative Speech Enhancement on Real Recordings via Reinforce Adjoint Matching](https://arxiv.org/abs/2609.29405v1)             | arxiv  |
-| 2026-09-24T07:24:01+00:00 | arxiv:2609.29146v1 | [BanglaKontho: Closing the Long-Form Gap in Bangla Text-to-Speech](papers/arxiv-2609-29146v1--f1875a6fab5a.md)                                                           | arxiv  |
-| 2026-09-24T04:01:10+00:00 | arxiv:2609.28988v1 | [Personalized Korean Lipreading as Visual Speech Recognition: Transfer, Census and Adaptation on OLKAVS](https://arxiv.org/abs/2609.28988v1)                             | arxiv  |
 
 <!-- papers-index:end -->
 

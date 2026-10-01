@@ -1,0 +1,249 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="265.67" height="172.69" overflow="visible"><g transform="translate(0,172.69) scale(1,-1)"><g transform="translate(0,0)"><rect fill="none" height="100.0pt" stroke="#000000" stroke-width="0.4" width="180.0pt" x="0" y="0" /></g><g transform="translate(124.53,69.19)"><circle fill="none" r="11.07" stroke="#000000" stroke-width="0.4" x="0" y="0"></circle></g><g transform="translate(119.69,66.42)"><g transform="translate(0,7.84) scale(1,-1)"><foreignobject width="11.42" height="5.84" overflow="visible"><math mode="inline" tex="\mathbf{c}_{t}" text="c _ t" xml:id="S3.F1.pic1.m1">
+              <xmath xml:id="S3.F1.pic1.m1.1">
+                <xmapp xml:id="S3.F1.pic1.m1.1.1">
+                  <xmtok role="SUBSCRIPTOP" scriptpos="post1"></xmtok>
+                  <xmtok font="bold" role="UNKNOWN">c</xmtok>
+                  <xmtok font="italic" fontsize="70%" role="UNKNOWN">t</xmtok>
+                </xmapp>
+              </xmath>
+            </math></foreignobject></g></g><g transform="translate(116.23,83.02)"><g transform="scale(1,-1)"><text xml:id="S3.F1.pic1.1">Cell</text></g></g><g transform="translate(124.53,44.28)"><circle fill="none" r="4.5" stroke="#000000" stroke-width="0.4" x="0" y="0"></circle></g><g transform="translate(120.73,42.2)"><g transform="translate(0,8.77) scale(1,-1)"><foreignobject width="10.36" height="7.70" overflow="visible"><math mode="inline" tex="\times" text="*" xml:id="S3.F1.pic1.m2">
+              <xmath xml:id="S3.F1.pic1.m2.1">
+                <xmtok meaning="times" role="MULOP">×</xmtok>
+              </xmath>
+            </math></foreignobject></g></g><g transform="translate(124.53,16.6)"><circle fill="none" r="11.07" stroke="#000000" stroke-width="0.4" x="0" y="0"></circle></g><g transform="translate(119.69,13.84)"><g transform="translate(0,11.69) scale(1,-1)"><foreignobject width="7.97" height="9.17" overflow="visible"><math mode="inline" tex="f" text="f" xml:id="S3.F1.pic1.m3">
+              <xmath xml:id="S3.F1.pic1.m3.1">
+                <xmtok font="italic" role="UNKNOWN">f</xmtok>
+              </xmath>
+            </math></foreignobject></g></g><g transform="translate(138.37,13.84)"><g transform="scale(1,-1)"><text xml:id="S3.F1.pic1.2">Forget gate</text></g></g><g transform="translate(124.53,27.67)"><line x1="0" y1="0" x2="0" y2="-11.07" stroke="#000000" stroke-width="0.4" terminators="-&gt;"></line></g><g transform="translate(117.61,60.88)"><line x1="0" y1="0" x2="0" y2="0" stroke="#000000" stroke-width="0.4" terminators="-&gt;"></line></g><g transform="translate(129.38,43.59)"><line x1="0" y1="0" x2="0" y2="0" stroke="#000000" stroke-width="0.4" terminators="-&gt;"></line></g><g transform="translate(113.46,-11.07)"><line x1="0" y1="0" x2="8.3" y2="16.6" stroke="#000000" stroke-width="0.4" terminators="-&gt;"></line></g><g transform="translate(100.32,-17.99)"><g transform="translate(0,13.28) scale(1,-1)"><foreignobject width="21.25" height="11.29" overflow="visible"><math mode="inline" tex="h_{t-1}^{l}" text="(h _ (t - 1)) ^ l" xml:id="S3.F1.pic1.m4">
+              <xmath xml:id="S3.F1.pic1.m4.1">
+                <xmapp xml:id="S3.F1.pic1.m4.1.1">
+                  <xmtok role="SUPERSCRIPTOP" scriptpos="post1"></xmtok>
+                  <xmapp xml:id="S3.F1.pic1.m4.1.1.2">
+                    <xmtok role="SUBSCRIPTOP" scriptpos="post1"></xmtok>
+                    <xmtok font="italic" role="UNKNOWN">h</xmtok>
+                    <xmapp xml:id="S3.F1.pic1.m4.1.1.2.3">
+                      <xmtok fontsize="70%" meaning="minus" role="ADDOP">-</xmtok>
+                      <xmtok font="italic" fontsize="70%" role="UNKNOWN">t</xmtok>
+                      <xmtok fontsize="70%" meaning="1" role="NUMBER">1</xmtok>
+                    </xmapp>
+                  </xmapp>
+                  <xmtok font="italic" fontsize="70%" role="UNKNOWN">l</xmtok>
+                </xmapp>
+              </xmath>
+            </math></foreignobject></g></g><g transform="translate(135.6,-11.07)"><line x1="0" y1="0" x2="-8.3" y2="16.6" stroke="#000000" stroke-width="0.4" terminators="-&gt;"></line></g><g transform="translate(136.99,-17.99)"><g transform="translate(0,13.28) scale(1,-1)"><foreignobject width="20.59" height="11.29" overflow="visible"><math mode="inline" tex="h_{t}^{l-1}" text="(h _ t) ^ (l - 1)" xml:id="S3.F1.pic1.m5">
+              <xmath xml:id="S3.F1.pic1.m5.1">
+                <xmapp xml:id="S3.F1.pic1.m5.1.1">
+                  <xmtok role="SUPERSCRIPTOP" scriptpos="post1"></xmtok>
+                  <xmapp xml:id="S3.F1.pic1.m5.1.1.2">
+                    <xmtok role="SUBSCRIPTOP" scriptpos="post1"></xmtok>
+                    <xmtok font="italic" role="UNKNOWN">h</xmtok>
+                    <xmtok font="italic" fontsize="70%" role="UNKNOWN">t</xmtok>
+                  </xmapp>
+                  <xmapp xml:id="S3.F1.pic1.m5.1.1.3">
+                    <xmtok fontsize="70%" meaning="minus" role="ADDOP">-</xmtok>
+                    <xmtok font="italic" fontsize="70%" role="UNKNOWN">l</xmtok>
+                    <xmtok fontsize="70%" meaning="1" role="NUMBER">1</xmtok>
+                  </xmapp>
+                </xmapp>
+              </xmath>
+            </math></foreignobject></g></g><g transform="translate(41.51,120.38)"><circle fill="none" r="11.07" stroke="#000000" stroke-width="0.4" x="0" y="0"></circle></g><g transform="translate(38.74,117.61)"><g transform="translate(0,8.77) scale(1,-1)"><foreignobject width="4.52" height="8.77" overflow="visible"><math mode="inline" tex="i" text="i" xml:id="S3.F1.pic1.m6">
+              <xmath xml:id="S3.F1.pic1.m6.1">
+                <xmtok font="italic" role="UNKNOWN">i</xmtok>
+              </xmath>
+            </math></foreignobject></g></g><g transform="translate(8.3,117.61)"><g transform="translate(0,27.63) scale(1,-1)"><foreignobject width="32.15" height="17.14" overflow="visible"><math mode="inline" tex="\begin{matrix}\text{Input}\\
+\text{gate}\end{matrix}" text="matrix@(Array[[[Input]], [[gate]]])" xml:id="S3.F1.pic1.m7">
+              <xmath xml:id="S3.F1.pic1.m7.2">
+                <xmdual xml:id="S3.F1.pic1.m7.2.1">
+                  <xmapp xml:id="S3.F1.pic1.m7.2.1.1">
+                    <xmtok meaning="matrix"></xmtok>
+                    <xmref idref="S3.F1.pic1.m7.1" xml:id="S3.F1.pic1.m7.2.1.1.2"></xmref>
+                  </xmapp>
+                  <xmarray xml:id="S3.F1.pic1.m7.1">
+                    <xmrow xml:id="S3.F1.pic1.m7.1.1">
+                      <xmcell align="center" xml:id="S3.F1.pic1.m7.1.1.1">
+                        <xmtext xml:id="S3.F1.pic1.m7.1.1.1.1">Input</xmtext>
+                      </xmcell>
+                    </xmrow>
+                    <xmrow xml:id="S3.F1.pic1.m7.1.2">
+                      <xmcell align="center" xml:id="S3.F1.pic1.m7.1.2.1">
+                        <xmtext xml:id="S3.F1.pic1.m7.1.2.1.1">gate</xmtext>
+                      </xmcell>
+                    </xmrow>
+                  </xmarray>
+                </xmdual>
+              </xmath>
+            </math></foreignobject></g></g><g transform="translate(29.75,145.29)"><line x1="0" y1="0" x2="6.92" y2="-13.84" stroke="#000000" stroke-width="0.4" terminators="-&gt;"></line></g><g transform="translate(17.3,149.44)"><g transform="translate(0,13.28) scale(1,-1)"><foreignobject width="21.25" height="11.29" overflow="visible"><math mode="inline" tex="h_{t-1}^{l}" text="(h _ (t - 1)) ^ l" xml:id="S3.F1.pic1.m8">
+              <xmath xml:id="S3.F1.pic1.m8.1">
+                <xmapp xml:id="S3.F1.pic1.m8.1.1">
+                  <xmtok role="SUPERSCRIPTOP" scriptpos="post1"></xmtok>
+                  <xmapp xml:id="S3.F1.pic1.m8.1.1.2">
+                    <xmtok role="SUBSCRIPTOP" scriptpos="post1"></xmtok>
+                    <xmtok font="italic" role="UNKNOWN">h</xmtok>
+                    <xmapp xml:id="S3.F1.pic1.m8.1.1.2.3">
+                      <xmtok fontsize="70%" meaning="minus" role="ADDOP">-</xmtok>
+                      <xmtok font="italic" fontsize="70%" role="UNKNOWN">t</xmtok>
+                      <xmtok fontsize="70%" meaning="1" role="NUMBER">1</xmtok>
+                    </xmapp>
+                  </xmapp>
+                  <xmtok font="italic" fontsize="70%" role="UNKNOWN">l</xmtok>
+                </xmapp>
+              </xmath>
+            </math></foreignobject></g></g><g transform="translate(54.66,148.06)"><line x1="0" y1="0" x2="-8.3" y2="-16.6" stroke="#000000" stroke-width="0.4" terminators="-&gt;"></line></g><g transform="translate(51.2,149.44)"><g transform="translate(0,13.28) scale(1,-1)"><foreignobject width="20.59" height="11.29" overflow="visible"><math mode="inline" tex="h_{t}^{l-1}" text="(h _ t) ^ (l - 1)" xml:id="S3.F1.pic1.m9">
+              <xmath xml:id="S3.F1.pic1.m9.1">
+                <xmapp xml:id="S3.F1.pic1.m9.1.1">
+                  <xmtok role="SUPERSCRIPTOP" scriptpos="post1"></xmtok>
+                  <xmapp xml:id="S3.F1.pic1.m9.1.1.2">
+                    <xmtok role="SUBSCRIPTOP" scriptpos="post1"></xmtok>
+                    <xmtok font="italic" role="UNKNOWN">h</xmtok>
+                    <xmtok font="italic" fontsize="70%" role="UNKNOWN">t</xmtok>
+                  </xmapp>
+                  <xmapp xml:id="S3.F1.pic1.m9.1.1.3">
+                    <xmtok fontsize="70%" meaning="minus" role="ADDOP">-</xmtok>
+                    <xmtok font="italic" fontsize="70%" role="UNKNOWN">l</xmtok>
+                    <xmtok fontsize="70%" meaning="1" role="NUMBER">1</xmtok>
+                  </xmapp>
+                </xmapp>
+              </xmath>
+            </math></foreignobject></g></g><g transform="translate(203.4,120.38)"><circle fill="none" r="11.07" stroke="#000000" stroke-width="0.4" x="0" y="0"></circle></g><g transform="translate(199.94,117.61)"><g transform="translate(0,5.71) scale(1,-1)"><foreignobject width="6.38" height="5.71" overflow="visible"><math mode="inline" tex="o" text="o" xml:id="S3.F1.pic1.m10">
+              <xmath xml:id="S3.F1.pic1.m10.1">
+                <xmtok font="italic" role="UNKNOWN">o</xmtok>
+              </xmath>
+            </math></foreignobject></g></g><g transform="translate(215.86,117.61)"><g transform="translate(0,27.63) scale(1,-1)"><foreignobject width="42.77" height="17.14" overflow="visible"><math mode="inline" tex="\begin{matrix}\text{Output}\\
+\text{gate}\end{matrix}" text="matrix@(Array[[[Output]], [[gate]]])" xml:id="S3.F1.pic1.m11">
+              <xmath xml:id="S3.F1.pic1.m11.2">
+                <xmdual xml:id="S3.F1.pic1.m11.2.1">
+                  <xmapp xml:id="S3.F1.pic1.m11.2.1.1">
+                    <xmtok meaning="matrix"></xmtok>
+                    <xmref idref="S3.F1.pic1.m11.1" xml:id="S3.F1.pic1.m11.2.1.1.2"></xmref>
+                  </xmapp>
+                  <xmarray xml:id="S3.F1.pic1.m11.1">
+                    <xmrow xml:id="S3.F1.pic1.m11.1.1">
+                      <xmcell align="center" xml:id="S3.F1.pic1.m11.1.1.1">
+                        <xmtext xml:id="S3.F1.pic1.m11.1.1.1.1">Output</xmtext>
+                      </xmcell>
+                    </xmrow>
+                    <xmrow xml:id="S3.F1.pic1.m11.1.2">
+                      <xmcell align="center" xml:id="S3.F1.pic1.m11.1.2.1">
+                        <xmtext xml:id="S3.F1.pic1.m11.1.2.1.1">gate</xmtext>
+                      </xmcell>
+                    </xmrow>
+                  </xmarray>
+                </xmdual>
+              </xmath>
+            </math></foreignobject></g></g><g transform="translate(191.64,145.29)"><line x1="0" y1="0" x2="6.92" y2="-13.84" stroke="#000000" stroke-width="0.4" terminators="-&gt;"></line></g><g transform="translate(179.19,149.44)"><g transform="translate(0,13.28) scale(1,-1)"><foreignobject width="21.25" height="11.29" overflow="visible"><math mode="inline" tex="h_{t-1}^{l}" text="(h _ (t - 1)) ^ l" xml:id="S3.F1.pic1.m12">
+              <xmath xml:id="S3.F1.pic1.m12.1">
+                <xmapp xml:id="S3.F1.pic1.m12.1.1">
+                  <xmtok role="SUPERSCRIPTOP" scriptpos="post1"></xmtok>
+                  <xmapp xml:id="S3.F1.pic1.m12.1.1.2">
+                    <xmtok role="SUBSCRIPTOP" scriptpos="post1"></xmtok>
+                    <xmtok font="italic" role="UNKNOWN">h</xmtok>
+                    <xmapp xml:id="S3.F1.pic1.m12.1.1.2.3">
+                      <xmtok fontsize="70%" meaning="minus" role="ADDOP">-</xmtok>
+                      <xmtok font="italic" fontsize="70%" role="UNKNOWN">t</xmtok>
+                      <xmtok fontsize="70%" meaning="1" role="NUMBER">1</xmtok>
+                    </xmapp>
+                  </xmapp>
+                  <xmtok font="italic" fontsize="70%" role="UNKNOWN">l</xmtok>
+                </xmapp>
+              </xmath>
+            </math></foreignobject></g></g><g transform="translate(216.55,148.06)"><line x1="0" y1="0" x2="-8.3" y2="-16.6" stroke="#000000" stroke-width="0.4" terminators="-&gt;"></line></g><g transform="translate(213.09,149.44)"><g transform="translate(0,13.28) scale(1,-1)"><foreignobject width="20.59" height="11.29" overflow="visible"><math mode="inline" tex="h_{t}^{l-1}" text="(h _ t) ^ (l - 1)" xml:id="S3.F1.pic1.m13">
+              <xmath xml:id="S3.F1.pic1.m13.1">
+                <xmapp xml:id="S3.F1.pic1.m13.1.1">
+                  <xmtok role="SUPERSCRIPTOP" scriptpos="post1"></xmtok>
+                  <xmapp xml:id="S3.F1.pic1.m13.1.1.2">
+                    <xmtok role="SUBSCRIPTOP" scriptpos="post1"></xmtok>
+                    <xmtok font="italic" role="UNKNOWN">h</xmtok>
+                    <xmtok font="italic" fontsize="70%" role="UNKNOWN">t</xmtok>
+                  </xmapp>
+                  <xmapp xml:id="S3.F1.pic1.m13.1.1.3">
+                    <xmtok fontsize="70%" meaning="minus" role="ADDOP">-</xmtok>
+                    <xmtok font="italic" fontsize="70%" role="UNKNOWN">l</xmtok>
+                    <xmtok fontsize="70%" meaning="1" role="NUMBER">1</xmtok>
+                  </xmapp>
+                </xmapp>
+              </xmath>
+            </math></foreignobject></g></g><g transform="translate(23.52,69.19)"><circle fill="none" r="11.07" stroke="#000000" stroke-width="0.4" x="0" y="0"></circle></g><g transform="translate(20.76,66.42)"><g transform="translate(0,8.24) scale(1,-1)"><foreignobject width="6.77" height="5.71" overflow="visible"><math mode="inline" tex="g" text="g" xml:id="S3.F1.pic1.m14">
+              <xmath xml:id="S3.F1.pic1.m14.1">
+                <xmtok font="italic" role="UNKNOWN">g</xmtok>
+              </xmath>
+            </math></foreignobject></g></g><g transform="translate(1.38,38.74)"><g transform="translate(0,43.57) scale(1,-1)"><foreignobject width="66.02" height="25.11" overflow="visible"><math mode="inline" tex="\begin{matrix}\text{Input}\\
+\text{modulation}\\
+\text{gate}\end{matrix}" text="matrix@(Array[[[Input]], [[modulation]], [[gate]]])" xml:id="S3.F1.pic1.m15">
+              <xmath xml:id="S3.F1.pic1.m15.2">
+                <xmdual xml:id="S3.F1.pic1.m15.2.1">
+                  <xmapp xml:id="S3.F1.pic1.m15.2.1.1">
+                    <xmtok meaning="matrix"></xmtok>
+                    <xmref idref="S3.F1.pic1.m15.1" xml:id="S3.F1.pic1.m15.2.1.1.2"></xmref>
+                  </xmapp>
+                  <xmarray xml:id="S3.F1.pic1.m15.1">
+                    <xmrow xml:id="S3.F1.pic1.m15.1.1">
+                      <xmcell align="center" xml:id="S3.F1.pic1.m15.1.1.1">
+                        <xmtext xml:id="S3.F1.pic1.m15.1.1.1.1">Input</xmtext>
+                      </xmcell>
+                    </xmrow>
+                    <xmrow xml:id="S3.F1.pic1.m15.1.2">
+                      <xmcell align="center" xml:id="S3.F1.pic1.m15.1.2.1">
+                        <xmtext xml:id="S3.F1.pic1.m15.1.2.1.1">modulation</xmtext>
+                      </xmcell>
+                    </xmrow>
+                    <xmrow xml:id="S3.F1.pic1.m15.1.3">
+                      <xmcell align="center" xml:id="S3.F1.pic1.m15.1.3.1">
+                        <xmtext xml:id="S3.F1.pic1.m15.1.3.1.1">gate</xmtext>
+                      </xmcell>
+                    </xmrow>
+                  </xmarray>
+                </xmdual>
+              </xmath>
+            </math></foreignobject></g></g><g transform="translate(74.03,69.19)"><circle fill="none" r="4.5" stroke="#000000" stroke-width="0.4" x="0" y="0"></circle></g><g transform="translate(70.22,67.11)"><g transform="translate(0,8.77) scale(1,-1)"><foreignobject width="10.36" height="7.70" overflow="visible"><math mode="inline" tex="\times" text="*" xml:id="S3.F1.pic1.m16">
+              <xmath xml:id="S3.F1.pic1.m16.1">
+                <xmtok meaning="times" role="MULOP">×</xmtok>
+              </xmath>
+            </math></foreignobject></g></g><g transform="translate(78.87,69.19)"><line x1="0" y1="0" x2="34.59" y2="0" stroke="#000000" stroke-width="0.4" terminators="-&gt;"></line></g><g transform="translate(34.59,69.19)"><line x1="0" y1="0" x2="34.59" y2="0" stroke="#000000" stroke-width="0.4" terminators="-&gt;"></line></g><g transform="translate(48.43,110.7)"><line x1="0" y1="0" x2="24.21" y2="-36.32" stroke="#000000" stroke-width="0.4" terminators="-&gt;"></line></g><g transform="translate(203.4,69.19)"><circle fill="none" r="4.5" stroke="#000000" stroke-width="0.4" x="0" y="0"></circle></g><g transform="translate(199.6,67.11)"><g transform="translate(0,8.77) scale(1,-1)"><foreignobject width="10.36" height="7.70" overflow="visible"><math mode="inline" tex="\times" text="*" xml:id="S3.F1.pic1.m17">
+              <xmath xml:id="S3.F1.pic1.m17.1">
+                <xmtok meaning="times" role="MULOP">×</xmtok>
+              </xmath>
+            </math></foreignobject></g></g><g transform="translate(135.6,69.19)"><line x1="0" y1="0" x2="62.61" y2="0" stroke="#000000" stroke-width="0.4" terminators="-&gt;"></line></g><g transform="translate(208.25,69.19)"><line x1="0" y1="0" x2="52.58" y2="0" stroke="#000000" stroke-width="0.4" terminators="-&gt;"></line></g><g transform="translate(203.4,109.31)"><line x1="0" y1="0" x2="0" y2="-35.28" stroke="#000000" stroke-width="0.4" terminators="-&gt;"></line></g><g transform="translate(262.9,65.03)"><g transform="translate(0,13.28) scale(1,-1)"><foreignobject width="13.15" height="11.29" overflow="visible"><math mode="inline" tex="{\mathbf{h}^{l}_{t}}" text="(h ^ l) _ t" xml:id="S3.F1.pic1.m18">
+              <xmath xml:id="S3.F1.pic1.m18.1">
+                <xmapp xml:id="S3.F1.pic1.m18.1.1">
+                  <xmtok role="SUBSCRIPTOP" scriptpos="post2"></xmtok>
+                  <xmapp xml:id="S3.F1.pic1.m18.1.1.2">
+                    <xmtok role="SUPERSCRIPTOP" scriptpos="post2"></xmtok>
+                    <xmtok font="bold" role="UNKNOWN">h</xmtok>
+                    <xmtok font="italic" fontsize="70%" role="UNKNOWN">l</xmtok>
+                  </xmapp>
+                  <xmtok font="italic" fontsize="70%" role="UNKNOWN">t</xmtok>
+                </xmapp>
+              </xmath>
+            </math></foreignobject></g></g><g transform="translate(-27.67,55.35)"><g transform="translate(0,13.28) scale(1,-1)"><foreignobject width="21.25" height="11.29" overflow="visible"><math mode="inline" tex="h_{t-1}^{l}" text="(h _ (t - 1)) ^ l" xml:id="S3.F1.pic1.m19">
+              <xmath xml:id="S3.F1.pic1.m19.1">
+                <xmapp xml:id="S3.F1.pic1.m19.1.1">
+                  <xmtok role="SUPERSCRIPTOP" scriptpos="post1"></xmtok>
+                  <xmapp xml:id="S3.F1.pic1.m19.1.1.2">
+                    <xmtok role="SUBSCRIPTOP" scriptpos="post1"></xmtok>
+                    <xmtok font="italic" role="UNKNOWN">h</xmtok>
+                    <xmapp xml:id="S3.F1.pic1.m19.1.1.2.3">
+                      <xmtok fontsize="70%" meaning="minus" role="ADDOP">-</xmtok>
+                      <xmtok font="italic" fontsize="70%" role="UNKNOWN">t</xmtok>
+                      <xmtok fontsize="70%" meaning="1" role="NUMBER">1</xmtok>
+                    </xmapp>
+                  </xmapp>
+                  <xmtok font="italic" fontsize="70%" role="UNKNOWN">l</xmtok>
+                </xmapp>
+              </xmath>
+            </math></foreignobject></g></g><g transform="translate(-27.67,77.49)"><g transform="translate(0,13.28) scale(1,-1)"><foreignobject width="20.59" height="11.29" overflow="visible"><math mode="inline" tex="h_{t}^{l-1}" text="(h _ t) ^ (l - 1)" xml:id="S3.F1.pic1.m20">
+              <xmath xml:id="S3.F1.pic1.m20.1">
+                <xmapp xml:id="S3.F1.pic1.m20.1.1">
+                  <xmtok role="SUPERSCRIPTOP" scriptpos="post1"></xmtok>
+                  <xmapp xml:id="S3.F1.pic1.m20.1.1.2">
+                    <xmtok role="SUBSCRIPTOP" scriptpos="post1"></xmtok>
+                    <xmtok font="italic" role="UNKNOWN">h</xmtok>
+                    <xmtok font="italic" fontsize="70%" role="UNKNOWN">t</xmtok>
+                  </xmapp>
+                  <xmapp xml:id="S3.F1.pic1.m20.1.1.3">
+                    <xmtok fontsize="70%" meaning="minus" role="ADDOP">-</xmtok>
+                    <xmtok font="italic" fontsize="70%" role="UNKNOWN">l</xmtok>
+                    <xmtok fontsize="70%" meaning="1" role="NUMBER">1</xmtok>
+                  </xmapp>
+                </xmapp>
+              </xmath>
+            </math></foreignobject></g></g><g transform="translate(-13.84,60.88)"><line x1="0" y1="0" x2="26.29" y2="6.57" stroke="#000000" stroke-width="0.4" terminators="-&gt;"></line></g><g transform="translate(-13.84,80.25)"><line x1="0" y1="0" x2="26.29" y2="-6.57" stroke="#000000" stroke-width="0.4" terminators="-&gt;"></line></g><path d="M 119,44.28 Q 110.7,50.51 114.85,56.73" stroke="#000000" stroke-width="0.4" fill="none" /><path d="M 132.84,47.05 Q 138.37,50.51 132.14,60.19" stroke="#000000" stroke-width="0.4" fill="none" /></g></svg>

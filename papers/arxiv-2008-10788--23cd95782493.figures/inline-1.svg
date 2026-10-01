@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="642.52" height="481.89" overflow="visible"><g transform="translate(0,481.89) scale(1,-1)"><g transform="translate(0,0)"><g transform="translate(0,481.93) scale(1,-1)"><foreignobject width="642.52" height="481.93" overflow="visible"><object type="image/svg+xml" data="2008.10788v1/figure1_converted.svg" id="S2.F1.pic1.g1" class="ltx_graphics ltx_img_landscape" style="width:100%;height:100%;object-fit:contain" width="667" height="501" aria-label="Refer to caption"></object></foreignobject></g></g><g transform="translate(374.62,454.59)"><g transform="scale(1,-1)"><text fontsize="90%" xml:id="S2.F1.pic1.1.1.1.1">Acoustic features</text></g></g><g transform="translate(390.97,375.42)"><g transform="scale(1,-1)"><text fontsize="90%" xml:id="S2.F1.pic1.2.1.1.1">Shared layers</text></g></g><g transform="translate(267.68,254.65)"><g transform="scale(1,-1)"><text fontsize="90%" xml:id="S2.F1.pic1.3.1.1.1">Expert</text></g><g transform="scale(1,-1)"><text fontsize="90%" xml:id="S2.F1.pic1.3.1.1.2.1">1</text></g></g><g transform="translate(373.03,254.57)"><g transform="scale(1,-1)"><text fontsize="90%" xml:id="S2.F1.pic1.4.1.1.1">Expert</text></g><g transform="scale(1,-1)"><text fontsize="90%" xml:id="S2.F1.pic1.4.1.1.2.1">2</text></g></g><g transform="translate(478.37,254.84)"><g transform="scale(1,-1)"><text fontsize="90%" xml:id="S2.F1.pic1.5.1.1.1">Expert</text></g><g transform="scale(1,-1)"><text fontsize="90%" xml:id="S2.F1.pic1.5.1.1.2.1">3</text></g></g><g transform="translate(579.73,254.84)"><g transform="scale(1,-1)"><text fontsize="90%" xml:id="S2.F1.pic1.6.1.1.1">Expert</text></g><g transform="scale(1,-1)"><text fontsize="90%" xml:id="S2.F1.pic1.6.1.1.2.1">4</text></g></g><g transform="translate(88.6,257.48)"><g transform="scale(1,-1)"><text fontsize="90%" xml:id="S2.F1.pic1.7.1.1.1">SID</text></g></g><g transform="translate(123.83,359.1)"><g transform="scale(1,-1)"><text fontsize="90%" xml:id="S2.F1.pic1.8.1.1.1">Acoustic</text></g></g><g transform="translate(129.19,337.86)"><g transform="scale(1,-1)"><text fontsize="90%" xml:id="S2.F1.pic1.9.1.1.1">features</text></g></g><g transform="translate(14.87,348.48)"><g transform="scale(1,-1)"><text fontsize="90%" xml:id="S2.F1.pic1.10.1.1.1">x-vector</text></g></g><g transform="translate(426.85,50.84)"><g transform="scale(1,-1)"><text fontsize="90%" xml:id="S2.F1.pic1.11.1.1.1">Senone</text></g></g><g transform="translate(413.46,29.61)"><g transform="scale(1,-1)"><text fontsize="90%" xml:id="S2.F1.pic1.12.1.1.1">posteriors</text></g></g><g transform="translate(49.56,181.81)"><g transform="scale(1,-1)"><text fontsize="90%" xml:id="S2.F1.pic1.13.1.1.1">, </text></g><g transform="scale(1,-1)"><text fontsize="90%" xml:id="S2.F1.pic1.13.1.1.2">, </text></g><g transform="translate(0,15.94) scale(1,-1)"><foreignobject width="62.03" height="11.16" overflow="visible"><math mode="inline" tex="w_{1}" text="w _ 1" xml:id="S2.F1.pic1.m5">
+                      <xmath xml:id="S2.F1.pic1.m5.1">
+                        <xmapp xml:id="S2.F1.pic1.m5.1.1">
+                          <xmtok role="SUBSCRIPTOP" scriptpos="post1"></xmtok>
+                          <xmtok font="italic" fontsize="90%" role="UNKNOWN">w</xmtok>
+                          <xmtok fontsize="63%" meaning="1" role="NUMBER">1</xmtok>
+                        </xmapp>
+                      </xmath>
+                    </math></foreignobject></g><g transform="translate(0,15.94) scale(1,-1)"><foreignobject width="62.03" height="11.16" overflow="visible"><math mode="inline" tex="\dots" text="dots" xml:id="S2.F1.pic1.m6">
+                      <xmath xml:id="S2.F1.pic1.m6.1">
+                        <xmtok fontsize="90%" name="dots" role="ID">…</xmtok>
+                      </xmath>
+                    </math></foreignobject></g><g transform="translate(0,15.94) scale(1,-1)"><foreignobject width="62.03" height="11.16" overflow="visible"><math mode="inline" tex="w_{4}" text="w _ 4" xml:id="S2.F1.pic1.m7">
+                      <xmath xml:id="S2.F1.pic1.m7.1">
+                        <xmapp xml:id="S2.F1.pic1.m7.1.1">
+                          <xmtok role="SUBSCRIPTOP" scriptpos="post1"></xmtok>
+                          <xmtok font="italic" fontsize="90%" role="UNKNOWN">w</xmtok>
+                          <xmtok fontsize="63%" meaning="4" role="NUMBER">4</xmtok>
+                        </xmapp>
+                      </xmath>
+                    </math></foreignobject></g></g><g transform="translate(255.13,180.16)"><g transform="translate(0,15.94) scale(1,-1)"><foreignobject width="23.11" height="11.16" overflow="visible"><math mode="inline" tex="w_{1}" text="w _ 1" xml:id="S2.F1.pic1.m8">
+                      <xmath xml:id="S2.F1.pic1.m8.1">
+                        <xmapp xml:id="S2.F1.pic1.m8.1.1">
+                          <xmtok role="SUBSCRIPTOP" scriptpos="post1"></xmtok>
+                          <xmtok font="italic" fontsize="90%" role="UNKNOWN">w</xmtok>
+                          <xmtok fontsize="63%" meaning="1" role="NUMBER">1</xmtok>
+                        </xmapp>
+                      </xmath>
+                    </math></foreignobject></g></g><g transform="translate(353.16,180.16)"><g transform="translate(0,15.94) scale(1,-1)"><foreignobject width="23.11" height="11.16" overflow="visible"><math mode="inline" tex="w_{2}" text="w _ 2" xml:id="S2.F1.pic1.m9">
+                      <xmath xml:id="S2.F1.pic1.m9.1">
+                        <xmapp xml:id="S2.F1.pic1.m9.1.1">
+                          <xmtok role="SUBSCRIPTOP" scriptpos="post1"></xmtok>
+                          <xmtok font="italic" fontsize="90%" role="UNKNOWN">w</xmtok>
+                          <xmtok fontsize="63%" meaning="2" role="NUMBER">2</xmtok>
+                        </xmapp>
+                      </xmath>
+                    </math></foreignobject></g></g><g transform="translate(451.21,180.81)"><g transform="translate(0,15.94) scale(1,-1)"><foreignobject width="23.11" height="11.16" overflow="visible"><math mode="inline" tex="w_{3}" text="w _ 3" xml:id="S2.F1.pic1.m10">
+                      <xmath xml:id="S2.F1.pic1.m10.1">
+                        <xmapp xml:id="S2.F1.pic1.m10.1.1">
+                          <xmtok role="SUBSCRIPTOP" scriptpos="post1"></xmtok>
+                          <xmtok font="italic" fontsize="90%" role="UNKNOWN">w</xmtok>
+                          <xmtok fontsize="63%" meaning="3" role="NUMBER">3</xmtok>
+                        </xmapp>
+                      </xmath>
+                    </math></foreignobject></g></g><g transform="translate(549.25,180.16)"><g transform="translate(0,15.94) scale(1,-1)"><foreignobject width="23.11" height="11.16" overflow="visible"><math mode="inline" tex="w_{4}" text="w _ 4" xml:id="S2.F1.pic1.m11">
+                      <xmath xml:id="S2.F1.pic1.m11.1">
+                        <xmapp xml:id="S2.F1.pic1.m11.1.1">
+                          <xmtok role="SUBSCRIPTOP" scriptpos="post1"></xmtok>
+                          <xmtok font="italic" fontsize="90%" role="UNKNOWN">w</xmtok>
+                          <xmtok fontsize="63%" meaning="4" role="NUMBER">4</xmtok>
+                        </xmapp>
+                      </xmath>
+                    </math></foreignobject></g></g></g></svg>

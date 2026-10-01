@@ -1,0 +1,305 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="255.04" height="223.16" overflow="visible"><g transform="translate(0,223.16) scale(1,-1)"><g transform="translate(99.63,0)"><g transform="translate(0,155.55) scale(1,-1)"><foreignobject width="140.14" height="155.55" overflow="visible"><img src="arxiv-1105-4665v1--3439f93dd45a.figures/figure-1.webp" id="S3.F1.pic1.g1" class="ltx_graphics ltx_img_square" style="width:100%;height:100%;object-fit:contain" width="243" height="270" alt="Refer to caption"></foreignobject></g></g><g transform="translate(16.6,215.86)"><g transform="translate(0,7.70) scale(1,-1)"><foreignobject width="11.96" height="5.71" overflow="visible"><math mode="inline" tex="x_{i}" text="x _ i" xml:id="S3.F1.pic1.m1">
+                <xmath xml:id="S3.F1.pic1.m1.1">
+                  <xmapp xml:id="S3.F1.pic1.m1.1.1">
+                    <xmtok role="SUBSCRIPTOP" scriptpos="post1"></xmtok>
+                    <xmtok font="italic" role="UNKNOWN">x</xmtok>
+                    <xmtok font="italic" fontsize="70%" role="UNKNOWN">i</xmtok>
+                  </xmapp>
+                </xmath>
+              </math></foreignobject></g></g><g transform="translate(36.53,215.86)"><g transform="translate(0,9.56) scale(1,-1)"><foreignobject width="13.15" height="5.71" overflow="visible"><math mode="inline" tex="x_{j}" text="x _ j" xml:id="S3.F1.pic1.m2">
+                <xmath xml:id="S3.F1.pic1.m2.1">
+                  <xmapp xml:id="S3.F1.pic1.m2.1.1">
+                    <xmtok role="SUBSCRIPTOP" scriptpos="post1"></xmtok>
+                    <xmtok font="italic" role="UNKNOWN">x</xmtok>
+                    <xmtok font="italic" fontsize="70%" role="UNKNOWN">j</xmtok>
+                  </xmapp>
+                </xmath>
+              </math></foreignobject></g></g><g transform="translate(16.6,195.93)"><g transform="translate(0,8.50) scale(1,-1)"><foreignobject width="6.64" height="8.50" overflow="visible"><math mode="inline" tex="0" text="0" xml:id="S3.F1.pic1.m3">
+                <xmath xml:id="S3.F1.pic1.m3.1">
+                  <xmtok meaning="0" role="NUMBER">0</xmtok>
+                </xmath>
+              </math></foreignobject></g></g><g transform="translate(33.21,195.93)"><g transform="translate(0,8.50) scale(1,-1)"><foreignobject width="6.64" height="8.50" overflow="visible"><math mode="inline" tex="0" text="0" xml:id="S3.F1.pic1.m4">
+                <xmath xml:id="S3.F1.pic1.m4.1">
+                  <xmtok meaning="0" role="NUMBER">0</xmtok>
+                </xmath>
+              </math></foreignobject></g></g><g transform="translate(16.6,177.67)"><g transform="translate(0,8.50) scale(1,-1)"><foreignobject width="6.64" height="8.50" overflow="visible"><math mode="inline" tex="1" text="1" xml:id="S3.F1.pic1.m5">
+                <xmath xml:id="S3.F1.pic1.m5.1">
+                  <xmtok meaning="1" role="NUMBER">1</xmtok>
+                </xmath>
+              </math></foreignobject></g></g><g transform="translate(33.21,177.67)"><g transform="translate(0,8.50) scale(1,-1)"><foreignobject width="6.64" height="8.50" overflow="visible"><math mode="inline" tex="1" text="1" xml:id="S3.F1.pic1.m6">
+                <xmath xml:id="S3.F1.pic1.m6.1">
+                  <xmtok meaning="1" role="NUMBER">1</xmtok>
+                </xmath>
+              </math></foreignobject></g></g><g transform="translate(116.23,199.25)"><g transform="translate(0,9.56) scale(1,-1)"><foreignobject width="12.09" height="7.04" overflow="visible"><math mode="inline" tex="{\footnotesize i_{+}}" text="i _ +" xml:id="S3.F1.pic1.m7">
+                <xmath xml:id="S3.F1.pic1.m7.1">
+                  <xmapp xml:id="S3.F1.pic1.m7.1.1">
+                    <xmtok role="SUBSCRIPTOP" scriptpos="post2"></xmtok>
+                    <xmtok font="italic" fontsize="80%" role="UNKNOWN">i</xmtok>
+                    <xmtok fontsize="56%" meaning="plus" role="ADDOP">+</xmtok>
+                  </xmapp>
+                </xmath>
+              </math></foreignobject></g></g><g transform="translate(116.23,174.35)"><g transform="translate(0,8.37) scale(1,-1)"><foreignobject width="7.97" height="7.04" overflow="visible"><math mode="inline" tex="{\footnotesize i_{-}}" text="i _ -" xml:id="S3.F1.pic1.m8">
+                <xmath xml:id="S3.F1.pic1.m8.1">
+                  <xmapp xml:id="S3.F1.pic1.m8.1.1">
+                    <xmtok role="SUBSCRIPTOP" scriptpos="post2"></xmtok>
+                    <xmtok font="italic" fontsize="80%" role="UNKNOWN">i</xmtok>
+                    <xmtok fontsize="56%" meaning="minus" role="ADDOP">-</xmtok>
+                  </xmapp>
+                </xmath>
+              </math></foreignobject></g></g><g transform="translate(190.95,199.25)"><g transform="translate(0,9.56) scale(1,-1)"><foreignobject width="13.55" height="7.04" overflow="visible"><math mode="inline" tex="{\footnotesize j_{+}}" text="j _ +" xml:id="S3.F1.pic1.m9">
+                <xmath xml:id="S3.F1.pic1.m9.1">
+                  <xmapp xml:id="S3.F1.pic1.m9.1.1">
+                    <xmtok role="SUBSCRIPTOP" scriptpos="post2"></xmtok>
+                    <xmtok font="italic" fontsize="80%" role="UNKNOWN">j</xmtok>
+                    <xmtok fontsize="56%" meaning="plus" role="ADDOP">+</xmtok>
+                  </xmapp>
+                </xmath>
+              </math></foreignobject></g></g><g transform="translate(190.95,174.35)"><g transform="translate(0,9.17) scale(1,-1)"><foreignobject width="9.30" height="7.04" overflow="visible"><math mode="inline" tex="{\footnotesize j_{-}}" text="j _ -" xml:id="S3.F1.pic1.m10">
+                <xmath xml:id="S3.F1.pic1.m10.1">
+                  <xmapp xml:id="S3.F1.pic1.m10.1.1">
+                    <xmtok role="SUBSCRIPTOP" scriptpos="post2"></xmtok>
+                    <xmtok font="italic" fontsize="80%" role="UNKNOWN">j</xmtok>
+                    <xmtok fontsize="56%" meaning="minus" role="ADDOP">-</xmtok>
+                  </xmapp>
+                </xmath>
+              </math></foreignobject></g></g><g transform="translate(116.23,149.44)"><g transform="translate(0,9.56) scale(1,-1)"><foreignobject width="12.09" height="7.04" overflow="visible"><math mode="inline" tex="{\footnotesize i_{+}}" text="i _ +" xml:id="S3.F1.pic1.m11">
+                <xmath xml:id="S3.F1.pic1.m11.1">
+                  <xmapp xml:id="S3.F1.pic1.m11.1.1">
+                    <xmtok role="SUBSCRIPTOP" scriptpos="post2"></xmtok>
+                    <xmtok font="italic" fontsize="80%" role="UNKNOWN">i</xmtok>
+                    <xmtok fontsize="56%" meaning="plus" role="ADDOP">+</xmtok>
+                  </xmapp>
+                </xmath>
+              </math></foreignobject></g></g><g transform="translate(116.23,124.53)"><g transform="translate(0,8.37) scale(1,-1)"><foreignobject width="7.97" height="7.04" overflow="visible"><math mode="inline" tex="{\footnotesize i_{-}}" text="i _ -" xml:id="S3.F1.pic1.m12">
+                <xmath xml:id="S3.F1.pic1.m12.1">
+                  <xmapp xml:id="S3.F1.pic1.m12.1.1">
+                    <xmtok role="SUBSCRIPTOP" scriptpos="post2"></xmtok>
+                    <xmtok font="italic" fontsize="80%" role="UNKNOWN">i</xmtok>
+                    <xmtok fontsize="56%" meaning="minus" role="ADDOP">-</xmtok>
+                  </xmapp>
+                </xmath>
+              </math></foreignobject></g></g><g transform="translate(190.95,149.44)"><g transform="translate(0,9.56) scale(1,-1)"><foreignobject width="13.55" height="7.04" overflow="visible"><math mode="inline" tex="{\footnotesize j_{+}}" text="j _ +" xml:id="S3.F1.pic1.m13">
+                <xmath xml:id="S3.F1.pic1.m13.1">
+                  <xmapp xml:id="S3.F1.pic1.m13.1.1">
+                    <xmtok role="SUBSCRIPTOP" scriptpos="post2"></xmtok>
+                    <xmtok font="italic" fontsize="80%" role="UNKNOWN">j</xmtok>
+                    <xmtok fontsize="56%" meaning="plus" role="ADDOP">+</xmtok>
+                  </xmapp>
+                </xmath>
+              </math></foreignobject></g></g><g transform="translate(190.95,124.53)"><g transform="translate(0,9.17) scale(1,-1)"><foreignobject width="9.30" height="7.04" overflow="visible"><math mode="inline" tex="{\footnotesize j_{-}}" text="j _ -" xml:id="S3.F1.pic1.m14">
+                <xmath xml:id="S3.F1.pic1.m14.1">
+                  <xmapp xml:id="S3.F1.pic1.m14.1.1">
+                    <xmtok role="SUBSCRIPTOP" scriptpos="post2"></xmtok>
+                    <xmtok font="italic" fontsize="80%" role="UNKNOWN">j</xmtok>
+                    <xmtok fontsize="56%" meaning="minus" role="ADDOP">-</xmtok>
+                  </xmapp>
+                </xmath>
+              </math></foreignobject></g></g><g transform="translate(116.23,99.63)"><g transform="translate(0,9.56) scale(1,-1)"><foreignobject width="12.09" height="7.04" overflow="visible"><math mode="inline" tex="{\footnotesize i_{+}}" text="i _ +" xml:id="S3.F1.pic1.m15">
+                <xmath xml:id="S3.F1.pic1.m15.1">
+                  <xmapp xml:id="S3.F1.pic1.m15.1.1">
+                    <xmtok role="SUBSCRIPTOP" scriptpos="post2"></xmtok>
+                    <xmtok font="italic" fontsize="80%" role="UNKNOWN">i</xmtok>
+                    <xmtok fontsize="56%" meaning="plus" role="ADDOP">+</xmtok>
+                  </xmapp>
+                </xmath>
+              </math></foreignobject></g></g><g transform="translate(116.23,74.72)"><g transform="translate(0,8.37) scale(1,-1)"><foreignobject width="7.97" height="7.04" overflow="visible"><math mode="inline" tex="{\footnotesize i_{-}}" text="i _ -" xml:id="S3.F1.pic1.m16">
+                <xmath xml:id="S3.F1.pic1.m16.1">
+                  <xmapp xml:id="S3.F1.pic1.m16.1.1">
+                    <xmtok role="SUBSCRIPTOP" scriptpos="post2"></xmtok>
+                    <xmtok font="italic" fontsize="80%" role="UNKNOWN">i</xmtok>
+                    <xmtok fontsize="56%" meaning="minus" role="ADDOP">-</xmtok>
+                  </xmapp>
+                </xmath>
+              </math></foreignobject></g></g><g transform="translate(190.95,99.63)"><g transform="translate(0,9.56) scale(1,-1)"><foreignobject width="13.55" height="7.04" overflow="visible"><math mode="inline" tex="{\footnotesize j_{+}}" text="j _ +" xml:id="S3.F1.pic1.m17">
+                <xmath xml:id="S3.F1.pic1.m17.1">
+                  <xmapp xml:id="S3.F1.pic1.m17.1.1">
+                    <xmtok role="SUBSCRIPTOP" scriptpos="post2"></xmtok>
+                    <xmtok font="italic" fontsize="80%" role="UNKNOWN">j</xmtok>
+                    <xmtok fontsize="56%" meaning="plus" role="ADDOP">+</xmtok>
+                  </xmapp>
+                </xmath>
+              </math></foreignobject></g></g><g transform="translate(190.95,74.72)"><g transform="translate(0,9.17) scale(1,-1)"><foreignobject width="9.30" height="7.04" overflow="visible"><math mode="inline" tex="{\footnotesize j_{-}}" text="j _ -" xml:id="S3.F1.pic1.m18">
+                <xmath xml:id="S3.F1.pic1.m18.1">
+                  <xmapp xml:id="S3.F1.pic1.m18.1.1">
+                    <xmtok role="SUBSCRIPTOP" scriptpos="post2"></xmtok>
+                    <xmtok font="italic" fontsize="80%" role="UNKNOWN">j</xmtok>
+                    <xmtok fontsize="56%" meaning="minus" role="ADDOP">-</xmtok>
+                  </xmapp>
+                </xmath>
+              </math></foreignobject></g></g><g transform="translate(116.23,49.81)"><g transform="translate(0,9.56) scale(1,-1)"><foreignobject width="12.09" height="7.04" overflow="visible"><math mode="inline" tex="{\footnotesize i_{+}}" text="i _ +" xml:id="S3.F1.pic1.m19">
+                <xmath xml:id="S3.F1.pic1.m19.1">
+                  <xmapp xml:id="S3.F1.pic1.m19.1.1">
+                    <xmtok role="SUBSCRIPTOP" scriptpos="post2"></xmtok>
+                    <xmtok font="italic" fontsize="80%" role="UNKNOWN">i</xmtok>
+                    <xmtok fontsize="56%" meaning="plus" role="ADDOP">+</xmtok>
+                  </xmapp>
+                </xmath>
+              </math></foreignobject></g></g><g transform="translate(116.23,24.91)"><g transform="translate(0,8.37) scale(1,-1)"><foreignobject width="7.97" height="7.04" overflow="visible"><math mode="inline" tex="{\footnotesize i_{-}}" text="i _ -" xml:id="S3.F1.pic1.m20">
+                <xmath xml:id="S3.F1.pic1.m20.1">
+                  <xmapp xml:id="S3.F1.pic1.m20.1.1">
+                    <xmtok role="SUBSCRIPTOP" scriptpos="post2"></xmtok>
+                    <xmtok font="italic" fontsize="80%" role="UNKNOWN">i</xmtok>
+                    <xmtok fontsize="56%" meaning="minus" role="ADDOP">-</xmtok>
+                  </xmapp>
+                </xmath>
+              </math></foreignobject></g></g><g transform="translate(190.95,49.81)"><g transform="translate(0,9.56) scale(1,-1)"><foreignobject width="13.55" height="7.04" overflow="visible"><math mode="inline" tex="{\footnotesize j_{+}}" text="j _ +" xml:id="S3.F1.pic1.m21">
+                <xmath xml:id="S3.F1.pic1.m21.1">
+                  <xmapp xml:id="S3.F1.pic1.m21.1.1">
+                    <xmtok role="SUBSCRIPTOP" scriptpos="post2"></xmtok>
+                    <xmtok font="italic" fontsize="80%" role="UNKNOWN">j</xmtok>
+                    <xmtok fontsize="56%" meaning="plus" role="ADDOP">+</xmtok>
+                  </xmapp>
+                </xmath>
+              </math></foreignobject></g></g><g transform="translate(190.95,24.91)"><g transform="translate(0,9.17) scale(1,-1)"><foreignobject width="9.30" height="7.04" overflow="visible"><math mode="inline" tex="{\footnotesize j_{-}}" text="j _ -" xml:id="S3.F1.pic1.m22">
+                <xmath xml:id="S3.F1.pic1.m22.1">
+                  <xmapp xml:id="S3.F1.pic1.m22.1.1">
+                    <xmtok role="SUBSCRIPTOP" scriptpos="post2"></xmtok>
+                    <xmtok font="italic" fontsize="80%" role="UNKNOWN">j</xmtok>
+                    <xmtok fontsize="56%" meaning="minus" role="ADDOP">-</xmtok>
+                  </xmapp>
+                </xmath>
+              </math></foreignobject></g></g><g transform="translate(16.6,147.78)"><g transform="translate(0,8.50) scale(1,-1)"><foreignobject width="6.64" height="8.50" overflow="visible"><math mode="inline" tex="0" text="0" xml:id="S3.F1.pic1.m23">
+                <xmath xml:id="S3.F1.pic1.m23.1">
+                  <xmtok meaning="0" role="NUMBER">0</xmtok>
+                </xmath>
+              </math></foreignobject></g></g><g transform="translate(33.21,147.78)"><g transform="translate(0,8.50) scale(1,-1)"><foreignobject width="6.64" height="8.50" overflow="visible"><math mode="inline" tex="1" text="1" xml:id="S3.F1.pic1.m24">
+                <xmath xml:id="S3.F1.pic1.m24.1">
+                  <xmtok meaning="1" role="NUMBER">1</xmtok>
+                </xmath>
+              </math></foreignobject></g></g><g transform="translate(16.6,127.85)"><g transform="translate(0,8.50) scale(1,-1)"><foreignobject width="6.64" height="8.50" overflow="visible"><math mode="inline" tex="1" text="1" xml:id="S3.F1.pic1.m25">
+                <xmath xml:id="S3.F1.pic1.m25.1">
+                  <xmtok meaning="1" role="NUMBER">1</xmtok>
+                </xmath>
+              </math></foreignobject></g></g><g transform="translate(33.21,127.85)"><g transform="translate(0,8.50) scale(1,-1)"><foreignobject width="6.64" height="8.50" overflow="visible"><math mode="inline" tex="0" text="0" xml:id="S3.F1.pic1.m26">
+                <xmath xml:id="S3.F1.pic1.m26.1">
+                  <xmtok meaning="0" role="NUMBER">0</xmtok>
+                </xmath>
+              </math></foreignobject></g></g><g transform="translate(8.3,99.63)"><g transform="translate(0,8.50) scale(1,-1)"><foreignobject width="6.64" height="8.50" overflow="visible"><math mode="inline" tex="0" text="0" xml:id="S3.F1.pic1.m27">
+                <xmath xml:id="S3.F1.pic1.m27.1">
+                  <xmtok meaning="0" role="NUMBER">0</xmtok>
+                </xmath>
+              </math></foreignobject></g></g><g transform="translate(24.91,99.63)"><g transform="translate(0,8.50) scale(1,-1)"><foreignobject width="6.64" height="8.50" overflow="visible"><math mode="inline" tex="0" text="0" xml:id="S3.F1.pic1.m28">
+                <xmath xml:id="S3.F1.pic1.m28.1">
+                  <xmtok meaning="0" role="NUMBER">0</xmtok>
+                </xmath>
+              </math></foreignobject></g></g><g transform="translate(8.3,86.34)"><g transform="translate(0,8.50) scale(1,-1)"><foreignobject width="6.64" height="8.50" overflow="visible"><math mode="inline" tex="1" text="1" xml:id="S3.F1.pic1.m29">
+                <xmath xml:id="S3.F1.pic1.m29.1">
+                  <xmtok meaning="1" role="NUMBER">1</xmtok>
+                </xmath>
+              </math></foreignobject></g></g><g transform="translate(24.91,86.34)"><g transform="translate(0,8.50) scale(1,-1)"><foreignobject width="6.64" height="8.50" overflow="visible"><math mode="inline" tex="0" text="0" xml:id="S3.F1.pic1.m30">
+                <xmath xml:id="S3.F1.pic1.m30.1">
+                  <xmtok meaning="0" role="NUMBER">0</xmtok>
+                </xmath>
+              </math></foreignobject></g></g><g transform="translate(8.3,73.06)"><g transform="translate(0,8.50) scale(1,-1)"><foreignobject width="6.64" height="8.50" overflow="visible"><math mode="inline" tex="0" text="0" xml:id="S3.F1.pic1.m31">
+                <xmath xml:id="S3.F1.pic1.m31.1">
+                  <xmtok meaning="0" role="NUMBER">0</xmtok>
+                </xmath>
+              </math></foreignobject></g></g><g transform="translate(24.91,73.06)"><g transform="translate(0,8.50) scale(1,-1)"><foreignobject width="6.64" height="8.50" overflow="visible"><math mode="inline" tex="1" text="1" xml:id="S3.F1.pic1.m32">
+                <xmath xml:id="S3.F1.pic1.m32.1">
+                  <xmtok meaning="1" role="NUMBER">1</xmtok>
+                </xmath>
+              </math></foreignobject></g></g><g transform="translate(49.81,99.63)"><g transform="translate(0,8.50) scale(1,-1)"><foreignobject width="6.64" height="8.50" overflow="visible"><math mode="inline" tex="1" text="1" xml:id="S3.F1.pic1.m33">
+                <xmath xml:id="S3.F1.pic1.m33.1">
+                  <xmtok meaning="1" role="NUMBER">1</xmtok>
+                </xmath>
+              </math></foreignobject></g></g><g transform="translate(66.42,99.63)"><g transform="translate(0,8.50) scale(1,-1)"><foreignobject width="6.64" height="8.50" overflow="visible"><math mode="inline" tex="1" text="1" xml:id="S3.F1.pic1.m34">
+                <xmath xml:id="S3.F1.pic1.m34.1">
+                  <xmtok meaning="1" role="NUMBER">1</xmtok>
+                </xmath>
+              </math></foreignobject></g></g><g transform="translate(49.81,86.34)"><g transform="translate(0,8.50) scale(1,-1)"><foreignobject width="6.64" height="8.50" overflow="visible"><math mode="inline" tex="1" text="1" xml:id="S3.F1.pic1.m35">
+                <xmath xml:id="S3.F1.pic1.m35.1">
+                  <xmtok meaning="1" role="NUMBER">1</xmtok>
+                </xmath>
+              </math></foreignobject></g></g><g transform="translate(66.42,86.34)"><g transform="translate(0,8.50) scale(1,-1)"><foreignobject width="6.64" height="8.50" overflow="visible"><math mode="inline" tex="0" text="0" xml:id="S3.F1.pic1.m36">
+                <xmath xml:id="S3.F1.pic1.m36.1">
+                  <xmtok meaning="0" role="NUMBER">0</xmtok>
+                </xmath>
+              </math></foreignobject></g></g><g transform="translate(49.81,73.06)"><g transform="translate(0,8.50) scale(1,-1)"><foreignobject width="6.64" height="8.50" overflow="visible"><math mode="inline" tex="0" text="0" xml:id="S3.F1.pic1.m37">
+                <xmath xml:id="S3.F1.pic1.m37.1">
+                  <xmtok meaning="0" role="NUMBER">0</xmtok>
+                </xmath>
+              </math></foreignobject></g></g><g transform="translate(66.42,73.06)"><g transform="translate(0,8.50) scale(1,-1)"><foreignobject width="6.64" height="8.50" overflow="visible"><math mode="inline" tex="1" text="1" xml:id="S3.F1.pic1.m38">
+                <xmath xml:id="S3.F1.pic1.m38.1">
+                  <xmtok meaning="1" role="NUMBER">1</xmtok>
+                </xmath>
+              </math></foreignobject></g></g><g transform="translate(44.83,86.34)"><g transform="translate(0,34.54) scale(1,-1)"><foreignobject width="17.80" height="25.90" overflow="visible"><math mode="inline" tex="\Bigg(" text="(" xml:id="S3.F1.pic1.m39">
+                <xmath xml:id="S3.F1.pic1.m39.1">
+                  <xmtok fontsize="260%" role="OPEN" stretchy="false">(</xmtok>
+                </xmath>
+              </math></foreignobject></g></g><g transform="translate(78.04,86.34)"><g transform="translate(0,34.54) scale(1,-1)"><foreignobject width="17.80" height="25.90" overflow="visible"><math mode="inline" tex="\Bigg)" text=")" xml:id="S3.F1.pic1.m40">
+                <xmath xml:id="S3.F1.pic1.m40.1">
+                  <xmtok fontsize="260%" role="CLOSE" stretchy="false">)</xmtok>
+                </xmath>
+              </math></foreignobject></g></g><g transform="translate(207.56,86.34)"><g transform="translate(0,28.03) scale(1,-1)"><foreignobject width="15.28" height="20.99" overflow="visible"><math mode="inline" tex="\bigg(" text="(" xml:id="S3.F1.pic1.m41">
+                <xmath xml:id="S3.F1.pic1.m41.1">
+                  <xmtok fontsize="210%" role="OPEN" stretchy="false">(</xmtok>
+                </xmath>
+              </math></foreignobject></g></g><g transform="translate(277.29,86.34)"><g transform="translate(0,28.03) scale(1,-1)"><foreignobject width="15.28" height="20.99" overflow="visible"><math mode="inline" tex="\bigg)" text=")" xml:id="S3.F1.pic1.m42">
+                <xmath xml:id="S3.F1.pic1.m42.1">
+                  <xmtok fontsize="210%" role="CLOSE" stretchy="false">)</xmtok>
+                </xmath>
+              </math></foreignobject></g></g><g transform="translate(8.3,49.81)"><g transform="translate(0,8.50) scale(1,-1)"><foreignobject width="6.64" height="8.50" overflow="visible"><math mode="inline" tex="0" text="0" xml:id="S3.F1.pic1.m43">
+                <xmath xml:id="S3.F1.pic1.m43.1">
+                  <xmtok meaning="0" role="NUMBER">0</xmtok>
+                </xmath>
+              </math></foreignobject></g></g><g transform="translate(24.91,49.81)"><g transform="translate(0,8.50) scale(1,-1)"><foreignobject width="6.64" height="8.50" overflow="visible"><math mode="inline" tex="0" text="0" xml:id="S3.F1.pic1.m44">
+                <xmath xml:id="S3.F1.pic1.m44.1">
+                  <xmtok meaning="0" role="NUMBER">0</xmtok>
+                </xmath>
+              </math></foreignobject></g></g><g transform="translate(8.3,36.53)"><g transform="translate(0,8.50) scale(1,-1)"><foreignobject width="6.64" height="8.50" overflow="visible"><math mode="inline" tex="1" text="1" xml:id="S3.F1.pic1.m45">
+                <xmath xml:id="S3.F1.pic1.m45.1">
+                  <xmtok meaning="1" role="NUMBER">1</xmtok>
+                </xmath>
+              </math></foreignobject></g></g><g transform="translate(24.91,36.53)"><g transform="translate(0,8.50) scale(1,-1)"><foreignobject width="6.64" height="8.50" overflow="visible"><math mode="inline" tex="1" text="1" xml:id="S3.F1.pic1.m46">
+                <xmath xml:id="S3.F1.pic1.m46.1">
+                  <xmtok meaning="1" role="NUMBER">1</xmtok>
+                </xmath>
+              </math></foreignobject></g></g><g transform="translate(8.3,23.25)"><g transform="translate(0,8.50) scale(1,-1)"><foreignobject width="6.64" height="8.50" overflow="visible"><math mode="inline" tex="0" text="0" xml:id="S3.F1.pic1.m47">
+                <xmath xml:id="S3.F1.pic1.m47.1">
+                  <xmtok meaning="0" role="NUMBER">0</xmtok>
+                </xmath>
+              </math></foreignobject></g></g><g transform="translate(24.91,23.25)"><g transform="translate(0,8.50) scale(1,-1)"><foreignobject width="6.64" height="8.50" overflow="visible"><math mode="inline" tex="1" text="1" xml:id="S3.F1.pic1.m48">
+                <xmath xml:id="S3.F1.pic1.m48.1">
+                  <xmtok meaning="1" role="NUMBER">1</xmtok>
+                </xmath>
+              </math></foreignobject></g></g><g transform="translate(49.81,49.81)"><g transform="translate(0,8.50) scale(1,-1)"><foreignobject width="6.64" height="8.50" overflow="visible"><math mode="inline" tex="0" text="0" xml:id="S3.F1.pic1.m49">
+                <xmath xml:id="S3.F1.pic1.m49.1">
+                  <xmtok meaning="0" role="NUMBER">0</xmtok>
+                </xmath>
+              </math></foreignobject></g></g><g transform="translate(66.42,49.81)"><g transform="translate(0,8.50) scale(1,-1)"><foreignobject width="6.64" height="8.50" overflow="visible"><math mode="inline" tex="0" text="0" xml:id="S3.F1.pic1.m50">
+                <xmath xml:id="S3.F1.pic1.m50.1">
+                  <xmtok meaning="0" role="NUMBER">0</xmtok>
+                </xmath>
+              </math></foreignobject></g></g><g transform="translate(49.81,36.53)"><g transform="translate(0,8.50) scale(1,-1)"><foreignobject width="6.64" height="8.50" overflow="visible"><math mode="inline" tex="1" text="1" xml:id="S3.F1.pic1.m51">
+                <xmath xml:id="S3.F1.pic1.m51.1">
+                  <xmtok meaning="1" role="NUMBER">1</xmtok>
+                </xmath>
+              </math></foreignobject></g></g><g transform="translate(66.42,36.53)"><g transform="translate(0,8.50) scale(1,-1)"><foreignobject width="6.64" height="8.50" overflow="visible"><math mode="inline" tex="1" text="1" xml:id="S3.F1.pic1.m52">
+                <xmath xml:id="S3.F1.pic1.m52.1">
+                  <xmtok meaning="1" role="NUMBER">1</xmtok>
+                </xmath>
+              </math></foreignobject></g></g><g transform="translate(49.81,23.25)"><g transform="translate(0,8.50) scale(1,-1)"><foreignobject width="6.64" height="8.50" overflow="visible"><math mode="inline" tex="1" text="1" xml:id="S3.F1.pic1.m53">
+                <xmath xml:id="S3.F1.pic1.m53.1">
+                  <xmtok meaning="1" role="NUMBER">1</xmtok>
+                </xmath>
+              </math></foreignobject></g></g><g transform="translate(66.42,23.25)"><g transform="translate(0,8.50) scale(1,-1)"><foreignobject width="6.64" height="8.50" overflow="visible"><math mode="inline" tex="0" text="0" xml:id="S3.F1.pic1.m54">
+                <xmath xml:id="S3.F1.pic1.m54.1">
+                  <xmtok meaning="0" role="NUMBER">0</xmtok>
+                </xmath>
+              </math></foreignobject></g></g><g transform="translate(44.83,36.53)"><g transform="translate(0,34.54) scale(1,-1)"><foreignobject width="17.80" height="25.90" overflow="visible"><math mode="inline" tex="\Bigg(" text="(" xml:id="S3.F1.pic1.m55">
+                <xmath xml:id="S3.F1.pic1.m55.1">
+                  <xmtok fontsize="260%" role="OPEN" stretchy="false">(</xmtok>
+                </xmath>
+              </math></foreignobject></g></g><g transform="translate(78.04,36.53)"><g transform="translate(0,34.54) scale(1,-1)"><foreignobject width="17.80" height="25.90" overflow="visible"><math mode="inline" tex="\Bigg)" text=")" xml:id="S3.F1.pic1.m56">
+                <xmath xml:id="S3.F1.pic1.m56.1">
+                  <xmtok fontsize="260%" role="CLOSE" stretchy="false">)</xmtok>
+                </xmath>
+              </math></foreignobject></g></g><g transform="translate(207.56,36.53)"><g transform="translate(0,28.03) scale(1,-1)"><foreignobject width="15.28" height="20.99" overflow="visible"><math mode="inline" tex="\bigg(" text="(" xml:id="S3.F1.pic1.m57">
+                <xmath xml:id="S3.F1.pic1.m57.1">
+                  <xmtok fontsize="210%" role="OPEN" stretchy="false">(</xmtok>
+                </xmath>
+              </math></foreignobject></g></g><g transform="translate(277.29,36.53)"><g transform="translate(0,28.03) scale(1,-1)"><foreignobject width="15.28" height="20.99" overflow="visible"><math mode="inline" tex="\bigg)" text=")" xml:id="S3.F1.pic1.m58">
+                <xmath xml:id="S3.F1.pic1.m58.1">
+                  <xmtok fontsize="210%" role="CLOSE" stretchy="false">)</xmtok>
+                </xmath>
+              </math></foreignobject></g></g></g></svg>
