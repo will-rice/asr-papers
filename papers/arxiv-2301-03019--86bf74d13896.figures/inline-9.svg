@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1.33" height="0.10" overflow="visible"><g transform="translate(0,0.10) scale(1,-1)"><g transform="translate(0,0)"><g transform="translate(0,31.75) scale(1,-1)"><foreignobject width="413.91" height="31.75" overflow="visible"><object type="image/svg+xml" data="2301.03019v1/x27.svg" id="S4.F9.pic1.g1" class="ltx_graphics ltx_img_landscape" width="430" height="34" aria-label="Refer to caption"></object></foreignobject></g></g><g transform="translate(0.65,0.06)"><g transform="translate(0,15.94) scale(1,-1)"><foreignobject width="39.05" height="11.16" overflow="visible"><math mode="inline" tex="\pi_{0}(r)" text="pi _ 0 * r" xml:id="S4.F9.pic1.m1">
+                          <xmath xml:id="S4.F9.pic1.m1.2">
+                            <xmapp xml:id="S4.F9.pic1.m1.2.1">
+                              <xmtok meaning="times" role="MULOP">⁢</xmtok>
+                              <xmapp xml:id="S4.F9.pic1.m1.2.1.2">
+                                <xmtok role="SUBSCRIPTOP" scriptpos="post1"></xmtok>
+                                <xmtok font="italic" name="pi" role="UNKNOWN">π</xmtok>
+                                <xmtok fontsize="70%" meaning="0" role="NUMBER">0</xmtok>
+                              </xmapp>
+                              <xmdual xml:id="S4.F9.pic1.m1.2.1.3">
+                                <xmref idref="S4.F9.pic1.m1.1" xml:id="S4.F9.pic1.m1.2.1.3.1"></xmref>
+                                <xmwrap xml:id="S4.F9.pic1.m1.2.1.3.2">
+                                  <xmtok role="OPEN" stretchy="false">(</xmtok>
+                                  <xmtok font="italic" role="UNKNOWN" xml:id="S4.F9.pic1.m1.1">r</xmtok>
+                                  <xmtok role="CLOSE" stretchy="false">)</xmtok>
+                                </xmwrap>
+                              </xmdual>
+                            </xmapp>
+                          </xmath>
+                        </math></foreignobject></g></g><g transform="translate(0,0)"><g transform="translate(0,31.75) scale(1,-1)"><foreignobject width="413.91" height="31.75" overflow="visible"><object type="image/svg+xml" data="2301.03019v1/x28.svg" id="S4.F9.pic1.g2" class="ltx_graphics ltx_img_landscape" width="430" height="33" aria-label="Refer to caption"></object></foreignobject></g></g></g></svg>

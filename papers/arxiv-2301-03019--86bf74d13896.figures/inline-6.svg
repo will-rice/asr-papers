@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1.33" height="1.14" overflow="visible"><g transform="translate(0,1.14) scale(1,-1)"><g transform="translate(0,0)"><g transform="translate(0,154.49) scale(1,-1)"><foreignobject width="180.52" height="154.49" overflow="visible"><object type="image/svg+xml" data="2301.03019v1/x20.svg" id="S4.F6.pic1.g1" class="ltx_graphics ltx_img_square" width="188" height="161" aria-label="Refer to caption"></object></foreignobject></g></g><g transform="translate(0.56,0.97)"><g transform="translate(0,15.94) scale(1,-1)"><foreignobject width="39.05" height="11.16" overflow="visible"><math mode="inline" tex="\pi_{0}(r)" text="pi _ 0 * r" xml:id="S4.F6.pic1.m1">
+                          <xmath xml:id="S4.F6.pic1.m1.2">
+                            <xmapp xml:id="S4.F6.pic1.m1.2.1">
+                              <xmtok meaning="times" role="MULOP">⁢</xmtok>
+                              <xmapp xml:id="S4.F6.pic1.m1.2.1.2">
+                                <xmtok role="SUBSCRIPTOP" scriptpos="post1"></xmtok>
+                                <xmtok font="italic" name="pi" role="UNKNOWN">π</xmtok>
+                                <xmtok fontsize="70%" meaning="0" role="NUMBER">0</xmtok>
+                              </xmapp>
+                              <xmdual xml:id="S4.F6.pic1.m1.2.1.3">
+                                <xmref idref="S4.F6.pic1.m1.1" xml:id="S4.F6.pic1.m1.2.1.3.1"></xmref>
+                                <xmwrap xml:id="S4.F6.pic1.m1.2.1.3.2">
+                                  <xmtok role="OPEN" stretchy="false">(</xmtok>
+                                  <xmtok font="italic" role="UNKNOWN" xml:id="S4.F6.pic1.m1.1">r</xmtok>
+                                  <xmtok role="CLOSE" stretchy="false">)</xmtok>
+                                </xmwrap>
+                              </xmdual>
+                            </xmapp>
+                          </xmath>
+                        </math></foreignobject></g></g><g transform="translate(0,0)"><g transform="translate(0,154.49) scale(1,-1)"><foreignobject width="180.52" height="154.49" overflow="visible"><object type="image/svg+xml" data="2301.03019v1/x21.svg" id="S4.F6.pic1.g2" class="ltx_graphics ltx_img_square" width="188" height="161" aria-label="Refer to caption"></object></foreignobject></g></g><g transform="translate(0.57,0.14)"><g transform="translate(0,15.94) scale(1,-1)"><foreignobject width="32.41" height="11.16" overflow="visible"><math mode="inline" tex="\rho(r)" text="rho@(r)" xml:id="S4.F6.pic1.m2">
+                          <xmath xml:id="S4.F6.pic1.m2.2">
+                            <xmapp xml:id="S4.F6.pic1.m2.2.1">
+                              <xmtok font="italic" name="rho" role="UNKNOWN">ρ</xmtok>
+                              <xmdual xml:id="S4.F6.pic1.m2.2.1.2">
+                                <xmref idref="S4.F6.pic1.m2.1" xml:id="S4.F6.pic1.m2.2.1.2.1"></xmref>
+                                <xmwrap xml:id="S4.F6.pic1.m2.2.1.2.2">
+                                  <xmtok role="OPEN" stretchy="false">(</xmtok>
+                                  <xmtok font="italic" role="UNKNOWN" xml:id="S4.F6.pic1.m2.1">r</xmtok>
+                                  <xmtok role="CLOSE" stretchy="false">)</xmtok>
+                                </xmwrap>
+                              </xmdual>
+                            </xmapp>
+                          </xmath>
+                        </math></foreignobject></g></g><g transform="translate(0,0)"><g transform="translate(0,154.49) scale(1,-1)"><foreignobject width="180.52" height="154.49" overflow="visible"><object type="image/svg+xml" data="2301.03019v1/x22.svg" id="S4.F6.pic1.g3" class="ltx_graphics ltx_img_square" width="188" height="161" aria-label="Refer to caption"></object></foreignobject></g></g><g transform="translate(0.13,0.49)"><g transform="translate(0,15.94) scale(1,-1)"><foreignobject width="19.13" height="11.16" overflow="visible"><math mode="inline" tex="\Psi" text="Psi" xml:id="S4.F6.pic1.m3">
+                          <xmath xml:id="S4.F6.pic1.m3.1">
+                            <xmtok name="Psi" role="UNKNOWN">Ψ</xmtok>
+                          </xmath>
+                        </math></foreignobject></g></g><g transform="translate(1.01,0.49)"><g transform="translate(0,15.94) scale(1,-1)"><foreignobject width="19.13" height="11.16" overflow="visible"><math mode="inline" tex="\Psi" text="Psi" xml:id="S4.F6.pic1.m4">
+                          <xmath xml:id="S4.F6.pic1.m4.1">
+                            <xmtok name="Psi" role="UNKNOWN">Ψ</xmtok>
+                          </xmath>
+                        </math></foreignobject></g></g></g></svg>

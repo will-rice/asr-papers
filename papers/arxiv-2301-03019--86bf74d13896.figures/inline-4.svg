@@ -1,0 +1,200 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1.33" height="0.71" overflow="visible"><g transform="translate(0,0.71) scale(1,-1)"><g transform="translate(0,0)"><g transform="translate(0,236.45) scale(1,-1)"><foreignobject width="441.94" height="236.45" overflow="visible"><object type="image/svg+xml" data="2301.03019v1/x12.svg" id="S4.F4.pic1.g1" class="ltx_graphics ltx_img_landscape" width="459" height="246" aria-label="Refer to caption"></object></foreignobject></g></g><g transform="translate(0.34,0.64)"><g transform="translate(0,15.94) scale(1,-1)"><foreignobject width="12.75" height="11.16" overflow="visible"><math mode="inline" tex="e" text="e" xml:id="S4.F4.pic1.m1">
+                          <xmath xml:id="S4.F4.pic1.m1.1">
+                            <xmtok font="italic" fontsize="80%" role="UNKNOWN">e</xmtok>
+                          </xmath>
+                        </math></foreignobject></g></g><g transform="translate(0.64,0.33)"><g transform="translate(0,15.94) scale(1,-1)"><foreignobject width="18.60" height="11.16" overflow="visible"><math mode="inline" tex="r^{3}" text="r ^ 3" xml:id="S4.F4.pic1.m2">
+                          <xmath xml:id="S4.F4.pic1.m2.1">
+                            <xmapp xml:id="S4.F4.pic1.m2.1.1">
+                              <xmtok role="SUPERSCRIPTOP" scriptpos="post1"></xmtok>
+                              <xmtok font="italic" fontsize="80%" role="UNKNOWN">r</xmtok>
+                              <xmtok fontsize="56%" meaning="3" role="NUMBER">3</xmtok>
+                            </xmapp>
+                          </xmath>
+                        </math></foreignobject></g></g><g transform="translate(0.34,0.01)"><g transform="translate(0,15.94) scale(1,-1)"><foreignobject width="18.60" height="11.16" overflow="visible"><math mode="inline" tex="r^{2}" text="r ^ 2" xml:id="S4.F4.pic1.m3">
+                          <xmath xml:id="S4.F4.pic1.m3.1">
+                            <xmapp xml:id="S4.F4.pic1.m3.1.1">
+                              <xmtok role="SUPERSCRIPTOP" scriptpos="post1"></xmtok>
+                              <xmtok font="italic" fontsize="80%" role="UNKNOWN">r</xmtok>
+                              <xmtok fontsize="56%" meaning="2" role="NUMBER">2</xmtok>
+                            </xmapp>
+                          </xmath>
+                        </math></foreignobject></g></g><g transform="translate(0,0.33)"><g transform="translate(0,15.94) scale(1,-1)"><foreignobject width="12.89" height="11.16" overflow="visible"><math mode="inline" tex="r" text="r" xml:id="S4.F4.pic1.m4">
+                          <xmath xml:id="S4.F4.pic1.m4.1">
+                            <xmtok font="italic" fontsize="80%" role="UNKNOWN">r</xmtok>
+                          </xmath>
+                        </math></foreignobject></g></g><g transform="translate(0,0)"><g transform="translate(0,236.45) scale(1,-1)"><foreignobject width="441.94" height="236.45" overflow="visible"><object type="image/svg+xml" data="2301.03019v1/x13.svg" id="S4.F4.pic1.g2" class="ltx_graphics ltx_img_landscape" width="459" height="245" aria-label="Refer to caption"></object></foreignobject></g></g><g transform="translate(0.83,0.35)"><g transform="translate(0,15.94) scale(1,-1)"><foreignobject width="109.72" height="11.16" overflow="visible"><math mode="inline" tex="\underset{x\in(-2,2)C_{4}}{\max}f(x)" text="(x element-of vector@(- 2, 2) * C _ 4)@(maximum) * f * x" xml:id="S4.F4.pic1.m5">
+                          <xmath xml:id="S4.F4.pic1.m5.4">
+                            <xmapp xml:id="S4.F4.pic1.m5.4.1">
+                              <xmtok meaning="times" role="MULOP">⁢</xmtok>
+                              <xmapp xml:id="S4.F4.pic1.m5.4.1.2">
+                                <xmapp role="UNDERACCENT" xml:id="S4.F4.pic1.m5.4.1.2.1">
+                                  <xmtok fontsize="56%" meaning="element-of" name="in" role="RELOP">∈</xmtok>
+                                  <xmtok font="italic" fontsize="56%" role="UNKNOWN">x</xmtok>
+                                  <xmapp xml:id="S4.F4.pic1.m5.4.1.2.1.3">
+                                    <xmtok meaning="times" role="MULOP">⁢</xmtok>
+                                    <xmdual xml:id="S4.F4.pic1.m5.4.1.2.1.3.2">
+                                      <xmapp xml:id="S4.F4.pic1.m5.4.1.2.1.3.2.1">
+                                        <xmtok meaning="vector"></xmtok>
+                                        <xmref idref="S4.F4.pic1.m5.1" xml:id="S4.F4.pic1.m5.4.1.2.1.3.2.1.2"></xmref>
+                                        <xmref idref="S4.F4.pic1.m5.2" xml:id="S4.F4.pic1.m5.4.1.2.1.3.2.1.3"></xmref>
+                                      </xmapp>
+                                      <xmwrap xml:id="S4.F4.pic1.m5.4.1.2.1.3.2.2">
+                                        <xmtok fontsize="56%" role="OPEN" stretchy="false">(</xmtok>
+                                        <xmapp xml:id="S4.F4.pic1.m5.1">
+                                          <xmtok fontsize="56%" meaning="minus" role="ADDOP">-</xmtok>
+                                          <xmtok fontsize="56%" meaning="2" role="NUMBER">2</xmtok>
+                                        </xmapp>
+                                        <xmtok fontsize="80%" role="PUNCT">,</xmtok>
+                                        <xmtok fontsize="56%" meaning="2" role="NUMBER" xml:id="S4.F4.pic1.m5.2">2</xmtok>
+                                        <xmtok fontsize="56%" role="CLOSE" stretchy="false">)</xmtok>
+                                      </xmwrap>
+                                    </xmdual>
+                                    <xmapp xml:id="S4.F4.pic1.m5.4.1.2.1.3.3">
+                                      <xmtok role="SUBSCRIPTOP" scriptpos="post2"></xmtok>
+                                      <xmtok font="italic" fontsize="56%" role="UNKNOWN">C</xmtok>
+                                      <xmtok fontsize="40%" meaning="4" role="NUMBER">4</xmtok>
+                                    </xmapp>
+                                  </xmapp>
+                                </xmapp>
+                                <xmtok fontsize="80%" meaning="maximum" role="OPFUNCTION" scriptpos="post">max</xmtok>
+                              </xmapp>
+                              <xmtok font="italic" fontsize="80%" role="UNKNOWN">f</xmtok>
+                              <xmdual xml:id="S4.F4.pic1.m5.4.1.4">
+                                <xmref idref="S4.F4.pic1.m5.3" xml:id="S4.F4.pic1.m5.4.1.4.1"></xmref>
+                                <xmwrap xml:id="S4.F4.pic1.m5.4.1.4.2">
+                                  <xmtok fontsize="80%" role="OPEN" stretchy="false">(</xmtok>
+                                  <xmtok font="italic" fontsize="80%" role="UNKNOWN" xml:id="S4.F4.pic1.m5.3">x</xmtok>
+                                  <xmtok fontsize="80%" role="CLOSE" stretchy="false">)</xmtok>
+                                </xmwrap>
+                              </xmdual>
+                            </xmapp>
+                          </xmath>
+                        </math></foreignobject></g></g><g transform="translate(0,0)"><g transform="translate(0,236.45) scale(1,-1)"><foreignobject width="441.94" height="236.45" overflow="visible"><object type="image/svg+xml" data="2301.03019v1/x14.svg" id="S4.F4.pic1.g3" class="ltx_graphics ltx_img_landscape" width="459" height="245" aria-label="Refer to caption"></object></foreignobject></g></g><g transform="translate(0.23,0.72)"><g transform="translate(0,15.94) scale(1,-1)"><foreignobject width="38.92" height="11.16" overflow="visible"><math mode="inline" tex="(-2,2)" text="vector@(- 2, 2)" xml:id="S4.F4.pic1.m6">
+                          <xmath xml:id="S4.F4.pic1.m6.3">
+                            <xmdual xml:id="S4.F4.pic1.m6.3.1">
+                              <xmapp xml:id="S4.F4.pic1.m6.3.1.1">
+                                <xmtok meaning="vector"></xmtok>
+                                <xmref idref="S4.F4.pic1.m6.1" xml:id="S4.F4.pic1.m6.3.1.1.2"></xmref>
+                                <xmref idref="S4.F4.pic1.m6.2" xml:id="S4.F4.pic1.m6.3.1.1.3"></xmref>
+                              </xmapp>
+                              <xmwrap xml:id="S4.F4.pic1.m6.3.1.2">
+                                <xmtok fontsize="80%" role="OPEN" stretchy="false">(</xmtok>
+                                <xmapp xml:id="S4.F4.pic1.m6.1">
+                                  <xmtok fontsize="80%" meaning="minus" role="ADDOP">-</xmtok>
+                                  <xmtok fontsize="80%" meaning="2" role="NUMBER">2</xmtok>
+                                </xmapp>
+                                <xmtok fontsize="80%" role="PUNCT">,</xmtok>
+                                <xmtok fontsize="80%" meaning="2" role="NUMBER" xml:id="S4.F4.pic1.m6.2">2</xmtok>
+                                <xmtok fontsize="80%" role="CLOSE" stretchy="false">)</xmtok>
+                              </xmwrap>
+                            </xmdual>
+                          </xmath>
+                        </math></foreignobject></g></g><g transform="translate(0,0)"><g transform="translate(0,236.45) scale(1,-1)"><foreignobject width="441.94" height="236.45" overflow="visible"><object type="image/svg+xml" data="2301.03019v1/x15.svg" id="S4.F4.pic1.g4" class="ltx_graphics ltx_img_landscape" width="459" height="245" aria-label="Refer to caption"></object></foreignobject></g></g><g transform="translate(0.46,0.52)"><g transform="translate(0,15.94) scale(1,-1)"><foreignobject width="50.08" height="11.16" overflow="visible"><math mode="inline" tex="(-2,2)r^{3}" text="vector@(- 2, 2) * r ^ 3" xml:id="S4.F4.pic1.m7">
+                          <xmath xml:id="S4.F4.pic1.m7.3">
+                            <xmapp xml:id="S4.F4.pic1.m7.3.1">
+                              <xmtok meaning="times" role="MULOP">⁢</xmtok>
+                              <xmdual xml:id="S4.F4.pic1.m7.3.1.2">
+                                <xmapp xml:id="S4.F4.pic1.m7.3.1.2.1">
+                                  <xmtok meaning="vector"></xmtok>
+                                  <xmref idref="S4.F4.pic1.m7.1" xml:id="S4.F4.pic1.m7.3.1.2.1.2"></xmref>
+                                  <xmref idref="S4.F4.pic1.m7.2" xml:id="S4.F4.pic1.m7.3.1.2.1.3"></xmref>
+                                </xmapp>
+                                <xmwrap xml:id="S4.F4.pic1.m7.3.1.2.2">
+                                  <xmtok fontsize="80%" role="OPEN" stretchy="false">(</xmtok>
+                                  <xmapp xml:id="S4.F4.pic1.m7.1">
+                                    <xmtok fontsize="80%" meaning="minus" role="ADDOP">-</xmtok>
+                                    <xmtok fontsize="80%" meaning="2" role="NUMBER">2</xmtok>
+                                  </xmapp>
+                                  <xmtok fontsize="80%" role="PUNCT">,</xmtok>
+                                  <xmtok fontsize="80%" meaning="2" role="NUMBER" xml:id="S4.F4.pic1.m7.2">2</xmtok>
+                                  <xmtok fontsize="80%" role="CLOSE" stretchy="false">)</xmtok>
+                                </xmwrap>
+                              </xmdual>
+                              <xmapp xml:id="S4.F4.pic1.m7.3.1.3">
+                                <xmtok role="SUPERSCRIPTOP" scriptpos="post1"></xmtok>
+                                <xmtok font="italic" fontsize="80%" role="UNKNOWN">r</xmtok>
+                                <xmtok fontsize="56%" meaning="3" role="NUMBER">3</xmtok>
+                              </xmapp>
+                            </xmapp>
+                          </xmath>
+                        </math></foreignobject></g></g><g transform="translate(0,0)"><g transform="translate(0,236.45) scale(1,-1)"><foreignobject width="441.94" height="236.45" overflow="visible"><object type="image/svg+xml" data="2301.03019v1/x16.svg" id="S4.F4.pic1.g5" class="ltx_graphics ltx_img_landscape" width="459" height="245" aria-label="Refer to caption"></object></foreignobject></g></g><g transform="translate(0.24,0.32)"><g transform="translate(0,15.94) scale(1,-1)"><foreignobject width="50.08" height="11.16" overflow="visible"><math mode="inline" tex="(-2,2)r^{2}" text="vector@(- 2, 2) * r ^ 2" xml:id="S4.F4.pic1.m8">
+                          <xmath xml:id="S4.F4.pic1.m8.3">
+                            <xmapp xml:id="S4.F4.pic1.m8.3.1">
+                              <xmtok meaning="times" role="MULOP">⁢</xmtok>
+                              <xmdual xml:id="S4.F4.pic1.m8.3.1.2">
+                                <xmapp xml:id="S4.F4.pic1.m8.3.1.2.1">
+                                  <xmtok meaning="vector"></xmtok>
+                                  <xmref idref="S4.F4.pic1.m8.1" xml:id="S4.F4.pic1.m8.3.1.2.1.2"></xmref>
+                                  <xmref idref="S4.F4.pic1.m8.2" xml:id="S4.F4.pic1.m8.3.1.2.1.3"></xmref>
+                                </xmapp>
+                                <xmwrap xml:id="S4.F4.pic1.m8.3.1.2.2">
+                                  <xmtok fontsize="80%" role="OPEN" stretchy="false">(</xmtok>
+                                  <xmapp xml:id="S4.F4.pic1.m8.1">
+                                    <xmtok fontsize="80%" meaning="minus" role="ADDOP">-</xmtok>
+                                    <xmtok fontsize="80%" meaning="2" role="NUMBER">2</xmtok>
+                                  </xmapp>
+                                  <xmtok fontsize="80%" role="PUNCT">,</xmtok>
+                                  <xmtok fontsize="80%" meaning="2" role="NUMBER" xml:id="S4.F4.pic1.m8.2">2</xmtok>
+                                  <xmtok fontsize="80%" role="CLOSE" stretchy="false">)</xmtok>
+                                </xmwrap>
+                              </xmdual>
+                              <xmapp xml:id="S4.F4.pic1.m8.3.1.3">
+                                <xmtok role="SUPERSCRIPTOP" scriptpos="post1"></xmtok>
+                                <xmtok font="italic" fontsize="80%" role="UNKNOWN">r</xmtok>
+                                <xmtok fontsize="56%" meaning="2" role="NUMBER">2</xmtok>
+                              </xmapp>
+                            </xmapp>
+                          </xmath>
+                        </math></foreignobject></g></g><g transform="translate(0,0)"><g transform="translate(0,236.45) scale(1,-1)"><foreignobject width="441.94" height="236.45" overflow="visible"><object type="image/svg+xml" data="2301.03019v1/x17.svg" id="S4.F4.pic1.g6" class="ltx_graphics ltx_img_landscape" width="459" height="245" aria-label="Refer to caption"></object></foreignobject></g></g><g transform="translate(0.04,0.52)"><g transform="translate(0,15.94) scale(1,-1)"><foreignobject width="44.37" height="11.16" overflow="visible"><math mode="inline" tex="(-2,2)r" text="vector@(- 2, 2) * r" xml:id="S4.F4.pic1.m9">
+                          <xmath xml:id="S4.F4.pic1.m9.3">
+                            <xmapp xml:id="S4.F4.pic1.m9.3.1">
+                              <xmtok meaning="times" role="MULOP">⁢</xmtok>
+                              <xmdual xml:id="S4.F4.pic1.m9.3.1.2">
+                                <xmapp xml:id="S4.F4.pic1.m9.3.1.2.1">
+                                  <xmtok meaning="vector"></xmtok>
+                                  <xmref idref="S4.F4.pic1.m9.1" xml:id="S4.F4.pic1.m9.3.1.2.1.2"></xmref>
+                                  <xmref idref="S4.F4.pic1.m9.2" xml:id="S4.F4.pic1.m9.3.1.2.1.3"></xmref>
+                                </xmapp>
+                                <xmwrap xml:id="S4.F4.pic1.m9.3.1.2.2">
+                                  <xmtok fontsize="80%" role="OPEN" stretchy="false">(</xmtok>
+                                  <xmapp xml:id="S4.F4.pic1.m9.1">
+                                    <xmtok fontsize="80%" meaning="minus" role="ADDOP">-</xmtok>
+                                    <xmtok fontsize="80%" meaning="2" role="NUMBER">2</xmtok>
+                                  </xmapp>
+                                  <xmtok fontsize="80%" role="PUNCT">,</xmtok>
+                                  <xmtok fontsize="80%" meaning="2" role="NUMBER" xml:id="S4.F4.pic1.m9.2">2</xmtok>
+                                  <xmtok fontsize="80%" role="CLOSE" stretchy="false">)</xmtok>
+                                </xmwrap>
+                              </xmdual>
+                              <xmtok font="italic" fontsize="80%" role="UNKNOWN">r</xmtok>
+                            </xmapp>
+                          </xmath>
+                        </math></foreignobject></g></g><g transform="translate(0,0)"><g transform="translate(0,236.45) scale(1,-1)"><foreignobject width="441.94" height="236.45" overflow="visible"><object type="image/svg+xml" data="2301.03019v1/x18.svg" id="S4.F4.pic1.g7" class="ltx_graphics ltx_img_landscape" width="459" height="245" aria-label="Refer to caption"></object></foreignobject></g></g><g transform="translate(1.18,0.52)"><g transform="translate(0,15.94) scale(1,-1)"><foreignobject width="53.40" height="11.16" overflow="visible"><math mode="inline" tex="(-2,2)C_{4}" text="vector@(- 2, 2) * C _ 4" xml:id="S4.F4.pic1.m10">
+                          <xmath xml:id="S4.F4.pic1.m10.3">
+                            <xmapp xml:id="S4.F4.pic1.m10.3.1">
+                              <xmtok meaning="times" role="MULOP">⁢</xmtok>
+                              <xmdual xml:id="S4.F4.pic1.m10.3.1.2">
+                                <xmapp xml:id="S4.F4.pic1.m10.3.1.2.1">
+                                  <xmtok meaning="vector"></xmtok>
+                                  <xmref idref="S4.F4.pic1.m10.1" xml:id="S4.F4.pic1.m10.3.1.2.1.2"></xmref>
+                                  <xmref idref="S4.F4.pic1.m10.2" xml:id="S4.F4.pic1.m10.3.1.2.1.3"></xmref>
+                                </xmapp>
+                                <xmwrap xml:id="S4.F4.pic1.m10.3.1.2.2">
+                                  <xmtok fontsize="80%" role="OPEN" stretchy="false">(</xmtok>
+                                  <xmapp xml:id="S4.F4.pic1.m10.1">
+                                    <xmtok fontsize="80%" meaning="minus" role="ADDOP">-</xmtok>
+                                    <xmtok fontsize="80%" meaning="2" role="NUMBER">2</xmtok>
+                                  </xmapp>
+                                  <xmtok fontsize="80%" role="PUNCT">,</xmtok>
+                                  <xmtok fontsize="80%" meaning="2" role="NUMBER" xml:id="S4.F4.pic1.m10.2">2</xmtok>
+                                  <xmtok fontsize="80%" role="CLOSE" stretchy="false">)</xmtok>
+                                </xmwrap>
+                              </xmdual>
+                              <xmapp xml:id="S4.F4.pic1.m10.3.1.3">
+                                <xmtok role="SUBSCRIPTOP" scriptpos="post1"></xmtok>
+                                <xmtok font="italic" fontsize="80%" role="UNKNOWN">C</xmtok>
+                                <xmtok fontsize="56%" meaning="4" role="NUMBER">4</xmtok>
+                              </xmapp>
+                            </xmapp>
+                          </xmath>
+                        </math></foreignobject></g></g></g></svg>
