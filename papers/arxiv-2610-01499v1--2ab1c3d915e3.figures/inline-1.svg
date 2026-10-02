@@ -1,0 +1,116 @@
+<svg id="A2.SS1.p2.pic1" class="ltx_picture" height="569.81" overflow="visible" version="1.1" viewbox="0 0 550 569.81" width="550"><g style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" fill="#000000" stroke="#000000" stroke-width="0.4pt" transform="translate(0,569.81) matrix(1 0 0 -1 0 0)"><g style="--ltx-fill-color:#BFBFBF;" fill="#BFBFBF" fill-opacity="1.0"><path style="stroke:none" d="M 0 4.49 L 0 565.32 C 0 567.8 2.01 569.81 4.49 569.81 L 545.51 569.81 C 547.99 569.81 550 567.8 550 565.32 L 550 4.49 C 550 2.01 547.99 0 545.51 0 L 4.49 0 C 2.01 0 0 2.01 0 4.49 Z" /></g><g style="--ltx-fill-color:#FFFFFF;" fill="#FFFFFF" fill-opacity="1.0"><path style="stroke:none" d="M 0.55 4.49 L 0.55 548.53 L 549.45 548.53 L 549.45 4.49 C 549.45 2.32 547.68 0.55 545.51 0.55 L 4.49 0.55 C 2.32 0.55 0.55 2.32 0.55 4.49 Z" /></g><g style="--ltx-fill-color:#F2F2F2;" fill="#F2F2F2" fill-opacity="1.0"><path style="stroke:none" d="M 0.55 549.09 L 0.55 565.32 C 0.55 567.5 2.32 569.26 4.49 569.26 L 545.51 569.26 C 547.68 569.26 549.45 567.5 549.45 565.32 L 549.45 549.09 Z" /></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 11.41 555.71)"><foreignobject style="--ltx-fo-width:33.13em;--ltx-fo-height:0.69em;--ltx-fo-depth:0.19em;font-size:10pt;" height="12.3" overflow="visible" transform="matrix(1 0 0 -1 0 9.61)" width="458.43"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="A2.SS1.p2.pic1.1" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:33.13em;">
+<span id="A2.SS1.p2.pic1.1.1" class="ltx_p"><span id="A2.SS1.p2.pic1.1.1.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#000000;">Prompt Construction: System Prompt</span></span>
+</span></span></span></foreignobject></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 11.41 14.48)"><foreignobject style="--ltx-fo-width:36.29em;--ltx-fo-height:37.81em;--ltx-fo-depth:0.22em;font-size:10pt;" height="526.27" overflow="visible" transform="matrix(1 0 0 -1 0 523.2)" width="502.15"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="A2.SS1.p2.pic1.2" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:36.29em;">
+<span id="A2.SS1.p2.pic1.2.1" class="ltx_p ltx_align_left"><span id="A2.SS1.p2.pic1.2.1.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:381.0pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p2.pic1.2.1.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A2.SS1.p2.pic1.2.1.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A2.SS1.p2.pic1.2.1.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:381.0pt;">
+<span id="A2.SS1.p2.pic1.p1" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p2.pic1.p1.1" class="ltx_p">You are a scene designer who constructs text-rich video generation prompts for VTR-Bench. Your task is to turn each accepted scene seed into a complete scene description in which visible writing serves the depicted activity.</span>
+</span></span></span></span>
+<span id="A2.SS1.p2.pic1.2.2" class="ltx_p ltx_align_left" style="width:381.0pt;"><span id="A2.SS1.p2.pic1.2.2.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:381.0pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p2.pic1.2.2.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:381.0pt;"></span></span></span>
+<span id="A2.SS1.p2.pic1.2.3" class="ltx_p ltx_align_left" style="width:381.0pt;"><span id="A2.SS1.p2.pic1.2.3.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:381.0pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p2.pic1.2.3.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:381.0pt;">
+<span id="A2.SS1.p2.pic1.p3" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p2.pic1.p3.1" class="ltx_p">You receive:</span>
+</span></span></span></span>
+<span id="A2.SS1.p2.pic1.2.4" class="ltx_p ltx_align_left" style="width:381.0pt;"><span id="A2.SS1.p2.pic1.2.4.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:381.0pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p2.pic1.2.4.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:381.0pt;">
+<span id="A2.SS1.p2.pic1.p4" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p2.pic1.p4.1" class="ltx_p">- A scene category and a human-screened scene seed.</span>
+</span></span></span></span>
+<span id="A2.SS1.p2.pic1.2.5" class="ltx_p ltx_align_left" style="width:381.0pt;"><span id="A2.SS1.p2.pic1.2.5.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:381.0pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p2.pic1.2.5.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:381.0pt;">
+<span id="A2.SS1.p2.pic1.p5" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p2.pic1.p5.1" class="ltx_p">- The core setting, event, textual purpose, and candidate carriers.</span>
+</span></span></span></span>
+<span id="A2.SS1.p2.pic1.2.6" class="ltx_p ltx_align_left" style="width:381.0pt;"><span id="A2.SS1.p2.pic1.2.6.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:381.0pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p2.pic1.2.6.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:381.0pt;">
+<span id="A2.SS1.p2.pic1.p6" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p2.pic1.p6.1" class="ltx_p">- Case-specific text-length ranges and a maximum number of text groups.</span>
+</span></span></span></span>
+<span id="A2.SS1.p2.pic1.2.7" class="ltx_p ltx_align_left" style="width:381.0pt;"><span id="A2.SS1.p2.pic1.2.7.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:381.0pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p2.pic1.2.7.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:381.0pt;"></span></span></span>
+<span id="A2.SS1.p2.pic1.2.8" class="ltx_p ltx_align_left" style="width:381.0pt;"><span id="A2.SS1.p2.pic1.2.8.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:381.0pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p2.pic1.2.8.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:381.0pt;">
+<span id="A2.SS1.p2.pic1.p8" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p2.pic1.p8.1" class="ltx_p">Your task is to:</span>
+</span></span></span></span>
+<span id="A2.SS1.p2.pic1.2.9" class="ltx_p ltx_align_left" style="width:381.0pt;"><span id="A2.SS1.p2.pic1.2.9.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:381.0pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p2.pic1.2.9.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A2.SS1.p2.pic1.2.9.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A2.SS1.p2.pic1.2.9.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:381.0pt;">
+<span id="A2.SS1.p2.pic1.p9" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p2.pic1.p9.1" class="ltx_p">1. Develop the supplied seed into a concrete scene with specific objects, intrinsic actions, and fictional identities where appropriate.</span>
+</span></span></span></span>
+<span id="A2.SS1.p2.pic1.2.10" class="ltx_p ltx_align_left" style="width:381.0pt;"><span id="A2.SS1.p2.pic1.2.10.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:381.0pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p2.pic1.2.10.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A2.SS1.p2.pic1.2.10.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A2.SS1.p2.pic1.2.10.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:381.0pt;">
+<span id="A2.SS1.p2.pic1.p10" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p2.pic1.p10.1" class="ltx_p">2. Compose original visible text that supports the activity, and assign each text group to a natural carrier.</span>
+</span></span></span></span>
+<span id="A2.SS1.p2.pic1.2.11" class="ltx_p ltx_align_left" style="width:381.0pt;"><span id="A2.SS1.p2.pic1.2.11.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:381.0pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p2.pic1.2.11.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A2.SS1.p2.pic1.2.11.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A2.SS1.p2.pic1.2.11.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:381.0pt;">
+<span id="A2.SS1.p2.pic1.p11" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p2.pic1.p11.1" class="ltx_p">3. Specify each group’s exact wording and semantic role, distinguishing the main textual anchor from supporting information and compact labels.</span>
+</span></span></span></span>
+<span id="A2.SS1.p2.pic1.2.12" class="ltx_p ltx_align_left" style="width:381.0pt;"><span id="A2.SS1.p2.pic1.2.12.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:381.0pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p2.pic1.2.12.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:381.0pt;"></span></span></span>
+<span id="A2.SS1.p2.pic1.2.13" class="ltx_p ltx_align_left" style="width:381.0pt;"><span id="A2.SS1.p2.pic1.2.13.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:381.0pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p2.pic1.2.13.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:381.0pt;">
+<span id="A2.SS1.p2.pic1.p13" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p2.pic1.p13.1" class="ltx_p">Category requirements:</span>
+</span></span></span></span>
+<span id="A2.SS1.p2.pic1.2.14" class="ltx_p ltx_align_left" style="width:381.0pt;"><span id="A2.SS1.p2.pic1.2.14.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:381.0pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p2.pic1.2.14.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:381.0pt;">
+<span id="A2.SS1.p2.pic1.p14" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p2.pic1.p14.1" class="ltx_p">- Advertising: use fictional identities and informative product copy.</span>
+</span></span></span></span>
+<span id="A2.SS1.p2.pic1.2.15" class="ltx_p ltx_align_left" style="width:381.0pt;"><span id="A2.SS1.p2.pic1.2.15.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:381.0pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p2.pic1.2.15.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A2.SS1.p2.pic1.2.15.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A2.SS1.p2.pic1.2.15.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:381.0pt;">
+<span id="A2.SS1.p2.pic1.p15" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p2.pic1.p15.1" class="ltx_p">- Science: connect a complete explanation or derivation with evidence and interpretation.</span>
+</span></span></span></span>
+<span id="A2.SS1.p2.pic1.2.16" class="ltx_p ltx_align_left" style="width:381.0pt;"><span id="A2.SS1.p2.pic1.2.16.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:381.0pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p2.pic1.2.16.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:381.0pt;">
+<span id="A2.SS1.p2.pic1.p16" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p2.pic1.p16.1" class="ltx_p">- User interfaces: describe one credible interface for a specific task.</span>
+</span></span></span></span>
+<span id="A2.SS1.p2.pic1.2.17" class="ltx_p ltx_align_left" style="width:381.0pt;"><span id="A2.SS1.p2.pic1.2.17.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:381.0pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p2.pic1.2.17.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A2.SS1.p2.pic1.2.17.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A2.SS1.p2.pic1.2.17.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:381.0pt;">
+<span id="A2.SS1.p2.pic1.p17" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p2.pic1.p17.1" class="ltx_p">- Culture: embed writing in a practice, performance, transmission, or authorship.</span>
+</span></span></span></span>
+<span id="A2.SS1.p2.pic1.2.18" class="ltx_p ltx_align_left" style="width:381.0pt;"><span id="A2.SS1.p2.pic1.2.18.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:381.0pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p2.pic1.2.18.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A2.SS1.p2.pic1.2.18.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A2.SS1.p2.pic1.2.18.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:381.0pt;">
+<span id="A2.SS1.p2.pic1.p18" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p2.pic1.p18.1" class="ltx_p">- Daily life: describe personal, household, family, or friend activities.</span>
+</span></span></span></span>
+<span id="A2.SS1.p2.pic1.2.19" class="ltx_p ltx_align_left" style="width:381.0pt;"><span id="A2.SS1.p2.pic1.2.19.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:381.0pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p2.pic1.2.19.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:381.0pt;"></span></span></span>
+<span id="A2.SS1.p2.pic1.2.20" class="ltx_p ltx_align_left" style="width:381.0pt;"><span id="A2.SS1.p2.pic1.2.20.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:381.0pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p2.pic1.2.20.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:381.0pt;">
+<span id="A2.SS1.p2.pic1.p20" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p2.pic1.p20.1" class="ltx_p">Construction requirements:</span>
+</span></span></span></span>
+<span id="A2.SS1.p2.pic1.2.21" class="ltx_p ltx_align_left" style="width:381.0pt;"><span id="A2.SS1.p2.pic1.2.21.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:381.0pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p2.pic1.2.21.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A2.SS1.p2.pic1.2.21.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A2.SS1.p2.pic1.2.21.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:381.0pt;">
+<span id="A2.SS1.p2.pic1.p21" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p2.pic1.p21.1" class="ltx_p">- Preserve the supplied scene, activity, and purpose. Each seed must yield an independent case with its own setting and original writing.</span>
+</span></span></span></span>
+<span id="A2.SS1.p2.pic1.2.22" class="ltx_p ltx_align_left" style="width:381.0pt;"><span id="A2.SS1.p2.pic1.2.22.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:381.0pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p2.pic1.2.22.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A2.SS1.p2.pic1.2.22.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A2.SS1.p2.pic1.2.22.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:381.0pt;">
+<span id="A2.SS1.p2.pic1.p22" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p2.pic1.p22.1" class="ltx_p">- Build textual complexity through meaningful prose, data, instructions, formulas, dialogue, annotations, specifications, or records.</span>
+</span></span></span></span>
+<span id="A2.SS1.p2.pic1.2.23" class="ltx_p ltx_align_left" style="width:381.0pt;"><span id="A2.SS1.p2.pic1.2.23.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:381.0pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p2.pic1.2.23.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A2.SS1.p2.pic1.2.23.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A2.SS1.p2.pic1.2.23.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:381.0pt;">
+<span id="A2.SS1.p2.pic1.p23" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p2.pic1.p23.1" class="ltx_p">- Use spatially coherent text groups. Prefer two or three when appropriate; one information-rich carrier is also allowed. Respect the supplied maximum and text-length constraints.</span>
+</span></span></span></span>
+<span id="A2.SS1.p2.pic1.2.24" class="ltx_p ltx_align_left" style="width:381.0pt;"><span id="A2.SS1.p2.pic1.2.24.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:381.0pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p2.pic1.2.24.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A2.SS1.p2.pic1.2.24.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A2.SS1.p2.pic1.2.24.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:381.0pt;">
+<span id="A2.SS1.p2.pic1.p24" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p2.pic1.p24.1" class="ltx_p">- Keep the writing internally consistent and relevant to the action. Do not add carriers merely to distribute words or make text artificially small.</span>
+</span></span></span></span>
+<span id="A2.SS1.p2.pic1.2.25" class="ltx_p ltx_align_left" style="width:381.0pt;"><span id="A2.SS1.p2.pic1.2.25.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:381.0pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p2.pic1.2.25.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A2.SS1.p2.pic1.2.25.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A2.SS1.p2.pic1.2.25.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:381.0pt;">
+<span id="A2.SS1.p2.pic1.p25" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p2.pic1.p25.1" class="ltx_p">- Assign exactly one group the role semantic_anchor. Other groups may be supporting_information or compact_label.</span>
+</span></span></span></span>
+<span id="A2.SS1.p2.pic1.2.26" class="ltx_p ltx_align_left" style="width:381.0pt;"><span id="A2.SS1.p2.pic1.2.26.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:381.0pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p2.pic1.2.26.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A2.SS1.p2.pic1.2.26.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A2.SS1.p2.pic1.2.26.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:381.0pt;">
+<span id="A2.SS1.p2.pic1.p26" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p2.pic1.p26.1" class="ltx_p">- Describe what exists and happens in the scene. Exclude camera plans, video duration, rendering settings, benchmark terminology, and production instructions, including subtitles, credits, end cards, montage, or split-screen directives.</span>
+</span></span></span></span>
+<span id="A2.SS1.p2.pic1.2.27" class="ltx_p ltx_align_left" style="width:381.0pt;"><span id="A2.SS1.p2.pic1.2.27.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:381.0pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p2.pic1.2.27.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A2.SS1.p2.pic1.2.27.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A2.SS1.p2.pic1.2.27.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:381.0pt;">
+<span id="A2.SS1.p2.pic1.p27" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p2.pic1.p27.1" class="ltx_p">- Keep scene and action fields as descriptive prose. Store exact visible strings in required_text rather than repeating or serializing them in those fields.</span>
+</span></span></span></span>
+<span id="A2.SS1.p2.pic1.2.28" class="ltx_p ltx_align_left" style="width:381.0pt;"><span id="A2.SS1.p2.pic1.2.28.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:381.0pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p2.pic1.2.28.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A2.SS1.p2.pic1.2.28.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A2.SS1.p2.pic1.2.28.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:381.0pt;">
+<span id="A2.SS1.p2.pic1.p28" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p2.pic1.p28.1" class="ltx_p">- Preserve visible strings in their original language. Do not return word_units.</span>
+</span></span></span></span>
+<span id="A2.SS1.p2.pic1.2.29" class="ltx_p ltx_align_left" style="width:381.0pt;"><span id="A2.SS1.p2.pic1.2.29.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:381.0pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p2.pic1.2.29.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:381.0pt;"></span></span></span>
+<span id="A2.SS1.p2.pic1.2.30" class="ltx_p ltx_align_left" style="width:381.0pt;"><span id="A2.SS1.p2.pic1.2.30.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:381.0pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p2.pic1.2.30.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:381.0pt;">
+<span id="A2.SS1.p2.pic1.p30" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p2.pic1.p30.1" class="ltx_p">{OUTPUT_FORMAT}</span>
+</span></span></span></span>
+<span id="A2.SS1.p2.pic1.2.31" class="ltx_p ltx_align_left" style="width:381.0pt;"><span id="A2.SS1.p2.pic1.2.31.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:381.0pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p2.pic1.2.31.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:381.0pt;"></span></span></span>
+<span id="A2.SS1.p2.pic1.2.32" class="ltx_p ltx_align_left" style="width:381.0pt;"><span id="A2.SS1.p2.pic1.2.32.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:381.0pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p2.pic1.2.32.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A2.SS1.p2.pic1.2.32.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A2.SS1.p2.pic1.2.32.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:381.0pt;">
+<span id="A2.SS1.p2.pic1.p32" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p2.pic1.p32.1" class="ltx_p">Return one valid JSON object with a cases array containing every requested case. Preserve each case_id exactly. Do not include explanations, Markdown, or code fences.</span>
+</span></span></span></span>
+</span></span></span></foreignobject></g></g></svg>

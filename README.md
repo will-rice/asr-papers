@@ -10,8 +10,8 @@ The 30 most recent of 5752 papers. Every paper is listed in [papers.csv](papers.
 
 | Published                 | Identifier         | Title                                                                                                                                                                     | Source |
 | ------------------------- | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
-| 2026-10-01T11:40:03+00:00 | arxiv:2610.01499v1 | [VTR-Bench: A Systematic Benchmark for Evaluating Visual Text Rendering in Video Generation](https://arxiv.org/abs/2610.01499v1)                                          | arxiv  |
-| 2026-10-01T11:35:01+00:00 | arxiv:2610.01492v1 | [Q-SPT: Learnable Query-Based Compression for Low-Frame-Rate Speech Tokenization](https://arxiv.org/abs/2610.01492v1)                                                     | arxiv  |
+| 2026-10-01T11:40:03+00:00 | arxiv:2610.01499v1 | [VTR-Bench: A Systematic Benchmark for Evaluating Visual Text Rendering in Video Generation](papers/arxiv-2610-01499v1--2ab1c3d915e3.md)                                  | arxiv  |
+| 2026-10-01T11:35:01+00:00 | arxiv:2610.01492v1 | [Q-SPT: Learnable Query-Based Compression for Low-Frame-Rate Speech Tokenization](papers/arxiv-2610-01492v1--02503e733833.md)                                             | arxiv  |
 | 2026-09-30T17:59:52+00:00 | arxiv:2609.40359v1 | [Removing Timing Shortcuts Improves Non-Invasive Brain-to-Text](papers/arxiv-2609-40359v1--6dd203ad8bc1.md)                                                               | arxiv  |
 | 2026-09-30T17:05:58+00:00 | arxiv:2609.40181v1 | [Index-Translate: A Multilingual Translation Model Family -- Text, Speech, Controlled Dubbing, and Long-Document Translation](papers/arxiv-2609-40181v1--ce39dfd0cf74.md) | arxiv  |
 | 2026-09-30T04:51:32+00:00 | arxiv:2609.38976v1 | [Fairness Beyond a Single Run: Training-Seed Variability in Speech LLM Adaptation](papers/arxiv-2609-38976v1--f8e999e7c26b.md)                                            | arxiv  |

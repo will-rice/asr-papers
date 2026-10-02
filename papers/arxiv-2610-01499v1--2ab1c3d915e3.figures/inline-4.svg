@@ -1,0 +1,163 @@
+<svg id="A2.SS2.p3.pic1" class="ltx_picture" height="704.57" overflow="visible" version="1.1" viewbox="0 0 550 704.57" width="550"><g style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" fill="#000000" stroke="#000000" stroke-width="0.4pt" transform="translate(0,704.57) matrix(1 0 0 -1 0 0)"><g style="--ltx-fill-color:#BFBFBF;" fill="#BFBFBF" fill-opacity="1.0"><path style="stroke:none" d="M 0 4.49 L 0 700.08 C 0 702.56 2.01 704.57 4.49 704.57 L 545.51 704.57 C 547.99 704.57 550 702.56 550 700.08 L 550 4.49 C 550 2.01 547.99 0 545.51 0 L 4.49 0 C 2.01 0 0 2.01 0 4.49 Z" /></g><g style="--ltx-fill-color:#FFFFFF;" fill="#FFFFFF" fill-opacity="1.0"><path style="stroke:none" d="M 0.55 4.49 L 0.55 683.29 L 549.45 683.29 L 549.45 4.49 C 549.45 2.32 547.68 0.55 545.51 0.55 L 4.49 0.55 C 2.32 0.55 0.55 2.32 0.55 4.49 Z" /></g><g style="--ltx-fill-color:#F2F2F2;" fill="#F2F2F2" fill-opacity="1.0"><path style="stroke:none" d="M 0.55 683.84 L 0.55 700.08 C 0.55 702.25 2.32 704.02 4.49 704.02 L 545.51 704.02 C 547.68 704.02 549.45 702.25 549.45 700.08 L 549.45 683.84 Z" /></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 11.41 690.47)"><foreignobject style="--ltx-fo-width:33.13em;--ltx-fo-height:0.69em;--ltx-fo-depth:0.19em;font-size:10pt;" height="12.3" overflow="visible" transform="matrix(1 0 0 -1 0 9.61)" width="458.43"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="A2.SS2.p3.pic1.1" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:33.13em;">
+<span id="A2.SS2.p3.pic1.1.1" class="ltx_p"><span id="A2.SS2.p3.pic1.1.1.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#000000;">Visual Feasibility Validation: Output Format</span></span>
+</span></span></span></foreignobject></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 11.41 14.48)"><foreignobject style="--ltx-fo-width:36.29em;--ltx-fo-height:47.55em;--ltx-fo-depth:0.22em;font-size:10pt;" height="661.03" overflow="visible" transform="matrix(1 0 0 -1 0 657.96)" width="502.15"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="A2.SS2.p3.pic1.2" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:36.29em;">
+<span id="A2.SS2.p3.pic1.2.1" class="ltx_p ltx_align_left"><span id="A2.SS2.p3.pic1.2.1.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:381.0pt;--ltx-fg-color:#000000;"><span id="A2.SS2.p3.pic1.2.1.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:381.0pt;">
+<span id="A2.SS2.p3.pic1.p1" class="ltx_para ltx_noindent">
+<span id="A2.SS2.p3.pic1.p1.1" class="ltx_p">{</span>
+</span></span></span></span>
+<span id="A2.SS2.p3.pic1.2.2" class="ltx_p ltx_align_left" style="width:381.0pt;"><span id="A2.SS2.p3.pic1.2.2.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:381.0pt;--ltx-fg-color:#000000;"><span id="A2.SS2.p3.pic1.2.2.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:381.0pt;">
+<span id="A2.SS2.p3.pic1.p2" class="ltx_para ltx_noindent">
+<span id="A2.SS2.p3.pic1.p2.1" class="ltx_p">  &quot;model_saw_three_distinct_images&quot;: true,</span>
+</span></span></span></span>
+<span id="A2.SS2.p3.pic1.2.3" class="ltx_p ltx_align_left" style="width:381.0pt;"><span id="A2.SS2.p3.pic1.2.3.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:381.0pt;--ltx-fg-color:#000000;"><span id="A2.SS2.p3.pic1.2.3.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:381.0pt;">
+<span id="A2.SS2.p3.pic1.p3" class="ltx_para ltx_noindent">
+<span id="A2.SS2.p3.pic1.p3.1" class="ltx_p">  &quot;best_image_index&quot;: 1,</span>
+</span></span></span></span>
+<span id="A2.SS2.p3.pic1.2.4" class="ltx_p ltx_align_left" style="width:381.0pt;"><span id="A2.SS2.p3.pic1.2.4.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:381.0pt;--ltx-fg-color:#000000;"><span id="A2.SS2.p3.pic1.2.4.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:381.0pt;">
+<span id="A2.SS2.p3.pic1.p4" class="ltx_para ltx_noindent">
+<span id="A2.SS2.p3.pic1.p4.1" class="ltx_p">  &quot;per_image&quot;: [</span>
+</span></span></span></span>
+<span id="A2.SS2.p3.pic1.2.5" class="ltx_p ltx_align_left" style="width:381.0pt;"><span id="A2.SS2.p3.pic1.2.5.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:381.0pt;--ltx-fg-color:#000000;"><span id="A2.SS2.p3.pic1.2.5.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:381.0pt;">
+<span id="A2.SS2.p3.pic1.p5" class="ltx_para ltx_noindent">
+<span id="A2.SS2.p3.pic1.p5.1" class="ltx_p">    {</span>
+</span></span></span></span>
+<span id="A2.SS2.p3.pic1.2.6" class="ltx_p ltx_align_left" style="width:381.0pt;"><span id="A2.SS2.p3.pic1.2.6.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:381.0pt;--ltx-fg-color:#000000;"><span id="A2.SS2.p3.pic1.2.6.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:381.0pt;">
+<span id="A2.SS2.p3.pic1.p6" class="ltx_para ltx_noindent">
+<span id="A2.SS2.p3.pic1.p6.1" class="ltx_p">      &quot;image_index&quot;: 1,</span>
+</span></span></span></span>
+<span id="A2.SS2.p3.pic1.2.7" class="ltx_p ltx_align_left" style="width:381.0pt;"><span id="A2.SS2.p3.pic1.2.7.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:381.0pt;--ltx-fg-color:#000000;"><span id="A2.SS2.p3.pic1.2.7.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:381.0pt;">
+<span id="A2.SS2.p3.pic1.p7" class="ltx_para ltx_noindent">
+<span id="A2.SS2.p3.pic1.p7.1" class="ltx_p">      &quot;scene_match&quot;: &quot;pass|partial|fail&quot;,</span>
+</span></span></span></span>
+<span id="A2.SS2.p3.pic1.2.8" class="ltx_p ltx_align_left" style="width:381.0pt;"><span id="A2.SS2.p3.pic1.2.8.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:381.0pt;--ltx-fg-color:#000000;"><span id="A2.SS2.p3.pic1.2.8.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:381.0pt;">
+<span id="A2.SS2.p3.pic1.p8" class="ltx_para ltx_noindent">
+<span id="A2.SS2.p3.pic1.p8.1" class="ltx_p">      &quot;text_layout&quot;: &quot;readable|borderline|too_dense|too_sparse&quot;,</span>
+</span></span></span></span>
+<span id="A2.SS2.p3.pic1.2.9" class="ltx_p ltx_align_left" style="width:381.0pt;"><span id="A2.SS2.p3.pic1.2.9.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:381.0pt;--ltx-fg-color:#000000;"><span id="A2.SS2.p3.pic1.2.9.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:381.0pt;">
+<span id="A2.SS2.p3.pic1.p9" class="ltx_para ltx_noindent">
+<span id="A2.SS2.p3.pic1.p9.1" class="ltx_p">      &quot;visual_integrity&quot;: &quot;pass|minor_issue|fail&quot;,</span>
+</span></span></span></span>
+<span id="A2.SS2.p3.pic1.2.10" class="ltx_p ltx_align_left" style="width:381.0pt;"><span id="A2.SS2.p3.pic1.2.10.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:381.0pt;--ltx-fg-color:#000000;"><span id="A2.SS2.p3.pic1.2.10.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:381.0pt;">
+<span id="A2.SS2.p3.pic1.p10" class="ltx_para ltx_noindent">
+<span id="A2.SS2.p3.pic1.p10.1" class="ltx_p">      &quot;notes&quot;: &quot;[IMAGE-GROUNDED EVIDENCE]&quot;</span>
+</span></span></span></span>
+<span id="A2.SS2.p3.pic1.2.11" class="ltx_p ltx_align_left" style="width:381.0pt;"><span id="A2.SS2.p3.pic1.2.11.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:381.0pt;--ltx-fg-color:#000000;"><span id="A2.SS2.p3.pic1.2.11.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:381.0pt;">
+<span id="A2.SS2.p3.pic1.p11" class="ltx_para ltx_noindent">
+<span id="A2.SS2.p3.pic1.p11.1" class="ltx_p">    },</span>
+</span></span></span></span>
+<span id="A2.SS2.p3.pic1.2.12" class="ltx_p ltx_align_left" style="width:381.0pt;"><span id="A2.SS2.p3.pic1.2.12.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:381.0pt;--ltx-fg-color:#000000;"><span id="A2.SS2.p3.pic1.2.12.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:381.0pt;">
+<span id="A2.SS2.p3.pic1.p12" class="ltx_para ltx_noindent">
+<span id="A2.SS2.p3.pic1.p12.1" class="ltx_p">    {</span>
+</span></span></span></span>
+<span id="A2.SS2.p3.pic1.2.13" class="ltx_p ltx_align_left" style="width:381.0pt;"><span id="A2.SS2.p3.pic1.2.13.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:381.0pt;--ltx-fg-color:#000000;"><span id="A2.SS2.p3.pic1.2.13.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:381.0pt;">
+<span id="A2.SS2.p3.pic1.p13" class="ltx_para ltx_noindent">
+<span id="A2.SS2.p3.pic1.p13.1" class="ltx_p">      &quot;image_index&quot;: 2,</span>
+</span></span></span></span>
+<span id="A2.SS2.p3.pic1.2.14" class="ltx_p ltx_align_left" style="width:381.0pt;"><span id="A2.SS2.p3.pic1.2.14.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:381.0pt;--ltx-fg-color:#000000;"><span id="A2.SS2.p3.pic1.2.14.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:381.0pt;">
+<span id="A2.SS2.p3.pic1.p14" class="ltx_para ltx_noindent">
+<span id="A2.SS2.p3.pic1.p14.1" class="ltx_p">      &quot;scene_match&quot;: &quot;pass|partial|fail&quot;,</span>
+</span></span></span></span>
+<span id="A2.SS2.p3.pic1.2.15" class="ltx_p ltx_align_left" style="width:381.0pt;"><span id="A2.SS2.p3.pic1.2.15.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:381.0pt;--ltx-fg-color:#000000;"><span id="A2.SS2.p3.pic1.2.15.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:381.0pt;">
+<span id="A2.SS2.p3.pic1.p15" class="ltx_para ltx_noindent">
+<span id="A2.SS2.p3.pic1.p15.1" class="ltx_p">      &quot;text_layout&quot;: &quot;readable|borderline|too_dense|too_sparse&quot;,</span>
+</span></span></span></span>
+<span id="A2.SS2.p3.pic1.2.16" class="ltx_p ltx_align_left" style="width:381.0pt;"><span id="A2.SS2.p3.pic1.2.16.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:381.0pt;--ltx-fg-color:#000000;"><span id="A2.SS2.p3.pic1.2.16.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:381.0pt;">
+<span id="A2.SS2.p3.pic1.p16" class="ltx_para ltx_noindent">
+<span id="A2.SS2.p3.pic1.p16.1" class="ltx_p">      &quot;visual_integrity&quot;: &quot;pass|minor_issue|fail&quot;,</span>
+</span></span></span></span>
+<span id="A2.SS2.p3.pic1.2.17" class="ltx_p ltx_align_left" style="width:381.0pt;"><span id="A2.SS2.p3.pic1.2.17.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:381.0pt;--ltx-fg-color:#000000;"><span id="A2.SS2.p3.pic1.2.17.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:381.0pt;">
+<span id="A2.SS2.p3.pic1.p17" class="ltx_para ltx_noindent">
+<span id="A2.SS2.p3.pic1.p17.1" class="ltx_p">      &quot;notes&quot;: &quot;[IMAGE-GROUNDED EVIDENCE]&quot;</span>
+</span></span></span></span>
+<span id="A2.SS2.p3.pic1.2.18" class="ltx_p ltx_align_left" style="width:381.0pt;"><span id="A2.SS2.p3.pic1.2.18.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:381.0pt;--ltx-fg-color:#000000;"><span id="A2.SS2.p3.pic1.2.18.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:381.0pt;">
+<span id="A2.SS2.p3.pic1.p18" class="ltx_para ltx_noindent">
+<span id="A2.SS2.p3.pic1.p18.1" class="ltx_p">    },</span>
+</span></span></span></span>
+<span id="A2.SS2.p3.pic1.2.19" class="ltx_p ltx_align_left" style="width:381.0pt;"><span id="A2.SS2.p3.pic1.2.19.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:381.0pt;--ltx-fg-color:#000000;"><span id="A2.SS2.p3.pic1.2.19.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:381.0pt;">
+<span id="A2.SS2.p3.pic1.p19" class="ltx_para ltx_noindent">
+<span id="A2.SS2.p3.pic1.p19.1" class="ltx_p">    {</span>
+</span></span></span></span>
+<span id="A2.SS2.p3.pic1.2.20" class="ltx_p ltx_align_left" style="width:381.0pt;"><span id="A2.SS2.p3.pic1.2.20.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:381.0pt;--ltx-fg-color:#000000;"><span id="A2.SS2.p3.pic1.2.20.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:381.0pt;">
+<span id="A2.SS2.p3.pic1.p20" class="ltx_para ltx_noindent">
+<span id="A2.SS2.p3.pic1.p20.1" class="ltx_p">      &quot;image_index&quot;: 3,</span>
+</span></span></span></span>
+<span id="A2.SS2.p3.pic1.2.21" class="ltx_p ltx_align_left" style="width:381.0pt;"><span id="A2.SS2.p3.pic1.2.21.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:381.0pt;--ltx-fg-color:#000000;"><span id="A2.SS2.p3.pic1.2.21.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:381.0pt;">
+<span id="A2.SS2.p3.pic1.p21" class="ltx_para ltx_noindent">
+<span id="A2.SS2.p3.pic1.p21.1" class="ltx_p">      &quot;scene_match&quot;: &quot;pass|partial|fail&quot;,</span>
+</span></span></span></span>
+<span id="A2.SS2.p3.pic1.2.22" class="ltx_p ltx_align_left" style="width:381.0pt;"><span id="A2.SS2.p3.pic1.2.22.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:381.0pt;--ltx-fg-color:#000000;"><span id="A2.SS2.p3.pic1.2.22.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:381.0pt;">
+<span id="A2.SS2.p3.pic1.p22" class="ltx_para ltx_noindent">
+<span id="A2.SS2.p3.pic1.p22.1" class="ltx_p">      &quot;text_layout&quot;: &quot;readable|borderline|too_dense|too_sparse&quot;,</span>
+</span></span></span></span>
+<span id="A2.SS2.p3.pic1.2.23" class="ltx_p ltx_align_left" style="width:381.0pt;"><span id="A2.SS2.p3.pic1.2.23.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:381.0pt;--ltx-fg-color:#000000;"><span id="A2.SS2.p3.pic1.2.23.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:381.0pt;">
+<span id="A2.SS2.p3.pic1.p23" class="ltx_para ltx_noindent">
+<span id="A2.SS2.p3.pic1.p23.1" class="ltx_p">      &quot;visual_integrity&quot;: &quot;pass|minor_issue|fail&quot;,</span>
+</span></span></span></span>
+<span id="A2.SS2.p3.pic1.2.24" class="ltx_p ltx_align_left" style="width:381.0pt;"><span id="A2.SS2.p3.pic1.2.24.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:381.0pt;--ltx-fg-color:#000000;"><span id="A2.SS2.p3.pic1.2.24.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:381.0pt;">
+<span id="A2.SS2.p3.pic1.p24" class="ltx_para ltx_noindent">
+<span id="A2.SS2.p3.pic1.p24.1" class="ltx_p">      &quot;notes&quot;: &quot;[IMAGE-GROUNDED EVIDENCE]&quot;</span>
+</span></span></span></span>
+<span id="A2.SS2.p3.pic1.2.25" class="ltx_p ltx_align_left" style="width:381.0pt;"><span id="A2.SS2.p3.pic1.2.25.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:381.0pt;--ltx-fg-color:#000000;"><span id="A2.SS2.p3.pic1.2.25.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:381.0pt;">
+<span id="A2.SS2.p3.pic1.p25" class="ltx_para ltx_noindent">
+<span id="A2.SS2.p3.pic1.p25.1" class="ltx_p">    }</span>
+</span></span></span></span>
+<span id="A2.SS2.p3.pic1.2.26" class="ltx_p ltx_align_left" style="width:381.0pt;"><span id="A2.SS2.p3.pic1.2.26.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:381.0pt;--ltx-fg-color:#000000;"><span id="A2.SS2.p3.pic1.2.26.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:381.0pt;">
+<span id="A2.SS2.p3.pic1.p26" class="ltx_para ltx_noindent">
+<span id="A2.SS2.p3.pic1.p26.1" class="ltx_p">  ],</span>
+</span></span></span></span>
+<span id="A2.SS2.p3.pic1.2.27" class="ltx_p ltx_align_left" style="width:381.0pt;"><span id="A2.SS2.p3.pic1.2.27.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:381.0pt;--ltx-fg-color:#000000;"><span id="A2.SS2.p3.pic1.2.27.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:381.0pt;">
+<span id="A2.SS2.p3.pic1.p27" class="ltx_para ltx_noindent">
+<span id="A2.SS2.p3.pic1.p27.1" class="ltx_p">  &quot;repeated_issue_attributable_to_prompt&quot;: false,</span>
+</span></span></span></span>
+<span id="A2.SS2.p3.pic1.2.28" class="ltx_p ltx_align_left" style="width:381.0pt;"><span id="A2.SS2.p3.pic1.2.28.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:381.0pt;--ltx-fg-color:#000000;"><span id="A2.SS2.p3.pic1.2.28.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:381.0pt;">
+<span id="A2.SS2.p3.pic1.p28" class="ltx_para ltx_noindent">
+<span id="A2.SS2.p3.pic1.p28.1" class="ltx_p">  &quot;verdict&quot;: &quot;pass|revise&quot;,</span>
+</span></span></span></span>
+<span id="A2.SS2.p3.pic1.2.29" class="ltx_p ltx_align_left" style="width:381.0pt;"><span id="A2.SS2.p3.pic1.2.29.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:381.0pt;--ltx-fg-color:#000000;"><span id="A2.SS2.p3.pic1.2.29.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:381.0pt;">
+<span id="A2.SS2.p3.pic1.p29" class="ltx_para ltx_noindent">
+<span id="A2.SS2.p3.pic1.p29.1" class="ltx_p">  &quot;issue_types&quot;: [],</span>
+</span></span></span></span>
+<span id="A2.SS2.p3.pic1.2.30" class="ltx_p ltx_align_left" style="width:381.0pt;"><span id="A2.SS2.p3.pic1.2.30.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:381.0pt;--ltx-fg-color:#000000;"><span id="A2.SS2.p3.pic1.2.30.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:381.0pt;">
+<span id="A2.SS2.p3.pic1.p30" class="ltx_para ltx_noindent">
+<span id="A2.SS2.p3.pic1.p30.1" class="ltx_p">  &quot;cross_image_evidence&quot;: &quot;[REPEATED EVIDENCE, OR EMPTY]&quot;,</span>
+</span></span></span></span>
+<span id="A2.SS2.p3.pic1.2.31" class="ltx_p ltx_align_left" style="width:381.0pt;"><span id="A2.SS2.p3.pic1.2.31.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:381.0pt;--ltx-fg-color:#000000;"><span id="A2.SS2.p3.pic1.2.31.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:381.0pt;">
+<span id="A2.SS2.p3.pic1.p31" class="ltx_para ltx_noindent">
+<span id="A2.SS2.p3.pic1.p31.1" class="ltx_p">  &quot;revision_summary&quot;: &quot;[CHANGES AND RATIONALE, OR EMPTY]&quot;,</span>
+</span></span></span></span>
+<span id="A2.SS2.p3.pic1.2.32" class="ltx_p ltx_align_left" style="width:381.0pt;"><span id="A2.SS2.p3.pic1.2.32.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:381.0pt;--ltx-fg-color:#000000;"><span id="A2.SS2.p3.pic1.2.32.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:381.0pt;">
+<span id="A2.SS2.p3.pic1.p32" class="ltx_para ltx_noindent">
+<span id="A2.SS2.p3.pic1.p32.1" class="ltx_p">  &quot;revised_prompt_en&quot;: &quot;[COMPLETE REPLACEMENT PROMPT, OR EMPTY]&quot;</span>
+</span></span></span></span>
+<span id="A2.SS2.p3.pic1.2.33" class="ltx_p ltx_align_left" style="width:381.0pt;"><span id="A2.SS2.p3.pic1.2.33.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:381.0pt;--ltx-fg-color:#000000;"><span id="A2.SS2.p3.pic1.2.33.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:381.0pt;">
+<span id="A2.SS2.p3.pic1.p33" class="ltx_para ltx_noindent">
+<span id="A2.SS2.p3.pic1.p33.1" class="ltx_p">}</span>
+</span></span></span></span>
+<span id="A2.SS2.p3.pic1.2.34" class="ltx_p ltx_align_left" style="width:381.0pt;"><span id="A2.SS2.p3.pic1.2.34.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:381.0pt;--ltx-fg-color:#000000;"><span id="A2.SS2.p3.pic1.2.34.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:381.0pt;"></span></span></span>
+<span id="A2.SS2.p3.pic1.2.35" class="ltx_p ltx_align_left" style="width:381.0pt;"><span id="A2.SS2.p3.pic1.2.35.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:381.0pt;--ltx-fg-color:#000000;"><span id="A2.SS2.p3.pic1.2.35.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:381.0pt;">
+<span id="A2.SS2.p3.pic1.p35" class="ltx_para ltx_noindent">
+<span id="A2.SS2.p3.pic1.p35.1" class="ltx_p">Allowed issue_types (zero or more):</span>
+</span></span></span></span>
+<span id="A2.SS2.p3.pic1.2.36" class="ltx_p ltx_align_left" style="width:381.0pt;"><span id="A2.SS2.p3.pic1.2.36.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:381.0pt;--ltx-fg-color:#000000;"><span id="A2.SS2.p3.pic1.2.36.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:381.0pt;">
+<span id="A2.SS2.p3.pic1.p36" class="ltx_para ltx_noindent">
+<span id="A2.SS2.p3.pic1.p36.1" class="ltx_p">scene_mismatch, carrier_missing, carrier_too_small,</span>
+</span></span></span></span>
+<span id="A2.SS2.p3.pic1.2.37" class="ltx_p ltx_align_left" style="width:381.0pt;"><span id="A2.SS2.p3.pic1.2.37.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:381.0pt;--ltx-fg-color:#000000;"><span id="A2.SS2.p3.pic1.2.37.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:381.0pt;">
+<span id="A2.SS2.p3.pic1.p37" class="ltx_para ltx_noindent">
+<span id="A2.SS2.p3.pic1.p37.1" class="ltx_p">text_too_sparse, text_too_dense, weak_text_hierarchy,</span>
+</span></span></span></span>
+<span id="A2.SS2.p3.pic1.2.38" class="ltx_p ltx_align_left" style="width:381.0pt;"><span id="A2.SS2.p3.pic1.2.38.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:381.0pt;--ltx-fg-color:#000000;"><span id="A2.SS2.p3.pic1.2.38.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:381.0pt;">
+<span id="A2.SS2.p3.pic1.p38" class="ltx_para ltx_noindent">
+<span id="A2.SS2.p3.pic1.p38.1" class="ltx_p">text_detached_from_action, carrier_conflict,</span>
+</span></span></span></span>
+<span id="A2.SS2.p3.pic1.2.39" class="ltx_p ltx_align_left" style="width:381.0pt;"><span id="A2.SS2.p3.pic1.2.39.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:381.0pt;--ltx-fg-color:#000000;"><span id="A2.SS2.p3.pic1.2.39.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:381.0pt;">
+<span id="A2.SS2.p3.pic1.p39" class="ltx_para ltx_noindent">
+<span id="A2.SS2.p3.pic1.p39.1" class="ltx_p">composition_overcrowded, prompt_contradiction,</span>
+</span></span></span></span>
+<span id="A2.SS2.p3.pic1.2.40" class="ltx_p ltx_align_left" style="width:381.0pt;"><span id="A2.SS2.p3.pic1.2.40.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:381.0pt;--ltx-fg-color:#000000;"><span id="A2.SS2.p3.pic1.2.40.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:381.0pt;">
+<span id="A2.SS2.p3.pic1.p40" class="ltx_para ltx_noindent">
+<span id="A2.SS2.p3.pic1.p40.1" class="ltx_p">repeated_visual_corruption, other_prompt_structure.</span>
+</span></span></span></span>
+</span></span></span></foreignobject></g></g></svg>
