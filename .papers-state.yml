@@ -3,9 +3,4 @@ backfill:
     continuation: null
     covered_from: '1991-08-01T00:00:00Z'
 continuations: {}
-failures:
-  arxiv:2409.01309:
-  - error: 'conversion timed out after 1800s: marker_single'
-    occurred_at: '2026-10-02T10:53:42.574293Z'
-  - error: 'conversion timed out after 1800s: marker_single'
-    occurred_at: '2026-10-02T13:54:37.926400Z'
+failures: {}
