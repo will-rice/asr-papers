@@ -6,10 +6,11 @@ Standalone paper discovery and conversion for A curated, automatically-updated c
 
 # Papers
 
-The 30 most recent of 5752 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
+The 30 most recent of 5753 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
 
 | Published                 | Identifier         | Title                                                                                                                                                                     | Source |
 | ------------------------- | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
+| 2026-10-02T08:52:00+00:00 | arxiv:2610.03017v1 | [Personalized Automatic Speech Recognition for a Dysarthric and Tracheostomic Speaker using Artificial Conversations](papers/arxiv-2610-03017v1--b6fe05d1ae07.md)         | arxiv  |
 | 2026-10-01T11:40:03+00:00 | arxiv:2610.01499v1 | [VTR-Bench: A Systematic Benchmark for Evaluating Visual Text Rendering in Video Generation](papers/arxiv-2610-01499v1--2ab1c3d915e3.md)                                  | arxiv  |
 | 2026-10-01T11:35:01+00:00 | arxiv:2610.01492v1 | [Q-SPT: Learnable Query-Based Compression for Low-Frame-Rate Speech Tokenization](papers/arxiv-2610-01492v1--02503e733833.md)                                             | arxiv  |
 | 2026-09-30T17:59:52+00:00 | arxiv:2609.40359v1 | [Removing Timing Shortcuts Improves Non-Invasive Brain-to-Text](papers/arxiv-2609-40359v1--6dd203ad8bc1.md)                                                               | arxiv  |
@@ -39,7 +40,6 @@ The 30 most recent of 5752 papers. Every paper is listed in [papers.csv](papers.
 | 2026-09-24T23:58:23+00:00 | arxiv:2609.31787v1 | [Optimal transport meets speech: a tutorial review](papers/arxiv-2609-31787v1--144802f89635.md)                                                                           | arxiv  |
 | 2026-09-24T19:16:16+00:00 | arxiv:2609.30476v1 | [Asymmetric Classifier-Free Guidance for Target-Speaker ASR](papers/arxiv-2609-30476v1--6b6fa353d264.md)                                                                  | arxiv  |
 | 2026-09-24T18:33:58+00:00 | arxiv:2609.30439v1 | [Inference-Time Target Speaker Unlearning in LLM-Based Automatic Speech Recognition](papers/arxiv-2609-30439v1--f05e50cb7802.md)                                          | arxiv  |
-| 2026-09-24T13:37:22+00:00 | arxiv:2609.29800v1 | [Adaptive Fisher-Whitened Cross-Covariance for Low-Resource Speech Recognition](papers/arxiv-2609-29800v1--508aff5782d7.md)                                               | arxiv  |
 
 <!-- papers-index:end -->
 
