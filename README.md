@@ -10,7 +10,7 @@ The 30 most recent of 5756 papers. Every paper is listed in [papers.csv](papers.
 
 | Published                 | Identifier         | Title                                                                                                                                                                     | Source |
 | ------------------------- | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
-| 2026-10-05T01:49:45+00:00 | arxiv:2610.05681v1 | [Automatic Speech Recognition for Low-Resource Sinhala: A Critical Review of Methods, Challenges, and Future Directions](https://arxiv.org/abs/2610.05681v1)              | arxiv  |
+| 2026-10-05T01:49:45+00:00 | arxiv:2610.05681v1 | [Automatic Speech Recognition for Low-Resource Sinhala: A Critical Review of Methods, Challenges, and Future Directions](papers/arxiv-2610-05681v1--83b53a487561.md)      | arxiv  |
 | 2026-10-04T12:04:31+00:00 | arxiv:2610.05155v1 | [UltraM2M: Leveraging Text Transcripts and Mixture Constraints for Weakly-Supervised Speech Enhancement](papers/arxiv-2610-05155v1--00130da5a8cf.md)                      | arxiv  |
 | 2026-10-03T18:05:45+00:00 | arxiv:2610.04690v1 | [SepRQ : Self-Supervised Speech Mixture Representation Learning via Mask-Free, Multi-Scale Source Separation](papers/arxiv-2610-04690v1--9c20014bde87.md)                 | arxiv  |
 | 2026-10-02T08:52:00+00:00 | arxiv:2610.03017v1 | [Personalized Automatic Speech Recognition for a Dysarthric and Tracheostomic Speaker using Artificial Conversations](papers/arxiv-2610-03017v1--b6fe05d1ae07.md)         | arxiv  |
