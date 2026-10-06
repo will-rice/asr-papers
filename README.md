@@ -6,10 +6,13 @@ Standalone paper discovery and conversion for A curated, automatically-updated c
 
 # Papers
 
-The 30 most recent of 5753 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
+The 30 most recent of 5756 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
 
 | Published                 | Identifier         | Title                                                                                                                                                                     | Source |
 | ------------------------- | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
+| 2026-10-05T01:49:45+00:00 | arxiv:2610.05681v1 | [Automatic Speech Recognition for Low-Resource Sinhala: A Critical Review of Methods, Challenges, and Future Directions](https://arxiv.org/abs/2610.05681v1)              | arxiv  |
+| 2026-10-04T12:04:31+00:00 | arxiv:2610.05155v1 | [UltraM2M: Leveraging Text Transcripts and Mixture Constraints for Weakly-Supervised Speech Enhancement](papers/arxiv-2610-05155v1--00130da5a8cf.md)                      | arxiv  |
+| 2026-10-03T18:05:45+00:00 | arxiv:2610.04690v1 | [SepRQ : Self-Supervised Speech Mixture Representation Learning via Mask-Free, Multi-Scale Source Separation](papers/arxiv-2610-04690v1--9c20014bde87.md)                 | arxiv  |
 | 2026-10-02T08:52:00+00:00 | arxiv:2610.03017v1 | [Personalized Automatic Speech Recognition for a Dysarthric and Tracheostomic Speaker using Artificial Conversations](papers/arxiv-2610-03017v1--b6fe05d1ae07.md)         | arxiv  |
 | 2026-10-01T11:40:03+00:00 | arxiv:2610.01499v1 | [VTR-Bench: A Systematic Benchmark for Evaluating Visual Text Rendering in Video Generation](papers/arxiv-2610-01499v1--2ab1c3d915e3.md)                                  | arxiv  |
 | 2026-10-01T11:35:01+00:00 | arxiv:2610.01492v1 | [Q-SPT: Learnable Query-Based Compression for Low-Frame-Rate Speech Tokenization](papers/arxiv-2610-01492v1--02503e733833.md)                                             | arxiv  |
@@ -37,9 +40,6 @@ The 30 most recent of 5753 papers. Every paper is listed in [papers.csv](papers.
 | 2026-09-25T04:06:01+00:00 | arxiv:2609.30784v1 | [Symbiotic Architecture for Post-Hoc Audio Extension of Frozen Language Models](papers/arxiv-2609-30784v1--370274e53c5e.md)                                               | arxiv  |
 | 2026-09-25T02:00:44+00:00 | arxiv:2609.30694v1 | [Training-Free Contextual ASR via SpeechLLM-Based Error-Aware Selective Retrieval](papers/arxiv-2609-30694v1--9ade1192a7a2.md)                                            | arxiv  |
 | 2026-09-25T01:57:42+00:00 | arxiv:2609.30692v1 | [LUMO (Lightweight Unified Multilingual Orchestrator): A Privacy Preserving Offline Voice Assistant](papers/arxiv-2609-30692v1--61ffdb703ece.md)                          | arxiv  |
-| 2026-09-24T23:58:23+00:00 | arxiv:2609.31787v1 | [Optimal transport meets speech: a tutorial review](papers/arxiv-2609-31787v1--144802f89635.md)                                                                           | arxiv  |
-| 2026-09-24T19:16:16+00:00 | arxiv:2609.30476v1 | [Asymmetric Classifier-Free Guidance for Target-Speaker ASR](papers/arxiv-2609-30476v1--6b6fa353d264.md)                                                                  | arxiv  |
-| 2026-09-24T18:33:58+00:00 | arxiv:2609.30439v1 | [Inference-Time Target Speaker Unlearning in LLM-Based Automatic Speech Recognition](papers/arxiv-2609-30439v1--f05e50cb7802.md)                                          | arxiv  |
 
 <!-- papers-index:end -->
 
