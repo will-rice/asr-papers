@@ -6,11 +6,17 @@ Standalone paper discovery and conversion for A curated, automatically-updated c
 
 # Papers
 
-The 30 most recent of 5756 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
+The 30 most recent of 5762 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
 
 | Published                 | Identifier         | Title                                                                                                                                                                     | Source |
 | ------------------------- | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
+| 2026-10-06T10:16:49+00:00 | arxiv:2610.08085v1 | [DirectSpeech2LLM: A Simple End-to-End Framework to Mitigate Prompt Overfitting in Speech-LLMs](papers/arxiv-2610-08085v1--8e6d610bcd0b.md)                               | arxiv  |
+| 2026-10-06T07:52:37+00:00 | arxiv:2610.07906v1 | [Isotropic Yet Undecodable: The Sequential Content-Sufficiency Gap in Latent-Predictive Text Representations](papers/arxiv-2610-07906v1--0f3c26b6933a.md)                 | arxiv  |
+| 2026-10-06T02:36:18+00:00 | arxiv:2610.07641v1 | [Hiding Tool Latency in On-Device Cascaded Voice Agent through Speculative Execution](papers/arxiv-2610-07641v1--3350a0dab2fb.md)                                         | arxiv  |
+| 2026-10-05T16:02:45+00:00 | arxiv:2610.06587v1 | [Mind the Accent Gap: British Accent Robustness in Speech-Driven Financial Voice Assistants](papers/arxiv-2610-06587v1--cb3df6858346.md)                                  | arxiv  |
+| 2026-10-05T14:43:05+00:00 | arxiv:2610.06433v1 | [Lyric: Wave-Domain Computing for Efficient Spoken-Digit Recognition](papers/arxiv-2610-06433v1--33e2180c7edb.md)                                                         | arxiv  |
 | 2026-10-05T01:49:45+00:00 | arxiv:2610.05681v1 | [Automatic Speech Recognition for Low-Resource Sinhala: A Critical Review of Methods, Challenges, and Future Directions](papers/arxiv-2610-05681v1--83b53a487561.md)      | arxiv  |
+| 2026-10-04T17:16:45+00:00 | arxiv:2610.07026v1 | [Offline AI Modules: Voice-First Offline Architecture, Hardware Reference Stack, Quantization and Benchmarking](papers/arxiv-2610-07026v1--9935bdf4c267.md)               | arxiv  |
 | 2026-10-04T12:04:31+00:00 | arxiv:2610.05155v1 | [UltraM2M: Leveraging Text Transcripts and Mixture Constraints for Weakly-Supervised Speech Enhancement](papers/arxiv-2610-05155v1--00130da5a8cf.md)                      | arxiv  |
 | 2026-10-03T18:05:45+00:00 | arxiv:2610.04690v1 | [SepRQ : Self-Supervised Speech Mixture Representation Learning via Mask-Free, Multi-Scale Source Separation](papers/arxiv-2610-04690v1--9c20014bde87.md)                 | arxiv  |
 | 2026-10-02T08:52:00+00:00 | arxiv:2610.03017v1 | [Personalized Automatic Speech Recognition for a Dysarthric and Tracheostomic Speaker using Artificial Conversations](papers/arxiv-2610-03017v1--b6fe05d1ae07.md)         | arxiv  |
@@ -34,12 +40,6 @@ The 30 most recent of 5756 papers. Every paper is listed in [papers.csv](papers.
 | 2026-09-26T09:29:57+00:00 | arxiv:2609.32408v1 | [Automatic Speech Recognition for the Basaà Language: A Low-Resource Approach](papers/arxiv-2609-32408v1--5057d89784e0.md)                                                | arxiv  |
 | 2026-09-25T20:06:39+00:00 | arxiv:2609.31961v1 | [Improving Audiovisual Speech Recognition through Synthetic Visual Data Augmentation](papers/arxiv-2609-31961v1--53641caf9aee.md)                                         | arxiv  |
 | 2026-09-25T18:28:40+00:00 | arxiv:2609.31892v1 | [NVAlign: Direct-Gradient Optimization for Non-Verbal Control in Continuous Autoregressive Flow Matching Text-to-Speech](papers/arxiv-2609-31892v1--747a3536a322.md)      | arxiv  |
-| 2026-09-25T09:33:19+00:00 | arxiv:2609.31041v1 | [Room Impulse Response Embeddings for Speech Enhancement in Noisy and Reverberant Environments](papers/arxiv-2609-31041v1--27353434ab4f.md)                               | arxiv  |
-| 2026-09-25T07:38:49+00:00 | arxiv:2609.30924v1 | [Training-Free Pronunciation Transcription via Text-Constrained Acoustic Rescoring](papers/arxiv-2609-30924v1--62fba85faa5a.md)                                           | arxiv  |
-| 2026-09-25T05:34:46+00:00 | arxiv:2609.30839v1 | [Attention-Based Adaptive Policies for Simultaneous Speech-to-Text Translation](papers/arxiv-2609-30839v1--1af8d4f03da6.md)                                               | arxiv  |
-| 2026-09-25T04:06:01+00:00 | arxiv:2609.30784v1 | [Symbiotic Architecture for Post-Hoc Audio Extension of Frozen Language Models](papers/arxiv-2609-30784v1--370274e53c5e.md)                                               | arxiv  |
-| 2026-09-25T02:00:44+00:00 | arxiv:2609.30694v1 | [Training-Free Contextual ASR via SpeechLLM-Based Error-Aware Selective Retrieval](papers/arxiv-2609-30694v1--9ade1192a7a2.md)                                            | arxiv  |
-| 2026-09-25T01:57:42+00:00 | arxiv:2609.30692v1 | [LUMO (Lightweight Unified Multilingual Orchestrator): A Privacy Preserving Offline Voice Assistant](papers/arxiv-2609-30692v1--61ffdb703ece.md)                          | arxiv  |
 
 <!-- papers-index:end -->
 
