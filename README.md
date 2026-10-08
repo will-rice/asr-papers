@@ -6,10 +6,13 @@ Standalone paper discovery and conversion for A curated, automatically-updated c
 
 # Papers
 
-The 30 most recent of 5762 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
+The 30 most recent of 5766 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
 
 | Published                 | Identifier         | Title                                                                                                                                                                     | Source |
 | ------------------------- | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
+| 2026-10-07T17:19:46+00:00 | arxiv:2610.10448v1 | [MemoCare: An Interactive Multimodal Mobile System for Automated Cognitive Screening](papers/arxiv-2610-10448v1--de8a3f28d975.md)                                         | arxiv  |
+| 2026-10-06T21:01:05+00:00 | arxiv:2610.09109v1 | [Breaking Adversarial Transferability in Fine-Tuned Speech Recognition](papers/arxiv-2610-09109v1--d906b8caf1cc.md)                                                       | arxiv  |
+| 2026-10-06T18:52:05+00:00 | arxiv:2610.08994v1 | [Phoneme-Guided Initialization for LLM-based Speech Recognition](papers/arxiv-2610-08994v1--64c94ca525c0.md)                                                              | arxiv  |
 | 2026-10-06T10:16:49+00:00 | arxiv:2610.08085v1 | [DirectSpeech2LLM: A Simple End-to-End Framework to Mitigate Prompt Overfitting in Speech-LLMs](papers/arxiv-2610-08085v1--8e6d610bcd0b.md)                               | arxiv  |
 | 2026-10-06T07:52:37+00:00 | arxiv:2610.07906v1 | [Isotropic Yet Undecodable: The Sequential Content-Sufficiency Gap in Latent-Predictive Text Representations](papers/arxiv-2610-07906v1--0f3c26b6933a.md)                 | arxiv  |
 | 2026-10-06T02:36:18+00:00 | arxiv:2610.07641v1 | [Hiding Tool Latency in On-Device Cascaded Voice Agent through Speculative Execution](papers/arxiv-2610-07641v1--3350a0dab2fb.md)                                         | arxiv  |
@@ -20,6 +23,7 @@ The 30 most recent of 5762 papers. Every paper is listed in [papers.csv](papers.
 | 2026-10-04T12:04:31+00:00 | arxiv:2610.05155v1 | [UltraM2M: Leveraging Text Transcripts and Mixture Constraints for Weakly-Supervised Speech Enhancement](papers/arxiv-2610-05155v1--00130da5a8cf.md)                      | arxiv  |
 | 2026-10-03T18:05:45+00:00 | arxiv:2610.04690v1 | [SepRQ : Self-Supervised Speech Mixture Representation Learning via Mask-Free, Multi-Scale Source Separation](papers/arxiv-2610-04690v1--9c20014bde87.md)                 | arxiv  |
 | 2026-10-02T08:52:00+00:00 | arxiv:2610.03017v1 | [Personalized Automatic Speech Recognition for a Dysarthric and Tracheostomic Speaker using Artificial Conversations](papers/arxiv-2610-03017v1--b6fe05d1ae07.md)         | arxiv  |
+| 2026-10-01T12:58:41+00:00 | arxiv:2610.08847v1 | [Timestamped Hindi speech transcription using Whisper](papers/arxiv-2610-08847v1--3cc5820a07d3.md)                                                                        | arxiv  |
 | 2026-10-01T11:40:03+00:00 | arxiv:2610.01499v1 | [VTR-Bench: A Systematic Benchmark for Evaluating Visual Text Rendering in Video Generation](papers/arxiv-2610-01499v1--2ab1c3d915e3.md)                                  | arxiv  |
 | 2026-10-01T11:35:01+00:00 | arxiv:2610.01492v1 | [Q-SPT: Learnable Query-Based Compression for Low-Frame-Rate Speech Tokenization](papers/arxiv-2610-01492v1--02503e733833.md)                                             | arxiv  |
 | 2026-09-30T17:59:52+00:00 | arxiv:2609.40359v1 | [Removing Timing Shortcuts Improves Non-Invasive Brain-to-Text](papers/arxiv-2609-40359v1--6dd203ad8bc1.md)                                                               | arxiv  |
@@ -36,10 +40,6 @@ The 30 most recent of 5762 papers. Every paper is listed in [papers.csv](papers.
 | 2026-09-27T15:13:14+00:00 | arxiv:2609.33650v1 | [FuseAlign: Forced Alignment in the Wild](papers/arxiv-2609-33650v1--4b824fc00847.md)                                                                                     | arxiv  |
 | 2026-09-27T15:10:59+00:00 | arxiv:2609.33645v1 | [Pruned CTC for Memory-Efficient Large-Vocabulary ASR Training](papers/arxiv-2609-33645v1--6f7f7570b9f8.md)                                                               | arxiv  |
 | 2026-09-27T05:36:33+00:00 | arxiv:2609.33245v1 | [Acoustic Progress Propagation for Long-Horizon Speculative Decoding in ASR](papers/arxiv-2609-33245v1--7e0020cea49d.md)                                                  | arxiv  |
-| 2026-09-26T18:54:10+00:00 | arxiv:2609.32869v1 | [Whisper-Flash: Acoustically Conditioned Parallel Drafting for Faster Whisper Decoding](papers/arxiv-2609-32869v1--ef8b882d6f11.md)                                       | arxiv  |
-| 2026-09-26T09:29:57+00:00 | arxiv:2609.32408v1 | [Automatic Speech Recognition for the Basaà Language: A Low-Resource Approach](papers/arxiv-2609-32408v1--5057d89784e0.md)                                                | arxiv  |
-| 2026-09-25T20:06:39+00:00 | arxiv:2609.31961v1 | [Improving Audiovisual Speech Recognition through Synthetic Visual Data Augmentation](papers/arxiv-2609-31961v1--53641caf9aee.md)                                         | arxiv  |
-| 2026-09-25T18:28:40+00:00 | arxiv:2609.31892v1 | [NVAlign: Direct-Gradient Optimization for Non-Verbal Control in Continuous Autoregressive Flow Matching Text-to-Speech](papers/arxiv-2609-31892v1--747a3536a322.md)      | arxiv  |
 
 <!-- papers-index:end -->
 
