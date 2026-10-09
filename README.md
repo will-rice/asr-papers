@@ -6,10 +6,15 @@ Standalone paper discovery and conversion for A curated, automatically-updated c
 
 # Papers
 
-The 30 most recent of 5766 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
+The 30 most recent of 5771 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
 
 | Published                 | Identifier         | Title                                                                                                                                                                     | Source |
 | ------------------------- | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
+| 2026-10-08T10:20:43+00:00 | arxiv:2610.11646v1 | [Phonologically Informed Tokenization for German Speech Recognition: A Cross-Domain Study](papers/arxiv-2610-11646v1--cfe5d07ffac0.md)                                    | arxiv  |
+| 2026-10-08T09:12:02+00:00 | arxiv:2610.11544v1 | [Prosody-to-Text: Predicting text from low-pass filtered speech](papers/arxiv-2610-11544v1--5a3086a10001.md)                                                              | arxiv  |
+| 2026-10-08T08:53:41+00:00 | arxiv:2610.11520v1 | [When Can You Prune Your Network? A Study of Intermediate Neurons in Multilingual Speech Parsing](papers/arxiv-2610-11520v1--4c0041127eb3.md)                             | arxiv  |
+| 2026-10-08T04:00:47+00:00 | arxiv:2610.11196v1 | [Selective Listening: Mechanism-Guided Control of Audio Influence in Large Audio-Language Models](papers/arxiv-2610-11196v1--bffb0eb3cd78.md)                             | arxiv  |
+| 2026-10-08T03:19:49+00:00 | arxiv:2610.11159v1 | [Local Prototype Reconstruction for Text-Compatible Speech-to-LLM Bridge Pretraining](papers/arxiv-2610-11159v1--ea4f2e754bd7.md)                                         | arxiv  |
 | 2026-10-07T17:19:46+00:00 | arxiv:2610.10448v1 | [MemoCare: An Interactive Multimodal Mobile System for Automated Cognitive Screening](papers/arxiv-2610-10448v1--de8a3f28d975.md)                                         | arxiv  |
 | 2026-10-06T21:01:05+00:00 | arxiv:2610.09109v1 | [Breaking Adversarial Transferability in Fine-Tuned Speech Recognition](papers/arxiv-2610-09109v1--d906b8caf1cc.md)                                                       | arxiv  |
 | 2026-10-06T18:52:05+00:00 | arxiv:2610.08994v1 | [Phoneme-Guided Initialization for LLM-based Speech Recognition](papers/arxiv-2610-08994v1--64c94ca525c0.md)                                                              | arxiv  |
@@ -35,11 +40,6 @@ The 30 most recent of 5766 papers. Every paper is listed in [papers.csv](papers.
 | 2026-09-29T07:34:13+00:00 | arxiv:2609.36913v1 | [BaLEEN: Biasing with Latent Encoded Entities for Context-Aware ASR](papers/arxiv-2609-36913v1--8437b9f5c8ff.md)                                                          | arxiv  |
 | 2026-09-28T09:02:12+00:00 | arxiv:2609.34662v1 | [Unsupervised Speech Enhancement via Drifting](papers/arxiv-2609-34662v1--e9b960ccb524.md)                                                                                | arxiv  |
 | 2026-09-28T01:32:56+00:00 | arxiv:2609.34092v1 | [Evaluating Machine Unlearning in ASR](papers/arxiv-2609-34092v1--f7cb9ea9606a.md)                                                                                        | arxiv  |
-| 2026-09-27T19:34:08+00:00 | arxiv:2609.33865v1 | [In-Context Adaptation of Encoder-Decoder Models in Speech Recognition](papers/arxiv-2609-33865v1--2be365a63f53.md)                                                       | arxiv  |
-| 2026-09-27T19:12:06+00:00 | arxiv:2609.33853v1 | [Unified Target-Speaker ASR with Text and Enrollment Speech Cues](papers/arxiv-2609-33853v1--3e434691ef7a.md)                                                             | arxiv  |
-| 2026-09-27T15:13:14+00:00 | arxiv:2609.33650v1 | [FuseAlign: Forced Alignment in the Wild](papers/arxiv-2609-33650v1--4b824fc00847.md)                                                                                     | arxiv  |
-| 2026-09-27T15:10:59+00:00 | arxiv:2609.33645v1 | [Pruned CTC for Memory-Efficient Large-Vocabulary ASR Training](papers/arxiv-2609-33645v1--6f7f7570b9f8.md)                                                               | arxiv  |
-| 2026-09-27T05:36:33+00:00 | arxiv:2609.33245v1 | [Acoustic Progress Propagation for Long-Horizon Speculative Decoding in ASR](papers/arxiv-2609-33245v1--7e0020cea49d.md)                                                  | arxiv  |
 
 <!-- papers-index:end -->
 
