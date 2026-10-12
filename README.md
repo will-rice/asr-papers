@@ -6,10 +6,13 @@ Standalone paper discovery and conversion for A curated, automatically-updated c
 
 # Papers
 
-The 30 most recent of 5771 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
+The 30 most recent of 5774 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
 
 | Published                 | Identifier         | Title                                                                                                                                                                     | Source |
 | ------------------------- | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
+| 2026-10-09T12:32:09+00:00 | arxiv:2610.13506v1 | [Lossless Inference Acceleration for ASR via EAGLE-Style Speculative Decoding](papers/arxiv-2610-13506v1--559bd8490cd2.md)                                                | arxiv  |
+| 2026-10-09T11:48:37+00:00 | arxiv:2610.13447v1 | [Oído: Open-Vocabulary Speech Recognition on a $5 Microcontroller without a Neural Accelerator](papers/arxiv-2610-13447v1--ec20322eadbb.md)                               | arxiv  |
+| 2026-10-09T06:57:05+00:00 | arxiv:2610.13102v1 | [From 2.1M Hours of Raw Broadcast Audio to Finnish Speech SSL: Confidence Filtering and Architectural Analysis at Scale](papers/arxiv-2610-13102v1--8eccb39840f5.md)      | arxiv  |
 | 2026-10-08T10:20:43+00:00 | arxiv:2610.11646v1 | [Phonologically Informed Tokenization for German Speech Recognition: A Cross-Domain Study](papers/arxiv-2610-11646v1--cfe5d07ffac0.md)                                    | arxiv  |
 | 2026-10-08T09:12:02+00:00 | arxiv:2610.11544v1 | [Prosody-to-Text: Predicting text from low-pass filtered speech](papers/arxiv-2610-11544v1--5a3086a10001.md)                                                              | arxiv  |
 | 2026-10-08T08:53:41+00:00 | arxiv:2610.11520v1 | [When Can You Prune Your Network? A Study of Intermediate Neurons in Multilingual Speech Parsing](papers/arxiv-2610-11520v1--4c0041127eb3.md)                             | arxiv  |
@@ -37,9 +40,6 @@ The 30 most recent of 5771 papers. Every paper is listed in [papers.csv](papers.
 | 2026-09-30T03:28:23+00:00 | arxiv:2609.38878v1 | [Audio Token Attention Is Predictable Before the Language Model Runs](papers/arxiv-2609-38878v1--fa5d401c3cf1.md)                                                         | arxiv  |
 | 2026-09-29T17:46:50+00:00 | arxiv:2609.38106v1 | [Pruning for Efficiency, Paying in Fairness: Demographic Disparities in Pruned Speech-LLMs](papers/arxiv-2609-38106v1--4f139bdbe75f.md)                                   | arxiv  |
 | 2026-09-29T13:56:41+00:00 | arxiv:2609.37611v1 | [Selective Lookahead for Attention-Based Streaming ASR](papers/arxiv-2609-37611v1--697c9c726a14.md)                                                                       | arxiv  |
-| 2026-09-29T07:34:13+00:00 | arxiv:2609.36913v1 | [BaLEEN: Biasing with Latent Encoded Entities for Context-Aware ASR](papers/arxiv-2609-36913v1--8437b9f5c8ff.md)                                                          | arxiv  |
-| 2026-09-28T09:02:12+00:00 | arxiv:2609.34662v1 | [Unsupervised Speech Enhancement via Drifting](papers/arxiv-2609-34662v1--e9b960ccb524.md)                                                                                | arxiv  |
-| 2026-09-28T01:32:56+00:00 | arxiv:2609.34092v1 | [Evaluating Machine Unlearning in ASR](papers/arxiv-2609-34092v1--f7cb9ea9606a.md)                                                                                        | arxiv  |
 
 <!-- papers-index:end -->
 
