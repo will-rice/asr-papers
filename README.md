@@ -6,10 +6,15 @@ Standalone paper discovery and conversion for A curated, automatically-updated c
 
 # Papers
 
-The 30 most recent of 5802 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
+The 30 most recent of 5807 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
 
 | Published                 | Identifier         | Title                                                                                                                                                                                                         | Source |
 | ------------------------- | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
+| 2026-10-22T15:17:10+00:00 | arxiv:2610.31415v1 | [SyRA-CS: Synthetic-to-Real Adaptation for Code-Switched ASR with Meta-Learning](papers/arxiv-2610-31415v1--5641679ad300.md)                                                                                  | arxiv  |
+| 2026-10-22T13:55:15+00:00 | arxiv:2610.31292v1 | [Spark-Audio 1.0 Technical Report](papers/arxiv-2610-31292v1--536a42a624b2.md)                                                                                                                                | arxiv  |
+| 2026-10-22T13:35:50+00:00 | arxiv:2610.31259v1 | [A Systematic Comparison of Search Space Complexity and Efficiency for Time-Synchronous End-to-End ASR Models](papers/arxiv-2610-31259v1--cfefa686a251.md)                                                    | arxiv  |
+| 2026-10-22T07:41:21+00:00 | arxiv:2610.30860v1 | [Synthetic-to-Real Code-Switched ASR: A Spontaneous Nepali-English Podcast Benchmark](papers/arxiv-2610-30860v1--521092a6407f.md)                                                                             | arxiv  |
+| 2026-10-22T03:24:38+00:00 | arxiv:2610.30663v1 | [Group Relative Policy Optimisation Improves Multilingual Speech Recognition in Low-Resource Languages](papers/arxiv-2610-30663v1--3391c2e75d80.md)                                                           | arxiv  |
 | 2026-10-21T13:29:46+00:00 | arxiv:2610.29720v1 | [Bio-Inspired Auditory Processing: Coupling Parallel Resonate-and-Fire Dynamics with Ternary Recurrent Networks for Speech Recognition](papers/arxiv-2610-29720v1--95e0051917b0.md)                           | arxiv  |
 | 2026-10-21T09:11:30+00:00 | arxiv:2610.29455v1 | [Omnilingual-MsASR: Benchmarking Multimodal, Multilingual, Long-Form Multi-Speaker ASR of Omni Large Language Models](papers/arxiv-2610-29455v1--128748b73821.md)                                             | arxiv  |
 | 2026-10-19T13:56:33+00:00 | arxiv:2610.26431v1 | [Long-form Video-to-Text Summarization using Recursive Language Models](papers/arxiv-2610-26431v1--a88a8784c3e9.md)                                                                                           | arxiv  |
@@ -35,11 +40,6 @@ The 30 most recent of 5802 papers. Every paper is listed in [papers.csv](papers.
 | 2026-10-11T11:34:43+00:00 | arxiv:2610.15542v1 | [Apertus 1.5: From Open Text Models to Open Multimodal Reasoners](papers/arxiv-2610-15542v1--4b1aca9cd611.md)                                                                                                 | arxiv  |
 | 2026-10-11T06:05:01+00:00 | arxiv:2610.15379v1 | [LiveAnon: Improving Privacy and Utility in Streaming Speaker Anonymization with Codec Language Models](papers/arxiv-2610-15379v1--49be5a43e5ab.md)                                                           | arxiv  |
 | 2026-10-10T09:59:46+00:00 | arxiv:2610.14776v1 | [Training a Compact, Strong, and Realistic Text-to-Speech Model](papers/arxiv-2610-14776v1--44c33ddbc115.md)                                                                                                  | arxiv  |
-| 2026-10-09T21:54:52+00:00 | arxiv:2610.14349v1 | [Multimodal Co-Generation With Continuous Bitstream Diffusion](papers/arxiv-2610-14349v1--662c353c6a92.md)                                                                                                    | arxiv  |
-| 2026-10-09T20:36:45+00:00 | arxiv:2610.14309v1 | [ASSET: Adaptive Speech Segmentation via Reinforcement Learning](papers/arxiv-2610-14309v1--c0b89c53b4e3.md)                                                                                                  | arxiv  |
-| 2026-10-09T18:49:55+00:00 | arxiv:2610.14232v1 | [Speech event detector: Timestamped detection of non-verbal vocalizations and background sounds for rich speech transcription](papers/arxiv-2610-14232v1--fdf5cdde6e94.md)                                    | arxiv  |
-| 2026-10-09T12:32:09+00:00 | arxiv:2610.13506v1 | [Lossless Inference Acceleration for ASR via EAGLE-Style Speculative Decoding](papers/arxiv-2610-13506v1--559bd8490cd2.md)                                                                                    | arxiv  |
-| 2026-10-09T11:48:37+00:00 | arxiv:2610.13447v1 | [Oído: Open-Vocabulary Speech Recognition on a $5 Microcontroller without a Neural Accelerator](papers/arxiv-2610-13447v1--ec20322eadbb.md)                                                                   | arxiv  |
 
 <!-- papers-index:end -->
 
