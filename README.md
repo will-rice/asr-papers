@@ -6,10 +6,14 @@ Standalone paper discovery and conversion for A curated, automatically-updated c
 
 # Papers
 
-The 30 most recent of 5807 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
+The 30 most recent of 5811 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
 
 | Published                 | Identifier         | Title                                                                                                                                                                                                         | Source |
 | ------------------------- | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
+| 2026-10-26T01:24:54+00:00 | arxiv:2610.34688v1 | [From Speech Tokens to Stolen Voices: Attacker-Chosen-Text Speaker Impersonation via Representation Inversion](papers/arxiv-2610-34688v1--2931e0b57e4d.md)                                                    | arxiv  |
+| 2026-10-25T22:43:34+00:00 | arxiv:2610.34623v1 | [One Mean Log-Mel Vector per Phoneme: Simple and Fast Text Injection for Speech Recognition](papers/arxiv-2610-34623v1--63e5a085f37b.md)                                                                      | arxiv  |
+| 2026-10-24T16:17:15+00:00 | arxiv:2610.33765v1 | [RoleHear: Pseudo-Labeling for Semi-Supervised Role-Attributed Streaming Speech Recognition](papers/arxiv-2610-33765v1--12213832fd17.md)                                                                      | arxiv  |
+| 2026-10-23T05:32:28+00:00 | arxiv:2610.32187v1 | [Uni-Stream: A Unified Streaming Speech Language Model for Speech Synthesis and Recognition](papers/arxiv-2610-32187v1--8068ef4bec67.md)                                                                      | arxiv  |
 | 2026-10-22T15:17:10+00:00 | arxiv:2610.31415v1 | [SyRA-CS: Synthetic-to-Real Adaptation for Code-Switched ASR with Meta-Learning](papers/arxiv-2610-31415v1--5641679ad300.md)                                                                                  | arxiv  |
 | 2026-10-22T13:55:15+00:00 | arxiv:2610.31292v1 | [Spark-Audio 1.0 Technical Report](papers/arxiv-2610-31292v1--536a42a624b2.md)                                                                                                                                | arxiv  |
 | 2026-10-22T13:35:50+00:00 | arxiv:2610.31259v1 | [A Systematic Comparison of Search Space Complexity and Efficiency for Time-Synchronous End-to-End ASR Models](papers/arxiv-2610-31259v1--cfefa686a251.md)                                                    | arxiv  |
@@ -36,10 +40,6 @@ The 30 most recent of 5807 papers. Every paper is listed in [papers.csv](papers.
 | 2026-10-14T09:29:36+00:00 | arxiv:2610.19869v2 | [SEA-HELM Audio: Evaluating Multilingual ASR-LLM Pipeline Performance Across SEA-HELM Subsets](papers/arxiv-2610-19869v2--f278248f05e0.md)                                                                    | arxiv  |
 | 2026-10-14T03:13:23+00:00 | arxiv:2610.19492v1 | [Towards Efficient Simultaneous Inverse Text Normalization with Pretrained Text-to-Text Language Model and Read-Tag-Write Policy](papers/arxiv-2610-19492v1--db326dd1f4aa.md)                                 | arxiv  |
 | 2026-10-12T05:25:02+00:00 | arxiv:2610.16196v1 | [Towards Privacy-Preserving ASR: Speaker-Level Machine Unlearning](papers/arxiv-2610-16196v1--b9e68dd1e78c.md)                                                                                                | arxiv  |
-| 2026-10-11T14:49:19+00:00 | arxiv:2610.15671v1 | [Synthesizing Ultrasonic Echo Profiles from Text for Open-Vocabulary Silent Speech Recognition](papers/arxiv-2610-15671v1--f93a93eefeed.md)                                                                   | arxiv  |
-| 2026-10-11T11:34:43+00:00 | arxiv:2610.15542v1 | [Apertus 1.5: From Open Text Models to Open Multimodal Reasoners](papers/arxiv-2610-15542v1--4b1aca9cd611.md)                                                                                                 | arxiv  |
-| 2026-10-11T06:05:01+00:00 | arxiv:2610.15379v1 | [LiveAnon: Improving Privacy and Utility in Streaming Speaker Anonymization with Codec Language Models](papers/arxiv-2610-15379v1--49be5a43e5ab.md)                                                           | arxiv  |
-| 2026-10-10T09:59:46+00:00 | arxiv:2610.14776v1 | [Training a Compact, Strong, and Realistic Text-to-Speech Model](papers/arxiv-2610-14776v1--44c33ddbc115.md)                                                                                                  | arxiv  |
 
 <!-- papers-index:end -->
 
