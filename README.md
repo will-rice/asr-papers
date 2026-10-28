@@ -6,10 +6,12 @@ Standalone paper discovery and conversion for A curated, automatically-updated c
 
 # Papers
 
-The 30 most recent of 5811 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
+The 30 most recent of 5813 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
 
 | Published                 | Identifier         | Title                                                                                                                                                                                                         | Source |
 | ------------------------- | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
+| 2026-10-27T02:53:16+00:00 | arxiv:2610.36540v1 | [Frugal Handwritten Text Recognition for Sub-Saharan Civil-Status Registers: A Smartphone-to-Records Pipeline with CPU-Only Inference](papers/arxiv-2610-36540v1--8a9da7661dcf.md)                            | arxiv  |
+| 2026-10-26T17:56:22+00:00 | arxiv:2610.35846v1 | [Preserve to Expand: Source-Aware Adaptation and Model Merging for Multilingual LLM-Based ASR](papers/arxiv-2610-35846v1--a4deb40a2b0d.md)                                                                    | arxiv  |
 | 2026-10-26T01:24:54+00:00 | arxiv:2610.34688v1 | [From Speech Tokens to Stolen Voices: Attacker-Chosen-Text Speaker Impersonation via Representation Inversion](papers/arxiv-2610-34688v1--2931e0b57e4d.md)                                                    | arxiv  |
 | 2026-10-25T22:43:34+00:00 | arxiv:2610.34623v1 | [One Mean Log-Mel Vector per Phoneme: Simple and Fast Text Injection for Speech Recognition](papers/arxiv-2610-34623v1--63e5a085f37b.md)                                                                      | arxiv  |
 | 2026-10-24T16:17:15+00:00 | arxiv:2610.33765v1 | [RoleHear: Pseudo-Labeling for Semi-Supervised Role-Attributed Streaming Speech Recognition](papers/arxiv-2610-33765v1--12213832fd17.md)                                                                      | arxiv  |
@@ -38,8 +40,6 @@ The 30 most recent of 5811 papers. Every paper is listed in [papers.csv](papers.
 | 2026-10-15T07:48:03+00:00 | arxiv:2610.21440v1 | [SITAR: A Situational Distortion Metric for Automatic Speech Recognition Evaluation](papers/arxiv-2610-21440v1--d28840215f78.md)                                                                              | arxiv  |
 | 2026-10-14T19:28:20+00:00 | arxiv:2610.20844v1 | [Zero-Shot Spoken Language Understanding with SLAM-ASR: What Do Monolingual ASR-Trained Linear Projectors Enable?](papers/arxiv-2610-20844v1--64ba6bcb5388.md)                                                | arxiv  |
 | 2026-10-14T09:29:36+00:00 | arxiv:2610.19869v2 | [SEA-HELM Audio: Evaluating Multilingual ASR-LLM Pipeline Performance Across SEA-HELM Subsets](papers/arxiv-2610-19869v2--f278248f05e0.md)                                                                    | arxiv  |
-| 2026-10-14T03:13:23+00:00 | arxiv:2610.19492v1 | [Towards Efficient Simultaneous Inverse Text Normalization with Pretrained Text-to-Text Language Model and Read-Tag-Write Policy](papers/arxiv-2610-19492v1--db326dd1f4aa.md)                                 | arxiv  |
-| 2026-10-12T05:25:02+00:00 | arxiv:2610.16196v1 | [Towards Privacy-Preserving ASR: Speaker-Level Machine Unlearning](papers/arxiv-2610-16196v1--b9e68dd1e78c.md)                                                                                                | arxiv  |
 
 <!-- papers-index:end -->
 
