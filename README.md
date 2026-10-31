@@ -6,10 +6,11 @@ Standalone paper discovery and conversion for A curated, automatically-updated c
 
 # Papers
 
-The 30 most recent of 5815 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
+The 30 most recent of 5816 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
 
 | Published                 | Identifier         | Title                                                                                                                                                                                                         | Source |
 | ------------------------- | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
+| 2026-10-29T01:58:43+00:00 | arxiv:2610.39168v1 | [Reading-Level Verification of Kanji Words in Japanese Financial Speech Synthesis](papers/arxiv-2610-39168v1--7aebb511a94e.md)                                                                                | arxiv  |
 | 2026-10-28T19:30:01+00:00 | arxiv:2610.38739v1 | [Streaming Speech Recognition on a Microcontroller: a 65.7M-Parameter Transducer in 2 and 4 Bits on the ESP32-P4](papers/arxiv-2610-38739v1--fd04c74252d2.md)                                                 | arxiv  |
 | 2026-10-27T20:49:21+00:00 | arxiv:2610.37963v1 | [Self-Supervised Latent Action-Conditioned World Modeling for Time Series](papers/arxiv-2610-37963v1--f05ca149ac94.md)                                                                                        | arxiv  |
 | 2026-10-27T02:53:16+00:00 | arxiv:2610.36540v1 | [Frugal Handwritten Text Recognition for Sub-Saharan Civil-Status Registers: A Smartphone-to-Records Pipeline with CPU-Only Inference](papers/arxiv-2610-36540v1--8a9da7661dcf.md)                            | arxiv  |
@@ -39,7 +40,6 @@ The 30 most recent of 5815 papers. Every paper is listed in [papers.csv](papers.
 | 2026-10-16T13:04:21+00:00 | arxiv:2610.23409v1 | [Flash RNN-T: Memory-Efficient Joint Network and Transducer Loss Computation](papers/arxiv-2610-23409v1--c2f17b435123.md)                                                                                     | arxiv  |
 | 2026-10-16T08:26:55+00:00 | arxiv:2610.23117v1 | [Advancing Sentence-Level Dysarthric Audio-Visual Speech Recognition via Test-Time Adaptation](papers/arxiv-2610-23117v1--e85be4689ae8.md)                                                                    | arxiv  |
 | 2026-10-16T04:51:37+00:00 | arxiv:2610.22934v1 | [ASR-Style Transcript Normalization Removes Useful Pragmatic Signal for Dialogue Act Classification](papers/arxiv-2610-22934v1--356e7720ff97.md)                                                              | arxiv  |
-| 2026-10-15T07:48:03+00:00 | arxiv:2610.21440v1 | [SITAR: A Situational Distortion Metric for Automatic Speech Recognition Evaluation](papers/arxiv-2610-21440v1--d28840215f78.md)                                                                              | arxiv  |
 
 <!-- papers-index:end -->
 
