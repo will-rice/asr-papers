@@ -6,10 +6,11 @@ Standalone paper discovery and conversion for A curated, automatically-updated c
 
 # Papers
 
-The 30 most recent of 5823 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
+The 30 most recent of 5824 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
 
 | Published                 | Identifier         | Title                                                                                                                                                                               | Source |
 | ------------------------- | ------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
+| 2026-11-03T12:48:16+00:00 | arxiv:2611.04820v1 | [AI for eGovernance: Leveraging Language Technologies For Digital Inclusion](papers/arxiv-2611-04820v1--ded029cdb059.md)                                                            | arxiv  |
 | 2026-11-02T18:42:32+00:00 | arxiv:2611.03605v1 | [ufakzeka-kulak: Building and Evaluating a 31.6M-Parameter Turkish Speech Recognizer from Scratch](papers/arxiv-2611-03605v1--b773e870cfe6.md)                                      | arxiv  |
 | 2026-11-02T12:46:44+00:00 | arxiv:2611.03050v1 | [Zero-Shot Voice Cloning for Synthetic Data Augmentation in Children's ASR](papers/arxiv-2611-03050v1--ba870faf3988.md)                                                             | arxiv  |
 | 2026-11-02T10:36:22+00:00 | arxiv:2611.02903v1 | [Maswao: An automatically collected, prepared, and benchmarked dataset for the South African Sign language](papers/arxiv-2611-02903v1--28bb445954f3.md)                             | arxiv  |
@@ -39,7 +40,6 @@ The 30 most recent of 5823 papers. Every paper is listed in [papers.csv](papers.
 | 2026-10-19T09:44:36+00:00 | arxiv:2610.27002v1 | [Evaluating Tibetan Speech Recognition Across Dialects and Adaptation Regimes: A Multi-Granularity Analysis](papers/arxiv-2610-27002v1--01cf9d40ac3b.md)                            | arxiv  |
 | 2026-10-19T05:37:31+00:00 | arxiv:2610.25824v2 | [MS-Bench: A Condition-Stratified Multi-Speaker ASR Benchmark](papers/arxiv-2610-25824v2--1f8ac9629184.md)                                                                          | arxiv  |
 | 2026-10-19T05:09:28+00:00 | arxiv:2610.26986v1 | [Think Before You Transcribe: Context-Steered Reasoning for Hotword-Aware Speech Recognition](papers/arxiv-2610-26986v1--191daf6bf3f2.md)                                           | arxiv  |
-| 2026-10-19T00:05:24+00:00 | arxiv:2610.25599v1 | [Text Dominance in Paralinguistic Conflict: Tracing Suppression Through Audio LLM Circuits](papers/arxiv-2610-25599v1--266c8506d3c2.md)                                             | arxiv  |
 
 <!-- papers-index:end -->
 
