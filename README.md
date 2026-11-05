@@ -6,10 +6,12 @@ Standalone paper discovery and conversion for A curated, automatically-updated c
 
 # Papers
 
-The 30 most recent of 5824 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
+The 30 most recent of 5826 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
 
 | Published                 | Identifier         | Title                                                                                                                                                                               | Source |
 | ------------------------- | ------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
+| 2026-11-04T06:46:50+00:00 | arxiv:2611.06043v1 | [Confucius4-R2T2: A Stable-Prefix Streaming ASR Model for Real Real-Time Transcription](papers/arxiv-2611-06043v1--95684f260391.md)                                                 | arxiv  |
+| 2026-11-03T23:32:33+00:00 | arxiv:2611.05744v1 | [Text-Only Domain Adaptation for Low-Resource Medical ASR: Shallow Fusion and Density Ratio Rescoring for Hausa](papers/arxiv-2611-05744v1--3b6516b3f16e.md)                        | arxiv  |
 | 2026-11-03T12:48:16+00:00 | arxiv:2611.04820v1 | [AI for eGovernance: Leveraging Language Technologies For Digital Inclusion](papers/arxiv-2611-04820v1--ded029cdb059.md)                                                            | arxiv  |
 | 2026-11-02T18:42:32+00:00 | arxiv:2611.03605v1 | [ufakzeka-kulak: Building and Evaluating a 31.6M-Parameter Turkish Speech Recognizer from Scratch](papers/arxiv-2611-03605v1--b773e870cfe6.md)                                      | arxiv  |
 | 2026-11-02T12:46:44+00:00 | arxiv:2611.03050v1 | [Zero-Shot Voice Cloning for Synthetic Data Augmentation in Children's ASR](papers/arxiv-2611-03050v1--ba870faf3988.md)                                                             | arxiv  |
@@ -38,8 +40,6 @@ The 30 most recent of 5824 papers. Every paper is listed in [papers.csv](papers.
 | 2026-10-19T12:14:12+00:00 | arxiv:2610.26258v1 | [AudioScorer: Learning Question-Aware Token Relevance for Large Audio Language Models](papers/arxiv-2610-26258v1--23e0775264a4.md)                                                  | arxiv  |
 | 2026-10-19T09:59:37+00:00 | arxiv:2610.26100v1 | [Multilingual Voicemail and Answering Machine Detection via Pretrained Audio Embeddings and Gradient Boosting Machines](papers/arxiv-2610-26100v1--f40ae52ab8c5.md)                 | arxiv  |
 | 2026-10-19T09:44:36+00:00 | arxiv:2610.27002v1 | [Evaluating Tibetan Speech Recognition Across Dialects and Adaptation Regimes: A Multi-Granularity Analysis](papers/arxiv-2610-27002v1--01cf9d40ac3b.md)                            | arxiv  |
-| 2026-10-19T05:37:31+00:00 | arxiv:2610.25824v2 | [MS-Bench: A Condition-Stratified Multi-Speaker ASR Benchmark](papers/arxiv-2610-25824v2--1f8ac9629184.md)                                                                          | arxiv  |
-| 2026-10-19T05:09:28+00:00 | arxiv:2610.26986v1 | [Think Before You Transcribe: Context-Steered Reasoning for Hotword-Aware Speech Recognition](papers/arxiv-2610-26986v1--191daf6bf3f2.md)                                           | arxiv  |
 
 <!-- papers-index:end -->
 
