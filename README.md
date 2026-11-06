@@ -6,10 +6,14 @@ Standalone paper discovery and conversion for A curated, automatically-updated c
 
 # Papers
 
-The 30 most recent of 5826 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
+The 30 most recent of 5830 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
 
 | Published                 | Identifier         | Title                                                                                                                                                                               | Source |
 | ------------------------- | ------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
+| 2026-11-05T17:18:13+00:00 | arxiv:2611.08321v1 | [ControlAnything: Generative UI and On-Demand Device Integration for Mixed-Reality Hand Interaction by a Coding Agent](papers/arxiv-2611-08321v1--e50d35bd7f40.md)                  | arxiv  |
+| 2026-11-05T14:36:34+00:00 | arxiv:2611.08092v1 | [Gabor Gabor: E-Gaborformer, a Strictly Causal Speech Recognizer with Gabor-Dictionary Convolutions and Delta-Rule Memory](papers/arxiv-2611-08092v1--7e12cca40c80.md)              | arxiv  |
+| 2026-11-05T10:00:50+00:00 | arxiv:2611.07755v1 | [Automated Video-to-QA Pipeline: End-to-End Question Generation and Verification Using Large Language Models](papers/arxiv-2611-07755v1--2ed4f802b305.md)                           | arxiv  |
+| 2026-11-05T07:39:12+00:00 | arxiv:2611.07587v1 | [Fine-Tuning a Transducer for Impaired Speech: Where the Gains Appear and What They Mean for Evaluation](papers/arxiv-2611-07587v1--89fdb10474e4.md)                                | arxiv  |
 | 2026-11-04T06:46:50+00:00 | arxiv:2611.06043v1 | [Confucius4-R2T2: A Stable-Prefix Streaming ASR Model for Real Real-Time Transcription](papers/arxiv-2611-06043v1--95684f260391.md)                                                 | arxiv  |
 | 2026-11-03T23:32:33+00:00 | arxiv:2611.05744v1 | [Text-Only Domain Adaptation for Low-Resource Medical ASR: Shallow Fusion and Density Ratio Rescoring for Hausa](papers/arxiv-2611-05744v1--3b6516b3f16e.md)                        | arxiv  |
 | 2026-11-03T12:48:16+00:00 | arxiv:2611.04820v1 | [AI for eGovernance: Leveraging Language Technologies For Digital Inclusion](papers/arxiv-2611-04820v1--ded029cdb059.md)                                                            | arxiv  |
@@ -36,10 +40,6 @@ The 30 most recent of 5826 papers. Every paper is listed in [papers.csv](papers.
 | 2026-10-22T03:24:38+00:00 | arxiv:2610.30663v1 | [Group Relative Policy Optimisation Improves Multilingual Speech Recognition in Low-Resource Languages](papers/arxiv-2610-30663v1--3391c2e75d80.md)                                 | arxiv  |
 | 2026-10-21T13:29:46+00:00 | arxiv:2610.29720v1 | [Bio-Inspired Auditory Processing: Coupling Parallel Resonate-and-Fire Dynamics with Ternary Recurrent Networks for Speech Recognition](papers/arxiv-2610-29720v1--95e0051917b0.md) | arxiv  |
 | 2026-10-21T09:11:30+00:00 | arxiv:2610.29455v1 | [Omnilingual-MsASR: Benchmarking Multimodal, Multilingual, Long-Form Multi-Speaker ASR of Omni Large Language Models](papers/arxiv-2610-29455v1--128748b73821.md)                   | arxiv  |
-| 2026-10-19T13:56:33+00:00 | arxiv:2610.26431v1 | [Long-form Video-to-Text Summarization using Recursive Language Models](papers/arxiv-2610-26431v1--a88a8784c3e9.md)                                                                 | arxiv  |
-| 2026-10-19T12:14:12+00:00 | arxiv:2610.26258v1 | [AudioScorer: Learning Question-Aware Token Relevance for Large Audio Language Models](papers/arxiv-2610-26258v1--23e0775264a4.md)                                                  | arxiv  |
-| 2026-10-19T09:59:37+00:00 | arxiv:2610.26100v1 | [Multilingual Voicemail and Answering Machine Detection via Pretrained Audio Embeddings and Gradient Boosting Machines](papers/arxiv-2610-26100v1--f40ae52ab8c5.md)                 | arxiv  |
-| 2026-10-19T09:44:36+00:00 | arxiv:2610.27002v1 | [Evaluating Tibetan Speech Recognition Across Dialects and Adaptation Regimes: A Multi-Granularity Analysis](papers/arxiv-2610-27002v1--01cf9d40ac3b.md)                            | arxiv  |
 
 <!-- papers-index:end -->
 
