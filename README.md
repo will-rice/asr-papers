@@ -6,10 +6,14 @@ Standalone paper discovery and conversion for A curated, automatically-updated c
 
 # Papers
 
-The 30 most recent of 5834 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
+The 30 most recent of 5838 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
 
 | Published                 | Identifier         | Title                                                                                                                                                                              | Source |
 | ------------------------- | ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
+| 2026-11-10T16:42:30+00:00 | arxiv:2611.14312v1 | [PSL-RGHA: Parallel Split Learning with Reference Gradient Half-Space Alignment for Mitigating Gradient Divergence](papers/arxiv-2611-14312v1--fc5cd341898c.md)                    | arxiv  |
+| 2026-11-10T09:43:36+00:00 | arxiv:2611.13814v1 | [Swanada: Split-Encoder Capability-Routed Conformer CTC and Sub-30 MB On-Device Speech Recognition Across Twelve Scripts](papers/arxiv-2611-13814v1--33e929f9fcf9.md)              | arxiv  |
+| 2026-11-10T09:41:21+00:00 | arxiv:2611.13811v1 | [Antalia-2 Mini: A 7.6-million-parameter Turkish text-to-speech model trained entirely on synthetic speech](papers/arxiv-2611-13811v1--eaba2409091b.md)                            | arxiv  |
+| 2026-11-10T07:37:38+00:00 | arxiv:2611.13689v1 | [Walrus Technical Report](papers/arxiv-2611-13689v1--9f5d50cc2dce.md)                                                                                                              | arxiv  |
 | 2026-11-10T03:39:19+00:00 | arxiv:2611.13512v1 | [Nepali-English Code-Mixed Speech Recognition: Data Preparation and Adaptation of a Speech Foundation Model](papers/arxiv-2611-13512v1--a1f20fd28742.md)                           | arxiv  |
 | 2026-11-09T12:15:49+00:00 | arxiv:2611.12291v1 | [Representational Alignment between Deep Neural Networks and Human Brain in Speech Processing under Audiovisual Noise](papers/arxiv-2611-12291v1--bef1cb661e8a.md)                 | arxiv  |
 | 2026-11-08T06:41:47+00:00 | arxiv:2611.11179v1 | [Guidance at Pure Noise Erodes Speaker Similarity in Few-Step Token-Conditioned Flow-Matching TTS](papers/arxiv-2611-11179v1--00df3b61c7bc.md)                                     | arxiv  |
@@ -36,10 +40,6 @@ The 30 most recent of 5834 papers. Every paper is listed in [papers.csv](papers.
 | 2026-10-26T01:24:54+00:00 | arxiv:2610.34688v1 | [From Speech Tokens to Stolen Voices: Attacker-Chosen-Text Speaker Impersonation via Representation Inversion](papers/arxiv-2610-34688v1--2931e0b57e4d.md)                         | arxiv  |
 | 2026-10-25T22:43:34+00:00 | arxiv:2610.34623v1 | [One Mean Log-Mel Vector per Phoneme: Simple and Fast Text Injection for Speech Recognition](papers/arxiv-2610-34623v1--63e5a085f37b.md)                                           | arxiv  |
 | 2026-10-24T16:17:15+00:00 | arxiv:2610.33765v1 | [RoleHear: Pseudo-Labeling for Semi-Supervised Role-Attributed Streaming Speech Recognition](papers/arxiv-2610-33765v1--12213832fd17.md)                                           | arxiv  |
-| 2026-10-23T05:32:28+00:00 | arxiv:2610.32187v1 | [Uni-Stream: A Unified Streaming Speech Language Model for Speech Synthesis and Recognition](papers/arxiv-2610-32187v1--8068ef4bec67.md)                                           | arxiv  |
-| 2026-10-22T15:17:10+00:00 | arxiv:2610.31415v1 | [SyRA-CS: Synthetic-to-Real Adaptation for Code-Switched ASR with Meta-Learning](papers/arxiv-2610-31415v1--5641679ad300.md)                                                       | arxiv  |
-| 2026-10-22T13:55:15+00:00 | arxiv:2610.31292v1 | [Spark-Audio 1.0 Technical Report](papers/arxiv-2610-31292v1--536a42a624b2.md)                                                                                                     | arxiv  |
-| 2026-10-22T13:35:50+00:00 | arxiv:2610.31259v1 | [A Systematic Comparison of Search Space Complexity and Efficiency for Time-Synchronous End-to-End ASR Models](papers/arxiv-2610-31259v1--cfefa686a251.md)                         | arxiv  |
 
 <!-- papers-index:end -->
 
