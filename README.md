@@ -6,10 +6,12 @@ Standalone paper discovery and conversion for A curated, automatically-updated c
 
 # Papers
 
-The 30 most recent of 5838 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
+The 30 most recent of 5840 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
 
 | Published                 | Identifier         | Title                                                                                                                                                                              | Source |
 | ------------------------- | ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
+| 2026-11-11T02:33:00+00:00 | arxiv:2611.14929v1 | [Speech Tokenizers are Vulnerable: Transferable Semantic Attack and Robust Tokenizer](papers/arxiv-2611-14929v1--c5c61ebc7bdc.md)                                                  | arxiv  |
+| 2026-11-11T02:01:29+00:00 | arxiv:2611.14908v1 | [Hy ASR 3.0 Technical Report](papers/arxiv-2611-14908v1--edb4fede5d98.md)                                                                                                          | arxiv  |
 | 2026-11-10T16:42:30+00:00 | arxiv:2611.14312v1 | [PSL-RGHA: Parallel Split Learning with Reference Gradient Half-Space Alignment for Mitigating Gradient Divergence](papers/arxiv-2611-14312v1--fc5cd341898c.md)                    | arxiv  |
 | 2026-11-10T09:43:36+00:00 | arxiv:2611.13814v1 | [Swanada: Split-Encoder Capability-Routed Conformer CTC and Sub-30 MB On-Device Speech Recognition Across Twelve Scripts](papers/arxiv-2611-13814v1--33e929f9fcf9.md)              | arxiv  |
 | 2026-11-10T09:41:21+00:00 | arxiv:2611.13811v1 | [Antalia-2 Mini: A 7.6-million-parameter Turkish text-to-speech model trained entirely on synthetic speech](papers/arxiv-2611-13811v1--eaba2409091b.md)                            | arxiv  |
@@ -38,8 +40,6 @@ The 30 most recent of 5838 papers. Every paper is listed in [papers.csv](papers.
 | 2026-10-27T02:53:16+00:00 | arxiv:2610.36540v1 | [Frugal Handwritten Text Recognition for Sub-Saharan Civil-Status Registers: A Smartphone-to-Records Pipeline with CPU-Only Inference](papers/arxiv-2610-36540v1--8a9da7661dcf.md) | arxiv  |
 | 2026-10-26T17:56:22+00:00 | arxiv:2610.35846v1 | [Preserve to Expand: Source-Aware Adaptation and Model Merging for Multilingual LLM-Based ASR](papers/arxiv-2610-35846v1--a4deb40a2b0d.md)                                         | arxiv  |
 | 2026-10-26T01:24:54+00:00 | arxiv:2610.34688v1 | [From Speech Tokens to Stolen Voices: Attacker-Chosen-Text Speaker Impersonation via Representation Inversion](papers/arxiv-2610-34688v1--2931e0b57e4d.md)                         | arxiv  |
-| 2026-10-25T22:43:34+00:00 | arxiv:2610.34623v1 | [One Mean Log-Mel Vector per Phoneme: Simple and Fast Text Injection for Speech Recognition](papers/arxiv-2610-34623v1--63e5a085f37b.md)                                           | arxiv  |
-| 2026-10-24T16:17:15+00:00 | arxiv:2610.33765v1 | [RoleHear: Pseudo-Labeling for Semi-Supervised Role-Attributed Streaming Speech Recognition](papers/arxiv-2610-33765v1--12213832fd17.md)                                           | arxiv  |
 
 <!-- papers-index:end -->
 
