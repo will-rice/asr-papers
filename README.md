@@ -2,6 +2,9 @@
 
 Standalone paper discovery and conversion for A curated, automatically-updated collection of ASR papers with an LLM-friendly markdown corpus..
 
+Browse the collection on alphaXiv:
+https://www.alphaxiv.org/shared/folder/019f5652-8aa6-7bce-8137-138c4bf4d89e
+
 <!-- papers-index:start -->
 
 # Papers
