@@ -9,10 +9,13 @@ https://www.alphaxiv.org/shared/folder/019f5652-8aa6-7bce-8137-138c4bf4d89e
 
 # Papers
 
-The 30 most recent of 5849 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
+The 30 most recent of 5852 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
 
 | Published                 | Identifier         | Title                                                                                                                                                                                                       | Source |
 | ------------------------- | ------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
+| 2026-11-16T16:03:52+00:00 | arxiv:2611.21303v1 | [Syllable- and Word-Level Evaluation of Tibetan OCR](papers/arxiv-2611-21303v1--dd424703b6d4.md)                                                                                                            | arxiv  |
+| 2026-11-16T02:58:20+00:00 | arxiv:2611.20436v1 | [Learning from Distribution: Rethinking One-Hot Supervision for ASR and QA in Speech Language Models](papers/arxiv-2611-20436v1--f49a4bb21e4a.md)                                                           | arxiv  |
+| 2026-11-15T16:14:14+00:00 | arxiv:2611.20095v1 | [High-Throughput Serving of Nemotron 3.5 Transcribe with Regime-Aware Megakernels and Kernel Fusion](papers/arxiv-2611-20095v1--1b2c6fc3a651.md)                                                            | arxiv  |
 | 2026-11-14T03:56:26+00:00 | arxiv:2611.19136v1 | [Low-Latency LLM-Based Streaming Multi-Talker ASR with Verifiable Rewards](papers/arxiv-2611-19136v1--9625ecbbe4c9.md)                                                                                      | arxiv  |
 | 2026-11-14T03:02:24+00:00 | arxiv:2611.19118v1 | [Latency, Speech Recognition and Turn-Taking in Voice Agents for Spanish Phone Negotiation: An Externally Measured Comparison of Pipecat, LiveKit and GPT-Live](papers/arxiv-2611-19118v1--eab4b10ffca0.md) | arxiv  |
 | 2026-11-13T20:26:03+00:00 | arxiv:2611.18924v1 | [Dependable Voice Command for Multi-UAV Swarms Using Small Language Models](papers/arxiv-2611-18924v1--5b2b10d2320b.md)                                                                                     | arxiv  |
@@ -40,9 +43,6 @@ The 30 most recent of 5849 papers. Every paper is listed in [papers.csv](papers.
 | 2026-11-03T23:32:33+00:00 | arxiv:2611.05744v1 | [Text-Only Domain Adaptation for Low-Resource Medical ASR: Shallow Fusion and Density Ratio Rescoring for Hausa](papers/arxiv-2611-05744v1--3b6516b3f16e.md)                                                | arxiv  |
 | 2026-11-03T12:48:16+00:00 | arxiv:2611.04820v1 | [AI for eGovernance: Leveraging Language Technologies For Digital Inclusion](papers/arxiv-2611-04820v1--ded029cdb059.md)                                                                                    | arxiv  |
 | 2026-11-02T18:42:32+00:00 | arxiv:2611.03605v1 | [ufakzeka-kulak: Building and Evaluating a 31.6M-Parameter Turkish Speech Recognizer from Scratch](papers/arxiv-2611-03605v1--b773e870cfe6.md)                                                              | arxiv  |
-| 2026-11-02T12:46:44+00:00 | arxiv:2611.03050v1 | [Zero-Shot Voice Cloning for Synthetic Data Augmentation in Children's ASR](papers/arxiv-2611-03050v1--ba870faf3988.md)                                                                                     | arxiv  |
-| 2026-11-02T10:36:22+00:00 | arxiv:2611.02903v1 | [Maswao: An automatically collected, prepared, and benchmarked dataset for the South African Sign language](papers/arxiv-2611-02903v1--28bb445954f3.md)                                                     | arxiv  |
-| 2026-11-02T03:47:10+00:00 | arxiv:2611.02476v1 | [GigaSpeech 3: Scaling Multi-Dialect Arabic Speech Recognition with Weakly Labeled Data](papers/arxiv-2611-02476v1--b0b02264c314.md)                                                                        | arxiv  |
 
 <!-- papers-index:end -->
 
