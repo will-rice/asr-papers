@@ -9,10 +9,11 @@ https://www.alphaxiv.org/shared/folder/019f5652-8aa6-7bce-8137-138c4bf4d89e
 
 # Papers
 
-The 30 most recent of 5852 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
+The 30 most recent of 5853 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
 
 | Published                 | Identifier         | Title                                                                                                                                                                                                       | Source |
 | ------------------------- | ------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
+| 2026-11-17T23:01:37+00:00 | arxiv:2611.23609v1 | [Label-Free Role-Aware Segmentation of Classroom Recordings: Recovering the Teacher from Transferable Structure](papers/arxiv-2611-23609v1--ccd0b7166c41.md)                                                | arxiv  |
 | 2026-11-16T16:03:52+00:00 | arxiv:2611.21303v1 | [Syllable- and Word-Level Evaluation of Tibetan OCR](papers/arxiv-2611-21303v1--dd424703b6d4.md)                                                                                                            | arxiv  |
 | 2026-11-16T02:58:20+00:00 | arxiv:2611.20436v1 | [Learning from Distribution: Rethinking One-Hot Supervision for ASR and QA in Speech Language Models](papers/arxiv-2611-20436v1--f49a4bb21e4a.md)                                                           | arxiv  |
 | 2026-11-15T16:14:14+00:00 | arxiv:2611.20095v1 | [High-Throughput Serving of Nemotron 3.5 Transcribe with Regime-Aware Megakernels and Kernel Fusion](papers/arxiv-2611-20095v1--1b2c6fc3a651.md)                                                            | arxiv  |
@@ -42,7 +43,6 @@ The 30 most recent of 5852 papers. Every paper is listed in [papers.csv](papers.
 | 2026-11-04T06:46:50+00:00 | arxiv:2611.06043v1 | [Confucius4-R2T2: A Stable-Prefix Streaming ASR Model for Real Real-Time Transcription](papers/arxiv-2611-06043v1--95684f260391.md)                                                                         | arxiv  |
 | 2026-11-03T23:32:33+00:00 | arxiv:2611.05744v1 | [Text-Only Domain Adaptation for Low-Resource Medical ASR: Shallow Fusion and Density Ratio Rescoring for Hausa](papers/arxiv-2611-05744v1--3b6516b3f16e.md)                                                | arxiv  |
 | 2026-11-03T12:48:16+00:00 | arxiv:2611.04820v1 | [AI for eGovernance: Leveraging Language Technologies For Digital Inclusion](papers/arxiv-2611-04820v1--ded029cdb059.md)                                                                                    | arxiv  |
-| 2026-11-02T18:42:32+00:00 | arxiv:2611.03605v1 | [ufakzeka-kulak: Building and Evaluating a 31.6M-Parameter Turkish Speech Recognizer from Scratch](papers/arxiv-2611-03605v1--b773e870cfe6.md)                                                              | arxiv  |
 
 <!-- papers-index:end -->
 
