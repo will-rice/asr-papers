@@ -9,10 +9,13 @@ https://www.alphaxiv.org/shared/folder/019f5652-8aa6-7bce-8137-138c4bf4d89e
 
 # Papers
 
-The 30 most recent of 5854 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
+The 30 most recent of 5857 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
 
 | Published                 | Identifier         | Title                                                                                                                                                                                                       | Source |
 | ------------------------- | ------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
+| 2026-11-19T20:38:34+00:00 | arxiv:2611.26796v1 | [Efficient Conversational Multi-Talker ASR with Predicted Speaker-Agnostic Activity Streams](papers/arxiv-2611-26796v1--6bebc72ad988.md)                                                                    | arxiv  |
+| 2026-11-19T20:10:13+00:00 | arxiv:2611.26776v1 | [What Helps Language-Model Agents Review Violent Video? A Controlled Comparison with a Human Evidence Reference](papers/arxiv-2611-26776v1--51edbda1fc74.md)                                                | arxiv  |
+| 2026-11-19T19:54:35+00:00 | arxiv:2611.26759v1 | [Windchime: an Audiovisual Installation with Audio-Language Model implementations](papers/arxiv-2611-26759v1--46ff01c8fd60.md)                                                                              | arxiv  |
 | 2026-11-18T16:40:52+00:00 | arxiv:2611.24721v1 | [Induction Head Origins of SLAM-ASR Speech Recognition Models](papers/arxiv-2611-24721v1--45af2590df66.md)                                                                                                  | arxiv  |
 | 2026-11-17T23:01:37+00:00 | arxiv:2611.23609v1 | [Label-Free Role-Aware Segmentation of Classroom Recordings: Recovering the Teacher from Transferable Structure](papers/arxiv-2611-23609v1--ccd0b7166c41.md)                                                | arxiv  |
 | 2026-11-16T16:03:52+00:00 | arxiv:2611.21303v1 | [Syllable- and Word-Level Evaluation of Tibetan OCR](papers/arxiv-2611-21303v1--dd424703b6d4.md)                                                                                                            | arxiv  |
@@ -40,9 +43,6 @@ The 30 most recent of 5854 papers. Every paper is listed in [papers.csv](papers.
 | 2026-11-05T17:18:13+00:00 | arxiv:2611.08321v1 | [ControlAnything: Generative UI and On-Demand Device Integration for Mixed-Reality Hand Interaction by a Coding Agent](papers/arxiv-2611-08321v1--e50d35bd7f40.md)                                          | arxiv  |
 | 2026-11-05T14:36:34+00:00 | arxiv:2611.08092v1 | [Gabor Gabor: E-Gaborformer, a Strictly Causal Speech Recognizer with Gabor-Dictionary Convolutions and Delta-Rule Memory](papers/arxiv-2611-08092v1--7e12cca40c80.md)                                      | arxiv  |
 | 2026-11-05T10:00:50+00:00 | arxiv:2611.07755v1 | [Automated Video-to-QA Pipeline: End-to-End Question Generation and Verification Using Large Language Models](papers/arxiv-2611-07755v1--2ed4f802b305.md)                                                   | arxiv  |
-| 2026-11-05T07:39:12+00:00 | arxiv:2611.07587v1 | [Fine-Tuning a Transducer for Impaired Speech: Where the Gains Appear and What They Mean for Evaluation](papers/arxiv-2611-07587v1--89fdb10474e4.md)                                                        | arxiv  |
-| 2026-11-04T06:46:50+00:00 | arxiv:2611.06043v1 | [Confucius4-R2T2: A Stable-Prefix Streaming ASR Model for Real Real-Time Transcription](papers/arxiv-2611-06043v1--95684f260391.md)                                                                         | arxiv  |
-| 2026-11-03T23:32:33+00:00 | arxiv:2611.05744v1 | [Text-Only Domain Adaptation for Low-Resource Medical ASR: Shallow Fusion and Density Ratio Rescoring for Hausa](papers/arxiv-2611-05744v1--3b6516b3f16e.md)                                                | arxiv  |
 
 <!-- papers-index:end -->
 
