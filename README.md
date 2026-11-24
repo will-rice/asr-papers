@@ -9,10 +9,11 @@ https://www.alphaxiv.org/shared/folder/019f5652-8aa6-7bce-8137-138c4bf4d89e
 
 # Papers
 
-The 30 most recent of 5857 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
+The 30 most recent of 5858 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
 
 | Published                 | Identifier         | Title                                                                                                                                                                                                       | Source |
 | ------------------------- | ------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
+| 2026-11-20T19:31:14+00:00 | arxiv:2611.28248v1 | [Granary-v2: Scalable Multilingual Speech Data Curation for Predictable and Controllable Model Outputs](papers/arxiv-2611-28248v1--42fa73ee6a14.md)                                                         | arxiv  |
 | 2026-11-19T20:38:34+00:00 | arxiv:2611.26796v1 | [Efficient Conversational Multi-Talker ASR with Predicted Speaker-Agnostic Activity Streams](papers/arxiv-2611-26796v1--6bebc72ad988.md)                                                                    | arxiv  |
 | 2026-11-19T20:10:13+00:00 | arxiv:2611.26776v1 | [What Helps Language-Model Agents Review Violent Video? A Controlled Comparison with a Human Evidence Reference](papers/arxiv-2611-26776v1--51edbda1fc74.md)                                                | arxiv  |
 | 2026-11-19T19:54:35+00:00 | arxiv:2611.26759v1 | [Windchime: an Audiovisual Installation with Audio-Language Model implementations](papers/arxiv-2611-26759v1--46ff01c8fd60.md)                                                                              | arxiv  |
@@ -42,7 +43,6 @@ The 30 most recent of 5857 papers. Every paper is listed in [papers.csv](papers.
 | 2026-11-07T11:15:45+00:00 | arxiv:2611.10659v1 | [Pandemonium: Longform Target-Speaker Speech Recognition with Cross-Speaker Interactions](papers/arxiv-2611-10659v1--21923a8830f2.md)                                                                       | arxiv  |
 | 2026-11-05T17:18:13+00:00 | arxiv:2611.08321v1 | [ControlAnything: Generative UI and On-Demand Device Integration for Mixed-Reality Hand Interaction by a Coding Agent](papers/arxiv-2611-08321v1--e50d35bd7f40.md)                                          | arxiv  |
 | 2026-11-05T14:36:34+00:00 | arxiv:2611.08092v1 | [Gabor Gabor: E-Gaborformer, a Strictly Causal Speech Recognizer with Gabor-Dictionary Convolutions and Delta-Rule Memory](papers/arxiv-2611-08092v1--7e12cca40c80.md)                                      | arxiv  |
-| 2026-11-05T10:00:50+00:00 | arxiv:2611.07755v1 | [Automated Video-to-QA Pipeline: End-to-End Question Generation and Verification Using Large Language Models](papers/arxiv-2611-07755v1--2ed4f802b305.md)                                                   | arxiv  |
 
 <!-- papers-index:end -->
 
