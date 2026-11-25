@@ -9,10 +9,14 @@ https://www.alphaxiv.org/shared/folder/019f5652-8aa6-7bce-8137-138c4bf4d89e
 
 # Papers
 
-The 30 most recent of 5858 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
+The 30 most recent of 5862 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
 
 | Published                 | Identifier         | Title                                                                                                                                                                                                       | Source |
 | ------------------------- | ------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
+| 2026-11-23T17:18:16+00:00 | arxiv:2611.31055v1 | [CAST: A Deployed Speech-to-Text Cascade for Closed Captioning of Entertainment Television](papers/arxiv-2611-31055v1--a47768b1d240.md)                                                                     | arxiv  |
+| 2026-11-23T11:59:37+00:00 | arxiv:2611.30552v1 | [An Experimental Apparatus for Embodied Conversational AI: A Simple Implementation Coupling a Commercial Voice AI with an Avatar](papers/arxiv-2611-30552v1--a059843e5bd0.md)                               | arxiv  |
+| 2026-11-22T04:58:09+00:00 | arxiv:2611.29226v1 | [Tenlai-TTS 2.0: Continuous-Representation LLM-Based TTS System with End-to-End Training](https://arxiv.org/abs/2611.29226v1)                                                                               | arxiv  |
+| 2026-11-21T19:47:13+00:00 | arxiv:2611.29012v1 | [From Spatial Perception to Speech Recovery: Binaural Semantic Adaptation for Spatially Grounded Multi-Talker Transcription](papers/arxiv-2611-29012v1--082f043cb955.md)                                    | arxiv  |
 | 2026-11-20T19:31:14+00:00 | arxiv:2611.28248v1 | [Granary-v2: Scalable Multilingual Speech Data Curation for Predictable and Controllable Model Outputs](papers/arxiv-2611-28248v1--42fa73ee6a14.md)                                                         | arxiv  |
 | 2026-11-19T20:38:34+00:00 | arxiv:2611.26796v1 | [Efficient Conversational Multi-Talker ASR with Predicted Speaker-Agnostic Activity Streams](papers/arxiv-2611-26796v1--6bebc72ad988.md)                                                                    | arxiv  |
 | 2026-11-19T20:10:13+00:00 | arxiv:2611.26776v1 | [What Helps Language-Model Agents Review Violent Video? A Controlled Comparison with a Human Evidence Reference](papers/arxiv-2611-26776v1--51edbda1fc74.md)                                                | arxiv  |
@@ -39,10 +43,6 @@ The 30 most recent of 5858 papers. Every paper is listed in [papers.csv](papers.
 | 2026-11-10T07:37:38+00:00 | arxiv:2611.13689v1 | [Walrus Technical Report](papers/arxiv-2611-13689v1--9f5d50cc2dce.md)                                                                                                                                       | arxiv  |
 | 2026-11-10T03:39:19+00:00 | arxiv:2611.13512v1 | [Nepali-English Code-Mixed Speech Recognition: Data Preparation and Adaptation of a Speech Foundation Model](papers/arxiv-2611-13512v1--a1f20fd28742.md)                                                    | arxiv  |
 | 2026-11-09T12:15:49+00:00 | arxiv:2611.12291v1 | [Representational Alignment between Deep Neural Networks and Human Brain in Speech Processing under Audiovisual Noise](papers/arxiv-2611-12291v1--bef1cb661e8a.md)                                          | arxiv  |
-| 2026-11-08T06:41:47+00:00 | arxiv:2611.11179v1 | [Guidance at Pure Noise Erodes Speaker Similarity in Few-Step Token-Conditioned Flow-Matching TTS](papers/arxiv-2611-11179v1--00df3b61c7bc.md)                                                              | arxiv  |
-| 2026-11-07T11:15:45+00:00 | arxiv:2611.10659v1 | [Pandemonium: Longform Target-Speaker Speech Recognition with Cross-Speaker Interactions](papers/arxiv-2611-10659v1--21923a8830f2.md)                                                                       | arxiv  |
-| 2026-11-05T17:18:13+00:00 | arxiv:2611.08321v1 | [ControlAnything: Generative UI and On-Demand Device Integration for Mixed-Reality Hand Interaction by a Coding Agent](papers/arxiv-2611-08321v1--e50d35bd7f40.md)                                          | arxiv  |
-| 2026-11-05T14:36:34+00:00 | arxiv:2611.08092v1 | [Gabor Gabor: E-Gaborformer, a Strictly Causal Speech Recognizer with Gabor-Dictionary Convolutions and Delta-Rule Memory](papers/arxiv-2611-08092v1--7e12cca40c80.md)                                      | arxiv  |
 
 <!-- papers-index:end -->
 
