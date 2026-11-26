@@ -9,10 +9,12 @@ https://www.alphaxiv.org/shared/folder/019f5652-8aa6-7bce-8137-138c4bf4d89e
 
 # Papers
 
-The 30 most recent of 5862 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
+The 30 most recent of 5864 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
 
 | Published                 | Identifier         | Title                                                                                                                                                                                                       | Source |
 | ------------------------- | ------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
+| 2026-11-24T14:28:58+00:00 | arxiv:2611.32697v1 | [Cif-query bridging for audio-native asr transfer to visual speech recognition](papers/arxiv-2611-32697v1--059d376fbb6b.md)                                                                                 | arxiv  |
+| 2026-11-24T11:48:48+00:00 | arxiv:2611.32455v1 | [Phoneme-identity depth profiles do not reliably predict LoRA placement for dysarthric ASR](papers/arxiv-2611-32455v1--0c503b3405f7.md)                                                                     | arxiv  |
 | 2026-11-23T17:18:16+00:00 | arxiv:2611.31055v1 | [CAST: A Deployed Speech-to-Text Cascade for Closed Captioning of Entertainment Television](papers/arxiv-2611-31055v1--a47768b1d240.md)                                                                     | arxiv  |
 | 2026-11-23T11:59:37+00:00 | arxiv:2611.30552v1 | [An Experimental Apparatus for Embodied Conversational AI: A Simple Implementation Coupling a Commercial Voice AI with an Avatar](papers/arxiv-2611-30552v1--a059843e5bd0.md)                               | arxiv  |
 | 2026-11-22T04:58:09+00:00 | arxiv:2611.29226v1 | [Tenlai-TTS 2.0: Continuous-Representation LLM-Based TTS System with End-to-End Training](papers/arxiv-2611-29226v1--f0a9ada4dd2a.md)                                                                       | arxiv  |
@@ -41,8 +43,6 @@ The 30 most recent of 5862 papers. Every paper is listed in [papers.csv](papers.
 | 2026-11-10T09:43:36+00:00 | arxiv:2611.13814v1 | [Swanada: Split-Encoder Capability-Routed Conformer CTC and Sub-30 MB On-Device Speech Recognition Across Twelve Scripts](papers/arxiv-2611-13814v1--33e929f9fcf9.md)                                       | arxiv  |
 | 2026-11-10T09:41:21+00:00 | arxiv:2611.13811v1 | [Antalia-2 Mini: A 7.6-million-parameter Turkish text-to-speech model trained entirely on synthetic speech](papers/arxiv-2611-13811v1--eaba2409091b.md)                                                     | arxiv  |
 | 2026-11-10T07:37:38+00:00 | arxiv:2611.13689v1 | [Walrus Technical Report](papers/arxiv-2611-13689v1--9f5d50cc2dce.md)                                                                                                                                       | arxiv  |
-| 2026-11-10T03:39:19+00:00 | arxiv:2611.13512v1 | [Nepali-English Code-Mixed Speech Recognition: Data Preparation and Adaptation of a Speech Foundation Model](papers/arxiv-2611-13512v1--a1f20fd28742.md)                                                    | arxiv  |
-| 2026-11-09T12:15:49+00:00 | arxiv:2611.12291v1 | [Representational Alignment between Deep Neural Networks and Human Brain in Speech Processing under Audiovisual Noise](papers/arxiv-2611-12291v1--bef1cb661e8a.md)                                          | arxiv  |
 
 <!-- papers-index:end -->
 
